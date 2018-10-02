@@ -1,5 +1,8 @@
 Middle-earth™
 =============
+
+[![Join the chat at https://gitter.im/BSData/middle-earth](https://badges.gitter.im/BSData/middle-earth.svg)](https://gitter.im/BSData/middle-earth?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 See https://www.games-workshop.com/Middle-earth
 
 #### Contents ####
