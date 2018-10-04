@@ -137,11 +137,19 @@ Friendly Númenor models increase their Courage value by 1.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="cc8c-c1b2-f478-0209" name="Lance" hidden="false" targetId="90bc-b07f-fd9f-7a71" type="selectionEntry">
+        <entryLink id="cc8c-c1b2-f478-0209" name="Lance" hidden="true" targetId="90bc-b07f-fd9f-7a71" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="978f-587a-14eb-8cc5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c3de-1c6d-0d66-8651" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
