@@ -1181,9 +1181,9 @@ When attempting to charge an enemy that causes Terror, Cirion receives a +2 bonu
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8883-abd7-7f33-d694" name="Denethor, Steward of Gondor" book="Armies of The Lord of the Rings" page="19" hidden="false" collective="false" type="model">
+    <selectionEntry id="8883-abd7-7f33-d694" name="Denethor, Steward of Gondor" book="Armies of The Lord of the Rings" page="35" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="f59a-8c92-7eb6-eff3" name="Denethor" book="Armies of The Lord of the Rings" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="f59a-8c92-7eb6-eff3" name="Denethor" book="Armies of The Lord of the Rings" page="35" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1204,13 +1204,23 @@ When attempting to charge an enemy that causes Terror, Cirion receives a +2 bonu
         </profile>
       </profiles>
       <rules>
-        <rule id="6ead-b615-4a88-9ed1" name="Broken Mind" book="Armies of The Lord of the Rings" page="19" hidden="false">
+        <rule id="6ead-b615-4a88-9ed1" name="Broken Mind (Passive)" book="Armies of The Lord of the Rings" page="35" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>
-At the start of every turn, before players roll for priority, the Good player must take a Courage test for Denethor. If the test is passed, all is fine. If the test is failed, Denethor is controlled by the Evil player this turn. The only difference between Denethor and other Evil models is the Good models cannot target Denethor with missile fire, magical powers that cause damage and cannot strike blows against him if they defeat him in a fight.</description>
+At the start of every turn, before players roll for priority, the controlling player must take a Courage test for Denethor. If the test is passed, all is fine. If the test is failed, Denethor is controlled by the opposing player this turn. Whilst under control of the opposing player, friendly models cannot target Denethor with missile fire, magical powers that cause damage and may not makes Strikes if they beat him in a fight.
+
+If Boromir is part of the same army, Denathor will automatically pass these Courage tests so long as Boromir is alive. If Boromir is slain, Denathor will automatically fail the next test for this special rule.</description>
+        </rule>
+        <rule id="d3ec-e3be-eb07-9b75" name="The rule of Gondor is mine, and no other&apos;s! (Passive)" book="Armies of The Lord of the Rings" page="35" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Denathor must be your leader, unless your force also contains Aragorn, King Elessar.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1221,6 +1231,13 @@ At the start of every turn, before players roll for priority, the Good player mu
       </constraints>
       <categoryLinks>
         <categoryLink id="8883-abd7-7f33-d694-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4821-3bc9-7b5f-995c" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1243,13 +1260,39 @@ At the start of every turn, before players roll for priority, the Good player mu
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="c525-4a7d-cd88-a92d" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="3a4f-6b7e-67cd-00f8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c525-4a7d-cd88-a92d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="42d9-115e-e87a-20e6" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ce-5fcc-4589-6944" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="30.0"/>
+        <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="795a-019b-ef32-c3c9" name="Faramir, Captain of Gondor" book="Armies of The Lord of the Rings" page="17" hidden="false" collective="false" type="model">
