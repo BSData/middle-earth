@@ -10180,7 +10180,7 @@ If ability is numbered, roll D6, if roll is &lt;= number then model can use Hero
       <description>
 Inflicts 2 Wounds for each successful Strike that Wounds in Fight.</description>
     </rule>
-    <rule id="96bf-4eca-dc99-ffd7" name="Mighty Hero (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="105" hidden="false">
+    <rule id="96bf-4eca-dc99-ffd7" name="Mighty Hero* (Passive)" book="Middle-earth Strategy Battle Game Rules Manual" page="105" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
