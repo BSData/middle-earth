@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9a55-4559-8cb7-9caa" name="Númenor" book="Armies of The Lord of the Rings" page="28" revision="1" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9a55-4559-8cb7-9caa" name="Númenor" book="Armies of The Lord of the Rings" page="28" revision="2" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a173-c879-f441-8e51" name="One by one the Free Lands of Middle-earth fell to the Power of the Ring. But there were some who resisted" book="Armies of The Lord of the Rings" page="28" hidden="false">
@@ -27,7 +27,7 @@ Friendly Númenor models increase their Courage value by 1.</description>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="978f-587a-14eb-8cc5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f094-98fd-b8f1-07c6" type="equalTo"/>
+                <condition field="selections" scope="978f-587a-14eb-8cc5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180c-3e0a-035e-f870" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -119,47 +119,7 @@ Friendly Númenor models increase their Courage value by 1.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="a289-5a18-b3fe-1bdd" name="Armour Choice" hidden="false" collective="false" defaultSelectionEntryId="0e20-1ae9-6e92-e39c">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c191-ee12-e62f-5c75" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5daf-6206-f8af-fb5e" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="f094-98fd-b8f1-07c6" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="5">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="0e20-1ae9-6e92-e39c" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f4e-518c-014b-a958" type="min"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="7a09-50e2-1c58-ff89" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
@@ -207,6 +167,14 @@ Friendly Númenor models increase their Courage value by 1.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="071e-1fd3-4eb1-67a8" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="451f-804c-5c55-c29f" name="Armour Choice" hidden="false" targetId="b5d9-60c1-423e-d43b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
