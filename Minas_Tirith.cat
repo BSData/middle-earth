@@ -1358,9 +1358,9 @@ Denathor must be your leader, unless your force also contains Aragorn, King Eles
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="795a-019b-ef32-c3c9" name="Faramir, Captain of Gondor" book="Armies of The Lord of the Rings" page="17" hidden="false" collective="false" type="model">
+    <selectionEntry id="795a-019b-ef32-c3c9" name="Faramir, Captain of Gondor" book="Armies of The Lord of the Rings" page="37" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="cef9-4c8a-173b-eb61" name="Faramir, Captain of Gondor" book="Armies of The Lord of the Rings" page="17" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="cef9-4c8a-173b-eb61" name="Faramir, Captain of Gondor" book="Armies of The Lord of the Rings" page="37" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1400,16 +1400,75 @@ Denathor must be your leader, unless your force also contains Aragorn, King Eles
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="914d-5728-37d2-5835" name="Is there a Captain here who still has the Courage to do his Lord&apos;s Will? (Passive)" book="Armies of The Lord of the Rings" page="37" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If Denethor is part of the army, Faramir will automatically pass all Courage tests whilst Denathor is alive and on the battlefield.
+Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if able.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2831-fcba-ce89-bac8" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ac7f-5527-62ae-6ef0" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b8b7-e7a7-ec64-145a" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1de4-e6e7-b3ad-7505" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a38b-8292-45e2-8d2c" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7b46-3f86-0312-7860" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="763a-6c72-ff28-5da8" name="Heroic Accuracy" hidden="false" targetId="7597-d6d9-0053-2e3c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc9c-6705-5b3a-1932" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
@@ -1417,6 +1476,13 @@ Denathor must be your leader, unless your force also contains Aragorn, King Eles
       </constraints>
       <categoryLinks>
         <categoryLink id="795a-019b-ef32-c3c9-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f5be-e012-45cf-9fc1" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1473,14 +1539,6 @@ Denathor must be your leader, unless your force also contains Aragorn, King Eles
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="72e5-e253-1b9d-ba23" name="Wood Elf Spear" hidden="false" targetId="b280-7e1b-2864-e129" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="a487-ac59-1538-0ff3" name="Mount (Horse)" hidden="false" targetId="9306-ebd3-ef63-5663" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -1497,9 +1555,25 @@ Denathor must be your leader, unless your force also contains Aragorn, King Eles
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9a08-eb11-bea3-adce" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f06f-04a9-ae3b-c1b8" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="70.0"/>
+        <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="Gandalf the White" name="Gandalf the White" book="Armies of The Lord of the Rings" page="34" hidden="false" collective="false" type="model">
@@ -1676,7 +1750,7 @@ Denathor must be your leader, unless your force also contains Aragorn, King Eles
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b8d0-7cd0-6b4e-244a" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+        <infoLink id="b8d0-7cd0-6b4e-244a" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
