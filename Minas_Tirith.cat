@@ -8,9 +8,9 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="3a4f-6b7e-67cd-00f8" name="Aragorn, King Elessar" book="Armies of The Lord of the Rings" page="17" hidden="false" collective="false" type="model">
+    <selectionEntry id="3a4f-6b7e-67cd-00f8" name="Aragorn, King Elessar" book="Armies of The Lord of the Rings" page="33" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="cfa5-7240-52f6-35a5" name="Aragorn, King Elessar" book="Armies of The Lord of the Rings" page="17" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="cfa5-7240-52f6-35a5" name="Aragorn, King Elessar" book="Armies of The Lord of the Rings" page="33" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -31,16 +31,45 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="2393-72dc-a060-980c" name="*Mighty Hero" book="Armies of The Lord of the Rings" page="17" hidden="false">
+        <rule id="9bcd-e2fc-1e17-6413" name="Stand Men of the West! (Passive)" book="Armies of The Lord of the Rings" page="33" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Aragorn can expend 1 point of Might per turn without reducing his Might store. Any additional points of Might expended during his turn reduce his Might store as normal.</description>
+          <description>
+Friendly models within 6&quot; of Aragorn, King Elessar count as being in range of a banner.</description>
         </rule>
       </rules>
-      <infoLinks/>
-      <modifiers/>
+      <infoLinks>
+        <infoLink id="861c-234c-1891-b11d" name="Mighty Hero (Passive)" hidden="false" targetId="96bf-4eca-dc99-ffd7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="*">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daab-bb28-4311-fe81" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daab-bb28-4311-fe81" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -53,41 +82,15 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="23b8-3129-848f-056f" name="Andúril, Flame of the West" book="Armies of The Lord of the Rings" page="17" hidden="false" collective="false" type="upgrade">
+        <categoryLink id="097f-6852-5ff5-43d3" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
           <profiles/>
-          <rules>
-            <rule id="8e60-5bd5-825f-eddc" name="Andúril, Flame of the West" book="Armies of The Lord of the Rings" page="17" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>When fighting with Andúril, Aragorn never needs to roll more than 4+ to score a Wound, regardless of the opponents Defence (this rule has no effect against targets that have Batter Points instead of Wounds). His rolls To Wound can be modified by using Might as normal.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="0694-629e-f1f4-70e3" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="df4a-f076-c9ff-7d4e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4d8f-3db2-2098-5dc1" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="5e4d-6a5a-b6f7-4837" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
@@ -114,9 +117,25 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e80f-b5ba-aeef-fa97" name="Andrúil, the Flame of the West" hidden="false" targetId="a893-8e30-0689-e673" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc91-dfe0-e66f-68e9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="260.0"/>
+        <cost name="pts" costTypeId="points" value="225.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06a2-dfd4-1c52-a4b2" name="Avenger Bolt Thrower" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="model">
@@ -1191,7 +1210,35 @@ At the start of every turn, before players roll for priority, the Good player mu
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="795a-019b-ef32-c3c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee91-061b-3084-f87f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="795a-019b-ef32-c3c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180c-3e0a-035e-f870" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="795a-019b-ef32-c3c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee91-061b-3084-f87f" type="equalTo"/>
+                    <condition field="selections" scope="795a-019b-ef32-c3c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0cc4-9717-9037-3b45" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/3+"/>
@@ -1223,96 +1270,8 @@ At the start of every turn, before players roll for priority, the Good player mu
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="fa85-a1f2-9ff1-06e9" name="Armour" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b599-6f92-4347-3798" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="88e8-a669-8922-8a8f" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="0381-77cc-e8d7-89b7" name="Mount Choice" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f7e-1458-7cac-10ab" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="3e57-1ced-2fbc-b77c" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="7e2c-2894-8922-616a" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="2bdf-8f24-a914-4eea" name="Armour Choice" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f771-a296-8e81-3aaf" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b482-80f2-b4de-93c4" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="ff75-9a2a-d78b-e3c3" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="5">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="b988-2043-fd64-5148" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62a2-9ce1-f6c7-5c29" type="min"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <selectionEntries/>
+      <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="ee91-061b-3084-f87f" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
@@ -1333,8 +1292,8 @@ At the start of every turn, before players roll for priority, the Good player mu
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="795a-019b-ef32-c3c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e57-1ced-2fbc-b77c" type="equalTo"/>
-                    <condition field="selections" scope="795a-019b-ef32-c3c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e2c-2894-8922-616a" type="equalTo"/>
+                    <condition field="selections" scope="795a-019b-ef32-c3c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7fb5-643f-2cb8-d002" type="equalTo"/>
+                    <condition field="selections" scope="795a-019b-ef32-c3c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d68-fdaa-72a5-c631" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1353,6 +1312,30 @@ At the start of every turn, before players roll for priority, the Good player mu
           <categoryLinks/>
         </entryLink>
         <entryLink id="623d-88f1-8c95-848d" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="72e5-e253-1b9d-ba23" name="Wood Elf Spear" hidden="false" targetId="b280-7e1b-2864-e129" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a487-ac59-1538-0ff3" name="Mount (Horse)" hidden="false" targetId="9306-ebd3-ef63-5663" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ff96-a754-104d-2731" name="Armour Choice" hidden="false" targetId="b5d9-60c1-423e-d43b" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1506,14 +1489,14 @@ At the start of every turn, before players roll for priority, the Good player mu
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8db6-5d2f-df6b-954e" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8db6-5d2f-df6b-954e" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8db6-5d2f-df6b-954e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8db6-5d2f-df6b-954e" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -1714,7 +1697,22 @@ The father of horses can only be ridden by Gandalf.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="315b-8d24-faec-96be" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180c-3e0a-035e-f870" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="315b-8d24-faec-96be" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2729-cef3-7455-995c" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
@@ -1745,145 +1743,7 @@ The father of horses can only be ridden by Gandalf.</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7b7b-8b50-7b54-346f" name="Armour" book="Armies of The Lord of the Rings" page="20" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a82-eb94-7abb-0be0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d8a-e947-6b06-f47c" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7833-3720-9023-84b1" name="Armoured horse" book="Armies of The Lord of the Rings" page="20" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="dfd1-b30f-233c-b055" name="New InfoLink" hidden="false" targetId="9d3e-edce-5c71-931b" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="315b-8d24-faec-96be" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aaf1-248f-f18b-989e" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7577-4855-1310-483f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9547-78f3-9415-1b72" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="aaf1-248f-f18b-989e" name="Horse" book="Armies of The Lord of the Rings" page="20" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="d892-fcae-4ea9-6efe" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="315b-8d24-faec-96be" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7833-3720-9023-84b1" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a1ab-06e9-29b0-b23d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="47f0-76dc-3a67-cdee" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="08ca-a2aa-63e6-fd86" name="Lance" book="Armies of The Lord of the Rings" page="20" hidden="true" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="a8c6-766e-995b-b535" name="New InfoLink" hidden="false" targetId="514f-ef5e-91a6-fb55" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="315b-8d24-faec-96be" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7833-3720-9023-84b1" type="equalTo"/>
-                <condition field="selections" scope="315b-8d24-faec-96be" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aaf1-248f-f18b-989e" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="46a1-a75d-090d-2ebe" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd1f-4a49-f247-4070" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6a91-0578-2bce-0a3b" name="Heavy armour" book="Armies of The Lord of the Rings" page="20" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="cd7b-f5db-7f08-a766" name="New InfoLink" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b95-a47d-5f6c-3878" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="2729-cef3-7455-995c" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
@@ -1891,6 +1751,52 @@ The father of horses can only be ridden by Gandalf.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9acb-b85e-8e4b-83f5" name="Mount (Horse)" hidden="false" targetId="9306-ebd3-ef63-5663" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5274-2400-276a-f573" name="Armour Choice" hidden="false" targetId="b5d9-60c1-423e-d43b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a5e0-3f41-d9fe-c970" name="Mount Choice" hidden="false" targetId="9306-ebd3-ef63-5663" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a5db-088c-f627-13f0" name="Lance" hidden="true" targetId="90bc-b07f-fd9f-7a71" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="315b-8d24-faec-96be" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d68-fdaa-72a5-c631" type="equalTo"/>
+                    <condition field="selections" scope="315b-8d24-faec-96be" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7fb5-643f-2cb8-d002" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2017,79 +1923,7 @@ The father of horses can only be ridden by Gandalf.</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d7b2-2d42-0be8-762d" name="Horse" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="c70b-b7e1-59ce-e7c3" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b96b-9b4d-4352-fdcd" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc9b-c8cc-9f40-5bb6" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="43a8-588d-6348-c693" name="Lance" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="d122-6c27-094a-9372" name="New InfoLink" hidden="false" targetId="514f-ef5e-91a6-fb55" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7320-bb01-2ea7-603f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2dbc-87a7-c169-ae15" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="59d7-6c99-8c50-145c" name="Banner" book="Kingdoms of Mn" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="441d-6e70-04cd-f24f" name="New InfoLink" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="96d3-3665-86ac-132d" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="4d84-d805-11ce-93b2" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
@@ -2106,6 +1940,46 @@ The father of horses can only be ridden by Gandalf.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d5e9-9d00-f75b-d20e" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="07c3-a40b-7f4a-459f" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="130b-8de4-e4d8-6b6b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ff27-c6bd-2a07-6ea9" name="Lance" hidden="false" targetId="90bc-b07f-fd9f-7a71" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="918d-eb81-0cac-e76e" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
