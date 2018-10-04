@@ -2342,9 +2342,9 @@ Denathor must be your leader, unless your force also contains Aragorn, King Eles
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8760-14e8-81e8-8132" name="Peregrin, Guard of the Citadel" book="The Armies of The Lord of the Rings" page="17" hidden="false" collective="false" type="model">
+    <selectionEntry id="8760-14e8-81e8-8132" name="Peregrin Took, Guard of the Citadel" book="The Armies of The Lord of the Rings" page="35" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="9fd2-7b22-ee69-72e0" name="Peregrin, Guard of the Citadel" book="Armies of The Lord of the Rings" page="17" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="9fd2-7b22-ee69-72e0" name="Peregrin, Guard of the Citadel" book="Armies of The Lord of the Rings" page="35" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2372,6 +2372,30 @@ Denathor must be your leader, unless your force also contains Aragorn, King Eles
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="d443-191c-22c0-7241" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2381-ae4a-4179-3941" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c549-7bcf-dd09-cd79" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3b45-d8b4-9fc0-4a99" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -2387,36 +2411,10 @@ Denathor must be your leader, unless your force also contains Aragorn, King Eles
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3f2d-80f5-c6cc-6581" name="Armour" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3575-09b1-135c-3278" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f81d-cdcb-51f9-4c1a" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="cf91-601b-8e51-56ac" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="1c81-3a5b-698d-4ce2" name="Pony" hidden="false" targetId="69b6-c096-3d37-fce0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2430,6 +2428,30 @@ Denathor must be your leader, unless your force also contains Aragorn, King Eles
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a12e-1bb0-e8c5-aaa2" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b584-4cb1-b30e-f0fc" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff9b-e729-6264-9343" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
