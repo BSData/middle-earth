@@ -581,9 +581,9 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
         <cost name="pts" costTypeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8ee-33b1-bb83-232d" name="Beregond" book="Armies of The Lord of the Rings" page="19" hidden="false" collective="false" type="model">
+    <selectionEntry id="f8ee-33b1-bb83-232d" name="Beregond, Guard of the Citadel" book="Armies of The Lord of the Rings" page="37" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="783c-3be6-a25a-ef2b" name="Beregond" book="Armies of The Lord of the Rings" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="783c-3be6-a25a-ef2b" name="Beregond" book="Armies of The Lord of the Rings" page="37" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -603,16 +603,45 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="bc24-66f6-eee1-2f31" name="Bodyguard (Gondor)" book="Armies of The Lord of the Rings" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="3427-307b-3a3a-43c4" name="Bodyguard (Active)" hidden="false" targetId="2d91-9af0-b06e-c2b4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Bodyguard (Gondor) (Active)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="66de-7106-2860-c6bd" name="Heroic Accuracy" hidden="false" targetId="7597-d6d9-0053-2e3c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>At the start of the game, choose another Hero of Gondor among those in your force for all your models with the Bodyguard (Gondor) special rule to protect. As long as this Hero is alive and on the board, models with this special rule automatically pass all Courage tests they have to take.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+        </infoLink>
+        <infoLink id="ea49-291b-0c07-3ee5" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3cd1-59fa-c357-feba" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7345-e1ec-38a1-fe8f" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
@@ -626,33 +655,15 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="65e8-8b8d-715b-1c56" name="Longbow (elf bow)" book="Armies of The Lord of the Rings" page="19" hidden="false" collective="false" type="upgrade">
+        <categoryLink id="36c2-454e-98bf-ffed" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
           <profiles/>
           <rules/>
-          <infoLinks>
-            <infoLink id="b478-c9c0-4809-e8e5" name="New InfoLink" hidden="false" targetId="2130-9089-8afe-22a4" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
+          <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fadd-aa51-8f4d-b435" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f514-8ca7-3841-d625" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="109c-a8ce-29c0-6bea" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
@@ -667,13 +678,51 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1151-543b-b278-e868" name="Longbow" hidden="false" targetId="7b55-34e4-6b53-0975" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ebd-84d3-6ec8-1675" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c1af-23f9-e665-0b81" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cbc-9173-4f66-27b1" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="25.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="52cd-3acb-3269-ee23" name="Boromir, Captain of the White Tower" book="Armies of The Lord of the Rings" page="36" hidden="false" collective="false" type="model">
@@ -2280,7 +2329,7 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
         <cost name="pts" costTypeId="points" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc2a-695d-ff37-3ee1" name="Madril, Captain of Ithilien" book="The Armies of The Lord of the Rings" page="18" hidden="false" collective="false" type="model">
+    <selectionEntry id="dc2a-695d-ff37-3ee1" name="Madril, Captain of Ithilien" book="The Armies of The Lord of the Rings" page="38" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2129-b5fe-63ce-62bf" name="Madril, Captain of Ithilien" book="Armies of The Lord of the Rings" page="18" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -2303,15 +2352,54 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
         </profile>
       </profiles>
       <rules>
-        <rule id="ffab-b2d0-f57d-8e8f" name="Master of Ambush" book="The Armies of The Lord of the Rings" page="18" hidden="false">
+        <rule id="ffab-b2d0-f57d-8e8f" name="Master of Ambush (Passive)" book="The Armies of The Lord of the Rings" page="38" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>In scenarios where you can roll for additional forces to arrive (such as those that use the Reinforcements rule), you receive a +1 bonus to the dice rolls is Madril is on the board. If Madril is not on the board and is waiting to arrive as part of the reinforcements, this bonus may only be applied to Madril&apos;s roll to arrive.</description>
+          <description>
+In scenarios where you  roll for additional forces to arrive (such as those that use the Reinforcements rule), you may modify the Reinforcements roll for Madril&apos;s Warband by +1 or -1. If Madril is already on the board, all warbands from this army list may also modify their Reinforcement roll by +1 or -1.
+You may modify your roll to see which part of the board your warbands deploy in by +1 or -1.</description>
         </rule>
       </rules>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="9b48-35de-d63c-ace7" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="694e-935c-24ef-ac3d" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4131-9f66-dbca-b7fe" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="de4d-df76-a498-3f3e" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c00-f927-eaf4-9173" name="Heroic Accuracy" hidden="false" targetId="7597-d6d9-0053-2e3c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1e88-4c72-5869-308a" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
@@ -2325,45 +2413,66 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e77e-2e95-6765-5a72" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7f3b-a4f4-7d61-f435" name="Bow" hidden="true" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e37c-374c-e2c9-c2ec" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba04-5978-405d-f897" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="43c2-516c-1c4a-cdfc" name="Armour" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93d3-e10d-7cf6-b5ac" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d5f-26a6-76de-d6a3" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="f7a1-63e0-6180-f4ac" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e1e-89df-b607-6329" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d42f-847f-40d5-322d" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5ca6-5744-24a7-aead" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa1-1e2c-0374-36a6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2e05-5019-12da-6238" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
