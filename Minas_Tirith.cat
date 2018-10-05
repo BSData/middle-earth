@@ -930,9 +930,9 @@ The Banner of Minas Tirith is a banner with range 6&quot;. Boromir and all frien
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="26c8-7da5-2898-d143" name="Captain of Minas Tirith" book="Armies of The Lord of the Rings" page="20" hidden="false" collective="false" type="model">
+    <selectionEntry id="26c8-7da5-2898-d143" name="Captain of Minas Tirith" book="Armies of The Lord of the Rings" page="40" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="1979-4e7c-6138-99a4" name="Captain of Minas Tirith" book="Armies of The Lord of the Rings" page="20" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="1979-4e7c-6138-99a4" name="Captain of Minas Tirith" book="Armies of The Lord of the Rings" page="40" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -953,11 +953,40 @@ The Banner of Minas Tirith is a banner with range 6&quot;. Boromir and all frien
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="5aa6-eb2b-9d1d-9b9e" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4e70-5484-feac-75f5" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f7bb-b7f2-e3aa-aa51" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="391c-78cf-3b5d-9a6e" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c1bf-9518-ca0c-2e20" name="Shieldwall (Active)" hidden="false" targetId="bf77-0802-6353-64a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f10b-9365-0064-4396" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="26c8-7da5-2898-d143-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -1024,6 +1053,22 @@ The Banner of Minas Tirith is a banner with range 6&quot;. Boromir and all frien
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ee29-d76c-cd94-4296" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90e7-1fa1-bbb4-03dc" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2144,9 +2189,9 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="315b-8d24-faec-96be" name="King of Men" book="Armies of The Lord of the Rings" page="20" hidden="false" collective="false" type="model">
+    <selectionEntry id="315b-8d24-faec-96be" name="King of Men" book="Armies of The Lord of the Rings" page="40" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="5bbe-1e73-3d61-6605" name="King of Men" book="Armies of The Lord of the Rings" page="20" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="5bbe-1e73-3d61-6605" name="King of Men" book="Armies of The Lord of the Rings" page="40" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2182,13 +2227,69 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc6e-e2e9-17f1-bd74" type="max"/>
-      </constraints>
+      <infoLinks>
+        <infoLink id="87c9-f100-5172-165d" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="be89-7dad-31b8-5c99" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="05a1-cf38-438d-69a8" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="081e-1f4f-b4f4-05f9" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1183-a19f-ed2b-238f" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52cd-3acb-3269-ee23" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8883-abd7-7f33-d694" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a736-03ae-c8b6-c4b9" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc2a-695d-ff37-3ee1" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="795a-019b-ef32-c3c9" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd1b-747a-4ba4-444e" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f8ee-33b1-bb83-232d" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="Gandalf the White" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="315b-8d24-faec-96be-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1b99-f18c-5c2e-f1a3" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2200,14 +2301,6 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="2729-cef3-7455-995c" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9acb-b85e-8e4b-83f5" name="Mount (Horse)" hidden="false" targetId="9306-ebd3-ef63-5663" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2253,14 +2346,38 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="84ae-4aa5-5a75-0823" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="337c-a1e0-a8e4-a1e1" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fba-c19d-4abe-b047" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b52a-4d41-2b8b-d904" name="Knight of the White Tower" book="Kingdoms of Me" page="20" hidden="false" collective="false" type="model">
+    <selectionEntry id="b52a-4d41-2b8b-d904" name="Knight of the White Tower" book="Kingdoms of Me" page="39" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="a834-27f6-ade7-dc5c" name="Knight of the White Tower" book="Armies of The Lord of the Rings" page="20" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="a834-27f6-ade7-dc5c" name="Knight of the White Tower" book="Armies of The Lord of the Rings" page="39" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2273,19 +2390,51 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="ac18-ab5f-5c58-5bfd" name="The Bladelord&apos;s Skill (Active)" book="Armies of The Lord of the Rings" page="39" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If a Knight of the White Tower scores a natural roll of a 6 in a Duel roll, he does not apply the penalty for using a two-handed weapon.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c634-127e-7a8e-4458" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ac36-2f90-eb50-b82d" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f4d0-879b-f4d0-98ee" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9105-d39f-6969-9322" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fccc-71f4-2018-82c4" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="b52a-4d41-2b8b-d904-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -2294,21 +2443,35 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4573-73d2-801f-77fe" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b346-48b4-f210-8153" name="White Sword of Gondor" book="Armies of The Lord of the Rings" page="20" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b346-48b4-f210-8153" name="White Sword of Gondor" book="Armies of The Lord of the Rings" page="39" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="1180-0216-23f5-7927" name="White Sword of Gondor" book="Armies of The Lord of the Rings" page="20" hidden="false">
+            <rule id="1180-0216-23f5-7927" name="White Sword of Gondor (Active)" book="Armies of The Lord of the Rings" page="20" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>A White Sword is a two-handed weapon. Addionally, each Wound inflicted by a White Sword (after Fate rolls) causes two Wounds, instead of one.</description>
+              <description>
+A White Sword of Gondor is a two-handed weapon. Addionally, Strikes have the Mighty Blow special rule.</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="6ed2-16a9-7976-9c4b" name="New InfoLink" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+            <infoLink id="6ed2-16a9-7976-9c4b" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="9f60-a1a6-64f8-6646" name="Mighty Blow (Active)" hidden="false" targetId="0583-e3c4-79c5-3827" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2339,9 +2502,33 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9544-c8c7-44c2-f854" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ffb-9cb8-1ce5-7b5e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b683-797d-b2c1-4647" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="55.0"/>
+        <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8783-f39c-e0db-ced7" name="Knight of Minas Tirith" book="Kingdoms of Mn" page="21" hidden="false" collective="false" type="model">
