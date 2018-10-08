@@ -7018,38 +7018,49 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="e05a-8143-0b72-e5fb" name="Wall-breaker" book="Armies of the Lord of the Rings" page="123" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-When the Catapult rolls To Wound against a Siege target, the controlling player may roll two dice and pick the highest.</description>
-        </rule>
-        <rule id="2a7e-102f-15ef-b56d" name="Indirect Fire" book="Armies of the Lord of the Rings" page="123" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-A Catapult always fires using the rules for Volley Fire, with a range of 12&quot;-96&quot;</description>
-        </rule>
-        <rule id="98fd-4be0-c866-1c7e" name="Area Effect" book="Armies of the Lord of the Rings" page="123" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-If a Catapult scores a hit against a Battlefield target, all models within 2&quot; of the target suffer one Strength 5 hit (this additional hit does not kill a target outright).</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="b5b3-0314-9267-a82d" name="Troll" hidden="false" targetId="ff83-f9b2-fb27-b5f4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
+        </infoLink>
+        <infoLink id="957b-3cff-3ad1-2876" name="Indirect Fire" book="Armies of The Lord of the Rings" page="123" hidden="false" targetId="2a7e-102f-15ef-b56d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="page" value="123">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5e7b-05a4-50e0-f983" name="Wall-breaker" book="Armies of The Lord of the Rings" page="123" hidden="false" targetId="e05a-8143-0b72-e5fb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="page" value="123">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="09e2-3a80-bcb2-aa84" name="Area Effect" book="Armies of The Lord of the Rings" page="123" hidden="false" targetId="98fd-4be0-c866-1c7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="page" value="123">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -7064,29 +7075,6 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a81e-a47a-f84f-c013" name="Flaming Ammunition" book="" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="79ad-20bb-9d33-bd86" name="Flaming Ammunition" hidden="false" targetId="85a3-5fcb-6505-b79c" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77d2-5d21-405d-9e06" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="cff8-d8ae-3d3e-df2b" name="Orc Warrior" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="7787-0780-9b1c-e233" name="Orc Warrior" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
@@ -7513,7 +7501,16 @@ If a Catapult scores a hit against a Battlefield target, all models within 2&quo
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="6cd0-88ac-b646-4aa9" name="Flaming Ammunition" hidden="false" targetId="a81e-a47a-f84f-c013" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
@@ -9386,6 +9383,29 @@ If the model survives, even if they did not suffer a wound, then the target is a
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a81e-a47a-f84f-c013" name="Flaming Ammunition" book="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="79ad-20bb-9d33-bd86" name="Flaming Ammunition" hidden="false" targetId="85a3-5fcb-6505-b79c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77d2-5d21-405d-9e06" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
@@ -10535,7 +10555,32 @@ At the start of every friendly Shoot phase, select 1 enemy model within 6&quot; 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When fighting with Andrúil, Aragorn never needs to roll more than 4+ to score a Wound, regardless of the opponent&apos;s Defence. His rolls To Wound can be modified by using Might as normal. If fighting Two-Handed he will still get the +1 To Wound Bonus, so will wound on a 3+.</description>
+      <description>
+When fighting with Andrúil, Aragorn never needs to roll more than 4+ to score a Wound, regardless of the opponent&apos;s Defence. His rolls To Wound can be modified by using Might as normal. If fighting Two-Handed he will still get the +1 To Wound Bonus, so will wound on a 3+.</description>
+    </rule>
+    <rule id="e05a-8143-0b72-e5fb" name="Wall-breaker" book="Armies of the Lord of the Rings" page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+When the Siege Engine rolls To Wound against a Siege target, the controlling player may roll two dice and pick the highest.</description>
+    </rule>
+    <rule id="2a7e-102f-15ef-b56d" name="Indirect Fire" book="Armies of the Lord of the Rings" page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+This Siege Engine always fires using the rules for Volley Fire, with a range of 12&quot;-96&quot;</description>
+    </rule>
+    <rule id="98fd-4be0-c866-1c7e" name="Area Effect" book="Armies of the Lord of the Rings" page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+If this Siege Engine scores a hit against a Battlefield target, all models within 2&quot; of the target suffer one Strength 5 hit (this additional hit does not kill a target outright).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

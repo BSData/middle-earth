@@ -179,9 +179,9 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
         <cost name="pts" costTypeId="points" value="225.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="06a2-dfd4-1c52-a4b2" name="Avenger Bolt Thrower" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="model">
+    <selectionEntry id="06a2-dfd4-1c52-a4b2" name="Gondor Avenger Bolt Thrower" book="Armies of The Lord of the Rings" page="45" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="ffa9-ee37-77fc-9a36" name="Avenger Bolt Thrower" book="Armies of The Lord of the Rings" page="23" hidden="false" profileTypeId="8dae-e592-675b-e608">
+        <profile id="ffa9-ee37-77fc-9a36" name="Gondor Avenger Bolt Thrower" book="Armies of The Lord of the Rings" page="45" hidden="false" profileTypeId="8dae-e592-675b-e608">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -193,22 +193,6 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
             <characteristic name="Type" characteristicTypeId="d4dd-3731-7350-033f" value="Siege Engine"/>
           </characteristics>
         </profile>
-        <profile id="c8ac-e411-80bb-c0cd" name="Warrior of Minas Tirith" book="Armies of The Lord of the Rings" page="23" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules>
         <rule id="8067-3cc6-67ec-b588" name="Short Range" book="Armies of The Lord of the Rings" page="23" hidden="false">
@@ -216,25 +200,26 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>An Avenger Bolt Thrower has a Range of 24&quot; rather than the normal 48&quot;</description>
+          <description>
+An Avenger Bolt Thrower has a Range of 24&quot; rather than 48&quot;.</description>
         </rule>
-        <rule id="dacb-9f4d-93f1-bc30" name="Rapid Fire" book="Armies of The Lord of the Rings" page="23" hidden="false">
+        <rule id="dacb-9f4d-93f1-bc30" name="Rapid Fire" book="Armies of The Lord of the Rings" page="45" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>An Avenger Bolt Thrower fires D6 shots each turn rather than one. Resolve each shot individually, rolling To Hit, to scatter, and To Wound for each before proceeding with the next. Shots from an Avenger Bolt Thrower do not kill Battlefield targets outright nor knock them to the ground. The usual restrictions on targeting apply. In addition, the second and following shots must be at models within 3&quot; of the first target.</description>
-        </rule>
-        <rule id="9f76-5257-066c-8832" name="Accurate" book="Armies of The Lord of the Rings" page="23" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>When firing an Avenger at a Battlefield target, the shot will only scatter 3&quot; rather than 6&quot;</description>
+          <description>
+An Avenger Bolt Thrower fires D6 shots each turn rather than one. Each shot os resolved in the same way as a shooting attack rather than a Siege Engine. This means that no scatter is rolled for an Avenger Bolt Thrower - it will either hit or miss. Resolve each shot individually, rolling To Hit and To Wound, before moving onto the next. Shots from an Avenger Bolt Thrower do not kill targets outright nor do they knock them to the ground.</description>
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="7">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="06a2-dfd4-1c52-a4b2-c892-016b-5298-f37d" hidden="false" targetId="c892-016b-5298-f37d" primary="true">
@@ -246,44 +231,11 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="de04-1795-7652-3e8c" name="Crew: Two Warriors of Minas Tirith with heavy armour" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="03f7-0eb0-e1fe-655f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e6a-2401-072a-9e05" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4414-26e1-58af-7de8" name="Additional Warrior of Minas Tirith crew" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec0-f3f6-38e5-afa0" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="7.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8ea4-372b-598d-0062" name="Flaming ammunition" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9dc4-7b84-2d63-be31" name="Swift Reload" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="bce4-25b5-b832-8b43" name="New InfoLink" hidden="false" targetId="85a3-5fcb-6505-b79c" type="rule">
+            <infoLink id="6269-5303-9c2f-30a1" name="Swift Reload" hidden="false" targetId="85f8-9eb1-092e-7c44" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -292,76 +244,7 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="953b-52f1-62cc-b1a7" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="36d0-6e7a-2480-f949" name="Minas Tirith Engineer Captain" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="38bc-aa9b-fde4-75f0" name="New InfoLink" hidden="false" targetId="2507-c351-8e85-f546" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b6c4-6d9c-c469-d059" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="75.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3287-215f-2abe-ff23" name="Siege Veterans" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="389a-f3df-f100-22e0" name="New InfoLink" hidden="false" targetId="026d-9114-92bf-15fd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8be4-fb8f-8ec5-a58e" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c374-45be-4632-c451" name="Superior construction" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="9581-1462-69ca-633e" name="New InfoLink" hidden="false" targetId="3679-eb54-bca1-3551" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="08df-806c-6d7a-3430" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d773-474a-e79f-4bf4" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -372,15 +255,67 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a8a9-3870-2bf7-f920" name="Commander Choice" hidden="false" collective="false" defaultSelectionEntryId="00a4-fa40-c97a-ddd7">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577a-ba2d-0357-0861" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc32-7290-e7e5-d015" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="00a4-fa40-c97a-ddd7" name="Siege Veteran" book="Armies of The Lord of the Rings" page="45" hidden="false" targetId="9ab4-01a4-e762-3cd6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="becd-4f95-a9d4-5953" name="Engineer Captain" book="Armies of The Lord of the Rings" page="45" hidden="false" targetId="e12d-3683-81ec-35f3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f5fa-edfd-440c-082c" name="Warrior of Minas Tirith Crew" book="Armies of The Lord of the Rings" page="45" hidden="false" targetId="b6b2-31cf-857e-e108" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5738-f7ec-48b1-aa9e" value="12">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="06a2-dfd4-1c52-a4b2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="becd-4f95-a9d4-5953" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5738-f7ec-48b1-aa9e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd87-f918-71be-c248" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="70.0"/>
+        <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5baf-1367-8acc-c493" name="Battlecry Trebuchet" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="model">
+    <selectionEntry id="5baf-1367-8acc-c493" name="Gondor Battlecry Trebuchet" book="Armies of The Lord of the Rings" page="44" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="633d-354d-af0a-c6d9" name="Battlecry Trebuchet" book="Armies of The Lord of the Rings" page="23" hidden="false" profileTypeId="8dae-e592-675b-e608">
+        <profile id="633d-354d-af0a-c6d9" name="Gondor Battlecry Trebuchet" book="Armies of The Lord of the Rings" page="44" hidden="false" profileTypeId="8dae-e592-675b-e608">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -388,56 +323,57 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
           <characteristics>
             <characteristic name="Strength" characteristicTypeId="3684-4bad-79f7-2a2c" value="(10)"/>
             <characteristic name="Defence" characteristicTypeId="7017-e823-5773-12b4" value="10"/>
-            <characteristic name="Wounds" characteristicTypeId="b509-5974-0a4a-b2a2" value="4"/>
+            <characteristic name="Wounds" characteristicTypeId="b509-5974-0a4a-b2a2" value="3"/>
             <characteristic name="Type" characteristicTypeId="d4dd-3731-7350-033f" value="Siege Engine"/>
           </characteristics>
         </profile>
-        <profile id="380d-1470-985f-4af6" name="Warrior of Minas Tirith" book="Armies of The Lord of the Rings" page="23" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
-          </characteristics>
-        </profile>
       </profiles>
-      <rules>
-        <rule id="0784-18ec-b103-ab78" name="Inderect Fire" book="Armies of The Lord of the Rings" page="23" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="d17b-1daa-936d-16ab" name="Area Effect" book="Armies of The Lord of the Rings" page="44" hidden="false" targetId="98fd-4be0-c866-1c7e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <description>A Trebuchet always follows the rules for Volley Fire, giving it a a range of 18-96&quot;/42-224cm. When firing a Trebuchet, follow the rules for siege engines in the main rules manual, with the following exceptions:
-
-- A Trebuchet hits the target on the roll of a 4+
-- If a hit is rolled and the target is a Siege target, the shot will hit it autocamatically (no scattering)
-- If the target is a Battlefield target, roll on the Siege Engine&apos;s Scatter chart instead of following the nomrla rules for allocating hits with a volley.</description>
-        </rule>
-        <rule id="eb4a-e18a-e0fc-3e11" name="Area Effect" book="Armies of The Lord of the Rings" page="23" hidden="false">
+          <modifiers>
+            <modifier type="set" field="page" value="44">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d32a-3a5e-8445-8020" name="Indirect Fire" book="Armies of The Lord of the Rings" page="44" hidden="false" targetId="2a7e-102f-15ef-b56d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <description>If the Trebuchet scores a hit against a Battlefield target, all models withing 2&quot; of the target take a hit of Strength 5 (this hit does not kill Battlefield targets outright).</description>
-        </rule>
-        <rule id="6ea0-df17-0d23-4fc2" name="Wall-breaker" book="Armies of The Lord of the Rings" page="23" hidden="false">
+          <modifiers>
+            <modifier type="set" field="page" value="44">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8dda-3206-dcb6-c96f" name="Wall-breaker" book="Armies of The Lord of the Rings" page="44" hidden="false" targetId="e05a-8143-0b72-e5fb" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <description>When a Trebuchet rolls to Wound against a Siege target, the controlling player may roll two dice and pick the highest. If a Wound is caused, roll on the Batter chart as normal.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
+          <modifiers>
+            <modifier type="set" field="page" value="44">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="decrement" field="points" value="14">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="5baf-1367-8acc-c493-c892-016b-5298-f37d" hidden="false" targetId="c892-016b-5298-f37d" primary="true">
@@ -448,137 +384,71 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5eac-3d10-a750-92fe" name="Crew: Three warriors of Minas Tirith with heavy amour" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3099-2de9-32f6-8a42" name="Commander Choice" hidden="false" collective="false" defaultSelectionEntryId="988e-f19e-9703-e199">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="44c4-eb7c-6edf-54e8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a118-ace7-4364-1b9c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3293-8d8a-bf4c-8a6a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4fa-71e4-afa4-82ce" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e899-bd30-0038-48d4" name="Additional Warrior of Minas Tirith crew" hidden="false" collective="false" type="upgrade">
+          <entryLinks>
+            <entryLink id="988e-f19e-9703-e199" name="Siege Veteran" book="Armies of The Lord of the Rings" page="44" hidden="false" targetId="9ab4-01a4-e762-3cd6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8719-22ed-cdff-772a" name="Engineer Captain" book="Armies of The Lord of the Rings" page="44" hidden="false" targetId="e12d-3683-81ec-35f3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="eb78-c537-6c88-7f28" name="Flaming Ammunition" hidden="false" targetId="a81e-a47a-f84f-c013" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5878-5cff-a97f-b95a" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="7.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b912-5d16-3d09-d3a7" name="Flaming ammunition" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="a290-8215-b545-e486" name="Warrior of Minas Tirith Crew" book="Armies of The Lord of the Rings" page="44" hidden="false" targetId="b6b2-31cf-857e-e108" type="selectionEntry">
           <profiles/>
           <rules/>
-          <infoLinks>
-            <infoLink id="93ef-7ad6-bee6-86af" name="New InfoLink" hidden="false" targetId="85a3-5fcb-6505-b79c" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="2263-c65b-247d-bc8d" value="12">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5baf-1367-8acc-c493" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8719-22ed-cdff-772a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="65a7-0f3c-2dc7-8722" type="max"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2263-c65b-247d-bc8d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d5f-1329-e6ef-8b00" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3f9e-efe3-564a-250d" name="Minas Tirith Engineer Captain" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="0c46-25c7-f48b-79b5" name="New InfoLink" hidden="false" targetId="2507-c351-8e85-f546" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bbfa-16f6-0922-69f1" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="75.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6fda-1496-b985-aeaf" name="Siege Veterans" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="86fd-2609-d3c9-46de" name="New InfoLink" hidden="false" targetId="026d-9114-92bf-15fd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="383c-0f3a-d90d-fa1a" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e146-5a0d-40ef-ae9f" name="Superior construction" book="Armies of The Lord of the Rings" page="23" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="98f7-63e7-a879-396f" name="New InfoLink" hidden="false" targetId="3679-eb54-bca1-3551" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c8d-e8ae-0c0d-0ceb" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="110.0"/>
+        <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8ee-33b1-bb83-232d" name="Beregond, Guard of the Citadel" book="Armies of The Lord of the Rings" page="37" hidden="false" collective="false" type="model">
@@ -3252,8 +3122,24 @@ So long as an Osgiliath Veteran is within 6&quot; of either Boromir or Faramir (
       </costs>
     </selectionEntry>
     <selectionEntry id="3eb0-4dca-2005-51c8" name="Warrior of Minas Tirith" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="2f4d-0495-8e07-c5dd" name="Warrior of Minas Tirith" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2222-50c9-b9dd-a0a3" name="Shieldwall (Active)" hidden="false" targetId="bf77-0802-6353-64a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3eb0-4dca-2005-51c8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dab6-fcce-4d16-5215" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="398e-d03b-62fc-1c98" name="Warrior of Minas Tirith" hidden="false" targetId="9503-9be2-93d9-28ff" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3277,33 +3163,6 @@ So long as an Osgiliath Veteran is within 6&quot; of either Boromir or Faramir (
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="2222-50c9-b9dd-a0a3" name="Shieldwall (Active)" hidden="false" targetId="bf77-0802-6353-64a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="3eb0-4dca-2005-51c8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dab6-fcce-4d16-5215" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
             </modifier>
           </modifiers>
         </infoLink>
@@ -3411,7 +3270,260 @@ So long as an Osgiliath Veteran is within 6&quot; of either Boromir or Faramir (
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="b6b2-31cf-857e-e108" name="Warrior of Minas Tirith Crew" book="Armies of The Lord of the Rings" page="44" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9228-a8c3-c303-0456" name="Warrior of Minas Tirith" book="Armies of The Lord of the Rings" page="44" hidden="false" targetId="9503-9be2-93d9-28ff" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value=" Crew">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9234-5629-e6a9-9068" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1484-3214-1866-a8e2" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baca-ae1f-546b-5427" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ab4-01a4-e762-3cd6" name="Siege Veteran" book="Armies of The Lord of the Rings" page="44" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a096-9456-7226-f66b" name="Siege Veteran (Warrior of Minas Tirith)" book="" page="" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="407a-b335-9892-3656" name="Siege Veteran" hidden="false" targetId="026d-9114-92bf-15fd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a818-1680-d8a5-5d60" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c6c9-3b8a-b298-f5db" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8fdc-3e66-ac68-2ae9" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2041-93b3-5553-e845" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b5fc-1ab5-b2b2-fc70" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9164-97c2-d6c3-8fc7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e12d-3683-81ec-35f3" name="Engineer Captain" book="" page="" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8a7b-9108-d0fd-ac9f" name="Engineer Captain (Captain of Minas Tirith)" book="" page="" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e12d-3683-81ec-35f3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4363-8744-5e24-bfed" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f071-5e15-ac69-a680" name="Engineer Captain" hidden="false" targetId="2507-c351-8e85-f546" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4269-3520-0e4c-7504" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="708a-4aee-3cdd-e97e" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cac9-0d48-cdd9-d087" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ca01-a0ca-0a7b-2c36" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="54d9-67d8-0c79-0385" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e02-7768-7003-bb42" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="05f6-abc8-966b-7783" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4363-8744-5e24-bfed" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="09be-2492-a83a-556d" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
     <rule id="29bc-d9c8-0dec-474f" name="Bodyguard (Gondor)" book="Armies of The Lord of the Rings" hidden="false">
@@ -3436,5 +3548,22 @@ So long as an Osgiliath Veteran is within 6&quot; of either Boromir or Faramir (
       <description>This model may opt not to move at all in a Move phase but instead declare that it is Stooping for a Stone. In the Shoot phase, the model may then make a shooting attack with a range of 8&quot; and a Strength of 1. Some models (such as certain Trolls or Ents) have different ranges and Strength values specified in their profiles for when they throw stones.</description>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="9503-9be2-93d9-28ff" name="Warrior of Minas Tirith" book="" page="" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
