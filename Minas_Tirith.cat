@@ -193,7 +193,7 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
             <characteristic name="Type" characteristicTypeId="d4dd-3731-7350-033f" value="Siege Engine"/>
           </characteristics>
         </profile>
-        <profile id="c8ac-e411-80bb-c0cd" name="Warrior of Minas Tirith" book="The Kingdoms of Man" page="23" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="c8ac-e411-80bb-c0cd" name="Warrior of Minas Tirith" book="Armies of The Lord of the Rings" page="23" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -211,21 +211,21 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
         </profile>
       </profiles>
       <rules>
-        <rule id="8067-3cc6-67ec-b588" name="Short Range" book="The Kingdoms of Man" page="23" hidden="false">
+        <rule id="8067-3cc6-67ec-b588" name="Short Range" book="Armies of The Lord of the Rings" page="23" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>An Avenger Bolt Thrower has a Range of 24&quot; rather than the normal 48&quot;</description>
         </rule>
-        <rule id="dacb-9f4d-93f1-bc30" name="Rapid Fire" book="The Kingdoms of Man" page="23" hidden="false">
+        <rule id="dacb-9f4d-93f1-bc30" name="Rapid Fire" book="Armies of The Lord of the Rings" page="23" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>An Avenger Bolt Thrower fires D6 shots each turn rather than one. Resolve each shot individually, rolling To Hit, to scatter, and To Wound for each before proceeding with the next. Shots from an Avenger Bolt Thrower do not kill Battlefield targets outright nor knock them to the ground. The usual restrictions on targeting apply. In addition, the second and following shots must be at models within 3&quot; of the first target.</description>
         </rule>
-        <rule id="9f76-5257-066c-8832" name="Accurate" book="The Kingdoms of Man" page="23" hidden="false">
+        <rule id="9f76-5257-066c-8832" name="Accurate" book="Armies of The Lord of the Rings" page="23" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -392,7 +392,7 @@ Friendly models within 6&quot; of Aragorn, King Elessar count as being in range 
             <characteristic name="Type" characteristicTypeId="d4dd-3731-7350-033f" value="Siege Engine"/>
           </characteristics>
         </profile>
-        <profile id="380d-1470-985f-4af6" name="Warrior of Minas Tirith" book="The Kingdoms of Man" page="23" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="380d-1470-985f-4af6" name="Warrior of Minas Tirith" book="Armies of The Lord of the Rings" page="23" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -982,7 +982,15 @@ The Banner of Minas Tirith is a banner with range 6&quot;. Boromir and all frien
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="26c8-7da5-2898-d143" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d55e-576d-0f36-4408" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -1212,7 +1220,7 @@ Cirion receives a +2 bonus to his Courage when models with the Blades of the Dea
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="793f-1037-9341-d7da" name="Citadel Guard" book="Armies of The Lord of the Rings" page="22" hidden="false" collective="false" type="model">
+    <selectionEntry id="793f-1037-9341-d7da" name="Citadel Guard" book="Armies of The Lord of the Rings" page="42" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="e855-2ca3-d99e-d898" name="Citadel Guard" book="Armies of The Lord of the Rings" page="21" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -1257,32 +1265,52 @@ Cirion receives a +2 bonus to his Courage when models with the Blades of the Dea
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8103-454b-7e2b-b77e" name="Longbow (Elf bow)" book="Armies of The Lord of the Rings" page="22" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1b15-446d-5dc1-3ea5" name="Weapon Choice" hidden="false" collective="false" defaultSelectionEntryId="1036-e478-a0ba-d7d2">
           <profiles/>
           <rules/>
-          <infoLinks>
-            <infoLink id="2abd-f220-4301-ac45" name="New InfoLink" hidden="false" targetId="2130-9089-8afe-22a4" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
+          <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e843-677f-f728-2745" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b335-5b3b-1a72-8bf7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c7d-bf38-01a2-b48c" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1036-e478-a0ba-d7d2" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f5fd-bc90-ae31-a0f6" name="Longbow" hidden="false" targetId="7b55-34e4-6b53-0975" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="946f-ece1-fc67-c86e" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
@@ -1297,7 +1325,7 @@ Cirion receives a +2 bonus to his Courage when models with the Blades of the Dea
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="points" value="6">
+            <modifier type="set" field="points" value="7">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -1306,23 +1334,25 @@ Cirion receives a +2 bonus to his Courage when models with the Blades of the Dea
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c040-d7a1-f6a8-598d" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+        <entryLink id="dba7-3ab6-f6ce-f23b" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="points" value="1">
+            <modifier type="set" field="points" value="0">
               <repeats/>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74af-ba33-88ca-4b03" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="8.0"/>
+        <cost name="pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a736-03ae-c8b6-c4b9" name="Damrod, Ranger of Ithilien" book="Armies of The Lord of the Rings" page="38" hidden="false" collective="false" type="model">
@@ -2096,13 +2126,21 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
         <cost name="pts" costTypeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6b37-809e-788f-938a" name="Guard of the Fountain Court" book="Armies of The Lord of the Rings" page="22" hidden="false" collective="false" type="model">
+    <selectionEntry id="6b37-809e-788f-938a" name="Guard of the Fountain Court" book="Armies of The Lord of the Rings" page="43" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="ca68-176a-7985-5330" name="Guard of the Fountain Court" book="Armies of The Lord of the Rings" page="22" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+        <profile id="ca68-176a-7985-5330" name="Guard of the Fountain Court" book="Armies of The Lord of the Rings" page="43" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6b37-809e-788f-938a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71a4-3c1b-73e3-7dce" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
@@ -2142,13 +2180,57 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1492-31ab-000e-f648" name="Spear or Banner" hidden="false" collective="false" defaultSelectionEntryId="454c-b78a-f73b-9849">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ede4-5180-9ef0-b3c9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f6b-fb6b-e75f-cf50" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="454c-b78a-f73b-9849" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0c2d-b0b3-bb47-d5c6" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="71a4-3c1b-73e3-7dce" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2160,15 +2242,23 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="52ad-41ff-441f-e1c9" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+        <entryLink id="67f3-f22a-7294-3434" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bd8-784d-6349-e76c" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0917-280b-7eb9-bf1f" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+        <entryLink id="77b9-979b-cfe5-a7ec" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2180,7 +2270,7 @@ Whilst Denathor is on the battlefield, Faramir must always Charge an enemy if ab
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc69-83a1-73d0-3bd4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1189-1b5c-c568-fe64" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -2531,13 +2621,21 @@ A White Sword of Gondor is a two-handed weapon. Addionally, Strikes have the Mig
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8783-f39c-e0db-ced7" name="Knight of Minas Tirith" book="Kingdoms of Mn" page="21" hidden="false" collective="false" type="model">
+    <selectionEntry id="8783-f39c-e0db-ced7" name="Knight of Minas Tirith" book="Kingdoms of Mn" page="41" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="b37b-a5b1-d8c9-d64e" name="Knight of Minas Tirith" book="Armies of The Lord of the Rings" page="21" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+        <profile id="b37b-a5b1-d8c9-d64e" name="Knight of Minas Tirith" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8783-f39c-e0db-ced7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d84-d805-11ce-93b2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
@@ -2546,12 +2644,27 @@ A White Sword of Gondor is a two-handed weapon. Addionally, Strikes have the Mig
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man, Cavalry"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="f188-9fc3-9891-ec33" name="Shieldwall (Active)" hidden="false" targetId="bf77-0802-6353-64a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8783-f39c-e0db-ced7" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d84-d805-11ce-93b2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -2619,6 +2732,22 @@ A White Sword of Gondor is a two-handed weapon. Addionally, Strikes have the Mig
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="918d-eb81-0cac-e76e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9657-14fd-a8b6-fc7b" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="853e-eb70-66bd-3b90" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -2775,13 +2904,34 @@ You may modify your roll to see which part of the board your warbands deploy in 
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6513-d319-69ea-05a0" name="Osgiliath Veteran" book="Armies of The Lord of the Rings" page="22" hidden="false" collective="false" type="model">
+    <selectionEntry id="6513-d319-69ea-05a0" name="Osgiliath Veteran" book="Armies of The Lord of the Rings" page="43" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="56f9-9e3e-59bf-cee4" name="Osgiliath Veteran" book="Armies of The Lord of the Rings" page="22" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+        <profile id="56f9-9e3e-59bf-cee4" name="Osgiliath Veteran" book="Armies of The Lord of the Rings" page="43" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6513-d319-69ea-05a0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4b1a-97f0-b083-4305" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="6513-d319-69ea-05a0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4b1a-97f0-b083-4305" type="equalTo"/>
+                    <condition field="selections" scope="6513-d319-69ea-05a0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ebc-3945-4f92-8cdd" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
@@ -2790,17 +2940,18 @@ You may modify your roll to see which part of the board your warbands deploy in 
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="4"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="78e3-011e-5b05-c27a" name="Loyal to the Captains" book="The Kingdoms of Man" page="22" hidden="false">
+        <rule id="78e3-011e-5b05-c27a" name="Loyal to the Captains" book="Armies of The Lord of the Rings" page="22" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>So long as an Osgiliath Veteran is within 6&quot; of either Boromir or Faramir (or both) he receives a bonus of +1 to his Fight value. Note that this bonus is cumulative with other fight value bonuses</description>
+          <description>
+So long as an Osgiliath Veteran is within 6&quot; of either Boromir or Faramir (or both) he receives a bonus of +1 to his Fight value.This bonus is cumulative with other fight value bonuses.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2815,61 +2966,20 @@ You may modify your roll to see which part of the board your warbands deploy in 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6044-6fef-f597-a9f7" name="Bow" book="Armies of The Lord of the Rings" page="22" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="ac10-ffbb-7502-e81c" name="New InfoLink" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e00-4696-1f3d-b7e5" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="367c-b3de-862e-07ec" name="Spear" book="Kingdoms of Me" page="22" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="9cc9-508b-e9ce-5328" name="New InfoLink" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fcd9-75b9-d6f3-a36d" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="4b1a-97f0-b083-4305" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2878,6 +2988,50 @@ You may modify your roll to see which part of the board your warbands deploy in 
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7b1d-f93f-22ed-438c" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45c5-0d3c-10a1-b7dd" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="abdf-f38c-8ede-6e94" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6ebc-3945-4f92-8cdd" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -3003,9 +3157,9 @@ You may modify your roll to see which part of the board your warbands deploy in 
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ff7-3c9e-792f-f27b" name="Ranger of Gondor" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="model">
+    <selectionEntry id="5ff7-3c9e-792f-f27b" name="Ranger of Gondor" book="Armies of The Lord of the Rings" page="42" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="2020-ac74-29d7-1a50" name="Ranger of Gondor" book="Armies of The Lord of the Rings" page="21" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+        <profile id="2020-ac74-29d7-1a50" name="Ranger of Gondor" book="Armies of The Lord of the Rings" page="42" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3035,109 +3189,96 @@ You may modify your roll to see which part of the board your warbands deploy in 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="eef5-74c1-d2c2-0c7f" name="Armour" book="Kingdoms of Me" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78c2-ae6c-6de9-2bdf" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8bc0-60b1-8239-e79b" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2ac3-8ae8-2a58-6218" name="Bow" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="d0b9-4527-b041-7bb0" name="New InfoLink" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="39e7-bd56-b72b-8aa0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="709c-540f-f076-62d0" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1961-f702-593e-4775" name="Spear" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="2cf0-a7e7-3077-975c" name="New InfoLink" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="68a5-f446-2d26-cfce" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="bb83-dd2b-8487-3583" name="Upgrade to Ranger of Ithilien*" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="fb4d-b6a4-0e9b-c024" name="*Ranger of Ithilien" book="Armies of The Lord of the Rings" page="21" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Rangers of Ithilien do not treat wood and areas of woodland or forest terrain as difficult terrain.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c62-5b85-c28a-b162" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="6349-5c30-b5df-9bf3" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9619-8ed6-068b-0ef4" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5417-2502-1575-cdbd" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d1aa-6ca4-1951-c0e0" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d409-ebff-5a17-5679" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a67a-2dc1-f954-5493" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3eb0-4dca-2005-51c8" name="Warrior of Minas Tirith" book="Kingdoms of Man" page="21" hidden="false" collective="false" type="model">
+    <selectionEntry id="3eb0-4dca-2005-51c8" name="Warrior of Minas Tirith" book="Armies of The Lord of the Rings" page="41" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="2f4d-0495-8e07-c5dd" name="Warrior of Minas Tirith" book="Armies of The Lord of the Rings" page="21" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+        <profile id="2f4d-0495-8e07-c5dd" name="Warrior of Minas Tirith" book="Armies of The Lord of the Rings" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3eb0-4dca-2005-51c8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dab6-fcce-4d16-5215" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="3eb0-4dca-2005-51c8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a24f-26f5-6fba-d346" type="equalTo"/>
+                    <condition field="selections" scope="3eb0-4dca-2005-51c8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dab6-fcce-4d16-5215" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
@@ -3151,7 +3292,22 @@ You may modify your roll to see which part of the board your warbands deploy in 
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="2222-50c9-b9dd-a0a3" name="Shieldwall (Active)" hidden="false" targetId="bf77-0802-6353-64a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3eb0-4dca-2005-51c8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dab6-fcce-4d16-5215" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -3163,127 +3319,10 @@ You may modify your roll to see which part of the board your warbands deploy in 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9ba0-30de-03b7-9450" name="War horn" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="97a7-b3f5-7750-3efa" name="New InfoLink" hidden="false" targetId="2763-dbf3-7fde-9758" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="442a-1b1d-ac37-92b9" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a303-25ae-8a45-0044" name="Upgrade to an Ithilien Guard*" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="f5b9-1651-0f64-7f37" name="*Ithilien Guard" book="Armies of The Lord of the Rings" page="21" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Ithilien Guards do not treat woods and areas of woodland or forest terrain as difficult terrain.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d80-ea1a-7785-41d7" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9ea1-84ae-74e8-2c32" name="Spear" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="fa14-59ab-31a6-a496" name="New InfoLink" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f5cd-608f-2f17-ccfa" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0d9e-c83d-6750-b5ad" name="Bow" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="4372-bfb2-e244-925a" name="New InfoLink" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2c77-9f0b-badf-7356" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="458b-dbfa-ea0d-30d1" name="Banner" book="Armies of The Lord of the Rings" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="ff2d-e2c9-b78d-4ddd" name="New InfoLink" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="376f-68e2-0e35-af78" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="f844-d475-d8c4-d4a0" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+        <entryLink id="a675-2d9a-1893-2cb5" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3291,12 +3330,78 @@ You may modify your roll to see which part of the board your warbands deploy in 
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a675-2d9a-1893-2cb5" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+        <entryLink id="b6fa-9f93-72c0-0498" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="786a-2422-eec7-3484" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a24f-26f5-6fba-d346" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dab6-fcce-4d16-5215" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9e39-498c-e953-c7ee" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0630-c92a-5f57-b23e" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed2-ffee-f75f-712d" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
