@@ -170,7 +170,7 @@
             <modifier type="decrement" field="bc53-ae31-0120-1faa" value="6">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f78-9582-22d3-2a4c" type="equalTo"/>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1f78-9582-22d3-2a4c" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -198,13 +198,13 @@
             <modifier type="increment" field="bc53-ae31-0120-1faa" value="6">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88c9-e24d-9402-92a3" type="equalTo"/>
+                <condition field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88c9-e24d-9402-92a3" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc53-ae31-0120-1faa" type="max"/>
+            <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc53-ae31-0120-1faa" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="80c5-b61b-d209-b3a1-8e06-cb8f-41c0-09a4" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
@@ -228,7 +228,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d7d-90bd-ddfe-ac68" type="max"/>
           </constraints>
         </categoryLink>
@@ -274,7 +274,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6b1-9135-15e3-4645" type="max"/>
+            <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c6b1-9135-15e3-4645" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="80c5-b61b-d209-b3a1-c892-016b-5298-f37d" name="Siege engine" hidden="false" targetId="c892-016b-5298-f37d" primary="false">
