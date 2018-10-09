@@ -9406,6 +9406,35 @@ If the model survives, even if they did not suffer a wound, then the target is a
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0040-e6b2-0424-f3f8" name="War Spear" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="96c7-ed89-b2a0-cd54" name="War Spear" hidden="false" targetId="4c59-dd5c-0c3b-10e1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="af8f-3125-8c4c-c8e4" name="War Spear" hidden="false" targetId="9483-20a5-e53b-78f4" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20aa-62d9-eb9a-69d3" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
@@ -11793,6 +11822,13 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
       <characteristics/>
     </profile>
     <profile id="5336-fe99-7d87-2c07" name="Hammer" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="9483-20a5-e53b-78f4" name="War Spear" book="" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
