@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="10" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="11" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -9435,6 +9435,305 @@ If the model survives, even if they did not suffer a wound, then the target is a
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="70aa-b4f1-c72e-7ff0" name="Paladin Took" book="Armies of The Lord of the Rings" page="19" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ea4e-d317-8c01-093a" name="Paladin Took" book="Armies of The Lord of the Rings" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="2/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="2"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Hobbit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="562c-8216-067d-1948" name="To me, Shire-folk! (Active)" book="Armies of The Lord of the Rings" page="19" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! is 12&quot; instead of 6&quot;.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f49b-55e7-793d-6678" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ae66-f1bf-72f6-2e08" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d2af-f9bb-a855-de06" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b7b7-36eb-90b0-b725" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cea9-e3d3-56ea-f63c" name="Heroic Accuracy" hidden="false" targetId="7597-d6d9-0053-2e3c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74eb-e0db-124c-095b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2649-3c81-45a4-d5aa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="70aa-b4f1-c72e-7ff0-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6b08-eae2-bf9b-963b" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5c91-c75c-c3cc-425d" name="Walking Cane (Club)" book="Armies of The Lord of the Rings" page="19" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ad3e-52d7-32ed-e0d8" name="Walking Cane (Club)" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="bc38-bd9d-7fe8-b7e2" name="Stun" hidden="false" targetId="8364-37bf-b721-69df" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5388-459a-7a88-6dce" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e0-5aa7-b4b1-fa92" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6472-ff75-37ed-6f78" name="Throw Stones (Hobbit)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cb14-5f18-e842-236d" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93f1-6d48-5091-11ed" name="Hobbit Archers" book="Armies of The Lord of the Rings" page="22" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="14fc-161c-8693-e5df" name="Hobbit Archers" book="Armies of The Lord of the Rings" page="22" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Tookish Hunter">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="3d78-8110-7697-953f" value="3/3+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="page" value="19">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="4&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/3+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="2"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Hobbit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="af06-ad2a-b949-c612" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="name" value="Tookish Hunter">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="page" value="19">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="93f1-6d48-5091-11ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b21-e084-7ee5-addf" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="93f1-6d48-5091-11ed-e07a-883e-1b26-d891" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9b21-e084-7ee5-addf" name="Tookish Hunters" book="Armies of The Lord of the Rings" page="19" hidden="true" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="70aa-b4f1-c72e-7ff0" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ca9-3f9d-3c72-8b6d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8da2-d31b-1afa-5584" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d5a-25f3-b322-4323" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aa6b-210b-ea12-92a3" name="Short Bow" hidden="false" targetId="6a58-6a19-d88d-f91b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8b8-bb26-c8a9-b58c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d10c-049c-9a30-8e7f" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="064f-3c51-1bee-554f" name="Throw Stones (Hobbit)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
@@ -11384,11 +11683,7 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Can be put on during Movement phase - causing wearer to become Invisible. Must pass Courage test to remove the Ring during the Movement phase.
-[Cannot put on and remove the Ring in the same Turn.]
-[Suffers Sauron&apos;s Will while wearing the Ring.]
-[If mounted when put on, Mount will bolt and Rider must take Thrown Rider test.]"/>
+        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Can be put on during Movement phase - causing wearer to become Invisible. Must pass Courage test to remove the Ring during the Movement phase. [Cannot put on and remove the Ring in the same Turn.] [Suffers Sauron&apos;s Will while wearing the Ring.] [If mounted when put on, Mount will bolt and Rider must take Thrown Rider test.]"/>
       </characteristics>
     </profile>
     <profile id="bd94-68e6-83fe-67bf" name="Iron-shod Hooves" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
