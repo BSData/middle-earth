@@ -1353,11 +1353,11 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4886-f5fc-466a-0c98" name="Narya" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4886-f5fc-466a-0c98" name="Narya" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="3095-da7e-62ee-3d72" name="Narya" hidden="false" targetId="5d35-45bd-6414-7351" type="rule">
+        <infoLink id="3095-da7e-62ee-3d72" name="Narya (Passive)" hidden="false" targetId="5d35-45bd-6414-7351" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1383,7 +1383,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="942f-4c2e-1a38-a6db" name="Glamdring" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="942f-4c2e-1a38-a6db" name="Glamdring" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1431,7 +1431,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7cab-312e-12a6-dcab" name="Staff of Power*" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7cab-312e-12a6-dcab" name="Staff of Power*" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1813,7 +1813,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b280-7e1b-2864-e129" name="Wood Elf Spear" book="The Armies of the Lord of the Rings" page="88" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b280-7e1b-2864-e129" name="Wood Elf Spear" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2093,11 +2093,11 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d0c2-4808-c3a3-63ac" name="Shield (Included)" book="Middle-earth Strategy Battle Game Rules Manual" page="91" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d0c2-4808-c3a3-63ac" name="Shield (Included)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="2e47-7bb5-ab9b-4b66" name="Shield" hidden="false" targetId="f869-6c62-d88d-b64c" type="profile">
+        <infoLink id="f00e-d3f3-b9b5-7410" name="Shield" page="" hidden="false" targetId="2cec-c649-110e-18ef" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2425,7 +2425,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="model">
+    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="97de-40f0-d679-e177" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -2635,7 +2635,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d5ce-addd-b841-092a" name="Pike" book="Rules Manual" page="85" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d5ce-addd-b841-092a" name="Pike" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3195,7 +3195,7 @@
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe6d-a3fd-b8f7-353f" name="The Dwimmerlaik" book="Armies of Middle Earth" page="126" hidden="false" collective="false" type="model">
+    <selectionEntry id="fe6d-a3fd-b8f7-353f" name="The Dwimmerlaik" book="Armies of the Lord of the Rings" page="126" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6f51-7baa-2adf-a45a" name="The Dwimmerlaik" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -3967,7 +3967,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9b4-d635-b391-8385" name="Orc Captain" book="Armies of Middle Earth" page="116" hidden="false" collective="false" type="model">
+    <selectionEntry id="a9b4-d635-b391-8385" name="Orc Captain" book="Armies of the Lord of the Rings" page="116" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="fc54-219c-b119-9223" name="Orc Captain" book="Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -4121,7 +4121,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="683f-49f2-0fee-2dfb" name="Orc Drummer" book="Armies of Middle Earth" page="118" hidden="false" collective="false" type="model">
+    <selectionEntry id="683f-49f2-0fee-2dfb" name="Orc Drummer" book="Armies of the Lord of the Rings" page="118" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="1e43-8e8c-881d-45fb" name="Orc Drummer" book="Armies of the Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -4217,7 +4217,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aac6-9294-5f23-909d" name="Orc Shaman" book="Armies of Middle Earth" page="117" hidden="false" collective="false" type="model">
+    <selectionEntry id="aac6-9294-5f23-909d" name="Orc Shaman" book="Armies of the Lord of the Rings" page="117" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="b65b-211a-94fe-6a3d" name="Orc Shaman" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -4354,7 +4354,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ecbe-58d0-4882-8614" name="Orc Taskmaster" book="Armies of Middle Earth" page="117" hidden="false" collective="false" type="model">
+    <selectionEntry id="ecbe-58d0-4882-8614" name="Orc Taskmaster" book="Armies of the Lord of the Rings" page="117" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="4239-2926-d235-dae3" name="Orc Taskmaster" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -4460,7 +4460,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fa50-db71-dea5-c70c" name="Orc Tracker" book="Armies of Middle Earth" page="120" hidden="false" collective="false" type="model">
+    <selectionEntry id="fa50-db71-dea5-c70c" name="Orc Tracker" book="Armies of the Lord of the Rings" page="120" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="15bd-418a-9178-a2a6" name="Orc Tracker" book="Armies of the Lord of the Rings" page="120" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -4546,7 +4546,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="621f-2852-693e-b000" name="Ringwraith" book="Armies of Middle Earth" page="115" hidden="false" collective="false" type="model">
+    <selectionEntry id="621f-2852-693e-b000" name="Ringwraith" book="Armies of the Lord of the Rings" page="115" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2d60-f961-81e4-ad13" name="Ringwraith" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -4865,7 +4865,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dea0-a30a-99cf-37f2" name="The Betrayer" book="Armies of Middle Earth" page="140" hidden="false" collective="false" type="model">
+    <selectionEntry id="dea0-a30a-99cf-37f2" name="The Betrayer" book="Armies of the Lord of the Rings" page="140" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="376c-fcfc-d3e3-10ae" name="The Betrayer" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -5126,7 +5126,7 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a720-2ad1-0ffa-060b" name="The Dark Marshal" book="Armies of Middle Earth" page="136" hidden="false" collective="false" type="model">
+    <selectionEntry id="a720-2ad1-0ffa-060b" name="The Dark Marshal" book="Armies of the Lord of the Rings" page="136" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="3ebd-4c01-964a-1c13" name="The Dark Marshal" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -5389,7 +5389,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b7fb-f85a-1d9d-69ed" name="The Knight of Umbar" book="Armies of Middle Earth" page="139" hidden="false" collective="false" type="model">
+    <selectionEntry id="b7fb-f85a-1d9d-69ed" name="The Knight of Umbar" book="Armies of the Lord of the Rings" page="139" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="cef9-7ac4-1d93-562d" name="The Knight of Umbar" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -5646,7 +5646,7 @@ He doesn&apos;t need to adopt all these characteristics.</description>
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="80d2-6c5c-ae8c-97d3" name="The Shadow Lord" book="Armies of Middle Earth" page="137" hidden="false" collective="false" type="model">
+    <selectionEntry id="80d2-6c5c-ae8c-97d3" name="The Shadow Lord" book="Armies of the Lord of the Rings" page="137" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d24b-8a29-6fa0-1531" name="The Shadow Lord" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -5901,7 +5901,7 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a899-818e-d270-2ce1" name="The Tainted" book="Armies of Middle Earth" page="125" hidden="false" collective="false" type="model">
+    <selectionEntry id="a899-818e-d270-2ce1" name="The Tainted" book="Armies of the Lord of the Rings" page="125" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="3957-decc-0fc5-25d8" name="The Tainted" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -6174,7 +6174,7 @@ On a 6 they suffer a wound.</description>
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4420-7bc7-d848-5b25" name="The Undying" book="Armies of Middle Earth" page="138" hidden="false" collective="false" type="model">
+    <selectionEntry id="4420-7bc7-d848-5b25" name="The Undying" book="Armies of the Lord of the Rings" page="138" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="c546-b244-8a7f-9127" name="The Undying" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -6428,7 +6428,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="319b-3d6d-42ff-8de5" name="The Witch-King of Angmar" book="Armies of Middle Earth" page="114" hidden="false" collective="false" type="model">
+    <selectionEntry id="319b-3d6d-42ff-8de5" name="The Witch-King of Angmar" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d786-fee8-e70c-6da4" name="The Witch-King of Angmar" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -6852,7 +6852,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ab1-4e5f-9d5c-772d" name="Warg Rider" book="Armies of Middle Earth" page="120" hidden="false" collective="false" type="model">
+    <selectionEntry id="3ab1-4e5f-9d5c-772d" name="Warg Rider" book="Armies of the Lord of the Rings" page="120" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="af77-c158-96e6-424a" name="Warg Rider" book="Armies of the Lord of the Rings" page="120" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -7876,7 +7876,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db1b-53b1-b9ef-3407" name="Shelob" book="Armies of Middle Earth" page="116" hidden="false" collective="false" type="model">
+    <selectionEntry id="db1b-53b1-b9ef-3407" name="Shelob" book="Armies of the Lord of the Rings" page="116" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="c4c6-7314-19c1-94a5" name="Shelob" book="Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -8602,11 +8602,11 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b814-0914-4b8c-5db8" name="The One Ring" book="Armies of The Lord of the Rings" page="9" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b814-0914-4b8c-5db8" name="The One Ring" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="06b1-9898-550e-f1e6" name="The One Ring" book="Armies of The Lord of the Rings" page="9" hidden="false" targetId="70dd-ae39-8a1d-4757" type="profile">
+        <infoLink id="06b1-9898-550e-f1e6" name="The One Ring" book="" page="" hidden="false" targetId="70dd-ae39-8a1d-4757" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9053,7 +9053,7 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="88c9-e24d-9402-92a3" name="The Dark Lord Sauron" book="Armies of Middle Earth" page="113" hidden="false" collective="false" type="model">
+    <selectionEntry id="88c9-e24d-9402-92a3" name="The Dark Lord Sauron" book="Armies of the Lord of the Rings" page="113" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="0762-fda8-abcb-b191" name="The Dark Lord Sauron" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -11384,7 +11384,11 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Can be put on during Movement phase - causing wearer to become Invisible. Must pass Courage test to remove the Ring during the Movement phase. [Cannot put on and remove the Ring in the same Turn.] [Suffers Sauron&apos;s Will while wearing the Ring.] [If mounted when put on, Mount will bolt and Rider must take Thrown Rider test.]"/>
+        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+Can be put on during Movement phase - causing wearer to become Invisible. Must pass Courage test to remove the Ring during the Movement phase.
+[Cannot put on and remove the Ring in the same Turn.]
+[Suffers Sauron&apos;s Will while wearing the Ring.]
+[If mounted when put on, Mount will bolt and Rider must take Thrown Rider test.]"/>
       </characteristics>
     </profile>
     <profile id="bd94-68e6-83fe-67bf" name="Iron-shod Hooves" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
@@ -11762,7 +11766,7 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
       <modifiers/>
       <characteristics/>
     </profile>
-    <profile id="7cdf-b88e-8fee-c43c" name="Wood Elf Spear" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+    <profile id="7cdf-b88e-8fee-c43c" name="Wood Elf Spear" book="Armies of the Lord of the Rings" page="88" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11829,6 +11833,13 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
       <characteristics/>
     </profile>
     <profile id="9483-20a5-e53b-78f4" name="War Spear" book="" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="2cec-c649-110e-18ef" name="Shield" book="" page="" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
