@@ -71,12 +71,6 @@ Special rules marked with an * affect all models from this army list, not just t
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3598-074b-ccb9-4488" name="* Chief of Lamedon (Passive)" hidden="false" targetId="5d29-cd6e-b5e0-f419" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -99,50 +93,18 @@ Special rules marked with an * affect all models from this army list, not just t
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="45bb-6675-d409-6e1e" name="Broadsword" book="Armies of The Lord of the Rings" page="48" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="9108-8506-29b4-8a21" name="Broadsword" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics/>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="93c6-5451-8ace-c533" name="Broadsword (Active)" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>
-If the model fighting with a Broadsword socres a natural 6 in a Duel roll, they do not apply the penalty for using a two-handed weapon.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="53db-a2a2-bd44-0a9c" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93c3-cb91-f456-34d2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f247-a686-f6e6-2717" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs/>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="ddf9-f292-69ac-0a5c" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e9c8-55dc-3959-1c8c" name="Broadsword" hidden="false" targetId="47f7-2a33-4298-b897" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -170,12 +132,19 @@ If the model fighting with a Broadsword socres a natural 6 in a Duel roll, they 
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="41a6-db99-fdab-0080" name="* The Lord of Lossarnach (Passive)" hidden="false" targetId="61f6-d345-15ca-991a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -187,75 +156,105 @@ If the model fighting with a Broadsword socres a natural 6 in a Duel roll, they 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="504e-fa06-bdd7-5b0d" name="Axe of Lassarnach" book="Armies of The Lord of the Rings" page="28" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="07ec-1769-0aed-db1b" name="Axe of Lossanarch" book="Armies of The Lord of the Rings" page="28" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>An Axeman of Lossarnach can use his axe as either a spear or a two-handed weapon.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea97-c3ae-7e6b-e4e2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c07b-c531-62b3-05e3" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="52a7-d04b-db44-edac" name="Heavy armour" book="Armies of The Lord of the Rings" page="28" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c381-3442-3c0e-01c4" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="e214-53aa-ee6a-fa86">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc35-4a77-327d-d3f8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc77-eeca-0c6d-6200" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e9e-fc63-2e5b-1261" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d109-986a-b6af-5c5e" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="e214-53aa-ee6a-fa86" name="Axe of Lassarnach" book="Armies of The Lord of the Rings" page="28" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="fe94-b355-faf5-54a5" name="Axe of Lassarnach" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics/>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="5da2-59b6-f1d8-bfc0" name="Axe of Lossanarch (Active)" book="Armies of The Lord of the Rings" page="50" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>
+An axe of Lossarnach can be used as either a spear or a two-handed axe.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="764c-fed4-283a-596d" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="b29c-4e7c-8816-1611" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="671e-c9ac-149e-c348" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6082-47e1-0ce3-feac" name="Banner" book="Armies of The Lord of the Rings" page="28" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="a163-89b1-05fb-39dc" name="New InfoLink" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
+          <entryLinks>
+            <entryLink id="4983-56e9-5078-b1f5" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-            </infoLink>
-          </infoLinks>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="487d-fc55-10a4-fb54" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8694-f3ec-fb05-401f" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41d9-2b3e-dc06-844f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd13-4516-2cee-d623" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="9.0"/>
       </costs>
@@ -280,15 +279,29 @@ If the model fighting with a Broadsword socres a natural 6 in a Duel roll, they 
         </profile>
       </profiles>
       <rules>
-        <rule id="7c77-259e-18d6-8c9f" name="Dead-eye Shot" book="Armies of The Lord of the Rings" page="28" hidden="false">
+        <rule id="7c77-259e-18d6-8c9f" name="Dead-eye Shot (Active)" book="Armies of The Lord of the Rings" page="51" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When shooting, this model can re-roll failed To Wound rolls against monsters.</description>
+          <description>
+When benefiting from a Heroic Shoot, this model may re-roll failed To Wound rolls when making shooting attacks.</description>
         </rule>
       </rules>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="c4be-a327-c70e-a2c9" name="Mountain Dweller (Active)" hidden="false" targetId="e428-dd18-64fa-a9a7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7f0b-823c-5783-bf44" name="* Lord of the Blackroot Vale (Passive)" hidden="false" targetId="b042-2071-8b33-4279" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -300,97 +313,80 @@ If the model fighting with a Broadsword socres a natural 6 in a Duel roll, they 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="07b1-3e78-ba6a-7d5b" name="Armour" book="Armies of The Lord of the Rings" page="28" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ac33-28d5-1a2a-fd3e" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3aff-65c2-19e1-0671" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2313-a396-54c6-0b30" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8f94-41d3-2a43-b982" name="Bow" book="Armies of The Lord of the Rings" page="28" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="bd6b-e9cf-2a0b-a36c" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
           <profiles/>
           <rules/>
-          <infoLinks>
-            <infoLink id="6be5-e607-aa03-da5e" name="New InfoLink" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b485-adba-f8a5-1843" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f934-9fc9-bda5-dc0a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2968-d2e1-17f7-f27b" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="df0e-660a-a2c5-2d8b" name="Banner" book="Armies of The Lord of the Rings" page="28" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="2e1e-6847-2f39-8d0b" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
-          <infoLinks>
-            <infoLink id="cf6b-10d0-7a20-2959" name="New InfoLink" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6dc7-cd21-fc3c-e308" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b574-45df-2cb4-9df2" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="84a5-1323-d1e1-8f33" name="War horn" book="Armies of The Lord of the Rings" page="28" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="5a9e-e04a-a7dc-9c81" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
           <profiles/>
           <rules/>
-          <infoLinks>
-            <infoLink id="4861-efd5-0904-89ec" name="New InfoLink" hidden="false" targetId="2763-dbf3-7fde-9758" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
+          <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a18b-8631-6286-41a1" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+        <entryLink id="c7a0-8d99-1f84-1f9c" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c4ff-600e-77ec-d2a4" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
@@ -417,24 +413,7 @@ If the model fighting with a Broadsword socres a natural 6 in a Duel roll, they 
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="8310-71d2-afae-0b6e" name="* Dol Amroth for Gondor! (Passive)" book="Armies of The Lord of the Rings" page="47" hidden="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c1e-4299-27d7-0137" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <description>
-Captains of Dol Amroth, Knights of Dol Amroth and Men-at-arms of Dol Amroth within 12&quot; of Prince Imrahil count as being in range of a banner.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="ee0c-4b62-4dbd-854d" name="Pride of Dol Amroth (Active)" hidden="false" targetId="403e-b639-4235-3c99" type="rule">
           <profiles/>
@@ -461,6 +440,12 @@ Captains of Dol Amroth, Knights of Dol Amroth and Men-at-arms of Dol Amroth with
           <modifiers/>
         </infoLink>
         <infoLink id="b36c-1263-aa38-88f3" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f7c8-b628-1b69-57df" name="* Dol Amroth for Gondor! (Passive)" hidden="false" targetId="fd98-e6e4-0ff3-2507" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -579,15 +564,23 @@ Captains of Dol Amroth, Knights of Dol Amroth and Men-at-arms of Dol Amroth with
         </profile>
       </profiles>
       <rules>
-        <rule id="5262-aa12-380b-7e39" name="The Honour of Lamedon" book="Armies of The Lord of the Rings" page="2" hidden="false">
+        <rule id="5262-aa12-380b-7e39" name="The Honour of Lamedon (Passive)" book="Armies of The Lord of the Rings" page="51" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Clansmen of Lamedon always count as being within the arae of effect of a banner if Angbor the Fearless is within 6&quot;.</description>
+          <description>
+Clansmen of Lamedon within 6&quot; of Angbor the Fearless count as being in range of a banner.</description>
         </rule>
       </rules>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="6412-756c-ba58-d834" name="* Chief of Lamedon (Passive)" hidden="false" targetId="5d29-cd6e-b5e0-f419" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -599,51 +592,26 @@ Captains of Dol Amroth, Knights of Dol Amroth and Men-at-arms of Dol Amroth with
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6edd-7445-da7c-ae03" name="Armour" book="Armies of The Lord of the Rings" page="28" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="fd68-ce61-406a-3892" name="Broadsword" hidden="false" targetId="47f7-2a33-4298-b897" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef7b-7fa2-f0a8-f1c5" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="07e2-fb8a-57c2-1b5c" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ee90-a1ca-741e-9e8b" name="Two-handed weapon" book="Armies of The Lord of the Rings" page="28" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="f075-4034-b727-44b6" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
-          <infoLinks>
-            <infoLink id="c9a6-250d-26f2-72e7" name="New InfoLink" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
+          <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e454-df07-156e-4ce2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a7e-2071-3916-74a5" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
@@ -712,12 +680,6 @@ When shooting, Duinhir can re-roll failed To Wound rolls and causes D3 Wounds (r
           <modifiers/>
         </infoLink>
         <infoLink id="3445-1546-2032-9b30" name="Mountain Dweller (Active)" hidden="false" targetId="e428-dd18-64fa-a9a7" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a426-168d-7cde-6c79" name="* Lord of the Blackroot Vale (Passive)" hidden="false" targetId="b042-2071-8b33-4279" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -912,14 +874,6 @@ When shooting, Duinhir can re-roll failed To Wound rolls and causes D3 Wounds (r
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e5f2-ded0-09d0-da0d" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="d4b0-e0b8-efd2-513b" name="War Spear" hidden="false" targetId="0040-e6b2-0424-f3f8" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -984,16 +938,21 @@ When shooting, Duinhir can re-roll failed To Wound rolls and causes D3 Wounds (r
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="30b5-0a48-6fbb-e72c" name="Dol Amroth for Gondor!" book="Armies of The Lord of the Rings" page="27" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="88aa-ca91-97be-5782" name="Pride of Dol Amroth (Active)" hidden="false" targetId="403e-b639-4235-3c99" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Knights of Dol Amroth always count as being within the area of effect of a banner if Prince Imrahil is within 12&quot;.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+        </infoLink>
+        <infoLink id="8e5f-8ad2-66a4-d61f" name="* Dol Amroth for Gondor! (Passive)" hidden="false" targetId="fd98-e6e4-0ff3-2507" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1024,6 +983,81 @@ When shooting, Duinhir can re-roll failed To Wound rolls and causes D3 Wounds (r
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4810-4641-97e5-06b0" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="8">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="051a-03c9-4b62-c77e" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dd83-61ec-199b-12a9" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79b5-9203-0513-91cf" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4978-5280-04c2-c26e" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b089-7aae-a284-6eb1" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4af4-2763-368f-e5d9" name="Lance" hidden="true" targetId="90bc-b07f-fd9f-7a71" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="6db4-1a97-13d2-d51d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4810-4641-97e5-06b0" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="9.0"/>
@@ -1048,16 +1082,21 @@ When shooting, Duinhir can re-roll failed To Wound rolls and causes D3 Wounds (r
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="a3dc-3aeb-1011-c035" name="Dol Amroth for Gondor!" book="Armies of The Lord of the Rings" page="27" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="2d80-4eae-8223-e75b" name="Pride of Dol Amroth (Active)" hidden="false" targetId="403e-b639-4235-3c99" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Man-at-arms of Dol Amroth always count as being within the area of effect of a banner if Prince Imrahil is within 12&quot;.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+        </infoLink>
+        <infoLink id="fa12-0456-54f1-0a9b" name="* Dol Amroth for Gondor! (Passive)" hidden="false" targetId="fd98-e6e4-0ff3-2507" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1069,75 +1108,74 @@ When shooting, Duinhir can re-roll failed To Wound rolls and causes D3 Wounds (r
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="f342-851e-b2aa-6a93" name="Banner" book="Armies of The Lord of the Rings" page="27" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="273d-4fc2-9bc7-8b7d" name="New InfoLink" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="935b-3074-41ae-0728" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="cc45-ceef-7540-65be" name="Pike" book="Armies of The Lord of the Rings" page="27" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="4e78-cb36-ed46-3cf7" name="New InfoLink" hidden="false" targetId="c9f2-20e8-9d4e-27a6" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="52e2-c069-92d0-763f" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4635-5af8-b397-5f73" name="Heavy armour" book="Armies of The Lord of the Rings" page="27" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6b3b-00aa-be06-ad6d" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="a7dd-96ee-7b43-ef48">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9b1c-bfa4-eb35-6be1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e0a-c738-7735-7ba0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d90b-3e6d-3903-e725" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c65-87a5-7765-2af7" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+          <entryLinks>
+            <entryLink id="a7dd-96ee-7b43-ef48" name="Pike" hidden="false" targetId="d5ce-addd-b841-092a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="87c1-0546-2209-b121" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4f59-8a9a-4bb1-a82b" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a363-e1ed-299a-3fd0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d80f-429c-fe19-8f22" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="8.0"/>
+        <cost name="pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c1e-4299-27d7-0137" name="Prince Imrahil of Dol Amroth" book="Armies of The Lord of the Rings" page="47" hidden="false" collective="false" type="model">
@@ -1319,38 +1357,110 @@ The range of Prince Imrahil&apos;s Stand Fast! is 12&quot; rather than 6&quot;.<
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="47f7-2a33-4298-b897" name="Broadsword" book="Armies of The Lord of the Rings" page="48" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c423-5ebc-a395-9e28" name="Broadsword" book="Armies of The Lord of the Rings" page="48" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics/>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="869f-6028-b9cc-259b" name="Broadsword (Active)" book="" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If the model fighting with a Broadsword socres a natural 6 in a Duel roll, they do not apply the penalty for using a two-handed weapon.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="67fd-7c5e-afd2-7721" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5444-c7d1-eff5-e78d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6167-84c5-5349-a9df" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
-    <rule id="fd98-e6e4-0ff3-2507" name="* Dol Amroth for Gondor! (Passive)" book="Armies of The Lord of the Rings" page="47" hidden="false">
+    <rule id="fd98-e6e4-0ff3-2507" name="* Dol Amroth for Gondor! (Passive)" book="Armies of The Lord of the Rings" page="47" hidden="true">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c1e-4299-27d7-0137" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <description>
 Captains of Dol Amroth, Knights of Dol Amroth and Men-at-arms of Dol Amroth within 12&quot; of Prince Imrahil count as being in range of a banner.</description>
     </rule>
-    <rule id="61f6-d345-15ca-991a" name="* The Lord of Lossarnach (Passive)" book="Armies of The Lord of the Rings" page="47" hidden="false">
+    <rule id="61f6-d345-15ca-991a" name="* The Lord of Lossarnach (Passive)" book="Armies of The Lord of the Rings" page="47" hidden="true">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="171f-c511-9e10-1ac2" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <description>
 Axemen of Lassarnach within 6&quot; of Forlong the Fat must re-roll results of a 1 when rolling To Wound within the Fight phase.</description>
     </rule>
-    <rule id="5d29-cd6e-b5e0-f419" name="* Chief of Lamedon (Passive)" book="Armies of The Lord of the Rings" page="48" hidden="false">
+    <rule id="5d29-cd6e-b5e0-f419" name="* Chief of Lamedon (Passive)" book="Armies of The Lord of the Rings" page="48" hidden="true">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="090b-848c-f3b7-e3ca" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <description>
 Clansmen of Lamedon within 6&quot; of Angbor the Fearless gain the Fearless special rule.</description>
     </rule>
-    <rule id="b042-2071-8b33-4279" name="* Lord of the Blackroot Vale (Passive)" book="Armies of The Lord of the Rings" page="48" hidden="false">
+    <rule id="b042-2071-8b33-4279" name="* Lord of the Blackroot Vale (Passive)" book="Armies of The Lord of the Rings" page="48" hidden="true">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad1e-6207-d209-f78b" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <description>
 Blackroot Vale Archers within 6&quot; of Duinhir, that did not move during the Move phase, may re-roll 1s To Hit during the Shoot phase.</description>
     </rule>
