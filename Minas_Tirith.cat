@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2d85-84b6-487d-b636" name="Minas Tirith" book="Armies of The Lord of the Rings" page="32" revision="1" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2d85-84b6-487d-b636" name="Minas Tirith" book="Armies of The Lord of the Rings" page="32" revision="3" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="3b25-fa15-a6f8-8483" name="You are Men of Gondor. Whatever comes through that Gate, you will stand your Ground!" book="Armies of The Lord of the Rings" page="32" hidden="false">
@@ -873,7 +873,9 @@ The Banner of Minas Tirith is a banner with range 6&quot;. Boromir and all frien
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="868e-913f-22f9-0d09" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="26c8-7da5-2898-d143-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -1046,20 +1048,12 @@ Cirion receives a +2 bonus to his Courage when models with the Blades of the Dea
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="f25f-32a1-b654-8916" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+        <entryLink id="f25f-32a1-b654-8916" name="Shield (Included)" hidden="false" targetId="d0c2-4808-c3a3-63ac" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b972-e9b4-66bf-0405" type="min"/>
-          </constraints>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
         <entryLink id="035d-8f2a-abc1-ab64" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
@@ -2403,7 +2397,9 @@ If a Knight of the White Tower scores a natural roll of a 6 in a Duel roll, he d
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eee5-0820-ff5a-cd09" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="b52a-4d41-2b8b-d904-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>

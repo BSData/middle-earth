@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Rivendell" book="Armies of the Lord of the Rings" revision="5" battleScribeVersion="2.01" authorName="Cord" authorContact="" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Rivendell" book="Armies of the Lord of the Rings" revision="6" battleScribeVersion="2.01" authorName="Cord" authorContact="" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a481-60cc-b19d-d194" name="&apos;Tangado haid, leithio i philinn!&quot;" book="Armies of the Lord of the Rings" page="72" hidden="false">
@@ -1673,7 +1673,9 @@ Glorfindel always counts as having had the Fortify Spirit Magical Power cast upo
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7651-96f9-a4da-1236" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="cdd7-b462-b815-429e-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
