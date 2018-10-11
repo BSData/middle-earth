@@ -640,9 +640,9 @@ Friendly Angmar Orc models within 3&quot; of a friendly Spirit Hero model gain t
         <cost name="pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1236-3448-2787-eade" name="Wild Warg" hidden="false" collective="false" type="model">
+    <selectionEntry id="1236-3448-2787-eade" name="Wild Warg" book="Armies of the Lord of the Rings" page="133" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="c11b-3f35-47ae-28c4" name="Wild Warg" book="Middle-earth Strategy Battle Game Rules Manual" page="133" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="c11b-3f35-47ae-28c4" name="Wild Warg" book="Armies of the Lord of the Rings" page="133" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1152,6 +1152,189 @@ This is cumulative with other such penalties, such as for wielding a two-handed 
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db7a-7b1a-9cc2-e734" name="Wild Warg Cheiftain" book="Armies of the Lord of the Rings" page="130" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="bf1d-1a4d-8b58-7a47" name="Wild Warg Chieftain " book="Armies of the Lord of the Rings" page="130" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="10&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="6"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Warg"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2b68-bed9-49b2-334d" name="Packlord (Active)" book="Armies of the Lord of the Rings" page="130" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Only friendly Warg models may benefit from a Wild Warg Chieftain&apos;s Stand Fast! and Heroic Actions.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e0f5-d84a-4d80-3f69" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e981-0741-da05-e18a" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4fc1-3481-4cda-ede4" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9c81-284f-1458-9dca" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="37a8-a063-01ff-f653" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c308-4e17-a0ab-a695" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="133" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b4c5-89fd-5c39-67ee" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="133" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20ec-a1d0-db9e-273c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f280-cbbb-97e5-28ae" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f092-efcf-9abd-2603" name="Dead Marsh Spectre" book="Armies of the Lord of the Rings" page="132" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4a62-bd24-b092-c8f3" name="Dead Marsh Spectre" book="Armies of the Lord of the Rings" page="132" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Spirit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a40b-e12b-2aab-5db6" name="A Fell Light is in Them (ACtive)" book="Armies of the Lord of the Rings" page="132" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+At any point during its move, a Spectre can choose a single enemy model anywhere within 12&quot; and Line of Sight. This model must pass a Courage test or make a full move under the control of the Spectre&apos;s controlling player, even if it has already moved. This move cannot be used to enter an enemy model&apos;s Control Zone, or perform actions that would cause direct harm to the target (such as jumping down a cliff). It may also not be used to have the target dismount or lie down. Affected models may move no further that turn, and may not use Active abilities for the remainder or the Move phase.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="fb1c-ad20-b5ac-8cc0" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f3f2-ee41-d431-2ded" name="Blades of the Dead (Active)" hidden="false" targetId="d43f-fbb8-6cc1-b54a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="71a2-528a-9855-e5d8" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d544-592b-9d5d-386a" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1b71-c3e8-6fbc-9a9b" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde2-2e1a-a4ef-e043" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
