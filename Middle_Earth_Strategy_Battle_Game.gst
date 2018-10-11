@@ -3455,6 +3455,14 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="62db-b042-0b64-4efd" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
@@ -4116,6 +4124,14 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a155-0b2b-a809-118d" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
@@ -4148,13 +4164,6 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="a998-f887-7ed1-bc5e" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="94da-9d2f-74d7-1b7c" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
           <profiles/>
           <rules/>
@@ -4453,6 +4462,14 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7a7-654c-78e9-47af" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f9bf-89b6-d2e5-aa32" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -4860,6 +4877,14 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4f36-cffc-59b7-48de" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="55.0"/>
@@ -5119,6 +5144,14 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fba7-07e0-95f7-e658" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bf04-c370-5bdb-fc7e" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -5384,6 +5417,14 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="cfee-6abd-25cd-57fa" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
@@ -5641,6 +5682,14 @@ He doesn&apos;t need to adopt all these characteristics.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="5aed-b166-2ec5-7229" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
@@ -5894,6 +5943,14 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e67b-fb64-b87e-6baa" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e689-02d9-a669-402a" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -6169,6 +6226,14 @@ On a 6 they suffer a wound.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="425d-1e3d-5831-d17b" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
@@ -6416,6 +6481,14 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <categoryLinks/>
         </entryLink>
         <entryLink id="3f5f-f378-d70a-6fad" name="One of Nine (Passive)" hidden="false" targetId="4157-47d2-6e0a-2043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b7fe-bfb5-4454-96a5" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6845,6 +6918,14 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c82-f77b-1765-0f77" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5155-4104-f993-f3ce" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -7963,13 +8044,6 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c364-5bf9-f9b5-74bf" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="8e44-66a3-5fca-5f78" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="f58a-cc9a-ce29-ee84" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
           <profiles/>
           <rules/>
@@ -8091,7 +8165,9 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
             </infoLink>
           </infoLinks>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64d3-ce5e-6c00-47ac" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -9326,6 +9402,14 @@ If the model survives, even if they did not suffer a wound, then the target is a
           <categoryLinks/>
         </entryLink>
         <entryLink id="e1fc-2ed5-2c43-5667" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8b8a-ec57-7261-054a" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
