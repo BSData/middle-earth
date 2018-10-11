@@ -958,6 +958,108 @@ In a turn in which Buhrdûr slays an enemy Hero or Monster model in combat, all 
         <cost name="pts" costTypeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e19f-1688-9717-82e2" name="Shade" book="Armies of the Lord of the Rings" page="128" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3748-dfdc-20fb-67d0" name="Shade" book="Armies of the Lord of the Rings" page="128" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="1/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="1"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="1"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="8"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="0"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f0ca-884a-ae78-afdb" name="Chill Aura (Passive)" book="Armies of the Lord of the Rings" page="128" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+At the start of the Fight Phase, before Heroic Actions are declared, a Shade may expend a Will point to activate this ability. 
+Any enemy model within 6&quot; of one or more Shades suffers a -1 penalty on its Duel roll.
+This is cumulative with other such penalties, such as for wielding a two-handed weapon.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ee15-04d4-065a-976d" name="Blades of the Dead (Active)" hidden="false" targetId="d43f-fbb8-6cc1-b54a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f27e-7c0f-6d47-6790" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ac-35c3-6e50-2464" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b809-5250-1121-c743" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ba4d-8736-0b76-bcd7" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1b4d-41f6-d9f3-09ac" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="40f8-53fa-0845-2840" name="Armed" book="Armies of the Lord of the Rings" page="128" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6671-6315-4d0f-3f09" name="Armed" book="Armies of the Lord of the Rings" page="128" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eef-af9d-b114-33b3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0801-8b26-96ad-11bf" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="083a-b025-8874-4db5" name="The Dwimmerlaik" hidden="false" targetId="fe6d-a3fd-b8f7-353f" type="selectionEntry">
@@ -1030,14 +1132,6 @@ In a turn in which Buhrdûr slays an enemy Hero or Monster model in combat, all 
       </categoryLinks>
     </entryLink>
     <entryLink id="3ed1-0512-f9c6-6ea4" name="Cave Troll" hidden="false" targetId="74c7-ae88-d892-e03b" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="d31d-2d1e-cb83-7fa9" name="Mordor Troll Chieftain" hidden="false" targetId="6887-9187-92d9-4a67" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
