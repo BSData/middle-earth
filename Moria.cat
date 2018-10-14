@@ -93,7 +93,10 @@ On a 6, the model suffers the Set Ablaze special rule. Additionally, the Balrog 
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ca3-ed24-5e9a-b21d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c454-6157-fb88-d4b8" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="98e0-5f91-425e-e041" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -245,7 +248,10 @@ Durbûrz&apos;s Stand Fast! has a range of 12&quot;.</description>
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eb7-8388-7ba5-db1b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92fb-7b93-09e8-cd26" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="6804-3f50-beee-d452" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -332,7 +338,10 @@ Durbûrz&apos;s Stand Fast! has a range of 12&quot;.</description>
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2550-dca3-c344-60b6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0797-4d91-293d-8958" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="fbd0-7709-d5cf-841f" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -482,7 +491,10 @@ Drûzhag may include Wild Wargs, Fell Wargs, Giant Spiders, and Bat Swarms in hi
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a1-73a1-bddb-cb20" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c51f-1c54-c34c-45d5" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="88ca-7097-3c94-b23d" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -639,7 +651,10 @@ Ashrâk may include Giant Spiders in his warband as if they were part of the sam
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eed-3754-cbea-0743" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fea6-833b-7343-d005" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="b506-e997-702c-5415" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -683,9 +698,42 @@ Ashrâk may include Giant Spiders in his warband as if they were part of the sam
       </costs>
     </selectionEntry>
     <selectionEntry id="79aa-8c65-cee9-bfea" name="Moria Goblin Captain" book="Armies of the Lord of the Rings" page="155" hidden="false" collective="false" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="0c9c-7c8e-b801-1250" name="Moria Goblin Captain" book="Armies of the Lord of the Rings" page="155" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Goblin"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="668c-169f-2fa1-0751" name="Cave Dweller (Active)" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="281b-7324-440a-a256" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -706,15 +754,115 @@ Ashrâk may include Giant Spiders in his warband as if they were part of the sam
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e513-9e32-7d96-144a" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3245-585b-dd14-b61c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9ba4-c5a8-99da-358c" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6612-0e84-c2ff-baf7" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="07bf-d57c-230d-0680" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98ad-0f07-10ec-06fb" name="Moria Goblin Shaman" book="Armies of the Lord of the Rings" page="155" hidden="false" collective="false" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="9eff-afcc-565a-9790" name="Moria Goblin Shaman" book="Armies of the Lord of the Rings" page="155" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="2/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Goblin"/>
+          </characteristics>
+        </profile>
+        <profile id="7cf7-ad8d-469f-a28b" name="Fury (Moria Goblin)" book="Armies of the Lord of the Rings" page="155" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="c9ba-d282-971e-675c" name="Transfix" book="Armies of the Lord of the Rings" page="155" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="16ce-b3c7-50bf-8ee6" name="Cave Dweller (Active)" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f78a-0d7d-60a0-bb5d" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5b1b-a162-0868-cb8f" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="05cf-f50a-1198-15a8" name="Fury" hidden="false" targetId="2b9f-9d60-2bce-8c5d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -735,15 +883,86 @@ Ashrâk may include Giant Spiders in his warband as if they were part of the sam
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="aec7-75d3-289a-bbc3" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d16a-3ba0-c153-ada5" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="601c-f9e0-1db3-4f1f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d0e-626d-61b1-af63" name="Moria Blackshield Captain" book="Armies of the Lord of the Rings" page="156" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+      <profiles>
+        <profile id="46a9-05d9-650d-4631" name="Moria Blackshield Captain" book="Armies of the Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Goblin"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9ed2-6551-798c-53ec" name="Hatred (Dwarf)" book="Armies of the Lord of the Rings" page="156" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="24a5-a5ae-20af-b3bd" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="824f-ea68-c382-1930" name="Cave Dweller (Active)" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="130f-f898-5330-afc6" name="Hatred (Active)" hidden="false" targetId="941e-348f-26c0-f0a7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -764,15 +983,99 @@ Ashrâk may include Giant Spiders in his warband as if they were part of the sam
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="ca54-f07b-e054-5f59" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dba9-7371-ba91-60a3" name="Two-Handed Sword" hidden="false" targetId="8b7f-42e1-e4ab-43a1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3e2-53a3-0725-5e01" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1cf0-bb9e-0cf2-403f" name="Moria Blackshield Shaman" book="Armies of the Lord of the Rings" page="156" hidden="false" collective="false" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="8040-4701-031c-6551" name="Moria Blackshield Shaman" book="Armies of the Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="2/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Goblin"/>
+          </characteristics>
+        </profile>
+        <profile id="9e2b-feb3-ded8-5348" name="Tremor" book="Armies of the Lord of the Rings" page="156" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="6&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="7ac5-ea8d-49d4-a5dc" name="Shatter" book="Armies of the Lord of the Rings" page="156" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="641e-3395-94c6-79cc" name="Cave Dweller (Active)" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="26a2-cf25-78df-1e37" name="Tremor" hidden="false" targetId="5fe1-9731-4a4c-2fb6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fcda-cd40-ffd0-f169" name="Shatter" hidden="false" targetId="b655-5535-8940-120c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a85b-4138-cf34-94e9" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -793,7 +1096,32 @@ Ashrâk may include Giant Spiders in his warband as if they were part of the sam
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="8960-2c42-6993-0333" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="86e4-727c-c414-70f0" name="Staff" hidden="false" targetId="ce32-b111-669b-6bfa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de81-9193-471e-3978" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
