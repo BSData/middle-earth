@@ -404,9 +404,83 @@ On a 4+, all friendly Moria Goblin models within 3&quot; of Grôblog gain +1 Fig
       </costs>
     </selectionEntry>
     <selectionEntry id="6248-0448-c5a4-e3c7" name="Drûzhag, The Beast Caller" book="Armies of the Lord of the Rings" page="153" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+      <profiles>
+        <profile id="d7a2-9b2a-de4d-2222" name="Drûzhag, The Beast Caller" book="Armies of the Lord of the Rings" page="153" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="5"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Goblin"/>
+          </characteristics>
+        </profile>
+        <profile id="56dc-0f15-c1b8-65a8" name="Enrage Beast" book="Armies of the Lord of the Rings" page="153" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="312c-f558-2cf3-5b0f" name="Fury (*)" book="Armies of the Lord of the Rings" page="153" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="84ad-92be-c7cf-4dc0" name="* Master of the Dark Wild (Passive)" book="Armies of the Lord of the Rings" page="153" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Drûzhag may include Wild Wargs, Fell Wargs, Giant Spiders, and Bat Swarms in his warband as if they were part of the same army list. This does not count as allying. Additionally, all friendly Bat, Warg, and Spider models within 12&quot; of Drûzhag may use his Courage value instead of their own. Drûzhag&apos;s Fury Magical Power will affect himself and any model that is either a Bat, Spider, or Warg model.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="01c9-e23c-39b3-4a89" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="552b-1a9b-778d-625d" name="Cave Dweller (Active)" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8fa5-b6d9-c014-5a04" name="Enrage Beast" hidden="false" targetId="08d1-6197-f53b-de60" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="813e-4085-e511-5978" name="Fury" hidden="false" targetId="2b9f-9d60-2bce-8c5d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -427,7 +501,36 @@ On a 4+, all friendly Moria Goblin models within 3&quot; of Grôblog gain +1 Fig
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="ba33-078b-b9be-5c01" name="Staff" hidden="false" targetId="ce32-b111-669b-6bfa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84ff-8b3c-d389-d3b3" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8145-6059-9847-4d25" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6dc5-8f95-52d7-b7dd" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a1b-5fad-6c24-79d6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
