@@ -536,9 +536,108 @@ Drûzhag may include Wild Wargs, Fell Wargs, Giant Spiders, and Bat Swarms in hi
       </costs>
     </selectionEntry>
     <selectionEntry id="b425-c293-d513-91cf" name="Ashrâk" book="Armies of the Lord of the Rings" page="154" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+      <profiles>
+        <profile id="f772-c6c7-9256-0c9a" name="Ashrâk" book="Armies of the Lord of the Rings" page="154" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="2/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="4"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Goblin"/>
+          </characteristics>
+        </profile>
+        <profile id="0af6-fe03-a8ff-b603" name="Fury (Spider)" book="Armies of the Lord of the Rings" page="154" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="4cbe-52f1-1abc-8d6e" name="Shroud of Shadows" book="Armies of the Lord of the Rings" page="154" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="91f1-6e15-8602-3e5e" name="Spider-kin (Passive)" book="Armies of the Lord of the Rings" page="154" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Only Spider models may benefit from Ashrâk&apos;s Stand Fast! or Heroic Actions. Additionally, Ashrâk may only target Spider models with his Shroud of Shadows Magical Power.
+</description>
+        </rule>
+        <rule id="e568-9d1e-f1d3-8526" name="Death-touch (Passive)" book="Armies of the Lord of the Rings" page="154" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Any model that wounds, or is wounded by Ashrâk in a Fight must roll a d6.
+On a 4+, they suffer the effects of the Paralyse Magical Power.</description>
+        </rule>
+        <rule id="4b6e-4dd2-e4ee-9ec2" name="Poison Blood (Passive)" book="Armies of the Lord of the Rings" page="154" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Ashrâk may include Giant Spiders in his warband as if they were part of the same army list - this does not count as allying. Additionally, any Giant Spiders in your force may be upgraded to Venom-back spiders at the cost of +2 points a model. Venom-back spiders gain the Venom special rule.
+</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="47e6-7447-9623-db57" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c0d3-ccbb-9dec-c149" name="Cave Dweller (Active)" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0dac-80e9-fa7c-97d9" name="Fury" hidden="false" targetId="2b9f-9d60-2bce-8c5d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0f01-69e6-f3b8-4672" name="Shroud of Shadows" hidden="false" targetId="39c2-be11-8287-552c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9be3-3653-925c-5c8d" name="Paralyse" hidden="false" targetId="8ae4-8b3f-6268-956b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -559,7 +658,26 @@ Drûzhag may include Wild Wargs, Fell Wargs, Giant Spiders, and Bat Swarms in hi
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e5c8-9a5b-04b3-0072" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9ca0-b13b-739d-7c11" name="Two-Handed Staff" hidden="false" targetId="9705-cb6e-7706-7cff" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="593f-fa9f-19ec-2ec0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
