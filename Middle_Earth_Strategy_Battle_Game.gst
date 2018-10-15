@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="12" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="13" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -9851,6 +9851,41 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="046e-337a-4ef3-dfdd" name="Poisoned Blowpipe" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="74c9-059f-279b-8d79" name="Blowpipe" hidden="false" targetId="1962-4348-5130-757a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7f96-05c2-c74c-07b9" name="Poisoned Blowpipe" hidden="false" targetId="fb0a-e8c8-1921-394c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="273d-bf29-f5b6-717b" name="Poisoned Weapon (Active)" hidden="false" targetId="ad3a-a37d-44be-1bbe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dd4-6ff3-a378-2332" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
@@ -10476,7 +10511,8 @@ Cannot be seen when obscured beyond 6&quot;.
       <modifiers/>
       <description>
 Can Shoot in the Shoot Phase.
-[Must have used no more than half of their Movement in the Move Phase.]</description>
+[Must have used no more than half of their Movement in the Move Phase.]
+[Does not count towards bow limit.]</description>
     </rule>
     <rule id="4c59-dd5c-0c3b-10e1" name="War Spear" book="Middle-earth Strategy Battle Game Rules Manual" page="85" hidden="false">
       <profiles/>
@@ -12257,6 +12293,16 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
       <infoLinks/>
       <modifiers/>
       <characteristics/>
+    </profile>
+    <profile id="fb0a-e8c8-1921-394c" name="Poisoned Blowpipe" book="Middle-earth Strategy Battle Game Rules Manual" page="88" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
+      </characteristics>
     </profile>
   </sharedProfiles>
 </gameSystem>
