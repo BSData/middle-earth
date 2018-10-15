@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a048-dfc8-417f-d045" name="Fangorn" book="Armies of The Lord of the Rings" page="90" revision="1" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a048-dfc8-417f-d045" name="Fangorn" book="Armies of The Lord of the Rings" page="90" revision="2" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="234f-9763-6005-502b" name="Don&apos;t be Hasty!" book="Armies of The Lord of the Rings" page="90" hidden="false">
@@ -18,15 +18,7 @@ Ent models are completely unaffected by Nature&apos;s Wrath and Wrath of Bruinen
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d97-77c9-2759-ca19" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
     </infoLink>
   </infoLinks>
   <costTypes/>
@@ -36,7 +28,7 @@ Ent models are completely unaffected by Nature&apos;s Wrath and Wrath of Bruinen
   <selectionEntries>
     <selectionEntry id="996c-4380-c2a7-674d" name="Treebeard" book="Armies of The Lord of the Rings" page="91" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="d826-58f0-7f1c-0594" name="Treebeard" book="Armies of The Lord of the Rings" page="50" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="d826-58f0-7f1c-0594" name="Treebeard" book="Armies of The Lord of the Rings" page="91" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -64,7 +56,7 @@ Ent models are completely unaffected by Nature&apos;s Wrath and Wrath of Bruinen
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="52a4-3e68-c6f2-1902" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+        <infoLink id="52a4-3e68-c6f2-1902" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -135,7 +127,7 @@ Ent models are completely unaffected by Nature&apos;s Wrath and Wrath of Bruinen
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c19b-3eb2-b7a2-d8d0" name="Merry &amp; Pippin" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="c19b-3eb2-b7a2-d8d0" name="Merry &amp; Pippin" book="Armies of The Lord of the Rings" page="91" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="20b9-e3bf-0988-5279" name="Merry &amp; Pippin (Passive)" book="Armies of The Lord of the Rings" page="91" hidden="false">
@@ -209,6 +201,14 @@ Merry and Pippin may use their Throw Stones (Hobbit) special rule even if Treebe
           <categoryLinks/>
         </entryLink>
         <entryLink id="9a7b-ae76-7326-89e3" name="Throw Stones (Ent)" hidden="false" targetId="9c0f-def9-0b43-6176" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e408-8503-d57f-be3c" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
