@@ -1264,7 +1264,9 @@ Ashrâk may include Giant Spiders in his warband as if they were part of the sam
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9231-893d-11d9-acc8" name="Wyrmtongue" book="Armies of the Lord of the Rings" page="157" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1274,9 +1276,7 @@ Ashrâk may include Giant Spiders in his warband as if they were part of the sam
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-A Dragon with this ability can spend a single Will point each turn without reducing its own store of Will, so long as the Will point is used to cast one of the following Magical Powers. The controlling player may still spend extra Will points to increase the number of dice in the usual way: Transfix and Compel
-"/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" A Dragon with this ability can spend a single Will point each turn without reducing its own store of Will, so long as the Will point is used to cast one of the following Magical Powers. The controlling player may still spend extra Will points to increase the number of dice in the usual way: Transfix and Compel "/>
               </characteristics>
             </profile>
             <profile id="7b5e-b3ce-4c75-0643" name="Transfix" book="Armies of the Lord of the Rings" page="157" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
@@ -1335,8 +1335,7 @@ A Dragon with this ability can spend a single Will point each turn without reduc
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-The Dragon gains the Fly special rule."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" The Dragon gains the Fly special rule."/>
               </characteristics>
             </profile>
           </profiles>
@@ -1369,8 +1368,7 @@ The Dragon gains the Fly special rule."/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-The Dragon increases its Wounds and Defence to 9, rather than 7."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" The Dragon increases its Wounds and Defence to 9, rather than 7."/>
               </characteristics>
             </profile>
           </profiles>
@@ -1396,8 +1394,7 @@ The Dragon increases its Wounds and Defence to 9, rather than 7."/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Each time a Dragon Breathes Fire, it expends a point of Will. Treat the Dragon&apos;s fiery breath as a bow with a range of 12&quot;. If the shot hits, the target and all models (friend and foe) within 2&quot; suffer a Strength 10 hit, Any model that suffers an unsaved Wound (Fate may still be taken) from a Dragon&apos;s Breathe Fire is automatically slain. "/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Each time a Dragon Breathes Fire, it expends a point of Will. Treat the Dragon&apos;s fiery breath as a bow with a range of 12&quot;. If the shot hits, the target and all models (friend and foe) within 2&quot; suffer a Strength 10 hit, Any model that suffers an unsaved Wound (Fate may still be taken) from a Dragon&apos;s Breathe Fire is automatically slain. "/>
               </characteristics>
             </profile>
           </profiles>
@@ -1423,9 +1420,91 @@ Each time a Dragon Breathes Fire, it expends a point of Will. Treat the Dragon&a
       </costs>
     </selectionEntry>
     <selectionEntry id="be77-7e9c-52b7-f7a2" name="Cave Drake" book="Armies of the Lord of the Rings" page="158" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+      <profiles>
+        <profile id="7c1e-653f-6bcf-c943" name="Cave Drake" book="Armies of the Lord of the Rings" page="158" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="8&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="7"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="4"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="6"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Drake"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8455-96e7-c994-ef4e" name="Gaping Maw (Brutal Power Attack)" book="Armies of the Lord of the Rings" page="158" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Instead of striking normally, the Cave Drake may select a single Man-sized (or smaller) model involved in the same fight to attempt to swallow whole. Roll a D6. On a 3+, the model is swallowed whole and is removed as a casualtv. 
+Fate rolls may be made against this Brutal Power Attack as if it has caused a Wound, but if a model fails to save this with Fate it will be slain. 
+</description>
+        </rule>
+        <rule id="0fbc-29dc-5271-ff8a" name="Protect the Nest (Active)" book="Armies of the Lord of the Rings" page="158" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+At the start of the game, before any models have been deployed, the Cave Drake&apos;s controlling player may place a single 25mrn Nest marker per Cave Drake anywhere on the board. Whilst within 3&quot; of a Nest marker, a Cave Drake gains the Fearless special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6148-405c-d4f3-241f" name="Monstrous Charge (Active)" hidden="false" targetId="db00-aee5-4e28-c33d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="063f-a166-f7b0-bf7b" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7540-3698-6e00-518b" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bf3b-c1f6-717b-172c" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9532-a9b9-b1b3-d3e4" name="Mountain Dweller (Active)" hidden="false" targetId="e428-dd18-64fa-a9a7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c73d-dc06-3851-fdc8" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2f82-c64f-6038-0e39" name="Fearless (Passive)" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1444,7 +1523,33 @@ Each time a Dragon Breathes Fire, it expends a point of Will. Treat the Dragon&a
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="f668-abc2-1fa9-fa65" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="157" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8d19-dad7-dc00-92c6" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="157" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c191-468b-b9cd-7ceb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f36c-7df7-f75c-2cd6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
