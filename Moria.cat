@@ -2661,9 +2661,48 @@ While the Goblin with a Shield is alive and mounted upon the Warg, all of the pa
       </costs>
     </selectionEntry>
     <selectionEntry id="a94c-fe35-9198-d5cb" name="Dweller in the Dark" book="Armies of the Lord of the Rings" page="165" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+      <profiles>
+        <profile id="f7cc-2d19-776f-3805" name="Dweller in the Dark" book="Armies of the Lord of the Rings" page="165" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="7/3+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Spirit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9ce7-3f73-ab7b-cfbb" name="Murderous Power (Active)" book="Armies of the Lord of the Rings" page="165" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Whenever a Dweller in the Dark slays an enemy model in combat, it regains a single Wound lost earlier in the battle. Rend is the only Brutal Power Attack that allows a Dweller to regain Wounds in this manner.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6b07-3501-b62a-4f44" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8fba-3416-f8d4-1a51" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -2675,7 +2714,33 @@ While the Goblin with a Shield is alive and mounted upon the Warg, all of the pa
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="37cd-a5e0-b7c6-f7c1" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="165" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0139-de16-4c02-91e5" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="157" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d0c-8c5e-8b3d-0724" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fd3-79b8-980c-2cdb" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
