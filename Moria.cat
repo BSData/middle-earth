@@ -1557,9 +1557,100 @@ At the start of the game, before any models have been deployed, the Cave Drake&a
       </costs>
     </selectionEntry>
     <selectionEntry id="45fa-1b56-711e-648a" name="The Watcher in the Water" book="Armies of the Lord of the Rings" page="159" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+      <profiles>
+        <profile id="4698-1838-7a34-ad45" name="The Watcher in the Water" book="Armies of the Lord of the Rings" page="159" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="6"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="6"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="6"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="5"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Kraken"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4b11-0363-0a79-583d" name="Water Dweller" book="Armies of the Lord of the Rings" page="159" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+The Watcher is not slowed when entering a water feature. In fact, whilst within one, its Move value is doubled and it always counts as having rolled a 6 on the Swim chart. Additionally, if the Watcher charges whilst within a Water Feature, it gains the Monstrous Charge special rule. 
+</description>
+        </rule>
+        <rule id="bf9e-a124-ec01-9877" name="Dragged ot the Depths (Brutal Power Attack)" book="Armies of the Lord of the Rings" page="159" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Instead of striking normally, if the Watcher in the Water is within a water feature it can select a single Man-sized or smaller model involved in the same fight, and then roll a D6. On a 3+, that model suffers a Wound (Fate rolls can be made as usual). If the Wound is not saved, the model is dragged to the depths and immediately slain. The Watcher is then removed from the board and its controlling player will start to roll for the Watcher to re-arrive as described in the From the Deep special rule.
+</description>
+        </rule>
+        <rule id="b4e5-8ff7-b465-e98c" name="From the Deep" book="Armies of the Lord of the Rings" page="159" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+The Watcher in the Water can never be part of another Hero model&apos;s warband. 
+When you deploy your army, do not deploy the Watcher in the Water on the board — instead keep it to one side for later. During each Priority phase, after Priority has been rolled, announce if you would like the Watcher to arrive and if yes, roll a D6. On a 3+, the Watcher is ready to enter play. Once you have declared the Watcher is ready to enter, you must roll during each Priority phase thereafter until it is available.
+When the Watcher is ready to enter play, immediately place it anywhere on the battlefield — it can displace models. Move any displaced models the minimum distance possible so that they are 1 &quot; away from the Watcher (or as close as this situation will allow). In this situation, players take it in turns to displace models, starting with the Watcher&apos;s controlling player. This may create some odd situations, but represents the Watcher bursting forth, scattering warriors both friend and foe alike. 
+The Watcher cannot charge on the turn it arrives. 
+</description>
+        </rule>
+        <rule id="51a0-df0c-bff8-f50f" name="Many Tentacles" book="Armies of the Lord of the Rings" page="159" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+As the Watcher fights, it will lose a tentacle or two, each injury diminishing its threat. When the Watcher is reduced to 3 or less Wounds remaining, its Attacks are also reduced to 3. 
+</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b44b-cfbc-4d40-cd31" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bd36-c8c0-095d-a14a" name="Harbinger of Evil (Passive)" hidden="false" targetId="8052-396f-cad6-90a3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6e89-c532-caa5-4c27" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cf1e-0c34-ef80-08a9" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a33b-06e1-aa47-13ef" name="Monstrous Charge (Active)" hidden="false" targetId="db00-aee5-4e28-c33d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1578,7 +1669,40 @@ At the start of the game, before any models have been deployed, the Cave Drake&a
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="7137-e996-6e3a-b00f" name="Tentacles (Active)" book="Armies of the Lord of the Rings" page="159" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6f71-5872-81fa-36ce" name="Tentacles (Active)" book="Armies of the Lord of the Rings" page="159" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+In the Shoot phase, the Watcher may make D6 shooting attacks. These have a range of 6&quot; and a Strength of 3, and 
+never require In The Way rolls. Any model hit by a tentacle, but not slain, is immediately dragged into base contact with 
+the Watcher by the shortest route possible, even over the heads of other models. Models moved in this way do not 
+count as having charged. If there is no way to fit the model in base contact, it is not moved at all. The Watcher can still make these shooting attacks even if it is Engaged in combat. 
+"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de9c-d795-e362-87dd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47f7-e0c8-892b-d59a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
