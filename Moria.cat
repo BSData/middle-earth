@@ -2312,8 +2312,34 @@ If either the Drummer or the Drum Bearer is slain, they may pass on their wargea
     </selectionEntry>
     <selectionEntry id="4d6d-9193-ebed-65b3" name="Warg Marauder" book="Armies of the Lord of the Rings" page="164" hidden="false" collective="false" type="model">
       <profiles/>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="1ad9-1d4a-61c7-aec3" name="On the Hunt (Active)" book="Armies of the Lord of the Rings" page="164" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+A Warg Marauder can always fire an Orc bow shot for each Goblin with an Orc bow that is alive upon the back of the Warg, even if it has moved its full movement or is Engaged in a Fight. 
+</description>
+        </rule>
+        <rule id="3831-29bd-d70f-53df" name="Lethal Union (Passive)" book="Armies of the Lord of the Rings" page="164" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Whilst the Goblins remain mounted upon the Warg, the entire model gains the Terror special rule and adds a bonus of +1 to its Courage value. Additionally, in combat a Warg Marauder may make an additional Attack for each Goblin after the first that is still mounted upon the Warg, so long as they did not shoot during the Shoot phase.
+</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1b82-ce45-cc2c-8da2" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -2325,7 +2351,179 @@ If either the Drummer or the Drum Bearer is slain, they may pass on their wargea
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="da75-c238-146e-639d" name="Moria Goblin" book="Armies of the Lord of the Rings" page="164" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="ed5e-ebef-d78a-d3a3" name="Moria Goblin" book="Armies of the Lord of the Rings" page="164" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Goblin"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab53-6794-40d7-3e41" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a3-22a8-fd84-870b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1213-ac26-0b43-7e4e" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1936-32a9-4afe-4476" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="66fd-9286-02f2-eaf8" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed7d-7d04-746f-94dd" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="b510-64df-b94d-58cb" name="Moria Goblin" book="Armies of the Lord of the Rings" page="164" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="f0b4-5dd5-371c-424d" name="Moria Goblin" book="Armies of the Lord of the Rings" page="164" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Goblin"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="67c2-0969-cdfe-94c3" name="Moria Goblin Shield" book="Armies of the Lord of the Rings" page="164" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+While the Goblin with a Shield is alive and mounted upon the Warg, all of the parts of the Cavalry model gain the bonus of +1 to their Defence.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c65c-f150-e662-03bd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3093-cef7-942a-7b52" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="ae25-007a-7667-0010" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d9c6-ce34-3299-2e62" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2404-239a-c0e9-1d62" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53b2-0f5b-3136-eced" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="796a-b8b3-785f-8bd6" name="Warg" book="Armies of the Lord of the Rings" page="164" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="fc4d-a657-8298-589c" name="Warg" book="Middle-earth Strategy Battle Game Rules Manual" page="61" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Warg"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ed-7fba-7947-8f13" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81df-fc77-a4f2-67bc" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
