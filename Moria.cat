@@ -1800,7 +1800,7 @@ The Drum is a Heavy Object and as such is moved exactly like one. The Drum canno
       <selectionEntries>
         <selectionEntry id="acd7-9fee-1252-ad8f" name="Moria Goblin Drummer" book="Armies of the Lord of the Rings" page="161" hidden="false" collective="false" type="model">
           <profiles>
-            <profile id="5836-9b91-4ac2-ce1b" name="Moria Goblin Drum" book="Armies of the Lord of the Rings" page="161" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+            <profile id="5836-9b91-4ac2-ce1b" name="Moria Goblin Drummer" book="Armies of the Lord of the Rings" page="161" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1916,8 +1916,57 @@ Drum, without doing anything else (such as shooting, using a Magical Power or fi
     </selectionEntry>
     <selectionEntry id="c6a6-9c0d-b04c-63bd" name="Moria Blackshield Drummers" book="Armies of the Lord of the Rings" page="162" hidden="false" collective="false" type="unit">
       <profiles/>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="fde3-03f5-4c65-12b1" name="Run and Drum (Active)" book="Armies of the Lord of the Rings" page="162" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+The Drum is considered to be playing as long as the Drummer and the Drum Bearer are in base contact with each other. 
+</description>
+        </rule>
+        <rule id="1752-02b5-afb2-521d" name="Domm! Doom! (Active)" book="Armies of the Lord of the Rings" page="162" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+When the Drum is being played, it has the following effects: 
+All Fights within 12&quot; of one or more Drums, that also include at least one friendly Moria Goblin model, may re-roll a single D6 for their Duel roll. Note that this is not cumulative with the effects of a banner. 
+All friendly Moria Goblin models on the battlefield add 1 to their Courage value, and all enemy models suffer a -1 penalty to their Courage value. Note that this is not cumulative with other rules that confer similar modifiers. 
+</description>
+        </rule>
+        <rule id="3372-8c36-64b1-3fe7" name="Take up the Drum (Active)" book="Armies of the Lord of the Rings" page="162" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If either the Drummer or the Drum Bearer is slain, they may pass on their wargear to any other unengaged Moria Blackshield within 1&quot; — immediately replace the model with the slain Drummer or Drum Bearer. Models that take up the Drummer&apos;s wargear will automatically drop any that they are carrying. 
+</description>
+        </rule>
+        <rule id="5591-a1f8-df42-0cbd" name="Hatred (Dwarf)" book="Armies of the Lord of the Rings" page="156" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1f6f-44d4-8915-e8d7" name="Cave Dweller (Active)" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e37c-8d5d-a870-7d75" name="Hatred (Active)" hidden="false" targetId="941e-348f-26c0-f0a7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1929,7 +1978,96 @@ Drum, without doing anything else (such as shooting, using a Magical Power or fi
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="d0f6-453e-6dd7-fa77" name="Moria Blackshield Drummer" book="Armies of the Lord of the Rings" page="162" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="f144-4169-eb24-0d15" name="Moria Blackshield Drummer" book="Armies of the Lord of the Rings" page="162" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Goblin"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e90a-3c34-03e6-290a" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9b4-514d-8a51-730a" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="d1b2-6458-6d46-7f42" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b910-3955-f347-165d" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e5f8-c3e1-8efe-14df" name="Club" hidden="false" targetId="aad1-2dbe-bc27-7bdc" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbeb-c22a-c721-7d4b" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="0841-cc5e-35ca-212c" name="Drum" book="Armies of the Lord of the Rings" page="162" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ecee-2b50-5813-72d3" name="Drum" book="Armies of the Lord of the Rings" page="162" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1385-031b-d272-467f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47e-06e0-92eb-ad37" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
