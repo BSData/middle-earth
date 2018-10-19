@@ -1755,8 +1755,37 @@ count as having charged. If there is no way to fit the model in base contact, it
     </selectionEntry>
     <selectionEntry id="6a9d-5b7f-76be-b302" name="Moria Goblin Drum" book="Armies of the Lord of the Rings" page="161" hidden="false" collective="false" type="unit">
       <profiles/>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="4d09-36cb-2544-27d5" name="Take up the Drum (Passive)" book="Armies of the Lord of the Rings " page="161" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If either of the Drummers are slain, they may pass on their Wargear to any other unengaged Moria Goblin Warrior within 1&quot; - immediately replace the model with the slain drummer. Models that take up the Drummer&apos;s wargear will automatically drop any that they are carrying. </description>
+        </rule>
+        <rule id="7a31-3339-ab16-4d89" name="Drums in the Deep (Active)" book="Armies of the Lord of the Rings " page="161" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+A Moria Goblin Drum takes up two spaces within a warband and counts as two models towards the army. It is deployed in the same way as the rest of the warband. 
+For the Drum to be played, at least one Moria Goblin Drummer must have started the turn in base contact with the Drum, and also not be Engaged in a Fight. When the Drum is being played, it has the following effects: 
+All Fights within 18&quot; of one or more Drums, that also include at least one friendly Moria Goblin model, may re-roll a single D6 for their Duel roll. Note that this is not cumulative with the effects of a banner.
+All friendly Moria Goblin models on the battlefield add 1 to their Courage value, and all enemy models suffer a -1 penalty to their Courage value. Note that this is not cumulative with other rules that confer similar modifiers. 
+The Drum is a Heavy Object and as such is moved exactly like one. The Drum cannot be played in a turn in which it has moved. 
+</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6425-d20d-d50c-41cf" name="Cave Dweller (Active)" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1768,7 +1797,117 @@ count as having charged. If there is no way to fit the model in base contact, it
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="acd7-9fee-1252-ad8f" name="Moria Goblin Drummer" book="Armies of the Lord of the Rings" page="161" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="5836-9b91-4ac2-ce1b" name="Moria Goblin Drum" book="Armies of the Lord of the Rings" page="161" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Goblin"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b585-1d0a-b818-7bac" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a520-deda-462c-3adc" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="dcd9-4306-ea94-fd28" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6218-7bf8-c645-b5a8" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7d64-e59d-9068-1cd2" name="Club" hidden="false" targetId="aad1-2dbe-bc27-7bdc" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a091-342b-8dc7-458f" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="3add-f9c9-9249-b07f" name="Moria Goblin Drum" book="Armies of the Lord of the Rings" page="161" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="82f0-9861-b004-f2f9" name="Moria Goblin Drum" book="Armies of the Lord of the Rings" page="161" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="-"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="-/-"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="-"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="10"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="-"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="-"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Drum"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="58ab-f8fc-2cb5-634f" name="Destroying the Drum (Passive)" book="Armies of the Lord of the Rings " page="161" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+The Drum can be shot at and struck normally, and has a Defence of 10 and 3 Wounds. If it is reduced to 0 wounds, it is destroyed and cannot be played anymore. The Drum has no Control Zone and any enemy model that spends a full turn in base contact with the 
+Drum, without doing anything else (such as shooting, using a Magical Power or fighting in combat), may immediately destroy the Drum as described above. 
+
+</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13b8-24c6-53b1-0f63" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9db-ca68-9710-65a2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
