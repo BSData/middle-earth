@@ -10022,7 +10022,14 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <selectionEntry id="a11d-28ed-aa59-42ec" name="Fangs" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="296c-7ad9-f61a-25ed" name="Poisoned Weapon (Active)" hidden="false" targetId="ad3a-a37d-44be-1bbe" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b4b-74be-44cd-7f5b" type="max"/>
