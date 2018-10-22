@@ -1243,31 +1243,6 @@ Ashrâk may include Giant Spiders in his warband as if they were part of the sam
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6c6c-eecd-3dda-60b5" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="157" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="3a07-67ea-3d1f-3dbd" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="157" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics/>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6977-6d19-9135-7e38" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe0a-9ec4-cb39-77d9" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="9231-893d-11d9-acc8" name="Wyrmtongue" book="Armies of the Lord of the Rings" page="157" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="768c-213d-9f5a-ae90" name="Wyrmtongue" book="Armies of the Lord of the Rings" page="157" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
@@ -1414,7 +1389,16 @@ Ashrâk may include Giant Spiders in his warband as if they were part of the sam
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="92c2-0be5-4438-9a7b" name="Claws and Teeth" hidden="false" targetId="0e4a-8d75-a199-316b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="250.0"/>
       </costs>
@@ -1523,35 +1507,18 @@ At the start of the game, before any models have been deployed, the Cave Drake&a
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="f668-abc2-1fa9-fa65" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="157" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="8d19-dad7-dc00-92c6" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="157" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics/>
-            </profile>
-          </profiles>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9765-7fa8-82cb-c55d" name="Claws and Teeth" hidden="false" targetId="0e4a-8d75-a199-316b" type="selectionEntry">
+          <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c191-468b-b9cd-7ceb" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f36c-7df7-f75c-2cd6" type="min"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="150.0"/>
       </costs>
@@ -1678,12 +1645,7 @@ As the Watcher fights, it will lose a tentacle or two, each injury diminishing i
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-In the Shoot phase, the Watcher may make D6 shooting attacks. These have a range of 6&quot; and a Strength of 3, and 
-never require In The Way rolls. Any model hit by a tentacle, but not slain, is immediately dragged into base contact with 
-the Watcher by the shortest route possible, even over the heads of other models. Models moved in this way do not 
-count as having charged. If there is no way to fit the model in base contact, it is not moved at all. The Watcher can still make these shooting attacks even if it is Engaged in combat. 
-"/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" In the Shoot phase, the Watcher may make D6 shooting attacks. These have a range of 6&quot; and a Strength of 3, and  never require In The Way rolls. Any model hit by a tentacle, but not slain, is immediately dragged into base contact with  the Watcher by the shortest route possible, even over the heads of other models. Models moved in this way do not  count as having charged. If there is no way to fit the model in base contact, it is not moved at all. The Watcher can still make these shooting attacks even if it is Engaged in combat.  "/>
               </characteristics>
             </profile>
           </profiles>
@@ -2053,7 +2015,9 @@ The Drum is a Heavy Object and as such is moved exactly like one. The Drum canno
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3add-f9c9-9249-b07f" name="Moria Goblin Drum" book="Armies of the Lord of the Rings" page="161" hidden="false" collective="false" type="model">
           <profiles>
@@ -2097,7 +2061,9 @@ Drum, without doing anything else (such as shooting, using a Magical Power or fi
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2234,7 +2200,9 @@ If either the Drummer or the Drum Bearer is slain, they may pass on their wargea
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0841-cc5e-35ca-212c" name="Drum" book="Armies of the Lord of the Rings" page="162" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2257,7 +2225,9 @@ If either the Drummer or the Drum Bearer is slain, they may pass on their wargea
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2407,35 +2377,18 @@ The Fight Value of any enemy model Engaged in combat with a Bat Swarm is halved 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="38e8-d858-3e0d-ff73" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="163" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="8d9c-86da-a29e-0e0d" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="157" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics/>
-            </profile>
-          </profiles>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f20f-ab1e-75ca-6a50" name="Claws and Teeth" hidden="false" targetId="0e4a-8d75-a199-316b" type="selectionEntry">
+          <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df62-7a18-8e2b-b254" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21aa-47fa-d5c6-a7a7" type="min"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
@@ -2545,7 +2498,9 @@ Whilst the Goblins remain mounted upon the Warg, the entire model gains the Terr
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b510-64df-b94d-58cb" name="Moria Goblin" book="Armies of the Lord of the Rings" page="164" hidden="false" collective="false" type="model">
           <profiles>
@@ -2619,7 +2574,9 @@ While the Goblin with a Shield is alive and mounted upon the Warg, all of the pa
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="796a-b8b3-785f-8bd6" name="Warg" book="Armies of the Lord of the Rings" page="164" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2650,8 +2607,19 @@ While the Goblin with a Shield is alive and mounted upon the Warg, all of the pa
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
-          <costs/>
+          <entryLinks>
+            <entryLink id="6697-e17e-628c-e7b9" name="Claws and Teeth" hidden="false" targetId="0e4a-8d75-a199-316b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2714,35 +2682,18 @@ Whenever a Dweller in the Dark slays an enemy model in combat, it regains a sing
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="37cd-a5e0-b7c6-f7c1" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="165" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="0139-de16-4c02-91e5" name="Claws and Teeth" book="Armies of the Lord of the Rings" page="157" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics/>
-            </profile>
-          </profiles>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d465-7377-1afa-c78f" name="Claws and Teeth" hidden="false" targetId="0e4a-8d75-a199-316b" type="selectionEntry">
+          <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d0c-8c5e-8b3d-0724" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fd3-79b8-980c-2cdb" type="min"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
@@ -2756,6 +2707,22 @@ Whenever a Dweller in the Dark slays an enemy model in combat, it regains a sing
       <modifiers/>
       <constraints/>
       <categoryLinks/>
+    </entryLink>
+    <entryLink id="dcaf-e496-6db7-cbf3" name="Wild Warg" hidden="false" targetId="50c8-8ce0-5d4e-5c48" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6417-1966-8c95-3aff" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries/>
