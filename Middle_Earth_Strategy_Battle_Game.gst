@@ -9870,16 +9870,15 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="c639-c88b-c91b-147b" name="Fell Sight" book="The Hobbit PDF" page="19" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="fd43-3444-0113-53a9" name="Fell Sight (Passive)" hidden="false" targetId="ac3b-75b0-2e1f-371c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>A Fell Warg (or a model riding one) does not require Line of Sight to its enemy to Charge it.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
