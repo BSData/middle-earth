@@ -145,6 +145,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="79a0-5435-0cdb-2025" name="Warrior Unit" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="80c5-b61b-d209-b3a1" name="Warband" book="Middle-earth Strategy Battle Game Rules Manual" page="130" hidden="false">
@@ -287,6 +294,13 @@
           </constraints>
         </categoryLink>
         <categoryLink id="80c5-b61b-d209-b3a1-edcb-6da3-c425-b156" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f7b3-a79b-4a41-a0ab" name="Warrior Unit" hidden="false" targetId="79a0-5435-0cdb-2025" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10039,7 +10053,9 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -10447,7 +10463,6 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
