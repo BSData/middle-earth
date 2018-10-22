@@ -9980,6 +9980,68 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7bbf-9049-c459-3bff" name="Giant Spider" book="Moria and Angmar" page="28" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4674-0909-5778-ede3" name="Giant Spider" book="Moria and Angmar" page="28" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/6+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Spider"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="534c-eee9-75b2-3760" name="Swift Movement (Active)" hidden="false" targetId="3c62-f754-9fde-75f5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fb40-f5bb-861c-bfa2" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a11d-28ed-aa59-42ec" name="Fangs" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b4b-74be-44cd-7f5b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c91-925a-cd56-f3bf" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
