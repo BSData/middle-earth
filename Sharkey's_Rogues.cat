@@ -269,17 +269,115 @@ When making a Duel roll for a Fight where Worm is Engaged, check to see if any e
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc95-3067-4592-7aa1" name="Ruffians" book="Armies of the Lord of the Rings" page="210" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
+    <selectionEntry id="fc95-3067-4592-7aa1" name="Ruffian" book="Armies of the Lord of the Rings" page="210" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a244-78db-83eb-703c" name="Ruffian" book="Armies of the Lord of the Rings" page="210" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1186-06ce-3425-4d6f" name="At &apos;em Lads! (Active)" book="Armies of the Lord of the Rings" page="210" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+A Ruffian that is Engaged in a Fight that involves 1 or more Hobbit models gains a bonus of +1 to its Fight value. 
+
+Additionally, instead of making Strikes, when a Ruffian wins a Fight against a Hobbit model, they may attempt to bind it in chains. Nominate one Hobbit model from the Fight and roll a D6 - if the score is higher than the target&apos;s Strength, the model is bound. Treat it as though it has been affected by the Paralyse Magical Power. 
+</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="38c6-4a8f-482b-c601" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="86cc-c804-028b-63ec" name="Choose One" book="Armies of the Lord of the Rings" page="210" hidden="false" collective="false" defaultSelectionEntryId="730b-0954-2d7c-9fcb">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0471-32f1-f5a7-e9c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6005-a20e-8e72-5b56" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="730b-0954-2d7c-9fcb" name="Club" hidden="false" targetId="aad1-2dbe-bc27-7bdc" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b18d-9562-8d8f-d7b7" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d295-7e00-43a3-1034" name="Whip" hidden="false" targetId="98ea-d1b6-a4e5-3c40" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
