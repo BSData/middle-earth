@@ -313,7 +313,53 @@ Additionally, instead of making Strikes, when a Ruffian wins a Fight against a H
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="6556-7261-42d3-a483" name="Captain" book="Armies of the Lord of the Rings" page="208" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="722d-ab2b-4a74-2e66" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc95-3067-4592-7aa1" type="equalTo"/>
+                    <condition field="selections" scope="force" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc95-3067-4592-7aa1" type="equalTo"/>
+                    <condition field="selections" scope="force" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc95-3067-4592-7aa1" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722d-ab2b-4a74-2e66" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a19-e61f-93b4-297a" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="a214-ee5a-a1df-4a97" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="d829-cc6e-fed3-839a" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="86cc-c804-028b-63ec" name="Choose One" book="Armies of the Lord of the Rings" page="210" hidden="false" collective="false" defaultSelectionEntryId="730b-0954-2d7c-9fcb">
           <profiles/>
@@ -329,6 +375,20 @@ Additionally, instead of making Strikes, when a Ruffian wins a Fight against a H
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="730b-0954-2d7c-9fcb" name="Club" hidden="false" targetId="aad1-2dbe-bc27-7bdc" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="aaed-319f-d20a-e3ff" name="Knife" hidden="false" targetId="b806-13cb-8e06-cb89" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
