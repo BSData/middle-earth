@@ -85,7 +85,26 @@ Sharkey&apos; s Stand Fast! affects the entire battlefield. Additionally, a forc
               </characteristics>
             </profile>
           </profiles>
-          <rules/>
+          <rules>
+            <rule id="e61d-70b9-b1e4-d2b9" name="The Chief (Passive)" book="Armies of the Lord of the Rings" page="209" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+Sharkey must always be the warband&apos;s Leader. Worm will always be the first follower in Sharkey&apos;s warband.
+</description>
+            </rule>
+            <rule id="622a-e287-9f5d-218e" name="Whoever Strikes me shall be Accursed (Passive)" book="Armies of the Lord of the Rings" page="209" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+After model resolves Strikes against Sharkey, it must take a Courage test. If the test is failed, that model takes one Strength 4 hit.
+</description>
+            </rule>
+          </rules>
           <infoLinks>
             <infoLink id="0fb1-0a1f-4e2e-02bd" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
               <profiles/>
@@ -107,7 +126,10 @@ Sharkey&apos; s Stand Fast! affects the entire battlefield. Additionally, a forc
             </infoLink>
           </infoLinks>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="750e-b243-2643-fdae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f92c-e86e-01d3-c824" type="min"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -144,6 +166,16 @@ Sharkey&apos; s Stand Fast! affects the entire battlefield. Additionally, a forc
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="00d9-eb02-36a8-fe28" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0d2-f8ec-acd9-1bb4" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
@@ -171,10 +203,32 @@ Sharkey&apos; s Stand Fast! affects the entire battlefield. Additionally, a forc
               </characteristics>
             </profile>
           </profiles>
-          <rules/>
+          <rules>
+            <rule id="b0cc-a202-6263-1a92" name="Broken Loyalties (Passive)" book="Armies of the Lord of the Rings" page="209" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+If Sharkey is reduced to 1 Wound and has no Fate remaining Worm becomes an enemy model and must move towards and attack Sharkey if possible. If Sharkey is slain Worm reverts to being a friendly model. 
+</description>
+            </rule>
+            <rule id="42da-dd73-3e4b-1c1d" name="When he Sneaks (Active)" book="Armies of the Lord of the Rings" page="209" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+When making a Duel roll for a Fight where Worm is Engaged, check to see if any enemy models, except for those he is fighting can see him, If only the model(s) Worm is fighting can see him, immediately increase his Fight value to 4 and his Attacks to 3 for the Duel roll and any Strikes that may follow.
+</description>
+            </rule>
+          </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c10b-7e7b-469d-6b6d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dee5-7581-1543-1fc9" type="min"/>
+          </constraints>
           <categoryLinks>
             <categoryLink id="b272-810b-8f28-9015" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
               <profiles/>
@@ -214,6 +268,18 @@ Sharkey&apos; s Stand Fast! affects the entire battlefield. Additionally, a forc
       <costs>
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="fc95-3067-4592-7aa1" name="Ruffians" book="Armies of the Lord of the Rings" page="210" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
