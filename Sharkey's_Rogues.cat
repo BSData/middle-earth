@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="436f-4eec-f50d-464b" name="Sharkey&apos;s Rogues" book="Armies of the Lord of the Rings" page="208" revision="1" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="436f-4eec-f50d-464b" name="Sharkey&apos;s Rogues" book="Armies of the Lord of the Rings" page="208" revision="2" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c7fc-50a2-57bf-39f1" name="&quot;You do what Sharkey says.&quot;" book="Armies of the Lord of the Rings" page="208" hidden="false">
@@ -17,7 +17,7 @@ Sharkey&apos; s Stand Fast! affects the entire battlefield. Additionally, a forc
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="902c-5e39-174c-0589" name="Sharkey and Worm" book="Armies of the Lord of the Rings" page="209" hidden="false" collective="false" type="model">
+    <selectionEntry id="902c-5e39-174c-0589" name="Sharkey and Worm" book="Armies of the Lord of the Rings" page="209" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -27,14 +27,21 @@ Sharkey&apos; s Stand Fast! affects the entire battlefield. Additionally, a forc
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d37-4876-2480-0179" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="1745-83b0-4e1c-190a" name="New CategoryLink" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+        <categoryLink id="7b1f-0cdd-661e-85e4" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="7b1f-0cdd-661e-85e4" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+        <categoryLink id="b8f3-3f9b-986d-4c0d" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d027-b91e-94e5-7f49" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -130,7 +137,22 @@ After model resolves Strikes against Sharkey, it must take a Courage test. If th
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="750e-b243-2643-fdae" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f92c-e86e-01d3-c824" type="min"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="a0c7-0e91-eb1b-a74c" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="8871-3b97-b8cc-562c" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -229,15 +251,7 @@ When making a Duel roll for a Fight where Worm is Engaged, check to see if any e
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c10b-7e7b-469d-6b6d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dee5-7581-1543-1fc9" type="min"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="b272-810b-8f28-9015" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
