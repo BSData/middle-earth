@@ -22,7 +22,22 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3712-badb-4c17-1f44" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1603-51ab-e03c-c6b8" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3712-badb-4c17-1f44" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5394-045f-83ea-3897" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
@@ -145,16 +160,39 @@ Additionally, Théoden may use the Feint and Stab Special Strike even if his Fig
           <costs/>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="0288-9d01-94d5-df7c" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2b70-c2ae-f0de-eca0" name="Mount" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3130-901f-b2d4-4b2e" type="max"/>
+          </constraints>
           <categoryLinks/>
-        </entryLink>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6541-ea6e-97e4-5997" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2e48-02c0-f12a-3fb5" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
         <entryLink id="7e1f-bd47-5663-8b9e" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -164,14 +202,6 @@ Additionally, Théoden may use the Feint and Stab Special Strike even if his Fig
           <categoryLinks/>
         </entryLink>
         <entryLink id="5394-045f-83ea-3897" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="83f4-4d16-59a2-aa75" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -206,7 +236,15 @@ Additionally, Théoden may use the Feint and Stab Special Strike even if his Fig
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="87eb-b5c5-74fe-5ee6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cad4-fb68-e0f0-93cd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
@@ -281,7 +319,38 @@ Additionally, for the remainder of the game Éomer must Charge if able to do so.
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c4dc-707e-7065-3f2a" name="Mount" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b9a-a446-ff8d-aef0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2d79-e5f8-4818-a14d" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7b33-28a1-8846-e41d" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="a2f4-16fe-83d0-a864" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
@@ -292,22 +361,6 @@ Additionally, for the remainder of the game Éomer must Charge if able to do so.
           <categoryLinks/>
         </entryLink>
         <entryLink id="50f9-7536-2814-cd5f" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="8029-226a-7248-0edd" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b42b-8498-e227-f2ef" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -350,7 +403,15 @@ Additionally, for the remainder of the game Éomer must Charge if able to do so.
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="236f-534a-f201-680f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="691d-aa6b-024d-e3c1" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
@@ -486,7 +547,22 @@ Additionally, on a turn in which he Charges, Théodred may re-roll any failed to
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8288-115c-eceb-2f58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1e6-eb23-7376-d08f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8288-115c-eceb-2f58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0cc9-7c61-881a-82c2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
@@ -502,7 +578,16 @@ Additionally, on a turn in which he Charges, Théodred may re-roll any failed to
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="de5a-229a-e87a-ea82" name="I Shall Kill You if You Touch Him (Active)" book="Armies of the Lord of the Rings" page="62" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If Théoden is in your force and is slain, place a 25mm marker where he fell. Éowyn must now move directly towards this marker during each of her Move phases if she is able to. Once Éowyn has moved within 3&quot; of this marker, she may not willingly move further than 3&quot; away from it for any reason for the remainder of the game. Additionally, whilst within 3&quot; of the marker Éowyn becomes Fearless and must re-roll any failed To Wound rolls. In addition, she also receives a bonys of +1 To Wound when making strikes against the model that slew Théoden.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="e29f-9f1c-555d-c1ad" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
           <profiles/>
@@ -511,6 +596,24 @@ Additionally, on a turn in which he Charges, Théodred may re-roll any failed to
           <modifiers/>
         </infoLink>
         <infoLink id="e139-e7dc-71ba-d36e" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d8da-052d-f3ea-98bf" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c02-c2b0-e46b-d20e" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e44a-ddb6-885e-6c5a" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -542,6 +645,46 @@ Additionally, on a turn in which he Charges, Théodred may re-roll any failed to
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="4f94-ce1d-f0ea-fff2" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="42c0-062f-533b-5282" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b1e6-eb23-7376-d08f" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0cc9-7c61-881a-82c2" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f032-59ec-e3c1-94d0" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7ff1-77e2-f5f9-1523" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
