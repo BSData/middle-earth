@@ -38,7 +38,24 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="8d3e-e20f-6bdc-5ba8" name="The Will of Men is Easily Corrupted (Passive)" book="Armies of the Lord of the Rings" page="61" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If Grima Wormtongue is within 6&quot; of Théoden, King of Rohan, then Théoden is reduced to Fight 3/4+ and 1 Attack. Additionally, he may not declare Heroic Actions and may not use Will points.</description>
+        </rule>
+        <rule id="8b41-759f-0b1d-facb" name="Forth, and Fear no Darkness (Active)" book="Armies of the Lord of the Rings" page="61" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Théoden&apos;s Stand Fast! is 12&quot; rather than 6&quot;.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="82ca-bd38-f568-baf0" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
           <profiles/>
@@ -47,6 +64,24 @@
           <modifiers/>
         </infoLink>
         <infoLink id="dd29-476a-9d16-631e" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="50c4-8ac1-b52a-6145" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ace8-3255-7302-e972" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c75d-7bdb-767b-b120" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -74,10 +109,45 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="c858-3600-8b90-5638" name="Herugrim (Active)" book="Armies of the Lord of the Rings" page="61" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="71ad-9820-143d-d832" name="Herugrim (Active)" book="Armies of the Lord of the Rings" page="61" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+Herugrim is a sword.
+Additionally, Théoden may use the Feint and Stab Special Strike even if his Fight value is lower than his opponent&apos;s."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e2dc-525a-c846-b9d2" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="395f-9cea-9973-2449" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b333-cb60-12f9-793f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="0288-9d01-94d5-df7c" name="Horn of Gondor" hidden="false" targetId="d9d8-e687-82ce-12f5" type="selectionEntry">
+        <entryLink id="0288-9d01-94d5-df7c" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -86,6 +156,38 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="7e1f-bd47-5663-8b9e" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5394-045f-83ea-3897" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="83f4-4d16-59a2-aa75" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1603-51ab-e03c-c6b8" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5d53-fec6-5396-334c" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
