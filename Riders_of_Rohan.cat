@@ -1303,8 +1303,24 @@ The first time each turn that Eorl the Young expends a point of Might, roll a d6
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="b630-61b1-5dfd-65a8" name="Master Archer (Active)" book="Armies of the Lord of the Rings" page="66" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally, each time this model slays an enemy Hero or Moster model, restore the King&apos;s Huntsman&apos;s Might to its starting level.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="320a-36fd-5204-ea9a" name="Heroic Accuracy" hidden="false" targetId="7597-d6d9-0053-2e3c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd8-80aa-8f64-9490" type="max"/>
@@ -1330,6 +1346,38 @@ The first time each turn that Eorl the Young expends a point of Might, roll a d6
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="32b1-bf45-e508-9f95" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c2d5-da0b-26fe-42d2" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="edb0-9404-50ed-dc03" name="Longbow" hidden="false" targetId="7b55-34e4-6b53-0975" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaec-8e5e-45df-5602" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="289e-21a3-4cd1-a8c1" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
