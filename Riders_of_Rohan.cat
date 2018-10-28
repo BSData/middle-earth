@@ -2200,7 +2200,16 @@ Outriders may use a friendly Hero model&apos;s Stand Fast! regardless of range.<
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="253f-9009-696f-a154" name="Riders of Eorl (Active)" book="Armies of the Lord of the Rings" page="69" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Whilst within 6&quot; of Eorl the Young, Sons of Eorl gain a bonus of +1 to their Attack value.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="3d02-5df8-c8a0-52f7" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
           <profiles/>
@@ -2222,7 +2231,64 @@ Outriders may use a friendly Hero model&apos;s Stand Fast! regardless of range.<
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="7c46-1c78-0c28-d45a" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="00ab-3df0-afb8-d324" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4a4-8510-a85e-36d9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3c8e-5d06-b59f-9d2d" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edca-a548-0b21-03d6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9445-c9b6-94a5-2e32" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c88e-32c8-4d7a-d437" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
