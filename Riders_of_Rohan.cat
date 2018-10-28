@@ -133,9 +133,7 @@ Théoden&apos;s Stand Fast! is 12&quot; rather than 6&quot;.</description>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Herugrim is a sword.
-Additionally, Théoden may use the Feint and Stab Special Strike even if his Fight value is lower than his opponent&apos;s."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Herugrim is a sword. Additionally, Théoden may use the Feint and Stab Special Strike even if his Fight value is lower than his opponent&apos;s."/>
               </characteristics>
             </profile>
           </profiles>
@@ -157,7 +155,9 @@ Additionally, Théoden may use the Feint and Stab Special Strike even if his Fig
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -719,7 +719,16 @@ If Théoden is in your force and is slain, place a 25mm marker where he fell. É
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="ca46-7e46-1297-b95f" name="Westfold Redshields" book="Armies of the Lord of the Rings" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If your army includes Erkenbrand, you can upgrade any number of Riders of Rohan in his warband to Westfold Redshields at a cost of +1 point per model. Westfold Redshields count as being in range of a banner if Erkenbrand is within 3&quot;.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="8bbe-2c1e-9d81-37cb" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
           <profiles/>
@@ -728,6 +737,18 @@ If Théoden is in your force and is slain, place a 25mm marker where he fell. É
           <modifiers/>
         </infoLink>
         <infoLink id="e0f7-da25-9a22-f2ce" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="36ad-a135-f5fe-1cb2" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a477-998e-71f6-9639" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -755,10 +776,81 @@ If Théoden is in your force and is slain, place a 25mm marker where he fell. É
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="5ffa-991c-8702-193b" name="The Horn of the Hammerhand (Active)" book="Armies of the Lord of the Rings" page="64" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0b8a-80a3-f998-8891" name="The Horn of the Hammerhand (Active)" book="Armies of the Lord of the Rings" page="64" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+This is a war horn that adds +2 Courage rather than +1. However, this war horn only affects friendly Rohan models."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3f2c-7a0c-abce-f307" name="War Horn" hidden="false" targetId="2763-dbf3-7fde-9758" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="8f71-12ff-7f0b-207b" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2239-9d33-190a-b5f6" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f6fa-ca12-826e-2ba2" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f814-245c-b08a-6098" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7e3b-cfa5-2808-185f" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f11c-2eb6-2a61-a0a7" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1360,7 +1452,14 @@ If Théoden is in your force and is slain, place a 25mm marker where he fell. É
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="3434-a639-a8d2-f24f" name="Sworn Protector (Théoden)" book="Armies of the Lord of the Rings" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="3cdb-a68a-20a7-ac2e" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
           <profiles/>
@@ -1369,6 +1468,12 @@ If Théoden is in your force and is slain, place a 25mm marker where he fell. É
           <modifiers/>
         </infoLink>
         <infoLink id="a688-9de3-406e-a804" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c7b0-343c-d53c-7b13" name="Sworn Protector (Active)" hidden="false" targetId="98e5-0c6c-dc8a-255d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1396,10 +1501,68 @@ If Théoden is in your force and is slain, place a 25mm marker where he fell. É
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="2fa7-909a-a7f8-d194" name="Royal Standard of Rohan (Passive)" book="Armies of the Lord of the Rings" page="64" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3e21-b5d5-ae9f-a8dc" name="Royal Standard of Rohan (Passive)" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+This precious heirloom is a banner.
+Additionally, any Rohan Hero models that are within 3&quot; of the Royal Standard of Rohan at the start of any turn, and have no Might remaining, automatically add 1 point of Might to their store. This cannot take a Hero model&apos;s Might beyond its starting level. Gamling suffers no penalties for carrying the Royal Standard of Rohan."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c20c-a65c-5729-61bd" name="Banner" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="1a09-0edd-5132-e87f" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8859-f178-a265-ba2c" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7d58-101f-c470-c687" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e725-9928-57d6-7444" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
