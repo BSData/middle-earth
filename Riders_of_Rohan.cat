@@ -2096,7 +2096,16 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="6a90-a1d8-a5fa-0f01" name="Vanguard (Active)" book="Armies of the Lord of the Rings" page="69" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Outriders may use a friendly Hero model&apos;s Stand Fast! regardless of range.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="81ea-0b13-91cd-36b0" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
           <profiles/>
@@ -2118,7 +2127,56 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="f379-4554-5fff-6b00" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff4f-7381-73a5-a1bc" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3c0d-86e0-8115-0adb" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ef71-b32c-5763-f9dd" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="583b-d941-df43-ac68" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a9b6-e4d9-efd8-dfa2" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
