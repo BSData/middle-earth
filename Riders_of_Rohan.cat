@@ -389,7 +389,9 @@ Additionally, for the remainder of the game Éomer must Charge if able to do so.
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa5-2136-36b4-1015" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -533,7 +535,9 @@ Additionally, on a turn in which he Charges, Théodred may re-roll any failed to
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aee-6c76-e8ba-45da" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -689,7 +693,9 @@ If Théoden is in your force and is slain, place a 25mm marker where he fell. É
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fb6-8c3d-2477-f246" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -847,7 +853,9 @@ This is a war horn that adds +2 Courage rather than +1. However, this war horn o
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af11-c8f0-c5f0-d507" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="f11c-2eb6-2a61-a0a7" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
@@ -972,7 +980,9 @@ This is a war horn that adds +2 Courage rather than +1. However, this war horn o
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbb1-6339-8593-19c0" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="f85f-460e-2c70-e74e" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
@@ -1273,7 +1283,9 @@ The first time each turn that Eorl the Young expends a point of Might, roll a d6
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4680-f174-a778-143a" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1358,7 +1370,9 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="896f-b015-9a61-23fe" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="edb0-9404-50ed-dc03" name="Longbow" hidden="false" targetId="7b55-34e4-6b53-0975" type="selectionEntry">
@@ -1396,7 +1410,39 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01ca-c758-cb91-5830" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e6c-5054-392f-7b66" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01ca-c758-cb91-5830" type="equalTo"/>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7dd4-5bad-d551-b250" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01ca-c758-cb91-5830" type="equalTo"/>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7dd4-5bad-d551-b250" type="equalTo"/>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b391-e628-ca5f-dd97" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
@@ -1426,6 +1472,18 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="c740-b618-5565-47ac" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f26e-dfa7-1112-0aa5" name="Arise Riders of Théoden!" hidden="false" targetId="d048-b0cd-07fc-f1b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -1449,13 +1507,104 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2b7c-d7f3-e80f-77d4" name="Choose One:" book="Armies of the Lord of the Rings" page="67" hidden="false" collective="false" defaultSelectionEntryId="79b7-3c22-e7bd-9afc">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22ed-a97b-70de-9d3a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="79b7-3c22-e7bd-9afc" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e065-0dcc-1c0f-8880" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="edea-4da5-7129-8128" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="01ca-c758-cb91-5830" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7dd4-5bad-d551-b250" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b391-e628-ca5f-dd97" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d46d-e29b-faba-6fc3" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="786e-904a-92ed-5cea" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7e6c-5054-392f-7b66" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1470,7 +1619,23 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e7c1-0c9f-82bf-b76a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecf0-2c3e-51b1-e722" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e7c1-0c9f-82bf-b76a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecf0-2c3e-51b1-e722" type="equalTo"/>
+                <condition field="selections" scope="e7c1-0c9f-82bf-b76a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6eca-0523-c18a-8338" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
@@ -1497,8 +1662,112 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d14c-3657-d3f5-f206" name="Choose One:" book="Armies of the Lord of the Rings" page="67" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7f6-6f15-9e9b-5906" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b02f-e946-fb26-454e" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="eb4b-67d6-8cdd-b2f5" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="210c-f04f-8e8c-726d" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6eca-0523-c18a-8338" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="742c-dc78-53d3-baf4" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ecf0-2c3e-51b1-e722" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d5a0-2963-70c7-ef1b" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="23e2-9ced-97d7-6490" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="6.0"/>
       </costs>
@@ -1530,6 +1799,12 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="fa51-bd2f-2e14-4de7" name="Arise Riders of Théoden!" hidden="false" targetId="d048-b0cd-07fc-f1b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1543,8 +1818,132 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="10be-dd9c-e17a-70b3" name="Choose One:" book="Armies of the Lord of the Rings" page="67" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd4-6fa8-ea5f-ef5c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e2cd-3730-effc-4528" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="df91-7850-cbd6-5434" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9738-3531-371c-cf21" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b6a3-df82-8433-c24e" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="29e0-5208-6c77-f926" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8572-5721-90f6-bae5" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b342-7e5f-0078-fd9b" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aab-992d-445f-666e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d5f1-06a2-32f2-3dd9" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fbb-eb07-e36a-5624" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fc33-38ac-25f3-3114" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9540-4e1d-8c41-9f88" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="14.0"/>
       </costs>
@@ -1576,6 +1975,18 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="b8ee-c217-1094-ab0f" name="Arise Riders of Théoden!" hidden="false" targetId="d048-b0cd-07fc-f1b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cb59-9c40-fcbb-7343" name="Bodyguard (Active)" hidden="false" targetId="2d91-9af0-b06e-c2b4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1590,7 +2001,78 @@ King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="a825-a44f-8a61-3f15" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d59e-5c57-5c6a-8e20" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e169-c132-68ee-d0a5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c6e0-44d2-acd8-3129" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81f0-5a3a-8600-ebb2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fdab-a3c9-f9e4-64d7" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fd79-f891-d22c-3eb7" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="18a9-a352-ba97-4d7a" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -1828,7 +2310,9 @@ Additionally, any Rohan Hero models that are within 3&quot; of the Royal Standar
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4461-7aa0-9741-f06e" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="e725-9928-57d6-7444" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
@@ -1848,7 +2332,16 @@ Additionally, any Rohan Hero models that are within 3&quot; of the Royal Standar
   <entryLinks/>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="d048-b0cd-07fc-f1b2" name="Arise Riders of Théoden!" book="Armies of the Lord of the Rings" page="67" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+If this model is within 12&quot; of Théoden and has the Cavalry keyword, then a model with this special rule receives a +1 bonus to their Fight value on a turn in which they Charge.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="f13f-0452-a97b-2e0e" name="Felaróf" book="Armies of the Lord of the Rings" page="66" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
