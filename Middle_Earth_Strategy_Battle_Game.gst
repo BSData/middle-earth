@@ -10492,6 +10492,36 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cab9-5fc9-4045-8609" name="Nenya" book="Armies of the Lord of the Rings" page="83" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3cb0-bb4f-86b4-97a0" name="Nenya (Passive)" hidden="false" targetId="5a04-4b0a-18d8-58d3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="af4d-e318-5805-3f23" name="Nenya" hidden="false" targetId="66f0-cd96-4587-2a9a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fb4-481e-02cb-e6c5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6d3-705d-3672-106c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
@@ -11683,6 +11713,21 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
         </modifier>
       </modifiers>
       <description>Whilst this model is within 3&quot; of Boromir of Gondor, it may spend Boromir&apos;s Might as their own.</description>
+    </rule>
+    <rule id="5a04-4b0a-18d8-58d3" name="Nenya (Passive)" book="Armies of The Lord of the Rings" page="83" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Galadriel can re-roll her dice when using Fate points</description>
+    </rule>
+    <rule id="5f58-55dc-f165-9fd3" name="*The Lady of Lothlorien" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Galadriel may expend a single point of Will each turn without reducing her own store.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -12926,6 +12971,13 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
       </characteristics>
     </profile>
     <profile id="948b-b154-1b32-1594" name="Knife" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="66f0-cd96-4587-2a9a" name="Nenya" book="Armies of The Lord of the Rings" page="83" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
