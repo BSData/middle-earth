@@ -775,6 +775,122 @@ This is a banner with a range of 6&quot;. Additionally, Suladân never suffers t
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ac02-0bb0-5326-4bd8" name="The Golden King of Abrakhân" book="Armies of The Lord of the Rings" page="192" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="6a78-e77d-c40b-4aab" name="Haradrim King" book="Armies of the Lord of the Rings" page="191" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+        <profile id="d97b-1910-b8e7-9ca3" name="The Golden Throne (Passive)" book="Armies of the Lord of the Rings" page="192" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+This is a banner. However it does not hinder the Golden King in any way. He does not suffer the -1 penalty for carrying it."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="67e8-286e-e0eb-0db4" name="Riches Beyond Renown (Active)" book="Armies of the Lord of the Rings" page="192" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+The Golden King may spend any number of Will points whenever an enemy Hero model takes a Courage test within 12 &quot;. The target model&apos;s Courage value is reduced by 1 for each point of Will the Golden King spends in this way. The Golden King may even wait for the Courage test to be rolled before choosing whether to expend any Will points. After the Golden King has reduced a target&apos;s Courage value, the target may still use Might or Will to alter their Courage test. 
+</description>
+        </rule>
+        <rule id="c7e2-15f3-a8e6-fb9a" name="The Golden King Model" book="Armies of the Lord of the Rings" page="192" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+The Golden King and his bearers are represented by a single model with the combined profile shown above, and the component parts cannot be attacked or wounded separately. Once the Golden King is reduced to 0 Wounds, or otherwise removed as a casualty, remove the entire model from play Treat the Golden King&apos;s Control Zone as being the area within 1 &quot; of either bearer&apos;s base. 
+</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="469d-be7b-f15b-d750" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8e72-a6b6-d2ff-488e" name="Burly (Passive)" hidden="false" targetId="be60-39e9-b5bc-4bf7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1b0b-f2a7-cbe3-1ec5" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7a33-307c-dd60-ec80" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="00e4-ca4a-6b87-36a9" name="Two-Handed Weapon" hidden="false" targetId="8649-9967-6db6-6693" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52c2-583f-bc01-8282" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="65de-9240-6cfb-1de0" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="130.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="9f82-5251-62ef-46e0" name="The Betrayer" hidden="false" targetId="dea0-a30a-99cf-37f2" type="selectionEntry">
