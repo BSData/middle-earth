@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44ea-aeca-39eb-0a17" name="The_Serpent_Hoard" book="Armies of The Lord of the Rings" page="190" revision="2" battleScribeVersion="2.01" authorName="Ottar" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="44ea-aeca-39eb-0a17" name="The Serpent Horde" book="Armies of The Lord of the Rings" page="190" revision="2" battleScribeVersion="2.01" authorName="Ottar, Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="16ba-0f96-714b-4de0" name="The Scorpion&apos;s Sting" book="Armies of The Lord of the Rings" page="190" hidden="false">
@@ -7,10 +7,18 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A Serpent Horde army may have 50% of its warriors armed with bows. Additionally, all Haradrim Warriors and Raiders may apply the Poisoned Weapons special rule to all of their weapons.</description>
+      <description>
+A Serpent Horde army may have 50% of its warriors armed with bows. Additionally, all Haradrim Warriors and Raiders may apply the Poisoned Weapons special rule to all of their weapons.</description>
     </rule>
   </rules>
-  <infoLinks/>
+  <infoLinks>
+    <infoLink id="f77c-1bbb-fb9f-414b" name="Poisoned Weapon (Active)" hidden="false" targetId="ad3a-a37d-44be-1bbe" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+  </infoLinks>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
@@ -492,13 +500,13 @@
     </selectionEntry>
     <selectionEntry id="c3e3-7616-caa0-48bb" name="Suladân The Serpent Lord" book="Armies of The Lord of the Rings" page="191" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="e2d2-082b-5bce-4a2f" name="Suladân The Serpent Lord" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="e2d2-082b-5bce-4a2f" name="Suladân The Serpent Lord" book="Armies of the Lord of the Rings" page="191" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
@@ -513,21 +521,16 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="982b-878e-c708-cda0" name="Ascendant (Passive)" hidden="false">
+        <rule id="982b-878e-c708-cda0" name="Ascendant (Passive)" book="Armies of the Lord of the Rings" page="191" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The range of Suladân&apos;s Stand Fast! is 12&quot; rather than 6&quot;.</description>
+          <description>
+The range of Suladân&apos;s Stand Fast! is 12&quot; rather than 6&quot;.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="a32b-c141-b446-5572" name="Poisoned Weapon (Active)" hidden="false" targetId="ad3a-a37d-44be-1bbe" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="de40-73c0-df95-135c" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
           <profiles/>
           <rules/>
@@ -577,13 +580,14 @@
       <selectionEntries>
         <selectionEntry id="2b55-50ed-f4c8-b584" name="The Serpent Banner" book="Armies of The Lord of the Rings" page="191" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="ce32-26ba-74a8-089c" name="The Serpent Banner" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+            <profile id="ce32-26ba-74a8-089c" name="The Serpent Banner (Passive)" book="Armies of the Lord of the Rings" page="191" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="This is a banner with a range of 6&quot;. Additionally, Suladân never suffers the -1 penalty to his Duel rolls for carrying it."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+This is a banner with a range of 6&quot;. Additionally, Suladân never suffers the -1 penalty to his Duel rolls for carrying it."/>
               </characteristics>
             </profile>
           </profiles>
@@ -598,7 +602,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -611,7 +617,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="624c-48fb-0383-8837" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+        <entryLink id="624c-48fb-0383-8837" name="Poisoned Sword" hidden="false" targetId="fab9-1a08-2998-1f07" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -635,17 +641,11 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2498-8e97-3d53-6acc" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+        <entryLink id="2498-8e97-3d53-6acc" name="Bow with Poisoned Arrows" hidden="false" targetId="2da0-153e-09a8-737d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="5">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -660,6 +660,119 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="407c-8164-fd18-e55f" name="Haradrim King" book="Armies of The Lord of the Rings" page="191" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="bf2d-a9ea-a214-d607" name="Haradrim King" book="Armies of the Lord of the Rings" page="191" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5fd7-5fad-9d69-5ded" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c3ac-cb45-fd45-e1b0" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0894-fa30-2246-7d18" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7dd9-a6b6-6a54-5489" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3afb-a72e-a1d5-9cf9" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8d36-84aa-eaa5-2e0a" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60af-2b5d-7bb2-e24b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="26c2-4242-a7d4-2e7f" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d29d-d9e5-e2b9-a968" name="Bow with Poisoned Arrows" hidden="false" targetId="2da0-153e-09a8-737d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="04ca-81fb-bc03-14a5" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="002f-acfd-58fe-24ac" name="War Spear" hidden="false" targetId="0040-e6b2-0424-f3f8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -688,7 +801,78 @@
       </categoryLinks>
     </entryLink>
   </entryLinks>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="2da0-153e-09a8-737d" name="Bow with Poisoned Arrows" book="Armies of The Lord of the Rings" page="191" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0c17-c0b9-52a8-57f9" name="Bow" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9acf-51a5-b023-5c36" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="748c-3313-e7a6-2741" name="Poisoned Weapon (Active)" hidden="false" targetId="ad3a-a37d-44be-1bbe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b3-6b31-8a5f-c330" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fab9-1a08-2998-1f07" name="Poisoned Sword" book="Armies of The Lord of the Rings" page="191" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c325-5a38-93b8-6471" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8021-f202-0d30-d345" name="Sword" hidden="false" targetId="86a4-eac9-c4d7-a714" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7133-cfc7-8618-4acd" name="Poisoned Weapon (Active)" hidden="false" targetId="ad3a-a37d-44be-1bbe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6e9-49a4-43ba-f203" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules/>
   <sharedProfiles/>
