@@ -393,11 +393,19 @@ A Serpent Horde army may have 50% of its warriors armed with bows. Additionally,
     </selectionEntry>
     <selectionEntry id="e1c4-2a4d-91a1-1bb0" name="Watcher of Kârna" book="Armies of The Lord of the Rings" page="198" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="c190-336f-e6ae-2e65" name="Watcher of Kârna" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="c190-336f-e6ae-2e65" name="Watcher of Kârna" book="Armies of the Lord of the Rings" page="198" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="fad9-e38b-321f-e9f0" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e1c4-2a4d-91a1-1bb0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00c2-0c49-cc14-47ae" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/3+"/>
@@ -416,7 +424,14 @@ A Serpent Horde army may have 50% of its warriors armed with bows. Additionally,
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Watchers of Kârna receive a bonus of +2 to any Courage test they must make for charging an enemy with the Terror special rule. Additionally, Watchers of Kârna receive a bonus of +2 to their Courage when models with the Blades of the Dead special rule make Strikes against them.</description>
+          <description>
+Watchers of Kârna receive a bonus of +2 to any Courage test they must make for charging an enemy with the Terror special rule. Additionally, Watchers of Kârna receive a bonus of +2 to their Courage when models with the Blades of the Dead special rule make Strikes against them.</description>
+        </rule>
+        <rule id="f995-7233-d260-c3ec" name="Hatred (Spirit)" book="Armies of the Lord of the Rings" page="198" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
         </rule>
       </rules>
       <infoLinks>
@@ -435,9 +450,66 @@ A Serpent Horde army may have 50% of its warriors armed with bows. Additionally,
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="3463-aba5-2be1-2d7d" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="235d-60e9-16b1-77e1" name="Choose One" book="Armies of the Lord of the Rings" page="198" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="429d-0d22-32e3-6500" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="00c2-0c49-cc14-47ae" name="Twin Blades" book="Armies of the Lord of the Rings" page="198" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="4e71-cd96-c4df-88b0" name="Twin Blades (Active)" book="Armies of the Lord of the Rings" page="198" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+A Watcher of Kârna with twin blades increases their Attack characteristic to 2."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42e9-a80e-5ea1-8f46" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2722-d3f1-ece5-b358" name="Bow with Poisoned Arrows" hidden="false" targetId="2da0-153e-09a8-737d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="809f-4797-fbad-be37" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
           <profiles/>
