@@ -10390,7 +10390,8 @@ A Hâsharin can never be Trapped whilst still standing.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+The Mûmak has Defence 8 rather than 7. "/>
           </characteristics>
         </profile>
       </profiles>
@@ -10416,7 +10417,8 @@ A Hâsharin can never be Trapped whilst still standing.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+Models in the Howdah gain the Reistant to Magic special rule. Additionally, every time a model in the Howdah suffers a Wound, roll a d6. On a 6, the Wound is ignored exactly as if a Fate point had been expended."/>
           </characteristics>
         </profile>
       </profiles>
@@ -10442,7 +10444,8 @@ A Hâsharin can never be Trapped whilst still standing.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+A Mûmak with Tusk Weapons will inflict four Strength 9 hits when it Tramples, rather than three."/>
           </characteristics>
         </profile>
       </profiles>
@@ -10468,7 +10471,8 @@ A Hâsharin can never be Trapped whilst still standing.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+If they do not move, models in the Howdah may make a Shooting attack with a range of 8&quot; and a Strength of 6."/>
           </characteristics>
         </profile>
       </profiles>
@@ -10494,7 +10498,9 @@ A Hâsharin can never be Trapped whilst still standing.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+Models in the Howdah may attempt to dismount from the Mûmak during the Move phase, after the Mûmak has moved. Roll a D6 for each model that is attempting to dismount. On a 1, the rope has snapped and the unfortunate model suffers falling damage as normal. On a 2+, the model successfully dismounts, place it in base contact with the Mûmak. Models that dismount may still Charge as normal, although they may not make shooting attacks. 
+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -10520,7 +10526,9 @@ A Hâsharin can never be Trapped whilst still standing.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+This Mûmak has its Attacks increased to 4, however, it will suffer a -1 penalty to all Courage tests when rolling to see whether or not it will Stampede.
+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -11729,6 +11737,14 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
         </modifier>
       </modifiers>
       <description>Whilst this model is within 3&quot; of Boromir of Gondor, it may spend Boromir&apos;s Might as their own.</description>
+    </rule>
+    <rule id="78df-4ec9-85f3-1bd9" name="Awesome Presence (Passive)" book="Armies of The Lord of the Rings" page="195" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Friendly Haradrim and Mahûd models within 3&quot; of this model may re-roll a single d6 when making a Duel roll. This is cumulative with the effects of a banner, however, each d6 may only be re-rolled once. </description>
     </rule>
   </sharedRules>
   <sharedProfiles>
