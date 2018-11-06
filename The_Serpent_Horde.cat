@@ -1216,6 +1216,249 @@ Each time a friendly Hero model within 6&quot; of the Taskmaster from the same a
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="235c-e57e-ed45-d610" name="War Mûmak of Harad" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="8852-e1f3-6e2a-48d6" name="Howdah Capacity (War Mûmak)" book="Armies of the Lord of the Rings" page="194" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+A War Mûmak of Harad&apos;s Howdah has a capacity of 12 models, in addition to the commander. The only models that may rude within the Howdah are Haradrim Warriors, Serpent Guard and Watchers of Kârna.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7e2d-6fe8-aa30-d0ab" name="Mûmak" hidden="false" targetId="7eb2-1cb5-537a-6fd1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="fad9-e38b-321f-e9f0" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="235c-e57e-ed45-d610" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c85-7025-0cd1-2376" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="cddc-0d63-2e80-720a" value="8">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="235c-e57e-ed45-d610" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e15b-4447-b415-4237" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f230-f7e3-e115-d4dd" name="Howdah" hidden="false" targetId="002b-b174-6066-fcb3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c6b9-4afb-e27f-59d1" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9d2d-37b0-52d1-182c" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="39ee-118a-7fc6-5796" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5a97-342e-814c-2f76" name="Choose One" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39b9-a920-f4c3-e48a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5649-2080-0193-a25f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="e61a-0be9-ca11-7da6" name="Haradrim Commander" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="adc2-5a9a-6f47-7479" name="Haradrim Commander" hidden="false" targetId="e703-2e4b-21d3-80d8" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="183e-bc87-4102-f76c" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716b-da53-7d18-e88e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="ad04-b30e-bdea-0725" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="48c9-f2ee-740a-4d76" name="War Spear" hidden="false" targetId="0040-e6b2-0424-f3f8" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eeb-39b2-bfd7-3a03" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="02f8-65fd-fb1a-f490" name="Mahûd Beasmaster Chieftain" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="b105-8106-fdfc-7947" name="Mahûd Beastmaster Chieftain" hidden="false" targetId="7818-7544-45a8-0646" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="0e89-1ed5-efbd-4526" name="Haradrim Commander" hidden="false" targetId="e703-2e4b-21d3-80d8" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bbe-ef59-49f7-0170" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="ea0f-4510-f62b-0a9e" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="6bb0-b808-91ff-7b4b" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec72-a906-9fe1-366a" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e15b-4447-b415-4237" name="Gnarled Hide" hidden="false" targetId="c1d5-9333-fdb1-b0c0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5c85-7025-0cd1-2376" name="Foul Temperament" hidden="false" targetId="1b7f-1cd5-7b45-acb0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2da3-5e6d-3031-2a4d" name="Rappelling Lines" hidden="false" targetId="13c0-d855-50c1-dac2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cb6a-9c39-0aec-a026" name="Tusk Weapons" hidden="false" targetId="4abd-d869-b44b-6d9e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4060-f233-e196-bc34" name="Sigils of Defiance" hidden="false" targetId="0eb5-2e37-64cd-c5b1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dd5e-658e-7813-2f8c" name="Rocks" hidden="false" targetId="522a-beee-144b-1149" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="275.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="9f82-5251-62ef-46e0" name="The Betrayer" hidden="false" targetId="dea0-a30a-99cf-37f2" type="selectionEntry">
