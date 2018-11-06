@@ -10382,6 +10382,162 @@ A Hâsharin can never be Trapped whilst still standing.</description>
         <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c1d5-9333-fdb1-b0c0" name="Gnarled Hide" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="66c9-a6e3-d8ea-688f" name="Gnarled Hide" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25fd-c5d7-5d9f-cf47" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0eb5-2e37-64cd-c5b1" name="Sigils of Defiance" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c4f1-8a11-2ae4-6a66" name="Sigils of Defiance" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61c5-b020-5d36-721d" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4abd-d869-b44b-6d9e" name="Tusk Weapons" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a9f3-1c80-281e-97c7" name="Tusk Weapons" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d64f-4ee7-2f79-a740" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="522a-beee-144b-1149" name="Rocks" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9089-4434-588c-0059" name="Rocks" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4535-2b4f-160b-a3bf" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13c0-d855-50c1-dac2" name="Rappelling Lines" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9322-a54d-7ef3-d14d" name="Rappelling Lines" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8977-771c-f8e6-9d30" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b7f-1cd5-7b45-acb0" name="Foul Temperament" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3067-0025-983d-38d6" name="Foul Temperament" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21ff-43ec-8b75-7ab1" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
@@ -12813,6 +12969,76 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
       <characteristics>
         <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="7eb2-1cb5-537a-6fd1" name="Mûmak" book="Armies of the Lord of the Rings" page="194" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/5+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="9"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="7"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="3"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="10"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Mûmak"/>
+      </characteristics>
+    </profile>
+    <profile id="e703-2e4b-21d3-80d8" name="Haradrim Commander" book="Armies of the Lord of the Rings" page="194" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+        <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+        <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+        <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+        <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+        <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+        <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+        <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+        <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+      </characteristics>
+    </profile>
+    <profile id="002b-b174-6066-fcb3" name="Howdah" book="Armies of the Lord of the Rings" page="194" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="-"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="-"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="-"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="9"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="-"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="5"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="-"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Howdah"/>
+      </characteristics>
+    </profile>
+    <profile id="7818-7544-45a8-0646" name="Mahûd Beastmaster Chieftain" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/3+"/>
+        <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
+        <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+        <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+        <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+        <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+        <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+        <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+        <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
       </characteristics>
     </profile>
   </sharedProfiles>
