@@ -746,16 +746,9 @@ Dragon Knights may only include Easterling models with the Black Dragon upgrade 
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="5817-e772-92a7-6a6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0cc0-e0f1-fd33-e601" type="equalTo"/>
+                    <condition field="selections" scope="5817-e772-92a7-6a6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="60bd-4e2f-41d4-af86" type="equalTo"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="5817-e772-92a7-6a6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="60bd-4e2f-41d4-af86" type="equalTo"/>
-                        <condition field="selections" scope="5817-e772-92a7-6a6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ea50-8929-d8bd-4a37" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
+                  <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -794,13 +787,14 @@ Dragon Knights may only include Easterling models with the Black Dragon upgrade 
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ce56-d950-6a6c-d7ee" name="Choose One:" book="Armies of the Lord of the Rings" page="184" hidden="false" collective="false">
+        <selectionEntryGroup id="ce56-d950-6a6c-d7ee" name="Choose One:" book="Armies of the Lord of the Rings" page="184" hidden="false" collective="false" defaultSelectionEntryId="3b5a-f143-f8d1-8f9d">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e351-5073-5b95-cbc3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46a9-bd18-be1b-37d6" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
