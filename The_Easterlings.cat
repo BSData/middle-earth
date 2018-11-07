@@ -107,8 +107,7 @@ Easterling models receive +1 Courage when their force is Broken. Additionally, o
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Can be used as a spear or a two-handed Axe."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Can be used as a spear or a two-handed Axe."/>
               </characteristics>
             </profile>
           </profiles>
@@ -142,7 +141,9 @@ Can be used as a spear or a two-handed Axe."/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -284,9 +285,7 @@ Whenever an enemy model in combat with Amdûr declares a Heroic Strike, Amdûr m
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Durtûz is an Elven-made hand-and-a-half sword. 
-"/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Durtûz is an Elven-made hand-and-a-half sword.  "/>
               </characteristics>
             </profile>
           </profiles>
@@ -320,7 +319,9 @@ Durtûz is an Elven-made hand-and-a-half sword.
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -456,8 +457,7 @@ Durtûz is an Elven-made hand-and-a-half sword.
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Hand-and-a-half axe"/>
+                    <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Hand-and-a-half axe"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -484,7 +484,9 @@ Hand-and-a-half axe"/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -685,7 +687,9 @@ Dragon Knights may only include Easterling models with the Black Dragon upgrade 
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -939,7 +943,29 @@ Dragon Knights may only include Easterling models with the Black Dragon upgrade 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="7539-5bc9-865e-2367" name="War Drum (Easterling)" book="Armies of the Lord of the Rings" page="185" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9362-a443-85e7-4441" name="War Drum" hidden="false" targetId="29ed-f7ec-64b6-b231" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="068f-54e0-df87-e985" name="Black Dragon" hidden="false" targetId="9512-5b99-90c7-0054" type="selectionEntry">
@@ -990,6 +1016,16 @@ Dragon Knights may only include Easterling models with the Black Dragon upgrade 
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="eb63-2d49-0d8e-bb6f" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df66-d1df-3f8a-c365" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
@@ -1030,8 +1066,7 @@ Dragon Knights may only include Easterling models with the Black Dragon upgrade 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Black Dragons have Fight value and Courage 4."/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Black Dragons have Fight value and Courage 4."/>
           </characteristics>
         </profile>
       </profiles>
