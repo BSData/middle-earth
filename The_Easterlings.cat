@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9907-892e-52d2-175e" name="The Easterlings" book="Armies of the Lord of the Rings" page="180" revision="1" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9907-892e-52d2-175e" name="The Easterlings" book="Armies of the Lord of the Rings" page="180" revision="2" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="ef04-2822-1487-03fe" name="&quot;No quarter was asked...&quot;" book="Armies of the Lord of the Rings" page="180" hidden="false">
@@ -725,7 +725,7 @@ Dragon Knights may only include Easterling models with the Black Dragon upgrade 
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="3d78-8110-7697-953f" value="4">
+            <modifier type="set" field="3d78-8110-7697-953f" value="4/4+">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="5817-e772-92a7-6a6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c96e-fb05-f8b3-6faf" type="equalTo"/>
@@ -911,7 +911,7 @@ Dragon Knights may only include Easterling models with the Black Dragon upgrade 
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="3d78-8110-7697-953f" value="4">
+            <modifier type="set" field="3d78-8110-7697-953f" value="4/4+">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="a683-371a-c620-49de" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9512-5b99-90c7-0054" type="equalTo"/>
@@ -977,7 +977,9 @@ Dragon Knights may only include Easterling models with the Black Dragon upgrade 
             </infoLink>
           </infoLinks>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="894e-5f54-6766-70fa" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
