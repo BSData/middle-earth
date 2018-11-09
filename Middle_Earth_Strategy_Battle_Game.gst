@@ -2749,11 +2749,11 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd5a-7644-cfaa-24cd" name="Hand-and-a-half Club" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fd5a-7644-cfaa-24cd" name="Hand-and-a-half Axe" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="6167-de6e-a259-2642" name="Stun" hidden="false" targetId="8364-37bf-b721-69df" type="rule">
+        <infoLink id="6167-de6e-a259-2642" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2765,7 +2765,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e435-127c-aad9-9a3b" name="Hand-and-a-half Club" hidden="false" targetId="f98b-eec6-6e5c-f67e" type="profile">
+        <infoLink id="e435-127c-aad9-9a3b" name="Hand-and-a-half Axe" hidden="false" targetId="7691-e33c-1fbc-9989" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2781,7 +2781,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d495-e83d-7460-e870" name="Hand-and-a-half Hammer" hidden="false" collective="false" type="upgrade">
@@ -13006,6 +13006,13 @@ Galadriel may expend a single point of Will each turn without reducing her own s
       </characteristics>
     </profile>
     <profile id="948b-b154-1b32-1594" name="Knife" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="7691-e33c-1fbc-9989" name="Hand-and-a-half Axe" book="" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
