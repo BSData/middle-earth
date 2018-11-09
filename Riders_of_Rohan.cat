@@ -1,0 +1,2937 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="edd6-92a9-48a9-4836" name="Riders of Rohan" book="Armies of the Lord of the Rings" page="60" revision="2" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules>
+    <rule id="2cb4-81c6-66ca-73d5" name="&quot;Ride for Ruin and the World&apos;s Ending!&quot;" book="Armies of the Lord of the Rings" page="60" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Friendly Rohan Cavalry models gain +1 Strength on a turn in which they Charge.</description>
+    </rule>
+  </rules>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="3712-badb-4c17-1f44" name="Théoden, King of Rohan" book="Armies of the Lord of the Rings" page="61" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="beed-3eba-c33f-cf30" name="Théoden, King of Rohan" book="Armies of the Lord of the Rings" page="61" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3712-badb-4c17-1f44" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1603-51ab-e03c-c6b8" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3712-badb-4c17-1f44" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180c-3e0a-035e-f870" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8d3e-e20f-6bdc-5ba8" name="The Will of Men is Easily Corrupted (Passive)" book="Armies of the Lord of the Rings" page="61" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If Grima Wormtongue is within 6&quot; of Théoden, King of Rohan, then Théoden is reduced to Fight 3/4+ and 1 Attack. Additionally, he may not declare Heroic Actions and may not use Will points.</description>
+        </rule>
+        <rule id="8b41-759f-0b1d-facb" name="Forth, and Fear no Darkness (Active)" book="Armies of the Lord of the Rings" page="61" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Théoden&apos;s Stand Fast! is 12&quot; rather than 6&quot;.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="82ca-bd38-f568-baf0" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dd29-476a-9d16-631e" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="50c4-8ac1-b52a-6145" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ace8-3255-7302-e972" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c75d-7bdb-767b-b120" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d037-e319-7eb6-071e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bb1-3274-2410-2ece" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0ac3-4124-28bf-9af8" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cc53-8cca-d774-3fe7" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c858-3600-8b90-5638" name="Herugrim (Active)" book="Armies of the Lord of the Rings" page="61" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="71ad-9820-143d-d832" name="Herugrim (Active)" book="Armies of the Lord of the Rings" page="61" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Herugrim is a sword. Additionally, Théoden may use the Feint and Stab Special Strike even if his Fight value is lower than his opponent&apos;s."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e2dc-525a-c846-b9d2" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="395f-9cea-9973-2449" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b333-cb60-12f9-793f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2b70-c2ae-f0de-eca0" name="Mount" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3130-901f-b2d4-4b2e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6541-ea6e-97e4-5997" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2e48-02c0-f12a-3fb5" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7e1f-bd47-5663-8b9e" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1603-51ab-e03c-c6b8" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6caa-547f-fed6-b955" name="Armour Choice" hidden="false" targetId="b5d9-60c1-423e-d43b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87eb-b5c5-74fe-5ee6" name="Éomer, Marshall of the Riddermark" book="Armies of the Lord of the Rings" page="62" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d61f-ca9d-0188-b818" name="Éomer, Marshall of the Riddermark" book="Armies of the Lord of the Rings" page="62" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="87eb-b5c5-74fe-5ee6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cad4-fb68-e0f0-93cd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f051-a540-d107-6466" name="The Price of Grief (Active)" book="Armies of the Lord of the Rings" page="62" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Théoden or Éowyn are in the same force as Éomer, and either (or both) are slain, for the remainder of the game Éomer adds +1 to all To Wound rolls during the Fight phase.
+Additionally, for the remainder of the game Éomer must Charge if able to do so.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="db80-e707-f217-f107" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="826a-4954-fe62-0bab" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="343f-6253-a8f1-e19f" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="19b0-26e7-0962-d67b" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0503-4002-21cf-a7ae" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="709a-c73f-0f04-e133" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="356b-a3d3-ec83-d913" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7f4f-0829-edf7-743b" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c4dc-707e-7065-3f2a" name="Mount" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b9a-a446-ff8d-aef0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2d79-e5f8-4818-a14d" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7b33-28a1-8846-e41d" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a2f4-16fe-83d0-a864" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="50f9-7536-2814-cd5f" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cad4-fb68-e0f0-93cd" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="10cb-dba9-23b0-f1da" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a826-de69-643f-a947" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa5-2136-36b4-1015" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="236f-534a-f201-680f" name="Théodred, Heir of Rohan" book="Armies of the Lord of the Rings" page="62" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="debb-14bc-c41d-f832" name="Théodred, Heir of Rohan" book="Armies of the Lord of the Rings" page="62" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="236f-534a-f201-680f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="691d-aa6b-024d-e3c1" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="75b4-fda9-f068-064b" name="Reckless Charge (Active)" book="Armies of the Lord of the Rings" page="62" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Théodred must Charge an enemy model if he is able to do so.
+Additionally, on a turn in which he Charges, Théodred may re-roll any failed to Wound rolls during the Fight phase.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f630-53ad-a621-030d" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fd17-2bd8-5f90-9817" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dffe-8f53-2e86-edcf" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6480-2fef-addf-42c9" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29d8-80e0-3781-d1c3" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa4-de48-f522-6e74" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8873-ed91-1709-edc0" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fe57-5ec9-41cd-ba0a" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0cd3-f40a-c7fe-5a83" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6179-5fa2-c410-2232" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c597-e763-1c5e-1a09" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="691d-aa6b-024d-e3c1" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d1e1-c97d-6c39-18ec" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b606-4174-8c27-6aee" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aee-6c76-e8ba-45da" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8288-115c-eceb-2f58" name="Éowyn, Maiden of Rohan" book="Armies of the Lord of the Rings" page="63" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8828-1d4f-24e2-9b63" name="Éowyn, Maiden of Rohan" book="Armies of the Lord of the Rings" page="63" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8288-115c-eceb-2f58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1e6-eb23-7376-d08f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8288-115c-eceb-2f58" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0cc9-7c61-881a-82c2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Woman"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="de5a-229a-e87a-ea82" name="I Shall Kill You if You Touch Him (Active)" book="Armies of the Lord of the Rings" page="63" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If Théoden is in your force and is slain, place a 25mm marker where he fell. Éowyn must now move directly towards this marker during each of her Move phases if she is able to. Once Éowyn has moved within 3&quot; of this marker, she may not willingly move further than 3&quot; away from it for any reason for the remainder of the game. Additionally, whilst within 3&quot; of the marker Éowyn becomes Fearless and must re-roll any failed To Wound rolls. In addition, she also receives a bonys of +1 To Wound when making strikes against the model that slew Théoden.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e29f-9f1c-555d-c1ad" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e139-e7dc-71ba-d36e" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d8da-052d-f3ea-98bf" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c02-c2b0-e46b-d20e" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e44a-ddb6-885e-6c5a" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa1a-41ac-d720-7fd4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f01d-0109-094e-a8e7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="610d-9754-1830-6228" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="95c8-50e1-fe67-ac03" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="42c0-062f-533b-5282" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b1e6-eb23-7376-d08f" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0cc9-7c61-881a-82c2" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f032-59ec-e3c1-94d0" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7ff1-77e2-f5f9-1523" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fb6-8c3d-2477-f246" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5fe6-7eb7-5874-3a52" name="Erkenbrand, Captain of Rohan" book="Armies of the Lord of the Rings" page="64" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="cb7d-db68-d857-74e1" name="Erkenbrand, Captain of Rohan" book="Armies of the Lord of the Rings" page="64" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ca46-7e46-1297-b95f" name="Westfold Redshields" book="Armies of the Lord of the Rings" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If your army includes Erkenbrand, you can upgrade any number of Riders of Rohan in his warband to Westfold Redshields at a cost of +1 point per model. Westfold Redshields count as being in range of a banner if Erkenbrand is within 3&quot;.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8bbe-2c1e-9d81-37cb" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e0f7-da25-9a22-f2ce" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="36ad-a135-f5fe-1cb2" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a477-998e-71f6-9639" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d9-8fb3-31e5-ccc2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f50-7593-7842-b7b0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3a50-cae8-e240-a777" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7832-6a02-8ad6-1d91" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5ffa-991c-8702-193b" name="The Horn of the Hammerhand (Active)" book="Armies of the Lord of the Rings" page="64" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0b8a-80a3-f998-8891" name="The Horn of the Hammerhand (Active)" book="Armies of the Lord of the Rings" page="64" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" This is a war horn that adds +2 Courage rather than +1. However, this war horn only affects friendly Rohan models."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3f2c-7a0c-abce-f307" name="War Horn" hidden="false" targetId="2763-dbf3-7fde-9758" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e63-51ab-79db-ce49" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63e6-fa7b-421b-e4e5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8f71-12ff-7f0b-207b" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2239-9d33-190a-b5f6" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f6fa-ca12-826e-2ba2" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f814-245c-b08a-6098" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7e3b-cfa5-2808-185f" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af11-c8f0-c5f0-d507" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f11c-2eb6-2a61-a0a7" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cce0-a60f-f5c5-3a17" name="Háma, Captain of Rohan" book="Armies of the Lord of the Rings" page="65" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1805-afc2-3a5e-2a9a" name="Háma, Captain of Rohan" book="Armies of the Lord of the Rings" page="65" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="cce0-a60f-f5c5-3a17" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f85f-460e-2c70-e74e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a40d-848c-a51e-0152" name="Sworn Protector (Théoden)" book="Armies of the Lord of the Rings" page="65" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="349b-5764-d6af-7bab" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5bcb-5be7-763b-0061" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="07a9-618d-2b07-4770" name="Sworn Protector (Active)" hidden="false" targetId="98e5-0c6c-dc8a-255d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ba75-3c2a-91ef-7db1" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d519-050a-8a25-cc64" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9534-fb08-193f-2ae6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="55a3-1cba-8ba5-fb54" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3799-0acf-6708-99b1" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="08ab-4c11-534f-199e" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1671-b35c-3b2f-95aa" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aab1-c2b3-1175-6322" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbb1-6339-8593-19c0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f85f-460e-2c70-e74e" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7309-451b-8ed7-0dcf" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7bd0-ce19-59f3-b5d8" name="Grimbold of Grimslade" book="Armies of the Lord of the Rings" page="65" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="69af-f42c-d071-1fff" name="Grimbold of Grimslade" book="Armies of the Lord of the Rings" page="65" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8e54-29cc-b575-2c4d" name="Helmingas" book="Armies of the Lord of the Rings" page="65" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If your army includes Grimbold, you may upgrade any number of Warriors of Rohan to Helmingas for a cost of +1 point per model. Helmingas are Strength 4, rather than 3.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d448-0fdc-8370-bf04" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="957f-3f5b-0524-06d7" name="Mighty Blow (Active)" hidden="false" targetId="0583-e3c4-79c5-3827" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47df-61ff-8ef7-53af" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="671e-8db6-5aba-eb65" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0f00-ac64-9bac-fd53" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="aa82-5dfc-3e54-382e" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5480-ffe8-1672-123f" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c6a2-6e36-5f47-e713" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c526-7303-f7a2-e404" name="Two-Handed Axe" hidden="false" targetId="690d-986d-e5a2-0264" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44e5-e60c-a7f9-93f4" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ec8-ede0-5ac0-2522" name="Eorl The Young" book="Armies of the Lord of the Rings" page="66" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b4a5-6ce4-9006-3696" name="Eorl The Young" book="Armies of the Lord of the Rings" page="66" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3*"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2b32-f451-1f2f-e8bd" name="*Legendary Hero" book="Armies of the Lord of the Rings" page="66" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+The first time each turn that Eorl the Young expends a point of Might, roll a d6. On a 4+, the point of Might is free and does not reduce Eorl&apos;s store of Might.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="258e-37a1-e60f-c22b" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="af0b-a649-d225-2bbd" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4ec2-baf9-58c0-774d" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5ae3-e52d-51a2-83bf" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="207d-c442-2565-188d" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="01d0-db81-8e04-656c" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54e3-af59-f1d1-c285" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="227e-b221-8523-f6fc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4cfe-922d-db58-8824" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3e3d-555b-5caa-9e8c" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5c90-63f8-1dcd-16d5" name="Felaróf" book="Armies of the Lord of the Rings" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="136b-396f-b627-36af" name="Felaróf" hidden="false" targetId="f13f-0452-a97b-2e0e" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1075-b68c-3673-2a69" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e84e-f995-81ba-018d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="91d5-f933-d33e-5886" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c093-bc2b-8f4c-2295" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b2d2-0032-de57-98fe" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f14-c379-8f53-d9c6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="798d-b02e-570f-28dd" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="326b-c03a-1f9f-9fd7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9ec5-ee48-50b8-6ce3" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4680-f174-a778-143a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="115.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46b3-9cb8-72b7-f050" name="King&apos;s Huntsman" book="Armies of the Lord of the Rings" page="66" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c0cb-1e5f-fca2-84bc" name="King&apos;s Huntsman" book="Armies of the Lord of the Rings" page="66" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b630-61b1-5dfd-65a8" name="Master Archer (Active)" book="Armies of the Lord of the Rings" page="66" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+King&apos;s Huntsmen only fail In The Way rolls on the roll of a 1. Additionally, each time this model slays an enemy Hero or Moster model, restore the King&apos;s Huntsman&apos;s Might to its starting level.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="320a-36fd-5204-ea9a" name="Heroic Accuracy" hidden="false" targetId="7597-d6d9-0053-2e3c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd8-80aa-8f64-9490" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b45-6ad2-c8c8-9888" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c63e-060f-4264-2998" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4fb8-a621-9247-18e2" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c2d5-da0b-26fe-42d2" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="896f-b015-9a61-23fe" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="edb0-9404-50ed-dc03" name="Longbow" hidden="false" targetId="7b55-34e4-6b53-0975" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaec-8e5e-45df-5602" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="289e-21a3-4cd1-a8c1" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="71d2-0457-83dc-a3ef" name="Captain of Rohan" book="Armies of the Lord of the Rings" page="67" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="da83-45c5-d66e-5d01" name="Captain of Rohan" book="Armies of the Lord of the Rings" page="67" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01ca-c758-cb91-5830" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="180c-3e0a-035e-f870" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01ca-c758-cb91-5830" type="equalTo"/>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7dd4-5bad-d551-b250" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01ca-c758-cb91-5830" type="equalTo"/>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7dd4-5bad-d551-b250" type="equalTo"/>
+                <condition field="selections" scope="71d2-0457-83dc-a3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b391-e628-ca5f-dd97" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2968-15c8-02ff-b9e1" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7f92-3c9f-f3d4-ba8c" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c740-b618-5565-47ac" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f26e-dfa7-1112-0aa5" name="Arise Riders of Théoden!" hidden="false" targetId="d048-b0cd-07fc-f1b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01d5-532b-bfc5-cccd" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db9-7821-be8e-e262" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="49b4-a509-d4e0-a1a9" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5cd8-a052-7612-a7a0" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2b7c-d7f3-e80f-77d4" name="Choose One:" book="Armies of the Lord of the Rings" page="67" hidden="false" collective="false" defaultSelectionEntryId="79b7-3c22-e7bd-9afc">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22ed-a97b-70de-9d3a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="038b-af28-7772-0efa" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="79b7-3c22-e7bd-9afc" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e065-0dcc-1c0f-8880" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="edea-4da5-7129-8128" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="01ca-c758-cb91-5830" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7dd4-5bad-d551-b250" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b391-e628-ca5f-dd97" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="786e-904a-92ed-5cea" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2d99-41a4-639a-94e2" name="Armour Choice" hidden="false" targetId="b5d9-60c1-423e-d43b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e7c1-0c9f-82bf-b76a" name="Warrior of Rohan" book="Armies of the Lord of the Rings" page="67" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="6f22-40a4-4ef1-9796" name="Warrior of Rohan" book="Armies of the Lord of the Rings" page="67" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e7c1-0c9f-82bf-b76a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecf0-2c3e-51b1-e722" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e7c1-0c9f-82bf-b76a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecf0-2c3e-51b1-e722" type="equalTo"/>
+                <condition field="selections" scope="e7c1-0c9f-82bf-b76a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6eca-0523-c18a-8338" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d415-1407-e368-3cea" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d14c-3657-d3f5-f206" name="Choose One:" book="Armies of the Lord of the Rings" page="67" hidden="false" collective="false" defaultSelectionEntryId="b02f-e946-fb26-454e">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7f6-6f15-9e9b-5906" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="042e-3969-23dd-ad33" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b02f-e946-fb26-454e" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="eb4b-67d6-8cdd-b2f5" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="210c-f04f-8e8c-726d" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6eca-0523-c18a-8338" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="742c-dc78-53d3-baf4" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ecf0-2c3e-51b1-e722" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d5a0-2963-70c7-ef1b" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="23e2-9ced-97d7-6490" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8121-99d7-aa30-6fcf" name="Rider of Rohan" book="Armies of the Lord of the Rings" page="68" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1700-82ca-a245-ad46" name="Rider of Rohan" book="Armies of the Lord of the Rings" page="68" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8d59-b960-e502-3094" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fa51-bd2f-2e14-4de7" name="Arise Riders of Théoden!" hidden="false" targetId="d048-b0cd-07fc-f1b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a82c-5867-99f4-5eb6" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="10be-dd9c-e17a-70b3" name="Choose One:" book="Armies of the Lord of the Rings" page="67" hidden="false" collective="false" defaultSelectionEntryId="e2cd-3730-effc-4528">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd4-6fa8-ea5f-ef5c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa40-2739-b366-3b7d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e2cd-3730-effc-4528" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="df91-7850-cbd6-5434" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9738-3531-371c-cf21" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b6a3-df82-8433-c24e" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="29e0-5208-6c77-f926" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8572-5721-90f6-bae5" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b342-7e5f-0078-fd9b" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aab-992d-445f-666e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d5f1-06a2-32f2-3dd9" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fbb-eb07-e36a-5624" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fc33-38ac-25f3-3114" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9540-4e1d-8c41-9f88" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a10-e81e-d96e-a420" name="Rohan Royal Guard" book="Armies of the Lord of the Rings" page="68" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a90d-3116-785c-8436" name="Rohan Royal Guard" book="Armies of the Lord of the Rings" page="68" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6aa4-fb8b-2cfd-19e2" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b8ee-c217-1094-ab0f" name="Arise Riders of Théoden!" hidden="false" targetId="d048-b0cd-07fc-f1b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cb59-9c40-fcbb-7343" name="Bodyguard (Active)" hidden="false" targetId="2d91-9af0-b06e-c2b4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="cc06-509c-a701-1a35" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a825-a44f-8a61-3f15" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d59e-5c57-5c6a-8e20" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e169-c132-68ee-d0a5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c6e0-44d2-acd8-3129" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81f0-5a3a-8600-ebb2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fdab-a3c9-f9e4-64d7" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fd79-f891-d22c-3eb7" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="18a9-a352-ba97-4d7a" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3ce-906e-ca30-ff03" name="Rohan Outrider" book="Armies of the Lord of the Rings" page="69" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2c7a-e09e-4e0e-369a" name="Rohan Outrider" book="Armies of the Lord of the Rings" page="69" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/3+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6a90-a1d8-a5fa-0f01" name="Vanguard (Active)" book="Armies of the Lord of the Rings" page="69" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Outriders may use a friendly Hero model&apos;s Stand Fast! regardless of range.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="81ea-0b13-91cd-36b0" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ac87-677f-31a1-3705" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f379-4554-5fff-6b00" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff4f-7381-73a5-a1bc" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3c0d-86e0-8115-0adb" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ef71-b32c-5763-f9dd" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="583b-d941-df43-ac68" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a9b6-e4d9-efd8-dfa2" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf27-6b07-45a9-f3ba" name="Son of Eorl" book="Armies of the Lord of the Rings" page="69" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1714-4aed-81ad-4294" name="Son of Eorl" book="Armies of the Lord of the Rings" page="69" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="4"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="253f-9009-696f-a154" name="Riders of Eorl (Active)" book="Armies of the Lord of the Rings" page="69" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Whilst within 6&quot; of Eorl the Young, Sons of Eorl gain a bonus of +1 to their Attack value.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3d02-5df8-c8a0-52f7" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8d5f-171f-53b4-ffd2" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7c46-1c78-0c28-d45a" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="00ab-3df0-afb8-d324" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4a4-8510-a85e-36d9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3c8e-5d06-b59f-9d2d" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edca-a548-0b21-03d6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9445-c9b6-94a5-2e32" name="Armoured Horse" hidden="false" targetId="1d68-fdaa-72a5-c631" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c88e-32c8-4d7a-d437" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d66-3730-b7c0-1fe1" name="Gamling, Captain of Rohan" book="Armies of the Lord of the Rings" page="64" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b22f-fc30-68c4-4cd3" name="Gamling, Captain of Rohan" book="Armies of the Lord of the Rings" page="64" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3434-a639-a8d2-f24f" name="Sworn Protector (Théoden)" book="Armies of the Lord of the Rings" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3cdb-a68a-20a7-ac2e" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a688-9de3-406e-a804" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c7b0-343c-d53c-7b13" name="Sworn Protector (Active)" hidden="false" targetId="98e5-0c6c-dc8a-255d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e332-6881-cd53-7f22" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="80a6-8f0b-4450-e8df" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="218e-8df4-6ae6-b777" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ed-a30e-a536-82a5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2623-3ce3-cf20-4483" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fef2-df41-dfe6-c45b" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2fa7-909a-a7f8-d194" name="Royal Standard of Rohan (Passive)" book="Armies of the Lord of the Rings" page="64" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3e21-b5d5-ae9f-a8dc" name="Royal Standard of Rohan (Passive)" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" This precious heirloom is a banner. Additionally, any Rohan Hero models that are within 3&quot; of the Royal Standard of Rohan at the start of any turn, and have no Might remaining, automatically add 1 point of Might to their store. This cannot take a Hero model&apos;s Might beyond its starting level. Gamling suffers no penalties for carrying the Royal Standard of Rohan."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c20c-a65c-5729-61bd" name="Banner" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8b9-303b-9f5b-98eb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1a09-0edd-5132-e87f" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8859-f178-a265-ba2c" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7d58-101f-c470-c687" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4461-7aa0-9741-f06e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e725-9928-57d6-7444" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cfc8-54d3-af0f-a22f" name="Helmingas" book="Armies of the Lord of the Rings" page="67" hidden="true" collective="false" type="model">
+      <profiles>
+        <profile id="2310-cd1f-786b-bb11" name="Helmingas" book="Armies of the Lord of the Rings" page="67" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="cfc8-54d3-af0f-a22f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4587-33d4-34b5-22b4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="cfc8-54d3-af0f-a22f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c04d-d438-7df1-02d1" type="equalTo"/>
+                <condition field="selections" scope="cfc8-54d3-af0f-a22f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4587-33d4-34b5-22b4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bd0-ce19-59f3-b5d8" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="17f9-27b4-515a-514d" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7b67-3975-53ba-9f53" name="Choose One:" book="Armies of the Lord of the Rings" page="67" hidden="false" collective="false" defaultSelectionEntryId="3a83-0c8c-1a38-73ee">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="207d-2bd2-f4b3-90f6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d684-61ac-66c6-0fd6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6364-ac34-74fa-5259" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3a83-0c8c-1a38-73ee" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="24b6-6b4a-8d09-1fb7" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c04d-d438-7df1-02d1" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2b13-1955-2046-61fc" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4587-33d4-34b5-22b4" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="04fe-7775-a1f6-2cc5" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7f9e-fe4e-d9af-6452" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c4f1-fead-25c5-0a4a" name="Westfold Redshields" book="Armies of the Lord of the Rings" page="68" hidden="true" collective="false" type="model">
+      <profiles>
+        <profile id="c374-587a-1f84-b36b" name="Westfold Redshields" book="Armies of the Lord of the Rings" page="68" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="69b0-9dec-d6ed-1e6e" name="Westfold Redshields" book="Armies of the Lord of the Rings" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+While within 3&quot; of Erkenbrand this model counts as being in range of a banner.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f252-8969-ea8f-54ae" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9bdc-6810-c980-6944" name="Arise Riders of Théoden!" hidden="false" targetId="d048-b0cd-07fc-f1b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5fe6-7eb7-5874-3a52" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="03cf-e333-75ee-b29c" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2ab6-7d47-894d-f876" name="Choose One:" book="Armies of the Lord of the Rings" page="67" hidden="false" collective="false" defaultSelectionEntryId="bc97-cbf0-7e0b-4368">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f0d-19d2-b432-e5f9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2c4-2c50-becb-61ed" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="bc97-cbf0-7e0b-4368" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="33c6-d843-94bc-6aba" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3552-ca24-19dd-b22e" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aab4-e954-e6f4-5b23" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c1d3-33e1-0339-47aa" name="War Horn" hidden="false" targetId="e454-4e88-9f6d-9993" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4af6-3cc9-d036-adf6" name="Throwing Spear" hidden="false" targetId="2a26-1d41-03e9-3628" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8a20-8432-1f93-4928" name="Bow" hidden="false" targetId="c88f-7fa4-f84d-3d62" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ac5-6f5e-0f8b-2a6e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f46e-6dba-552b-86c9" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faa2-e301-67f9-5cf3" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="68a3-7db8-ba1a-f67d" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc62-ea1b-f6bd-6eeb" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fda3-95b4-9e3c-44a1" name="Meriadoc Brandybuck, Knight of the Mark" book="Armies of The Lord of the Rings" page="63" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7383-a4dc-1626-3c99" name="Meriadoc Brandybuck, Knight of the Mark" book="Armies of The Lord of the Rings" page="63" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="fda3-95b4-9e3c-44a1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f38-b964-caf1-2947" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="4&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="2"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Hobbit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="43f1-1104-15eb-92ec" name="Resistant to Magic (Passive)" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee88-5d50-c27c-5c76" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="126f-6b19-76e5-4641" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e36c-735a-6399-1cd9" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3dd8-bee4-efd4-e0c7" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0d4f-e6db-2e03-ce38" name="Throw Stones (Hobbit)" hidden="false" targetId="bcbe-c38e-2102-e806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="49bd-bcad-a325-bb4a" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="107b-b222-bbe0-1ab0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ef2a-be75-26af-408b" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="74d2-87ea-a354-0b29" name="Pony" hidden="false" targetId="69b6-c096-3d37-fce0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6f38-b964-caf1-2947" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules>
+    <rule id="d048-b0cd-07fc-f1b2" name="Arise Riders of Théoden!" book="Armies of the Lord of the Rings" page="67" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+If this model is within 12&quot; of Théoden and has the Cavalry keyword, then a model with this special rule receives a +1 bonus to their Fight value on a turn in which they Charge.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="f13f-0452-a97b-2e0e" name="Felaróf" book="Armies of the Lord of the Rings" page="66" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/6+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
