@@ -10492,6 +10492,71 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cab9-5fc9-4045-8609" name="Nenya" book="Armies of the Lord of the Rings" page="83" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3cb0-bb4f-86b4-97a0" name="Nenya (Passive)" hidden="false" targetId="5a04-4b0a-18d8-58d3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="af4d-e318-5805-3f23" name="Nenya" hidden="false" targetId="66f0-cd96-4587-2a9a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fb4-481e-02cb-e6c5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6d3-705d-3672-106c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5377-26aa-a66e-f8ae" name="Elven-made Staff" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3226-7b11-3b69-681c" name="Stun" hidden="false" targetId="8364-37bf-b721-69df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4ed7-ab26-f151-0592" name="Elven-made Staff" hidden="false" targetId="250b-5602-c35e-a461" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4ff2-becb-c115-1746" name="Elven-made Weapon" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c0-cab3-c142-71fa" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
@@ -11683,6 +11748,21 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
         </modifier>
       </modifiers>
       <description>Whilst this model is within 3&quot; of Boromir of Gondor, it may spend Boromir&apos;s Might as their own.</description>
+    </rule>
+    <rule id="5a04-4b0a-18d8-58d3" name="Nenya (Passive)" book="Armies of The Lord of the Rings" page="83" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Galadriel can re-roll her dice when using Fate points</description>
+    </rule>
+    <rule id="5f58-55dc-f165-9fd3" name="*The Lady of Lothlorien" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Galadriel may expend a single point of Will each turn without reducing her own store.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -12933,6 +13013,20 @@ If this Siege Engine scores a hit against a Battlefield target, all models withi
       <characteristics/>
     </profile>
     <profile id="7691-e33c-1fbc-9989" name="Hand-and-a-half Axe" book="" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="66f0-cd96-4587-2a9a" name="Nenya" book="Armies of The Lord of the Rings" page="83" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
+    </profile>
+    <profile id="250b-5602-c35e-a461" name="Elven-made Staff" book="" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
