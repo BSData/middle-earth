@@ -3697,13 +3697,6 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="3cc6-642b-6082-95c6" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
