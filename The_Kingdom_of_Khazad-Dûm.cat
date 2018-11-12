@@ -1179,6 +1179,113 @@ Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model, Fl√
         <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4f33-65fa-71f6-6484" name="Shieldbearer" book="Armies of the Lord of the Rings" page="102" hidden="true" collective="false" type="model">
+      <profiles>
+        <profile id="98ae-2f44-002f-82de" name="Shieldbearer" book="Armies of the Lord of the Rings" page="102" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="0"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="0"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="da38-58e3-3e9e-9c45" name="In Defence of the King (Active)" book="Armies of the Lord of the Rings" page="102" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+At the start of the game, nominate a single Dwarf Hero model with the highest Heroic Tier for the Shieldbearer to protect. If the nominated Hero model is Engaged in a Fight within 3&quot; of the Shieldbearer, then the Shieldbearer may call a Heroic Combat without using Might. If the Heroic Combat is successful, then they must use the following move to join their nominated Hero model&apos;s combat, if this is not possible then the Shieldbearer must move as close as possible to that Hero model. If you have more than one Shieldbearer, they may both protect different Hero models - just remember to make it clear to your opponent which Shieldbearer is protecting which Hero model!</description>
+        </rule>
+        <rule id="f952-dc52-b060-e89e" name="Lead by Example (Passive)" book="Armies of the Lord of the Rings" page="102" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Friendly Dwarf models within 12&quot; of a Shieldbearer may re-roll failed Courage tests.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="857e-a323-b0ec-8c87" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c780-4728-e122-afae" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a5e4-538b-1c8e-7b6a" name="Dwarf Armour (Included)" hidden="false" targetId="c42b-b3c5-b8dd-ecd8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7989-c322-267c-7a89" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21f0-50fa-566a-ad8f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ce4a-084b-cb63-bbb9" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fed4-7940-f00b-ec0e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="60.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="5042-bd8a-ae76-acbb" name="Gimli, Son of Gl√≥in" hidden="true" targetId="1c81-8451-5fe6-0fb9" type="selectionEntry">
