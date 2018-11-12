@@ -76,10 +76,10 @@ If your army includes Durin, you may upgrade any number of Khaz√¢d Guard in his 
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfac-a7f8-bd63-a3a1" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1517-143c-20f3-f0a2" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -249,6 +249,7 @@ If your army includes Durin, you may upgrade any number of Khaz√¢d Guard in his 
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15ef-e620-f07a-d686" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e67-6ef1-a323-35df" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7b85-8e19-c24d-3943" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="true">
@@ -261,13 +262,14 @@ If your army includes Durin, you may upgrade any number of Khaz√¢d Guard in his 
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6d0f-d31c-a6da-b9c0" name="Era" book="Armies of the Lord of the Rings" hidden="false" collective="false">
+        <selectionEntryGroup id="6d0f-d31c-a6da-b9c0" name="Era" book="Armies of the Lord of the Rings" hidden="false" collective="false" defaultSelectionEntryId="bfac-a7f8-bd63-a3a1">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99c5-299f-aee8-e832" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e711-c50e-123d-2353" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
@@ -343,7 +345,7 @@ Moria under the rule of Balin.</description>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e1c-0475-32d8-4c7a" name="Balin the Dwarf, King of Moria" book="Armies of the Lord of the Rings" page="99" hidden="true" collective="false" type="model">
+    <selectionEntry id="0e1c-0475-32d8-4c7a" name="Balin the Dwarf, King of Moria" book="Armies of the Lord of the Rings" page="99" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="e962-d83c-7ae5-114f" name="Balin the Dwarf, King of Moria" book="Armies of the Lord of the Rings" page="99" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -414,10 +416,10 @@ Also, if your army includes Balin, then every alliance will be Impossible Allies
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1517-143c-20f3-f0a2" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bfac-a7f8-bd63-a3a1" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -474,7 +476,7 @@ Also, if your army includes Balin, then every alliance will be Impossible Allies
         <cost name="pts" costTypeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e301-75a5-6f6e-8512" name="Mardin" book="Armies of the Lord of the Rings" page="98" hidden="true" collective="false" type="model">
+    <selectionEntry id="e301-75a5-6f6e-8512" name="Mardin" book="Armies of the Lord of the Rings" page="98" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="500b-df1b-d0e2-3935" name="Mardin" book="Armies of the Lord of the Rings" page="98" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -518,10 +520,10 @@ Also, if your army includes Balin, then every alliance will be Impossible Allies
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfac-a7f8-bd63-a3a1" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1517-143c-20f3-f0a2" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -617,7 +619,7 @@ Also, if your army includes Balin, then every alliance will be Impossible Allies
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c11-d889-86c1-528d" name="Fl√≥i Stonehand" book="Armies of the Lord of the Rings" page="98" hidden="true" collective="false" type="model">
+    <selectionEntry id="0c11-d889-86c1-528d" name="Fl√≥i Stonehand" book="Armies of the Lord of the Rings" page="98" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="0200-838a-b1fa-35e9" name=" Fl√≥i Stonehand" book="Armies of the Lord of the Rings" page="98" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -659,10 +661,10 @@ Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model, Fl√
       </rules>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1517-143c-20f3-f0a2" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bfac-a7f8-bd63-a3a1" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -727,7 +729,7 @@ Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model, Fl√
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1143-26cb-e939-236a" name="Dwarf King" book="Armies of the Lord of the Rings" page="100" hidden="true" collective="false" type="model">
+    <selectionEntry id="1143-26cb-e939-236a" name="Dwarf King" book="Armies of the Lord of the Rings" page="100" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="c62a-34a1-eda1-f894" name="Dwarf King" book="Armies of the Lord of the Rings" page="100" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -838,7 +840,7 @@ Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model, Fl√
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="07d1-b19e-97cb-acbc" name="Dwarf Captain" book="Armies of the Lord of the Rings" page="100" hidden="true" collective="false" type="model">
+    <selectionEntry id="07d1-b19e-97cb-acbc" name="Dwarf Captain" book="Armies of the Lord of the Rings" page="100" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2039-a0ce-3ea7-0498" name="Dwarf Captain" book="Armies of the Lord of the Rings" page="100" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1243,7 +1245,7 @@ Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model, Fl√
         <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f33-65fa-71f6-6484" name="Shieldbearer" book="Armies of the Lord of the Rings" page="102" hidden="true" collective="false" type="model">
+    <selectionEntry id="4f33-65fa-71f6-6484" name="Shieldbearer" book="Armies of the Lord of the Rings" page="102" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="98ae-2f44-002f-82de" name="Shieldbearer" book="Armies of the Lord of the Rings" page="102" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1419,6 +1421,7 @@ Friendly Dwarf models within 12&quot; of a Shieldbearer may re-roll failed Coura
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc93-8989-b9ed-a6a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1c0-57d4-bb4c-7176" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
@@ -2598,6 +2601,13 @@ A Dwarf Ballista will only scatter 3&quot; rather than 6&quot;.</description>
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1929-8018-54d8-ff7e" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
     </entryLink>
     <entryLink id="695d-0fe1-a052-abab" name="√ìin the Dwarf, Champion of Erebor" hidden="true" targetId="cabf-f71c-de35-8474" type="selectionEntry">
@@ -2622,6 +2632,13 @@ A Dwarf Ballista will only scatter 3&quot; rather than 6&quot;.</description>
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2831-6e44-d41e-2e9c" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
     </entryLink>
     <entryLink id="2480-14bd-b3e0-d053" name="Ori the Dwarf, Champion of Erebor" hidden="true" targetId="e50e-3528-5032-ea83" type="selectionEntry">
@@ -2640,6 +2657,13 @@ A Dwarf Ballista will only scatter 3&quot; rather than 6&quot;.</description>
       <constraints/>
       <categoryLinks>
         <categoryLink id="ac26-13a7-4f0a-1c33" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2645-23e7-a8fd-b2d4" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
