@@ -113,8 +113,7 @@ If your army includes Durin, you may upgrade any number of Khazâd Guard in his 
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Once per game, the bearer of the Ring of Durin may re-roll a single Priority roll."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Once per game, the bearer of the Ring of Durin may re-roll a single Priority roll."/>
               </characteristics>
             </profile>
           </profiles>
@@ -129,7 +128,9 @@ Once per game, the bearer of the Ring of Durin may re-roll a single Priority rol
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="27d0-f7d4-78bc-30db" name="The Crown of Kings " book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -139,8 +140,7 @@ Once per game, the bearer of the Ring of Durin may re-roll a single Priority rol
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-If Durin suffers a wound, roll a d6. On a 6, the Wound is ignored, exactly as if a point of Fate had been spent."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" If Durin suffers a wound, roll a d6. On a 6, the Wound is ignored, exactly as if a point of Fate had been spent."/>
               </characteristics>
             </profile>
           </profiles>
@@ -155,7 +155,9 @@ If Durin suffers a wound, roll a d6. On a 6, the Wound is ignored, exactly as if
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="91cd-0534-1375-f53b" name="The Horn of Zirakzigil" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -165,8 +167,7 @@ If Durin suffers a wound, roll a d6. On a 6, the Wound is ignored, exactly as if
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-This is a war horn. Additionally, it also gives Durin the Terror special rule."/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" This is a war horn. Additionally, it also gives Durin the Terror special rule."/>
               </characteristics>
             </profile>
           </profiles>
@@ -188,7 +189,9 @@ This is a war horn. Additionally, it also gives Durin the Terror special rule."/
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2ab4-b90e-2d2a-4d64" name="Heavy Mithril Armor" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -211,7 +214,9 @@ This is a war horn. Additionally, it also gives Durin the Terror special rule."/
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -454,7 +459,32 @@ Also, if your army includes Balin, then every alliance will be Impossible Allies
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <entryLinks/>
+  <entryLinks>
+    <entryLink id="5042-bd8a-ae76-acbb" name="Gimli, Son of Glóin" hidden="true" targetId="1c81-8451-5fe6-0fb9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e1c-0475-32d8-4c7a" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4fa3-1f4e-e202-3b2f" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2667-1224-02b5-3d70" name="Durin&apos;s Axe" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -464,8 +494,7 @@ Also, if your army includes Balin, then every alliance will be Impossible Allies
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-This is a Master-forged two-handed axe. Additionally, the wielder may re-roll a single dice when making Duel rolls."/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" This is a Master-forged two-handed axe. Additionally, the wielder may re-roll a single dice when making Duel rolls."/>
           </characteristics>
         </profile>
       </profiles>
@@ -499,7 +528,9 @@ This is a Master-forged two-handed axe. Additionally, the wielder may re-roll a 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
