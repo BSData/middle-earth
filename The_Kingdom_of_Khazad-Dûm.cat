@@ -65,7 +65,6 @@ Friendly Dwarf models with either the Khazad-Dûm or Moria keyword may re-roll T
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15ef-e620-f07a-d686" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f455-50e2-7534-0a84" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7b85-8e19-c24d-3943" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="true">
@@ -76,89 +75,89 @@ Friendly Dwarf models with either the Khazad-Dûm or Moria keyword may re-roll T
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d887-4fb4-aaf6-f5f3" name="Kingdom of Moria" book="Armies of the Lord of the Rings" page="99" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6d0f-d31c-a6da-b9c0" name="Era" book="Armies of the Lord of the Rings" hidden="false" collective="false">
           <profiles/>
-          <rules>
-            <rule id="42a2-0ec8-5d70-ccc9" name="Kingdom of Moria" book="Armies of the Lord of the Rings" page="99" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>
-Moria under the rule of Balin.</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="122e-f0c4-7596-d7e5" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="4132-5c83-bcd7-6d86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9afb-e5a0-c4e1-29d1" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="122e-f0c4-7596-d7e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99c5-299f-aee8-e832" type="max"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink id="695d-4991-20b6-1458" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="false">
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="bfac-a7f8-bd63-a3a1" name="Kingdom of Khazad-Dûm" book="Armies of the Lord of the Rings" page="96" hidden="false" collective="false" type="upgrade">
               <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs/>
-        </selectionEntry>
-        <selectionEntry id="9afb-e5a0-c4e1-29d1" name="Kingdom of Khazad-Dûm" book="Armies of the Lord of the Rings" page="96" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="39d6-56cf-16be-dfb1" name="Kingdom of Khazad-Dûm" book="Armies of the Lord of the Rings" page="96" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>
+              <rules>
+                <rule id="58e8-c24c-4fd6-af3a" name="Kingdom of Khazad-Dûm" book="Armies of the Lord of the Rings" page="96" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>
 Khazad-Dûm under the rule of Durin.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="f794-5869-d549-89df" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="4132-5c83-bcd7-6d86" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d887-4fb4-aaf6-f5f3" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f794-5869-d549-89df" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="70c7-8e4a-dedc-185d" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="false">
-              <profiles/>
-              <rules/>
+                </rule>
+              </rules>
               <infoLinks/>
               <modifiers/>
               <constraints/>
-            </categoryLink>
-          </categoryLinks>
-          <selectionEntries/>
+              <categoryLinks>
+                <categoryLink id="2c1a-0857-7af3-3809" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1517-143c-20f3-f0a2" name="Kingdom of Moria" book="Armies of the Lord of the Rings" page="99" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="d278-6336-e30e-b734" name="Kingdom of Moria" book="Armies of the Lord of the Rings" page="99" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>
+Moria under the rule of Balin.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="8077-3be2-474c-34b1" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
