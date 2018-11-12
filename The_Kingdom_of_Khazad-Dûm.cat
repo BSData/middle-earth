@@ -19,15 +19,23 @@ Friendly Dwarf models with either the Khazad-Dûm or Moria keyword may re-roll T
   <selectionEntries>
     <selectionEntry id="8948-85de-0477-1f58" name="Durin, King of Khazad-Dûm" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="d6e2-01aa-90fc-9f8a" name="Durin, King of Khazad-Dûm" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+        <profile id="d6e2-01aa-90fc-9f8a" name="Durin, King of Khazad-Dûm" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc"/>
-            <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd"/>
-            <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="9"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
           </characteristics>
         </profile>
       </profiles>
@@ -97,51 +105,6 @@ If your army includes Durin, you may upgrade any number of Khazâd Guard in his 
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="803d-3fd3-857e-4295" name="Durin&apos;s Axe" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="84ba-1967-d31e-991b" name="Durin&apos;s Axe (Active)" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-This is a Master-forged two-handed axe. Additionally, the wielder may re-roll a single dice when making Duel rolls."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="e176-015f-5632-6dbc" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="845b-c178-e443-458b" name="Master-forged Weapon" hidden="false" targetId="083a-9229-5e17-050b" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="afca-f0de-bc2f-6a5b" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b254-1677-72f6-7115" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1cf-c824-766d-72d7" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs/>
-        </selectionEntry>
         <selectionEntry id="5e97-ea47-54c5-d548" name="The Ring of Durin" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="fe93-b0ca-4860-ecad" name="The Ring of Durin (Passive)" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
@@ -252,7 +215,16 @@ This is a war horn. Additionally, it also gives Durin the Terror special rule."/
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="19f3-2cf6-65de-8ba3" name="Durin&apos;s Axe" hidden="false" targetId="2667-1224-02b5-3d70" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
@@ -358,9 +330,178 @@ Moria under the rule of Balin.</description>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0e1c-0475-32d8-4c7a" name="Balin the Dwarf, King of Moria" book="Armies of the Lord of the Rings" page="99" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e962-d83c-7ae5-114f" name="Balin the Dwarf, King of Moria" book="Armies of the Lord of the Rings" page="99" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2c15-b8de-e08f-e3f8" name="Longbeard (Active)" book="Armies of the Lord of the Rings" page="99" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+In the Priority phase, Balin may spend a Will point to enable his side to re-roll their d6 in the Priority roll.</description>
+        </rule>
+        <rule id="ec69-e4a7-b43f-920c" name="Kingdom of Moria (Army List)" book="Armies of the Lord of the Rings" page="99" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If your army includes Balin the Dwarf King of Moria, the only other named heroes it can include are Flói Stonehand; Ori the Dwarf, Champion of Erebor; Óin the Dwarf, Champion of Erebor; and Gimli, Son of Glóin.
+
+Ori, Óin, Gimli, Dwarf Kings, King&apos;s Champions, Dwarf Captains, Shieldbearers, Dwarf Warriors, Khazâd Guard, Iron Guard, Dwarf Rangers, Vault Warden Teams, and Dwarf Ballistae that are part of the same army list as Balin exchange their Erebor or Khazad-Dûm keyword for the Moria keyword.
+
+Also, if your army includes Balin, then every alliance will be Impossible Allies.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="95bd-5460-49e4-ddc7" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5fe7-a2a7-cd8f-b981" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="04b6-a8ae-a7df-ccd4" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9f16-8979-90c3-707e" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfac-a7f8-bd63-a3a1" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b4-4418-c429-aa99" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55a2-f82c-6bc4-2a29" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7af8-ea26-817a-f66a" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8930-fb3f-fb50-ff34" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d599-f463-5a5f-4274" name="Durin&apos;s Axe" hidden="false" targetId="2667-1224-02b5-3d70" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bfa0-685c-356b-db67" name="Heavy Dwarf Armour (Included)" hidden="false" targetId="df4b-209c-c260-7f3a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="110.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="2667-1224-02b5-3d70" name="Durin&apos;s Axe" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="462f-6c1b-e02f-91af" name="Durin&apos;s Axe (Active)" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+This is a Master-forged two-handed axe. Additionally, the wielder may re-roll a single dice when making Duel rolls."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2fbf-3183-acff-ef42" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9a5b-e110-898a-3219" name="Master-forged Weapon" hidden="false" targetId="083a-9229-5e17-050b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1d58-fced-b32b-3fa6" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b8b-50d9-6cfc-0452" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fcd-afa3-3927-354e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules/>
   <sharedProfiles/>
