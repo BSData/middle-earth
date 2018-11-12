@@ -1338,13 +1338,6 @@ Friendly Dwarf models within 12&quot; of a Shieldbearer may re-roll failed Coura
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="6aa4-e4d6-db77-d4a5" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="f942-6d5e-8b69-e7a7" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
           <profiles/>
           <rules/>
@@ -1608,13 +1601,6 @@ Friendly Dwarf models within 12&quot; of a Shieldbearer may re-roll failed Coura
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="ce40-bd62-2e3e-3ee6" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="436d-6a08-7418-01ab" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
           <profiles/>
           <rules/>
@@ -1702,13 +1688,6 @@ Friendly Dwarf models within 12&quot; of a Shieldbearer may re-roll failed Coura
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="e201-cd9f-1697-1bf5" name="Minor Hero" hidden="false" targetId="1061-1aac-497f-b099" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="d2ee-f682-b7e5-e2e3" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
           <profiles/>
           <rules/>
@@ -1789,6 +1768,189 @@ Friendly Dwarf models within 12&quot; of a Shieldbearer may re-roll failed Coura
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37bd-37e3-64cc-8788" name="Vault Warden Team" book="Armies of the Lord of the Rings" page="104" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="04ee-a109-fbc3-74da" name="Warrior Unit" hidden="false" targetId="79a0-5435-0cdb-2025" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="397a-2c5a-ac0c-7c3b" name="Iron Shield" book="Armies of the Lord of the Rings" page="104" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="11d9-57d9-7829-0eb3" name="Iron Shield" book="Armies of the Lord of the Rings" page="104" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="9"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="4"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Dwarf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="b553-d9e6-ba17-5fc7" name="Spear &amp; Shield (Passive)" book="Armies of the Lord of the Rings" page="104" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+Unless supported by a model with a foe spear, a model with an Iron Shield applies a -1 penalty to their Duel rolls, even when Shielding</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="a320-688a-f7bc-6120" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="935b-ae3c-ec85-32c4" name="Iron Shield" book="Armies of the Lord of the Rings" page="104" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="aea8-7ee4-4a4d-acf0" name="Iron Shield (Passive)" book="Armies of the Lord of the Rings" page="104" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+A model armed with an Iron Shield cannot be barged or Hurled and is unaffected by the Rend Brutal Power Attack."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="35bc-0edc-c04e-f92a" name="Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0368-97d0-739d-a138" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d9f7-4446-bf50-8153" name="Heavy Dwarf Armour (Included)" hidden="false" targetId="df4b-209c-c260-7f3a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="53c8-0bd1-aa9a-e1d3" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2403-1d3f-4fde-6a17" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="555c-ab76-5c72-0242" name="Foe Spear" book="Armies of the Lord of the Rings" page="104" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="d4ce-ae78-147a-0f24" name="Foe Spear" book="Armies of the Lord of the Rings" page="104" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="4"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Dwarf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="0c37-2b17-7a60-6610" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="22c2-ff3f-4535-54e0" name="Dwarf Armour (Included)" hidden="false" targetId="c42b-b3c5-b8dd-ecd8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ea22-62fc-8d13-86bf" name="Foe Spear" hidden="false" targetId="fd3c-61a2-83be-774a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1db0-9307-831c-843a" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
