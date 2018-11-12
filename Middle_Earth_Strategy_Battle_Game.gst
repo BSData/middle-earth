@@ -10914,7 +10914,7 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         </profile>
       </profiles>
       <rules>
-        <rule id="d4a4-9d88-03c0-4de1" name="Chronicler (Passive)" book="The Hobbit PDF" page="24" hidden="false">
+        <rule id="d4a4-9d88-03c0-4de1" name="Chronicler" book="The Hobbit PDF" page="24" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10978,6 +10978,119 @@ Any time Thorin Oakenshield, King Under the Mountain, or a Champion of Erebor sl
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cabf-f71c-de35-8474" name="Óin the Dwarf, Champion of Erebor" book="The Hobbit PDF" page="25" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8864-5e76-a911-2e2c" name="Óin the Dwarf, Champion of Erebor" book="The Hobbit PDF" page="25" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="4"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e817-325c-6afc-8b34" name="Healing Herbs" book="The Hobbit PDF" page="25" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+In the Move phase, instead of moving, Óin the Dwarf, Champion of Erebor may attempt to heal a friendly model with which he is in base contact. Roll a d6. On a 1-3, there is no effect. On a 4 or 5, the model regains a Wound lost previosly in the game (or campaign). On a 6, the model regains all of its lost Wounds.</description>
+        </rule>
+        <rule id="38a7-d7ee-4e79-a9bb" name="Prognostication" book="The Hobbit PDF" page="25" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Once per Fight phase, Óin the Dwarf, Champion of Erebor can expend a Will point to enable a friendly model within 3&quot; to re-roll a single dice when making a Duel roll.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="98e2-cf66-31e5-418e" name="Sworn Protector (Active)" hidden="false" targetId="98e5-0c6c-dc8a-255d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Sworn Protector (Thorin Oakenshield, King Under the Mountain) (Active)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e763-660e-0f5b-d51a" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1c75-330b-a83a-f3ff" name="Heavy Dwarf Armour (Included)" hidden="false" targetId="df4b-209c-c260-7f3a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b3af-3978-e316-dcc8" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2506-2930-2901-8cef" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6e48-dc99-f7cc-2bf1" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b8-d8e1-a3dd-93a8" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
