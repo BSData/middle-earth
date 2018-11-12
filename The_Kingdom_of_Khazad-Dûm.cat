@@ -923,6 +923,262 @@ Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model, Fl√
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b128-ab1a-2e40-764b" name="King&apos;s Champion" book="Armies of the Lord of the Rings" page="101" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b3a4-7b3d-dd50-4768" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1392-1523-c7fb-72a8" name="King&apos;s Champion" book="Armies of the Lord of the Rings" page="101" hidden="true" collective="false" type="model">
+          <profiles>
+            <profile id="887b-d733-ac8c-a027" name="King&apos;s Champion" book="Armies of the Lord of the Rings" page="101" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/4+"/>
+                <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
+                <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+                <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+                <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+                <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+                <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+                <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+                <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2737-4b31-53cb-2e1b" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="a223-88ac-8202-4709" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="27ac-6616-9b0a-53c5" name="The Herald&apos;s Duty (Active)" hidden="false" targetId="1027-2a72-1f42-3860" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4286-26b2-b9e4-b714" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="557c-f486-fc58-9c5d" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="9a00-733d-9237-6d9d" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="5f9f-c47a-e7b4-1798" name="Two Axes" book="Armies of the Lord of the Rings" page="101" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d04-5c53-764b-8385" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="0471-0bf3-1eca-800a" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="9d33-a739-ea13-4063" value="2">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="353a-5956-6df5-a9a6" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="30d6-526d-06ba-1eef" name="Heavy Dwarf Armour (Included)" hidden="false" targetId="df4b-209c-c260-7f3a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="c1e3-e0aa-781d-541c" name="Herald" book="Armies of the Lord of the Rings" page="101" hidden="true" collective="false" type="model">
+          <profiles>
+            <profile id="3615-6c9a-ab01-d8da" name="Herald" book="Armies of the Lord of the Rings" page="101" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+                <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+                <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+                <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+                <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
+                <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+                <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d2b2-ce6e-55ec-7bbd" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5a42-fe86-39d7-9daa" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f962-369a-a2d7-bac2" name="The Herald&apos;s Duty (Active)" hidden="false" targetId="1027-2a72-1f42-3860" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5bc9-f3ff-2909-5354" name="The Life Guard (Active)" hidden="false" targetId="dcbb-8b13-0bf7-d11c" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ba1-8b69-38ae-edbe" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5817-ad08-2384-87cd" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="a0ed-5939-1fba-37b1" name="Independent Hero" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="071e-7880-00a1-712c" name="Dwarf Armour (Included)" hidden="false" targetId="c42b-b3c5-b8dd-ecd8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4a69-6ec4-9d76-9f3f" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c578-894a-2daf-20b1" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d961-b81e-2df4-ac22" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="770a-b275-1f8f-7aaf" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="75e7-5a0c-8040-1ff9" name="Banner" hidden="false" targetId="1137-2b44-9eec-cd0d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b93-5bc5-cba6-5293" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="140.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="5042-bd8a-ae76-acbb" name="Gimli, Son of Gl√≥in" hidden="true" targetId="1c81-8451-5fe6-0fb9" type="selectionEntry">
@@ -1026,7 +1282,24 @@ Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model, Fl√
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="1027-2a72-1f42-3860" name="The Herald&apos;s Duty (Active)" book="Armies of the Lord of the Rings" page="101" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+When two Heralds, or the King&apos;s Champion and a Herald, are in base contact, they receive a +1 bonus to their Defence. If both Heralds and the King&apos;s Champion are in base contact with each other, they all receive a +2 bonus to their Defence.</description>
+    </rule>
+    <rule id="dcbb-8b13-0bf7-d11c" name="The Life Guard (Active)" book="Armies of the Lord of the Rings" page="101" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+If the King&apos;s Champion is wounded, either Herald may expend their own Fate points on the Champion&apos;s behalf as long as they are in base contact. Note that they cannot suffer Wounds on the Champion&apos;s behalf - they may only use their Fate points.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="36c3-0927-7d19-32b3" name="Foe Spear (Active)" book="Armies of the Lord of the Rings" page="104" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
       <profiles/>
