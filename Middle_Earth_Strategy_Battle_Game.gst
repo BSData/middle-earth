@@ -10938,7 +10938,10 @@ Any time Thorin Oakenshield, King Under the Mountain, or a Champion of Erebor sl
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a9b-d5ee-4608-4100" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a831-5c46-49e8-3043" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="e772-f2d8-98e0-f479" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -11035,7 +11038,10 @@ Once per Fight phase, Óin the Dwarf, Champion of Erebor can expend a Will point
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5724-e81d-c9d8-a1ed" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2722-f118-a4a2-b4e7" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="e763-660e-0f5b-d51a" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
