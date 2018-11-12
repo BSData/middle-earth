@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="16" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="17" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -11225,7 +11225,7 @@ This Mûmak has its Attacks increased to 4, however, it will suffer a -1 penalty
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="d2ee-fccc-3f37-2e9d" name="Dwarf Armour" hidden="false" targetId="a7d9-cb1b-035c-3984" type="profile">
+        <infoLink id="d2ee-fccc-3f37-2e9d" name="Dwarf Armour" hidden="false" targetId="23c0-ee87-c90a-0232" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11451,6 +11451,234 @@ Once per Fight phase, Óin the Dwarf, Champion of Erebor can expend a Will point
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ef8-4c9d-d120-b038" name="Múrin &amp; Drár" book="Armies of The Lord of the Rings" page="107" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eec-5fe6-54eb-d404" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4187-4142-04be-431f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="531f-fe16-32b9-153f" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a3f0-acd6-ea7f-445b" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0100-99f9-da3f-06a2" name="Múrin" book="Armies of The Lord of the Rings" page="107" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="3ae9-d4e3-a494-d8e9" name="Múrin" book="Armies of The Lord of the Rings" page="107" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+                <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+                <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
+                <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+                <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+                <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+                <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+                <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+                <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5fab-07c7-b3b8-34c5" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27a5-a611-179f-1e83" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3215-885b-a6fa-d5fb" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="801f-0ff8-b83b-cf38" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="7e7c-c3dc-1bb5-5260" name="Kalazâl" book="Armies of The Lord of the Rings" page="107" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="4f8b-21fa-106c-d658" name="Kalazâl" book="Armies of The Lord of the Rings" page="107" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics/>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="5e0d-3184-3af7-a62f" name="Kalazâl" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>
+Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin and Uruk-hai models.
+[Sword]</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="d391-445e-2de5-4422" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f8-e09f-c1a7-5d0a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37e3-6e97-901d-e55b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6c7f-0726-adec-d897" name="Dwarf Armour (Included)" hidden="false" targetId="c42b-b3c5-b8dd-ecd8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4d04-0c7b-f5e0-66bb" name="Shield (Included)" hidden="false" targetId="d0c2-4808-c3a3-63ac" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="411c-7c67-40b6-b50f" name="Drár" book="Armies of The Lord of the Rings" page="107" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="fc60-d17f-a5eb-450a" name="Drár" book="Armies of The Lord of the Rings" page="107" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+                <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+                <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+                <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+                <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+                <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+                <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+                <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+                <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="718f-3410-908c-0e9f" name="Heroic Accuracy" hidden="false" targetId="7597-d6d9-0053-2e3c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="a9fa-262b-788a-f8a9" name="Expert Shot (Active)" hidden="false" targetId="1796-7001-bd0a-699b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="445d-cee7-8061-4cda" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4565-a113-991b-4e55" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="e841-06db-5c83-3919" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="67ce-f925-1617-4d8a" name="Dwarf Armour (Included)" hidden="false" targetId="c42b-b3c5-b8dd-ecd8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="98e1-f576-efb1-c269" name="Dwarf Bow" hidden="false" targetId="e844-4608-4cf1-f0ca" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4097-5214-44e0-ec72" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
