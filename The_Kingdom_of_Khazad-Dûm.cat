@@ -2062,9 +2062,17 @@ Unless supported by a model with a foe spear, a model with an Iron Shield applie
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="302f-434e-8c9a-0de0" value="12">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="322e-25e4-97e3-4af9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7222-ed80-7d41-d1df" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302f-434e-8c9a-0de0" type="max"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302f-434e-8c9a-0de0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f079-8dd5-676e-1ac7" type="min"/>
           </constraints>
           <categoryLinks>
@@ -2100,72 +2108,6 @@ Unless supported by a model with a foe spear, a model with an Iron Shield applie
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e63d-13df-6891-46ba" type="min"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" costTypeId="points" value="8.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="85a6-44ed-2a8d-4d89" name="Additional Crew" book="Armies of the Lord of the Rings" page="105" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="36af-b259-f156-b913" name="Dwarf Warrior" book="Armies of the Lord of the Rings" page="105" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
-                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
-                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="4"/>
-                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Dwarf"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="055d-bdd1-be25-0b87" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="85f9-b0a8-74b9-0f09" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="2276-6a75-1158-5c7d" name="Dwarf Armour (Included)" hidden="false" targetId="c42b-b3c5-b8dd-ecd8" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="6004-18d0-b8e3-7208" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="0.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6659-c6c7-81d8-28b4" type="min"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -2228,13 +2170,14 @@ A Dwarf Ballista will only scatter 3&quot; rather than 6&quot;.</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d0e7-4729-7301-4e32" name="Leader" hidden="false" collective="false">
+        <selectionEntryGroup id="d0e7-4729-7301-4e32" name="Leader" hidden="false" collective="false" defaultSelectionEntryId="3960-4ca5-42f4-b290">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa2-d5b1-d044-04dd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db08-7ed7-ac8b-2d69" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
@@ -2314,7 +2257,7 @@ A Dwarf Ballista will only scatter 3&quot; rather than 6&quot;.</description>
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7222-ed80-7d41-d1df" name="Dwarf Engineer Captain" book="Armies of the Lord of the Rings" page="100" hidden="true" collective="false" type="model">
+            <selectionEntry id="7222-ed80-7d41-d1df" name="Dwarf Engineer Captain" book="Armies of the Lord of the Rings" page="100" hidden="false" collective="false" type="model">
               <profiles>
                 <profile id="9d9d-57ee-e7e7-b148" name="Dwarf Engineer Captain" book="Armies of the Lord of the Rings" page="100" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
                   <profiles/>
