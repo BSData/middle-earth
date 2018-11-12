@@ -10891,6 +10891,95 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e50e-3528-5032-ea83" name="Ori the Dwarf, Champion of Erebor" book="The Hobbit PDF" page="24" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8031-6a57-7a90-bdfb" name="Ori the Dwarf, Champion of Erebor" book="The Hobbit PDF" page="24" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d4a4-9d88-03c0-4de1" name="Chronicler (Passive)" book="The Hobbit PDF" page="24" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Any time Thorin Oakenshield, King Under the Mountain, or a Champion of Erebor slays an enemy Hero or Monster within 3&quot; of Ori the Dwarf, Champion of Erebor, that model immediately regains a point of Might, Will, or Fate (your choice) that has previously been spent in that game (or campaign).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="db6c-aa6d-18cb-a8fe" name="Sworn Protector (Active)" hidden="false" targetId="98e5-0c6c-dc8a-255d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Sworn Protector (Thorin Oakenshield, King Under the Mountain) (Active)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e772-f2d8-98e0-f479" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="114a-395a-87a4-0f01" name="Heavy Dwarf Armour (Included)" hidden="false" targetId="df4b-209c-c260-7f3a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c8c8-bb9a-17e4-34ac" name="Two-Handed Axe" hidden="false" targetId="690d-986d-e5a2-0264" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cdd-a7e8-971a-ec03" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="55.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
