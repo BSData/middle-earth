@@ -76,10 +76,10 @@ If your army includes Durin, you may upgrade any number of Khazâd Guard in his 
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="hidden" value="true">
+        <modifier type="set" field="hidden" value="false">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1517-143c-20f3-f0a2" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfac-a7f8-bd63-a3a1" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -409,7 +409,7 @@ Also, if your army includes Balin, then every alliance will be Impossible Allies
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfac-a7f8-bd63-a3a1" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfac-a7f8-bd63-a3a1" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -505,7 +505,7 @@ Also, if your army includes Balin, then every alliance will be Impossible Allies
         <modifier type="set" field="hidden" value="false">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfac-a7f8-bd63-a3a1" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfac-a7f8-bd63-a3a1" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -585,6 +585,108 @@ This is a Foe Spear with the Trollbane special rule. Additionally, Mardin adds +
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c11-d889-86c1-528d" name="Flói Stonehand" book="Armies of the Lord of the Rings" page="98" hidden="true" collective="false" type="model">
+      <profiles>
+        <profile id="0200-838a-b1fa-35e9" name=" Flói Stonehand" book="Armies of the Lord of the Rings" page="98" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4679-57cc-d1af-3c1e" name="Loremaster (Active)" book="Armies of the Lord of the Rings" page="98" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+At the start of his move, Flói can spend a point of Will to negate an enemy Active or Passive special rule, or the effects of a piece of wargear (with the exception of The One Ring), until the end of the turn. There is no range for this ability, but Flói must have Line of Sight in order to use it.</description>
+        </rule>
+        <rule id="d468-21f0-68f4-ffe2" name="The Living Lore (Passive)" book="Armies of the Lord of the Rings" page="98" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model, Flói immediately recovers a point of Will spent earlier in the battle.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1517-143c-20f3-f0a2" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8361-fce3-c58a-72ae" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d349-f62d-be9c-864e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8c50-b1d1-0658-fdb1" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4ee2-fa8c-2b75-1bc0" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="641c-7378-a397-4a7d" name="Dwarf Armour (Included)" hidden="false" targetId="c42b-b3c5-b8dd-ecd8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1111-c2ab-7e45-9ab1" name="Staff" hidden="false" targetId="ce32-b111-669b-6bfa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bb7-d464-b421-d1d6" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
