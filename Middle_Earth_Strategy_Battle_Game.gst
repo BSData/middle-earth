@@ -11586,6 +11586,14 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="a0ad-6617-3dce-89fa" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
@@ -11667,6 +11675,14 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4097-5214-44e0-ec72" type="min"/>
               </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="977a-d2f0-44f0-3dbe" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
