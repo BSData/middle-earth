@@ -110,9 +110,7 @@ Dalamyr can never be Trapped whilst still standing.
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-These are a throwing weapon with Strength 1. Any model hit, but not slain, by these weapons must immediately expend a point of Will or be subjected to the effects of the Channelled version of the Transfix Magical Power. Should Dalamyr ever roll a 1 To Hit with his smoke bombs then his supply has run out and he cannot use them for the remainder of the game. 
-"/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" These are a throwing weapon with Strength 1. Any model hit, but not slain, by these weapons must immediately expend a point of Will or be subjected to the effects of the Channelled version of the Transfix Magical Power. Should Dalamyr ever roll a 1 To Hit with his smoke bombs then his supply has run out and he cannot use them for the remainder of the game.  "/>
               </characteristics>
             </profile>
           </profiles>
@@ -140,7 +138,9 @@ These are a throwing weapon with Strength 1. Any model hit, but not slain, by th
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -297,7 +297,36 @@ These are a throwing weapon with Strength 1. Any model hit, but not slain, by th
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0b23-8967-cbd3-d170" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a265-ba64-e58e-2bfc" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="0b23-8967-cbd3-d170" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a265-ba64-e58e-2bfc" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="0b23-8967-cbd3-d170" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5fcb-5a7e-cd02-ffdc" type="equalTo"/>
+                        <condition field="selections" scope="0b23-8967-cbd3-d170" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ba61-ec41-3a38-89e1" type="equalTo"/>
+                        <condition field="selections" scope="0b23-8967-cbd3-d170" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1c2-4906-c89f-2df7" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
@@ -612,7 +641,9 @@ The Reaver&apos;s controlling player may choose to have the Reaver automatically
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -662,9 +693,7 @@ The Reaver&apos;s controlling player may choose to have the Reaver automatically
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-This giant wooden shield provides the bearer +3 Defence, so long as the bearer is not Engaged in combat with another model. The bearer may use the rules for shielding, although they will not gain the Defence bonus as they also carry a crossbow.
-"/>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" This giant wooden shield provides the bearer +3 Defence, so long as the bearer is not Engaged in combat with another model. The bearer may use the rules for shielding, although they will not gain the Defence bonus as they also carry a crossbow. "/>
               </characteristics>
             </profile>
           </profiles>
@@ -679,7 +708,9 @@ This giant wooden shield provides the bearer +3 Defence, so long as the bearer i
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
