@@ -5648,13 +5648,6 @@ He doesn&apos;t need to adopt all these characteristics.</description>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="f2a8-594c-e4ca-af7a" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -10524,13 +10517,6 @@ A Hâsharin can never be Trapped whilst still standing.</description>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="bfdc-7b86-65c8-a5a5" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -10596,8 +10582,7 @@ A Hâsharin can never be Trapped whilst still standing.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-The Mûmak has Defence 8 rather than 7. "/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" The Mûmak has Defence 8 rather than 7. "/>
           </characteristics>
         </profile>
       </profiles>
@@ -10623,8 +10608,7 @@ The Mûmak has Defence 8 rather than 7. "/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Models in the Howdah gain the Reistant to Magic special rule. Additionally, every time a model in the Howdah suffers a Wound, roll a d6. On a 6, the Wound is ignored exactly as if a Fate point had been expended."/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Models in the Howdah gain the Reistant to Magic special rule. Additionally, every time a model in the Howdah suffers a Wound, roll a d6. On a 6, the Wound is ignored exactly as if a Fate point had been expended."/>
           </characteristics>
         </profile>
       </profiles>
@@ -10650,8 +10634,7 @@ Models in the Howdah gain the Reistant to Magic special rule. Additionally, ever
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-A Mûmak with Tusk Weapons will inflict four Strength 9 hits when it Tramples, rather than three."/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" A Mûmak with Tusk Weapons will inflict four Strength 9 hits when it Tramples, rather than three."/>
           </characteristics>
         </profile>
       </profiles>
@@ -10677,8 +10660,7 @@ A Mûmak with Tusk Weapons will inflict four Strength 9 hits when it Tramples, r
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-If they do not move, models in the Howdah may make a Shooting attack with a range of 8&quot; and a Strength of 6."/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" If they do not move, models in the Howdah may make a Shooting attack with a range of 8&quot; and a Strength of 6."/>
           </characteristics>
         </profile>
       </profiles>
@@ -10704,9 +10686,7 @@ If they do not move, models in the Howdah may make a Shooting attack with a rang
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-Models in the Howdah may attempt to dismount from the Mûmak during the Move phase, after the Mûmak has moved. Roll a D6 for each model that is attempting to dismount. On a 1, the rope has snapped and the unfortunate model suffers falling damage as normal. On a 2+, the model successfully dismounts, place it in base contact with the Mûmak. Models that dismount may still Charge as normal, although they may not make shooting attacks. 
-"/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Models in the Howdah may attempt to dismount from the Mûmak during the Move phase, after the Mûmak has moved. Roll a D6 for each model that is attempting to dismount. On a 1, the rope has snapped and the unfortunate model suffers falling damage as normal. On a 2+, the model successfully dismounts, place it in base contact with the Mûmak. Models that dismount may still Charge as normal, although they may not make shooting attacks.  "/>
           </characteristics>
         </profile>
       </profiles>
@@ -10732,9 +10712,7 @@ Models in the Howdah may attempt to dismount from the Mûmak during the Move pha
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-This Mûmak has its Attacks increased to 4, however, it will suffer a -1 penalty to all Courage tests when rolling to see whether or not it will Stampede.
-"/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" This Mûmak has its Attacks increased to 4, however, it will suffer a -1 penalty to all Courage tests when rolling to see whether or not it will Stampede. "/>
           </characteristics>
         </profile>
       </profiles>
