@@ -182,7 +182,36 @@ Dalamyr can never be Trapped whilst still standing.
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="8c23-9b42-a51a-fdae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a5eb-d095-c3b6-6d3d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="8c23-9b42-a51a-fdae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="49dc-c745-b64d-59ff" type="equalTo"/>
+                        <condition field="selections" scope="8c23-9b42-a51a-fdae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="11be-ecb2-97d4-3523" type="equalTo"/>
+                        <condition field="selections" scope="8c23-9b42-a51a-fdae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3061-2f8c-9f83-083d" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8c23-9b42-a51a-fdae" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a5eb-d095-c3b6-6d3d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
@@ -470,7 +499,28 @@ Friendly Corsair models within 3&quot; of a Corsair Bo&apos;sun count as being i
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="86c0-3ca7-34e3-15fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f51-689a-56f1-e882" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="86c0-3ca7-34e3-15fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b98a-1f32-b254-560f" type="equalTo"/>
+                    <condition field="selections" scope="86c0-3ca7-34e3-15fd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f51-689a-56f1-e882" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
