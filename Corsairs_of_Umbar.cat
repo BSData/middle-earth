@@ -46,7 +46,17 @@ Corsair models gain the Backstabbers special rule.</description>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="5baa-d945-7ecd-b789" name="Preternatural Agility" book="Armies of the Lord of the Rings" page="205" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Dalamyr can never be Trapped whilst still standing. 
+</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="d946-3724-590b-aa8c" name="Bane of Kings/Venom (Active)" hidden="false" targetId="c3be-4735-0cfb-bf08" type="rule">
           <profiles/>
@@ -79,7 +89,35 @@ Corsair models gain the Backstabbers special rule.</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="db5c-48f4-b68e-7f34" name="Smoke Bombs" book="Armies of the Lord of the Rings" page="205" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1d48-a648-cdf7-d0cf" name="Smoke Bombs (Active)" book="Armies of the Lord of the Rings" page="205" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+These are a throwing weapon with Strength 1. Any model hit, but not slain, by these weapons must immediately expend a point of Will or be subjected to the effects of the Channelled version of the Transfix Magical Power. Should Dalamyr ever roll a 1 To Hit with his smoke bombs then his supply has run out and he cannot use them for the remainder of the game. 
+"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd6b-bdb9-3329-40af" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbbc-62b7-9453-eb83" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="b0be-7827-3e14-554c" name="Throwing Daggers" hidden="false" targetId="36d0-ff9b-4ed1-72ce" type="selectionEntry">
@@ -250,9 +288,24 @@ Corsair models gain the Backstabbers special rule.</description>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="85fc-7494-709f-7a56" name="Commanding Bellow (Active)" book="Armies of the Lord of the Rings" page="206" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Friendly Corsair models within 3&quot; of a Corsair Bo&apos;sun count as being in range of a banner.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="da0a-3562-8242-252b" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bc17-693a-66fe-4524" name="Banner" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -484,7 +537,19 @@ Corsair models gain the Backstabbers special rule.</description>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="4541-e049-7dd0-cfe8" name="Mindless Killers (Active)" book="Armies of the Lord of the Rings" page="207" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Any Corsair Reaver that starts its move at least 6&quot; away from a friendly Corsair Bo&apos;sun must take a Courage test. If the test is failed, the Reaver will be driven into a bloodthirsty rampage, and will Charge the nearest enemy model. If two or more models are an equal distance away from each other then the Reaver&apos;s controlling player may choose which model the Reaver will Charge. If a Reaver fails this Courage test, and it is not possible for it to Charge an enemy model, it will Charge the nearest friendly model instead. Should a Corsair Reaver Charge a friendly model, then the Charged model may not move during the Move phase and must fight the Reaver during the Fight phase. If a Reaver fails this test, and there are no models (friend or foe) that it can Charge, it will move 6&quot; towards the closest enemy model instead. 
+
+The Reaver&apos;s controlling player may choose to have the Reaver automatically fail this Courage test if they wish. When driven into this bloodthirsty rampage, Corsair Reavers gain a bonus of +1 to any To Wound rolls and do not need to take Courage tests for charging Terror-causing models.
+</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -497,7 +562,34 @@ Corsair models gain the Backstabbers special rule.</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="4f21-101a-b28c-9792" name="Two Swords" book="Armies of the Lord of the Rings" page="207" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0a6-0675-f821-77f8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee8b-554d-e3f7-9b19" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7481-41a2-a589-c683" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66d0-291b-3e1f-80ca" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
@@ -536,7 +628,35 @@ Corsair models gain the Backstabbers special rule.</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="73c3-057a-0985-27d7" name="Pavise" book="Armies of the Lord of the Rings" page="207" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2e6c-2f25-2c18-925c" name="Pavise (Passive)" book="Armies of the Lord of the Rings" page="207" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+This giant wooden shield provides the bearer +3 Defence, so long as the bearer is not Engaged in combat with another model. The bearer may use the rules for shielding, although they will not gain the Defence bonus as they also carry a crossbow.
+"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da10-c72d-8b83-c47b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8116-2e8d-ebf2-fc89" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="a895-8fae-d484-dc6d" name="Crossbow" hidden="false" targetId="7992-fcf9-5dc9-fd6c" type="selectionEntry">
