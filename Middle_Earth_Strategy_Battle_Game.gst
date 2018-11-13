@@ -10569,19 +10569,11 @@ A Hâsharin can never be Trapped whilst still standing.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0c86-dbea-a24c-301a" name="The Leader" hidden="true" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+        <entryLink id="0c86-dbea-a24c-301a" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f78-9582-22d3-2a4c" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
