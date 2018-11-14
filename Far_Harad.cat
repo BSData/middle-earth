@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ab33-0ed9-b0fd-e725" name="Far Harad" book="Armies of The Lord of the Rings" page="200" revision="3" battleScribeVersion="2.01" authorName="Ottar" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ab33-0ed9-b0fd-e725" name="Far Harad" book="Armies of The Lord of the Rings" page="200" revision="4" battleScribeVersion="2.01" authorName="Ottar" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="d5ec-25b1-51fb-0123" name="Warrior Pride" book="Armies of The Lord of the Rings" page="200" hidden="false">
@@ -23,7 +23,15 @@ Mahûd Warrior models that are within 6&quot; of a friendly Mahûd Hero model th
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="29bf-b37b-dbf2-b194" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39b4-f878-9863-81ff" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/3+"/>
@@ -220,12 +228,6 @@ A War Mûmak of Far Harad&apos;s Howdah has a capacity of 12 models. The only mo
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="50d2-0e76-1be2-2875" name="Haradrim Commander" hidden="false" targetId="e703-2e4b-21d3-80d8" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
           </infoLinks>
           <modifiers/>
           <constraints>
@@ -335,7 +337,15 @@ A War Mûmak of Far Harad&apos;s Howdah has a capacity of 12 models. The only mo
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="9e23-9077-8580-c6ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3122-0a44-e9e9-c4a4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/3+"/>
