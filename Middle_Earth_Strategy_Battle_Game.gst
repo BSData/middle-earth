@@ -11685,7 +11685,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
     </selectionEntry>
     <selectionEntry id="103e-282b-298f-34b4" name="Gandalf the Grey (Hobbit)" book="The Hobbit PDF " page="11" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="204e-52fe-6e83-7300" name="Blinding Light" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="204e-52fe-6e83-7300" name="Blinding Light" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11695,7 +11695,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="5e37-465b-4daf-77dd" name="Terrifying Aura" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="5e37-465b-4daf-77dd" name="Terrifying Aura" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11705,7 +11705,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="b611-b2b3-1e30-2575" name="Immobilise" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="b611-b2b3-1e30-2575" name="Immobilise" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11715,7 +11715,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="108b-218c-8d3d-6aba" name="Command" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="108b-218c-8d3d-6aba" name="Command" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11725,7 +11725,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="baea-4be4-229b-004d" name="Strengthen Will" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="baea-4be4-229b-004d" name="Strengthen Will" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11735,7 +11735,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="8fbe-74d7-858d-da97" name="Sorcerous Blast" book="Armies of The Lord of the Rings" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="8fbe-74d7-858d-da97" name="Sorcerous Blast" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11882,6 +11882,290 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="170.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e454-4fb9-9a2f-f0fb" name="Radagast the Brown" book="The Hobbit PDF " page="12" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7c3f-4a6d-45d3-488e" name="Aura of Dismay" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="5421-6a5a-2a56-3e73" name="Terrifying Aura" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="f072-f126-471f-bd81" name="Immobilise" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="6fc7-32fb-fb2b-9524" name="Panic Steed" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="7c18-571e-6063-0c60" name="Renew" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="9ee4-c843-a070-7f62" name="Radagast the Brown" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="7"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="6*"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Wizard"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9e53-d8f3-27d6-24ab" name="Master of Birds" book="The Hobbit PDF" page="12" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Radagast is always assumed to have Line Of Sight to any point on the battlefield.</description>
+        </rule>
+        <rule id="0c91-9c05-b54b-30f7" name="One with Nature" book="The Hobbit PDF" page="12" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Whilst on foot, Radagast may move through areas of difficult terrain without penalty and is always considered to be wearing an Elven cloak.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="fe88-d250-6345-ba6e" name="Aura of Dismay" hidden="false" targetId="daba-0bf1-9b09-1042" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9481-55a1-aa31-5aa6" name="Terrifying Aura" hidden="false" targetId="e28f-a134-2570-a2ed" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="38f3-4f69-2568-490d" name="Renew" hidden="false" targetId="1fd9-7821-ca59-15be" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3845-3c83-8ff7-6137" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d829-ade2-0c10-0354" name="Panic Steed" hidden="false" targetId="d093-adcd-5032-6dc1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1523-a758-dced-8497" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2954-4176-a122-fb58" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dcec-b175-eedd-8df4" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6eed-5ae9-f8ed-3042" name="Stalk Unseen (Passive)" hidden="false" targetId="82c4-f3f6-df01-88dd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e492-bee1-3b16-afd6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec90-e756-cb33-3b6f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2d73-eed7-7f9a-2ad4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1305-fc7b-3c0f-9afb" name="Staff of Power*" hidden="false" targetId="7cab-312e-12a6-dcab" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6580-0c44-ffcf-7e5a" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a61c-aa57-f1a2-5809" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4db9-bfce-ad98-a688" name="Radagast&apos;s Sleigh" hidden="false" targetId="6fbb-f91d-b297-32bf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="566c-63ac-88e1-b0f3" name="Sebastian" hidden="false" targetId="479c-4661-5307-0821" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6fbb-f91d-b297-32bf" name="Radagast&apos;s Sleigh" book="The Hobbit PDF" page="12" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e8f4-9a8c-36f8-5cdc" name="Radagast&apos;s Sleigh" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/6+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="2"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="4"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="4"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Sleigh"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="80c6-e908-0abb-265c" name="Dismount" book="The Hobbit PDF" page="12" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2138-3729-8794-ea6e" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="705b-cea5-6cb1-1af7" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="479c-4661-5307-0821" name="Sebastian" book="The Hobbit PDF" page="12" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e78e-e9a3-dae6-9161" name="Sebastian" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
+If Radagast is accompanied by Sebastian, he may always make an additional Attack in close combat, with a Fight value and Strength of 1 (roll a separate dice for Sebastian) which cannot be altered by Might points."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0421-97da-27eb-41fe" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
