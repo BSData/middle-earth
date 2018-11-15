@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="17" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="18" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -11855,8 +11855,8 @@ Can Shoot in the Shoot Phase.
       <modifiers/>
       <description>
 Increases likelihood of winning drawn Duels:
-	3-6 to win for a Good model.
-	1-4 to win for an Evil Model.
+	Good model wins on 3-6 when it is using an Elven-made weapon.
+	Evil model wins on 1-4 when it is using an Elven-made weapon.
 	[If both sides have Elven Blades, no change.]</description>
     </rule>
     <rule id="4d2b-177f-7240-6734" name="Elven Cloak" book="Middle-earth Strategy Battle Game Rules Manual" page="89" hidden="false">
@@ -12013,7 +12013,8 @@ If not Slain, hit models must immediately pass a Courage test, or be removed fro
       <modifiers/>
       <description>
 Cumbersome:
-	+1 Defence unless armed with a &apos;Bow&apos;, &apos;Two-Handed Weapon&apos;, &apos;Spear&apos;, or &apos;Pike&apos;.
+	+1 Defence unless armed with a &apos;Bow&apos;, &apos;Crossbow&apos;, &apos;Two-Handed Weapon&apos; or &apos;Pike&apos;.
+	[If the model uses a Hand-and-a-half weapon as a Two-handed weapon it will lose the +1 Defence bonus.]
 	[The model can only use an &apos;Elven Blade&apos; one-handed.]
 
 Shielding:
