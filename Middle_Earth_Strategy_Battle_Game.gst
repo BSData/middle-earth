@@ -12015,7 +12015,6 @@ If not Slain, hit models must immediately pass a Courage test, or be removed fro
 Cumbersome:
 	+1 Defence unless armed with a &apos;Bow&apos;, &apos;Crossbow&apos;, &apos;Two-Handed Weapon&apos; or &apos;Pike&apos;.
 	[If the model uses a Hand-and-a-half weapon as a Two-handed weapon it will lose the +1 Defence bonus.]
-	[The model can only use an &apos;Elven Blade&apos; one-handed.]
 
 Shielding:
 	Double the number of dice rolled in the Duel.
