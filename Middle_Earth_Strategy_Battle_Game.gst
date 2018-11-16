@@ -3412,13 +3412,6 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="3a49-a6ae-8ba2-de20" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -5104,13 +5097,6 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="e7cf-23db-9304-b9e1" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -5361,13 +5347,6 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
       </constraints>
       <categoryLinks>
         <categoryLink id="0519-cf46-73af-37e6" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="bc4d-dbe3-a100-b5cb" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5896,13 +5875,6 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="bb7b-e7f2-39b6-a765" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -6163,13 +6135,6 @@ On a 6 they suffer a wound.</description>
       </constraints>
       <categoryLinks>
         <categoryLink id="f320-b2f5-b6fe-a65b" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="74c5-1c97-baaf-40d5" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6441,13 +6406,6 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
       </constraints>
       <categoryLinks>
         <categoryLink id="ac87-f1b2-0ef3-d0a3" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="1628-bb3e-fa03-ebd4" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
