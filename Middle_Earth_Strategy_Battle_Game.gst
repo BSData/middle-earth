@@ -11522,7 +11522,7 @@ Once per Fight phase, Óin the Dwarf, Champion of Erebor can expend a Will point
                 </profile>
               </profiles>
               <rules>
-                <rule id="5e0d-3184-3af7-a62f" name="Kalazâl" hidden="false">
+                <rule id="5e0d-3184-3af7-a62f" name="Kalazâl (Active)" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
