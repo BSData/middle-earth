@@ -20,7 +20,7 @@ to develop - cool! We need you! Take a look at [Getting Started wiki][] as well 
 
 __Okay, nice project. Is it actually working?__ _I just want those files..._
 
-Not yet! We're still finishing off the initial release, but when we do we'll have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
+Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
 
 ## Links
