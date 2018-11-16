@@ -32,8 +32,8 @@ Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][
 * [BattleScribe Data on Appspot][]
 * [Getting Started wiki][]
 
-[Code of Conduct]: /BSData/middle-earth/blob/master/CODE_OF_CONDUCT.md
+[Code of Conduct]: https://github.com/BSData/middle-earth/blob/master/CODE_OF_CONDUCT.md
 [BattleScribe homepage]: http://www.battlescribe.net/
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started#contributing
-[Contributing Guidelines]: /BSData/middle-earth/blob/master/CONTRIBUTING.md
+[Contributing Guidelines]: https://github.com/BSData/middle-earth/blob/master/CONTRIBUTING.md
