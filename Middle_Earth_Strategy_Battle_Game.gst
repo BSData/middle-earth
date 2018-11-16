@@ -2867,7 +2867,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9248-48a7-16fe-ff6f" type="max"/>
+        <constraint field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9248-48a7-16fe-ff6f" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e462-3af3-54a1-b5f9" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77f2-bb62-f43e-8671" type="min"/>
       </constraints>
