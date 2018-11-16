@@ -7177,7 +7177,13 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="10">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="5271-f6c3-6954-1a49" name="New CategoryLink" hidden="false" targetId="c892-016b-5298-f37d" primary="true">
@@ -7189,75 +7195,6 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cff8-d8ae-3d3e-df2b" name="Orc Warrior" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="7787-0780-9b1c-e233" name="Orc Warrior" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
-                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
-                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Orc"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="cdaf-1972-5495-314c" value="11">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="486a-c27c-fe8b-e413" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b1e-f35d-fed5-a81b" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05b-eeb1-b478-80c3" type="min"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdaf-1972-5495-314c" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="d24a-8f32-6b0d-3b56" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="0.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4053-f312-09e4-59c7" type="min"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="d4e7-e56e-f603-417d" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a9d-2b82-409e-c320" type="min"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="2c65-d203-c078-b66b" name="Mordor Troll" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="534f-652d-e564-082b" name="Mordor Troll" book="Armies of the Lord of the Rings" page="123" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
@@ -7397,6 +7334,75 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b88-f8fe-c846-2eaa" name="Orc Warrior" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="b840-7a69-f099-0c77" name="Orc Warrior" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Orc"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a29-ed9d-a77b-38cd" value="11">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="486a-c27c-fe8b-e413" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b1e-f35d-fed5-a81b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a29-ed9d-a77b-38cd" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1516-b63c-5e00-bab2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4aa1-3173-2350-2706" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7992-f818-c5a7-efa4" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1774-efe3-c3fb-5cdc" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad9-fde0-3c56-231d" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
@@ -7667,7 +7673,13 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="10">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="b8f0-80e4-4998-a47f" name="Siege engine" hidden="false" targetId="c892-016b-5298-f37d" primary="true">
@@ -7745,7 +7757,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="84b2-2a8a-0817-ade5" name="Flaming Ammunition" book="" hidden="false" collective="false" type="upgrade">
