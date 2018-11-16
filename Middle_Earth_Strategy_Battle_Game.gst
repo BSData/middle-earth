@@ -3773,6 +3773,14 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9c99-ea8b-64f2-004d" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
@@ -3996,6 +4004,14 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <categoryLinks/>
         </entryLink>
         <entryLink id="e9c5-cb8c-5992-1934" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a5a6-d3e4-c4bd-b55b" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7493,6 +7509,14 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
                   <categoryLinks/>
                 </entryLink>
                 <entryLink id="d4ff-c714-1e67-e0f3" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="51cf-8409-4420-437e" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11276,6 +11300,14 @@ Any time Thorin Oakenshield, King Under the Mountain, or a Champion of Erebor sl
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="31a3-1add-07d0-ae9f" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="55.0"/>
@@ -11390,6 +11422,14 @@ Once per Fight phase, Óin the Dwarf, Champion of Erebor can expend a Will point
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b8-d8e1-a3dd-93a8" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1c29-a080-ee87-4408" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
