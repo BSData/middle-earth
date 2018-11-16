@@ -4575,7 +4575,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1122-2fcd-587a-ee02" name="Dagger" hidden="true" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+        <entryLink id="1122-2fcd-587a-ee02" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
