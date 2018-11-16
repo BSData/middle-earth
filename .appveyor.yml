@@ -28,10 +28,7 @@ deploy_script:
 artifacts:
   - path: 'artifacts\*.bsi'
   - path: 'artifacts\*.bsr'
-
-# delete '#' to uncomment if your repository has Gitter chat
-
-#notifications:
+notifications:
   - provider: Webhook
     url: https://webhooks.gitter.im/e/b09ee4eb6eb767a68566   # here paste your Gitter chatroom Webhook url :)
     on_build_success: true
