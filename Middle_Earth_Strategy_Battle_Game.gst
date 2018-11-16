@@ -12149,8 +12149,7 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-If Radagast is accompanied by Sebastian, he may always make an additional Attack in close combat, with a Fight value and Strength of 1 (roll a separate dice for Sebastian) which cannot be altered by Might points."/>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" If Radagast is accompanied by Sebastian, he may always make an additional Attack in close combat, with a Fight value and Strength of 1 (roll a separate dice for Sebastian) which cannot be altered by Might points."/>
           </characteristics>
         </profile>
       </profiles>
@@ -12166,6 +12165,101 @@ If Radagast is accompanied by Sebastian, he may always make an additional Attack
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce16-edbe-27db-e4e8" name="Hunter Orc Captain" book="The Hobbit PDF" page="14" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9a3f-6baa-7cda-49e3" name="Hunter Orc Captain" book="The Hobbit PDF" page="14" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Orc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d828-1628-48a8-ff46" name="Many Blades (Passive)" hidden="false" targetId="ddbc-b562-a220-2c22" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1421-c4a1-7358-ea2c" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5c1e-ee87-0327-9bd3" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9fc6-368f-56a0-e8a4" name="Two-Handed Weapon" hidden="false" targetId="8649-9967-6db6-6693" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d62f-66b9-d22a-55c8" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0b17-9491-dc67-b1fc" name="Fell Warg" hidden="false" targetId="527b-2dff-8ecd-69c8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5027-e3ec-a94e-a93c" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -13432,6 +13526,14 @@ Galadriel may expend a single point of Will each turn without reducing her own s
       <modifiers/>
       <description>
 Friendly Haradrim and Mahûd models within 3&quot; of this model may re-roll a single d6 when making a Duel roll. This is cumulative with the effects of a banner, however, each d6 may only be re-rolled once. </description>
+    </rule>
+    <rule id="ddbc-b562-a220-2c22" name="Many Blades (Passive)" book="The Hobbit PDF" page="14" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+When fighting on foot this model receives +1 Attack.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
