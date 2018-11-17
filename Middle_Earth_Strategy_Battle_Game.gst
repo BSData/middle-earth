@@ -2867,7 +2867,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9248-48a7-16fe-ff6f" type="max"/>
+        <constraint field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9248-48a7-16fe-ff6f" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e462-3af3-54a1-b5f9" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77f2-bb62-f43e-8671" type="min"/>
       </constraints>
@@ -3412,13 +3412,6 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="3a49-a6ae-8ba2-de20" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -3780,6 +3773,14 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9c99-ea8b-64f2-004d" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
@@ -4003,6 +4004,14 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <categoryLinks/>
         </entryLink>
         <entryLink id="e9c5-cb8c-5992-1934" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a5a6-d3e4-c4bd-b55b" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4566,7 +4575,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1122-2fcd-587a-ee02" name="Dagger" hidden="true" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+        <entryLink id="1122-2fcd-587a-ee02" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5104,13 +5113,6 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="e7cf-23db-9304-b9e1" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -5361,13 +5363,6 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
       </constraints>
       <categoryLinks>
         <categoryLink id="0519-cf46-73af-37e6" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="bc4d-dbe3-a100-b5cb" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5896,13 +5891,6 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="bb7b-e7f2-39b6-a765" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -6163,13 +6151,6 @@ On a 6 they suffer a wound.</description>
       </constraints>
       <categoryLinks>
         <categoryLink id="f320-b2f5-b6fe-a65b" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="74c5-1c97-baaf-40d5" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6441,13 +6422,6 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
       </constraints>
       <categoryLinks>
         <categoryLink id="ac87-f1b2-0ef3-d0a3" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="1628-bb3e-fa03-ebd4" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7541,6 +7515,14 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
                   <categoryLinks/>
                 </entryLink>
                 <entryLink id="d4ff-c714-1e67-e0f3" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="51cf-8409-4420-437e" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11330,6 +11312,14 @@ Any time Thorin Oakenshield, King Under the Mountain, or a Champion of Erebor sl
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="31a3-1add-07d0-ae9f" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="55.0"/>
@@ -11444,6 +11434,14 @@ Once per Fight phase, Óin the Dwarf, Champion of Erebor can expend a Will point
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b8-d8e1-a3dd-93a8" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1c29-a080-ee87-4408" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
