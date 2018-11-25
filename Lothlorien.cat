@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6867-d666-0e2c-4d4e" name="Lothlórien" book="Armies of the Lord of the Rings" page="82" revision="1" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6867-d666-0e2c-4d4e" name="Lothlórien" book="Armies of the Lord of the Rings" page="82" revision="2" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="6690-7f0b-b7a9-ad5c" name="&quot;They say a great Sorceress lives in these woods...&quot;" book="Armies of the Lord of the Rings" page="82" hidden="false">
@@ -1594,117 +1594,6 @@ In addition to the normal rules for pikes, the Guard of the Galadhrim Court may 
         <cost name="pts" costTypeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c6c0-51f5-7c59-5000" name="Wood Elf Sentinel" book="Armies of the Lord of the Rings" page="89" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="1b4c-d934-ced5-f702" name="Wood Elf Sentinel" book="Armies of the Lord of the Rings" page="89" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/3+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="5"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Elf"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="da1e-f75c-d93f-5d1a" name="Enchanting Song (Active)" book="Armies of the Lord of the Rings" page="89" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-A Sentinel may sing one song each turn, provided they are not Engaged in combat. These function exactly like Magical Powers except that they are automatically cast without spending Will, and cannot be resisted. 
-
-The Hymn of Elbereth - Range 12&quot; - This beautiful song raises the spirits of the targeted model. The target friendly model will automatically pass all Courage tests for the remainder of the turn. 
-
-Eldamar Madrigal - Range 12&quot; - The target enemy model must immediately take a Courage test. If the test is passed, nothing happens. If the test is failed, the target model falls under the control of the opposing player who may then move it up to its maximum Move, even if it has already moved that turn. This move cannot be used to enter an enemy&apos;s Control Zone, dismount, lay down, perform an action that would cause harm to the target (such as jumping off a cliff, etc) or anything that would require the model to roll a D6 (such as a Jump test). Affected models may move no further that turn.  
-
-The Lay of Gondolin - This somber verse recalls the mighty Elf city of Gondolin - a name fit to freeze the hearts of Evil beings. If the Sentinel sings this song, they cause Terror until the end of the turn. 
-</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="22a8-12f1-cbee-a124" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="c83a-4fd6-3282-6f93" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="f106-1c09-685e-0c89" name="Elven-made Sword" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5d-8a6a-732f-9e83" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9c6d-5b6c-d88a-75b2" name="Elf Bow" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b71-613f-db89-e7ad" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="58bf-9e2c-08da-7b27" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be75-1b06-4b77-988d" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="25.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="eea7-dee9-1e32-0ada" name="Wood Elf Warrior" book="Armies of the Lord of the Rings" page="88" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="1ae8-d8e9-c5bc-37cd" name="Wood Elf Warrior" book="Armies of the Lord of the Rings" page="88" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
@@ -1999,7 +1888,16 @@ The Lay of Gondolin - This somber verse recalls the mighty Elf city of Gondolin 
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <entryLinks/>
+  <entryLinks>
+    <entryLink id="fe20-b04a-afd3-e4b6" name="Wood Elf Sentinel" book="Armies of the Lord of the Rings" page="89" hidden="false" targetId="c6c0-51f5-7c59-5000" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
   <sharedRules>
