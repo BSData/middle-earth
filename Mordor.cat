@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9373-f83e-88a9-09f7" name="Mordor" book="Armies of the Lord of the Rings" page="134" revision="3" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9373-f83e-88a9-09f7" name="Mordor" book="Armies of the Lord of the Rings" page="134" revision="4" battleScribeVersion="2.01" authorName="Cord" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="e6a6-708c-8e40-3ecf" name="&quot;Our Enemy is Ready, His full Strength is gathered&quot;" book="Armies of the Lord of the Rings" page="134" hidden="false">
@@ -467,7 +467,7 @@ For the rest of the turn, all friendly Mordor Orc models within 12&quot; of Goth
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="0.0">
+            <modifier type="set" field="points" value="0.0">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -1854,6 +1854,241 @@ If Gothmog’s Enforcer is within 3&quot; of Gothmog at the start of a turn, Got
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ded-fffe-e63b-5e6a" name="Great Beast of Gorgoroth" book="Armies of the Lord of the Rings" page="146" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c0ea-08b0-bc03-4d3b" name="Great Beast of Gorgoroth" book="Armies of the Lord of the Rings" page="146" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="6"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="7"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="5"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Great Beast"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0d37-7679-3560-c9ce" name="Battle Platform (Passive)" book="Armies of the Lord of the Rings" page="146" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Models within the Great Beast&apos;s&apos; Howdah do not count towards your force&apos;s Bow Limit.</description>
+        </rule>
+        <rule id="c56d-b620-7843-eb13" name="Trample" book="Armies of the Lord of the Rings" page="146" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+When a Great Beast Tramples, it will inflict two Strength 6 hits.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1c88-d4a5-b53a-d352" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ee5b-945f-4bce-5595" name="New CategoryLink" hidden="false" targetId="c892-016b-5298-f37d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="667a-1485-44bb-9191" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="9b74-a933-0b17-98a0" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Orc"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdd7-3976-c02e-1fc1" type="max"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6686-26a0-9307-f20f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f0ba-ca5f-d3e3-062e" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd2e-0b89-b2c4-e546" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0ab1-53ee-dd5e-a4a1" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fcdf-9efc-b39f-3129" name="Orc Commander" book="Armies of the Lord of the Rings" page="146" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="c889-1b4d-7b88-1636" name="Orc Commander" book="Armies of the Lord of the Rings" page="146" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/5+"/>
+                <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+                <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+                <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+                <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+                <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+                <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+                <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Orc"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb8f-7c11-854a-66b2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f53f-2451-292e-b140" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="23bd-beb8-025e-473b" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="dddd-9561-873f-bdb2" name="Spear" hidden="false" targetId="2af8-ceb0-4dae-8db4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0d4-4e96-e8bb-f4a4" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3bf0-7501-6523-a612" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e66a-2bf5-2515-5065" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8986-b3ae-7d6d-a590" name="Howdah" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f18c-2a28-08d8-70cf" name="Howdah" book="Armies of the Lord of the Rings" page="146" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="-"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="-"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="-"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="8"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="-"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="4"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="-"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Howdah"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="142e-83a9-29d5-147d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87d2-f420-d169-844d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
