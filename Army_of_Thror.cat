@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b3cc-5bf0-6ecf-ca79" name="Army of Thrór" book="The Hobbit PDF" page="1" revision="1" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b3cc-5bf0-6ecf-ca79" name="Army of Thrór" book="Armies of the Hobbit" page="18" revision="2" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
-    <rule id="9ee3-bbd5-7bd5-0ad7" name="Army of Thrór" book="The Hobbit PDF" page="1" hidden="false">
+    <rule id="9ee3-bbd5-7bd5-0ad7" name="Thrór ruled with utter surety, never doubting his house would endure" book="Armies of the Hobbit" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16,9 +16,9 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="a464-7f30-8001-ad2a" name="Thrór" book="The Hobbit PDF" page="41" hidden="false" collective="false" type="model">
+    <selectionEntry id="a464-7f30-8001-ad2a" name="Thrór" book="Armies of the Hobbit" page="19" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="ebeb-75cf-e282-449e" name="Thrór" book="The Hobbit PDF" page="41" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="ebeb-75cf-e282-449e" name="Thrór" book="Armies of the Hobbit" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -39,22 +39,13 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="8b30-1652-3e83-4942" name="Arkenstone" book="The Hobbit PDF" page="41" hidden="false">
+        <rule id="0ade-4710-34dc-1cc2" name="The Ring of Durin" book="Armies of the Hobbit" page="19" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>
-The bearer of the Arkenstone passes Fate rolls on a 3+.
-If the roll is a 4 or better, there is no need to expend the Fate point at all.</description>
-        </rule>
-        <rule id="0ade-4710-34dc-1cc2" name="Ring of Thrór" book="The Hobbit PDF" page="41" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-Thrór is Fearless while he posses his ring.</description>
+Once per game, the bearer of the Ring of Durin may re-roll a single Priority roll.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -98,7 +89,41 @@ Thrór is Fearless while he posses his ring.</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="6fd8-f69e-032c-424d" name="The Arkenstone" book="Armies of the Hobbit" page="19" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="fa27-cbfc-8268-16c4" name="The Arkenstone" book="Armies of the Hobbit" page="19" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="6c7e-e426-674b-5fb5" name="The Arkenstone" book="Armies of the Hobbit" page="19" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+The bearer of the Arkenstone passes Fate rolls on a 3+.
+If the roll is a 4 or better, there is no need to expend the Fate point at all.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65c4-60a4-3b18-c696" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c739-b5a3-3143-32e7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="14a1-9899-630e-991e" name="Heavy Dwarf Armour (Included)" hidden="false" targetId="df4b-209c-c260-7f3a" type="selectionEntry">
@@ -146,9 +171,9 @@ Thrór is Fearless while he posses his ring.</description>
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7907-139e-a0ef-32b8" name="Thráin" book="The Hobbit PDF" page="41" hidden="false" collective="false" type="model">
+    <selectionEntry id="7907-139e-a0ef-32b8" name="Thráin" book="Armies of the Hobbit" page="20" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="1919-58ef-c162-1ddb" name="Thráin" book="The Hobbit PDF" page="41" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="1919-58ef-c162-1ddb" name="Thráin" book="Armies of the Hobbit" page="20" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -169,7 +194,7 @@ Thrór is Fearless while he posses his ring.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="e373-965b-c302-4eae" name="Durin&apos;s Heir" book="The Hobbit PDF" page="41" hidden="false">
+        <rule id="e373-965b-c302-4eae" name="Durin&apos;s Heir" book="Armies of the Hobbit" page="20" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -178,7 +203,7 @@ Thrór is Fearless while he posses his ring.</description>
 Thráin&apos;s Stand Fast! is unusal: In addition to all the normal rules:
 When Thráin passes a Stand Fast! roll, every friendly Dwarf on the battlefield is automatically affected, including other Dwarf Heroes.</description>
         </rule>
-        <rule id="3211-1187-755b-809f" name="Blood Feud" book="The Hobbit PDF" page="41" hidden="false">
+        <rule id="3211-1187-755b-809f" name="Blood Feud" book="Armies of the Hobbit" page="20" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -262,9 +287,9 @@ Thráin re-rolls all failed close combat To Wound rolls against Azog, and any mo
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca4f-37ac-47cb-a441" name="Young Thorin Oakenshield" book="The Hobbit PDF" page="42" hidden="false" collective="false" type="model">
+    <selectionEntry id="ca4f-37ac-47cb-a441" name="Young Thorin Oakenshield" book="Armies of the Hobbit" page="21" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="5240-6f5f-df5d-b094" name="Young Thorin Oakenshield" book="The Hobbit PDF" page="42" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="5240-6f5f-df5d-b094" name="Young Thorin Oakenshield" book="Armies of the Hobbit" page="21" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -293,7 +318,7 @@ Thráin re-rolls all failed close combat To Wound rolls against Azog, and any mo
         </profile>
       </profiles>
       <rules>
-        <rule id="ace9-4c27-658d-e1a6" name="To Arms!" book="The Hobbit PDF" page="42" hidden="false">
+        <rule id="ace9-4c27-658d-e1a6" name="To Arms!" book="Armies of the Hobbit" page="21" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -350,10 +375,10 @@ Once per game when moving Young Thorin Oakenshield, the controlling player may d
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8b28-7034-9cb6-a952" name="The Oakenshield" book="The Hobbit PDF" page="42" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="8b28-7034-9cb6-a952" name="The Oakenshield" book="Armies of the Hobbit" page="21" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="cb55-08b9-b065-6f6c" name="The Oakenshield" book="The Hobbit PDF" page="42" hidden="false">
+            <rule id="cb55-08b9-b065-6f6c" name="The Oakenshield" book="Armies of the Hobbit" page="21" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -383,7 +408,9 @@ Once per game when moving Young Thorin Oakenshield, the controlling player may d
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -425,9 +452,9 @@ Once per game when moving Young Thorin Oakenshield, the controlling player may d
         <cost name="pts" costTypeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="05ee-2c79-9e76-0c81" name="Young Balin the Dwarf" book="The Hobbit PDF" page="42" hidden="false" collective="false" type="model">
+    <selectionEntry id="05ee-2c79-9e76-0c81" name="Young Balin the Dwarf" book="Armies of the Hobbit" page="22" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="745c-1922-7453-9259" name="Young Balin the Dwarf" book="The Hobbit PDF" page="42" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="745c-1922-7453-9259" name="Young Balin the Dwarf" book="Armies of the Hobbit" page="22" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -448,7 +475,7 @@ Once per game when moving Young Thorin Oakenshield, the controlling player may d
         </profile>
       </profiles>
       <rules>
-        <rule id="0500-54ea-bc7b-fe56" name="The Young Sage" book="The Hobbit PDF" page="42" hidden="false">
+        <rule id="0500-54ea-bc7b-fe56" name="The Young Sage" book="Armies of the Hobbit" page="22" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -518,9 +545,9 @@ In the Priority phase, Balin may spend a Will point to enable his side to re-rol
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7091-f188-cdea-53c7" name="Young Dwalin the Dwarf" book="The Hobbit PDF" page="43" hidden="false" collective="false" type="model">
+    <selectionEntry id="7091-f188-cdea-53c7" name="Young Dwalin the Dwarf" book="Armies of the Hobbit" page="22" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="475f-e6fa-1f85-9fd4" name="Young Dwalin the Dwarf" book="The Hobbit PDF" page="43" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="475f-e6fa-1f85-9fd4" name="Young Dwalin the Dwarf" book="Armies of the Hobbit" page="22" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -541,7 +568,7 @@ In the Priority phase, Balin may spend a Will point to enable his side to re-rol
         </profile>
       </profiles>
       <rules>
-        <rule id="b927-846f-0aa0-ca4d" name="Weapon Master" book="The Hobbit PDF" page="43" hidden="false">
+        <rule id="b927-846f-0aa0-ca4d" name="Weapon Master" book="Armies of the Hobbit" page="22" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -549,7 +576,7 @@ In the Priority phase, Balin may spend a Will point to enable his side to re-rol
           <description>
 Young Dwalin the Dwarf is never considered Unarmed, and never suffers the usual -1 penalty to the Duel roll for fighting with a two-handed weapon.</description>
         </rule>
-        <rule id="a134-93a4-5788-2131" name="Dwarven Fury" book="The Hobbit PDF" page="43" hidden="false">
+        <rule id="a134-93a4-5788-2131" name="Dwarven Fury" book="Armies of the Hobbit" page="22" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -644,9 +671,9 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
         <cost name="pts" costTypeId="points" value="85.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1bb6-9ae2-222d-8aa8" name="Grim Hammer Captain" book="The Hobbit PDF" page="13" hidden="false" collective="false" type="model">
+    <selectionEntry id="1bb6-9ae2-222d-8aa8" name="Grim Hammer Captain" book="Armies of the Hobbit" page="23" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="8505-2c60-0dc5-4ed5" name="Grim Hammer Captain" book="The Hobbit PDF" page="13" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="8505-2c60-0dc5-4ed5" name="Grim Hammer Captain" book="Armies of the Hobbit" page="23" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -743,9 +770,9 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e3b9-3381-0b8e-fb52" name="Captain of Erebor" book="The Hobbit PDF" page="13" hidden="false" collective="false" type="model">
+    <selectionEntry id="e3b9-3381-0b8e-fb52" name="Captain of Erebor" book="Armies of the Hobbit" page="23" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="4b31-b2f8-db7e-809a" name="Captain of Erebor" book="The Hobbit PDF" page="13" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="4b31-b2f8-db7e-809a" name="Captain of Erebor" book="Armies of the Hobbit" page="23" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -834,13 +861,28 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="38f1-977d-43cc-e3e6" name="Grim Hammer" book="The Hobbit PDF" page="13" hidden="false" collective="false" type="model">
+    <selectionEntry id="38f1-977d-43cc-e3e6" name="Grim Hammer" book="Armies of the Hobbit" page="24" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="0c8f-f995-8d9a-7229" name="Grim Hammer" book="The Hobbit PDF" page="13" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="0c8f-f995-8d9a-7229" name="Grim Hammer" book="Armies of the Hobbit" page="24" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="name" value="Guardian of the King">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="38f1-977d-43cc-e3e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9752-0f59-8d0e-382b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="dec8-2675-ef6e-49c0" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="38f1-977d-43cc-e3e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9752-0f59-8d0e-382b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
@@ -855,7 +897,15 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="name" value="Guardian of the King">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="38f1-977d-43cc-e3e6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9752-0f59-8d0e-382b" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="393b-e5fc-7df6-4554" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
@@ -866,7 +916,32 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="9752-0f59-8d0e-382b" name="Upgrade to Guardian of the King" hidden="true" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="a464-7f30-8001-ad2a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af3-a522-5076-e10a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="7fef-a80f-8d31-7eca" name="Pick-hammer" hidden="false" targetId="b3d4-f1f7-a541-5fa3" type="selectionEntry">
@@ -922,9 +997,9 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
         <cost name="pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a203-6d40-ae13-25e1" name="Warrior of Erebor" book="The Hobbit PDF" hidden="false" collective="false" type="model">
+    <selectionEntry id="a203-6d40-ae13-25e1" name="Warrior of Erebor" book="Armies of the Hobbit" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="dd56-abc5-b92d-e7ea" name="Warrior of Erebor" book="The Hobbit PDF" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="dd56-abc5-b92d-e7ea" name="Warrior of Erebor" book="Armies of the Hobbit" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1025,9 +1100,9 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="b3d4-f1f7-a541-5fa3" name="Pick-hammer" book="The Hobbit PDF" page="13" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b3d4-f1f7-a541-5fa3" name="Pick-hammer" book="Armies of the Hobbit" page="24" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="a34c-47c0-9842-dbf3" name="Two-handed Pick-hammer" book="The Hobbit PDF" page="13" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+        <profile id="a34c-47c0-9842-dbf3" name="Two-handed Pick-hammer" book="Armies of the Hobbit" page="24" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1065,11 +1140,13 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="eb4b-e74e-b8f8-99ab" name="Sword-mace" book="The Hobbit PDF" page="42" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="eb4b-e74e-b8f8-99ab" name="Sword-mace" book="Armies of the Hobbit" page="22" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="7c0a-2242-432c-633e" name="Sword-mace" book="The Hobbit PDF" page="42" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+        <profile id="7c0a-2242-432c-633e" name="Sword-mace" book="Armies of the Hobbit" page="22" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1106,7 +1183,9 @@ If Feinting model wins the Duel roll they reroll any 1&apos;s to wound.</descrip
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
