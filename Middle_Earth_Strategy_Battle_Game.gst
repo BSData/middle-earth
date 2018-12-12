@@ -13626,9 +13626,9 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce16-edbe-27db-e4e8" name="Hunter Orc Captain" book="Armies of The Hobbit" page="14" hidden="false" collective="false" type="model">
+    <selectionEntry id="ce16-edbe-27db-e4e8" name="Hunter Orc Captain" book="Armies of The Hobbit" page="106" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="9a3f-6baa-7cda-49e3" name="Hunter Orc Captain" book="Armies of The Hobbit" page="14" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="9a3f-6baa-7cda-49e3" name="Hunter Orc Captain" book="Armies of The Hobbit" page="106" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13714,7 +13714,37 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
           <profiles/>
           <rules/>
           <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ae72-1a55-7da1-947a" name="Two Swords" hidden="false" targetId="a8d8-afc6-7441-73ba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f459-7a70-6913-3672" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7a7d-0c06-0804-d53b" name="Two-Handed Pick" hidden="false" targetId="0dfe-4f01-7b9b-29c6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -13723,9 +13753,9 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8572-f4cb-341f-7f0e" name="Hunter Orc" book="Armies of The Hobbit" page="19" hidden="false" collective="false" type="model">
+    <selectionEntry id="8572-f4cb-341f-7f0e" name="Hunter Orc" book="Armies of The Hobbit" page="107" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="4b15-bb92-c6ee-a5b0" name="Hunter Orc Captain" book="Armies of The Hobbit" page="14" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="4b15-bb92-c6ee-a5b0" name="Hunter Orc" book="Armies of The Hobbit" page="107" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13765,14 +13795,6 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="f312-a0c1-173d-cc3c" name="Two-Handed Weapon" hidden="false" targetId="8649-9967-6db6-6693" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="78ac-325c-3027-96f0" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -13801,7 +13823,13 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -13821,14 +13849,38 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="62d2-d6a5-f12a-d231" name="Two Swords" hidden="false" targetId="a8d8-afc6-7441-73ba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61d5-cc67-6100-579c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="afcb-9dcf-07fb-50cc" name="Two-Handed Pick" hidden="false" targetId="0dfe-4f01-7b9b-29c6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="950c-ae4a-4ace-7474" name="Iron Hills Captain" book="Armies of The Hobbit" page="28" hidden="false" collective="false" type="model">
+    <selectionEntry id="950c-ae4a-4ace-7474" name="Iron Hills Captain" book="Armies of The Hobbit" page="29" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="111c-ba95-b227-90de" name="Iron Hills Captain" book="Armies of The Hobbit" page="28" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="111c-ba95-b227-90de" name="Iron Hills Captain" book="Armies of The Hobbit" page="29" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13865,6 +13917,18 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="cb99-8433-5747-4b47" name="Master of Battle (Active)" hidden="false" targetId="a5f5-fc97-443a-2772" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Master of Battle (5+) (Active)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -13886,7 +13950,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="83d0-9516-a098-afe4" name="Choose One" book="Armies of The Hobbit" page="28" hidden="false" collective="false">
+        <selectionEntryGroup id="83d0-9516-a098-afe4" name="Choose One" book="Armies of The Hobbit" page="29" hidden="false" collective="false" defaultSelectionEntryId="5959-155a-b532-870a">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13896,52 +13960,24 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1198-2f34-260b-7ace" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="eb7d-8749-b236-1009" name="War Spear and Shield" book="Armies of The Hobbit" page="28" hidden="false" collective="false" type="upgrade">
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d89f-06cf-a5e2-1d3f" name="Mattock" book="" page="" hidden="false" targetId="55e9-225d-8afc-60e6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6093-26f1-44c0-fabd" type="max"/>
-              </constraints>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="a8d0-6324-d044-3a33" name="War Spear" hidden="false" targetId="0040-e6b2-0424-f3f8" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="points" value="0.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0738-3eee-e636-aca7" type="min"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="ca56-6b7e-5a67-f16b" name="Shield (Included)" hidden="false" targetId="d0c2-4808-c3a3-63ac" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="d89f-06cf-a5e2-1d3f" name="Mattock" book="Armies of The Hobbit" page="28" hidden="false" targetId="55e9-225d-8afc-60e6" type="selectionEntry">
+            </entryLink>
+            <entryLink id="5959-155a-b532-870a" name="War Spear" hidden="false" targetId="0040-e6b2-0424-f3f8" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13968,6 +14004,14 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
           <categoryLinks/>
         </entryLink>
         <entryLink id="908d-9e23-5841-1964" name="War Goat" hidden="false" targetId="765d-dac0-6404-9565" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aabf-d9d4-6ae0-f4c4" name="Shield (Included)" hidden="false" targetId="d0c2-4808-c3a3-63ac" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14021,7 +14065,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="765d-dac0-6404-9565" name="War Goat" book="Armies of The Hobbit" page="44" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="765d-dac0-6404-9565" name="War Goat" book="Armies of The Hobbit" page="30" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -14044,9 +14088,9 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2748-b625-4852-2f44" name="Iron Hills Goat Rider" book="Armies of The Hobbit" page="44" hidden="false" collective="false" type="model">
+    <selectionEntry id="2748-b625-4852-2f44" name="Iron Hills Goat Rider" book="Armies of The Hobbit" page="30" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="d6e3-0a11-d593-38b6" name="Iron Hills Goat Rider" book="Armies of The Hobbit" page="44" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="d6e3-0a11-d593-38b6" name="Iron Hills Goat Rider" book="Armies of The Hobbit" page="30" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14071,7 +14115,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="67de-3304-07ef-4f94" name="Devastating Charge" hidden="false" targetId="fa6f-b6e6-149e-bc6b" type="rule">
+        <infoLink id="67de-3304-07ef-4f94" name="Devastating Charge (Active)" hidden="false" targetId="fa6f-b6e6-149e-bc6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14091,7 +14135,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="eac3-8a5c-f22d-1b47" name="Choose One" book="Armies of The Hobbit" page="28" hidden="false" collective="false" defaultSelectionEntryId="16cd-76a3-c997-0218">
+        <selectionEntryGroup id="eac3-8a5c-f22d-1b47" name="Choose One" book="Armies of The Hobbit" page="30" hidden="false" collective="false" defaultSelectionEntryId="16cd-76a3-c997-0218">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14104,7 +14148,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="20fc-7b74-5ce1-b581" name="Mattock" book="Armies of The Hobbit" page="28" hidden="false" targetId="55e9-225d-8afc-60e6" type="selectionEntry">
+            <entryLink id="20fc-7b74-5ce1-b581" name="Mattock" book="" page="" hidden="false" targetId="55e9-225d-8afc-60e6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14136,7 +14180,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="fd63-d061-b09b-1cae" name="Dwarf Armour (Included)" hidden="false" targetId="c42b-b3c5-b8dd-ecd8" type="selectionEntry">
+        <entryLink id="fd63-d061-b09b-1cae" name="Heavy Dwarf Armour (Included)" hidden="false" targetId="df4b-209c-c260-7f3a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14183,13 +14227,21 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cba-5710-e828-d433" name="Iron Hills Dwarf" book="Armies of The Hobbit" page="44" hidden="false" collective="false" type="model">
+    <selectionEntry id="3cba-5710-e828-d433" name="Iron Hills Dwarf" book="Armies of The Hobbit" page="29" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="80f8-a359-449b-9ab3" name="Iron Hills Dwarf" book="Armies of The Hobbit" page="44" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="80f8-a359-449b-9ab3" name="Iron Hills Dwarf" book="Armies of The Hobbit" page="29" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3cba-5710-e828-d433" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20a3-0891-d88f-4c59" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
@@ -14224,7 +14276,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4b41-cf07-5a47-d4b6" name="Choose One" book="Armies of The Hobbit" page="28" hidden="false" collective="false">
+        <selectionEntryGroup id="4b41-cf07-5a47-d4b6" name="Choose One" book="Armies of The Hobbit" page="28" hidden="false" collective="false" defaultSelectionEntryId="20a3-0891-d88f-4c59">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14283,7 +14335,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="15d0-61f8-2888-e849" name="Dwarf Armour (Included)" hidden="false" targetId="c42b-b3c5-b8dd-ecd8" type="selectionEntry">
+        <entryLink id="15d0-61f8-2888-e849" name="Heavy Dwarf Armour (Included)" hidden="false" targetId="df4b-209c-c260-7f3a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14327,6 +14379,35 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
       <costs>
         <cost name="pts" costTypeId="points" value="11.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="a8d8-afc6-7441-73ba" name="Two Swords" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="dc1b-a22c-bedc-a72c" name="Two Swords" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics/>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ff5e-6a27-23fd-0d4d" name="Feint and Stab" hidden="false" targetId="fea0-062b-ad68-36d1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c62-9529-2d87-61ba" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -15601,15 +15682,15 @@ Friendly Haradrim and Mahûd models within 3&quot; of this model may re-roll a s
       <description>
 Asfaloth is a Horse with a move of 12&quot; and gives his rider Fleetfoot</description>
     </rule>
-    <rule id="ddbc-b562-a220-2c22" name="Many Blades (Passive)" book="Armies of The Hobbit" page="14" hidden="false">
+    <rule id="ddbc-b562-a220-2c22" name="Many Blades (Active)" book="Armies of The Hobbit" page="106" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-When fighting on foot this model receives +1 Attack.</description>
+Whilst they have the Infantry keyword, this model receives +1 Attack.</description>
     </rule>
-    <rule id="fa6f-b6e6-149e-bc6b" name="Devastating Charge" book="Armies of The Hobbit" page="33" hidden="false">
+    <rule id="fa6f-b6e6-149e-bc6b" name="Devastating Charge (Active)" book="Armies of The Hobbit" page="33" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16981,16 +17062,14 @@ When this model charges into combat against one or more Man-sized (or smaller) m
         <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Heavy Armor +2 Defence] Monsters may not target Glorfindel with Brutal Power Attacks."/>
       </characteristics>
     </profile>
-    <profile id="4f57-f12a-3d6b-9bbf" name="Mattock" book="Armies of The Hobbit" page="7" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+    <profile id="4f57-f12a-3d6b-9bbf" name="Mattock" book="Armies of The Hobbit" page="12" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" A mattock is a two-handed weapon, which can be used as either a hammer or a pick (choose which at the start of each Fight)."/>
-      </characteristics>
+      <characteristics/>
     </profile>
-    <profile id="b83d-93bd-1c50-83f1" name="War Goat" book="Armies of The Hobbit" page="44" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="b83d-93bd-1c50-83f1" name="War Goat" book="Armies of The Hobbit" page="30" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
