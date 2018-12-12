@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="17" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings, Armies of The Hobbit" revision="22" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1953,7 +1953,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1137-2b44-9eec-cd0d" name="Banner" book="Armies of the Lord of the Rings" page="89" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1137-2b44-9eec-cd0d" name="Banner" book="Armies of The Lord of the Rings" page="89" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1982,7 +1982,7 @@
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e454-4e88-9f6d-9993" name="War Horn" book="Armies of the Lord of the Rings" page="89" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e454-4e88-9f6d-9993" name="War Horn" book="Armies of The Lord of the Rings" page="89" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2011,7 +2011,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8c43-a3b0-8213-f747" name="Fell Beast" book="Armies of the Lord of the Rings " page="149" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8c43-a3b0-8213-f747" name="Fell Beast" book="Armies of The Lord of the Rings " page="149" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2058,7 +2058,7 @@
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e65a-d156-596c-29ae" name="Armored Fell Beast" book="Armies of the Lord of the Rings " page="149" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e65a-d156-596c-29ae" name="Armored Fell Beast" book="Armies of The Lord of the Rings " page="149" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2472,9 +2472,9 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" collective="false" type="model">
+    <selectionEntry id="cfd5-7553-89d4-b95c" name="Orc Warrior" book="Armies of The Lord of the Rings" page="119" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="97de-40f0-d679-e177" name="Orc Warrior" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="97de-40f0-d679-e177" name="Orc Warrior" book="Armies of The Lord of the Rings" page="119" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2854,7 +2854,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4157-47d2-6e0a-2043" name="One of Nine (Passive)" book="Armies of the Lord of the Rings" page="115" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4157-47d2-6e0a-2043" name="One of Nine (Passive)" book="Armies of The Lord of the Rings" page="115" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2867,7 +2867,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9248-48a7-16fe-ff6f" type="max"/>
+        <constraint field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9248-48a7-16fe-ff6f" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e462-3af3-54a1-b5f9" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77f2-bb62-f43e-8671" type="min"/>
       </constraints>
@@ -2881,7 +2881,7 @@
     </selectionEntry>
     <selectionEntry id="ce6e-f505-e17f-e54d" name="Morgul Knight" book="Armies of Middle Earth" page="121" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="8aee-4dcb-fce0-dc16" name="Morgul Knight" book="Armies of the Lord of the Rings" page="121" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="8aee-4dcb-fce0-dc16" name="Morgul Knight" book="Armies of The Lord of the Rings" page="121" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3008,7 +3008,7 @@
     </selectionEntry>
     <selectionEntry id="3ae4-9171-fbb2-3009" name="Black Numenorean" book="Armies of Middle Earth" page="121" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="2d82-139b-702b-c89d" name="Black Numenorean" book="Armies of the Lord of the Rings" page="121" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="2d82-139b-702b-c89d" name="Black Numenorean" book="Armies of The Lord of the Rings" page="121" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3103,7 +3103,7 @@
     </selectionEntry>
     <selectionEntry id="0ddd-68aa-b66d-ee8f" name="Black Numenorean Marshall" book="Armies of Middle Earth" page="118" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="b4f3-b10a-e9f1-6cc6" name="Black Numenorean Marshall" book="Armies of the Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="b4f3-b10a-e9f1-6cc6" name="Black Numenorean Marshall" book="Armies of The Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3242,9 +3242,9 @@
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe6d-a3fd-b8f7-353f" name="The Dwimmerlaik" book="Armies of the Lord of the Rings" page="126" hidden="false" collective="false" type="model">
+    <selectionEntry id="fe6d-a3fd-b8f7-353f" name="The Dwimmerlaik" book="Armies of The Lord of the Rings" page="126" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6f51-7baa-2adf-a45a" name="The Dwimmerlaik" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="6f51-7baa-2adf-a45a" name="The Dwimmerlaik" book="Armies of The Lord of the Rings" page="126" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3263,7 +3263,7 @@
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="a03a-b3ab-8519-c366" name="Black Dart" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="a03a-b3ab-8519-c366" name="Black Dart" book="Armies of The Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3273,7 +3273,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="4af7-c5e2-bc63-27af" name="Drain Courage" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="4af7-c5e2-bc63-27af" name="Drain Courage" book="Armies of The Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3283,7 +3283,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="7033-6cb8-413c-5d4e" name="Sap Will" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="7033-6cb8-413c-5d4e" name="Sap Will" book="Armies of The Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3293,7 +3293,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="ecc3-72bb-191b-0897" name="Compel" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="ecc3-72bb-191b-0897" name="Compel" book="Armies of The Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3303,7 +3303,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="caf7-27ec-70f8-a900" name="Transfix" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="caf7-27ec-70f8-a900" name="Transfix" book="Armies of The Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3313,7 +3313,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="53c4-de93-698f-d782" name="Instill Fear" book="Armies of the Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="53c4-de93-698f-d782" name="Instill Fear" book="Armies of The Lord of the Rings" page="126" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3325,7 +3325,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="6a3d-d1b6-94fe-92ae" name="Sap Fortitude (Passive)" book="Armies of the Lord of the Rings" page="126" hidden="false">
+        <rule id="6a3d-d1b6-94fe-92ae" name="Sap Fortitude (Passive)" book="Armies of The Lord of the Rings" page="126" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3406,13 +3406,6 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
       </constraints>
       <categoryLinks>
         <categoryLink id="854e-d8a8-286a-f717" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="3a49-a6ae-8ba2-de20" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3517,7 +3510,7 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
     </selectionEntry>
     <selectionEntry id="7599-2af4-cf52-38a2" name="Khamûl the Easterling" book="Armies of Middle Earth" page="135" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="fc81-5c5d-29da-367b" name="Khamûl the Easterling" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="fc81-5c5d-29da-367b" name="Khamûl the Easterling" book="Armies of The Lord of the Rings" page="135" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3536,7 +3529,7 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="ce41-9910-54bf-4637" name="Black Dart" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="ce41-9910-54bf-4637" name="Black Dart" book="Armies of The Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3546,7 +3539,7 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="6+"/>
           </characteristics>
         </profile>
-        <profile id="3de3-57c3-0b87-f0c2" name="Drain Courage" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="3de3-57c3-0b87-f0c2" name="Drain Courage" book="Armies of The Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3556,7 +3549,7 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="c99e-023c-8e57-b54a" name="Sap Will" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="c99e-023c-8e57-b54a" name="Sap Will" book="Armies of The Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3566,7 +3559,7 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="fb5e-0ca0-1c4c-89f0" name="Compel" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="fb5e-0ca0-1c4c-89f0" name="Compel" book="Armies of The Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3576,7 +3569,7 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="6c33-4886-d972-fb3b" name="Transfix" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="6c33-4886-d972-fb3b" name="Transfix" book="Armies of The Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3586,7 +3579,7 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="8079-b8e8-2904-2919" name="Instill Fear" book="Armies of the Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="8079-b8e8-2904-2919" name="Instill Fear" book="Armies of The Lord of the Rings" page="135" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3598,7 +3591,7 @@ The Dwimmerlaik may also wait to see the results of a roll before committing to 
         </profile>
       </profiles>
       <rules>
-        <rule id="17e5-5c56-fc70-b007" name="Essence Leach (Active)" book="Armies of the Lord of the Rings" page="135" hidden="false">
+        <rule id="17e5-5c56-fc70-b007" name="Essence Leach (Active)" book="Armies of The Lord of the Rings" page="135" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3780,6 +3773,14 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9c99-ea8b-64f2-004d" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
@@ -3787,7 +3788,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
     </selectionEntry>
     <selectionEntry id="f7c2-c236-cc7a-41da" name="Mordor Troll" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="391f-6165-925e-737a" name="Mordor Troll" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="391f-6165-925e-737a" name="Mordor Troll" book="Armies of The Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3912,7 +3913,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
     </selectionEntry>
     <selectionEntry id="6887-9187-92d9-4a67" name="Mordor Troll Chieftain" book="Armies of Middle Earth" page="119" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="2724-4284-c571-c570" name="Mordor Troll Chieftain" book="Armies of the Lord of the Rings" page="119" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="2724-4284-c571-c570" name="Mordor Troll Chieftain" book="Armies of The Lord of the Rings" page="119" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4010,14 +4011,22 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a5a6-d3e4-c4bd-b55b" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9b4-d635-b391-8385" name="Orc Captain" book="Armies of the Lord of the Rings" page="116" hidden="false" collective="false" type="model">
+    <selectionEntry id="a9b4-d635-b391-8385" name="Orc Captain" book="Armies of The Lord of the Rings" page="116" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="fc54-219c-b119-9223" name="Orc Captain" book="Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="fc54-219c-b119-9223" name="Orc Captain" book="Armies of The Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4177,9 +4186,9 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="683f-49f2-0fee-2dfb" name="Orc Drummer" book="Armies of the Lord of the Rings" page="118" hidden="false" collective="false" type="model">
+    <selectionEntry id="683f-49f2-0fee-2dfb" name="Orc Drummer" book="Armies of The Lord of the Rings" page="118" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="1e43-8e8c-881d-45fb" name="Orc Drummer" book="Armies of the Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="1e43-8e8c-881d-45fb" name="Orc Drummer" book="Armies of The Lord of the Rings" page="118" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4266,9 +4275,9 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aac6-9294-5f23-909d" name="Orc Shaman" book="Armies of the Lord of the Rings" page="117" hidden="false" collective="false" type="model">
+    <selectionEntry id="aac6-9294-5f23-909d" name="Orc Shaman" book="Armies of The Lord of the Rings" page="117" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="b65b-211a-94fe-6a3d" name="Orc Shaman" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="b65b-211a-94fe-6a3d" name="Orc Shaman" book="Armies of The Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4287,7 +4296,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Orc"/>
           </characteristics>
         </profile>
-        <profile id="f8a7-4e7e-ff99-7fb9" name="Fury (Mordor Orc)" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="f8a7-4e7e-ff99-7fb9" name="Fury (Mordor Orc)" book="Armies of The Lord of the Rings" page="117" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4297,7 +4306,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="99f7-6752-33b5-cb0d" name="Transfix" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="99f7-6752-33b5-cb0d" name="Transfix" book="Armies of The Lord of the Rings" page="117" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4403,9 +4412,9 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ecbe-58d0-4882-8614" name="Orc Taskmaster" book="Armies of the Lord of the Rings" page="117" hidden="false" collective="false" type="model">
+    <selectionEntry id="ecbe-58d0-4882-8614" name="Orc Taskmaster" book="Armies of The Lord of the Rings" page="117" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="4239-2926-d235-dae3" name="Orc Taskmaster" book="Armies of the Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="4239-2926-d235-dae3" name="Orc Taskmaster" book="Armies of The Lord of the Rings" page="117" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4426,7 +4435,7 @@ Strength, Attacks, or Fight by 1 for the rest of the Fight phase. If he is mount
         </profile>
       </profiles>
       <rules>
-        <rule id="3821-f5b7-d36c-edb0" name="Whip of the Masters (Active)" book="Armies of the Lord of the Rings" page="117" hidden="false">
+        <rule id="3821-f5b7-d36c-edb0" name="Whip of the Masters (Active)" book="Armies of The Lord of the Rings" page="117" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4517,9 +4526,9 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fa50-db71-dea5-c70c" name="Orc Tracker" book="Armies of the Lord of the Rings" page="120" hidden="false" collective="false" type="model">
+    <selectionEntry id="fa50-db71-dea5-c70c" name="Orc Tracker" book="Armies of The Lord of the Rings" page="120" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="15bd-418a-9178-a2a6" name="Orc Tracker" book="Armies of the Lord of the Rings" page="120" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="15bd-418a-9178-a2a6" name="Orc Tracker" book="Armies of The Lord of the Rings" page="120" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4566,7 +4575,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1122-2fcd-587a-ee02" name="Dagger" hidden="true" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+        <entryLink id="1122-2fcd-587a-ee02" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4603,9 +4612,9 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="621f-2852-693e-b000" name="Ringwraith" book="Armies of the Lord of the Rings" page="115" hidden="false" collective="false" type="model">
+    <selectionEntry id="621f-2852-693e-b000" name="Ringwraith" book="Armies of The Lord of the Rings" page="115" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="2d60-f961-81e4-ad13" name="Ringwraith" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="2d60-f961-81e4-ad13" name="Ringwraith" book="Armies of The Lord of the Rings" page="115" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4646,7 +4655,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="b470-eeb9-e59e-7f2f" name="Black Dart" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="b470-eeb9-e59e-7f2f" name="Black Dart" book="Armies of The Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4656,7 +4665,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="dead-3166-4384-1d46" name="Drain Courage" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="dead-3166-4384-1d46" name="Drain Courage" book="Armies of The Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4666,7 +4675,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="96e8-dc22-756b-bc1a" name="Sap Will" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="96e8-dc22-756b-bc1a" name="Sap Will" book="Armies of The Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4676,7 +4685,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="f7b7-34db-52e7-5706" name="Compel" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="f7b7-34db-52e7-5706" name="Compel" book="Armies of The Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4686,7 +4695,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="ce4f-2f5b-2ab5-5b36" name="Transfix" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="ce4f-2f5b-2ab5-5b36" name="Transfix" book="Armies of The Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4696,7 +4705,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="7d23-9ece-1c00-e850" name="Instill Fear" book="Armies of the Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="7d23-9ece-1c00-e850" name="Instill Fear" book="Armies of The Lord of the Rings" page="115" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4795,7 +4804,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d2dc-4018-d58e-32fb" name="Additional Might" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d2dc-4018-d58e-32fb" name="Additional Might" book="Armies of The Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4811,7 +4820,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ccde-5bb1-d2c0-3202" name="Additional Will" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ccde-5bb1-d2c0-3202" name="Additional Will" book="Armies of The Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4827,7 +4836,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7ea5-d7b7-2ed3-57f0" name="Additional Fate" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7ea5-d7b7-2ed3-57f0" name="Additional Fate" book="Armies of The Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4930,9 +4939,9 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dea0-a30a-99cf-37f2" name="The Betrayer" book="Armies of the Lord of the Rings" page="140" hidden="false" collective="false" type="model">
+    <selectionEntry id="dea0-a30a-99cf-37f2" name="The Betrayer" book="Armies of The Lord of the Rings" page="140" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="376c-fcfc-d3e3-10ae" name="The Betrayer" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="376c-fcfc-d3e3-10ae" name="The Betrayer" book="Armies of The Lord of the Rings" page="140" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4951,7 +4960,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="21a1-13a6-bb53-5dd2" name="Black Dart" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="21a1-13a6-bb53-5dd2" name="Black Dart" book="Armies of The Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4961,7 +4970,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="6+"/>
           </characteristics>
         </profile>
-        <profile id="1cb0-b9b0-d2d7-81e5" name="Drain Courage" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="1cb0-b9b0-d2d7-81e5" name="Drain Courage" book="Armies of The Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4971,7 +4980,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="ab93-49a4-e95e-70cf" name="Sap Will" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="ab93-49a4-e95e-70cf" name="Sap Will" book="Armies of The Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4981,7 +4990,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="8f0b-962d-5630-8392" name="Compel" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="8f0b-962d-5630-8392" name="Compel" book="Armies of The Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4991,7 +5000,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="7ed5-e0f7-12d3-fe4e" name="Transfix" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="7ed5-e0f7-12d3-fe4e" name="Transfix" book="Armies of The Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5001,7 +5010,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="962c-babb-0337-1ad8" name="Instill Fear" book="Armies of the Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="962c-babb-0337-1ad8" name="Instill Fear" book="Armies of The Lord of the Rings" page="140" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5013,7 +5022,7 @@ On a 4+ they may call the Heroic action without expending Might.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="503a-bdaf-584d-f37f" name="Master of Poisons (Passive)" book="Armies of the Lord of the Rings" page="140" hidden="false">
+        <rule id="503a-bdaf-584d-f37f" name="Master of Poisons (Passive)" book="Armies of The Lord of the Rings" page="140" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5098,13 +5107,6 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
       </constraints>
       <categoryLinks>
         <categoryLink id="15c3-de70-1e81-3749" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="e7cf-23db-9304-b9e1" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5199,9 +5201,9 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a720-2ad1-0ffa-060b" name="The Dark Marshal" book="Armies of the Lord of the Rings" page="136" hidden="false" collective="false" type="model">
+    <selectionEntry id="a720-2ad1-0ffa-060b" name="The Dark Marshal" book="Armies of The Lord of the Rings" page="136" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="3ebd-4c01-964a-1c13" name="The Dark Marshal" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="3ebd-4c01-964a-1c13" name="The Dark Marshal" book="Armies of The Lord of the Rings" page="136" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5220,7 +5222,7 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="98cf-e5cf-02a4-92f1" name="Black Dart" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="98cf-e5cf-02a4-92f1" name="Black Dart" book="Armies of The Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5230,7 +5232,7 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="bd8c-2e14-4c0b-e1a8" name="Drain Courage" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="bd8c-2e14-4c0b-e1a8" name="Drain Courage" book="Armies of The Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5240,7 +5242,7 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="b04b-690e-6fd5-2269" name="Sap Will" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="b04b-690e-6fd5-2269" name="Sap Will" book="Armies of The Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5250,7 +5252,7 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="bea1-9518-6f3b-bb28" name="Compel" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="bea1-9518-6f3b-bb28" name="Compel" book="Armies of The Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5260,7 +5262,7 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="f87b-7af8-ea2e-0de8" name="Transfix" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="f87b-7af8-ea2e-0de8" name="Transfix" book="Armies of The Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5270,7 +5272,7 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="d91e-ff5d-2148-dcb9" name="Instill Fear" book="Armies of the Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="d91e-ff5d-2148-dcb9" name="Instill Fear" book="Armies of The Lord of the Rings" page="136" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5282,7 +5284,7 @@ Until the End phase of the turn, friendly models with the Poisoned Weapons speci
         </profile>
       </profiles>
       <rules>
-        <rule id="0757-3ac3-548d-5013" name="Rule Through Fear (Passive)" book="Armies of the Lord of the Rings" page="136" hidden="false">
+        <rule id="0757-3ac3-548d-5013" name="Rule Through Fear (Passive)" book="Armies of The Lord of the Rings" page="136" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5361,13 +5363,6 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
       </constraints>
       <categoryLinks>
         <categoryLink id="0519-cf46-73af-37e6" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="bc4d-dbe3-a100-b5cb" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5470,9 +5465,9 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b7fb-f85a-1d9d-69ed" name="The Knight of Umbar" book="Armies of the Lord of the Rings" page="139" hidden="false" collective="false" type="model">
+    <selectionEntry id="b7fb-f85a-1d9d-69ed" name="The Knight of Umbar" book="Armies of The Lord of the Rings" page="139" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="cef9-7ac4-1d93-562d" name="The Knight of Umbar" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="cef9-7ac4-1d93-562d" name="The Knight of Umbar" book="Armies of The Lord of the Rings" page="139" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5491,7 +5486,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="d6f6-5876-c0ee-8764" name="Black Dart" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="d6f6-5876-c0ee-8764" name="Black Dart" book="Armies of The Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5501,7 +5496,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="6+"/>
           </characteristics>
         </profile>
-        <profile id="5657-2c14-f92f-be13" name="Drain Courage" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="5657-2c14-f92f-be13" name="Drain Courage" book="Armies of The Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5511,7 +5506,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="5a7d-1a44-7059-0ae4" name="Sap Will" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="5a7d-1a44-7059-0ae4" name="Sap Will" book="Armies of The Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5521,7 +5516,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="fdbd-ee57-8948-0729" name="Compel" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="fdbd-ee57-8948-0729" name="Compel" book="Armies of The Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5531,7 +5526,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="9444-8fea-70c3-2db5" name="Transfix" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="9444-8fea-70c3-2db5" name="Transfix" book="Armies of The Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5541,7 +5536,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="301a-be69-153c-a3a3" name="Instill Fear" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="301a-be69-153c-a3a3" name="Instill Fear" book="Armies of The Lord of the Rings" page="139" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5551,7 +5546,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="edb1-1501-f5d8-abac" name="Armor of the Sundered Land (Passive)" book="Armies of the Lord of the Rings" page="139" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+        <profile id="edb1-1501-f5d8-abac" name="Armor of the Sundered Land (Passive)" book="Armies of The Lord of the Rings" page="139" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5562,7 +5557,7 @@ If he does all friendly Warrior&apos;s within 6&quot; count as being in range of
         </profile>
       </profiles>
       <rules>
-        <rule id="3a6c-e21c-52e6-f70b" name="Combat Mimicry (Active)" book="Armies of the Lord of the Rings" page="139" hidden="false">
+        <rule id="3a6c-e21c-52e6-f70b" name="Combat Mimicry (Active)" book="Armies of The Lord of the Rings" page="139" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5728,9 +5723,9 @@ He doesn&apos;t need to adopt all these characteristics.</description>
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="80d2-6c5c-ae8c-97d3" name="The Shadow Lord" book="Armies of the Lord of the Rings" page="137" hidden="false" collective="false" type="model">
+    <selectionEntry id="80d2-6c5c-ae8c-97d3" name="The Shadow Lord" book="Armies of The Lord of the Rings" page="137" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="d24b-8a29-6fa0-1531" name="The Shadow Lord" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="d24b-8a29-6fa0-1531" name="The Shadow Lord" book="Armies of The Lord of the Rings" page="137" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5749,7 +5744,7 @@ He doesn&apos;t need to adopt all these characteristics.</description>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="865b-e3fd-8cf1-77d6" name="Black Dart" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="865b-e3fd-8cf1-77d6" name="Black Dart" book="Armies of The Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5759,7 +5754,7 @@ He doesn&apos;t need to adopt all these characteristics.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="97c1-798a-b708-141c" name="Drain Courage" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="97c1-798a-b708-141c" name="Drain Courage" book="Armies of The Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5769,7 +5764,7 @@ He doesn&apos;t need to adopt all these characteristics.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="de90-c04f-012f-bbf0" name="Sap Will" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="de90-c04f-012f-bbf0" name="Sap Will" book="Armies of The Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5779,7 +5774,7 @@ He doesn&apos;t need to adopt all these characteristics.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="3849-ea62-1180-a804" name="Compel" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="3849-ea62-1180-a804" name="Compel" book="Armies of The Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5789,7 +5784,7 @@ He doesn&apos;t need to adopt all these characteristics.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="6bfd-b3b6-ee6b-c7a1" name="Transfix" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="6bfd-b3b6-ee6b-c7a1" name="Transfix" book="Armies of The Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5799,7 +5794,7 @@ He doesn&apos;t need to adopt all these characteristics.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="591f-b1ae-4213-f682" name="Instill Fear" book="Armies of the Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="591f-b1ae-4213-f682" name="Instill Fear" book="Armies of The Lord of the Rings" page="137" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5811,7 +5806,7 @@ He doesn&apos;t need to adopt all these characteristics.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="0a48-21d1-5e8a-e03d" name="Pall of Darkness (Passive)" book="Armies of the Lord of the Rings" page="137" hidden="false">
+        <rule id="0a48-21d1-5e8a-e03d" name="Pall of Darkness (Passive)" book="Armies of The Lord of the Rings" page="137" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5890,13 +5885,6 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
       </constraints>
       <categoryLinks>
         <categoryLink id="bcab-25b0-64ff-3ec1" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="bb7b-e7f2-39b6-a765" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5991,9 +5979,9 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a899-818e-d270-2ce1" name="The Tainted" book="Armies of the Lord of the Rings" page="125" hidden="false" collective="false" type="model">
+    <selectionEntry id="a899-818e-d270-2ce1" name="The Tainted" book="Armies of The Lord of the Rings" page="125" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="3957-decc-0fc5-25d8" name="The Tainted" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="3957-decc-0fc5-25d8" name="The Tainted" book="Armies of The Lord of the Rings" page="125" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6012,7 +6000,7 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="98da-d582-5954-9c92" name="Black Dart" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="98da-d582-5954-9c92" name="Black Dart" book="Armies of The Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6022,7 +6010,7 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="ede7-4a1a-86fe-cef8" name="Drain Courage" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="ede7-4a1a-86fe-cef8" name="Drain Courage" book="Armies of The Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6032,7 +6020,7 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="675d-cfd9-35f4-ecde" name="Sap Will" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="675d-cfd9-35f4-ecde" name="Sap Will" book="Armies of The Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6042,7 +6030,7 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="bccd-15e6-48d3-d362" name="Compel" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="bccd-15e6-48d3-d362" name="Compel" book="Armies of The Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6052,7 +6040,7 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="a40c-1485-1c1c-5784" name="Transfix" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="a40c-1485-1c1c-5784" name="Transfix" book="Armies of The Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6062,7 +6050,7 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="940e-affc-1724-817c" name="Instill Fear" book="Armies of the Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="940e-affc-1724-817c" name="Instill Fear" book="Armies of The Lord of the Rings" page="125" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6074,7 +6062,7 @@ Until the End phase of that turn, shots against the Shadow Lord, or any model wi
         </profile>
       </profiles>
       <rules>
-        <rule id="162f-0e2d-928f-b6a9" name="Miasmatic Presence (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+        <rule id="162f-0e2d-928f-b6a9" name="Miasmatic Presence (Passive)" book="Armies of The Lord of the Rings" page="125" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6084,7 +6072,7 @@ The Tainted may spend 1 Will.
 If he does all Warrior&apos;s within 6&quot; cannot benefit from Stand Fast! rule
 or take part in Heroic Actions.</description>
         </rule>
-        <rule id="f4d1-896a-c148-c612" name="Seeping Decay (Passive)" book="Armies of the Lord of the Rings" page="125" hidden="false">
+        <rule id="f4d1-896a-c148-c612" name="Seeping Decay (Passive)" book="Armies of The Lord of the Rings" page="125" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6163,13 +6151,6 @@ On a 6 they suffer a wound.</description>
       </constraints>
       <categoryLinks>
         <categoryLink id="f320-b2f5-b6fe-a65b" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="74c5-1c97-baaf-40d5" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6272,9 +6253,9 @@ On a 6 they suffer a wound.</description>
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4420-7bc7-d848-5b25" name="The Undying" book="Armies of the Lord of the Rings" page="138" hidden="false" collective="false" type="model">
+    <selectionEntry id="4420-7bc7-d848-5b25" name="The Undying" book="Armies of The Lord of the Rings" page="138" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="c546-b244-8a7f-9127" name="The Undying" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="c546-b244-8a7f-9127" name="The Undying" book="Armies of The Lord of the Rings" page="138" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6293,7 +6274,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="8105-5ab7-8c47-d85e" name="Black Dart" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="8105-5ab7-8c47-d85e" name="Black Dart" book="Armies of The Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6303,7 +6284,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="1746-8f63-2046-051c" name="Drain Courage" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="1746-8f63-2046-051c" name="Drain Courage" book="Armies of The Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6313,7 +6294,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="9d26-ca78-641d-9c1e" name="Sap Will" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="9d26-ca78-641d-9c1e" name="Sap Will" book="Armies of The Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6323,7 +6304,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="aaa7-6ffa-efb8-ef69" name="Compel" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="aaa7-6ffa-efb8-ef69" name="Compel" book="Armies of The Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6333,7 +6314,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="e3dd-a4f7-39c6-b824" name="Transfix" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="e3dd-a4f7-39c6-b824" name="Transfix" book="Armies of The Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6343,7 +6324,7 @@ On a 6 they suffer a wound.</description>
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="543e-3e46-9210-edb3" name="Instill Fear" book="Armies of the Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="543e-3e46-9210-edb3" name="Instill Fear" book="Armies of The Lord of the Rings" page="138" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6355,7 +6336,7 @@ On a 6 they suffer a wound.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="0826-098b-e5af-d708" name="Arcana Leech (Passive)" book="Armies of the Lord of the Rings" page="138" hidden="false">
+        <rule id="0826-098b-e5af-d708" name="Arcana Leech (Passive)" book="Armies of The Lord of the Rings" page="138" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6364,7 +6345,7 @@ On a 6 they suffer a wound.</description>
 The Undying may spend 1 Will.
 Until the End phase of that turn the Undying regains 1 Will for each successfully cast Magical Power by another model within 6&quot;.</description>
         </rule>
-        <rule id="f2f4-4f30-0397-f340" name="Eternal Willpower (Passive)" book="Armies of the Lord of the Rings" page="138" hidden="false">
+        <rule id="f2f4-4f30-0397-f340" name="Eternal Willpower (Passive)" book="Armies of The Lord of the Rings" page="138" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6441,13 +6422,6 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
       </constraints>
       <categoryLinks>
         <categoryLink id="ac87-f1b2-0ef3-d0a3" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="1628-bb3e-fa03-ebd4" name="Hero of Fortitude" hidden="false" targetId="1f78-9582-22d3-2a4c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6534,9 +6508,9 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="319b-3d6d-42ff-8de5" name="The Witch-King of Angmar" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="model">
+    <selectionEntry id="319b-3d6d-42ff-8de5" name="The Witch-King of Angmar" book="Armies of The Lord of the Rings" page="114" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="d786-fee8-e70c-6da4" name="The Witch-King of Angmar" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="d786-fee8-e70c-6da4" name="The Witch-King of Angmar" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6584,7 +6558,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="f95e-4e1a-ca55-e93c" name="Black Dart" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="f95e-4e1a-ca55-e93c" name="Black Dart" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6594,7 +6568,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="e87d-692e-7eeb-bcf0" name="Drain Courage" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="e87d-692e-7eeb-bcf0" name="Drain Courage" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6604,7 +6578,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="1676-3bec-45d2-53af" name="Sap Will" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="1676-3bec-45d2-53af" name="Sap Will" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6614,7 +6588,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="1aea-eb4c-2dd5-e5f4" name="Your Staff is Broken" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="1aea-eb4c-2dd5-e5f4" name="Your Staff is Broken" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6624,7 +6598,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="e426-ce73-a571-fdae" name="Compel" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="e426-ce73-a571-fdae" name="Compel" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6634,7 +6608,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="b929-0359-512b-a93b" name="Transfix" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="b929-0359-512b-a93b" name="Transfix" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6644,7 +6618,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="8c9b-ea68-be72-82ca" name="Instill Fear" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="8c9b-ea68-be72-82ca" name="Instill Fear" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6763,9 +6737,9 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4ab3-92e4-a115-d3bf" name="Crown of Morgul (Passive)" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4ab3-92e4-a115-d3bf" name="Crown of Morgul (Passive)" book="Armies of The Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="4847-bc01-8dfe-dcbb" name="Crown of Morgul" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+            <profile id="4847-bc01-8dfe-dcbb" name="Crown of Morgul" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6789,9 +6763,9 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <cost name="pts" costTypeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6f8f-1fae-be91-8843" name="Morgul Blade (Active)" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="6f8f-1fae-be91-8843" name="Morgul Blade (Active)" book="Armies of The Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="0780-9620-e87e-65f7" name="Morgul Blade" book="Armies of the Lord of the Rings" page="114" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+            <profile id="0780-9620-e87e-65f7" name="Morgul Blade" book="Armies of The Lord of the Rings" page="114" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6815,7 +6789,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e291-4f1c-8db1-0960" name="Additional Might" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e291-4f1c-8db1-0960" name="Additional Might" book="Armies of The Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6831,7 +6805,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1313-4abd-c98c-61f4" name="Additional Will" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="1313-4abd-c98c-61f4" name="Additional Will" book="Armies of The Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6847,7 +6821,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f894-aca0-340a-8b41" name="Additional Fate" book="Armies of the Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f894-aca0-340a-8b41" name="Additional Fate" book="Armies of The Lord of the Rings" page="114" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6966,9 +6940,9 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ab1-4e5f-9d5c-772d" name="Warg Rider" book="Armies of the Lord of the Rings" page="120" hidden="false" collective="false" type="model">
+    <selectionEntry id="3ab1-4e5f-9d5c-772d" name="Warg Rider" book="Armies of The Lord of the Rings" page="120" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="af77-c158-96e6-424a" name="Warg Rider" book="Armies of the Lord of the Rings" page="120" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="af77-c158-96e6-424a" name="Warg Rider" book="Armies of The Lord of the Rings" page="120" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7022,7 +6996,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3c36-19b5-4998-522d" name="Armour (Included)" hidden="true" targetId="5529-700c-bc2f-732b" type="selectionEntry">
+        <entryLink id="3c36-19b5-4998-522d" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7117,9 +7091,9 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         <cost name="pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="486a-c27c-fe8b-e413" name="Mordor War Catapult" book="Armies of the Lord of the Rings" page="123" hidden="false" collective="false" type="unit">
+    <selectionEntry id="486a-c27c-fe8b-e413" name="Mordor War Catapult" book="Armies of The Lord of the Rings" page="123" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="fa02-ea82-8b09-c41d" name="Mordor War Catapult" book="Armies of the Lord of the Rings" page="123" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
+        <profile id="fa02-ea82-8b09-c41d" name="Mordor War Catapult" book="Armies of The Lord of the Rings" page="123" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7177,7 +7151,13 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="10">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="5271-f6c3-6954-1a49" name="New CategoryLink" hidden="false" targetId="c892-016b-5298-f37d" primary="true">
@@ -7189,78 +7169,9 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cff8-d8ae-3d3e-df2b" name="Orc Warrior" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="7787-0780-9b1c-e233" name="Orc Warrior" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
-                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
-                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Orc"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="cdaf-1972-5495-314c" value="11">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="486a-c27c-fe8b-e413" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b1e-f35d-fed5-a81b" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05b-eeb1-b478-80c3" type="min"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdaf-1972-5495-314c" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="d24a-8f32-6b0d-3b56" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="0.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4053-f312-09e4-59c7" type="min"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="d4e7-e56e-f603-417d" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a9d-2b82-409e-c320" type="min"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="2c65-d203-c078-b66b" name="Mordor Troll" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="534f-652d-e564-082b" name="Mordor Troll" book="Armies of the Lord of the Rings" page="123" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+            <profile id="534f-652d-e564-082b" name="Mordor Troll" book="Armies of The Lord of the Rings" page="123" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7401,6 +7312,75 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="4b88-f8fe-c846-2eaa" name="Orc Warrior" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="b840-7a69-f099-0c77" name="Orc Warrior" book="Armies of The Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
+                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Orc"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="0a29-ed9d-a77b-38cd" value="11">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="486a-c27c-fe8b-e413" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b1e-f35d-fed5-a81b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a29-ed9d-a77b-38cd" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1516-b63c-5e00-bab2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4aa1-3173-2350-2706" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7992-f818-c5a7-efa4" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1774-efe3-c3fb-5cdc" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad9-fde0-3c56-231d" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c876-6b41-b7a9-9da1" name="Choose One" hidden="false" collective="false" defaultSelectionEntryId="aad5-e502-1634-43f2">
@@ -7416,7 +7396,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <selectionEntries>
             <selectionEntry id="2b1e-f35d-fed5-a81b" name="Orc Engineer Captain" book="Armies of Middle Earth" page="116" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="8fab-5c55-385e-e78c" name="Orc Engineer Captain" book="Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+                <profile id="8fab-5c55-385e-e78c" name="Orc Engineer Captain" book="Armies of The Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7542,6 +7522,14 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="51cf-8409-4420-437e" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="40.0"/>
@@ -7549,7 +7537,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
             </selectionEntry>
             <selectionEntry id="aad5-e502-1634-43f2" name="Siege Veteran" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
               <profiles>
-                <profile id="ab64-3d89-0d78-f43e" name="Siege Veteran" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+                <profile id="ab64-3d89-0d78-f43e" name="Siege Veteran" book="Armies of The Lord of the Rings" page="122" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7629,9 +7617,9 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="277e-2e06-91be-d386" name="Mordor Siege Bow" book="Armies of the Lord of the Rings" page="122" hidden="false" collective="false" type="unit">
+    <selectionEntry id="277e-2e06-91be-d386" name="Mordor Siege Bow" book="Armies of The Lord of the Rings" page="122" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="114e-b4ea-6a58-45ec" name="Mordor Siege Bow" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
+        <profile id="114e-b4ea-6a58-45ec" name="Mordor Siege Bow" book="Armies of The Lord of the Rings" page="122" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7645,7 +7633,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
         </profile>
       </profiles>
       <rules>
-        <rule id="e005-0490-80ca-4db4" name="Accurate" book="Armies of the Lord of the Rings" page="122" hidden="false">
+        <rule id="e005-0490-80ca-4db4" name="Accurate" book="Armies of The Lord of the Rings" page="122" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7653,7 +7641,7 @@ Until the End phase of that turn the Undying regains 1 Will for each successfull
           <description>
 A Mordor Siege Bow will only scatter 3&quot; rather than 6&quot;.</description>
         </rule>
-        <rule id="541c-dac3-1880-0958" name="Piercing Shot" book="Armies of the Lord of the Rings" page="122" hidden="false">
+        <rule id="541c-dac3-1880-0958" name="Piercing Shot" book="Armies of The Lord of the Rings" page="122" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7667,7 +7655,13 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="10">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="b8f0-80e4-4998-a47f" name="Siege engine" hidden="false" targetId="c892-016b-5298-f37d" primary="true">
@@ -7681,7 +7675,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
       <selectionEntries>
         <selectionEntry id="5c52-abf4-ae5c-3910" name="Orc Warrior" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
           <profiles>
-            <profile id="be72-68f4-7409-1ed2" name="Orc Warrior" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+            <profile id="be72-68f4-7409-1ed2" name="Orc Warrior" book="Armies of The Lord of the Rings" page="122" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7745,7 +7739,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="84b2-2a8a-0817-ade5" name="Flaming Ammunition" book="" hidden="false" collective="false" type="upgrade">
@@ -7786,7 +7780,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
           <selectionEntries>
             <selectionEntry id="79fc-053d-ab32-7f11" name="Orc Engineer Captain" book="Armies of Middle Earth" page="116" hidden="false" collective="false" type="model">
               <profiles>
-                <profile id="6235-4bdf-aca3-3a32" name="Orc Engineer Captain" book="Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+                <profile id="6235-4bdf-aca3-3a32" name="Orc Engineer Captain" book="Armies of The Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7919,7 +7913,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
             </selectionEntry>
             <selectionEntry id="e6a4-9938-742c-ad83" name="Siege Veteran" book="Armies of Middle Earth" page="122" hidden="false" collective="false" type="model">
               <profiles>
-                <profile id="0641-a07f-740c-2cba" name="Siege Veteran" book="Armies of the Lord of the Rings" page="122" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+                <profile id="0641-a07f-740c-2cba" name="Siege Veteran" book="Armies of The Lord of the Rings" page="122" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7990,9 +7984,9 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db1b-53b1-b9ef-3407" name="Shelob" book="Armies of the Lord of the Rings" page="116" hidden="false" collective="false" type="model">
+    <selectionEntry id="db1b-53b1-b9ef-3407" name="Shelob" book="Armies of The Lord of the Rings" page="116" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="c4c6-7314-19c1-94a5" name="Shelob" book="Armies of the Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="c4c6-7314-19c1-94a5" name="Shelob" book="Armies of The Lord of the Rings" page="116" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8013,7 +8007,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
         </profile>
       </profiles>
       <rules>
-        <rule id="6e9c-c7ee-221f-41b5" name="Lone Hunter (Passive)" book="Armies of the Lord of the Rings" page="116" hidden="false">
+        <rule id="6e9c-c7ee-221f-41b5" name="Lone Hunter (Passive)" book="Armies of The Lord of the Rings" page="116" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8021,7 +8015,7 @@ The target and the Obstacle or model (if is has Defence) will suffer one Strengt
           <description>
 Shelob may never be taken as part of another model&apos;s Warband.</description>
         </rule>
-        <rule id="2062-23ac-3ae8-241c" name="Caught in a Web (Brutal Power Attack)" book="Armies of the Lord of the Rings" page="116" hidden="false">
+        <rule id="2062-23ac-3ae8-241c" name="Caught in a Web (Brutal Power Attack)" book="Armies of The Lord of the Rings" page="116" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8086,9 +8080,9 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2ce5-c57f-4f67-d29c" name="Large Venomous Fangs" book="Armies of the Lord of the Rings" page="116" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2ce5-c57f-4f67-d29c" name="Large Venomous Fangs" book="Armies of The Lord of the Rings" page="116" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="b8af-40bd-8c88-e73f" name="Large Venomous Fangs" book="Armies of the Lord of the Rings" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+            <profile id="b8af-40bd-8c88-e73f" name="Large Venomous Fangs" book="Armies of The Lord of the Rings" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8118,9 +8112,9 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74c7-ae88-d892-e03b" name="Cave Troll" book="Armies of the Lord of the Rings" page="131" hidden="false" collective="false" type="model">
+    <selectionEntry id="74c7-ae88-d892-e03b" name="Cave Troll" book="Armies of The Lord of the Rings" page="131" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="7bb0-6cf2-7500-da28" name="Cave  Troll" book="Armies of the Lord of the Rings" page="131" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="7bb0-6cf2-7500-da28" name="Cave  Troll" book="Armies of The Lord of the Rings" page="131" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8176,9 +8170,9 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="943a-30dc-29e2-4da1" name="Troll Chain" book="Armies of the Lord of the Rings" page="131" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="943a-30dc-29e2-4da1" name="Troll Chain" book="Armies of The Lord of the Rings" page="131" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="a606-008f-d5fd-0604" name="Troll Chain" book="Armies of the Lord of the Rings" page="131" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+            <profile id="a606-008f-d5fd-0604" name="Troll Chain" book="Armies of The Lord of the Rings" page="131" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9162,9 +9156,9 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="88c9-e24d-9402-92a3" name="The Dark Lord Sauron" book="Armies of the Lord of the Rings" page="113" hidden="false" collective="false" type="model">
+    <selectionEntry id="88c9-e24d-9402-92a3" name="The Dark Lord Sauron" book="Armies of The Lord of the Rings" page="113" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="0762-fda8-abcb-b191" name="The Dark Lord Sauron" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="0762-fda8-abcb-b191" name="The Dark Lord Sauron" book="Armies of The Lord of the Rings" page="113" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9183,7 +9177,7 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
           </characteristics>
         </profile>
-        <profile id="6945-3fb9-2c84-62ea" name="Drain Courage" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="6945-3fb9-2c84-62ea" name="Drain Courage" book="Armies of The Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9193,7 +9187,7 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="d7f3-5ccf-038b-c0d1" name="Sap Will" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="d7f3-5ccf-038b-c0d1" name="Sap Will" book="Armies of The Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9203,7 +9197,7 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="cf73-ae14-a2bf-05d6" name="Chill Soul" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="cf73-ae14-a2bf-05d6" name="Chill Soul" book="Armies of The Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9213,7 +9207,7 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="e596-154d-3dd2-9276" name="Instill Fear" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="e596-154d-3dd2-9276" name="Instill Fear" book="Armies of The Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9223,7 +9217,7 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="b7a8-58f8-ed33-565d" name="Compel" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="b7a8-58f8-ed33-565d" name="Compel" book="Armies of The Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9233,7 +9227,7 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="6afe-0b61-6667-2810" name="Transfix" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="6afe-0b61-6667-2810" name="Transfix" book="Armies of The Lord of the Rings" page="113" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9245,14 +9239,14 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
         </profile>
       </profiles>
       <rules>
-        <rule id="d082-90d8-6d3b-7932" name="The Dark Lord (Passive)" book="Armies of the Lord of the Rings" page="113" hidden="false">
+        <rule id="d082-90d8-6d3b-7932" name="The Dark Lord (Passive)" book="Armies of The Lord of the Rings" page="113" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>If Sauron is in your force, he must be the Leader.</description>
         </rule>
-        <rule id="867f-36a2-d887-4ef8" name="*The Lord of the Rings (Passive)" book="Armies of the Lord of the Rings" page="113" hidden="false">
+        <rule id="867f-36a2-d887-4ef8" name="*The Lord of the Rings (Passive)" book="Armies of The Lord of the Rings" page="113" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9260,7 +9254,7 @@ If the model is wounded, and the wound not prevented by Fate, the model is treat
           <description>
 Sauron can spend a single point of Will each turn without reducing his own store.</description>
         </rule>
-        <rule id="3912-b183-e2fb-4575" name="Unstoppable (Brutal Power Attack)" book="Armies of the Lord of the Rings" page="113" hidden="false">
+        <rule id="3912-b183-e2fb-4575" name="Unstoppable (Brutal Power Attack)" book="Armies of The Lord of the Rings" page="113" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9268,7 +9262,7 @@ Sauron can spend a single point of Will each turn without reducing his own store
           <description>
 Instead of striking as normal, Sauron can instead make one Strength 8 hit on every model involved in the same Fight, including spear and pike supports.</description>
         </rule>
-        <rule id="0681-6bd3-454b-62e4" name="The Flames of Evil (Brutal Power Attack)" book="Armies of the Lord of the Rings" page="113" hidden="false">
+        <rule id="0681-6bd3-454b-62e4" name="The Flames of Evil (Brutal Power Attack)" book="Armies of The Lord of the Rings" page="113" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9388,9 +9382,9 @@ If the model survives, even if they did not suffer a wound, then the target is a
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="754c-1a2d-00fd-e407" name="**The One Ring" book="Armies of the Lord of the Rings" page="113" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="754c-1a2d-00fd-e407" name="**The One Ring" book="Armies of The Lord of the Rings" page="113" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="19fa-90e2-a71a-6596" name="**The One Ring" book="Armies of the Lord of the Rings" page="113" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+            <profile id="19fa-90e2-a71a-6596" name="**The One Ring" book="Armies of The Lord of the Rings" page="113" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9851,9 +9845,9 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="527b-2dff-8ecd-69c8" name="Fell Warg" book="The Hobbit PDF" page="19" hidden="false" collective="false" type="model">
+    <selectionEntry id="527b-2dff-8ecd-69c8" name="Fell Warg" book="Armies of The Hobbit" page="19" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="bdd8-ba6c-1d34-748c" name="Fell Warg" book="The Hobbit PDF" page="19" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="bdd8-ba6c-1d34-748c" name="Fell Warg" book="Armies of The Hobbit" page="19" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9931,9 +9925,9 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50c8-8ce0-5d4e-5c48" name="Wild Warg" book="Armies of the Lord of the Rings" page="133" hidden="false" collective="false" type="model">
+    <selectionEntry id="50c8-8ce0-5d4e-5c48" name="Wild Warg" book="Armies of The Lord of the Rings" page="133" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="2ca8-d2bf-d725-b037" name="Wild Warg" book="Armies of the Lord of the Rings" page="133" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="2ca8-d2bf-d725-b037" name="Wild Warg" book="Armies of The Lord of the Rings" page="133" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10449,9 +10443,9 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="76d1-fad3-563b-c486" name="Hâsharin" book="Armies of the Lord of the Rings" page="193" hidden="false" collective="false" type="model">
+    <selectionEntry id="76d1-fad3-563b-c486" name="Hâsharin" book="Armies of The Lord of the Rings" page="193" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="e395-cab3-0c2e-312b" name="Hâsharin" book="Armies of the Lord of the Rings" page="193" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="e395-cab3-0c2e-312b" name="Hâsharin" book="Armies of The Lord of the Rings" page="193" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10472,7 +10466,7 @@ Paladin&apos;s Stand Fast! only affects Hobbit models, however, his Stand Fast! 
         </profile>
       </profiles>
       <rules>
-        <rule id="6660-edc0-69a1-032a" name="Prenatural Agility (Active)" book="Armies of the Lord of the Rings" page="193" hidden="false">
+        <rule id="6660-edc0-69a1-032a" name="Prenatural Agility (Active)" book="Armies of The Lord of the Rings" page="193" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10582,9 +10576,9 @@ A Hâsharin can never be Trapped whilst still standing.</description>
         <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1d5-9333-fdb1-b0c0" name="Gnarled Hide" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c1d5-9333-fdb1-b0c0" name="Gnarled Hide" book="Armies of The Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="66c9-a6e3-d8ea-688f" name="Gnarled Hide" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+        <profile id="66c9-a6e3-d8ea-688f" name="Gnarled Hide" book="Armies of The Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10608,9 +10602,9 @@ A Hâsharin can never be Trapped whilst still standing.</description>
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0eb5-2e37-64cd-c5b1" name="Sigils of Defiance" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0eb5-2e37-64cd-c5b1" name="Sigils of Defiance" book="Armies of The Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="c4f1-8a11-2ae4-6a66" name="Sigils of Defiance" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+        <profile id="c4f1-8a11-2ae4-6a66" name="Sigils of Defiance" book="Armies of The Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10634,9 +10628,9 @@ A Hâsharin can never be Trapped whilst still standing.</description>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4abd-d869-b44b-6d9e" name="Tusk Weapons" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4abd-d869-b44b-6d9e" name="Tusk Weapons" book="Armies of The Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="a9f3-1c80-281e-97c7" name="Tusk Weapons" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+        <profile id="a9f3-1c80-281e-97c7" name="Tusk Weapons" book="Armies of The Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10660,9 +10654,9 @@ A Hâsharin can never be Trapped whilst still standing.</description>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="522a-beee-144b-1149" name="Rocks" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="522a-beee-144b-1149" name="Rocks" book="Armies of The Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="9089-4434-588c-0059" name="Rocks" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+        <profile id="9089-4434-588c-0059" name="Rocks" book="Armies of The Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10686,9 +10680,9 @@ A Hâsharin can never be Trapped whilst still standing.</description>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="13c0-d855-50c1-dac2" name="Rappelling Lines" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="13c0-d855-50c1-dac2" name="Rappelling Lines" book="Armies of The Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="9322-a54d-7ef3-d14d" name="Rappelling Lines" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+        <profile id="9322-a54d-7ef3-d14d" name="Rappelling Lines" book="Armies of The Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10712,9 +10706,9 @@ A Hâsharin can never be Trapped whilst still standing.</description>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b7f-1cd5-7b45-acb0" name="Foul Temperament" book="Armies of the Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1b7f-1cd5-7b45-acb0" name="Foul Temperament" book="Armies of The Lord of the Rings" page="194" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="3067-0025-983d-38d6" name="Foul Temperament" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+        <profile id="3067-0025-983d-38d6" name="Foul Temperament" book="Armies of The Lord of the Rings" page="195" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10767,7 +10761,7 @@ A Hâsharin can never be Trapped whilst still standing.</description>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cab9-5fc9-4045-8609" name="Nenya" book="Armies of the Lord of the Rings" page="83" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cab9-5fc9-4045-8609" name="Nenya" book="Armies of The Lord of the Rings" page="83" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -11231,9 +11225,9 @@ A Hâsharin can never be Trapped whilst still standing.</description>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e50e-3528-5032-ea83" name="Ori the Dwarf, Champion of Erebor" book="The Hobbit PDF" page="24" hidden="false" collective="false" type="model">
+    <selectionEntry id="e50e-3528-5032-ea83" name="Ori the Dwarf, Champion of Erebor" book="Armies of The Hobbit" page="24" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="8031-6a57-7a90-bdfb" name="Ori the Dwarf, Champion of Erebor" book="The Hobbit PDF" page="24" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="8031-6a57-7a90-bdfb" name="Ori the Dwarf, Champion of Erebor" book="Armies of The Hobbit" page="24" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11254,7 +11248,7 @@ A Hâsharin can never be Trapped whilst still standing.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="d4a4-9d88-03c0-4de1" name="Chronicler" book="The Hobbit PDF" page="24" hidden="false">
+        <rule id="d4a4-9d88-03c0-4de1" name="Chronicler" book="Armies of The Hobbit" page="24" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11318,14 +11312,22 @@ Any time Thorin Oakenshield, King Under the Mountain, or a Champion of Erebor sl
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="31a3-1add-07d0-ae9f" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cabf-f71c-de35-8474" name="Óin the Dwarf, Champion of Erebor" book="The Hobbit PDF" page="25" hidden="false" collective="false" type="model">
+    <selectionEntry id="cabf-f71c-de35-8474" name="Óin the Dwarf, Champion of Erebor" book="Armies of The Hobbit" page="25" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="8864-5e76-a911-2e2c" name="Óin the Dwarf, Champion of Erebor" book="The Hobbit PDF" page="25" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="8864-5e76-a911-2e2c" name="Óin the Dwarf, Champion of Erebor" book="Armies of The Hobbit" page="25" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11346,7 +11348,7 @@ Any time Thorin Oakenshield, King Under the Mountain, or a Champion of Erebor sl
         </profile>
       </profiles>
       <rules>
-        <rule id="e817-325c-6afc-8b34" name="Healing Herbs" book="The Hobbit PDF" page="25" hidden="false">
+        <rule id="e817-325c-6afc-8b34" name="Healing Herbs" book="Armies of The Hobbit" page="25" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11354,7 +11356,7 @@ Any time Thorin Oakenshield, King Under the Mountain, or a Champion of Erebor sl
           <description>
 In the Move phase, instead of moving, Óin the Dwarf, Champion of Erebor may attempt to heal a friendly model with which he is in base contact. Roll a d6. On a 1-3, there is no effect. On a 4 or 5, the model regains a Wound lost previosly in the game (or campaign). On a 6, the model regains all of its lost Wounds.</description>
         </rule>
-        <rule id="38a7-d7ee-4e79-a9bb" name="Prognostication" book="The Hobbit PDF" page="25" hidden="false">
+        <rule id="38a7-d7ee-4e79-a9bb" name="Prognostication" book="Armies of The Hobbit" page="25" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11432,6 +11434,14 @@ Once per Fight phase, Óin the Dwarf, Champion of Erebor can expend a Will point
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b8-d8e1-a3dd-93a8" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1c29-a080-ee87-4408" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -11522,7 +11532,7 @@ Once per Fight phase, Óin the Dwarf, Champion of Erebor can expend a Will point
                 </profile>
               </profiles>
               <rules>
-                <rule id="5e0d-3184-3af7-a62f" name="Kalazâl" hidden="false">
+                <rule id="5e0d-3184-3af7-a62f" name="Kalazâl (Active)" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11683,29 +11693,43 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
         <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="103e-282b-298f-34b4" name="Gandalf the Grey (Hobbit)" book="The Hobbit PDF " page="11" hidden="false" collective="false" type="model">
+    <selectionEntry id="0b7c-57f6-4666-c637" name="Celeborn" book="Armies of The Lord of the Rings" page="84" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="204e-52fe-6e83-7300" name="Blinding Light" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="450c-6453-ee07-5cec" name="Celeborn" book="Armies of The Lord of the Rings" page="84" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0b7c-57f6-4666-c637" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ad7-8e46-876d-d23b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0b7c-57f6-4666-c637" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dbc-3735-97ab-f57e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="7"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
           </characteristics>
         </profile>
-        <profile id="5e37-465b-4daf-77dd" name="Terrifying Aura" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
-          </characteristics>
-        </profile>
-        <profile id="b611-b2b3-1e30-2575" name="Immobilise" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="44e4-e595-b8ab-4e20" name="Immoblise" book="Armies of The Lord of the Rings" page="84" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11715,7 +11739,1442 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="108b-218c-8d3d-6aba" name="Command" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="3bfd-05dd-10e8-d732" name="Aura of Command" book="Armies of The Lord of the Rings" page="84" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="6f08-4a05-aef8-94e8" name="Enchanted Blades" book="Armies of The Lord of the Rings" page="84" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="6&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7602-2437-892a-733e" name="Galadhrim Guard" book="Armies of The Lord of the Rings" page="83" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If your army includes Celeborn, you may upgrade any number of Galadhrim Warriors in her warband to Galadhrim Guard at the cost of +1 point per model, Galadhrim Guard have a Courage of 6. 
+</description>
+        </rule>
+        <rule id="7b3b-afc4-7be8-6364" name="Lord of Lórien" book="Armies of The Lord of the Rings" page="84" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Celeborn&apos;s Stand Fast! is 12&quot; rather than 6&quot;.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="57d0-e59e-7800-dfe2" name="Lord of the West (Active)" hidden="false" targetId="706f-ab12-24d7-f6b4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6958-2e0b-1400-b20b" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e3cf-df3c-665c-063e" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4f8f-2ea9-db99-1604" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fac5-a86b-f478-f9b3" name="Aura of Command" hidden="false" targetId="db4a-8e11-f47e-31fd" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1051-14fd-570a-757b" name="Enchanted Blades" hidden="false" targetId="a84e-a30e-e1e1-3e54" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0b52-37ed-7abb-f284" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7f3c-8068-008e-5b21" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f9aa-d3ea-0b2c-cc20" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1db8-3b1e-de46-b4de" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d938-2b17-b288-4c89" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="890a-93d7-9f50-3eb5" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7eee-da4d-9fec-d540" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2025-087b-386c-20b7" name="Choose One" book="Armies of The Lord of the Rings" page="84" hidden="false" collective="false" defaultSelectionEntryId="d5f5-df07-dba2-3e0a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7374-0eec-5191-e23b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="d5f5-df07-dba2-3e0a" name="Unarmed" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbad-18d5-d6d1-1f15" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="89ef-0190-c6c4-241c" name="Elven-made hand-and-a-half Sword" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3ee7-e622-06b6-2387" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0dbc-3735-97ab-f57e" name="Shield" hidden="false" targetId="a208-5743-aa5d-3f8b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3ad7-8e46-876d-d23b" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6c0-51f5-7c59-5000" name="Wood Elf Sentinel" book="Armies of The Lord of the Rings" page="89" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1b4c-d934-ced5-f702" name="Wood Elf Sentinel" book="Armies of The Lord of the Rings" page="89" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/3+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="5"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="da1e-f75c-d93f-5d1a" name="Enchanting Song (Active)" book="Armies of The Lord of the Rings" page="89" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+A Sentinel may sing one song each turn, provided they are not Engaged in combat. These function exactly like Magical Powers except that they are automatically cast without spending Will, and cannot be resisted. 
+
+The Hymn of Elbereth - Range 12&quot; - This beautiful song raises the spirits of the targeted model. The target friendly model will automatically pass all Courage tests for the remainder of the turn. 
+
+Eldamar Madrigal - Range 12&quot; - The target enemy model must immediately take a Courage test. If the test is passed, nothing happens. If the test is failed, the target model falls under the control of the opposing player who may then move it up to its maximum Move, even if it has already moved that turn. This move cannot be used to enter an enemy&apos;s Control Zone, dismount, lay down, perform an action that would cause harm to the target (such as jumping off a cliff, etc) or anything that would require the model to roll a D6 (such as a Jump test). Affected models may move no further that turn.  
+
+The Lay of Gondolin - This somber verse recalls the mighty Elf city of Gondolin - a name fit to freeze the hearts of Evil beings. If the Sentinel sings this song, they cause Terror until the end of the turn. 
+</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="22a8-12f1-cbee-a124" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c83a-4fd6-3282-6f93" name="Warrior" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f106-1c09-685e-0c89" name="Elven-made Sword" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5d-8a6a-732f-9e83" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9c6d-5b6c-d88a-75b2" name="Elf Bow" hidden="false" targetId="f488-62cf-6b43-4fca" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b71-613f-db89-e7ad" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="58bf-9e2c-08da-7b27" name="Elven Cloak" hidden="false" targetId="db56-dd2c-8ad7-81d2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be75-1b06-4b77-988d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c65c-88eb-ec7b-dd05" name="Elrond, Master of Rivendell" book="The Free Peoples" page="17" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="95fb-ad99-d253-c21a" name="Elrond, Master of Rivendell" book="Armies of The Lord of the Rings" page="74" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c65c-88eb-ec7b-dd05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8084-4dc3-0990-3e36" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="7"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
+          </characteristics>
+        </profile>
+        <profile id="4ab5-13d8-f94b-1976" name="Renew" book="The Free Peoples" page="17" hidden="false" profileTypeId="caa8-a3a0-9848-1893">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;/28cm"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="9b34-f911-2d1b-b518" name="Wrath of Bruinen" book="The Free Peoples" page="17" hidden="false" profileTypeId="caa8-a3a0-9848-1893">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e0fa-f182-a0d4-e18d" name="Foresight of the Eldar (Passive)" book="Armies of The Lord of the Rings" page="74" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Before the game roll a d6.
+This is the number of Elrond&apos;s Foresight points.
+During the Priority Phase, after the dice are rolled, Elrond may spend Foresight points to alter the dice score 
+For each point spent he may change the dice score by +1 or -1. To a minimum of 1 and maximum of 6.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e728-3dcb-11f2-9030" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ccf-221d-d6a6-3739" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6b40-0d8c-28ad-12ee" name="Wrath of Bruinen" hidden="false" targetId="52f1-9e96-62a5-1e54" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f69a-3f58-aba1-dfb2" name="Renew" hidden="false" targetId="1fd9-7821-ca59-15be" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9b06-7c74-2040-c098" name="Lord of the West (Active)" hidden="false" targetId="706f-ab12-24d7-f6b4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="113a-74a1-07ac-133f" name="Heroic Channelling" hidden="false" targetId="d100-6fbb-746d-2901" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ff16-af3d-12a5-c46d" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1bf7-2d4f-e483-9571" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="95de-54bb-2e6c-8333" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c65c-88eb-ec7b-dd05-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6cf0-58cf-6b36-15b9" name="Hadhafang" book="Armies of The Lord of the Rings" page="74" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="b8bd-2802-bff1-2495" name="Hadhafang" book="Armies of The Lord of the Rings" page="74" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>
+Elven-made hand-and-a-half sword.
++1 to wound spirits when making stikes with Hadhafang</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="91d1-2a03-97d2-a8cc" name="Elven-made hand-and-a-half Sword" hidden="false" targetId="5ab5-eaaf-ee3e-0b79" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="93a9-c1af-c391-63d0" name="Elven-made Weapon" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caed-b73f-871a-94da" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03f5-0805-19b8-a381" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fb96-e1e7-997d-7b20" name="Vilya" book="Armies of The Lord of the Rings" page="73" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9481-feae-c0b7-0600" name="Vilya" book="Armies of The Lord of the Rings" page="74" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="Elrond may re-roll his dice when using Fate points."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99bf-9319-848f-ccd1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13fd-d680-582f-4de3" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8084-4dc3-0990-3e36" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3546-9c76-8603-a704" name="Horse" hidden="false" targetId="7fb5-643f-2cb8-d002" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aeab-a4c2-a46b-5217" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="170.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bb2-e0f4-9216-628d" name="Glorfindel, Lord of the West" book="The Free Peoples" page="19" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4ea8-b591-5907-1d2f" name="Glorfindel, Lord of the West" book="The Free Peoples" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5bb2-e0f4-9216-628d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3d9-42fd-2d27-d6b4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="7/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="7"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="066f-2cf6-8216-4b56" name="Unbending Resolve" book="Armies of The Lord of the Rings" page="75" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Glorfindel always counts as having had the Fortify Spirit Magical Power cast upon him. This is always in effect, even if his Will is reduced to 0.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7388-377d-b979-8005" name="Expert Rider (Active)" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b944-e3b5-0e46-ec94" name="Woodland Creature (Active)" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5eae-0ce2-bdb0-ae4a" name="Horse Lord (Passive)" hidden="false" targetId="5b5a-4d01-3766-8bf2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1513-62b9-11e8-b9f0" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cd00-da3a-861e-ed9f" name="Lord of the West (Active)" hidden="false" targetId="706f-ab12-24d7-f6b4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e6be-8b71-3b56-97d9" name="Fortify Spirit" hidden="false" targetId="a860-6e7b-f3da-47da" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2aa9-88d3-c6f9-2f35" name="Heroic Resolve" hidden="false" targetId="08f6-6809-04d1-c1b1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b541-e379-8d25-09cb" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d324-b43e-c065-f155" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1386-285f-1710-fdb1" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5bb2-e0f4-9216-628d-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a306-8743-3bf8-01df" name="Hero of Valour" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d3d9-42fd-2d27-d6b4" name="Armour of Gondolin" hidden="false" targetId="2424-ce1c-9e86-091d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d232-bdc3-52a9-4f90" name="Asfaloth" hidden="false" targetId="5b0f-1130-2d0d-0e54" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9f17-a069-cb58-7287" name="Elven-made hand-and-a-half Sword" hidden="false" targetId="988a-cf0c-94f7-d345" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81a0-345c-0c5f-544c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2e34-fac8-ea7a-8bf5" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b0f-1130-2d0d-0e54" name="Asfaloth" book="Armies of The Lord of the Rings " page="75" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d443-cdfb-8abf-3fdc" name="Asfaloth" hidden="false" targetId="66ca-9cd3-00dc-e21e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c447-21f5-a980-e4b1" name="Asfaloth" hidden="false" targetId="ac8a-66ca-d07a-e8ca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fcfb-5905-b616-00a4" name="Fleetfoot (Active)" hidden="false" targetId="fcc2-7da0-c8e0-249b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8540-4e58-6315-43b3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4964-c5d2-9bf7-dd65" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2424-ce1c-9e86-091d" name="Armour of Gondolin" book="Armies of The Lord of the Rings" page="75" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="75a3-1a3c-26d7-7800" name="Armor of Gondolin" hidden="false" targetId="e722-4bd3-6c0a-2773" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37bf-02d6-c8b2-b84e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb84-7ecd-bd55-d2ea" name="Gwaihir" book="Armies of The Lord of the Rings" page="95" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e580-308f-ed67-6a09" name="Gwaihir" book="Armies of The Lord of the Rings" page="95" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="3&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="8/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="6"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Eagle, Monster"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f369-14af-b214-875b" name="Lord of the Eagles (Active)" book="Armies of The Lord of the Rings" page="95" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Only Eagle and Wizard models may use his Stand Fast! or benefit from his heroic actions.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f0ea-daa4-6e6e-3df6" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5ea8-dbbd-fcb0-6fe8" name="Fly (Active)" hidden="false" targetId="401d-ce6a-48ff-ac6c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="049c-0f9e-f2d6-a8e0" name="Monstrous Charge (Active)" hidden="false" targetId="db00-aee5-4e28-c33d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5f83-2df2-f883-c0fc" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="05bf-1d15-1ce9-3818" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7f9b-a7c9-4efb-c6a7" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28b2-9bf0-32b2-a12d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3744-ca52-785e-c562" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bb84-7ecd-bd55-d2ea-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2d38-8e4c-c051-9fdf" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ab9e-2d27-db74-6272" name="Claws and Beak" hidden="false" targetId="88b4-b043-94ac-1916" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b9bc-9079-f227-f4a4" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b984-2a92-2103-54d5" name="Great Eagle" book="Armies of The Lord of the Rings" page="95" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ca03-d0a0-985a-80f6" name="Great Eagle" book="Armies of The Lord of the Rings" page="95" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="3&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="7/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="6"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="8"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="6"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Eagle, Monster"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="33ec-c765-7376-2fe0" name="New InfoLink" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5398-178f-753b-c44b" name="Fly (Active)" hidden="false" targetId="401d-ce6a-48ff-ac6c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d73e-5149-2f1d-0c5a" name="Monstrous Charge (Active)" hidden="false" targetId="db00-aee5-4e28-c33d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b984-2a92-2103-54d5-e07a-883e-1b26-d891" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3c3d-b43c-5719-b620" name="Claws and Beak" hidden="false" targetId="88b4-b043-94ac-1916" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88b4-b043-94ac-1916" name="Claws and Beak" book="Armies of The Lord of the Rings" page="95" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8942-3d4c-19d1-63d8" name="Claws" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics/>
+        </profile>
+        <profile id="f124-e4c5-db2a-332f" name="Beak" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics/>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f8e-1714-0d4c-ae53" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5cc-4ee3-a1b8-9858" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8948-85de-0477-1f58" name="Durin, King of Khazad-Dûm" book="Armies of The Lord of the Rings" page="97" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d6e2-01aa-90fc-9f8a" name="Durin, King of Khazad-Dûm" book="Armies of The Lord of the Rings" page="97" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="9"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0e97-2066-5716-a11d" name="Hearthguard (Upgrade)" book="Armies of The Lord of the Rings" page="97" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If your army includes Durin, you may upgrade any number of Khazâd Guard in his warband to Hearthguard for +2 points per model. Hearthguard have the Burly special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="02f6-ac65-beeb-cc18" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f411-757b-7b87-9fe2" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7d52-f757-cfc5-8839" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f963-1124-96ab-497e" name="Fearless (Passive)" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1517-143c-20f3-f0a2" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="262e-040e-9b1a-d4cc" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ed0-924e-32b2-5e4b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="00d2-80a7-a1bb-7022" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2cc6-665f-5bc2-865d" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="27d0-f7d4-78bc-30db" name="The Crown of Kings " book="Armies of The Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="59ea-be83-cbbc-62a4" name="The Crown of Kings  (Passive)" book="Armies of The Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" If Durin suffers a wound, roll a d6. On a 6, the Wound is ignored, exactly as if a point of Fate had been spent."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c2a-748b-c324-d82f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8a9-3455-bc97-ea2c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="91cd-0534-1375-f53b" name="The Horn of Zirakzigil" book="Armies of The Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="72f5-113d-3625-cbe8" name="The Horn of Zirakzigil (Active)" book="Armies of The Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" This is a war horn. Additionally, it also gives Durin the Terror special rule."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0ab1-17dd-f32b-fdfe" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce2d-341c-8d10-81dd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f278-48ed-0c57-b0b2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2ab4-b90e-2d2a-4d64" name="Heavy Mithril Armor" book="Armies of The Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f0c8-acb0-d169-2f59" name="Heavy Mithril Armor" book="Armies of The Lord of the Rings" page="97" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09b4-b83f-f9e6-1fed" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf6f-a3f8-e360-aeda" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="bff7-cb4b-0b35-bae2" name="The Ring of Durin" hidden="false" targetId="5e97-ea47-54c5-d548" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc1e-934d-9fbb-0411" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="19f3-2cf6-65de-8ba3" name="Durin&apos;s Axe" hidden="false" targetId="2667-1224-02b5-3d70" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e4ca-c779-d646-3376" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4132-5c83-bcd7-6d86" name="Choose Era" book="Armies of The Lord of the Rings" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15ef-e620-f07a-d686" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e67-6ef1-a323-35df" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7b85-8e19-c24d-3943" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6d0f-d31c-a6da-b9c0" name="Era" book="Armies of The Lord of the Rings" hidden="false" collective="false" defaultSelectionEntryId="bfac-a7f8-bd63-a3a1">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99c5-299f-aee8-e832" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e711-c50e-123d-2353" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="bfac-a7f8-bd63-a3a1" name="Kingdom of Khazad-Dûm" book="Armies of The Lord of the Rings" page="96" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="58e8-c24c-4fd6-af3a" name="Kingdom of Khazad-Dûm" book="Armies of The Lord of the Rings" page="96" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>
+Khazad-Dûm under the rule of Durin.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="2c1a-0857-7af3-3809" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1517-143c-20f3-f0a2" name="Kingdom of Moria" book="Armies of The Lord of the Rings" page="99" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="d278-6336-e30e-b734" name="Kingdom of Moria" book="Armies of The Lord of the Rings" page="99" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>
+Moria under the rule of Balin.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="8077-3be2-474c-34b1" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e97-ea47-54c5-d548" name="The Ring of Durin" book="Armies of The Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="fe93-b0ca-4860-ecad" name="The Ring of Durin (Passive)" book="Armies of The Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Once per game, the bearer of the Ring of Durin may re-roll a single Priority roll."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f81-0d81-e391-49de" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2667-1224-02b5-3d70" name="Durin&apos;s Axe" book="Armies of The Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="462f-6c1b-e02f-91af" name="Durin&apos;s Axe (Active)" book="Armies of The Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" This is a Master-forged two-handed axe. Additionally, the wielder may re-roll a single dice when making Duel rolls."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2fbf-3183-acff-ef42" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9a5b-e110-898a-3219" name="Master-forged Weapon" hidden="false" targetId="083a-9229-5e17-050b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1d58-fced-b32b-3fa6" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b8b-50d9-6cfc-0452" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fcd-afa3-3927-354e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b28-7034-9cb6-a952" name="The Oakenshield" book="Armies of The Hobbit" page="9" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="cb55-08b9-b065-6f6c" name="The Oakenshield (Active)" book="Armies of The Hobbit" page="9" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Should Thorin opt to use The Oakenshield for Shielding during a Fight and he wins, he may make a single Strike at his Strength (receiving no bonuses from any weapons).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1720-0403-7677-bfa7" name="Shield" hidden="false" targetId="f869-6c62-d88d-b64c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="The Oakenshield">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="eff1-2056-1449-86a5" name="Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e385-b2d7-fde8-216c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="103e-282b-298f-34b4" name="Gandalf the Grey (Hobbit)" book="Armies of The Hobbit " page="11" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="204e-52fe-6e83-7300" name="Blinding Light" book="Armies of The Hobbit" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="5e37-465b-4daf-77dd" name="Terrifying Aura" book="Armies of The Hobbit" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="-"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="b611-b2b3-1e30-2575" name="Immobilise" book="Armies of The Hobbit" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="108b-218c-8d3d-6aba" name="Command" book="Armies of The Hobbit" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11725,7 +13184,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="baea-4be4-229b-004d" name="Strengthen Will" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="baea-4be4-229b-004d" name="Strengthen Will" book="Armies of The Hobbit" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11735,7 +13194,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="8fbe-74d7-858d-da97" name="Sorcerous Blast" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="8fbe-74d7-858d-da97" name="Sorcerous Blast" book="Armies of The Hobbit" page="11" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11745,7 +13204,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="e119-5b26-6810-2820" name="Gandalf the Grey" book="The Hobbit PDF" page="11" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="e119-5b26-6810-2820" name="Gandalf the Grey" book="Armies of The Hobbit" page="11" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11884,9 +13343,9 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
         <cost name="pts" costTypeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e454-4fb9-9a2f-f0fb" name="Radagast the Brown" book="The Hobbit PDF " page="12" hidden="false" collective="false" type="model">
+    <selectionEntry id="e454-4fb9-9a2f-f0fb" name="Radagast the Brown" book="Armies of The Hobbit " page="12" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="7c3f-4a6d-45d3-488e" name="Aura of Dismay" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="7c3f-4a6d-45d3-488e" name="Aura of Dismay" book="Armies of The Hobbit" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11896,7 +13355,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="5421-6a5a-2a56-3e73" name="Terrifying Aura" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="5421-6a5a-2a56-3e73" name="Terrifying Aura" book="Armies of The Hobbit" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11906,7 +13365,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="f072-f126-471f-bd81" name="Immobilise" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="f072-f126-471f-bd81" name="Immobilise" book="Armies of The Hobbit" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11916,7 +13375,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="6fc7-32fb-fb2b-9524" name="Panic Steed" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="6fc7-32fb-fb2b-9524" name="Panic Steed" book="Armies of The Hobbit" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11926,7 +13385,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="7c18-571e-6063-0c60" name="Renew" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="7c18-571e-6063-0c60" name="Renew" book="Armies of The Hobbit" page="12" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11936,7 +13395,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="9ee4-c843-a070-7f62" name="Radagast the Brown" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="9ee4-c843-a070-7f62" name="Radagast the Brown" book="Armies of The Hobbit" page="12" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11957,7 +13416,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
         </profile>
       </profiles>
       <rules>
-        <rule id="9e53-d8f3-27d6-24ab" name="Master of Birds" book="The Hobbit PDF" page="12" hidden="false">
+        <rule id="9e53-d8f3-27d6-24ab" name="Master of Birds" book="Armies of The Hobbit" page="12" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11965,7 +13424,7 @@ Múrin receives a bonus of +1 To Wound when making strikes against Orc, Goblin a
           <description>
 Radagast is always assumed to have Line Of Sight to any point on the battlefield.</description>
         </rule>
-        <rule id="0c91-9c05-b54b-30f7" name="One with Nature" book="The Hobbit PDF" page="12" hidden="false">
+        <rule id="0c91-9c05-b54b-30f7" name="One with Nature" book="Armies of The Hobbit" page="12" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12092,9 +13551,9 @@ Whilst on foot, Radagast may move through areas of difficult terrain without pen
         <cost name="pts" costTypeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6fbb-f91d-b297-32bf" name="Radagast&apos;s Sleigh" book="The Hobbit PDF" page="12" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6fbb-f91d-b297-32bf" name="Radagast&apos;s Sleigh" book="Armies of The Hobbit" page="12" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="e8f4-9a8c-36f8-5cdc" name="Radagast&apos;s Sleigh" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="e8f4-9a8c-36f8-5cdc" name="Radagast&apos;s Sleigh" book="Armies of The Hobbit" page="12" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12112,7 +13571,7 @@ Whilst on foot, Radagast may move through areas of difficult terrain without pen
         </profile>
       </profiles>
       <rules>
-        <rule id="80c6-e908-0abb-265c" name="Dismount" book="The Hobbit PDF" page="12" hidden="false">
+        <rule id="80c6-e908-0abb-265c" name="Dismount" book="Armies of The Hobbit" page="12" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12141,9 +13600,9 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="479c-4661-5307-0821" name="Sebastian" book="The Hobbit PDF" page="12" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="479c-4661-5307-0821" name="Sebastian" book="Armies of The Hobbit" page="12" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="e78e-e9a3-dae6-9161" name="Sebastian" book="The Hobbit PDF" page="12" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+        <profile id="e78e-e9a3-dae6-9161" name="Sebastian" book="Armies of The Hobbit" page="12" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12167,9 +13626,9 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce16-edbe-27db-e4e8" name="Hunter Orc Captain" book="The Hobbit PDF" page="14" hidden="false" collective="false" type="model">
+    <selectionEntry id="ce16-edbe-27db-e4e8" name="Hunter Orc Captain" book="Armies of The Hobbit" page="14" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="9a3f-6baa-7cda-49e3" name="Hunter Orc Captain" book="The Hobbit PDF" page="14" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="9a3f-6baa-7cda-49e3" name="Hunter Orc Captain" book="Armies of The Hobbit" page="14" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12264,9 +13723,9 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8572-f4cb-341f-7f0e" name="Hunter Orc" book="The Hobbit PDF" page="19" hidden="false" collective="false" type="model">
+    <selectionEntry id="8572-f4cb-341f-7f0e" name="Hunter Orc" book="Armies of The Hobbit" page="19" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="4b15-bb92-c6ee-a5b0" name="Hunter Orc Captain" book="The Hobbit PDF" page="14" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="4b15-bb92-c6ee-a5b0" name="Hunter Orc Captain" book="Armies of The Hobbit" page="14" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12367,9 +13826,9 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="950c-ae4a-4ace-7474" name="Iron Hills Captain" book="The Hobbit PDF" page="28" hidden="false" collective="false" type="model">
+    <selectionEntry id="950c-ae4a-4ace-7474" name="Iron Hills Captain" book="Armies of The Hobbit" page="28" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="111c-ba95-b227-90de" name="Iron Hills Captain" book="The Hobbit PDF" page="28" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="111c-ba95-b227-90de" name="Iron Hills Captain" book="Armies of The Hobbit" page="28" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12390,7 +13849,7 @@ If Radagast dismounts from his sleigh or is slain, remove the sleigh from play.<
         </profile>
       </profiles>
       <rules>
-        <rule id="1689-989a-c751-9125" name="Tactical Awareness" book="The Hobbit PDF" page="28" hidden="false">
+        <rule id="1689-989a-c751-9125" name="Tactical Awareness" book="Armies of The Hobbit" page="28" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12427,7 +13886,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="83d0-9516-a098-afe4" name="Choose One" book="The Hobbit PDF" page="28" hidden="false" collective="false">
+        <selectionEntryGroup id="83d0-9516-a098-afe4" name="Choose One" book="Armies of The Hobbit" page="28" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12438,7 +13897,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="eb7d-8749-b236-1009" name="War Spear and Shield" book="The Hobbit PDF" page="28" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="eb7d-8749-b236-1009" name="War Spear and Shield" book="Armies of The Hobbit" page="28" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12475,12 +13934,14 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="d89f-06cf-a5e2-1d3f" name="Mattock" book="The Hobbit PDF" page="28" hidden="false" targetId="55e9-225d-8afc-60e6" type="selectionEntry">
+            <entryLink id="d89f-06cf-a5e2-1d3f" name="Mattock" book="Armies of The Hobbit" page="28" hidden="false" targetId="55e9-225d-8afc-60e6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12560,7 +14021,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="765d-dac0-6404-9565" name="War Goat" book="The Hobbit PDF" page="44" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="765d-dac0-6404-9565" name="War Goat" book="Armies of The Hobbit" page="44" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -12583,9 +14044,9 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2748-b625-4852-2f44" name="Iron Hills Goat Rider" book="The Hobbit PDF" page="44" hidden="false" collective="false" type="model">
+    <selectionEntry id="2748-b625-4852-2f44" name="Iron Hills Goat Rider" book="Armies of The Hobbit" page="44" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="d6e3-0a11-d593-38b6" name="Iron Hills Goat Rider" book="The Hobbit PDF" page="44" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="d6e3-0a11-d593-38b6" name="Iron Hills Goat Rider" book="Armies of The Hobbit" page="44" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12630,7 +14091,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="eac3-8a5c-f22d-1b47" name="Choose One" book="The Hobbit PDF" page="28" hidden="false" collective="false" defaultSelectionEntryId="16cd-76a3-c997-0218">
+        <selectionEntryGroup id="eac3-8a5c-f22d-1b47" name="Choose One" book="Armies of The Hobbit" page="28" hidden="false" collective="false" defaultSelectionEntryId="16cd-76a3-c997-0218">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12643,7 +14104,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="20fc-7b74-5ce1-b581" name="Mattock" book="The Hobbit PDF" page="28" hidden="false" targetId="55e9-225d-8afc-60e6" type="selectionEntry">
+            <entryLink id="20fc-7b74-5ce1-b581" name="Mattock" book="Armies of The Hobbit" page="28" hidden="false" targetId="55e9-225d-8afc-60e6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12722,9 +14183,9 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cba-5710-e828-d433" name="Iron Hills Dwarf" book="The Hobbit PDF" page="44" hidden="false" collective="false" type="model">
+    <selectionEntry id="3cba-5710-e828-d433" name="Iron Hills Dwarf" book="Armies of The Hobbit" page="44" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="80f8-a359-449b-9ab3" name="Iron Hills Dwarf" book="The Hobbit PDF" page="44" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="80f8-a359-449b-9ab3" name="Iron Hills Dwarf" book="Armies of The Hobbit" page="44" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12763,7 +14224,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4b41-cf07-5a47-d4b6" name="Choose One" book="The Hobbit PDF" page="28" hidden="false" collective="false">
+        <selectionEntryGroup id="4b41-cf07-5a47-d4b6" name="Choose One" book="Armies of The Hobbit" page="28" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12776,7 +14237,7 @@ When an enemy model within 6&quot; calls a Heroic Action, roll a D6. On a 5+, th
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="0f5e-cc11-4f9e-ab2d" name="Mattock" book="The Hobbit PDF" page="28" hidden="false" targetId="55e9-225d-8afc-60e6" type="selectionEntry">
+            <entryLink id="0f5e-cc11-4f9e-ab2d" name="Mattock" book="Armies of The Hobbit" page="28" hidden="false" targetId="55e9-225d-8afc-60e6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13039,8 +14500,8 @@ Can Shoot in the Shoot Phase.
       <modifiers/>
       <description>
 Increases likelihood of winning drawn Duels:
-	3-6 to win for a Good model.
-	1-4 to win for an Evil Model.
+	Good model wins on 3-6 when it is using an Elven-made weapon.
+	Evil model wins on 1-4 when it is using an Elven-made weapon.
 	[If both sides have Elven Blades, no change.]</description>
     </rule>
     <rule id="4d2b-177f-7240-6734" name="Elven Cloak" book="Middle-earth Strategy Battle Game Rules Manual" page="89" hidden="false">
@@ -13197,8 +14658,8 @@ If not Slain, hit models must immediately pass a Courage test, or be removed fro
       <modifiers/>
       <description>
 Cumbersome:
-	+1 Defence unless armed with a &apos;Bow&apos;, &apos;Two-Handed Weapon&apos;, &apos;Spear&apos;, or &apos;Pike&apos;.
-	[The model can only use an &apos;Elven Blade&apos; one-handed.]
+	+1 Defence unless armed with a &apos;Bow&apos;, &apos;Crossbow&apos;, &apos;Two-Handed Weapon&apos; or &apos;Pike&apos;.
+	[If the model uses a Hand-and-a-half weapon as a Two-handed weapon it will lose the +1 Defence bonus.]
 
 Shielding:
 	Double the number of dice rolled in the Duel.
@@ -13967,7 +15428,7 @@ Affected models may not charge.</description>
       <description>
 The first time this model takes a courage test as a result of your force being Broken they pass the test automatically.</description>
     </rule>
-    <rule id="706f-ab12-24d7-f6b4" name="Lord of the West (Active)" book="The Armies of the Lord of the Rings" page="73" hidden="false">
+    <rule id="706f-ab12-24d7-f6b4" name="Lord of the West (Active)" book="The Armies of The Lord of the Rings" page="73" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -13978,7 +15439,7 @@ A Model with this special rule may:
 and
 [Re-roll a single d6 when making a wound roll]</description>
     </rule>
-    <rule id="398d-6e11-da9c-0959" name="One of Nine (Passive)" book="Armies of the Lord of the Rings" page="115" hidden="false">
+    <rule id="398d-6e11-da9c-0959" name="One of Nine (Passive)" book="Armies of The Lord of the Rings" page="115" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14020,7 +15481,7 @@ At the start of every friendly Shoot phase, select 1 enemy model within 6&quot; 
       <description>
 When fighting with Andrúil, Aragorn never needs to roll more than 4+ to score a Wound, regardless of the opponent&apos;s Defence. His rolls To Wound can be modified by using Might as normal. If fighting Two-Handed he will still get the +1 To Wound Bonus, so will wound on a 3+.</description>
     </rule>
-    <rule id="e05a-8143-0b72-e5fb" name="Wall-breaker" book="Armies of the Lord of the Rings" page="" hidden="false">
+    <rule id="e05a-8143-0b72-e5fb" name="Wall-breaker" book="Armies of The Lord of the Rings" page="" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14028,7 +15489,7 @@ When fighting with Andrúil, Aragorn never needs to roll more than 4+ to score a
       <description>
 When the Siege Engine rolls To Wound against a Siege target, the controlling player may roll two dice and pick the highest.</description>
     </rule>
-    <rule id="2a7e-102f-15ef-b56d" name="Indirect Fire" book="Armies of the Lord of the Rings" page="" hidden="false">
+    <rule id="2a7e-102f-15ef-b56d" name="Indirect Fire" book="Armies of The Lord of the Rings" page="" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14036,7 +15497,7 @@ When the Siege Engine rolls To Wound against a Siege target, the controlling pla
       <description>
 This Siege Engine always fires using the rules for Volley Fire, with a range of 12&quot;-96&quot;</description>
     </rule>
-    <rule id="98fd-4be0-c866-1c7e" name="Area Effect" book="Armies of the Lord of the Rings" page="" hidden="false">
+    <rule id="98fd-4be0-c866-1c7e" name="Area Effect" book="Armies of The Lord of the Rings" page="" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14116,7 +15577,7 @@ Legolas is allowed to shoot his bow three times in the Shoot phase instead of on
       <description>
 Galadriel can re-roll her dice when using Fate points</description>
     </rule>
-    <rule id="5f58-55dc-f165-9fd3" name="*The Lady of Lothlorien" hidden="false">
+    <rule id="5f58-55dc-f165-9fd3" name="* The Lady of Lothlorien" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14132,7 +15593,15 @@ Galadriel may expend a single point of Will each turn without reducing her own s
       <description>
 Friendly Haradrim and Mahûd models within 3&quot; of this model may re-roll a single d6 when making a Duel roll. This is cumulative with the effects of a banner, however, each d6 may only be re-rolled once. </description>
     </rule>
-    <rule id="ddbc-b562-a220-2c22" name="Many Blades (Passive)" book="The Hobbit PDF" page="14" hidden="false">
+    <rule id="ac8a-66ca-d07a-e8ca" name="Asfaloth" book="Armies of The Lord of the Rings" page="75" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Asfaloth is a Horse with a move of 12&quot; and gives his rider Fleetfoot</description>
+    </rule>
+    <rule id="ddbc-b562-a220-2c22" name="Many Blades (Passive)" book="Armies of The Hobbit" page="14" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14140,7 +15609,7 @@ Friendly Haradrim and Mahûd models within 3&quot; of this model may re-roll a s
       <description>
 When fighting on foot this model receives +1 Attack.</description>
     </rule>
-    <rule id="fa6f-b6e6-149e-bc6b" name="Devastating Charge" book="The Hobbit PDF" page="44" hidden="false">
+    <rule id="fa6f-b6e6-149e-bc6b" name="Devastating Charge" book="Armies of The Hobbit" page="33" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15299,21 +16768,21 @@ When this model charges into combat against one or more Man-sized (or smaller) m
       <modifiers/>
       <characteristics/>
     </profile>
-    <profile id="7cdf-b88e-8fee-c43c" name="Wood Elf Spear" book="Armies of the Lord of the Rings" page="88" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+    <profile id="7cdf-b88e-8fee-c43c" name="Wood Elf Spear" book="Armies of The Lord of the Rings" page="88" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics/>
     </profile>
-    <profile id="95ef-6258-bb15-ec18" name="Banner" book="Armies of the Lord of the Rings" page="89" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+    <profile id="95ef-6258-bb15-ec18" name="Banner" book="Armies of The Lord of the Rings" page="89" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics/>
     </profile>
-    <profile id="961a-fa2e-e79a-d56f" name="War Horn" book="Armies of the Lord of the Rings" page="89" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+    <profile id="961a-fa2e-e79a-d56f" name="War Horn" book="Armies of The Lord of the Rings" page="89" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15389,7 +16858,7 @@ When this model charges into combat against one or more Man-sized (or smaller) m
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
       </characteristics>
     </profile>
-    <profile id="7eb2-1cb5-537a-6fd1" name="Mûmak" book="Armies of the Lord of the Rings" page="194" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="7eb2-1cb5-537a-6fd1" name="Mûmak" book="Armies of The Lord of the Rings" page="194" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15405,7 +16874,7 @@ When this model charges into combat against one or more Man-sized (or smaller) m
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Mûmak"/>
       </characteristics>
     </profile>
-    <profile id="e703-2e4b-21d3-80d8" name="Haradrim Commander" book="Armies of the Lord of the Rings" page="194" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+    <profile id="e703-2e4b-21d3-80d8" name="Haradrim Commander" book="Armies of The Lord of the Rings" page="194" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15424,7 +16893,7 @@ When this model charges into combat against one or more Man-sized (or smaller) m
         <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
       </characteristics>
     </profile>
-    <profile id="002b-b174-6066-fcb3" name="Howdah" book="Armies of the Lord of the Rings" page="194" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="002b-b174-6066-fcb3" name="Howdah" book="Armies of The Lord of the Rings" page="194" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15440,7 +16909,7 @@ When this model charges into combat against one or more Man-sized (or smaller) m
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Howdah"/>
       </characteristics>
     </profile>
-    <profile id="7818-7544-45a8-0646" name="Mahûd Beastmaster Chieftain" book="Armies of the Lord of the Rings" page="195" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+    <profile id="7818-7544-45a8-0646" name="Mahûd Beastmaster Chieftain" book="Armies of The Lord of the Rings" page="195" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15487,17 +16956,41 @@ When this model charges into combat against one or more Man-sized (or smaller) m
       <modifiers/>
       <characteristics/>
     </profile>
-    <profile id="4f57-f12a-3d6b-9bbf" name="Mattock" book="The Hobbit PDF" page="7" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+    <profile id="66ca-9cd3-00dc-e21e" name="Asfaloth" book="Armies of The Lord of the Rings" page="75" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="
-A mattock is a two-handed weapon, which can be used as either a hammer or a pick (choose which at the start of each Fight)."/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/6+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry"/>
       </characteristics>
     </profile>
-    <profile id="b83d-93bd-1c50-83f1" name="War Goat" book="The Hobbit PDF" page="44" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="e722-4bd3-6c0a-2773" name="Armor of Gondolin" book="Armies of The Lord of the Rings" page="75" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="[Heavy Armor +2 Defence] Monsters may not target Glorfindel with Brutal Power Attacks."/>
+      </characteristics>
+    </profile>
+    <profile id="4f57-f12a-3d6b-9bbf" name="Mattock" book="Armies of The Hobbit" page="7" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" A mattock is a two-handed weapon, which can be used as either a hammer or a pick (choose which at the start of each Fight)."/>
+      </characteristics>
+    </profile>
+    <profile id="b83d-93bd-1c50-83f1" name="War Goat" book="Armies of The Hobbit" page="44" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>

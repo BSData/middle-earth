@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2199-9448-2471-1c82" name="The Misty Mountains" book="Armies of The Lord of the Rings" page="94" revision="2" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2199-9448-2471-1c82" name="The Misty Mountains" book="Armies of The Lord of the Rings" page="94" revision="3" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a7f4-650e-e012-9573" name="The Eagles are coming!" book="Armies of The Lord of the Rings" page="94" hidden="false">
@@ -16,243 +16,49 @@ Eagle models from this army list gain a bonus of +1 to their Strength on a turn 
   <profileTypes/>
   <categoryEntries/>
   <forceEntries/>
-  <selectionEntries>
-    <selectionEntry id="bb84-7ecd-bd55-d2ea" name="Gwaihir" book="Armies of The Lord of the Rings" page="95" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="e580-308f-ed67-6a09" name="Gwaihir" book="Armies of The Lord of the Rings" page="95" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="3&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="8/4+"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="6"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
-            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Eagle, Monster"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="f369-14af-b214-875b" name="Lord of the Eagles (Active)" book="Armies of The Lord of the Rings" page="95" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-Only Eagle and Wizard models may use his Stand Fast! or benefit from his heroic actions.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="f0ea-daa4-6e6e-3df6" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5ea8-dbbd-fcb0-6fe8" name="Fly (Active)" hidden="false" targetId="401d-ce6a-48ff-ac6c" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="049c-0f9e-f2d6-a8e0" name="Monstrous Charge (Active)" hidden="false" targetId="db00-aee5-4e28-c33d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9161-4def-1d63-f6fd" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="7868-703b-07d1-c1dc" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b782-cf9f-b8c7-5ac2" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5f83-2df2-f883-c0fc" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="05bf-1d15-1ce9-3818" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="7f9b-a7c9-4efb-c6a7" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28b2-9bf0-32b2-a12d" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3744-ca52-785e-c562" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="bb84-7ecd-bd55-d2ea-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="2d38-8e4c-c051-9fdf" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="ab9e-2d27-db74-6272" name="Claws and Beak" hidden="false" targetId="88b4-b043-94ac-1916" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b9bc-9079-f227-f4a4" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="150.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b984-2a92-2103-54d5" name="Great Eagle" book="Armies of The Lord of the Rings" page="95" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="ca03-d0a0-985a-80f6" name="Great Eagle" book="Armies of The Lord of the Rings" page="95" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="3&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="7/4+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="6"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="8"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="6"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Eagle, Monster"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="33ec-c765-7376-2fe0" name="New InfoLink" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5398-178f-753b-c44b" name="Fly (Active)" hidden="false" targetId="401d-ce6a-48ff-ac6c" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d73e-5149-2f1d-0c5a" name="Monstrous Charge (Active)" hidden="false" targetId="db00-aee5-4e28-c33d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="b984-2a92-2103-54d5-e07a-883e-1b26-d891" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="3c3d-b43c-5719-b620" name="Claws and Beak" hidden="false" targetId="88b4-b043-94ac-1916" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="100.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
-  <entryLinks/>
-  <sharedSelectionEntries>
-    <selectionEntry id="88b4-b043-94ac-1916" name="Claws and Beak" book="Armies of The Lord of the Rings" page="95" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="8942-3d4c-19d1-63d8" name="Claws" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics/>
-        </profile>
-        <profile id="f124-e4c5-db2a-332f" name="Beak" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics/>
-        </profile>
-      </profiles>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="6f72-af5b-09ee-6c56" name="Gwaihir" hidden="false" targetId="bb84-7ecd-bd55-d2ea" type="selectionEntry">
+      <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f8e-1714-0d4c-ae53" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5cc-4ee3-a1b8-9858" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-  </sharedSelectionEntries>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="edc4-9f05-ee58-9d91" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="618b-0fc9-7560-8c0b" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fe8d-c8de-929a-5474" name="Great Eagle" hidden="false" targetId="b984-2a92-2103-54d5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7f5f-f0c8-fb93-6f74" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
   <sharedRules/>
   <sharedProfiles/>
