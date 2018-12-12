@@ -13098,6 +13098,50 @@ Moria under the rule of Balin.</description>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8b28-7034-9cb6-a952" name="The Oakenshield" book="Armies of the Hobbit" page="9" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="cb55-08b9-b065-6f6c" name="The Oakenshield (Active)" book="Armies of the Hobbit" page="9" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Should Thorin opt to use The Oakenshield for Shielding during a Fight and he wins, he may make a single Strike at his Strength (receiving no bonuses from any weapons).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1720-0403-7677-bfa7" name="Shield" hidden="false" targetId="f869-6c62-d88d-b64c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="The Oakenshield">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="eff1-2056-1449-86a5" name="Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e385-b2d7-fde8-216c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">

@@ -300,6 +300,43 @@ Thráin re-rolls all failed close combat To Wound rolls against Azog, and any mo
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="db1c-cee4-58fd-7d38" name="The Ring of Durin" hidden="false" targetId="5e97-ea47-54c5-d548" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="8948-85de-0477-1f58" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="a464-7f30-8001-ad2a" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="daa8-6569-96d7-c837" value="0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="a464-7f30-8001-ad2a" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="8948-85de-0477-1f58" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daa8-6569-96d7-c837" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
@@ -392,45 +429,7 @@ Once per game when moving Young Thorin Oakenshield, the controlling player may d
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8b28-7034-9cb6-a952" name="The Oakenshield" book="Armies of the Hobbit" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="cb55-08b9-b065-6f6c" name="The Oakenshield" book="Armies of the Hobbit" page="21" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Should Thorin opt to use The Oakenshield for Shielding during a Fight and he wins, he may make a single Strike at his Strength (receiving no bonuses from any weapons).</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="1720-0403-7677-bfa7" name="Shield" hidden="false" targetId="f869-6c62-d88d-b64c" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="eff1-2056-1449-86a5" name="Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e385-b2d7-fde8-216c" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="a2dc-66c6-e061-96bd" name="Dwarf Armour (Included)" hidden="false" targetId="c42b-b3c5-b8dd-ecd8" type="selectionEntry">
@@ -458,6 +457,14 @@ Once per game when moving Young Thorin Oakenshield, the controlling player may d
           <categoryLinks/>
         </entryLink>
         <entryLink id="e11f-c810-14db-7890" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e42e-39a4-77f2-5bdb" name="The Oakenshield" hidden="false" targetId="8b28-7034-9cb6-a952" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -644,7 +651,42 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="b54d-ca1c-46c7-6128" name="Two Axes" book="" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c7d2-d663-31a1-0352" name="Axe" hidden="false" targetId="20f1-1625-da6a-0152" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Two Axes">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="6889-fd0e-876f-cdcc" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e304-28e5-da53-b4b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f4-d197-3717-db66" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="686c-874b-da56-e33b" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
@@ -661,27 +703,6 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="bfde-9edd-6176-28ef" name="Axe" hidden="false" targetId="63d2-e586-79fb-5883" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="name" value="Axes">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f764-1415-13f4-6875" type="min"/>
-          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -759,7 +780,7 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="56fd-5749-1697-00c6" name="Throwing Weapon" hidden="false" targetId="42c9-3e9c-a6c7-81ef" type="selectionEntry">
+        <entryLink id="56fd-5749-1697-00c6" name="Throwing Axes" hidden="false" targetId="23da-96b5-6950-4b9a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -978,7 +999,7 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a61f-bc79-6632-e7fe" name="Throwing Weapon" hidden="false" targetId="42c9-3e9c-a6c7-81ef" type="selectionEntry">
+        <entryLink id="a61f-bc79-6632-e7fe" name="Throwing Axes" hidden="false" targetId="23da-96b5-6950-4b9a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1120,7 +1141,7 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
   <sharedSelectionEntries>
     <selectionEntry id="b3d4-f1f7-a541-5fa3" name="Pick-hammer" book="Armies of the Hobbit" page="24" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="a34c-47c0-9842-dbf3" name="Two-handed Pick-hammer" book="Armies of the Hobbit" page="24" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+        <profile id="a34c-47c0-9842-dbf3" name="Pick-hammer" book="Armies of the Hobbit" page="24" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1142,7 +1163,7 @@ Before rolling a Duel, Young Dwalin the Dwarf may choose to reduce his Fight val
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="64fc-d05e-655f-e064" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+        <infoLink id="64fc-d05e-655f-e064" name="Hand-and-a-Half Weapon" hidden="false" targetId="c8cc-87db-867b-4b1c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
