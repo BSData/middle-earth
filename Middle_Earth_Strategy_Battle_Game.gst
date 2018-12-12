@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="20" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="21" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -12713,6 +12713,433 @@ Only Eagle and Wizard models may use his Stand Fast! or benefit from his heroic 
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8948-85de-0477-1f58" name="Durin, King of Khazad-Dûm" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d6e2-01aa-90fc-9f8a" name="Durin, King of Khazad-Dûm" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="9"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0e97-2066-5716-a11d" name="Hearthguard (Upgrade)" book="Armies of the Lord of the Rings" page="97" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+If your army includes Durin, you may upgrade any number of Khazâd Guard in his warband to Hearthguard for +2 points per model. Hearthguard have the Burly special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="02f6-ac65-beeb-cc18" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f411-757b-7b87-9fe2" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7d52-f757-cfc5-8839" name="Heroic Defence" hidden="false" targetId="d188-7068-b01b-fe35" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f963-1124-96ab-497e" name="Fearless (Passive)" hidden="false" targetId="0faa-65e7-6948-24ec" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1517-143c-20f3-f0a2" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="262e-040e-9b1a-d4cc" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ed0-924e-32b2-5e4b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="00d2-80a7-a1bb-7022" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2cc6-665f-5bc2-865d" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="27d0-f7d4-78bc-30db" name="The Crown of Kings " book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="59ea-be83-cbbc-62a4" name="The Crown of Kings  (Passive)" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" If Durin suffers a wound, roll a d6. On a 6, the Wound is ignored, exactly as if a point of Fate had been spent."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c2a-748b-c324-d82f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8a9-3455-bc97-ea2c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="91cd-0534-1375-f53b" name="The Horn of Zirakzigil" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="72f5-113d-3625-cbe8" name="The Horn of Zirakzigil (Active)" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" This is a war horn. Additionally, it also gives Durin the Terror special rule."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0ab1-17dd-f32b-fdfe" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce2d-341c-8d10-81dd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f278-48ed-0c57-b0b2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2ab4-b90e-2d2a-4d64" name="Heavy Mithril Armor" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f0c8-acb0-d169-2f59" name="Heavy Mithril Armor" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09b4-b83f-f9e6-1fed" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf6f-a3f8-e360-aeda" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="bff7-cb4b-0b35-bae2" name="The Ring of Durin" hidden="false" targetId="5e97-ea47-54c5-d548" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc1e-934d-9fbb-0411" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="19f3-2cf6-65de-8ba3" name="Durin&apos;s Axe" hidden="false" targetId="2667-1224-02b5-3d70" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e4ca-c779-d646-3376" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4132-5c83-bcd7-6d86" name="Choose Era" book="Armies of the Lord of the Rings" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15ef-e620-f07a-d686" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e67-6ef1-a323-35df" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7b85-8e19-c24d-3943" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6d0f-d31c-a6da-b9c0" name="Era" book="Armies of the Lord of the Rings" hidden="false" collective="false" defaultSelectionEntryId="bfac-a7f8-bd63-a3a1">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99c5-299f-aee8-e832" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e711-c50e-123d-2353" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="bfac-a7f8-bd63-a3a1" name="Kingdom of Khazad-Dûm" book="Armies of the Lord of the Rings" page="96" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="58e8-c24c-4fd6-af3a" name="Kingdom of Khazad-Dûm" book="Armies of the Lord of the Rings" page="96" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>
+Khazad-Dûm under the rule of Durin.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="2c1a-0857-7af3-3809" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1517-143c-20f3-f0a2" name="Kingdom of Moria" book="Armies of the Lord of the Rings" page="99" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="d278-6336-e30e-b734" name="Kingdom of Moria" book="Armies of the Lord of the Rings" page="99" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>
+Moria under the rule of Balin.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="8077-3be2-474c-34b1" name="No Force Org" hidden="false" targetId="edcb-6da3-c425-b156" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e97-ea47-54c5-d548" name="The Ring of Durin" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="fe93-b0ca-4860-ecad" name="The Ring of Durin (Passive)" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" Once per game, the bearer of the Ring of Durin may re-roll a single Priority roll."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f81-0d81-e391-49de" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2667-1224-02b5-3d70" name="Durin&apos;s Axe" book="Armies of the Lord of the Rings" page="97" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="462f-6c1b-e02f-91af" name="Durin&apos;s Axe (Active)" book="Armies of the Lord of the Rings" page="97" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value=" This is a Master-forged two-handed axe. Additionally, the wielder may re-roll a single dice when making Duel rolls."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2fbf-3183-acff-ef42" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9a5b-e110-898a-3219" name="Master-forged Weapon" hidden="false" targetId="083a-9229-5e17-050b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1d58-fced-b32b-3fa6" name="Piercing Strike" hidden="false" targetId="0323-43c0-7d90-9afa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b8b-50d9-6cfc-0452" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fcd-afa3-3927-354e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b28-7034-9cb6-a952" name="The Oakenshield" book="Armies of the Hobbit" page="9" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="cb55-08b9-b065-6f6c" name="The Oakenshield (Active)" book="Armies of the Hobbit" page="9" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+Should Thorin opt to use The Oakenshield for Shielding during a Fight and he wins, he may make a single Strike at his Strength (receiving no bonuses from any weapons).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1720-0403-7677-bfa7" name="Shield" hidden="false" targetId="f869-6c62-d88d-b64c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="The Oakenshield">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="eff1-2056-1449-86a5" name="Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e385-b2d7-fde8-216c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
