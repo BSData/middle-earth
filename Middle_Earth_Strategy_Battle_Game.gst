@@ -12897,7 +12897,9 @@ If your army includes Durin, you may upgrade any number of Khazâd Guard in his 
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc1e-934d-9fbb-0411" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="19f3-2cf6-65de-8ba3" name="Durin&apos;s Axe" hidden="false" targetId="2667-1224-02b5-3d70" type="selectionEntry">
@@ -13040,7 +13042,6 @@ Moria under the rule of Balin.</description>
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9fc-5f73-7918-1fdf" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f81-0d81-e391-49de" type="max"/>
       </constraints>
       <categoryLinks/>

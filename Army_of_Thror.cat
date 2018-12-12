@@ -38,16 +38,7 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="0ade-4710-34dc-1cc2" name="The Ring of Durin" book="Armies of the Hobbit" page="19" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-Once per game, the bearer of the Ring of Durin may re-roll a single Priority roll.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="ce35-e812-a998-d72e" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
           <profiles/>
@@ -121,7 +112,9 @@ If the roll is a 4 or better, there is no need to expend the Fate point at all.<
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -164,6 +157,31 @@ If the roll is a 4 or better, there is no need to expend the Fate point at all.<
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ad9f-3a67-1677-2c69" name="The Ring of Durin" hidden="false" targetId="5e97-ea47-54c5-d548" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="8948-85de-0477-1f58" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="65fe-a6ae-b017-f1f2" value="0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="8948-85de-0477-1f58" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65fe-a6ae-b017-f1f2" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
