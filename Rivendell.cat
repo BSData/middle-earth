@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Rivendell" book="Armies of the Lord of the Rings" revision="7" battleScribeVersion="2.01" authorName="Cord" authorContact="" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Rivendell" book="Armies of the Lord of the Rings" revision="8" battleScribeVersion="2.01" authorName="Cord" authorContact="" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a481-60cc-b19d-d194" name="&apos;Tangado haid, leithio i philinn!&quot;" book="Armies of the Lord of the Rings" page="72" hidden="false">
@@ -474,11 +474,17 @@ This may be done even if the target Hero is lower tier.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="66d1-fe53-c4be-a3e9" name="Elven-made Sword (Included)" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
+            <entryLink id="66d1-fe53-c4be-a3e9" name="Elven-made Sword" hidden="false" targetId="29dc-d7a0-64c9-1cdf" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e3-7563-fc46-bd31" type="min"/>
               </constraints>
