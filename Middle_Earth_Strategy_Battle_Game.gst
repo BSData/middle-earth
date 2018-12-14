@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="20" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b1ef-1a15-f90a-722c" name="Middle Earth Strategy Battle Game" book="Middle-earth Strategy Battle Game Rules Manual, Armies of The Lord of the Rings" revision="22" battleScribeVersion="2.01" authorName="Zhaph, Cord" authorContact="zhaph@zhaph.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -209,6 +209,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="bc53-ae31-0120-1faa" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fd1-91df-fd4d-ae17" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc53-ae31-0120-1faa" type="max"/>
@@ -277,6 +284,13 @@
                 <repeat field="selections" scope="80c5-b61b-d209-b3a1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e07a-883e-1b26-d891" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c6b1-9135-15e3-4645" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fd1-91df-fd4d-ae17" type="equalTo"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -11885,6 +11899,657 @@ The Lay of Gondolin - This somber verse recalls the mighty Elf city of Gondolin 
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7204-e8bc-01ea-b923" name="Azog" book="The Armies of The Hobbit" page="93" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="591b-338b-11d9-8946" name="Azog" book="The Armies of The Hobbit" page="93" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7204-e8bc-01ea-b923" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0854-0d0a-18c1-25e2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="7/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Orc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b144-df94-b8ac-bdbb" name="General of the North (Active)" book="The Armies of The Hobbit" page="93" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Azog&apos;s Stand Fast rule has a range of 12&quot; and, unlike any other Hero model&apos;s Stand Fast rule, can affect other Orc Hero models.</description>
+        </rule>
+        <rule id="3dbf-e702-758e-57c3" name="I am the Master (Active)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When rolling To Wound an enemy Hero model after winning a Fight, Azog never needs to roll more than a 3+ to score a wound, regardles of their Defence.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ddc2-b2d2-b865-1c8c" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fc78-e74f-01df-867e" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="44d2-9a5f-5efe-f070" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="47cd-77c2-96b7-b0d5" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ec10-ce2c-f6fa-c34e" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="34ce-0acc-2e40-f147" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f99a-b084-d81a-51d4" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="73da-9a3b-ea75-14df" name="Burly (Passive)" hidden="false" targetId="be60-39e9-b5bc-4bf7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ef6-252a-9e5c-316b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c041-5ea1-9e6e-0134" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="19a3-3939-973c-90df" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c7f7-2d43-de6f-61fe" name="Hero of Legend" hidden="false" targetId="5eb3-b9e6-c93e-565c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fa9d-20c3-ed3e-2f57" name="The White Warg" book="The Armies of The Hobbit" page="95" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="0eac-796d-4de4-8a8d" name="The White Warg" book="The Armies of The hobbit" page="95" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="10&quot;"/>
+                <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/5+"/>
+                <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
+                <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+                <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+                <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+                <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+                <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+                <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Warg"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="0c55-58a5-4a0f-b091" name="Deadly Union" book="The Armies of The Hobbit" page="95" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>As long as Azog is mounted upon the White Warg, you can expend either Azog&apos;s or the White Warg&apos;s stores of Might, Will and Fate as if they shared the same profile (though you should still mark down which of the two actually expended each point).</description>
+            </rule>
+            <rule id="99f1-1300-d6b4-f6b3" name="Pacj Naster" book="The Armies of the Hobbit" page="95" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Once separated from Azog, only Warg models may use the White Warg&apos;s Stang Fast! rubenefit from its Heroic Actions.</description>
+            </rule>
+            <rule id="5cdc-6c14-9fde-a883" name="Raging Beast" book="The Armies of The Hobbit" page="95" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>When Azog dismounts, the White Warg automatically passes its Courage test to stay and fight. Additionally, it will automatically pass all Courage test for the rest of the battle.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="8649-4196-b1ab-fdd9" name="Fell Sight (Passive)" hidden="false" targetId="ac3b-75b0-2e1f-371c" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2842-76c2-8ab1-13d3" name="Terror (Passive)" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff49-c89f-abe2-1a66" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d72-fdc6-42cf-75cf" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="7730-b632-e15e-9e9d" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="be06-2285-698b-7fc8" name="Claws and Teeth" hidden="false" targetId="0e4a-8d75-a199-316b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="648a-9ba4-394f-cfa0" name="Stone flail" book="The Armies of the Hobbit" page="93" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a7da-844a-120d-f900" name="Stone flail" book="The Armies of the Hobbit" page="93" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics/>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="3ecc-f3f7-4cb3-264a" name="Stone flail (Active)" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The stone flail is a two-handed weapon that follows the normal rules for flails, with the following exceptions. When fighting with the stone flail, Azog’s Fight value is reduced to 6/5+. Azog does not reduce his Fight value for using the Whirl Special Strike. Additionally, Wounds inflicted by the stone flail cause not 1 Wound but D3 Wounds instead (determine the number of Wounds after Fate points are used), and any model that is struck, but not slain, is knocked Prone. </description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="ed5a-5e64-47dc-9995" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed0a-09c7-0432-e4f5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7fd1-91df-fd4d-ae17" name="Signal Tower" book="Armies of The Hobbit" page="94" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="5c22-a348-2689-486d" name="Signal Tower" book="Armies of The Hobbit" page="94" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Before deployment, but after players have decided on their board edges, the controlling player may place the Signal Tower, plus the seven of Azog’s Lieutenants, anywhere on the battlefield. The Signal Tower may not be subsequently moved. Note: the Lieutenants must be deployed on the Signal Tower.</description>
+            </rule>
+            <rule id="153f-532f-bc13-a49e" name="It must always be Manned (Pasive)" book="Armies of The Hobbit" page="94" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Any of Azog’s Lieutenants may man a part of the Signal Tower – to do this they must be in base contact with the part they wish to man. Whilst manned, each part of the Signal Tower has a different effect, as follows:
+• The Banner of Dol Guldur – All friendly Gundabadmodels on the battlefield count themselves as being in range of a banner.
+• The Banner of Gundabad – All friendly Gundabad Heromodels on the battlefield may declare Heroic Marches without reducing their store of Might.
+• The Banner of Angmar – Whenever a friendly Gundabadmodel on the battlefield suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored exactly as if a point of Fate had been spent. Note that this supersedes other rules that confer similar effects, e.g., Fury.
+• The Horn of Gorgoroth – Counts as a War Horn. Additionally, all enemy models on the battlefield suffer -1 to their Courage value. Note that this is not cumulative with other rules that confer similar penalties.</description>
+            </rule>
+            <rule id="7c08-1869-44d3-59a8" name="Summoning of the Hosts (Pasive)" book="Armies of The Hobbit" page="94" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>If the Signal Tower is taken as an upgrade for Azog, then 24 Warriors may be included in Azog’s warband rather than 18. These may deploy within 12&quot; of Azog rather than the usual 6”</description>
+            </rule>
+            <rule id="e170-2578-aa99-17b0" name="Destroying the Signal Tower (Pasive)" book="Armies of The Hobbit" page="94" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Each part of the Tower has a Defence value of 10 with 3 Wounds, and each is considered as a separate Battlefield target. Additionally, if an enemy model spends a full turn in base contact with any part of the Signal Tower without doing anything else (i.e., not shooting, using Magical Powers or fighting in combat), then that part of the Signal Tower is disabled and its effect is lost. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7608-3c50-ee7c-ccfe" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="f058-a635-78e7-8633" name="Azog&apos;s Lieutenants" book="Armies of The Hobbit" page="94" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="8832-b09b-dac0-6af9" name="Azog&apos;s Lieutenants" book="Armies of The Hobbit" page="94" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+                    <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/5+"/>
+                    <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+                    <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+                    <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+                    <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+                    <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+                    <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+                    <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+                    <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+                    <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Orc"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="edf9-6d6f-902c-ab45" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="943b-ce39-c1f4-35f7" name="Ancient Enemies (Active)" hidden="false" targetId="041a-f7bf-59e0-f84a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Elf)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="ae5a-efca-703a-53b4" name="Ancient Enemies (Active)" hidden="false" targetId="041a-f7bf-59e0-f84a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="append" field="name" value="(Dwarf)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="552e-d4ab-0a8a-cea2" type="min"/>
+                <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b4a-2f0a-7ab6-931b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="9bb0-0f13-aab7-f029" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99c7-849f-7759-636d" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="b3aa-0df2-3409-d612" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3c3-f4ed-f94f-f6ba" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="200.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2837-5830-8d3c-7e4e" name="Sword" hidden="false" targetId="bf3b-7500-2abd-d1aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42e0-4561-6583-10e7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="00ff-b629-d234-088c" name="Mace" hidden="false" targetId="7787-8a9d-9955-bbac" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a75d-0acb-6412-4747" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7046-c1b1-dd72-6f45" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0854-0d0a-18c1-25e2" name="Heavy Armour" hidden="false" targetId="180c-3e0a-035e-f870" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="165.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="104a-67c3-699e-8859" name="Bolg" book="The Armies of the Hobbit" page="96" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="b69a-9a54-39c6-303d" name="Bolg" book="The Armies of The Hobbit" page="96" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="7/5+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Orc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5c19-eb23-e98a-8426" name="Bolg" book="The Armies of The Hobbit" page="96" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If your army includes Bolg, all Hunter Orcs and Hunter Orc Captains in your amy gain the Morgul Arrows special rule</description>
+        </rule>
+        <rule id="94f3-d0e6-7352-753a" name="The Bringer of Death (Active)" book="The Armies of The Hobbit" page="96" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Every time that Bolg slays an enemy model, take note of it. Once he has killed two or more enemies, he causes Terror. Once he has killed five or more enemies, he also gains the Harbinger of Evil special rule. Once he has killed 10 or more enemies, he gains the Mighty Hero special rule</description>
+        </rule>
+        <rule id="ebff-69cd-b44d-e2b6" name="Morgul Arrows (Pasive)" book="The Armies of The Hobbit" page="96" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any model that suffers a Wound from a model with this special rule’s shooting attacks, and isn’t slain, must roll a D6 at the start of each subsequent turn. On the roll of a 1, that model suffers a Wound</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8828-e037-6de7-8a15" name="Burly (Passive)" hidden="false" targetId="be60-39e9-b5bc-4bf7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e8ed-dfda-3dfc-49d7" name="Ancient Enemies (Active)" hidden="false" targetId="041a-f7bf-59e0-f84a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value=" (Elf)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="11f0-43eb-4e55-d44c" name="Ancient Enemies (Active)" hidden="false" targetId="041a-f7bf-59e0-f84a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Dwarf)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9f7a-a61d-e4e3-77ee" name="Heroic March" hidden="false" targetId="be29-1b36-f1d9-8173" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7b12-777a-8b5d-18fd" name="Heroic Strike" hidden="false" targetId="a76a-e803-05fc-5384" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1217-d3d2-f200-82ee" name="Heroic Strength" hidden="false" targetId="3459-e5f0-2438-920a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bf3c-6864-3f32-b373" name="Heroic Challenge" hidden="false" targetId="ac54-80b4-1add-9cd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6479-fbbe-3037-fb84" name="Heroic Combat" hidden="false" targetId="de01-9be6-dd86-07fb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3c82-6882-4ecb-d01f" name="Heroic Move" hidden="false" targetId="02d8-024a-e48e-fbd7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="92ac-0471-d869-dbba" name="Heroic Shoot" hidden="false" targetId="0d80-0935-26df-8aea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d07-61e2-9639-7de8" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1069-58b8-64e5-079b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ff94-1eb6-21b8-fafe" name="New CategoryLink" hidden="false" targetId="c071-e634-3220-08c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1f8b-925f-fad4-adae" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7a20-7132-1b28-5d98" name="Fell Warg" hidden="false" targetId="527b-2dff-8ecd-69c8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6d5-0edb-7cb1-0448" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="af82-e882-7c19-9c46" name="Orc Bow" hidden="false" targetId="3b8c-32d6-f90e-c13f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="945b-927b-04df-b7f9" name="Two-Handed Pick" hidden="false" targetId="0dfe-4f01-7b9b-29c6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57db-8920-c4b3-04cb" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2137-3c28-7be3-deaf" name="Heavy Armour (Included)" hidden="false" targetId="f709-4400-3a87-e8d8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4976-b029-f010-6392" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="165.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9306-ebd3-ef63-5663" name="Mount Choice" hidden="false" collective="false">
@@ -13163,6 +13828,23 @@ Friendly Haradrim and Mahûd models within 3&quot; of this model may re-roll a s
       <infoLinks/>
       <modifiers/>
       <description>Mirkwood Ranger receive an additional Attack for each enemy model they are Engaged in combat with after the first (to a maximum of 3 bonus Attacks). This bonus is determined at the start of each fight, and lasts until all Strikes from that fight have been resolved.</description>
+    </rule>
+    <rule id="92a5-0b35-dfc4-e810" name="Chittering Hordes" book="The Armies of The Hobbit" page="97" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Models with this special rule can Support as if they had spears, with the exception that they can only ever Support another model with the Chittering Hordes special rule. A Supporting model does get the benefit of having a two-handed weapon, if it has one.</description>
+    </rule>
+    <rule id="5e9f-d749-c990-d151" name="Mercenary Ambush (Active)" book="The Armies of The Hobbit" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Warbands led by a Goblin Mercenary Captain that contain solely Goblin Mercenaries do not have to deploy on the board at the start of the game. Instead, they may be kept in reserve.
+From turn 2 onwards, the controlling player must test to see if their Goblin Mercenaries have arrived. To do this, the Goblin Mercenary Captain must make a Courage test at any point during the controlling player’s Move phase.
+If the test is passed, the controlling player may choose whether or not the Goblin Mercenaries have arrived. If the test is failed, then the opposing player may choose whether or not the Goblin Mercenaries have arrived.
+Once they have arrived, the controlling player places the warband fully within any eligible terrain piece on the board. Models deployed in this way may not be placed within the Control Zones of any enemy models. This counts as the Goblin Mercenaries’ movement for that turn. If the entire warband cannot be placed for any reason (such as there are no eligible terrain pieces), then they may arrive as Reinforcements from a board edge of the controlling player’s choice instead.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
