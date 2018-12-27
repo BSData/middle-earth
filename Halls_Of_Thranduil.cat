@@ -479,23 +479,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0a7e-2a65-f5a6-d568" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2143-c12b-aa67-2572" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e7d2-ec93-02d1-605a" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+        <entryLink id="0a7e-2a65-f5a6-d568" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -519,11 +503,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="00a3-8ba2-72db-a31c" name="Elven-made Daggers" hidden="false" targetId="3f61-2acd-4e00-a8f2" type="selectionEntry">
+        <entryLink id="00a3-8ba2-72db-a31c" name="Elven-made Daggers" hidden="false" targetId="189b-a5e8-ef2b-ad6e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4e21-b227-402b-2902" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5eb3-b9e6-c93e-565c" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -648,23 +648,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a8f0-ad1a-f0ee-1782" name="Armour" hidden="false" targetId="bcc3-3c25-b4ae-9836" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c38-d7e2-885b-f467" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="3e2b-3c62-9d3f-d44f" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+        <entryLink id="a8f0-ad1a-f0ee-1782" name="Armour (Included)" hidden="false" targetId="5529-700c-bc2f-732b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -680,11 +664,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="abab-9880-a784-b98b" name="Elven-made Daggers" hidden="false" targetId="3f61-2acd-4e00-a8f2" type="selectionEntry">
+        <entryLink id="abab-9880-a784-b98b" name="Elven-made Daggers" hidden="false" targetId="189b-a5e8-ef2b-ad6e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4b55-a71c-3e9a-f171" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5eb3-b9e6-c93e-565c" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -803,7 +803,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="48b7-fd1f-3fda-1a61" name="Elven made Glaive" hidden="false" targetId="ded9-58b8-0fc8-b7da" type="selectionEntry">
+        <entryLink id="48b7-fd1f-3fda-1a61" name="Elven made Glaive" hidden="false" targetId="7dfe-838e-bf18-2d82" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -857,7 +857,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0f42-cb64-6c19-8b0a" name="King&apos;s Guard (Pasive)" hidden="false" targetId="f44d-df8b-845c-d8ef" type="rule">
+        <infoLink id="0f42-cb64-6c19-8b0a" name="King&apos;s Guard (Pasive)" hidden="false" targetId="4801-958a-34a5-75b8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1101,7 +1101,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7d44-c446-f669-fed1" name="Knife Fighter" hidden="false" targetId="7575-eb91-fcd0-5313" type="rule">
+        <infoLink id="7d44-c446-f669-fed1" name="Knife Fighter (Actvie)" hidden="false" targetId="27d1-40ea-7ee4-8d26" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1162,7 +1162,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="86ee-7de1-571f-2400" name="Elven-made Daggers" hidden="false" targetId="3f61-2acd-4e00-a8f2" type="selectionEntry">
+        <entryLink id="86ee-7de1-571f-2400" name="Elven-made Daggers" hidden="false" targetId="189b-a5e8-ef2b-ad6e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1219,7 +1219,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="a085-86c2-5711-45b3" name="King&apos;s Guard (Pasive)" hidden="false" targetId="f44d-df8b-845c-d8ef" type="rule">
+        <infoLink id="a085-86c2-5711-45b3" name="King&apos;s Guard (Pasive)" hidden="false" targetId="4801-958a-34a5-75b8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1293,11 +1293,26 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9188-61a9-2dbe-c4e6" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+        <entryLink id="ce2e-a436-ffc1-40df" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5eb3-b9e6-c93e-565c" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c071-e634-3220-08c1" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1374,7 +1389,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ada5-0d6a-0cb3-e0f1" name="Elven made Glaive" hidden="false" targetId="ded9-58b8-0fc8-b7da" type="selectionEntry">
+        <entryLink id="ada5-0d6a-0cb3-e0f1" name="Elven made Glaive" hidden="false" targetId="7dfe-838e-bf18-2d82" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1388,6 +1403,29 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="254d-cfac-d6a6-3ebe" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e2be-c971-dbb9-4815" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5eb3-b9e6-c93e-565c" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c071-e634-3220-08c1" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1425,7 +1463,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="cd15-80e0-381c-ec10" name="Knife Fighter" hidden="false" targetId="7575-eb91-fcd0-5313" type="rule">
+        <infoLink id="cd15-80e0-381c-ec10" name="Knife Fighter (Actvie)" hidden="false" targetId="27d1-40ea-7ee4-8d26" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1493,11 +1531,34 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="16e7-534d-a79b-7731" name="Elven-made Daggers" hidden="false" targetId="3f61-2acd-4e00-a8f2" type="selectionEntry">
+        <entryLink id="16e7-534d-a79b-7731" name="Elven-made Daggers" hidden="false" targetId="189b-a5e8-ef2b-ad6e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fabe-eb79-38ad-eda5" name="The Leader" hidden="false" targetId="69fa-2dd6-76e4-1748" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5eb3-b9e6-c93e-565c" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c071-e634-3220-08c1" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1508,7 +1569,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="c395-7e4a-e098-15e7" name="Wood Elf Sentinel" hidden="false" targetId="83a6-c7e7-3711-62d7" type="selectionEntry">
+    <entryLink id="c395-7e4a-e098-15e7" name="Wood Elf Sentinel" hidden="false" targetId="c6c0-51f5-7c59-5000" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1519,6 +1580,14 @@
   </entryLinks>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="4801-958a-34a5-75b8" name="King&apos;s Guard (Pasive)" book="The Armies of The Hobbit" page="74" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Whilst within 3&quot; of Thranduil, King of the Woodland Realm, this model receives a bonus of +1 to their Fight value.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles/>
 </catalogue>
