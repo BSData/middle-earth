@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fa51-6b47-707e-a50e" name="Wanderers in the Wild" book="Armies of The Lord of the Rings" page="106" revision="2" battleScribeVersion="2.01" authorName="Zhaph" authorContact="zhaph@zhaph.com" gameSystemId="b1ef-1a15-f90a-722c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0b14-3f4f-8e90-c950" name="Wanderers in the Wild" revision="1" battleScribeVersion="2.01" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8,279 +8,16 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="0d8a-ff79-3b0c-42e3" name="Tom Bombadil" book="Armies of The Lord of the Rings" page="108" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="27fe-ec32-67ff-d450" name="Tom Bombadil" book="Armies of The Lord of the Rings" page="108" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="?"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="?"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="?"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="?"/>
-            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="?"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="?"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="?"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="15"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="?"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
-          </characteristics>
-        </profile>
-        <profile id="0e74-2bae-468f-bc06" name="Refreshing Song" book="Armies of The Lord of the Rings" page="108" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="3&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
-          </characteristics>
-        </profile>
-        <profile id="bf60-5e48-a560-3366" name="Banishment" book="Armies of The Lord of the Rings" page="108" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="6&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="3+"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="3dab-a248-285d-9014" name="Tom is Master" book="Armies of The Lord of the Rings" page="108" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-Tom treats all kinds of difficult terrain as open and always gets a result of 6 on the Jump, Leap, Climb or Swim tests.
-Tom cannot be directly targetted by Abilities, Magical Powers or Shooting attacks. This means that Magical Powers, including Friendly ones, that would affect Tom count as being automatically Resisted and any missiles that hit Tom will automatically disappear before they hit him.
-No models may move into Tom&apos;s control zone for any reason, unless his controlling player allows it.
-Models that are Hurled, Barged or forced towards Tom in any other way will stop 1&quot; away from him and he will suffer no effects.
-Tom may Charge enemy models and his side will automatically win any Fight that he is involved in, however neither Tom, nor any model in the same Fight may make Strikes of any kind.
-Tom and all friendly models within 3&quot; of him will automatically pass Courage tests.
-Tom may never carry objectives.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="6f0b-b404-7e2e-6a82" name="Unarmed" hidden="false" targetId="15f3-052f-f55b-9bb3" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d030-c67a-f3de-f7e2" name="Refreshing Song" hidden="false" targetId="0895-0328-41f2-3556" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="343c-364a-bf61-0b43" name="Banishment" hidden="false" targetId="be92-17a4-1406-3d23" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6900-d68b-a2de-d9d6" name="Hey! Come Merry Dol! (Passive)" hidden="false" targetId="5486-2275-ff16-316a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad33-068d-f1df-a777" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c161-1844-0046-750b" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="0d8a-ff79-3b0c-42e3-e059-5f8f-1ab2-017e" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="831d-9edd-40a8-a29c" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="160.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1a1a-a389-1c3c-d7d9" name="Goldberry" book="Armies of The Lord of the Rings" page="109" hidden="true" collective="false" type="model">
-      <profiles>
-        <profile id="efe2-414d-0e5c-dfd4" name="Goldberry" book="Armies of The Lord of the Rings" page="109" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="?"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="?"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="?"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="?"/>
-            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="?"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="?"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="?"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="10"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="?"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit"/>
-          </characteristics>
-        </profile>
-        <profile id="6dc3-205f-7953-9c22" name="Refreshing Song" book="Armies of The Lord of the Rings" page="109" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="3&quot;"/>
-            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="ae7c-baa4-75cd-400b" name="River-Daughter (Passive)" book="Armies of The Lord of the Rings" page="109" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-Goldberry cannot be directly targetted by Abilities, Magical Powers or Shooting attacks. This means that Magical Powers, including Friendly ones, that would affect Goldberry count as being automatically Resisted and any missiles that hit Goldberry will automatically disappear before they hit her.
-No models may move into Goldberry&apos;s control zone for any reason, unless her controlling player allows it.
-Models that are Hurled, Barged or forced towards Goldberry in any other way will stop 1&quot; away from her and she will suffer no effects.
-Goldberry may Charge enemy models and her side will automatically win any Fight that she is involved in, however neither Goldberry, nor any model in the same Fight may make Strikes of any kind.
-Goldberry and all friendly models within 6&quot; of her will automatically pass Courage tests.
-Goldberry may never carry objectives.
-[Always passes Swim tests.]
-</description>
-        </rule>
-        <rule id="215a-6a43-c522-200f" name="Tom has his house to mind, and Goldberry is waiting (Passive)" book="Armies of The Lord of the Rings" page="109" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-Goldberry cannot be used in a force that does not include Tom Bombadil as well.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="8698-c8e8-62b8-4572" name="Unarmed" hidden="false" targetId="15f3-052f-f55b-9bb3" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="dd95-1e5f-e936-e1ea" name="Refreshing Song" hidden="false" targetId="0895-0328-41f2-3556" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="34a7-97fc-5484-f87b" name="Hey! Come Merry Dol! (Passive)" hidden="false" targetId="5486-2275-ff16-316a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d8a-ff79-3b0c-42e3" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd97-a06d-39c3-c8e4" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a08-5b18-533d-8794" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="1a1a-a389-1c3c-d7d9-e059-5f8f-1ab2-017e" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="b503-d828-33b0-b687" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="140.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="90b2-bbce-631b-e516" name="Thráin the Broken" book="The Hobbit PDF" page="39" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="0c3c-cb5e-8e06-13eb" name="Thráin the Broken" book="The Hobbit PDF" page="39" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="2"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="0"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="0"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Dwarf"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="b234-ef6f-49d6-dc44" name="Shattered Spirit" book="The Hobbit PDF" page="39" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>
-At the start of every Priority phase, before rolling for Priority, Thráin must take an unmodified Courage test:
-	If passed, he acts normally
-	If passed on a double, Thráin adds +2 to his Fight, Strength, Attacks and Courage until end of turn.
-	If failed, the Evil player controls Thráin. Good Models cannot target Thráin with missle fire or Magical Powers that cause damage, and cannot make Strikes against him.
-[Thráin must always take this Courage test, he can never be forced to automatically pass it.]</description>
-        </rule>
-      </rules>
+    <selectionEntry id="3523-8241-a041-e145" name="Tom Bombadil" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c088-f7c8-482b-04a7" type="max"/>
+      </constraints>
       <categoryLinks>
-        <categoryLink id="0852-262a-1c78-6c0e" name="New CategoryLink" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="c9f7-2774-752d-b505" name="Hero" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+        <categoryLink id="4932-99d0-c583-4bfc" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -291,51 +28,130 @@ At the start of every Priority phase, before rolling for Priority, Thráin must 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="ffce-aa77-252c-4d82" name="Dagger" hidden="false" targetId="40c7-a106-90b1-788d" type="selectionEntry">
+        <entryLink id="70b7-2607-d9bd-b329" name="Tom Bombadil" hidden="false" targetId="2af2-3033-755a-f4aa" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff10-b6ab-a9fd-bb5c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13a4-818f-8ae6-4626" type="min"/>
-          </constraints>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc1b-c388-3292-9b6b" name="Goldberry" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ed9-3eb3-ac12-097c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="82f8-3bf8-7ead-8f36" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="12a4-cad7-f3e8-fde7" name="Goldberry" hidden="false" targetId="70ff-d806-70ad-4e8a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d17-232d-57db-a3af" name="Murin &amp; Drar" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a91b-2886-9740-c976" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3e5f-183f-7543-c5a7" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3e0e-dcf2-03ae-2bf5" name="Murin &amp; Drar" hidden="false" targetId="654c-120f-e2ba-1f33" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b13-9256-1445-13a8" name="Thrain the Broken" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7f39-1b88-6643-67f1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="319d-63aa-d5ee-feab" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e791-536e-ecde-b8af" name="Thrain the Broken" hidden="false" targetId="45a4-72ae-b391-f631" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <entryLinks>
-    <entryLink id="d88a-4638-b9bc-31ce" name="Múrin &amp; Drár" hidden="false" targetId="1ef8-4c9d-d120-b038" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-  </entryLinks>
+  <entryLinks/>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
-  <sharedRules>
-    <rule id="5486-2275-ff16-316a" name="Hey! Come Merry Dol! (Passive)" book="Armies of The Lord of the Rings" page="108" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>
-Model must give up a point of Will at the end of each turn in which it participated in a Fight during the Fight phase.
-Should the model be reduced to 0 Will, or there are no other friendly models other than those with this rule, then the model will simply wander back off to its homestead. Remove the model as a casualty.</description>
-    </rule>
-  </sharedRules>
+  <sharedRules/>
   <sharedProfiles/>
 </catalogue>
