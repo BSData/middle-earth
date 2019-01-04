@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="43" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="44" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5659,7 +5659,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="70.0"/>
+        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
         <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
