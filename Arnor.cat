@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7043-7357-78e8-ed10" name="Arnor" revision="5" battleScribeVersion="2.01" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7043-7357-78e8-ed10" name="Arnor" revision="6" battleScribeVersion="2.01" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8,40 +8,6 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="2609-cce2-729b-142d" name="Protect the King!" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="4355-04f8-60b9-f504" name="Protect the King!" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Friendly Arnor models automatically pass Courage tests whilst within 6&quot; of Arvedui, Last King of Arnor.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06c3-5a38-4273-2feb" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="9756-a853-ef71-8ab8" name="New CategoryLink" hidden="false" targetId="4a7b-8f86-68be-e1d6" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="e067-4acb-d32d-f80f" name="Captain of Arnor" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
@@ -537,6 +503,20 @@
       <infoLinks/>
       <modifiers>
         <modifier type="set" field="8869-5a88-a14c-9df3" value="1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6e6d-0286-9ad9-a245" name="Protect the King!" hidden="false" targetId="1772-6b04-d4e4-10ce" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="01a2-a818-9838-6b99" value="1">
           <repeats/>
           <conditions/>
           <conditionGroups/>

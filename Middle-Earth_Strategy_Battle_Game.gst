@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="44" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="45" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -25679,7 +25679,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       </entryLinks>
       <costs>
         <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28757,6 +28757,109 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3b4-2195-26ce-f24e" name="Floi Stonehand" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8662-aa70-7b87-ae6e" name="Floi Stonehand" book="Armies of Lord of the Rings" page="98" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="6d57-f596-e10e-6233" value="5&quot;"/>
+            <characteristic name="Fight" characteristicTypeId="5930-f060-2064-c9d5" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="fbbc-8f2f-c413-710a" value="4"/>
+            <characteristic name="Defense" characteristicTypeId="49e3-08b4-2b5f-a6dd" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="7d79-496f-5c13-35c4" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="8bda-d8a5-a1e7-2146" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="b88a-7dd4-569c-d0b1" value="5"/>
+            <characteristic name="Might" characteristicTypeId="db92-6a08-e1ce-a77d" value="1"/>
+            <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
+            <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="-"/>
+            <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Moria Infantry Hero"/>
+            <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Fortitude"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d638-b56a-45a1-2e47" name="Loremaster (Active)" book="Armies of Lord of the Rings" page="98" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>At the start of his move, Floi can spend a point of Will to negate an enemy Active or Passive special rule, or the effects of a piece of wargear (with the exception of The One Ring) until the end of the turn. There is no range for this ability, but Floi must have Line of Sight in order to use it.</description>
+        </rule>
+        <rule id="474e-5594-fdeb-c204" name="The Living Lore (Passive)" book="Armies of Lord of the Rings" page="98" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model. Floi immediately recovers a point of Will spent earlier in the battle.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de30-22cf-627a-bbf8" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d88a-c750-6163-1906" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f7b-80d5-c8a7-df1c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5dc9-2660-5cd2-f1fc" name="Wargear" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6091-1b07-a720-4444" name="Heavy Dwarf Armour" hidden="false" targetId="16d0-4708-68d8-c15f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="020e-758c-dfc8-06f1" name="Staff" hidden="false" targetId="badb-13f4-1286-1864" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ac41-0e33-338f-21d6" name="Hero of Fortitude" hidden="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1087-9027-8b01-3c92" name="Leader (Fortitude)" hidden="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
+        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
