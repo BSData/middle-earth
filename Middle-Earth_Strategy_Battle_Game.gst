@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="45" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="46" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes>
-    <costType id="8bde-d63c-7caa-c15d" name="Points" defaultCostLimit="-1.0"/>
-    <costType id="391e-19ac-b71d-f2e3" name="Warriors" defaultCostLimit="-1.0"/>
+    <costType id="8bde-d63c-7caa-c15d" name=" Points" defaultCostLimit="-1.0"/>
+    <costType id="391e-19ac-b71d-f2e3" name=" Warriors" defaultCostLimit="-1.0"/>
     <costType id="ab3b-a62b-ef54-533c" name="Bow" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
@@ -204,8 +204,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -411,8 +411,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -455,8 +455,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -479,8 +479,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -570,8 +570,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -652,8 +652,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -693,8 +693,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -702,8 +702,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -731,9 +731,9 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3ad-a44c-5e03-265b" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
@@ -756,8 +756,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -781,8 +781,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -806,8 +806,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -838,8 +838,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -863,8 +863,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -889,9 +889,9 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18cb-fd03-3380-5f4e" name="Horse" hidden="false" collective="false" type="upgrade">
@@ -914,8 +914,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -940,9 +940,9 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="713d-07e8-7930-c83c" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
@@ -965,8 +965,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -998,8 +998,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1023,8 +1023,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1048,8 +1048,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1074,8 +1074,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1099,8 +1099,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1125,8 +1125,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1151,8 +1151,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1177,8 +1177,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1203,8 +1203,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1222,8 +1222,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1248,8 +1248,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1290,8 +1290,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1316,8 +1316,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1342,8 +1342,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1367,8 +1367,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1393,8 +1393,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1418,8 +1418,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1447,8 +1447,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1473,8 +1473,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1499,8 +1499,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1525,8 +1525,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1557,8 +1557,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1583,8 +1583,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1608,8 +1608,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1634,8 +1634,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1666,8 +1666,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1695,8 +1695,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1724,8 +1724,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1753,8 +1753,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1779,8 +1779,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1805,8 +1805,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1831,8 +1831,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1857,8 +1857,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1883,8 +1883,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1915,8 +1915,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1994,8 +1994,8 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -2006,8 +2006,8 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2085,8 +2085,8 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -2097,8 +2097,8 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="70.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="70.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2123,8 +2123,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2148,9 +2148,9 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a875-50e0-8a0e-da87" name="Hand-and-a-Half Hammer" hidden="false" collective="false" type="upgrade">
@@ -2179,9 +2179,9 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4de7-ec7f-29f4-8d49" name="Club" hidden="false" collective="false" type="upgrade">
@@ -2205,8 +2205,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2231,8 +2231,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2257,8 +2257,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2283,8 +2283,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2309,8 +2309,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2335,8 +2335,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2367,8 +2367,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2401,8 +2401,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2442,8 +2442,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2476,8 +2476,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2510,8 +2510,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2544,8 +2544,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2578,8 +2578,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2612,8 +2612,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2646,8 +2646,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2680,8 +2680,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2714,8 +2714,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2750,8 +2750,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2784,8 +2784,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2818,8 +2818,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2852,8 +2852,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2893,8 +2893,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2927,8 +2927,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2961,8 +2961,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2995,8 +2995,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3029,8 +3029,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3070,8 +3070,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3104,8 +3104,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3138,8 +3138,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3172,8 +3172,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3213,8 +3213,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3239,8 +3239,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3264,8 +3264,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3307,8 +3307,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3350,8 +3350,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3393,8 +3393,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3436,8 +3436,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3479,8 +3479,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3522,8 +3522,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3565,8 +3565,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3608,8 +3608,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3651,8 +3651,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3694,8 +3694,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3737,8 +3737,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3780,8 +3780,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3823,8 +3823,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3866,8 +3866,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3909,8 +3909,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3952,8 +3952,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3995,8 +3995,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4038,8 +4038,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4081,8 +4081,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4124,8 +4124,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4167,8 +4167,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4210,8 +4210,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4253,8 +4253,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4296,8 +4296,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4339,8 +4339,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4382,8 +4382,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4425,8 +4425,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4468,8 +4468,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4511,8 +4511,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4554,8 +4554,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4597,8 +4597,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4640,8 +4640,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4683,8 +4683,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4726,8 +4726,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4769,8 +4769,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4812,8 +4812,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4855,8 +4855,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4898,8 +4898,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4941,8 +4941,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4984,8 +4984,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5027,8 +5027,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5077,8 +5077,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5120,8 +5120,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5146,8 +5146,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5172,8 +5172,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5198,8 +5198,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5224,8 +5224,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5250,8 +5250,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5276,8 +5276,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5310,8 +5310,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5346,8 +5346,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5388,8 +5388,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5444,8 +5444,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5463,8 +5463,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5482,8 +5482,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5501,8 +5501,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5520,8 +5520,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5547,8 +5547,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5621,8 +5621,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -5659,8 +5659,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5777,8 +5777,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -5798,8 +5798,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5824,8 +5824,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5924,8 +5924,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -6016,8 +6016,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6059,8 +6059,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6218,8 +6218,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6370,8 +6370,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6615,8 +6615,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6921,8 +6921,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -6939,8 +6939,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -6957,8 +6957,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -6994,8 +6994,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7235,9 +7235,9 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c53c-c1e2-fe4c-0da8" name="The Dark Marshal" hidden="false" collective="false" type="upgrade">
@@ -7470,8 +7470,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7681,8 +7681,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -7727,8 +7727,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7962,8 +7962,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -8204,8 +8204,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -8446,8 +8446,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -8741,8 +8741,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -8759,8 +8759,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -8777,8 +8777,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -8802,8 +8802,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -8833,8 +8833,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -8861,8 +8861,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -8922,8 +8922,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="70.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="70.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -9157,9 +9157,9 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dbff-e862-ed44-bb22" name="Mordor Troll Chieftain" hidden="false" collective="false" type="upgrade">
@@ -9263,8 +9263,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -9401,8 +9401,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -9532,8 +9532,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -9570,9 +9570,9 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9588,8 +9588,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -9750,9 +9750,9 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9786,8 +9786,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -9880,8 +9880,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -9901,8 +9901,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10009,8 +10009,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -10071,8 +10071,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10362,8 +10362,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -10391,8 +10391,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="220.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="220.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10420,8 +10420,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10545,8 +10545,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -10603,8 +10603,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="225.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="225.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10731,8 +10731,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10864,8 +10864,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -10930,8 +10930,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11047,8 +11047,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -11109,8 +11109,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11257,8 +11257,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11390,8 +11390,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -11402,8 +11402,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11548,8 +11548,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11893,8 +11893,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -11968,8 +11968,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="170.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="170.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12104,8 +12104,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -12150,8 +12150,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12310,8 +12310,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12441,8 +12441,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12581,8 +12581,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="95.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="95.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12728,8 +12728,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12871,8 +12871,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -12947,8 +12947,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13102,8 +13102,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13236,8 +13236,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13370,8 +13370,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13499,8 +13499,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13857,8 +13857,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="180.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="180.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13883,8 +13883,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13969,8 +13969,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="150.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="150.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -14195,8 +14195,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -14262,8 +14262,8 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -14314,8 +14314,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -14368,8 +14368,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="150.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="150.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -14644,8 +14644,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="400.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="400.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -14898,8 +14898,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="250.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="250.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -15081,8 +15081,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -15127,8 +15127,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="130.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="130.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -15329,8 +15329,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -15358,8 +15358,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="130.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="130.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -15546,8 +15546,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -15584,8 +15584,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="170.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="170.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -15730,8 +15730,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -15768,8 +15768,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="170.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="170.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -15886,8 +15886,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -15944,8 +15944,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="145.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="145.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -15987,8 +15987,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16025,8 +16025,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16148,9 +16148,9 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -16197,8 +16197,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="190.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="190.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16226,8 +16226,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16330,8 +16330,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -16376,8 +16376,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16410,8 +16410,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16440,8 +16440,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16519,8 +16519,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -16548,8 +16548,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -16584,8 +16584,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -16636,8 +16636,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16702,8 +16702,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16774,8 +16774,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -16836,8 +16836,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16967,8 +16967,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -16996,8 +16996,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17046,8 +17046,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17185,8 +17185,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17211,8 +17211,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17357,8 +17357,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="115.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="115.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17394,8 +17394,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17505,8 +17505,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17642,8 +17642,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="85.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="85.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17773,8 +17773,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -17904,8 +17904,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -18041,8 +18041,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -18205,8 +18205,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="95.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="95.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -18343,8 +18343,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -18389,8 +18389,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -18512,8 +18512,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -18645,8 +18645,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -18757,8 +18757,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -18795,8 +18795,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -18926,8 +18926,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -19058,8 +19058,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -19174,8 +19174,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -19203,8 +19203,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -19340,8 +19340,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="85.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="85.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -19479,8 +19479,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -19661,8 +19661,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -19706,8 +19706,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -19878,8 +19878,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -20013,8 +20013,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -20049,8 +20049,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -20224,8 +20224,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -20309,8 +20309,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -20321,8 +20321,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -20365,8 +20365,8 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -20517,8 +20517,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -20657,8 +20657,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -20794,8 +20794,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -20923,8 +20923,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -21107,8 +21107,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="115.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="115.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -21234,8 +21234,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -21349,8 +21349,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -21476,8 +21476,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -21606,8 +21606,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -21737,8 +21737,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -21848,8 +21848,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -21977,8 +21977,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -22098,8 +22098,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -22275,8 +22275,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -22378,8 +22378,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -22464,8 +22464,8 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -22586,8 +22586,8 @@ It is possible for two models to be the target of Bard’s rage if both Sigrid a
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -22657,8 +22657,8 @@ It is possible for two models to be the target of Bard’s rage if both Sigrid a
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -22666,8 +22666,8 @@ It is possible for two models to be the target of Bard’s rage if both Sigrid a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -22714,8 +22714,8 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -22868,8 +22868,8 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -23026,8 +23026,8 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -23064,8 +23064,8 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="130.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="130.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -23152,8 +23152,8 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -23349,8 +23349,8 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -23385,8 +23385,8 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -23534,8 +23534,8 @@ Before deployment, but after players have decided on their board edges, the cont
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -23578,8 +23578,8 @@ Before deployment, but after players have decided on their board edges, the cont
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -23622,8 +23622,8 @@ Before deployment, but after players have decided on their board edges, the cont
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -23666,8 +23666,8 @@ Before deployment, but after players have decided on their board edges, the cont
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -23710,8 +23710,8 @@ Before deployment, but after players have decided on their board edges, the cont
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -23719,8 +23719,8 @@ Before deployment, but after players have decided on their board edges, the cont
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="200.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="200.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -23765,8 +23765,8 @@ Before deployment, but after players have decided on their board edges, the cont
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="165.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="165.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -23914,8 +23914,8 @@ Before deployment, but after players have decided on their board edges, the cont
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="165.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="165.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24035,8 +24035,8 @@ Before deployment, but after players have decided on their board edges, the cont
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24141,8 +24141,8 @@ Before deployment, but after players have decided on their board edges, the cont
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24235,8 +24235,8 @@ Before deployment, but after players have decided on their board edges, the cont
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -24309,8 +24309,8 @@ Before deployment, but after players have decided on their board edges, the cont
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24343,8 +24343,8 @@ Before deployment, but after players have decided on their board edges, the cont
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24379,8 +24379,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24413,8 +24413,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24447,8 +24447,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24481,8 +24481,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24515,8 +24515,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24549,8 +24549,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24583,8 +24583,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24617,8 +24617,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24651,8 +24651,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24685,8 +24685,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24719,8 +24719,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24753,8 +24753,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24787,8 +24787,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -24940,8 +24940,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -24996,8 +24996,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -25052,8 +25052,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -25108,8 +25108,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -25157,8 +25157,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -25178,8 +25178,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -25234,8 +25234,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -25298,8 +25298,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -25327,8 +25327,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25359,8 +25359,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25391,8 +25391,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25416,8 +25416,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25445,8 +25445,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25477,8 +25477,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25509,8 +25509,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25640,8 +25640,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -25678,8 +25678,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25765,8 +25765,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25791,8 +25791,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25843,8 +25843,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25869,8 +25869,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25895,8 +25895,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25943,8 +25943,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -25969,8 +25969,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -26116,8 +26116,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="95.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="95.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -26154,9 +26154,9 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a89-29f9-1d8e-732f" name="Mattock" hidden="false" collective="false" type="upgrade">
@@ -26197,8 +26197,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -26229,8 +26229,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -26373,8 +26373,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -26462,8 +26462,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -26491,8 +26491,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -26572,8 +26572,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -26593,8 +26593,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -26687,8 +26687,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -26748,8 +26748,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -26900,8 +26900,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -26993,8 +26993,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -27025,8 +27025,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -27050,8 +27050,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -27081,8 +27081,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -27219,8 +27219,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -27349,8 +27349,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -27456,8 +27456,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -27502,8 +27502,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -27611,8 +27611,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -27620,8 +27620,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -27737,8 +27737,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -27865,8 +27865,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -27886,8 +27886,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28002,8 +28002,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -28023,8 +28023,8 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28100,8 +28100,8 @@ The Chariot is also subject to the following exceptions:
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="175.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="175.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28125,8 +28125,8 @@ The Chariot is also subject to the following exceptions:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28157,8 +28157,8 @@ The Chariot is also subject to the following exceptions:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28274,8 +28274,8 @@ The Chariot is also subject to the following exceptions:
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="110.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="110.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28300,8 +28300,8 @@ The Chariot is also subject to the following exceptions:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28384,8 +28384,8 @@ The Chariot is also subject to the following exceptions:
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -28430,8 +28430,8 @@ The Chariot is also subject to the following exceptions:
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -28525,17 +28525,17 @@ The Chariot is also subject to the following exceptions:
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28576,8 +28576,8 @@ The Chariot is also subject to the following exceptions:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28604,8 +28604,8 @@ The Chariot is also subject to the following exceptions:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28629,8 +28629,8 @@ The Chariot is also subject to the following exceptions:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="9.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="9.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28648,8 +28648,8 @@ The Chariot is also subject to the following exceptions:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28667,8 +28667,8 @@ The Chariot is also subject to the following exceptions:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28701,8 +28701,8 @@ The Chariot is also subject to the following exceptions:
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28735,8 +28735,8 @@ The Chariot is also subject to the following exceptions:
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28755,8 +28755,8 @@ The Chariot is also subject to the following exceptions:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28858,8 +28858,8 @@ The Chariot is also subject to the following exceptions:
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -28896,8 +28896,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -28921,8 +28921,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -28967,8 +28967,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -28998,8 +28998,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29029,8 +29029,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29069,8 +29069,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29094,8 +29094,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29119,8 +29119,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29144,8 +29144,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29169,8 +29169,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29194,8 +29194,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29219,8 +29219,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29244,8 +29244,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29269,8 +29269,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29294,8 +29294,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29331,8 +29331,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29349,8 +29349,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29374,8 +29374,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29405,8 +29405,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29436,8 +29436,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29461,8 +29461,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29672,8 +29672,8 @@ The Chariot is also subject to the following exceptions:
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29750,8 +29750,8 @@ The Chariot is also subject to the following exceptions:
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29791,8 +29791,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -29866,8 +29866,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -29884,8 +29884,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -29902,8 +29902,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -29920,8 +29920,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -29938,8 +29938,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -29956,8 +29956,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -29974,8 +29974,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -29992,8 +29992,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30010,8 +30010,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30028,8 +30028,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30058,8 +30058,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30076,8 +30076,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30113,8 +30113,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30131,8 +30131,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30149,8 +30149,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30167,8 +30167,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30185,8 +30185,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30203,8 +30203,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30233,8 +30233,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30251,8 +30251,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30281,8 +30281,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30306,8 +30306,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30324,8 +30324,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30342,8 +30342,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30360,8 +30360,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30378,8 +30378,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30424,8 +30424,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30450,8 +30450,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30475,8 +30475,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30501,8 +30501,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30550,8 +30550,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30587,8 +30587,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30605,8 +30605,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30623,8 +30623,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30641,8 +30641,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30659,8 +30659,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30677,8 +30677,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30738,8 +30738,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30763,8 +30763,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30788,8 +30788,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30813,8 +30813,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30838,8 +30838,8 @@ The Chariot is also subject to the following exceptions:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -30871,8 +30871,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="9.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="9.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -30889,8 +30889,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -30907,8 +30907,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -30925,8 +30925,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -30943,8 +30943,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -30961,8 +30961,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -30979,8 +30979,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="2.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="2.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -30997,8 +30997,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="2.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="2.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31015,8 +31015,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="2.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="2.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31033,8 +31033,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31051,8 +31051,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="6.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="6.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31069,8 +31069,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="6.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="6.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31087,8 +31087,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31105,8 +31105,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31123,8 +31123,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31141,8 +31141,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31159,8 +31159,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31177,8 +31177,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31195,8 +31195,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31213,8 +31213,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31262,8 +31262,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31287,8 +31287,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31312,8 +31312,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31337,8 +31337,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31362,8 +31362,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31387,8 +31387,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31412,8 +31412,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31437,8 +31437,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31462,8 +31462,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31487,8 +31487,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31517,8 +31517,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31535,8 +31535,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31553,8 +31553,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31571,8 +31571,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31589,8 +31589,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31607,8 +31607,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31625,8 +31625,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31643,8 +31643,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31661,8 +31661,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31679,8 +31679,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31697,8 +31697,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31715,8 +31715,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31733,8 +31733,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31751,8 +31751,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31769,8 +31769,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31787,8 +31787,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31805,8 +31805,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31823,8 +31823,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31841,8 +31841,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -31859,8 +31859,8 @@ The Chariot is also subject to the following exceptions:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
