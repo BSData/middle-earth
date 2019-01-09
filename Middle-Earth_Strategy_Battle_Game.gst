@@ -19484,9 +19484,9 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="680c-c74d-401c-e2a5" name="Dain Ironfoot, Lord of the Iron Hills" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="680c-c74d-401c-e2a5" name="Dáin Ironfoot, Lord of the Iron Hills" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="fcdc-0316-b926-7a7a" name="Dain Ironfoot, Lord of the Iron Hills" book="Armies of the Hobbit" page="27" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="fcdc-0316-b926-7a7a" name="Dáin Ironfoot, Lord of the Iron Hills" book="Armies of the Hobbit" page="27" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
