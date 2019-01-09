@@ -3042,7 +3042,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Friendly Isengard models do not start to take Courage tests for being Broken until at least 66% of the force&apos;s models have been removed as casualties. Additionally, Lutrz, Ugluk, Mauhur, Vrasku, Uruk-hai Scout Captains, Uruk-hai Scouts gain the Woodland Creature special rule.</description>
+          <description>Friendly Isengard models do not start to take Courage tests for being Broken until at least 66% of the force&apos;s models have been removed as casualties. Additionally, Lutrz, Uglúk, Mauhúr, Vraskû, Uruk-hai Scout Captains, Uruk-hai Scouts gain the Woodland Creature special rule.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3083,7 +3083,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Mahud Warrior models that are within 6&quot; of a friendly Mahud Hero model that is Engaged in combat automatically pass all Courage tests they are required to make.</description>
+          <description>Mahûd Warrior models that are within 6&quot; of a friendly Mahûd Hero model that is Engaged in combat automatically pass all Courage tests they are required to make.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -3117,7 +3117,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Sauron&apos;s warband size is increased to 24. Additionally, a force that contains solely of models from the Barad-dur army list will never be considered Broken if Sauron has 3 or more Wounds remaining. Should Sauron have 2 or fewer Wounds remaining, the army will break as normal. Should Sauron be slain, the army will immediately count as being Broken.</description>
+          <description>Sauron&apos;s warband size is increased to 24. Additionally, a force that contains solely of models from the Barad-dûr army list will never be considered Broken if Sauron has 3 or more Wounds remaining. Should Sauron have 2 or fewer Wounds remaining, the army will break as normal. Should Sauron be slain, the army will immediately count as being Broken.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -4903,7 +4903,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fafc-c822-4c4e-3473" name="Barad-dur" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fafc-c822-4c4e-3473" name="Barad-dûr" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6375,9 +6375,9 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="94e4-5dca-9fa0-b65c" name="Khamul The Easterling" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="94e4-5dca-9fa0-b65c" name="Khamûl The Easterling" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="2e57-a228-dcea-5b45" name="Khamul The Easterling" book="Armies of Lord of the Rings" page="135" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="2e57-a228-dcea-5b45" name="Khamûl The Easterling" book="Armies of Lord of the Rings" page="135" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6405,9 +6405,9 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If Khamul makes a Strike against an enemy model which causes a Wound, he instantly regains a single point of Will spent earlier in the battle for each Wound caused (unless the Wound is saved by a point of Fate or similar special rule). This cannot restore his Will beyond 12.
+          <description>If Khamûl makes a Strike against an enemy model which causes a Wound, he instantly regains a single point of Will spent earlier in the battle for each Wound caused (unless the Wound is saved by a point of Fate or similar special rule). This cannot restore his Will beyond 12.
 
-Additionally, Khamul may expend a single point of Will at the start of the Fight phase before Heroic Actions are declared, to increase either his Fight value, Strength or Attacks by 1 for the remainder of that Fight phase. Note that if he is mounted, Khamul will only ever increase his own Fight, Strength or Attacks, not those possessed by his mount.</description>
+Additionally, Khamûl may expend a single point of Will at the start of the Fight phase before Heroic Actions are declared, to increase either his Fight value, Strength or Attacks by 1 for the remainder of that Fight phase. Note that if he is mounted, Khamûl will only ever increase his own Fight, Strength or Attacks, not those possessed by his mount.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -9906,9 +9906,9 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f0df-9881-6018-16da" name="Hasharin" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f0df-9881-6018-16da" name="Hâsharin" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="71cd-7e05-28b5-e3b0" name="Hasharin" book="Armies of Lord of the Rings" page="193" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="71cd-7e05-28b5-e3b0" name="Hâsharin" book="Armies of Lord of the Rings" page="193" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13565,7 +13565,7 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </profile>
       </profiles>
       <rules>
-        <rule id="448e-a053-c8ce-46a3" name="The Palantir (Active)" book="Armies of Lord of the Rings" page="167" hidden="true">
+        <rule id="448e-a053-c8ce-46a3" name="The Palantír (Active)" book="Armies of Lord of the Rings" page="167" hidden="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13578,7 +13578,7 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <description>Once per game the controlling player can use the Palantir to automatically win a Priority roll - the use of this special rule must be declared before any dice are rolled for Priority.</description>
+          <description>Once per game the controlling player can use the Palantír to automatically win a Priority roll - the use of this special rule must be declared before any dice are rolled for Priority.</description>
         </rule>
         <rule id="5307-919d-e40f-2422" name="Consuming Rivalry (Passive)" hidden="true">
           <profiles/>
@@ -13597,7 +13597,7 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="b873-d130-4c67-667a" name="Voice of Curunir (Active)" hidden="false" targetId="bd1f-b7cc-dff2-2b07" type="rule">
+        <infoLink id="b873-d130-4c67-667a" name="Voice of Curunír (Active)" hidden="false" targetId="bd1f-b7cc-dff2-2b07" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14688,7 +14688,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
           <modifiers/>
           <description>Any model that suffers a wound from the Necromancer during the Fight phase is automatically slain regardless of the number of Wounds on its profile. A Hero can use Fate to avoid Wounds suffered, but if even a single Wound is not avoided then the Hero is slain and removed as a casualty.</description>
         </rule>
-        <rule id="2ac3-ef77-08fe-45e0" name="Master of the Nazgul (Passive)" book="Armies of the Hobbit" page="109" hidden="false">
+        <rule id="2ac3-ef77-08fe-45e0" name="Master of the Nazgûl (Passive)" book="Armies of the Hobbit" page="109" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -24792,9 +24792,9 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="822c-ff72-07d6-277b" name="The Nazgul of Dol Guldur" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="822c-ff72-07d6-277b" name="The Nazgûl of Dol Guldur" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="64e8-3171-253d-76b7" name="The Nazgul of Dol Guldur" book="Armies of the Hobbit" page="110" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="64e8-3171-253d-76b7" name="The Nazgûl of Dol Guldur" book="Armies of the Hobbit" page="110" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -24881,7 +24881,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="2ae9-1b5a-b4f5-5aa5" name="Khamul the Easterling" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2ae9-1b5a-b4f5-5aa5" name="Khamûl the Easterling" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
                 <rule id="0966-ca08-62df-a7ff" name="Rhunish Fury (Passive)" book="Armies of the Hobbit" page="111" hidden="false">
@@ -32297,7 +32297,7 @@ To extinguish the blaze, the model must either lie down and then crawl 1&quot;, 
       <modifiers/>
       <description>If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with the Strength and range specified in the model&apos;s profile.</description>
     </rule>
-    <rule id="bd1f-b7cc-dff2-2b07" name="Voice of Curunir (Active)" book="Armies of Lord of the Rings" page="167" hidden="false">
+    <rule id="bd1f-b7cc-dff2-2b07" name="Voice of Curunír (Active)" book="Armies of Lord of the Rings" page="167" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -32358,28 +32358,28 @@ To extinguish the blaze, the model must either lie down and then crawl 1&quot;, 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Friendly Haradrim and Mahud models within 3&quot; of this model may re-roll a single D6 when making a Duel roll. This is cumulative with the effects of a banner, however, each D6 may only be re-rolled once.</description>
+      <description>Friendly Haradrim and Mahûd models within 3&quot; of this model may re-roll a single D6 when making a Duel roll. This is cumulative with the effects of a banner, however, each D6 may only be re-rolled once.</description>
     </rule>
     <rule id="effd-0f0a-5cb3-34af" name="Trample" book="Armies of Lord of the Rings" page="195" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a War Mumak of Harad tramples, it will inflict three Strength 9 hits.</description>
+      <description>When a War Mûmak of Harad tramples, it will inflict three Strength 9 hits.</description>
     </rule>
     <rule id="cd14-022c-82c0-21a1" name="Foul Temperament" book="Armies of Lord of the Rings" page="195" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This Mumak has its Attacks increased to 4, however, it will suffer a -1 penalty to all Courage tests when rolling to see whether or not it will Stampede.</description>
+      <description>This Mûmak has its Attacks increased to 4, however, it will suffer a -1 penalty to all Courage tests when rolling to see whether or not it will Stampede.</description>
     </rule>
     <rule id="4632-4f22-5f50-61d0" name="Rappelling Lines" book="Armies of Lord of the Rings" page="195" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Models in the Howdah may attempt to dismount from the Mumak during the Move phase, after the Mumak has moved. Roll a D6 for each model that is attempting to dismount. On a 1, the rope has snapped and the unfortunate model suffers falling damage as normal. on a 2+, the model successfully dismounts, place it in base contact with the Mumak. Models that dismount may still Charge as normal, although they may not make shooting attacks.</description>
+      <description>Models in the Howdah may attempt to dismount from the Mûmak during the Move phase, after the Mûmak has moved. Roll a D6 for each model that is attempting to dismount. On a 1, the rope has snapped and the unfortunate model suffers falling damage as normal. on a 2+, the model successfully dismounts, place it in base contact with the Mûmak. Models that dismount may still Charge as normal, although they may not make shooting attacks.</description>
     </rule>
     <rule id="8d35-86bc-37b2-20ed" name="Rocks" book="Armies of Lord of the Rings" page="195" hidden="false">
       <profiles/>
@@ -32400,7 +32400,7 @@ To extinguish the blaze, the model must either lie down and then crawl 1&quot;, 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A Mumak with Tusk Weapons will inflict four Strength 9 hits when it Tramples, rather than three.</description>
+      <description>A Mûmak with Tusk Weapons will inflict four Strength 9 hits when it Tramples, rather than three.</description>
     </rule>
     <rule id="e617-5360-94e8-680b" name="Arcana Leech (Passive)" book="Armies of Lord of the Rings" page="138" hidden="false">
       <profiles/>
@@ -32470,9 +32470,9 @@ To extinguish the blaze, the model must either lie down and then crawl 1&quot;, 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If Khamul makes a Strike against an enemy model which causes a Wound, he instantly regains a single point of Will spent earlier in the battle for each Wound caused (unless the Wound is saved by a point of Fate or similar special rule). This cannot restore his Will beyond 12.
+      <description>If Khamûl makes a Strike against an enemy model which causes a Wound, he instantly regains a single point of Will spent earlier in the battle for each Wound caused (unless the Wound is saved by a point of Fate or similar special rule). This cannot restore his Will beyond 12.
 
-Additionally, Khamul may expend a single point of Will at the start of the Fight phase before Heroic Actions are declared, to increase either his Fight value, Strength or Attacks by 1 for the remainder of that Fight phase. Note that if he is mounted, Khamul will only ever increase his own Fight, Strength or Attacks, not those possessed by his mount.</description>
+Additionally, Khamûl may expend a single point of Will at the start of the Fight phase before Heroic Actions are declared, to increase either his Fight value, Strength or Attacks by 1 for the remainder of that Fight phase. Note that if he is mounted, Khamûl will only ever increase his own Fight, Strength or Attacks, not those possessed by his mount.</description>
     </rule>
     <rule id="866f-fed4-c596-9e57" name="Powers of Nature (Passive)" book="Armies of Lord of the Rings" page="80 &amp; 86" hidden="false">
       <profiles/>
@@ -33359,7 +33359,7 @@ Once they have arrived, the controlling player places the warband fully within a
         <characteristic name="Strength" characteristicTypeId="d5c2-b777-8fd5-cab3" value="6"/>
       </characteristics>
     </profile>
-    <profile id="3e5a-7b94-e952-cfde" name="Mumak" book="Armies of Lord of the Rings" page="194" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
+    <profile id="3e5a-7b94-e952-cfde" name="Mûmak" book="Armies of Lord of the Rings" page="194" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -33372,7 +33372,7 @@ Once they have arrived, the controlling player places the warband fully within a
         <characteristic name="Attack" characteristicTypeId="6235-3861-befd-7242" value="3"/>
         <characteristic name="Wounds" characteristicTypeId="ae83-f720-58f2-1a6d" value="10"/>
         <characteristic name="Courage" characteristicTypeId="a0e1-d7a9-598e-1545" value="7"/>
-        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Mumak Monster War Beast Hero"/>
+        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Mûmak Monster War Beast Hero"/>
       </characteristics>
     </profile>
     <profile id="8139-bcc4-fe9c-1bd3" name="Howdah" book="Armies of Lord of the Rings" page="194" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
