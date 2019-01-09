@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="47" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="48" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -400,50 +400,6 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="7faf-3169-4b36-c8c7" name="New CategoryLink" hidden="false" targetId="4a7b-8f86-68be-e1d6" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4e7d-947e-0a26-519e" name="Enforce Bow Limit" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="b874-3353-751d-53b5" value="1">
-          <repeats>
-            <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="97b8-a380-8f2e-3bba" value="1">
-          <repeats>
-            <repeat field="391e-19ac-b71d-f2e3" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="true"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="ab3b-a62b-ef54-533c" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97b8-a380-8f2e-3bba" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="92a3-4521-d5d2-d252" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeaf-01c3-6a16-a3e0" type="min"/>
-        <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b874-3353-751d-53b5" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="9770-15ba-bb0a-a1df" name="New CategoryLink" hidden="false" targetId="4a7b-8f86-68be-e1d6" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1616,23 +1572,24 @@
     <selectionEntry id="b2df-6b78-3eef-e449" name="Mithril Coat" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="1daf-4f17-ad58-c383" name="Mithril Coat" hidden="false" targetId="9669-eec0-800c-85e5" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2f2-3ce8-52c6-8000" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ee-8f16-9914-b72e" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="18b1-d4ca-0d4b-1969" name="Mithril Coat" hidden="false" targetId="97b9-e206-4382-7257" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -1642,29 +1599,24 @@
     <selectionEntry id="2428-760d-9db5-14d8" name="Sting" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="71b0-6ae7-76cf-fa30" name="Sting" hidden="false" targetId="bc2b-9885-5cf5-6346" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3501-821c-6f3d-5a21" name="Elven-made" hidden="false" targetId="590e-3a27-7c54-f521" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3693-28f7-240e-2260" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6bb-c436-2635-014f" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="2cfa-506b-aaf7-b643" name="Sting" hidden="false" targetId="b471-7653-0304-33d3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -11212,7 +11164,22 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="5c5a-e8b0-6188-3471" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e2d5-bfec-44d4-1ef3" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dd6c-5c6d-5d90-e8cc" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -11220,7 +11187,15 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="75ee-8f16-9914-b72e" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e2d5-bfec-44d4-1ef3" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -11228,7 +11203,15 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="a6bb-c436-2635-014f" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="46c3-7695-49ab-62dc" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -11459,7 +11442,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
         <modifier type="set" field="1f19-3cae-ffda-941a" value="0.0">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dd6c-5c6d-5d90-e8cc" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dd6c-5c6d-5d90-e8cc" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -11490,7 +11473,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="70f3-ebc1-5973-6b0b" name="Mithril Coat" hidden="false" targetId="b2df-6b78-3eef-e449" type="selectionEntry">
+            <entryLink id="70f3-ebc1-5973-6b0b" name="Mithril Coat" hidden="false" targetId="97b9-e206-4382-7257" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12409,14 +12392,12 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="da4c-7cae-7581-1363" name="Sting" hidden="false" targetId="2428-760d-9db5-14d8" type="selectionEntry">
+            <entryLink id="da4c-7cae-7581-1363" name="Sting" hidden="false" targetId="b471-7653-0304-33d3" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5276-5093-148d-652a" type="min"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -12629,7 +12610,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
         <modifier type="set" field="e85d-82d9-53ee-2227" value="0.0">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2d5-bfec-44d4-1ef3" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2d5-bfec-44d4-1ef3" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -28862,6 +28843,58 @@ The Chariot is also subject to the following exceptions:
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="97b9-e206-4382-7257" name="Mithril Coat" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="45e1-f514-1ff5-1f55" name="Mithril Coat (Passive)" hidden="false" targetId="9669-eec0-800c-85e5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd8-95c7-f26f-0133" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63da-7b56-ae82-f04f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c492-543f-5fa7-6ddc" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="b471-7653-0304-33d3" name="Sting" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8d81-9939-5dbc-dce9" name="Sting (Active)" hidden="false" targetId="bc2b-9885-5cf5-6346" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7a5a-7034-8cb8-c518" name="Elven-made" hidden="false" targetId="590e-3a27-7c54-f521" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3c-3fd9-676e-9c6c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7a1-d808-c6fe-0be7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e4b8-8305-cc77-a52a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
