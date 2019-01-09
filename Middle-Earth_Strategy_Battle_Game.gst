@@ -2557,7 +2557,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Friendly Dwarf models with either the Khazad-Dum or Moria keyword may re-roll To Wound rolls of a 1 when fighting in close combat.</description>
+          <description>Friendly Dwarf models with either the Khazad-Dûm or Moria keyword may re-roll To Wound rolls of a 1 when fighting in close combat.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2625,7 +2625,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Friendly Numenor models from this army list increase their Courage value by 1.</description>
+          <description>Friendly Númenor models from this army list increase their Courage value by 1.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2831,7 +2831,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>All models from this army list gain the Woodland Creature special rule, and the Rangers of the North and Dunedain may benefit from the Stand Fast! of Arathorn, Halbarad and Aragorn - Strider. Additionally, the Rangers of the North and the Dunedain increase their Attacks value to 2, whilst they have the Infantry keyword.</description>
+          <description>All models from this army list gain the Woodland Creature special rule, and the Rangers of the North and Dúnedain may benefit from the Stand Fast! of Arathorn, Halbarad and Aragorn - Strider. Additionally, the Rangers of the North and the Dúnedain increase their Attacks value to 2, whilst they have the Infantry keyword.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -3312,7 +3312,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="756a-c92a-b077-555d" name="Wildmen of Druadan" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="756a-c92a-b077-555d" name="Wildmen of Drúadan" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3656,7 +3656,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6571-6b45-2709-e577" name="Numenor" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6571-6b45-2709-e577" name="Númenor" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3785,7 +3785,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d175-1d2d-a438-8b56" name="Lothlorien" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d175-1d2d-a438-8b56" name="Lothlórien" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4258,7 +4258,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98a6-d611-c152-6d88" name="Army of Thror" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="98a6-d611-c152-6d88" name="Army of Thrór" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5829,9 +5829,9 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="490b-d0a2-979b-56dd" name="Black Numenorean Marshal" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="490b-d0a2-979b-56dd" name="Black Númenórean Marshal" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="8e8d-3a9f-8cb2-5d9d" name="Black Numenorean Marshal" book="Armies of Lord of the Rings" page="118" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="8e8d-3a9f-8cb2-5d9d" name="Black Númenórean Marshal" book="Armies of Lord of the Rings" page="118" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10512,7 +10512,7 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="2854-73ca-6950-bd7c" name="Anduril, Flame of the West" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2854-73ca-6950-bd7c" name="Andúril, Flame of the West" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -10528,7 +10528,7 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
                   <infoLinks/>
                   <modifiers/>
                 </infoLink>
-                <infoLink id="36c6-6f7a-5f0d-b7e9" name="Anduril, Flame of the West" hidden="false" targetId="ea35-2a2b-59b7-4dc2" type="profile">
+                <infoLink id="36c6-6f7a-5f0d-b7e9" name="Andúril, Flame of the West" hidden="false" targetId="ea35-2a2b-59b7-4dc2" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11027,11 +11027,11 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="b7da-ab16-db3a-0be5" name="Anduril, Flame of the West" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="b7da-ab16-db3a-0be5" name="Andúril, Flame of the West" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="fac5-5074-1137-29c4" name="Anduril, Flame of the West" hidden="false" targetId="ea35-2a2b-59b7-4dc2" type="profile">
+                <infoLink id="fac5-5074-1137-29c4" name="Andúril, Flame of the West" hidden="false" targetId="ea35-2a2b-59b7-4dc2" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11262,9 +11262,9 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="faef-5e8e-6a72-6908" name="Dunedain" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="faef-5e8e-6a72-6908" name="Dúnedain" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="d986-6fae-7693-e2d2" name="Dunedain" book="Armies of Lord of the Rings" page="27" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="d986-6fae-7693-e2d2" name="Dúnedain" book="Armies of Lord of the Rings" page="27" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12733,9 +12733,9 @@ Additionally, Khamul may expend a single point of Will at the start of the Fight
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="120a-8965-6980-8112" name="Gimli Son of Gloin" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="120a-8965-6980-8112" name="Gimli Son of Glóin" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="0f09-ef21-89d6-d15a" name="Gimli Son of Gloin" book="Armies of Lord of the Rings" page="12" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="0f09-ef21-89d6-d15a" name="Gimli Son of Glóin" book="Armies of Lord of the Rings" page="12" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15248,7 +15248,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="bd34-a6c1-f230-a4bc" name="*The Lady of Lothlorien (Passive)" hidden="false" targetId="f2a8-2c2e-98ca-fdef" type="rule">
+        <infoLink id="bd34-a6c1-f230-a4bc" name="*The Lady of Lothlórien (Passive)" hidden="false" targetId="f2a8-2c2e-98ca-fdef" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16231,9 +16231,9 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5196-7023-6fc6-c0ee" name="Thrain" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5196-7023-6fc6-c0ee" name="Thráin" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="a047-8863-b551-e804" name="Thrain" book="Armies of the Hobbit" page="20" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="a047-8863-b551-e804" name="Thráin" book="Armies of the Hobbit" page="20" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16381,10 +16381,10 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ebc-8574-4d6c-92a0" name="Thror ruled with utter surety, never doubting his house would endure" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8ebc-8574-4d6c-92a0" name="Thrór ruled with utter surety, never doubting his house would endure" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="04a0-aa17-7c02-7ac5" name="Thror ruled with utter surety, never doubting his house would endure" book="Armies of the Hobbit" page="18" hidden="false">
+        <rule id="04a0-aa17-7c02-7ac5" name="Thrór ruled with utter surety, never doubting his house would endure" book="Armies of the Hobbit" page="18" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16445,9 +16445,9 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f16-c3be-5242-fc5c" name="Durin, King of Khazard-Dum" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8f16-c3be-5242-fc5c" name="Durin, King of Khazard-Dûm" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="100a-7be4-174f-e5af" name="Durin, King of Khazard-Dum" book="Armies of Lord of the Rings" page="97" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="100a-7be4-174f-e5af" name="Durin, King of Khazard-Dûm" book="Armies of Lord of the Rings" page="97" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16464,7 +16464,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="3"/>
             <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
             <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="Strike Defence Challenge"/>
-            <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero"/>
+            <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero"/>
             <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Legend"/>
           </characteristics>
         </profile>
@@ -16707,9 +16707,9 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8cf6-136e-1b2f-4040" name="Thror" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8cf6-136e-1b2f-4040" name="Thrór" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="387a-26ca-78ed-053b" name="Thror" book="Armies of the Hobbit" page="19" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="387a-26ca-78ed-053b" name="Thrór" book="Armies of the Hobbit" page="19" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17647,9 +17647,9 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d718-8f10-c8e4-48a7" name="Kili the Dwarf" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d718-8f10-c8e4-48a7" name="Kíli the Dwarf" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="f968-30e6-0563-d785" name="Kili the Dwarf" book="Armies of the Hobbit" page="10" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="f968-30e6-0563-d785" name="Kíli the Dwarf" book="Armies of the Hobbit" page="10" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17778,9 +17778,9 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="03ee-b6be-132f-0caf" name="Fili the Dwarf" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="03ee-b6be-132f-0caf" name="Fíli the Dwarf" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="9cfe-aa14-3d56-e8d7" name="Fili the Dwarf" book="Armies of the Hobbit" page="10" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="9cfe-aa14-3d56-e8d7" name="Fíli the Dwarf" book="Armies of the Hobbit" page="10" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19063,9 +19063,9 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="308c-7251-a877-9e80" name="Oin the Dwarf" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="308c-7251-a877-9e80" name="Óin the Dwarf" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="24f1-d796-9dba-4088" name="Oin the Dwarf" book="Armies of the Hobbit" page="15" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="24f1-d796-9dba-4088" name="Óin the Dwarf" book="Armies of the Hobbit" page="15" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19208,9 +19208,9 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9743-fc7b-b512-45b1" name="Gloin the Dwarf" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9743-fc7b-b512-45b1" name="Glóin the Dwarf" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="8963-74e1-3f8c-d7cd" name="Gloin the Dwarf" book="Armies of the Hobbit" page="15" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="8963-74e1-3f8c-d7cd" name="Glóin the Dwarf" book="Armies of the Hobbit" page="15" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20522,9 +20522,9 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3db2-cf6a-8479-5dab" name="Kili the Dwarf, Champion of Erebor" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3db2-cf6a-8479-5dab" name="Kíli the Dwarf, Champion of Erebor" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="f1e3-3c98-407b-e0c0" name="Kili the Dwarf, Champion of Erebor" book="Armies of the Hobbit" page="38" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="f1e3-3c98-407b-e0c0" name="Kíli the Dwarf, Champion of Erebor" book="Armies of the Hobbit" page="38" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20662,9 +20662,9 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6da8-3da2-b5a2-730e" name="Fili the Dwarf, Champion of Erebor" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6da8-3da2-b5a2-730e" name="Fíli the Dwarf, Champion of Erebor" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="80d9-4964-4731-8a39" name="Fili the Dwarf, Champion of Erebor" book="Armies of the Hobbit" page="38" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="80d9-4964-4731-8a39" name="Fíli the Dwarf, Champion of Erebor" book="Armies of the Hobbit" page="38" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21853,9 +21853,9 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="30ff-24ac-eaf8-375d" name="Oin the Dwarf, Champion of Erebor" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="30ff-24ac-eaf8-375d" name="Óin the Dwarf, Champion of Erebor" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="9fe9-15e7-4d32-deac" name="Oin the Dwarf, Champion of Erebor" book="Armies of the Hobbit" page="43" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="9fe9-15e7-4d32-deac" name="Óin the Dwarf, Champion of Erebor" book="Armies of the Hobbit" page="43" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21982,9 +21982,9 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="02f1-c2e3-1419-40e8" name="Gloin the Dwarf, Champion of Erebor" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="02f1-c2e3-1419-40e8" name="Glóin the Dwarf, Champion of Erebor" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="5412-85b1-6446-2589" name="Gloin the Dwarf, Champion of Erebor" book="Armies of the Hobbit" page="43" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="5412-85b1-6446-2589" name="Glóin the Dwarf, Champion of Erebor" book="Armies of the Hobbit" page="43" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -22919,7 +22919,7 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="a852-f246-d675-a35d" name="*The Lady of Lothlorien (Passive)" hidden="false" targetId="f2a8-2c2e-98ca-fdef" type="rule">
+        <infoLink id="a852-f246-d675-a35d" name="*The Lady of Lothlórien (Passive)" hidden="false" targetId="f2a8-2c2e-98ca-fdef" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -23069,9 +23069,9 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="45a4-72ae-b391-f631" name="Thrain the Broken" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="45a4-72ae-b391-f631" name="Thráin the Broken" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="5c22-4cb1-af59-27e8" name="Thrain the Broken" book="Armies of the Hobbit" page="89" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="5c22-4cb1-af59-27e8" name="Thráin the Broken" book="Armies of the Hobbit" page="89" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -26385,7 +26385,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior">
+            <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -26408,7 +26408,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Attack" characteristicTypeId="6235-3861-befd-7242" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="ae83-f720-58f2-1a6d" value=""/>
             <characteristic name="Courage" characteristicTypeId="a0e1-d7a9-598e-1545" value="4"/>
-            <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Kazard-Dum Infantry Warrior"/>
+            <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Kazard-Dûm Infantry Warrior"/>
           </characteristics>
         </profile>
       </profiles>
@@ -26510,7 +26510,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior">
+            <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -26526,7 +26526,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Attack" characteristicTypeId="6235-3861-befd-7242" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="ae83-f720-58f2-1a6d" value="1"/>
             <characteristic name="Courage" characteristicTypeId="a0e1-d7a9-598e-1545" value="4"/>
-            <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior"/>
+            <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior"/>
           </characteristics>
         </profile>
       </profiles>
@@ -26775,7 +26775,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero">
+                    <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero">
                       <repeats/>
                       <conditions>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -26912,7 +26912,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero">
+                    <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero">
                       <repeats/>
                       <conditions>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -27093,7 +27093,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero">
+            <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -27120,7 +27120,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="1"/>
             <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
             <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="March"/>
-            <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero"/>
+            <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero"/>
             <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Fortitude"/>
           </characteristics>
         </profile>
@@ -27231,7 +27231,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero">
+            <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -27258,7 +27258,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="2"/>
             <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
             <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="Resolve March"/>
-            <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero"/>
+            <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero"/>
             <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Fortitude"/>
           </characteristics>
         </profile>
@@ -27372,7 +27372,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero">
+                <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero">
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -27399,7 +27399,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                 <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="1"/>
                 <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="2"/>
                 <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="-"/>
-                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero"/>
+                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero"/>
                 <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Independant Hero"/>
               </characteristics>
             </profile>
@@ -27514,7 +27514,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero">
+                <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero">
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -27639,7 +27639,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero">
+            <modifier type="set" field="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -27659,7 +27659,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="0"/>
             <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="0"/>
             <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="-"/>
-            <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dum Infantry Hero"/>
+            <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Dwarf Khazad-Dûm Infantry Hero"/>
             <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Minor Hero"/>
           </characteristics>
         </profile>
@@ -28036,14 +28036,14 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description> If this upgrade is taken for the Chariot, then instead of being crewed by four Iron Hills Dwarves, it is crewed by Balin the Dwarf, Champion of Erebor; Dwalin the Dwarf, Champion of Erebor; Kili the Dwarf, Champion of Erebor and Fili the Dwarf, Champion of Erebor. If the Champions of Erebor are taken, replace the Warrior keyword with Hero.
+          <description> If this upgrade is taken for the Chariot, then instead of being crewed by four Iron Hills Dwarves, it is crewed by Balin the Dwarf, Champion of Erebor; Dwalin the Dwarf, Champion of Erebor; Kíli the Dwarf, Champion of Erebor and Fíli the Dwarf, Champion of Erebor. If the Champions of Erebor are taken, replace the Warrior keyword with Hero.
 The Chariot is also subject to the following exceptions:
 • Balin must always be the driver. Should Balin the Dwarf, Champion of Erebor be slain, another Dwarf on the Chariot immediately takes his place. Should all the Dwarves be slain, then the Chariot is removed as a casualty. If the Chariot is slain, the Dwarves take a Thrown Rider test instead.
 • The Dwarves who ride the Chariot have all of their usual wargear and special rules (see pages 38-39) whilst riding in the Chariot.
 • Dwalin must always man the rapid fire bolt thrower until he is slain.
-• Unlike other Iron Hills Chariots, only Balin, Dwalin, Kili and Fili may ride this Chariot.
+• Unlike other Iron Hills Chariots, only Balin, Dwalin, Kíli and Fíli may ride this Chariot.
 • Magical Powers may be directed at the Dwarves individually, in which case they will Resist and be affected individually with no impact on each other.
-• In combat, the Chariot is very unusual in that a Duel can effectively have multiple models on both sides of the Fight. When making a Duel roll, make sure to roll each Dwarf’s attacks separately for the purpose of using Might points. Additionally, each Dwarf may decide to use Special Strikes. If Kili or Fili use the Feint Special Strike, then the Fight values of all of the crew and the Chariot itself will be reduced by D3. If Kili or Fili use the Stab Special Strike, then only they will be affected. If Dwalin uses the Piercing Strike Special Strike then only his Strength and Defence will be affected.
+• In combat, the Chariot is very unusual in that a Duel can effectively have multiple models on both sides of the Fight. When making a Duel roll, make sure to roll each Dwarf’s attacks separately for the purpose of using Might points. Additionally, each Dwarf may decide to use Special Strikes. If Kíli or Fíli use the Feint Special Strike, then the Fight values of all of the crew and the Chariot itself will be reduced by D3. If Kíli or Fíli use the Stab Special Strike, then only they will be affected. If Dwalin uses the Piercing Strike Special Strike then only his Strength and Defence will be affected.
 • This version of the Chariot counts as four models for the purpose of working out Break points.
 • The Chariot counts as a Hero for the Erebor Reclaimed army list and may be the army leader. It may not, however, lead a warband. If the Chariot is chosen as the leader of your army, then Balin is the leader for all intents and purposes.</description>
         </rule>
@@ -28066,7 +28066,7 @@ The Chariot is also subject to the following exceptions:
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="71bc-878b-8c9e-f2c6" name="Fili the Dwarf, Champion of Erebor" hidden="false" targetId="6da8-3da2-b5a2-730e" type="selectionEntry">
+        <entryLink id="71bc-878b-8c9e-f2c6" name="Fíli the Dwarf, Champion of Erebor" hidden="false" targetId="6da8-3da2-b5a2-730e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -28082,7 +28082,7 @@ The Chariot is also subject to the following exceptions:
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4f14-16ba-fc4d-f2b8" name="Kili the Dwarf, Champion of Erebor" hidden="false" targetId="3db2-cf6a-8479-5dab" type="selectionEntry">
+        <entryLink id="4f14-16ba-fc4d-f2b8" name="Kíli the Dwarf, Champion of Erebor" hidden="false" targetId="3db2-cf6a-8479-5dab" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -28305,7 +28305,7 @@ The Chariot is also subject to the following exceptions:
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="654c-120f-e2ba-1f33" name="Murin &amp; Drar" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="654c-120f-e2ba-1f33" name="Múrin &amp; Drár" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -28317,9 +28317,9 @@ The Chariot is also subject to the following exceptions:
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="8b00-0f8c-987b-7d93" name="Murin" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="8b00-0f8c-987b-7d93" name="Múrin" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="02fd-df0c-a33a-fa97" name="Murin" book="Armies of Lord of the Rings" page="107" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+            <profile id="02fd-df0c-a33a-fa97" name="Múrin" book="Armies of Lord of the Rings" page="107" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -28360,9 +28360,9 @@ The Chariot is also subject to the following exceptions:
               <constraints/>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="2da3-e57c-31db-d467" name="Kalazal" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="2da3-e57c-31db-d467" name="Kalazâl" hidden="false" collective="false" type="upgrade">
                   <profiles>
-                    <profile id="7348-7f3f-93cc-bd5b" name="Kalazal (Active)" book="Armies of Lord of the Rings" page="107" hidden="false" profileTypeId="c6d6-90e7-ef64-8355" profileTypeName="Wargear">
+                    <profile id="7348-7f3f-93cc-bd5b" name="Kalazâl (Active)" book="Armies of Lord of the Rings" page="107" hidden="false" profileTypeId="c6d6-90e7-ef64-8355" profileTypeName="Wargear">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -28435,9 +28435,9 @@ The Chariot is also subject to the following exceptions:
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8d7b-6387-ea14-401a" name="Drar" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="8d7b-6387-ea14-401a" name="Drár" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="805f-49b4-a33a-4c62" name="Drar" book="Armies of Lord of the Rings" page="107" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+            <profile id="805f-49b4-a33a-4c62" name="Drár" book="Armies of Lord of the Rings" page="107" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -28760,9 +28760,9 @@ The Chariot is also subject to the following exceptions:
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e3b4-2195-26ce-f24e" name="Floi Stonehand" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e3b4-2195-26ce-f24e" name="Flói Stonehand" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="8662-aa70-7b87-ae6e" name="Floi Stonehand" book="Armies of Lord of the Rings" page="98" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+        <profile id="8662-aa70-7b87-ae6e" name="Flói Stonehand" book="Armies of Lord of the Rings" page="98" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -28790,14 +28790,14 @@ The Chariot is also subject to the following exceptions:
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>At the start of his move, Floi can spend a point of Will to negate an enemy Active or Passive special rule, or the effects of a piece of wargear (with the exception of The One Ring) until the end of the turn. There is no range for this ability, but Floi must have Line of Sight in order to use it.</description>
+          <description>At the start of his move, Flói can spend a point of Will to negate an enemy Active or Passive special rule, or the effects of a piece of wargear (with the exception of The One Ring) until the end of the turn. There is no range for this ability, but Flói must have Line of Sight in order to use it.</description>
         </rule>
         <rule id="474e-5594-fdeb-c204" name="The Living Lore (Passive)" book="Armies of Lord of the Rings" page="98" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model. Floi immediately recovers a point of Will spent earlier in the battle.</description>
+          <description>Each time a friendly Moria Dwarf model slays an enemy Hero or Monster model. Flói immediately recovers a point of Will spent earlier in the battle.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -32545,7 +32545,7 @@ Select another model in the Fight for the Ent to hit with the bludgeon. Both the
       <modifiers/>
       <description>A Mirkwood Spider can shoot webs at its enemies. They are treated as a throwing weapon with a range of 8&quot;. If a Mirkwood Spider hits its target, do not roll To Wound. Instead, the model suffers the effects of the Paralyse Magical Power. A Hero model hit by a Spider Web can choose to expend a Fate point in the same manner as if it had just suffered a Wound in order to dodge the attack. If successful, the target model is not Paralysed.</description>
     </rule>
-    <rule id="f2a8-2c2e-98ca-fdef" name="*The Lady of Lothlorien (Passive)" book="Armies of Lord of the Rings" page="83" hidden="false">
+    <rule id="f2a8-2c2e-98ca-fdef" name="*The Lady of Lothlórien (Passive)" book="Armies of Lord of the Rings" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -33311,13 +33311,13 @@ Once they have arrived, the controlling player places the warband fully within a
         <characteristic name="Strength" characteristicTypeId="d5c2-b777-8fd5-cab3" value="4"/>
       </characteristics>
     </profile>
-    <profile id="ea35-2a2b-59b7-4dc2" name="Anduril, Flame of the West (Active)" book="Armies of Lord of the Rings" page="12" hidden="false" profileTypeId="c6d6-90e7-ef64-8355" profileTypeName="Wargear">
+    <profile id="ea35-2a2b-59b7-4dc2" name="Andúril, Flame of the West (Active)" book="Armies of Lord of the Rings" page="12" hidden="false" profileTypeId="c6d6-90e7-ef64-8355" profileTypeName="Wargear">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Rules" characteristicTypeId="327f-0755-cd3a-d1a0" value="Anduril is an Elven-made hand-and-a-half sword. Additionally, when making Strikes with Anduril, Aragorn never requires more than a 4 for his To Wound rolls. Note that if Aragorn elects to use Anduril as a two-handed weapon, he will still get the +1 bonus To Wound meaning he will Wound on a 3+."/>
+        <characteristic name="Rules" characteristicTypeId="327f-0755-cd3a-d1a0" value="Andúril is an Elven-made hand-and-a-half sword. Additionally, when making Strikes with Andúril, Aragorn never requires more than a 4 for his To Wound rolls. Note that if Aragorn elects to use Andúril as a two-handed weapon, he will still get the +1 bonus To Wound meaning he will Wound on a 3+."/>
       </characteristics>
     </profile>
     <profile id="61ed-d94d-9a8c-35d7" name="Whip" book="Middle-Earth Strategy Battle Game Rules Manual" page="86" hidden="false" profileTypeId="62a5-708a-12af-2fa2" profileTypeName="Shooting Weapon">
@@ -33481,7 +33481,7 @@ Once they have arrived, the controlling player places the warband fully within a
         <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Troll Mordor Monster Infantry Warrior"/>
       </characteristics>
     </profile>
-    <profile id="c9b2-a774-4475-a043" name="Black Numenorean" book="Armies of Lord of the Rings" page="121" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
+    <profile id="c9b2-a774-4475-a043" name="Black Númenórean" book="Armies of Lord of the Rings" page="121" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -34032,7 +34032,7 @@ Once they have arrived, the controlling player places the warband fully within a
         <characteristic name="Attack" characteristicTypeId="6235-3861-befd-7242" value="1"/>
         <characteristic name="Wounds" characteristicTypeId="ae83-f720-58f2-1a6d" value="1"/>
         <characteristic name="Courage" characteristicTypeId="a0e1-d7a9-598e-1545" value="5"/>
-        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Elf Lothlorien Infantry Warrior"/>
+        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Elf Lothlórien Infantry Warrior"/>
       </characteristics>
     </profile>
     <profile id="8493-a2f4-d950-3d4e" name="Wood Elf Spear (Active)" book="Armies of Lord of the Rings" page="88" hidden="false" profileTypeId="c6d6-90e7-ef64-8355" profileTypeName="Wargear">
@@ -34306,12 +34306,12 @@ Once they have arrived, the controlling player places the warband fully within a
         <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Iron Hills Cavalry Warrior"/>
       </characteristics>
     </profile>
-    <profile id="5746-e410-4a30-6e55" name="Khazad Guard" book="Armies of Lord of the Rings" page="103" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
+    <profile id="5746-e410-4a30-6e55" name="Khazâd Guard" book="Armies of Lord of the Rings" page="103" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior">
+        <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior">
           <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -34334,7 +34334,7 @@ Once they have arrived, the controlling player places the warband fully within a
         <characteristic name="Attack" characteristicTypeId="6235-3861-befd-7242" value="1"/>
         <characteristic name="Wounds" characteristicTypeId="ae83-f720-58f2-1a6d" value="1"/>
         <characteristic name="Courage" characteristicTypeId="a0e1-d7a9-598e-1545" value="4"/>
-        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior"/>
+        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior"/>
       </characteristics>
     </profile>
     <profile id="4c3b-0618-7e33-f649" name="Iron Guard" book="Armies of Lord of the Rings" page="103" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
@@ -34342,7 +34342,7 @@ Once they have arrived, the controlling player places the warband fully within a
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior">
+        <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior">
           <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -34365,7 +34365,7 @@ Once they have arrived, the controlling player places the warband fully within a
         <characteristic name="Attack" characteristicTypeId="6235-3861-befd-7242" value="2"/>
         <characteristic name="Wounds" characteristicTypeId="ae83-f720-58f2-1a6d" value="1"/>
         <characteristic name="Courage" characteristicTypeId="a0e1-d7a9-598e-1545" value="4"/>
-        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior"/>
+        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior"/>
       </characteristics>
     </profile>
     <profile id="b3bb-75b9-992a-80ed" name="Dwarf Warrior" book="Armies of Lord of the Rings" page="102" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
@@ -34373,7 +34373,7 @@ Once they have arrived, the controlling player places the warband fully within a
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior">
+        <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior">
           <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -34396,7 +34396,7 @@ Once they have arrived, the controlling player places the warband fully within a
         <characteristic name="Attack" characteristicTypeId="6235-3861-befd-7242" value="1"/>
         <characteristic name="Wounds" characteristicTypeId="ae83-f720-58f2-1a6d" value="1"/>
         <characteristic name="Courage" characteristicTypeId="a0e1-d7a9-598e-1545" value="4"/>
-        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior"/>
+        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior"/>
       </characteristics>
     </profile>
     <profile id="03bc-c3df-2bb7-7a53" name="Dwarf Ranger" book="Armies of Lord of the Rings" page="104" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
@@ -34404,7 +34404,7 @@ Once they have arrived, the controlling player places the warband fully within a
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior">
+        <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior">
           <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd56-02c1-26ac-f1d4" type="equalTo"/>
@@ -34427,7 +34427,7 @@ Once they have arrived, the controlling player places the warband fully within a
         <characteristic name="Attack" characteristicTypeId="6235-3861-befd-7242" value="1"/>
         <characteristic name="Wounds" characteristicTypeId="ae83-f720-58f2-1a6d" value="1"/>
         <characteristic name="Courage" characteristicTypeId="a0e1-d7a9-598e-1545" value="4"/>
-        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dum Infantry Warrior"/>
+        <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Dwarf Khazad-Dûm Infantry Warrior"/>
       </characteristics>
     </profile>
   </sharedProfiles>
