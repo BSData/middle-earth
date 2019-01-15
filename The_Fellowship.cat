@@ -373,7 +373,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1f0e-c935-3a0d-f217" name="Bill the Pony" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="1f0e-c935-3a0d-f217" name="Bill the Pony" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="37f3-9def-37d8-290b" name="Bill the Pony" book="Armies of Lord of the Rings" page="14" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
               <profiles/>
@@ -552,7 +552,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ff35-c6ae-704d-81c8" name="Sméagol" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ff35-c6ae-704d-81c8" name="Sméagol" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="54dc-e97d-6573-1c4a" name="Sméagol" book="Armies of Lord of the Rings" page="15" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
               <profiles/>
@@ -749,7 +749,9 @@
       <modifiers>
         <modifier type="set" field="e767-a24e-d3eb-c447" value="1">
           <repeats/>
-          <conditions/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
+          </conditions>
           <conditionGroups/>
         </modifier>
       </modifiers>

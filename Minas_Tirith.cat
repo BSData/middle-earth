@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="15" battleScribeVersion="2.01" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="16" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="fc30-4f2d-8584-a027" name="Starting Battle Company" book="Battle Companies" page="19" hidden="true">
@@ -151,7 +151,7 @@ Special Chart
               <constraints/>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="2bdf-4757-34b9-6e8d" name="Additional Crew" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="2bdf-4757-34b9-6e8d" name="Additional Crew" hidden="false" collective="false" type="model">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -173,8 +173,8 @@ Special Chart
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="7.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="7.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -199,7 +199,7 @@ Special Chart
               <constraints/>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="80c6-9de9-3c31-6325" name="Minas Tirith Crew" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="80c6-9de9-3c31-6325" name="Minas Tirith Crew" hidden="false" collective="false" type="model">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -261,8 +261,8 @@ Special Chart
                   </selectionEntryGroups>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -282,8 +282,8 @@ Special Chart
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -291,9 +291,9 @@ Special Chart
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2163-0c2f-63be-9f1a" name="Denethor, Steward of Gondor" hidden="false" collective="false" type="upgrade">
@@ -313,139 +313,7 @@ Special Chart
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0bac-9b64-7b27-510c" name="Denethor, Steward of Gondor" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="e5ba-4505-e044-4e7a" name="Denethor, Steward of Gondor" book="Armies of Lord of the Rings" page="35" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Movement" characteristicTypeId="6d57-f596-e10e-6233" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="5930-f060-2064-c9d5" value="5/4+"/>
-                <characteristic name="Strength" characteristicTypeId="fbbc-8f2f-c413-710a" value="4"/>
-                <characteristic name="Defense" characteristicTypeId="49e3-08b4-2b5f-a6dd" value="5"/>
-                <characteristic name="Attack" characteristicTypeId="7d79-496f-5c13-35c4" value="2"/>
-                <characteristic name="Wounds" characteristicTypeId="8bda-d8a5-a1e7-2146" value="2"/>
-                <characteristic name="Courage" characteristicTypeId="b88a-7dd4-569c-d0b1" value="5"/>
-                <characteristic name="Might" characteristicTypeId="db92-6a08-e1ce-a77d" value="0"/>
-                <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="3"/>
-                <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="0"/>
-                <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="-"/>
-                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Man Gondor Infantry Hero"/>
-                <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Valour"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="8ea1-4e40-6c66-5022" name="Broken Mind (Passive)" book="Armies of Lord of the Rings" page="35" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>At the start of every turn, before Priority is rolled, the controlling player must take a Courage test for Denethor. If the test is passed, all is fine. If the test is failed, Denethor is controlled by the opposing player until the End phase of that turn. Whislt under the control of the opposing player, friendly models cannot target Denethor with shooting attack or Magical Powers that cause damage and may not make Strikes if they beat him in a fight.
-
-If Boromir is part of the same army as Denethor, then Denethor will automatically pass these Courage tests so long as Boromir is alive. Should Boromir be slain, then Denethor will automatically fail the next Courage test he must take for this special rule.</description>
-            </rule>
-            <rule id="b812-8023-51e9-1004" name="&quot;The rule of Gondor is mine, and no other&apos;s!&quot; (Passive)" book="Armies of Lord of the Rings" page="35" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>If your force contains Denethor then he must be your leader, unless your force also contains Aragorn, King Elessar.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6841-e0d6-2299-5c52" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a635-d171-a3df-3d76" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="209f-8321-5543-006b" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="2b94-2e76-3799-b8b1" name="Wargear" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="c8fa-bcd8-3b28-ec7a" name="Heavy Armour" hidden="false" targetId="0439-1154-4306-11d8" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="f121-564e-5fe1-5c61" name="Sword" hidden="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="e788-7af9-4a19-c3be" name="Hero of Valour" hidden="false" targetId="9afa-e012-fc54-795e" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="c3a4-d111-8828-c18d" name="Leader (Valour)" hidden="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="0ffa-0439-582e-3fcf" value="0.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d486-cc86-7f02-0f18" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ffa-0439-582e-3fcf" type="min"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="e5cd-8a09-3ffb-6904" name="Leader (Legend)" hidden="false" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="427b-77c2-22d2-ddd8" value="0.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c3a4-d111-8828-c18d" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="35.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="353a-d8e0-6454-eb65" name="Warband" hidden="false" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
@@ -462,11 +330,19 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="6988-84de-81be-766b" name="Denethor, Steward of Gondor" hidden="false" targetId="7950-ad8b-2321-f820" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="382f-c56c-2c7e-f2b7" name="Gandalf the White" hidden="false" collective="false" type="upgrade">
@@ -513,9 +389,9 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d486-cc86-7f02-0f18" name="Aragorn, King Elessar" hidden="false" collective="false" type="upgrade">
@@ -570,9 +446,9 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f94-ae74-7764-bd6b" name="King of Men" hidden="false" collective="false" type="upgrade">
@@ -664,7 +540,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0e1d-cce5-3a0a-ed5a" name="King of Men" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="0e1d-cce5-3a0a-ed5a" name="King of Men" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="9f57-1f81-077f-f86b" name="King of Men" book="Armies of Lord of the Rings" page="40" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
               <profiles/>
@@ -870,8 +746,8 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -894,9 +770,9 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9b8-85fb-7188-ac05" name="Knight of the White Tower" hidden="false" collective="false" type="upgrade">
@@ -915,7 +791,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ca86-9189-0c7b-3f36" name="Knight of the White Tower" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ca86-9189-0c7b-3f36" name="Knight of the White Tower" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="90ee-c1ba-98d6-003e" name="Knight of the White Tower" book="Armies of Lord of the Rings" page="39" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
               <profiles/>
@@ -1002,8 +878,8 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -1048,8 +924,8 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1072,9 +948,9 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e420-8bf2-77a2-30b3" name="Cirion, Lieutenant of Amon Barad" hidden="false" collective="false" type="upgrade">
@@ -1094,112 +970,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8c0b-3cde-9b66-fe07" name="Cirion, Lieutenant of Amon Barad" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="b7a2-aa70-be21-eb59" name="Cirion, Lieutenant of Amon Barad" book="Armies of Lord of the Rings" page="39" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Movement" characteristicTypeId="6d57-f596-e10e-6233" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="5930-f060-2064-c9d5" value="4/3+"/>
-                <characteristic name="Strength" characteristicTypeId="fbbc-8f2f-c413-710a" value="4"/>
-                <characteristic name="Defense" characteristicTypeId="49e3-08b4-2b5f-a6dd" value="6"/>
-                <characteristic name="Attack" characteristicTypeId="7d79-496f-5c13-35c4" value="2"/>
-                <characteristic name="Wounds" characteristicTypeId="8bda-d8a5-a1e7-2146" value="2"/>
-                <characteristic name="Courage" characteristicTypeId="b88a-7dd4-569c-d0b1" value="4"/>
-                <characteristic name="Might" characteristicTypeId="db92-6a08-e1ce-a77d" value="3"/>
-                <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="1"/>
-                <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
-                <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="Resolve Strike"/>
-                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Man Gondor Infantry Hero"/>
-                <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Fortitude"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="1b83-7111-57c9-f54b" name="Boldest of the Bold (Active)" book="Armies of Lord of the Rings" page="39" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>When charging an enemy that causes Terror, Cirion receives a +2 bonus to his Courage value. Additionally, Cirion receives a bonus of +2 to his Courage when models with the Blades of the Dead special rule make Strikes against him.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a3dc-e1ac-6698-71bb" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0f9-951e-d28d-62c8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="931b-222b-9069-676b" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="859f-12aa-7959-cea6" name="Wargear" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="7928-2160-4056-a537" name="Sword" hidden="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="3bd2-5ca1-ea32-d5a6" name="Armour" hidden="false" targetId="991c-46d3-d618-c49e" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="1718-ae22-ac3b-6ec6" name="Shield" hidden="false" targetId="6105-888b-3a63-c138" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="7d69-f9f7-3332-c51b" name="Hero of Fortitude" hidden="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="8e40-6f97-9d12-e8ed" name="Leader (Fortitude)" hidden="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="a2b8-38d6-20fc-1409" name="Warband" hidden="false" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
@@ -1216,11 +987,19 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="57c5-0705-3f2c-2152" name="Cirion, Lieutenant of Amon Barad" hidden="false" targetId="d3f6-4aee-806b-4612" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e0f-95e1-0d1f-a719" name="Damrod, Ranger of Ithilien" hidden="false" collective="false" type="upgrade">
@@ -1240,103 +1019,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1028-3731-2c96-f1c4" name="Damrod, Ranger of Ithilien" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="686a-6ed4-59f4-1db0" name="Damrod, Ranger of Ithilien" book="Armies of Lord of the Rings" page="38" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Movement" characteristicTypeId="6d57-f596-e10e-6233" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="5930-f060-2064-c9d5" value="4/3+"/>
-                <characteristic name="Strength" characteristicTypeId="fbbc-8f2f-c413-710a" value="4"/>
-                <characteristic name="Defense" characteristicTypeId="49e3-08b4-2b5f-a6dd" value="5"/>
-                <characteristic name="Attack" characteristicTypeId="7d79-496f-5c13-35c4" value="1"/>
-                <characteristic name="Wounds" characteristicTypeId="8bda-d8a5-a1e7-2146" value="1"/>
-                <characteristic name="Courage" characteristicTypeId="b88a-7dd4-569c-d0b1" value="4"/>
-                <characteristic name="Might" characteristicTypeId="db92-6a08-e1ce-a77d" value="1"/>
-                <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="1"/>
-                <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
-                <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="Accuracy"/>
-                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Man Gondor Infantry Hero"/>
-                <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Minor Hero"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="904d-a744-591a-94e3" name="Woodland Creature" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1d0-7eda-bc59-a592" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc4c-6970-03a6-6874" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e365-d3da-b142-99d4" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="505b-e202-3124-7929" name="Wargear" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="a7f2-5ea5-fad5-f684" name="Sword" hidden="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="8b28-bdc4-d94c-4980" name="Armour" hidden="false" targetId="991c-46d3-d618-c49e" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="f084-81d5-3a99-3053" name="Bow" hidden="false" targetId="f07a-f21f-5c34-803b" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="3132-ec62-98c7-24d9" name="Minor Hero" hidden="false" targetId="36a4-de5b-fd01-3f8e" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="a0ed-7764-b0de-4e54" name="Warband" hidden="false" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
@@ -1353,11 +1036,19 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="feff-4bfb-0a92-ac15" name="Damrod, Ranger of Ithilien" hidden="false" targetId="440f-85f4-f354-8ec7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f28e-d3dc-7f53-97d0" name="Peregrin Took, Guard of the Citadel" hidden="false" collective="false" type="upgrade">
@@ -1390,9 +1081,9 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6224-0306-c8f5-b33f" name="Madril, Captain of Ithilien" hidden="false" collective="false" type="upgrade">
@@ -1412,119 +1103,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6048-a06f-e123-eb31" name="Madril, Captain of Ithilien" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="9a63-0eec-338c-7eda" name="Madril, Captain of Ithilien" book="Armies of Lord of the Rings" page="38" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Movement" characteristicTypeId="6d57-f596-e10e-6233" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="5930-f060-2064-c9d5" value="4/3+"/>
-                <characteristic name="Strength" characteristicTypeId="fbbc-8f2f-c413-710a" value="4"/>
-                <characteristic name="Defense" characteristicTypeId="49e3-08b4-2b5f-a6dd" value="5"/>
-                <characteristic name="Attack" characteristicTypeId="7d79-496f-5c13-35c4" value="2"/>
-                <characteristic name="Wounds" characteristicTypeId="8bda-d8a5-a1e7-2146" value="2"/>
-                <characteristic name="Courage" characteristicTypeId="b88a-7dd4-569c-d0b1" value="4"/>
-                <characteristic name="Might" characteristicTypeId="db92-6a08-e1ce-a77d" value="3"/>
-                <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="1"/>
-                <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
-                <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="March Accuracy"/>
-                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Man Gondor Infantry Hero"/>
-                <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Fortitude"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="edbf-cc7f-f09b-f923" name="Master of Ambush (Passive)" book="Armies of Lord of the Rings" page="38" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>In Scenarios where you roll for additional forces to arrive (such as those that use the Reinforcements rule), you may modify the Reinforcements roll for this model&apos;s warband by +1 or -1. If this model is already on the board, then all warbands from this army list may also modify their Reinforcements roll by +1 or -1. In Scenarios where you roll to see which part of the board your warbands deploy in, you may modify the dice roll by +1 or -1.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="afce-6ca7-918d-19d3" name="Woodland Creature" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e55-08bf-27a9-1f56" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="111e-a803-7b41-6973" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a06-51bd-2afa-cd25" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="7445-ece1-e5b2-89e5" name="Wargear" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="8919-0c37-e684-1963" name="Sword" hidden="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="adc5-b9c5-fa9e-91c8" name="Armour" hidden="false" targetId="991c-46d3-d618-c49e" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="8ea7-99c0-5fde-58a3" name="Bow" hidden="false" targetId="f07a-f21f-5c34-803b" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="43dd-91d1-f64d-fae8" name="Hero of Fortitude" hidden="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="21e7-9ac1-fac1-a65a" name="Leader (Fortitude)" hidden="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="99f3-2019-6550-c7d1" name="Warband" hidden="false" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
@@ -1541,11 +1120,19 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="d01f-e992-8a44-30c5" name="Madril, Captain of Ithilien" hidden="false" targetId="e6b7-09fe-7509-04e1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="476a-48f4-9323-3e7f" name="Beregond, Guard of the Citadel" hidden="false" collective="false" type="upgrade">
@@ -1565,140 +1152,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6efb-bfe3-6d37-e7e8" name="Beregond, Guard of the Citadel" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="5cb9-1f9e-c10b-4528" name="Beregond, Guard of the Citadel" book="Armies of Lord of the Rings" page="37" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Movement" characteristicTypeId="6d57-f596-e10e-6233" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="5930-f060-2064-c9d5" value="4/3+"/>
-                <characteristic name="Strength" characteristicTypeId="fbbc-8f2f-c413-710a" value="4"/>
-                <characteristic name="Defense" characteristicTypeId="49e3-08b4-2b5f-a6dd" value="6"/>
-                <characteristic name="Attack" characteristicTypeId="7d79-496f-5c13-35c4" value="1"/>
-                <characteristic name="Wounds" characteristicTypeId="8bda-d8a5-a1e7-2146" value="1"/>
-                <characteristic name="Courage" characteristicTypeId="b88a-7dd4-569c-d0b1" value="4"/>
-                <characteristic name="Might" characteristicTypeId="db92-6a08-e1ce-a77d" value="1"/>
-                <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="1"/>
-                <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
-                <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="Accuracy"/>
-                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Man Gondor Infantry Hero"/>
-                <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Minor Hero"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="24e2-be4e-f698-77df" name="Bodyguard" hidden="false" targetId="92c1-aa11-7132-82f2" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3341-5156-4522-ce99" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6d9-c5cb-468b-5a3e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4055-0b87-4e71-6239" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="7201-0a70-ba99-cd17" name="Wargear" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="5c51-567f-813c-3192" name="Sword" hidden="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="1dab-2850-8edb-9bdc" name="Heavy Armour" hidden="false" targetId="0439-1154-4306-11d8" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="bd1f-6897-9581-657a" name="Longbow" hidden="false" targetId="052d-8f1d-225c-afc3" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="2a43-a602-a22a-4db4" name="Options" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="1fe2-1703-fda9-cfdb" name="Horse" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="33da-7f40-4f25-26ac" name="Horse" hidden="false" targetId="f819-60f2-bea1-8713" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81e4-fa7a-4a57-705e" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups/>
-              <entryLinks/>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="2e8f-a05a-54d1-b6c3" name="Minor Hero" hidden="false" targetId="36a4-de5b-fd01-3f8e" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="8427-03c3-0002-98fe" name="Warband" hidden="false" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
@@ -1715,11 +1169,19 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="aecc-d026-f278-f819" name="Beregond, Guard of the Citadel" hidden="false" targetId="c2cf-8ac4-cc07-ad30" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a48-8f51-579b-2aa2" name="Faramir, Captain of Gondor" hidden="false" collective="false" type="upgrade">
@@ -1739,171 +1201,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5deb-d133-c291-b0b6" name="Faramir, Captain of Gondor" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="98dc-9cd1-a663-049a" name="Faramir, Captain of Gondor" book="Armies of Lord of the Rings" page="37" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Movement" characteristicTypeId="6d57-f596-e10e-6233" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="5930-f060-2064-c9d5" value="5/3+"/>
-                <characteristic name="Strength" characteristicTypeId="fbbc-8f2f-c413-710a" value="4"/>
-                <characteristic name="Defense" characteristicTypeId="49e3-08b4-2b5f-a6dd" value="5"/>
-                <characteristic name="Attack" characteristicTypeId="7d79-496f-5c13-35c4" value="2"/>
-                <characteristic name="Wounds" characteristicTypeId="8bda-d8a5-a1e7-2146" value="2"/>
-                <characteristic name="Courage" characteristicTypeId="b88a-7dd4-569c-d0b1" value="6"/>
-                <characteristic name="Might" characteristicTypeId="db92-6a08-e1ce-a77d" value="3"/>
-                <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="3"/>
-                <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="2"/>
-                <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="Resolve Accuracy Strike Defence"/>
-                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Man Gondor Infantry Hero"/>
-                <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Valour"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="cf11-62d6-f9ef-c1a2" name="&quot;Is there a Captain here who still has the Courage to do his Lord&apos;s Will?&quot; (Passive)" book="Armies of Lord of the Rings" page="37" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>If Denethor is part of the same army as Faramir, then Faramir will automatically pass all Courage tests he is forced to make whilst Denethor is alive and on the battlefield. However, whilst Denethor is on the battlefield, Faramir must always Charge an enemy model if he is able to do so.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="b3c9-1f30-68c2-708f" name="Woodland Creature" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69f8-28e6-9729-14f4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70f3-4de6-c4a1-54da" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc43-3c65-5969-74ae" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="a583-1510-250b-25d6" name="Wargear" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="d706-2ae2-54df-986b" name="Sword" hidden="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="a4f3-0a14-9ab9-ccba" name="Armour" hidden="false" targetId="991c-46d3-d618-c49e" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="5132-fb31-b954-7338" name="Options" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="31b5-f6ac-c162-1dfd" name="Heavy Armour" hidden="false" targetId="713d-07e8-7930-c83c" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="2945-094d-0c64-db71" name="Lance" hidden="false" targetId="aa35-f48c-f09a-8f99" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="25e6-4011-8933-4e75" name="Armoured Horse" hidden="false" targetId="eb59-3a9f-f03b-22cc" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="a17f-f9af-3406-982c" name="Shield" hidden="false" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="8aea-9faf-6b33-957c" name="Horse" hidden="false" targetId="18cb-fd03-3380-5f4e" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="4e9c-4e0c-fb04-3bcb" name="Bow" hidden="false" targetId="aee9-0be1-fd8c-7e73" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="9d8b-013c-f2f3-fc39" name="Hero of Valour" hidden="false" targetId="9afa-e012-fc54-795e" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="dfd0-aa44-1275-941a" name="Leader (Valour)" hidden="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="efd8-7c06-6b9e-a470" name="Warband" hidden="false" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
@@ -1920,11 +1218,19 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1eb5-989d-5716-4050" name="Faramir, Captain of Gondor" hidden="false" targetId="b64d-7ea2-972b-6ffb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="89b6-f9b6-1a5b-356e" name="Boromir, Captain of the White Tower" hidden="false" collective="false" type="upgrade">
@@ -1979,9 +1285,9 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="865e-2d5a-38ae-6f3d" name="Captain of Minas Tirith" hidden="false" collective="false" type="upgrade">
@@ -2000,7 +1306,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cf21-6553-bb9a-5773" name="Captain of Minas Tirith" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="cf21-6553-bb9a-5773" name="Captain of Minas Tirith" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="01fa-d87d-fb22-3b70" name="Captain of Minas Tirith" book="Armies of Lord of the Rings" page="40" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
               <profiles/>
@@ -2133,8 +1439,8 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2157,9 +1463,9 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="efa5-b326-54e5-6f50" name="Gondor Avenger Bolt Thrower" hidden="false" collective="false" type="upgrade">
@@ -2255,7 +1561,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
               <constraints/>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="56df-461b-120c-e370" name="Additional Crew" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="56df-461b-120c-e370" name="Additional Crew" hidden="false" collective="false" type="model">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2276,8 +1582,8 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="7.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="7.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -2302,7 +1608,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
               <constraints/>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="53ac-b4b4-7c8c-2d8a" name="Minas Tirith Crew" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="53ac-b4b4-7c8c-2d8a" name="Minas Tirith Crew" hidden="false" collective="false" type="model">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -2364,8 +1670,8 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
                   </selectionEntryGroups>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -2385,8 +1691,8 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2394,9 +1700,9 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f352-280d-b29f-eb8d" name="Hurin the Tall, Warden of the Keys" hidden="false" collective="false" type="upgrade">
@@ -2424,161 +1730,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0c99-3ee7-7bcc-5cce" name="Hurin the Tall, Warden of the Keys" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="e641-7b36-f088-b17e" name="Hurin the Tall, Warden of the Keys" book="Forgeworld PDF" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Movement" characteristicTypeId="6d57-f596-e10e-6233" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="5930-f060-2064-c9d5" value="5/4+"/>
-                <characteristic name="Strength" characteristicTypeId="fbbc-8f2f-c413-710a" value="4"/>
-                <characteristic name="Defense" characteristicTypeId="49e3-08b4-2b5f-a6dd" value="6"/>
-                <characteristic name="Attack" characteristicTypeId="7d79-496f-5c13-35c4" value="2"/>
-                <characteristic name="Wounds" characteristicTypeId="8bda-d8a5-a1e7-2146" value="2"/>
-                <characteristic name="Courage" characteristicTypeId="b88a-7dd4-569c-d0b1" value="5"/>
-                <characteristic name="Might" characteristicTypeId="db92-6a08-e1ce-a77d" value="3"/>
-                <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="1"/>
-                <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
-                <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="Resolve Strike Strength"/>
-                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Man Gondor Infantry Hero"/>
-                <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Valour"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="1308-263c-64db-72d6" name="In Defence of the King (Active)" book="Forgeworld PDF" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Whilst he is within 3&quot; of either Denethor or Aragorn, King Elessarn Hurin gains the Fearless soecial rule and may re-roll a single D6 when making a Duel roll.</description>
-            </rule>
-            <rule id="713b-d4fd-6527-5618" name="Line of Command (Passive)" book="Forgeworld PDF" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>If the Leader of your army is a Gondor Hero then, Whilst Hurin the Tall is alive and on the battlefield, your opponent cannot score Victory Points for slaying the enemy leader.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="c4ad-9fbc-c3fd-8195" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff8a-8730-34ae-7173" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4ad-9fbc-c3fd-8195" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10f1-c542-4b67-78f5" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f730-ea24-96aa-2fc5" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="82c8-ed6b-ce00-316c" name="Wargear" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="6a6f-f0e5-f359-56ce" name="The Warden&apos;s Sword" hidden="false" collective="false" type="upgrade">
-                  <profiles>
-                    <profile id="5947-a991-44af-0de6" name="The Warden&apos;s Sword" book="Forgeworld PDF" hidden="false" profileTypeId="c6d6-90e7-ef64-8355" profileTypeName="Wargear">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <characteristics>
-                        <characteristic name="Rules" characteristicTypeId="327f-0755-cd3a-d1a0" value="This is a Master Forged hand-and-a-half sword."/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce7c-6975-21cf-10c1" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f679-9d3b-bc22-0b25" type="min"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="738e-936e-bcf0-a3d6" name="Heavy Armour" hidden="false" targetId="0439-1154-4306-11d8" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="3b85-2237-5ab7-dd07" name="Options" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="e58e-6105-0fcc-e817" name="Horse" hidden="false" targetId="18cb-fd03-3380-5f4e" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="8645-abf1-b3fb-90bd" name="Hero of Valour" hidden="false" targetId="9afa-e012-fc54-795e" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="d443-b7d8-0d1f-457c" name="Leader (Valour)" hidden="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="a1d8-76db-581c-52dd" name="Warband" hidden="false" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
@@ -2595,11 +1747,19 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="3caa-d984-ad49-9e3f" name="Hurin the Tall, Warden of the Keys" hidden="false" targetId="5c39-b0d2-a5d3-4b00" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3798-31cf-5a85-f898" name="Ingold, Warden of the Rammas Echor" hidden="false" collective="false" type="upgrade">
@@ -2627,127 +1787,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3b23-702c-95a4-c893" name="Ingold, Warden of the Rammas Echor" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="b078-137b-ab5b-d922" name="Ingold, Warden of the Rammas Echor" book="Forgeworld PDF" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Movement" characteristicTypeId="6d57-f596-e10e-6233" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="5930-f060-2064-c9d5" value="4/4+"/>
-                <characteristic name="Strength" characteristicTypeId="fbbc-8f2f-c413-710a" value="4"/>
-                <characteristic name="Defense" characteristicTypeId="49e3-08b4-2b5f-a6dd" value="7"/>
-                <characteristic name="Attack" characteristicTypeId="7d79-496f-5c13-35c4" value="2"/>
-                <characteristic name="Wounds" characteristicTypeId="8bda-d8a5-a1e7-2146" value="2"/>
-                <characteristic name="Courage" characteristicTypeId="b88a-7dd4-569c-d0b1" value="4"/>
-                <characteristic name="Might" characteristicTypeId="db92-6a08-e1ce-a77d" value="3"/>
-                <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="1"/>
-                <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
-                <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="Strike Defence"/>
-                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Man Gondor Infantry Hero"/>
-                <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Fortitude"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="0f42-0721-f57a-1bdd" name="Resolute Fighter (Passive)" book="Forgeworld PDF" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Ingold, and friendly Gondor Warrior models within 3&quot; of Ingold, do not Back Away if they lose a Fight - their opponent must Back Away instead!</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="5e9e-3181-bbea-68d9" name="Shieldwall" hidden="false" targetId="3d14-de88-8fb5-7cad" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="set" field="da62-38a8-82c7-5c39" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff8a-8730-34ae-7173" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="da62-38a8-82c7-5c39" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dee9-bf2e-50a1-0a03" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c72d-76d7-a47c-c8b1" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="85fc-7a89-09e4-8043" name="Wargear" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="a5f9-16e0-4801-6ff3" name="Shield" hidden="false" targetId="6105-888b-3a63-c138" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="d9b2-6259-9dc8-3de7" name="Heavy Armour" hidden="false" targetId="0439-1154-4306-11d8" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="2faf-628f-a591-b16d" name="Sword" hidden="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="9087-0436-4536-7067" name="Hero of Fortitude" hidden="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="5a42-da02-3117-8231" name="Leader (Fortitude)" hidden="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="fa26-2e29-7280-0e45" name="Warband" hidden="false" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
@@ -2764,11 +1804,19 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="08e9-01c7-fe54-a3fe" name="Ingold, Warden of the Rammas Echor" hidden="false" targetId="8021-a1f9-d67f-5052" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b752-cea5-aad3-3b4e" name="Irolas, Captain of the Guard" hidden="false" collective="false" type="upgrade">
@@ -2796,105 +1844,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8d04-3b04-52a7-892f" name="Irolas, Captain of the Guard" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="311a-ea42-6fee-7603" name="Irolas, Captain of the Guard" book="Forgeworld PDF" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Movement" characteristicTypeId="6d57-f596-e10e-6233" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="5930-f060-2064-c9d5" value="5/4+"/>
-                <characteristic name="Strength" characteristicTypeId="fbbc-8f2f-c413-710a" value="4"/>
-                <characteristic name="Defense" characteristicTypeId="49e3-08b4-2b5f-a6dd" value="6"/>
-                <characteristic name="Attack" characteristicTypeId="7d79-496f-5c13-35c4" value="2"/>
-                <characteristic name="Wounds" characteristicTypeId="8bda-d8a5-a1e7-2146" value="2"/>
-                <characteristic name="Courage" characteristicTypeId="b88a-7dd4-569c-d0b1" value="4"/>
-                <characteristic name="Might" characteristicTypeId="db92-6a08-e1ce-a77d" value="3"/>
-                <characteristic name="Will" characteristicTypeId="b509-13ce-7d03-816e" value="1"/>
-                <characteristic name="Fate" characteristicTypeId="67f5-8c5e-868c-5bd5" value="1"/>
-                <characteristic name="Heroic Actions" characteristicTypeId="fc29-34ba-8883-0379" value="March Defence"/>
-                <characteristic name="Keywords" characteristicTypeId="52a2-dbbe-8d97-a8a2" value="Man Gondor Infantry Hero"/>
-                <characteristic name="Heroic Tier" characteristicTypeId="2b79-2cec-28e7-0b0d" value="Hero of Fortitude"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="5e89-18b6-55d7-44c0" name="Defend the White City! (Active)" book="Forgeworld PDF" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Irolas may use the Shielding special rule
-even though he is not armed with a shield. If Irolas elects to shield, and
-wins the ensuing Fight, he may make a single Strength 4 Strike against one
-enemy model from the same Fight.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="25a4-d3e6-2485-374e" name="Bodyguard (Active)" hidden="false" targetId="92c1-aa11-7132-82f2" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="set" field="5b9a-eeeb-f5a5-6005" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff8a-8730-34ae-7173" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f32b-68b8-6873-0609" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd1a-05b4-185e-39ce" type="max"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b9a-eeeb-f5a5-6005" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="6760-0b71-7cf5-9691" name="Wargear" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="e052-e91a-1978-7b76" name="Heavy Armour" hidden="false" targetId="0439-1154-4306-11d8" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="67b1-52c9-ae21-ef84" name="Sword" hidden="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="3a06-2c67-d4f5-e15b" name="Warband" hidden="false" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
@@ -2911,10 +1861,18 @@ enemy model from the same Fight.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ea01-f914-87a7-207e" name="Irolas, Captain of the Guard" hidden="false" targetId="07e4-00d3-b669-bcd6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3120,8 +2078,8 @@ enemy model from the same Fight.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="7.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="7.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3252,8 +2210,8 @@ enemy model from the same Fight.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3419,8 +2377,8 @@ enemy model from the same Fight.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="9.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="9.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3558,8 +2516,8 @@ enemy model from the same Fight.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3690,8 +2648,8 @@ enemy model from the same Fight.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="13.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="13.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3720,7 +2678,9 @@ enemy model from the same Fight.</description>
       <modifiers>
         <modifier type="set" field="7da8-2574-9f7f-d31b" value="1">
           <repeats/>
-          <conditions/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
+          </conditions>
           <conditionGroups/>
         </modifier>
       </modifiers>
@@ -3839,11 +2799,19 @@ enemy model from the same Fight.</description>
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="0f48-deaa-72ab-7412" value="1">
+          <repeats>
+            <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e2a-5d54-f90d-0c27" repeats="1" roundUp="true"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0f2-af02-6750-7c33" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0bc-731b-0098-df91" type="min"/>
         <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d51-2f6c-5a18-0627" type="max"/>
+        <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f48-deaa-72ab-7412" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries>
@@ -3880,7 +2848,7 @@ enemy model from the same Fight.</description>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="5506-d890-79ab-938f" name="Veteran" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="5506-d890-79ab-938f" name="Veteran" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4007,8 +2975,8 @@ enemy model from the same Fight.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -4085,8 +3053,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -4118,8 +3086,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -4151,8 +3119,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -4163,8 +3131,8 @@ enemy model from the same Fight.</description>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -4200,7 +3168,7 @@ enemy model from the same Fight.</description>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="a059-778d-b095-0019" name="Guard" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a059-778d-b095-0019" name="Guard" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4327,8 +3295,8 @@ enemy model from the same Fight.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -4370,8 +3338,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -4427,8 +3395,8 @@ enemy model from the same Fight.</description>
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -4474,8 +3442,8 @@ enemy model from the same Fight.</description>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -4500,7 +3468,7 @@ enemy model from the same Fight.</description>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="af7e-e538-8351-60cd" name="Guard" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="af7e-e538-8351-60cd" name="Guard" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4627,8 +3595,8 @@ enemy model from the same Fight.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="9.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="9.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -4689,8 +3657,8 @@ enemy model from the same Fight.</description>
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -4769,8 +3737,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -4781,8 +3749,8 @@ enemy model from the same Fight.</description>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -4811,7 +3779,7 @@ enemy model from the same Fight.</description>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="ff57-adb3-9b6b-ea0f" name="Ranger" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ff57-adb3-9b6b-ea0f" name="Ranger" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4938,8 +3906,8 @@ enemy model from the same Fight.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="1.0"/>
               </costs>
             </selectionEntry>
@@ -5017,8 +3985,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -5029,8 +3997,8 @@ enemy model from the same Fight.</description>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -5066,7 +4034,7 @@ enemy model from the same Fight.</description>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="db24-4bf1-c600-3aa1" name="Knight" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="db24-4bf1-c600-3aa1" name="Knight" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5193,8 +4161,8 @@ enemy model from the same Fight.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="13.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="13.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -5280,8 +4248,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -5313,8 +4281,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -5325,8 +4293,8 @@ enemy model from the same Fight.</description>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -5351,7 +4319,7 @@ enemy model from the same Fight.</description>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="8c30-e68b-cc04-45a5" name="Warrior" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="8c30-e68b-cc04-45a5" name="Warrior" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5478,8 +4446,8 @@ enemy model from the same Fight.</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="7.0"/>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="7.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -5514,8 +4482,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -5547,8 +4515,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -5573,8 +4541,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -5599,8 +4567,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -5625,8 +4593,8 @@ enemy model from the same Fight.</description>
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -5665,8 +4633,8 @@ enemy model from the same Fight.</description>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -5674,8 +4642,8 @@ enemy model from the same Fight.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5700,8 +4668,8 @@ enemy model from the same Fight.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5718,7 +4686,7 @@ enemy model from the same Fight.</description>
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="fe09-86f0-b9d6-8bf9" name="Minas Tirith Siege Veteran" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="fe09-86f0-b9d6-8bf9" name="Minas Tirith Siege Veteran" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="c290-1aae-8554-999d" name="Minas Tirith Siege Veteran" book="Armies of Lord of the Rings" page="44 &amp; 45" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
               <profiles/>
@@ -5798,12 +4766,12 @@ enemy model from the same Fight.</description>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2923-5e33-3e8a-f331" name="Minas Tirith Engineer Captain" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2923-5e33-3e8a-f331" name="Minas Tirith Engineer Captain" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="e9bc-8e51-afb4-4fc6" name="Minas Tirith Engineer Captain" book="Armies of Lord of the Rings" page="44 &amp; 45" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
               <profiles/>
@@ -5927,8 +4895,8 @@ enemy model from the same Fight.</description>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
