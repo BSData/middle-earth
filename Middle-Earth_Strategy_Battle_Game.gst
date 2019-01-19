@@ -22030,8 +22030,8 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de4a-3216-c59e-0a2b" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d17-5e72-9b96-ae8c" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e71-df08-1416-fb29" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a3-ad83-8e5e-398a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5745-a738-4a49-6d35" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -25851,14 +25851,10 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="7cff-e77c-f495-9c56" value="1">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="453c-f6db-7147-2ab8" type="min"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
