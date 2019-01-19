@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="50" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="51" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes>
     <costType id="8bde-d63c-7caa-c15d" name=" Points" defaultCostLimit="-1.0"/>
     <costType id="391e-19ac-b71d-f2e3" name=" Warriors" defaultCostLimit="-1.0"/>
-    <costType id="ab3b-a62b-ef54-533c" name="Bow" defaultCostLimit="-1.0"/>
+    <costType id="ab3b-a62b-ef54-533c" name=" Bow" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="41b1-0f32-a644-93b4" name="Warrior">
@@ -161,54 +161,6 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="ff8a-8730-34ae-7173" name="Use Experimental Rules" hidden="true" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91fe-8a4c-a6a4-995d" type="equalTo"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3984-79cf-924b-bc01" type="equalTo"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d8fc-a394-3ee8-f3e4" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c329-91bd-3766-6f7b" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="800a-dce3-4f20-ab3b" name="New CategoryLink" hidden="false" targetId="4a7b-8f86-68be-e1d6" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="213b-58da-ed05-d8af" name="Wound Chart" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2ca0-5655-dea9-7cb0" name=" 1" hidden="false" profileTypeId="0c83-4e60-8055-9de5" profileTypeName="To Wound">
@@ -413,7 +365,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fafa-0bc3-6016-c70c" name="Influence Points" hidden="false" collective="false" type="upgrade">
@@ -448,7 +400,7 @@
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -457,7 +409,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db3d-5170-cbe9-0897" name="Determine Alliance Level" hidden="false" collective="false" type="upgrade">
@@ -532,7 +484,7 @@
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ed7a-9919-cb52-884e" name="Impossible Allies" hidden="true" collective="false" type="upgrade">
@@ -4865,7 +4817,7 @@
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="18bd-5d69-3b58-61ac" name="Historical Allies" hidden="true" collective="false" type="upgrade">
@@ -6237,7 +6189,7 @@
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="523a-a8e0-abd7-7d99" name="Convenient Allies" hidden="true" collective="false" type="upgrade">
@@ -9835,7 +9787,7 @@
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9844,7 +9796,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4878-3dab-84cf-7810" name="Determine Breakpoint &amp; 25%" hidden="false" collective="false" type="upgrade">
@@ -9956,7 +9908,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -9984,7 +9936,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10010,7 +9962,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9b8-81bd-1cd6-8b3e" name="Shield" hidden="false" collective="false" type="upgrade">
@@ -10035,7 +9987,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6af7-15a9-a26b-e9e3" name="Elven Cloak" hidden="false" collective="false" type="upgrade">
@@ -10060,7 +10012,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ef8-a0ca-889f-0d8b" name="Elven-made Sword" hidden="false" collective="false" type="upgrade">
@@ -10092,7 +10044,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c3f-f487-8cfa-add8" name="Elf Bow" hidden="false" collective="false" type="upgrade">
@@ -10117,7 +10069,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0439-1154-4306-11d8" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
@@ -10142,7 +10094,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10168,7 +10120,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6105-888b-3a63-c138" name="Shield" hidden="false" collective="false" type="upgrade">
@@ -10193,7 +10145,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10219,7 +10171,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0b4-3068-b6f2-2765" name="Pony" hidden="false" collective="false" type="upgrade">
@@ -10252,7 +10204,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afb0-087f-dce2-2ec8" name="Warg" hidden="false" collective="false" type="upgrade">
@@ -10277,7 +10229,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb59-3a9f-f03b-22cc" name="Armoured Horse" hidden="false" collective="false" type="upgrade">
@@ -10302,7 +10254,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="991c-46d3-d618-c49e" name="Armour" hidden="false" collective="false" type="upgrade">
@@ -10328,7 +10280,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37fc-f943-01eb-2efd" name="Armour" hidden="false" collective="false" type="upgrade">
@@ -10353,7 +10305,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cb1-7e8b-f6c3-d5cb" name="Unarmed" hidden="false" collective="false" type="upgrade">
@@ -10379,7 +10331,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="badb-13f4-1286-1864" name="Staff" hidden="false" collective="false" type="upgrade">
@@ -10405,7 +10357,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e38-dc5d-97e6-fb2e" name="Dagger" hidden="false" collective="false" type="upgrade">
@@ -10431,7 +10383,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64a3-2e98-a578-1a2d" name="Sword" hidden="false" collective="false" type="upgrade">
@@ -10457,7 +10409,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac2a-ff13-8888-18ca" name="Hand-and-a-Half Sword" hidden="false" collective="false" type="upgrade">
@@ -10476,7 +10428,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c0a-4625-eca9-ec95" name="Staff of Power*" hidden="false" collective="false" type="upgrade">
@@ -10502,7 +10454,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9683-2857-3c2a-c889" name="Glamdring" hidden="false" collective="false" type="upgrade">
@@ -10544,7 +10496,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="052d-8f1d-225c-afc3" name="Longbow" hidden="false" collective="false" type="upgrade">
@@ -10570,7 +10522,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed0c-9dde-d02f-ab09" name="Lance" hidden="false" collective="false" type="upgrade">
@@ -10596,7 +10548,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa35-f48c-f09a-8f99" name="Lance" hidden="false" collective="false" type="upgrade">
@@ -10621,7 +10573,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f07a-f21f-5c34-803b" name="Bow" hidden="false" collective="false" type="upgrade">
@@ -10647,7 +10599,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aee9-0be1-fd8c-7e73" name="Bow" hidden="false" collective="false" type="upgrade">
@@ -10672,7 +10624,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f782-1cc2-8c07-a218" name="Horn of Gondor" hidden="false" collective="false" type="upgrade">
@@ -10701,7 +10653,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ab8-5b3a-f4ce-0225" name="War Spear" hidden="false" collective="false" type="upgrade">
@@ -10727,7 +10679,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af39-2af7-6aa3-7226" name="War Horn" hidden="false" collective="false" type="upgrade">
@@ -10753,7 +10705,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6487-f2cf-5eb7-a780" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -10779,7 +10731,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2d5f-8ff0-8762-879e" name="Two-Handed Axe" hidden="false" collective="false" type="upgrade">
@@ -10811,7 +10763,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9cb9-9ebe-8ffa-86f3" name="Spear" hidden="false" collective="false" type="upgrade">
@@ -10837,7 +10789,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af8b-88f1-b5c1-cafd" name="Spear" hidden="false" collective="false" type="upgrade">
@@ -10862,7 +10814,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2df-6b78-3eef-e449" name="Mithril Coat" hidden="false" collective="false" type="upgrade">
@@ -10889,7 +10841,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2428-760d-9db5-14d8" name="Sting" hidden="false" collective="false" type="upgrade">
@@ -10916,7 +10868,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f846-4e06-4b6f-5fe1" name="Vilya" hidden="false" collective="false" type="upgrade">
@@ -10945,7 +10897,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cdcd-2bd3-12de-b7e6" name="Nenya" hidden="false" collective="false" type="upgrade">
@@ -10974,7 +10926,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5803-cb66-0eda-5524" name="Narya" hidden="false" collective="false" type="upgrade">
@@ -11003,7 +10955,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="16d0-4708-68d8-c15f" name="Heavy Dwarf Armour" hidden="false" collective="false" type="upgrade">
@@ -11029,7 +10981,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ec2-ca86-1098-06db" name="Hammer" hidden="false" collective="false" type="upgrade">
@@ -11055,7 +11007,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5d0-4c54-689e-06aa" name="Short Bow" hidden="false" collective="false" type="upgrade">
@@ -11081,7 +11033,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d632-0efe-5e4e-415f" name="Warg" hidden="false" collective="false" type="upgrade">
@@ -11107,7 +11059,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c27d-19fd-b766-0cec" name="Pick" hidden="false" collective="false" type="upgrade">
@@ -11133,7 +11085,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5047-cb17-b681-56ed" name="Two-Handed Sword" hidden="false" collective="false" type="upgrade">
@@ -11165,7 +11117,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6159-fce2-6d9c-2019" name="Fell Beast" hidden="false" collective="false" type="upgrade">
@@ -11244,7 +11196,7 @@
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -11256,7 +11208,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e42-ea2b-9566-f9bd" name="Armoured Fell Beast" hidden="false" collective="false" type="upgrade">
@@ -11335,7 +11287,7 @@
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -11347,7 +11299,7 @@
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="70.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7386-6cd4-6c54-d454" name="Mace" hidden="false" collective="false" type="upgrade">
@@ -11373,7 +11325,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a875-50e0-8a0e-da87" name="Hand-and-a-Half Hammer" hidden="false" collective="false" type="upgrade">
@@ -11403,7 +11355,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11430,7 +11382,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a99a-d310-42cf-5dd7" name="Whip" hidden="false" collective="false" type="upgrade">
@@ -11456,7 +11408,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf95-2c78-20dd-7fbc" name="Armoured Horse" hidden="false" collective="false" type="upgrade">
@@ -11482,7 +11434,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4fbb-79cf-7ab6-b416" name="Throwing Daggers" hidden="false" collective="false" type="upgrade">
@@ -11508,7 +11460,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ddc1-67a9-1014-b73c" name="The One Ring" hidden="false" collective="false" type="upgrade">
@@ -11534,7 +11486,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="252d-611b-f9f8-b0b0" name="Pike" hidden="false" collective="false" type="upgrade">
@@ -11560,7 +11512,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc4f-fa62-dfaa-c022" name="Poisoned Blowpipe" hidden="false" collective="false" type="upgrade">
@@ -11592,7 +11544,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fddc-2d93-2bbf-54ca" name="Tangado haid, leithio i philinn!" hidden="false" collective="false" type="upgrade">
@@ -11626,7 +11578,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c31c-2585-1e87-b90d" name="They say a great Sorceress lives in these woods..." hidden="false" collective="false" type="upgrade">
@@ -11667,7 +11619,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1772-6b04-d4e4-10ce" name="Protect the King!" hidden="false" collective="false" type="upgrade">
@@ -11701,7 +11653,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="853b-bf63-ae34-d549" name="No quarter was asked..." hidden="false" collective="false" type="upgrade">
@@ -11735,7 +11687,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b063-7073-0255-3d40" name="Don&apos;t be Hasty!" hidden="false" collective="false" type="upgrade">
@@ -11769,7 +11721,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d6e-fe0b-4a90-b6e8" name="The wealth of Moria lay not in Gold or Jewels, but in Mithril" hidden="false" collective="false" type="upgrade">
@@ -11803,7 +11755,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4b5-1a3d-521e-b003" name="You are Men of Gondor. Whatever comes throught that Gate, you will stand your Ground!" hidden="false" collective="false" type="upgrade">
@@ -11837,7 +11789,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3dc-8af5-af35-3cba" name="One by one the Free Lands of Middle-Earth fell to the Power of the Ring. But there were some who resisted." hidden="false" collective="false" type="upgrade">
@@ -11871,7 +11823,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5619-ebd4-d105-6257" name="Ride for Ruin and the World&apos;s Ending!" hidden="false" collective="false" type="upgrade">
@@ -11905,7 +11857,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5053-e959-c7a3-c6e5" name="The Dead do not suffer the Living to pass" hidden="false" collective="false" type="upgrade">
@@ -11939,7 +11891,7 @@
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e12-ce48-2af8-c6b1" name="You have my Sword" hidden="false" collective="false" type="upgrade">
@@ -11975,7 +11927,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc42-7c57-c592-30b3" name="For the White City!" hidden="false" collective="false" type="upgrade">
@@ -12009,7 +11961,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ece-291f-e876-2ad9" name="The Eagles are coming!" hidden="false" collective="false" type="upgrade">
@@ -12043,7 +11995,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e0e-784d-8ce0-ff35" name="They&apos;re dangerous folk, wandering in the wilds." hidden="false" collective="false" type="upgrade">
@@ -12077,7 +12029,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0905-cc21-a8f9-d310" name="Fear! Fire! Foes!" hidden="false" collective="false" type="upgrade">
@@ -12118,7 +12070,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="acdf-9ccd-b671-6058" name="Wild men have Long Ears and Long Eyes; know all Paths" hidden="false" collective="false" type="upgrade">
@@ -12152,7 +12104,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb6e-41a8-a0e2-71dd" name="The Khandish Hosts" hidden="false" collective="false" type="upgrade">
@@ -12186,7 +12138,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c7ac-183e-0764-9e6e" name="The Scorpion&apos;s Sting" hidden="false" collective="false" type="upgrade">
@@ -12220,7 +12172,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a41-6ae1-13c3-89ba" name="Our Enemy is Ready, His full Strength gathered" hidden="false" collective="false" type="upgrade">
@@ -12254,7 +12206,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a753-0901-9a15-5e94" name="You do not know Pain, you do not know Fear!" hidden="false" collective="false" type="upgrade">
@@ -12295,7 +12247,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d05-9d3c-c8b0-1f84" name="Warrior Pride" hidden="false" collective="false" type="upgrade">
@@ -12329,7 +12281,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="19ca-8df2-2356-052f" name="The power of the Ring could not be undone." hidden="false" collective="false" type="upgrade">
@@ -12363,7 +12315,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a6f8-6101-2e27-c710" name="If that fell Kingdom should rise again, Rivendell, Lorien, The Shire, even Gondor itself shall fall." hidden="false" collective="false" type="upgrade">
@@ -12397,7 +12349,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="262f-0710-69c9-6ff4" name="The Corsairs are upon us! It is the last Stroke of Doom!" hidden="false" collective="false" type="upgrade">
@@ -12438,7 +12390,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e9d-d2dd-c4d1-00f5" name="You do what Sharkey says." hidden="false" collective="false" type="upgrade">
@@ -12464,7 +12416,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54a8-3f7e-8ab6-2cdd" name="Orc Bow" hidden="false" collective="false" type="upgrade">
@@ -12489,7 +12441,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e83e-6f52-a817-2cc2" name="The White Council" hidden="false" collective="false" type="upgrade">
@@ -12532,7 +12484,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="756a-c92a-b077-555d" name="Wildmen of Drúadan" hidden="false" collective="false" type="upgrade">
@@ -12575,7 +12527,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18d1-6f55-e82a-1ae7" name="Thorin&apos;s Company" hidden="false" collective="false" type="upgrade">
@@ -12618,7 +12570,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90fc-7b35-ed85-2ad0" name="Survivors of Lake-town" hidden="false" collective="false" type="upgrade">
@@ -12661,7 +12613,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="825f-a053-a115-ce33" name="The Shire" hidden="false" collective="false" type="upgrade">
@@ -12704,7 +12656,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7907-55a7-6e0b-9ee6" name="Rohan" hidden="false" collective="false" type="upgrade">
@@ -12747,7 +12699,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da09-82f4-d3c2-ed0a" name="Rivendell" hidden="false" collective="false" type="upgrade">
@@ -12790,7 +12742,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c1f7-196f-74fd-b623" name="The Rangers" hidden="false" collective="false" type="upgrade">
@@ -12833,7 +12785,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="543e-9750-e44d-71ed" name="Radagast&apos;s Alliance" hidden="false" collective="false" type="upgrade">
@@ -12876,7 +12828,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6571-6b45-2709-e577" name="Númenor" hidden="false" collective="false" type="upgrade">
@@ -12919,7 +12871,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5da1-c44f-0846-212b" name="The Misty Mountains" hidden="false" collective="false" type="upgrade">
@@ -12962,7 +12914,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d8fc-a394-3ee8-f3e4" name="Minas Tirith" hidden="false" collective="false" type="upgrade">
@@ -13005,7 +12957,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d175-1d2d-a438-8b56" name="Lothlórien" hidden="false" collective="false" type="upgrade">
@@ -13048,7 +13000,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd56-02c1-26ac-f1d4" name="The Kingdom of Khazad-dum" hidden="false" collective="false" type="upgrade">
@@ -13091,7 +13043,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="699f-ab2f-4636-4a5a" name="The Iron Hills" hidden="false" collective="false" type="upgrade">
@@ -13134,7 +13086,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="651a-edf9-1764-6f1d" name="Halls of Thranduil" hidden="false" collective="false" type="upgrade">
@@ -13177,7 +13129,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e797-83b5-8060-335e" name="Garrison of Dale" hidden="false" collective="false" type="upgrade">
@@ -13220,7 +13172,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="50b9-e6be-71b8-7101" name="The Fiefdoms" hidden="false" collective="false" type="upgrade">
@@ -13263,7 +13215,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b0c8-2d15-b3ab-1bdb" name="The Fellowship" hidden="false" collective="false" type="upgrade">
@@ -13306,7 +13258,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14db-95e8-cb5e-599d" name="Fangorn" hidden="false" collective="false" type="upgrade">
@@ -13349,7 +13301,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c37-270d-e067-8c8b" name="Erebor Reclaimed" hidden="false" collective="false" type="upgrade">
@@ -13392,7 +13344,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afa9-80da-2e79-faad" name="The Dead of Dunharrow" hidden="false" collective="false" type="upgrade">
@@ -13435,7 +13387,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a79-55a9-cf37-510d" name="Arnor" hidden="false" collective="false" type="upgrade">
@@ -13478,7 +13430,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98a6-d611-c152-6d88" name="Army of Thrór" hidden="false" collective="false" type="upgrade">
@@ -13521,7 +13473,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4448-0fe5-5a8a-3f77" name="Variags of Khand" hidden="false" collective="false" type="upgrade">
@@ -13564,7 +13516,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9606-2c4e-7df8-02b6" name="Army of Lake-town" hidden="false" collective="false" type="upgrade">
@@ -13607,7 +13559,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f748-ad73-4dc0-d72c" name="The Trolls" hidden="false" collective="false" type="upgrade">
@@ -13650,7 +13602,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="99b2-160d-cab4-ab92" name="Sharkey&apos;s Rogues" hidden="false" collective="false" type="upgrade">
@@ -13693,7 +13645,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9bc8-a16d-348f-72a2" name="The Serpent Horde" hidden="false" collective="false" type="upgrade">
@@ -13736,7 +13688,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f765-0906-a562-a8d1" name="Moria" hidden="false" collective="false" type="upgrade">
@@ -13779,7 +13731,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3984-79cf-924b-bc01" name="Mordor" hidden="false" collective="false" type="upgrade">
@@ -13822,7 +13774,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c91-4fdd-ad16-08dc" name="Isengard" hidden="false" collective="false" type="upgrade">
@@ -13865,7 +13817,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4cb-7e10-4e2e-e0b5" name="Goblin-town" hidden="false" collective="false" type="upgrade">
@@ -13908,7 +13860,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="91fe-8a4c-a6a4-995d" name="Far Harad" hidden="false" collective="false" type="upgrade">
@@ -13951,7 +13903,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6647-a66d-21f5-5f72" name="Desolator of the North" hidden="false" collective="false" type="upgrade">
@@ -13994,7 +13946,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54d3-0df2-03ed-f020" name="Dark Powers of Dol Guldur" hidden="false" collective="false" type="upgrade">
@@ -14037,7 +13989,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afb1-3be7-a737-7253" name="Dark Denizens of Mirkwood" hidden="false" collective="false" type="upgrade">
@@ -14080,7 +14032,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5b8-3e85-1c95-cdea" name="Corsairs of Umbar" hidden="false" collective="false" type="upgrade">
@@ -14123,7 +14075,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fafc-c822-4c4e-3473" name="Barad-dûr" hidden="false" collective="false" type="upgrade">
@@ -14166,7 +14118,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5776-5233-d96a-ef21" name="Azog&apos;s Legion" hidden="false" collective="false" type="upgrade">
@@ -14209,7 +14161,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc24-78cf-c429-5f5d" name="Azog&apos;s Hunters" hidden="false" collective="false" type="upgrade">
@@ -14252,7 +14204,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dac7-2f33-9c87-ddca" name="Angmar" hidden="false" collective="false" type="upgrade">
@@ -14302,7 +14254,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d42-f863-e2d1-26d8" name="The Kingdom of Moria" hidden="false" collective="false" type="upgrade">
@@ -14345,7 +14297,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af89-b25c-bd59-88fd" name="Flamming Ammunition" hidden="false" collective="false" type="upgrade">
@@ -14371,7 +14323,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc44-fdf1-7ac8-1302" name="Severed Heads" hidden="false" collective="false" type="upgrade">
@@ -14397,7 +14349,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af0d-caf2-dd72-c81d" name="Superior Construction" hidden="false" collective="false" type="upgrade">
@@ -14423,7 +14375,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="575e-8ca9-7dac-9a71" name="Swift Reload" hidden="false" collective="false" type="upgrade">
@@ -14449,7 +14401,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="897d-ab38-a11e-301a" name="Crossbow" hidden="false" collective="false" type="upgrade">
@@ -14475,7 +14427,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c871-2297-3165-268d" name="We cannot get out, they are coming" hidden="false" collective="false" type="upgrade">
@@ -14509,7 +14461,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a0b9-e8a1-bbce-47b2" name="Leader (Legend)" hidden="false" collective="false" type="upgrade">
@@ -14573,7 +14525,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="852a-dd6e-17c4-1a59" name="Leader (Valour)" hidden="true" collective="false" type="upgrade">
@@ -14615,7 +14567,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ca9-a833-8cd4-b806" name="Leader (Fortitude)" hidden="true" collective="false" type="upgrade">
@@ -14671,7 +14623,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4bbe-b6f8-1426-c662" name="Hero of Legend" hidden="false" collective="false" type="upgrade">
@@ -14690,7 +14642,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9afa-e012-fc54-795e" name="Hero of Valour" hidden="false" collective="false" type="upgrade">
@@ -14709,7 +14661,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="36a4-de5b-fd01-3f8e" name="Minor Hero" hidden="false" collective="false" type="upgrade">
@@ -14728,7 +14680,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="963b-d9e7-5451-b0f9" name="Hero of Fortitude" hidden="false" collective="false" type="upgrade">
@@ -14747,7 +14699,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7729-939c-9d5c-473e" name="Independent Hero" hidden="false" collective="false" type="upgrade">
@@ -14774,7 +14726,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f6e2-af14-8ec9-0996" name="Orc Drummer" hidden="false" collective="false" type="model">
@@ -14848,7 +14800,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -14886,7 +14838,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d520-5c6d-e926-3405" name="Shelob" hidden="false" collective="false" type="model">
@@ -15004,7 +14956,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -15025,7 +14977,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f9b3-aa87-7005-74a4" name="Elven Cloak" hidden="false" collective="false" type="upgrade">
@@ -15051,7 +15003,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="490b-d0a2-979b-56dd" name="Black Númenórean Marshal" hidden="false" collective="false" type="model">
@@ -15151,7 +15103,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
                   <costs>
                     <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                     <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -15243,7 +15195,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0880-212b-aebf-a46f" name="The Easterlings" hidden="false" collective="false" type="upgrade">
@@ -15286,7 +15238,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db5a-e4d1-3e5a-4fb5" name="Orc Captain" hidden="false" collective="false" type="model">
@@ -15445,7 +15397,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3519-2ab9-5052-67da" name="Orc Shaman" hidden="false" collective="false" type="model">
@@ -15597,7 +15549,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="94e4-5dca-9fa0-b65c" name="Khamûl The Easterling" hidden="false" collective="false" type="model">
@@ -15842,7 +15794,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9488-5544-6c7c-bce2" name="Ringwraith" hidden="false" collective="false" type="model">
@@ -16148,7 +16100,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dabe-f09d-8870-4c54" name="Extra Might" hidden="false" collective="false" type="upgrade">
@@ -16166,7 +16118,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1e05-020b-65c6-e8a3" name="Extra Fate" hidden="false" collective="false" type="upgrade">
@@ -16184,7 +16136,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -16221,7 +16173,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc0b-d272-62b1-a292" name="The Betrayer" hidden="false" collective="false" type="model">
@@ -16461,7 +16413,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       </entryLinks>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
       </costs>
     </selectionEntry>
@@ -16697,7 +16649,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a89c-2934-4ea0-a986" name="The Knight of Umbar" hidden="false" collective="false" type="model">
@@ -16908,7 +16860,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -16954,7 +16906,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d1e-0686-d28a-3957" name="The Shadow Lord" hidden="false" collective="false" type="model">
@@ -17189,7 +17141,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c13-c2e0-51fb-1d5c" name="The Tainted" hidden="false" collective="false" type="model">
@@ -17431,7 +17383,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b682-72ff-629b-2dfd" name="The Undying" hidden="false" collective="false" type="model">
@@ -17673,7 +17625,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2826-f4d5-a5b2-6e6f" name="The Witch-king of Angmar" hidden="false" collective="false" type="model">
@@ -17968,7 +17920,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9b2c-d9c4-4f05-a3ae" name="Extra Might" hidden="false" collective="false" type="upgrade">
@@ -17986,7 +17938,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2d68-e9b2-0db4-f1b8" name="Extra Fate" hidden="false" collective="false" type="upgrade">
@@ -18004,7 +17956,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="42bf-7f4c-6c8f-8d0b" name="Morgal Blade" hidden="false" collective="false" type="upgrade">
@@ -18029,7 +17981,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8435-562c-ab13-87da" name="Two-handed Flail" hidden="false" collective="false" type="upgrade">
@@ -18060,7 +18012,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="269c-5c1c-af80-c908" name="Crown of Morgul" hidden="false" collective="false" type="upgrade">
@@ -18088,7 +18040,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -18149,7 +18101,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="70.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61e3-6379-253a-2c6f" name="The Dwimmerlaik" hidden="false" collective="false" type="upgrade">
@@ -18383,7 +18335,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       </entryLinks>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
       </costs>
     </selectionEntry>
@@ -18490,7 +18442,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="65e6-fd2a-a815-7201" name="Orc Taskmaster" hidden="false" collective="false" type="model">
@@ -18628,7 +18580,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="967e-03b9-aa82-1e1f" name="Mordor Siege Bow" hidden="false" collective="false" type="upgrade">
@@ -18759,7 +18711,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -18796,7 +18748,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -18833,7 +18785,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -18863,7 +18815,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54e7-20ef-c51d-2b54" name="Mordor War Catapult" hidden="false" collective="false" type="upgrade">
@@ -19024,7 +18976,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           <entryLinks/>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -19061,7 +19013,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -19155,7 +19107,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -19176,7 +19128,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0df-9881-6018-16da" name="Hâsharin" hidden="false" collective="false" type="model">
@@ -19284,7 +19236,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -19346,7 +19298,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9699-a212-05bd-6cec" name="Gandalf the White" hidden="false" collective="false" type="model">
@@ -19637,7 +19589,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -19666,7 +19618,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="220.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa8a-ebb1-1ab1-4826" name="Claws and Teeth" hidden="false" collective="false" type="upgrade">
@@ -19695,7 +19647,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b038-27a5-8bc5-8bf6" name="Aragorn, King Elessar" hidden="false" collective="false" type="model">
@@ -19805,7 +19757,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -19863,7 +19815,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="225.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aeb2-e26d-bd32-c97a" name="Peregrin Took, Guard of the Citadel" hidden="false" collective="false" type="model">
@@ -19991,7 +19943,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d2b-ac73-8ba4-990c" name="Boromir, Captain of the White Tower" hidden="false" collective="false" type="model">
@@ -20117,7 +20069,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
                   <costs>
                     <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
                     <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -20183,7 +20135,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3aa-a9fc-071d-ea3b" name="Aragorn - Strider" hidden="false" collective="false" type="model">
@@ -20292,7 +20244,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -20354,7 +20306,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cdef-89a1-518e-296a" name="Bilbo Baggins" hidden="false" collective="false" type="model">
@@ -20533,7 +20485,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="faef-5e8e-6a72-6908" name="Dúnedain" hidden="false" collective="false" type="model">
@@ -20666,7 +20618,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -20678,7 +20630,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2d5-bfec-44d4-1ef3" name="Frodo of the Nine Fingers" hidden="false" collective="false" type="model">
@@ -20824,7 +20776,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d961-481f-06ce-4feb" name="Gandalf the Grey" hidden="false" collective="false" type="model">
@@ -21169,7 +21121,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -21244,7 +21196,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="170.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8558-43c4-3ebd-002d" name="Meriadoc, Captain of the Shire" hidden="false" collective="false" type="model">
@@ -21380,7 +21332,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -21426,7 +21378,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6516-3d89-86a9-dd28" name="Peregrin, Captain of the Shire" hidden="false" collective="false" type="model">
@@ -21586,7 +21538,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46c3-7695-49ab-62dc" name="Samwise the Brave" hidden="false" collective="false" type="model">
@@ -21715,7 +21667,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30c3-3b22-c499-db52" name="Boromir of Gondor" hidden="false" collective="false" type="model">
@@ -21855,7 +21807,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="95.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd6c-5c6d-5d90-e8cc" name="Frodo Baggins" hidden="false" collective="false" type="model">
@@ -22002,7 +21954,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="120a-8965-6980-8112" name="Gimli Son of Glóin" hidden="false" collective="false" type="model">
@@ -22145,7 +22097,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -22221,7 +22173,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac32-30b4-0114-f0ab" name="Legolas Greenleaf" hidden="false" collective="false" type="model">
@@ -22376,7 +22328,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5615-7273-05fa-7ae4" name="Merry" hidden="false" collective="false" type="model">
@@ -22510,7 +22462,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0a3-ac69-6beb-550a" name="Pippin" hidden="false" collective="false" type="model">
@@ -22644,7 +22596,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0038-dd5d-3ac6-b66f" name="Samwise Gamgee" hidden="false" collective="false" type="model">
@@ -22773,7 +22725,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="823b-f0e5-7a81-30e7" name="Saruman" hidden="false" collective="false" type="model">
@@ -23131,7 +23083,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="180.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afb9-abc4-cba5-86df" name="Elf Bow" hidden="false" collective="false" type="upgrade">
@@ -23157,7 +23109,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="48d8-3ba9-01d5-3003" name="Gwahir" hidden="false" collective="false" type="model">
@@ -23243,7 +23195,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="150.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bbd5-0d34-4d10-d10c" name="Radagast the Brown" hidden="false" collective="false" type="model">
@@ -23469,7 +23421,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
                   <costs>
                     <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
                     <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -23536,7 +23488,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f6ed-2da4-d446-3c20" name="Sleigh" hidden="false" collective="false" type="upgrade">
@@ -23588,7 +23540,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -23642,7 +23594,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="150.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c14c-6bbc-ff77-8ddd" name="The Dark Lord Sauron" hidden="false" collective="false" type="model">
@@ -23918,7 +23870,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="400.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="662f-e9ed-0e9f-bec1" name="The Necromancer of Dol Guldur" hidden="false" collective="false" type="model">
@@ -24172,7 +24124,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="250.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6e1-9cdf-7ee7-6a20" name="Celeborn" hidden="false" collective="false" type="model">
@@ -24355,7 +24307,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -24401,7 +24353,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="130.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f781-8e9d-930b-ff0c" name="Galadriel" hidden="false" collective="false" type="model">
@@ -24603,7 +24555,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -24632,7 +24584,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="130.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ec9-22f5-f306-a103" name="Elrond, Master of Rivendell" hidden="false" collective="false" type="model">
@@ -24820,7 +24772,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -24858,7 +24810,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="170.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3f64-9a40-4f37-955f" name="Gil-Galad, High King of the Elves" book="Armies of Lord of the Rings" page="73" hidden="false" collective="false" type="model">
@@ -25004,7 +24956,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -25042,7 +24994,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="170.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b890-65d0-511d-dbae" name="Glorfindel, Lord of the West" hidden="false" collective="false" type="model">
@@ -25160,7 +25112,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -25218,7 +25170,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="145.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0655-18c8-862d-d925" name="Asfaloth" hidden="false" collective="false" type="upgrade">
@@ -25261,7 +25213,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c7b-6f92-cbcd-faf5" name="Elven-made Hand-and-a-Half Sword" hidden="false" collective="false" type="upgrade">
@@ -25299,7 +25251,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc03-d682-d04e-9412" name="Treebeard" hidden="false" collective="false" type="model">
@@ -25421,7 +25373,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               </entryLinks>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -25471,7 +25423,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="190.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8cb-6351-8108-70c3" name="Roots and Branches" hidden="false" collective="false" type="upgrade">
@@ -25500,7 +25452,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5196-7023-6fc6-c0ee" name="Thráin" hidden="false" collective="false" type="model">
@@ -25604,7 +25556,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -25665,7 +25617,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ebc-8574-4d6c-92a0" name="Thrór ruled with utter surety, never doubting his house would endure" hidden="false" collective="false" type="upgrade">
@@ -25699,7 +25651,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="57ec-e3d0-5d92-8912" name="Durin&apos;s Axe" hidden="false" collective="false" type="upgrade">
@@ -25729,7 +25681,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f16-c3be-5242-fc5c" name="Durin, King of Khazard-Dûm" hidden="false" collective="false" type="model">
@@ -25808,7 +25760,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0932-1569-69c4-3ef7" name="The Crown of Kings" hidden="false" collective="false" type="upgrade">
@@ -25837,7 +25789,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8be2-49f4-a9fb-eedb" name="The Horn of Zirakzigil" hidden="false" collective="false" type="upgrade">
@@ -25873,7 +25825,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -25931,7 +25883,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2865-8c86-2a53-3ec1" name="The Ring of Durin" hidden="false" collective="false" type="upgrade">
@@ -25961,7 +25913,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8cf6-136e-1b2f-4040" name="Thrór" hidden="false" collective="false" type="model">
@@ -26033,7 +25985,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -26103,7 +26055,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f79-4eb6-f8a7-7db4" name="Young Thorin Oakenshield" hidden="false" collective="false" type="model">
@@ -26234,7 +26186,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e5f5-4af4-4680-a765" name="The Oakenshield" hidden="false" collective="false" type="upgrade">
@@ -26263,7 +26215,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="09d9-bc39-bde1-3310" name="Orcrist" hidden="false" collective="false" type="upgrade">
@@ -26313,7 +26265,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="49a3-9c05-5e01-f6cb" name="Thorin Oakenshield" hidden="false" collective="false" type="model">
@@ -26452,7 +26404,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b522-688a-e684-86ef" name="Dwarf Armour" hidden="false" collective="false" type="upgrade">
@@ -26478,7 +26430,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bc1-4db7-ef30-e0db" name="Thorin Oakenshield, King Under the Mountain" hidden="false" collective="false" type="model">
@@ -26624,7 +26576,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="115.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="717c-a11c-4c84-db3d" name="War Goat" hidden="false" collective="false" type="upgrade">
@@ -26661,7 +26613,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da6e-2db8-bd05-a771" name="Young Balin the Dwarf" hidden="false" collective="false" type="model">
@@ -26772,7 +26724,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5742-130a-873b-a0fc" name="Young Dwalin the Dwarf" hidden="false" collective="false" type="model">
@@ -26909,7 +26861,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="85.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d718-8f10-c8e4-48a7" name="Kíli the Dwarf" hidden="false" collective="false" type="model">
@@ -27040,7 +26992,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="03ee-b6be-132f-0caf" name="Fíli the Dwarf" hidden="false" collective="false" type="model">
@@ -27171,7 +27123,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2e9-213d-1e87-91dd" name="Balin the Dwarf" hidden="false" collective="false" type="model">
@@ -27308,7 +27260,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe96-bc83-a884-5324" name="Dwalin the Dwarf" hidden="false" collective="false" type="model">
@@ -27472,7 +27424,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="95.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28ca-f85b-17b2-a3bf" name="Bifur the Dwarf" hidden="false" collective="false" type="model">
@@ -27610,7 +27562,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -27656,7 +27608,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="39d8-6239-e45e-4a1c" name="Bofur the Dwarf" hidden="false" collective="false" type="model">
@@ -27779,7 +27731,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca5c-b585-34f2-b5d9" name="Bombur the Dwarf" hidden="false" collective="false" type="model">
@@ -27912,7 +27864,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e066-18b9-98be-8d32" name="Ori the Dwarf" hidden="false" collective="false" type="model">
@@ -28024,7 +27976,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -28062,7 +28014,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf08-564c-ce2e-16f8" name="Nori the Dwarf" hidden="false" collective="false" type="model">
@@ -28193,7 +28145,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3ee-1342-d729-c1a3" name="Dori the Dwarf" hidden="false" collective="false" type="model">
@@ -28325,7 +28277,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="308c-7251-a877-9e80" name="Óin the Dwarf" hidden="false" collective="false" type="model">
@@ -28441,7 +28393,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -28470,7 +28422,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9743-fc7b-b512-45b1" name="Glóin the Dwarf" hidden="false" collective="false" type="model">
@@ -28607,7 +28559,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="85.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a0e7-5e9a-14c0-60bd" name="Bilbo Baggins" hidden="false" collective="false" type="model">
@@ -28746,7 +28698,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="680c-c74d-401c-e2a5" name="Dáin Ironfoot, Lord of the Iron Hills" hidden="false" collective="false" type="model">
@@ -28928,7 +28880,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -28973,7 +28925,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0625-88b8-f1b9-1a37" name="Iron Hills Captain" hidden="false" collective="false" type="model">
@@ -29129,7 +29081,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf61-f3f8-0627-63ff" name="Iron Hills Ballista" hidden="false" collective="false" type="upgrade">
@@ -29264,7 +29216,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -29300,7 +29252,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -29475,7 +29427,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ae0e-0d84-b4fc-75a0" name="Iron Hills Siege Veteran" hidden="false" collective="false" type="model">
@@ -29560,7 +29512,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -29572,7 +29524,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2db-d592-d450-774a" name="Mattock" hidden="false" collective="false" type="upgrade">
@@ -29616,7 +29568,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="454d-81bd-ce31-02ac" name="Iron Hills Chariot" hidden="false" collective="false" type="upgrade">
@@ -29768,7 +29720,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3db2-cf6a-8479-5dab" name="Kíli the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -29908,7 +29860,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6da8-3da2-b5a2-730e" name="Fíli the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -30045,7 +29997,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b975-9b1d-df5d-c55e" name="Balin the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -30174,7 +30126,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8c1-50ff-227f-fb99" name="Dwalin the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -30358,7 +30310,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="115.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4bd-5ac4-26f0-62be" name="Bifur the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -30485,7 +30437,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d36-cc97-6660-d6bf" name="Bofur the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -30600,7 +30552,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb0b-95c9-d91d-d2cd" name="Bombur the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -30727,7 +30679,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fcc8-0910-aeeb-4530" name="Ori the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -30857,7 +30809,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e46-a235-8060-4ea4" name="Nori the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -30988,7 +30940,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="99f0-a880-0add-ad39" name="Dori the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -31099,7 +31051,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30ff-24ac-eaf8-375d" name="Óin the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -31228,7 +31180,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="02f1-c2e3-1419-40e8" name="Glóin the Dwarf, Champion of Erebor" hidden="false" collective="false" type="model">
@@ -31349,7 +31301,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="82da-a349-b99e-d272" name="Bard the Bowman" hidden="false" collective="false" type="model">
@@ -31526,7 +31478,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de44-7054-934b-4ed4" name="Alfrid the Councilor" hidden="false" collective="false" type="model">
@@ -31629,7 +31581,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1457-d7c4-8533-0bd7" name="Bain, Son of Bard" hidden="false" collective="false" type="model">
@@ -31715,7 +31667,7 @@ If the Chariot loses the Fight, it does not Back Away. It also never counts as T
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3847-63c0-b826-d5df" name="Sigrid &amp; Tilda" hidden="false" collective="false" type="upgrade">
@@ -31837,7 +31789,7 @@ It is possible for two models to be the target of Bard’s rage if both Sigrid a
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8ea4-efce-184e-22a9" name="Tilda" hidden="false" collective="false" type="model">
@@ -31908,7 +31860,7 @@ It is possible for two models to be the target of Bard’s rage if both Sigrid a
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -31917,7 +31869,7 @@ It is possible for two models to be the target of Bard’s rage if both Sigrid a
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d69a-bbc8-abfe-ab7a" name="Windlance" hidden="false" collective="false" type="upgrade">
@@ -31965,7 +31917,7 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="872c-22f7-254a-d1f3" name="Bilbo Baggins, Master Burglar" hidden="false" collective="false" type="model">
@@ -32119,7 +32071,7 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="90.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b501-ff8f-b343-8801" name="Galadriel, Lady of Light" hidden="false" collective="false" type="model">
@@ -32277,7 +32229,7 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -32315,7 +32267,7 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="130.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="45a4-72ae-b391-f631" name="Thráin the Broken" hidden="false" collective="false" type="model">
@@ -32403,10 +32355,10 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="da64-9e72-a166-c6b3" name="Azog" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="da64-9e72-a166-c6b3" name="Azog" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="7abc-8c21-5fa2-e610" name="Azog" book="Armies of the Hobbit" page="93" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
           <profiles/>
@@ -32600,7 +32552,7 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="13e4-14a0-b6e3-5372" name="Stone Flail" hidden="false" collective="false" type="upgrade">
@@ -32636,7 +32588,7 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6309-b4af-fe5f-5ed0" name="Signal Tower" hidden="false" collective="false" type="upgrade">
@@ -32696,7 +32648,7 @@ Before deployment, but after players have decided on their board edges, the cont
               </constraints>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="df2c-654f-f95b-82c3" name="Azog&apos;s Lieutenants" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="df2c-654f-f95b-82c3" name="Azog&apos;s Lieutenants" hidden="false" collective="false" type="model">
                   <profiles>
                     <profile id="983d-5b6b-4d72-d00a" name="Azog&apos;s Lieutenants" book="Armies of the Hobbit" page="94" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
                       <profiles/>
@@ -32785,7 +32737,7 @@ Before deployment, but after players have decided on their board edges, the cont
                   <costs>
                     <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="782e-77aa-2ab7-cdc1" name="The Horn of Gorgoroth" hidden="false" collective="false" type="upgrade">
@@ -32829,7 +32781,7 @@ Before deployment, but after players have decided on their board edges, the cont
                   <costs>
                     <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="3b60-e8e2-2f45-b9e8" name="The Banner of Angmar" hidden="false" collective="false" type="upgrade">
@@ -32873,7 +32825,7 @@ Before deployment, but after players have decided on their board edges, the cont
                   <costs>
                     <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c36c-987f-5b27-8bb9" name="The Banner of Gundabad" hidden="false" collective="false" type="upgrade">
@@ -32917,7 +32869,7 @@ Before deployment, but after players have decided on their board edges, the cont
                   <costs>
                     <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d16e-9798-7a6c-831b" name="The Banner of Dol Guldur" hidden="false" collective="false" type="upgrade">
@@ -32961,7 +32913,7 @@ Before deployment, but after players have decided on their board edges, the cont
                   <costs>
                     <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -32970,7 +32922,7 @@ Before deployment, but after players have decided on their board edges, the cont
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="200.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -33016,7 +32968,7 @@ Before deployment, but after players have decided on their board edges, the cont
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="165.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1a78-e664-2125-e550" name="Bolg" hidden="false" collective="false" type="model">
@@ -33165,7 +33117,7 @@ Before deployment, but after players have decided on their board edges, the cont
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="165.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c865-0218-145d-c232" name="Gundabad Orc Captain" hidden="false" collective="false" type="model">
@@ -33286,7 +33238,7 @@ Before deployment, but after players have decided on their board edges, the cont
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d70-3b21-1274-98cd" name="Goblin Mercenary Captain" hidden="false" collective="false" type="model">
@@ -33392,7 +33344,7 @@ Before deployment, but after players have decided on their board edges, the cont
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d180-32bc-0aef-6a9a" name="Hunter Orc Captain" hidden="false" collective="false" type="model">
@@ -33486,7 +33438,7 @@ Before deployment, but after players have decided on their board edges, the cont
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -33560,7 +33512,7 @@ Before deployment, but after players have decided on their board edges, the cont
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="45.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e08-0155-80ae-e106" name="I would take each and everyone of these Dwarves over an army from the Iron Hills, for when I called upon them, they answered" hidden="false" collective="false" type="upgrade">
@@ -33594,7 +33546,7 @@ Before deployment, but after players have decided on their board edges, the cont
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="81c0-b6d0-05ab-019d" name="Irontfoot has come" hidden="false" collective="false" type="upgrade">
@@ -33630,7 +33582,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7007-1077-b6c7-c505" name="Will you follow me, one last time" hidden="false" collective="false" type="upgrade">
@@ -33664,7 +33616,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="11e6-b551-86f2-0cb7" name="The Master&apos;s Purse-strings" hidden="false" collective="false" type="upgrade">
@@ -33698,7 +33650,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b1f-bddf-37ac-fc33" name="Any man who wants to give their last, follow me!" hidden="false" collective="false" type="upgrade">
@@ -33732,7 +33684,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a218-2cbb-c72b-f863" name="Girion, lord of the city, rallied his bowmen to fire upon the beast" hidden="false" collective="false" type="upgrade">
@@ -33766,7 +33718,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc45-4099-3749-5256" name="The Elves of Mirkwood are not like their kin. They are less wise, and more dangerous" hidden="false" collective="false" type="upgrade">
@@ -33800,7 +33752,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="474a-bee6-aee2-3857" name="Are you in need of assistance?" hidden="false" collective="false" type="upgrade">
@@ -33834,7 +33786,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1acc-6b0f-f510-5e4d" name="Let the legions come forth!" hidden="false" collective="false" type="upgrade">
@@ -33868,7 +33820,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="17fd-1b6b-632a-b65b" name="They strike in the wee small hours when everyone&apos;s asleep" hidden="false" collective="false" type="upgrade">
@@ -33902,7 +33854,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bd6-1cc9-aaab-d2c2" name="His spirit has lost none of its potency" hidden="false" collective="false" type="upgrade">
@@ -33936,7 +33888,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9906-d5a2-0bda-ca0b" name="Beasts of Mirkwood" hidden="false" collective="false" type="upgrade">
@@ -33970,7 +33922,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e9c-d9f0-da53-b675" name="Down down down in Goblin-town" hidden="false" collective="false" type="upgrade">
@@ -34004,7 +33956,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d058-e0a7-6c62-29a4" name="Hold his toes over the fire, make him squeal" hidden="false" collective="false" type="upgrade">
@@ -34038,7 +33990,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="822c-ff72-07d6-277b" name="The Nazgûl of Dol Guldur" hidden="false" collective="false" type="model">
@@ -34191,7 +34143,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d978-3851-de36-f698" name="The Abyssal Knight" hidden="false" collective="false" type="upgrade">
@@ -34247,7 +34199,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d3af-bbd0-a50b-a34b" name="The Lingering Shadow" hidden="false" collective="false" type="upgrade">
@@ -34303,7 +34255,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8152-18f4-bbf9-ed4a" name="The Dark Headsman" hidden="false" collective="false" type="upgrade">
@@ -34359,7 +34311,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5124-ae8f-fd3b-8a61" name="The Forsaken" hidden="false" collective="false" type="upgrade">
@@ -34408,7 +34360,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                       <costs>
                         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -34429,7 +34381,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a588-4629-0584-1537" name="The Slayer of Men" hidden="false" collective="false" type="upgrade">
@@ -34485,7 +34437,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ce9e-9547-1ccb-4b9c" name="The Witch-king of Angmar" hidden="false" collective="false" type="upgrade">
@@ -34549,7 +34501,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -34578,7 +34530,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a300-1832-bfa2-3f24" name="Two-handed Mace" hidden="false" collective="false" type="upgrade">
@@ -34610,7 +34562,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c657-97be-1b93-cdfa" name="Two-handed Pick" hidden="false" collective="false" type="upgrade">
@@ -34642,7 +34594,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4cfa-17f9-9d63-4e9b" name="Morgul Blade" hidden="false" collective="false" type="upgrade">
@@ -34667,7 +34619,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8af5-2460-6e2a-95ff" name="Venomous Fangs" hidden="false" collective="false" type="upgrade">
@@ -34696,7 +34648,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1a56-de30-3469-9394" name="Elven-made Daggers" hidden="false" collective="false" type="upgrade">
@@ -34728,7 +34680,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55f9-17fc-cbfd-0c9d" name="Elven-made Glaive" hidden="false" collective="false" type="upgrade">
@@ -34760,7 +34712,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e65-8c10-bcad-e68f" name="Sharkey" hidden="false" collective="false" type="model">
@@ -34891,7 +34843,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -34929,7 +34881,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="256d-1a19-a46e-ad73" name="Worm" hidden="false" collective="false" type="model">
@@ -35016,7 +34968,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="912f-e21a-272a-a9e3" name="Throwing Axes" hidden="false" collective="false" type="upgrade">
@@ -35042,7 +34994,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cbea-de50-df46-8c44" name="Fell Warg" hidden="false" collective="false" type="upgrade">
@@ -35094,7 +35046,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6674-f5bc-ab45-f67c" name="Orc Bow" hidden="false" collective="false" type="upgrade">
@@ -35120,7 +35072,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b2d-88a9-0816-7c65" name="Flail" hidden="false" collective="false" type="upgrade">
@@ -35146,7 +35098,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d293-1b29-66f5-2556" name="Pick-Hammer" hidden="false" collective="false" type="upgrade">
@@ -35194,7 +35146,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b45d-aa36-149f-b8c6" name="Great Bow" hidden="false" collective="false" type="upgrade">
@@ -35220,7 +35172,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aef9-b7c6-6074-5bd8" name="Legolas Greenleaf, Prince of Mirkwood" hidden="false" collective="false" type="model">
@@ -35367,7 +35319,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="95.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="76d7-ecf6-5cfd-897a" name="War Goat" hidden="false" collective="false" type="upgrade">
@@ -35404,7 +35356,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <entryLinks/>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -35448,7 +35400,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="074f-603b-7258-9f6a" name="Two-handed Hammer" hidden="false" collective="false" type="upgrade">
@@ -35480,7 +35432,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2d70-ffdd-b105-6176" name="Meriadoc Brandybuck, Knight of the Mark" hidden="false" collective="false" type="model">
@@ -35624,7 +35576,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eeb4-c347-7a95-2f8e" name="Iron Shield" hidden="false" collective="false" type="model">
@@ -35713,7 +35665,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -35742,7 +35694,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec6e-c217-a2c7-88b3" name="Foe Spear" hidden="false" collective="false" type="model">
@@ -35823,7 +35775,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -35844,7 +35796,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="358e-2782-876a-2328" name="Dwarf Ballista" hidden="false" collective="false" type="upgrade">
@@ -35938,7 +35890,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2e21-8c1d-bf69-eefe" name="Dwarf Crew" hidden="false" collective="false" type="model">
@@ -35999,7 +35951,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -36151,7 +36103,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="40b2-1df7-2867-07de" name="Siege Veteran" hidden="false" collective="false" type="model">
@@ -36244,7 +36196,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -36276,7 +36228,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c384-3215-03cb-0b8e" name="Throwing Axes" hidden="false" collective="false" type="upgrade">
@@ -36301,7 +36253,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f2a-aa52-b09e-4c22" name="Two-Handed Axe" hidden="false" collective="false" type="upgrade">
@@ -36332,7 +36284,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1369-1098-9305-3f9b" name="Dwarf Captain" hidden="false" collective="false" type="model">
@@ -36470,7 +36422,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a41-e777-2ebf-85fa" name="Dwarf King" hidden="false" collective="false" type="model">
@@ -36600,7 +36552,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ffc0-3c90-fe70-cd90" name="King&apos;s Champion" hidden="false" collective="false" type="upgrade">
@@ -36707,7 +36659,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   <costs>
                     <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -36753,7 +36705,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="926e-c672-15b7-0708" name="King&apos;s Champion" hidden="false" collective="false" type="model">
@@ -36862,7 +36814,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -36871,7 +36823,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e17-b2fe-7007-cfa8" name="Shieldbearer" hidden="false" collective="false" type="model">
@@ -36988,7 +36940,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2af2-3033-755a-f4aa" name="Tom Bombadil" hidden="false" collective="false" type="model">
@@ -37116,7 +37068,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -37137,7 +37089,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="70ff-d806-70ad-4e8a" name="Goldberry" hidden="false" collective="false" type="model">
@@ -37253,7 +37205,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -37274,7 +37226,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9726-a2a5-3fc2-5edf" name="Champions of Erebor" hidden="false" collective="false" type="upgrade">
@@ -37351,7 +37303,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="175.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="95ab-8c35-0cf9-0f14" name="Dwarf Bow" hidden="false" collective="false" type="upgrade">
@@ -37376,7 +37328,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f5c0-592b-0da1-927f" name="Hand-and-a-half Axe" hidden="false" collective="false" type="upgrade">
@@ -37408,7 +37360,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5d22-3a94-971f-eef8" name="Balin, King of Moria" hidden="false" collective="false" type="model">
@@ -37525,7 +37477,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="110.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f572-47ba-00f8-2bf4" name="Dwarf Bow" hidden="false" collective="false" type="upgrade">
@@ -37551,7 +37503,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="654c-120f-e2ba-1f33" name="Múrin &amp; Drár" hidden="false" collective="false" type="upgrade">
@@ -37635,7 +37587,7 @@ The Chariot is also subject to the following exceptions:
                   <costs>
                     <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -37681,7 +37633,7 @@ The Chariot is also subject to the following exceptions:
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8d7b-6387-ea14-401a" name="Drár" hidden="false" collective="false" type="model">
@@ -37775,7 +37727,7 @@ The Chariot is also subject to the following exceptions:
           </entryLinks>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -37785,7 +37737,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="140.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d26e-96ea-c830-6ada" name="Sword-Mace" hidden="false" collective="false" type="upgrade">
@@ -37827,7 +37779,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7743-2143-b473-11a6" name="Experience" hidden="false" collective="false" type="upgrade">
@@ -37855,7 +37807,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1354-d0bd-4002-d284" name="Armoured Horse" hidden="false" collective="false" type="upgrade">
@@ -37880,7 +37832,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="9.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c8de-356b-9843-911d" name="Evil Army" hidden="false" collective="false" type="upgrade">
@@ -37899,7 +37851,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ec8-ad8d-8d3f-368c" name="Good Army" hidden="false" collective="false" type="upgrade">
@@ -37918,7 +37870,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="178d-9927-3613-41de" name="Lieutenant" hidden="false" collective="false" type="upgrade">
@@ -37952,7 +37904,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d377-e9b1-fbca-2709" name="Sergeant" hidden="false" collective="false" type="upgrade">
@@ -37986,7 +37938,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c32-4567-7482-cb7c" name="Hero" hidden="false" collective="false" type="upgrade">
@@ -38006,7 +37958,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3b4-2195-26ce-f24e" name="Flói Stonehand" hidden="false" collective="false" type="model">
@@ -38109,7 +38061,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97b9-e206-4382-7257" name="Mithril Coat" hidden="false" collective="false" type="upgrade">
@@ -38136,7 +38088,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b471-7653-0304-33d3" name="Sting" hidden="false" collective="false" type="upgrade">
@@ -38169,7 +38121,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ce2-b603-e16f-985c" name="Arwen Undómiel" hidden="false" collective="false" type="model">
@@ -38315,7 +38267,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="05ab-8ff7-1c64-94d4" name="Elladan &amp; Elrohir" hidden="false" collective="false" type="upgrade">
@@ -38416,7 +38368,7 @@ The Chariot is also subject to the following exceptions:
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0581-f714-21c3-e2ab" name="Elrohir" hidden="false" collective="false" type="model">
@@ -38490,7 +38442,7 @@ The Chariot is also subject to the following exceptions:
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -38525,7 +38477,7 @@ The Chariot is also subject to the following exceptions:
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="96d0-8ebc-74d3-bf4d" name="2 Elven Cloaks" hidden="false" collective="false" type="upgrade">
@@ -38550,7 +38502,7 @@ The Chariot is also subject to the following exceptions:
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="253f-349e-b4b5-f71f" name="2 Elf Bows" hidden="false" collective="false" type="upgrade">
@@ -38575,7 +38527,7 @@ The Chariot is also subject to the following exceptions:
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f48d-9076-201e-ff35" name="2 Horses" hidden="false" collective="false" type="upgrade">
@@ -38600,7 +38552,7 @@ The Chariot is also subject to the following exceptions:
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -38612,7 +38564,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="160.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9abb-7176-3884-d4a8" name="Lindir of Rivendell" hidden="false" collective="false" type="model">
@@ -38756,7 +38708,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ef2-06c1-8023-4fec" name="Eorl the Young" hidden="false" collective="false" type="model">
@@ -38846,7 +38798,7 @@ The Chariot is also subject to the following exceptions:
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ca33-e3a9-5800-1b38" name="Felarof" hidden="false" collective="false" type="upgrade">
@@ -38883,7 +38835,7 @@ The Chariot is also subject to the following exceptions:
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -38937,7 +38889,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="115.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="21cb-84eb-7517-34b1" name="Erkenbrand, Captain of Rohan" hidden="false" collective="false" type="model">
@@ -39042,7 +38994,7 @@ The Chariot is also subject to the following exceptions:
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -39096,7 +39048,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b444-5c42-a97c-970d" name="Gamling, Captain of Rohan" hidden="false" collective="false" type="model">
@@ -39220,7 +39172,7 @@ The Chariot is also subject to the following exceptions:
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="50.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -39258,7 +39210,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa07-1ba1-a529-e332" name="Grimbold of Grimslade" hidden="false" collective="false" type="model">
@@ -39353,7 +39305,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a82-c758-be11-af03" name="Háma, Captain of Rohan" hidden="false" collective="false" type="model">
@@ -39494,7 +39446,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8c8-c1c1-b10f-b8b4" name="Théoden, King of Rohan" hidden="false" collective="false" type="model">
@@ -39594,7 +39546,7 @@ The Chariot is also subject to the following exceptions:
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -39676,7 +39628,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="457d-441f-ec77-73ec" name="Théodred, Heir of Rohan" hidden="false" collective="false" type="model">
@@ -39821,7 +39773,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="411d-10d1-054e-ad3f" name="Throwing Spears" hidden="false" collective="false" type="upgrade">
@@ -39846,7 +39798,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ffb7-14b3-641e-98de" name="Éomer, Marshal of the Riddermark" hidden="false" collective="false" type="model">
@@ -39999,7 +39951,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b21-eb86-3c2e-0d0e" name="Éowyn, Shield Maiden of Rohan" hidden="false" collective="false" type="model">
@@ -40136,7 +40088,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c2cf-8ac4-cc07-ad30" name="Beregond, Guard of the Citadel" hidden="false" collective="false" type="model">
@@ -40247,7 +40199,7 @@ The Chariot is also subject to the following exceptions:
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -40268,7 +40220,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3f6-4aee-806b-4612" name="Cirion, Lieutenant of Amon Barad" hidden="false" collective="false" type="model">
@@ -40372,7 +40324,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="440f-85f4-f354-8ec7" name="Damrod, Ranger of Ithilien" hidden="false" collective="false" type="model">
@@ -40467,7 +40419,7 @@ The Chariot is also subject to the following exceptions:
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7950-ad8b-2321-f820" name="Denethor, Steward of Gondor" hidden="false" collective="false" type="model">
@@ -40587,7 +40539,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="35.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b64d-7ea2-972b-6ffb" name="Faramir, Captain of Gondor" hidden="false" collective="false" type="model">
@@ -40750,7 +40702,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5c39-b0d2-a5d3-4b00" name="Hurin the Tall, Warden of the Keys" hidden="false" collective="false" type="model">
@@ -40798,7 +40750,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         <modifier type="set" field="9399-fb7d-2e59-c326" value="1">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff8a-8730-34ae-7173" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9dfc-6fdb-705f-1563" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -40845,7 +40797,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -40903,7 +40855,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="80.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8021-a1f9-d67f-5052" name="Ingold, Warden of the Rammas Echor" hidden="false" collective="false" type="model">
@@ -40951,7 +40903,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
         <modifier type="set" field="e150-86fc-36de-9f91" value="1">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff8a-8730-34ae-7173" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9dfc-6fdb-705f-1563" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -41022,7 +40974,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07e4-00d3-b669-bcd6" name="Irolas, Captain of the Guard" hidden="false" collective="false" type="model">
@@ -41073,7 +41025,7 @@ enemy model from the same Fight.</description>
         <modifier type="set" field="5b62-715e-2650-598f" value="1">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff8a-8730-34ae-7173" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9dfc-6fdb-705f-1563" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -41119,7 +41071,7 @@ enemy model from the same Fight.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="65.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6b7-09fe-7509-04e1" name="Madril, Captain of Ithilien" hidden="false" collective="false" type="model">
@@ -41230,7 +41182,7 @@ enemy model from the same Fight.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="55.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be7e-4d1f-3f6f-3ef7" name="Arathorn" hidden="false" collective="false" type="model">
@@ -41326,7 +41278,7 @@ enemy model from the same Fight.</description>
       <costs>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="75.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="13ed-c80f-c091-556f" name="Iron Hills Chariot Captain" hidden="false" collective="false" type="model">
@@ -41440,7 +41392,33 @@ enemy model from the same Fight.</description>
       <costs>
         <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="250.0"/>
         <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9dfc-6fdb-705f-1563" name="Use Experimental Rules" hidden="true" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8261-4b08-a6a8-dffa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f37c-ed29-e53f-622d" name="New CategoryLink" hidden="false" targetId="4a7b-8f86-68be-e1d6" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -41478,7 +41456,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="756a-14c1-09c9-e711" name="Sword" hidden="false" collective="false" type="upgrade">
@@ -41503,7 +41481,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -41549,7 +41527,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="edd3-27ef-040b-1d1e" name="Hand-and-a-Half Club" hidden="false" collective="false" type="upgrade">
@@ -41580,7 +41558,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0a23-46cf-edd9-78f2" name="Hand-and-a-Half Sword" hidden="false" collective="false" type="upgrade">
@@ -41611,7 +41589,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -41651,7 +41629,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b2d1-0cd6-970d-cbf8" name="Staff" hidden="false" collective="false" type="upgrade">
@@ -41676,7 +41654,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bed7-1401-643d-46f9" name="Pick" hidden="false" collective="false" type="upgrade">
@@ -41701,7 +41679,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="680f-4d56-ba5f-3a36" name="Maul" hidden="false" collective="false" type="upgrade">
@@ -41726,7 +41704,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d17c-04dc-d0b7-2576" name="Mace" hidden="false" collective="false" type="upgrade">
@@ -41751,7 +41729,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0676-1a66-1d0d-afe8" name="Hammer" hidden="false" collective="false" type="upgrade">
@@ -41776,7 +41754,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a0f8-45c0-ca8c-1bfa" name="Flail" hidden="false" collective="false" type="upgrade">
@@ -41801,7 +41779,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4042-3beb-c65d-25c0" name="Dagger" hidden="false" collective="false" type="upgrade">
@@ -41826,7 +41804,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6e05-2f2d-eb58-d698" name="Club" hidden="false" collective="false" type="upgrade">
@@ -41851,7 +41829,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8052-eec8-e073-b60d" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -41876,7 +41854,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -41913,7 +41891,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8019-ecbb-6d75-fdd7" name="Gnarled Hide" hidden="false" collective="false" type="upgrade">
@@ -41931,7 +41909,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="30.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dc8a-af2a-f30e-9db6" name="Rappelling Lines" hidden="false" collective="false" type="upgrade">
@@ -41956,7 +41934,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="86ec-6561-956a-5891" name="Rocks" hidden="false" collective="false" type="upgrade">
@@ -41987,7 +41965,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="425d-d2f8-0cf4-4dbd" name="Sigils of Defiance" hidden="false" collective="false" type="upgrade">
@@ -42018,7 +41996,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c731-0cec-1ae6-b805" name="Tusk Weapons" hidden="false" collective="false" type="upgrade">
@@ -42043,7 +42021,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="20.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -42254,7 +42232,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="40.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c39c-7868-1b48-4ef3" name="Orc Siege Veteran" hidden="false" collective="false" type="upgrade">
@@ -42332,7 +42310,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -42373,7 +42351,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -42448,7 +42426,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ed4-ffac-2deb-980c" name="Fight Value" hidden="false" collective="false" type="upgrade">
@@ -42466,7 +42444,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0417-473c-24c0-734d" name="Strength" hidden="false" collective="false" type="upgrade">
@@ -42484,7 +42462,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="44a2-b773-5243-5687" name="Will" hidden="false" collective="false" type="upgrade">
@@ -42502,7 +42480,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0167-8d06-4d5f-3afb" name="Defence" hidden="false" collective="false" type="upgrade">
@@ -42520,7 +42498,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9a32-2a3c-2e51-b229" name="Courage" hidden="false" collective="false" type="upgrade">
@@ -42538,7 +42516,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9bf7-cb62-167c-a30f" name="Attack" hidden="false" collective="false" type="upgrade">
@@ -42556,7 +42534,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4573-496d-8aa3-9544" name="Wound" hidden="false" collective="false" type="upgrade">
@@ -42574,7 +42552,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b7d1-2dc9-f344-19d4" name="Might" hidden="false" collective="false" type="upgrade">
@@ -42592,7 +42570,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="986c-f898-7854-49e5" name="Shoot Value" hidden="false" collective="false" type="upgrade">
@@ -42610,7 +42588,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -42640,7 +42618,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ec9d-5c49-d96b-655e" name="&apos;Rally to me!&apos;" hidden="false" collective="false" type="upgrade">
@@ -42658,7 +42636,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -42695,7 +42673,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3505-d586-6240-6644" name="Master of Ambush" hidden="false" collective="false" type="upgrade">
@@ -42713,7 +42691,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b3c6-b4e6-3cf9-2012" name="Battle Veteran" hidden="false" collective="false" type="upgrade">
@@ -42731,7 +42709,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="49f6-49b5-5e58-1fa6" name="Lead by Example" hidden="false" collective="false" type="upgrade">
@@ -42749,7 +42727,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d05b-88f7-63e4-af8a" name="Courageous" hidden="false" collective="false" type="upgrade">
@@ -42767,7 +42745,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="49ca-ac8b-1217-7a57" name="Favour of the Court" hidden="false" collective="false" type="upgrade">
@@ -42785,7 +42763,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -42815,7 +42793,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="90d4-a0f3-a6fb-ab56" name="Pinpoint Shot" hidden="false" collective="false" type="upgrade">
@@ -42833,7 +42811,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -42863,7 +42841,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1eb7-8b5e-35fc-e84a" name="Expert Shot" hidden="false" collective="false" type="upgrade">
@@ -42888,7 +42866,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="139e-f1d1-4e8e-4d4e" name="Seasoned Archer" hidden="false" collective="false" type="upgrade">
@@ -42906,7 +42884,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b4c5-8c06-72f7-35cc" name="Deadly Accuracy" hidden="false" collective="false" type="upgrade">
@@ -42924,7 +42902,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="868b-1aee-f462-4673" name="Keen Eye" hidden="false" collective="false" type="upgrade">
@@ -42942,7 +42920,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="16c5-e98e-b951-3837" name="Master Archer" hidden="false" collective="false" type="upgrade">
@@ -42960,7 +42938,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -43006,7 +42984,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6329-ca48-60b5-31ba" name="Inspirational Fighter" hidden="false" collective="false" type="upgrade">
@@ -43032,7 +43010,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cb15-bde2-b5f6-6451" name="Fearless" hidden="false" collective="false" type="upgrade">
@@ -43057,7 +43035,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4496-eda0-1f59-d6d9" name="Hardy Warrior" hidden="false" collective="false" type="upgrade">
@@ -43083,7 +43061,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9dbe-aa2f-9b6c-9fd8" name="Chosen of the Valar" hidden="false" collective="false" type="upgrade">
@@ -43132,7 +43110,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -43169,7 +43147,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="72ef-2802-98a5-ccb4" name="Parry" hidden="false" collective="false" type="upgrade">
@@ -43187,7 +43165,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c8e5-7617-2183-0c1c" name="Blade Master" hidden="false" collective="false" type="upgrade">
@@ -43205,7 +43183,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="589b-7125-5cbb-9219" name="Heroic Presence" hidden="false" collective="false" type="upgrade">
@@ -43223,7 +43201,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0b57-d5c7-7831-10c9" name="Hero Slayer" hidden="false" collective="false" type="upgrade">
@@ -43241,7 +43219,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="eb98-1961-4414-5a23" name="Furious Charge" hidden="false" collective="false" type="upgrade">
@@ -43259,7 +43237,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -43320,7 +43298,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3f49-25b3-fe33-9f9a" name="Terror" hidden="false" collective="false" type="upgrade">
@@ -43345,7 +43323,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="74a5-9b6a-502a-b66b" name="Bane of Kings" hidden="false" collective="false" type="upgrade">
@@ -43370,7 +43348,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="140c-45b4-50a3-327f" name="Fell Sight" hidden="false" collective="false" type="upgrade">
@@ -43395,7 +43373,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4701-22e4-25e3-9ed2" name="Harbinger of Evil" hidden="false" collective="false" type="upgrade">
@@ -43420,7 +43398,7 @@ enemy model from the same Fight.</description>
               <costs>
                 <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
                 <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -43453,7 +43431,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="9.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="40c6-cb96-f20f-c100" name="Bow" hidden="false" collective="false" type="upgrade">
@@ -43471,7 +43449,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4466-d920-09c4-400b" name="Dwarf Longbow" hidden="false" collective="false" type="upgrade">
@@ -43489,7 +43467,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2b8e-e4d4-6a12-850e" name="Dwarf Bow" hidden="false" collective="false" type="upgrade">
@@ -43507,7 +43485,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="782f-2057-6c7e-5294" name="Orc Bow" hidden="false" collective="false" type="upgrade">
@@ -43525,7 +43503,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4b2d-82bc-8be1-33b8" name="Uruk-hai Bow" hidden="false" collective="false" type="upgrade">
@@ -43543,7 +43521,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e8a2-93f0-382f-b16c" name="Elf Bow" hidden="false" collective="false" type="upgrade">
@@ -43561,7 +43539,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="2.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4833-986a-d99c-b0ed" name="Longbow" hidden="false" collective="false" type="upgrade">
@@ -43579,7 +43557,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="2.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7d67-098d-4fb9-997f" name="Crossbow" hidden="false" collective="false" type="upgrade">
@@ -43597,7 +43575,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="2.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dc50-7122-198b-9d35" name="Esgaroth Bow" hidden="false" collective="false" type="upgrade">
@@ -43615,7 +43593,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3026-766d-46b9-9285" name="Horse" hidden="false" collective="false" type="upgrade">
@@ -43633,7 +43611,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="6.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b2b0-6bae-6d38-e6ed" name="Warg" hidden="false" collective="false" type="upgrade">
@@ -43651,7 +43629,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="6.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b494-f32d-2231-54f0" name="War Spear" hidden="false" collective="false" type="upgrade">
@@ -43669,7 +43647,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6ee7-0438-dcc6-0473" name="Lance" hidden="false" collective="false" type="upgrade">
@@ -43687,7 +43665,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f8f7-78d6-a539-e388" name="Shield" hidden="false" collective="false" type="upgrade">
@@ -43705,7 +43683,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="15f0-2c93-db60-6c8e" name="Spear" hidden="false" collective="false" type="upgrade">
@@ -43723,7 +43701,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7c56-fba9-23fa-ad32" name="Pike" hidden="false" collective="false" type="upgrade">
@@ -43741,7 +43719,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2a91-5742-13bf-1965" name="Throwing Weapons" hidden="false" collective="false" type="upgrade">
@@ -43759,7 +43737,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="86de-4e24-544d-c66c" name="Two-Handed Weapon" hidden="false" collective="false" type="upgrade">
@@ -43777,7 +43755,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="090c-9dda-7578-e139" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
@@ -43795,7 +43773,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -43844,7 +43822,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cd12-5278-66aa-3d94" name="Staff" hidden="false" collective="false" type="upgrade">
@@ -43869,7 +43847,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5dbc-9346-af64-6ee6" name="Pick" hidden="false" collective="false" type="upgrade">
@@ -43894,7 +43872,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="12b1-543a-585d-a1da" name="Maul" hidden="false" collective="false" type="upgrade">
@@ -43919,7 +43897,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="711a-e76d-c421-e2b8" name="Mace" hidden="false" collective="false" type="upgrade">
@@ -43944,7 +43922,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="79a0-9c06-efec-1f5f" name="Hammer" hidden="false" collective="false" type="upgrade">
@@ -43969,7 +43947,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bc78-5089-e842-dde9" name="Flail" hidden="false" collective="false" type="upgrade">
@@ -43994,7 +43972,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="78e3-a111-9c1e-622d" name="Dagger" hidden="false" collective="false" type="upgrade">
@@ -44019,7 +43997,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d31d-09c3-60dd-f9fa" name="Club" hidden="false" collective="false" type="upgrade">
@@ -44044,7 +44022,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8c07-f0b2-b02d-4cdc" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -44069,7 +44047,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="1.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -44099,7 +44077,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8833-b504-ddfa-d1ce" name="Bow" hidden="false" collective="false" type="upgrade">
@@ -44117,7 +44095,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e649-25c5-96f5-ee9e" name="Dwarf Longbow" hidden="false" collective="false" type="upgrade">
@@ -44135,7 +44113,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="34a6-17d0-f1db-f158" name="Dwarf Bow" hidden="false" collective="false" type="upgrade">
@@ -44153,7 +44131,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1fb9-c607-2535-087c" name="Orc Bow" hidden="false" collective="false" type="upgrade">
@@ -44171,7 +44149,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f640-f0ec-8dff-b702" name="Uruk-hai Bow" hidden="false" collective="false" type="upgrade">
@@ -44189,7 +44167,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d909-025e-2aa8-ec1a" name="Elf Bow" hidden="false" collective="false" type="upgrade">
@@ -44207,7 +44185,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9e27-7380-6576-3c38" name="Longbow" hidden="false" collective="false" type="upgrade">
@@ -44225,7 +44203,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2060-37df-36b9-3ef9" name="Crossbow" hidden="false" collective="false" type="upgrade">
@@ -44243,7 +44221,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="50be-6563-a64a-4395" name="Esgaroth Bow" hidden="false" collective="false" type="upgrade">
@@ -44261,7 +44239,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="658e-0ca1-5b1a-43f2" name="Horse" hidden="false" collective="false" type="upgrade">
@@ -44279,7 +44257,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ef3c-39a0-36e8-3c7f" name="Warg" hidden="false" collective="false" type="upgrade">
@@ -44297,7 +44275,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="10.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="70ca-6122-f360-d57e" name="War Spear" hidden="false" collective="false" type="upgrade">
@@ -44315,7 +44293,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="56da-12ff-5530-9859" name="Lance" hidden="false" collective="false" type="upgrade">
@@ -44333,7 +44311,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cd88-a631-d0d8-c221" name="Shield" hidden="false" collective="false" type="upgrade">
@@ -44351,7 +44329,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="028e-b78f-6c48-2268" name="Spear" hidden="false" collective="false" type="upgrade">
@@ -44369,7 +44347,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d664-c05d-3f8c-5bfd" name="Pike" hidden="false" collective="false" type="upgrade">
@@ -44387,7 +44365,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dc65-be35-361a-4b51" name="Throwing Weapons" hidden="false" collective="false" type="upgrade">
@@ -44405,7 +44383,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cf20-e1e4-997f-4c81" name="Two-Handed Weapon" hidden="false" collective="false" type="upgrade">
@@ -44423,7 +44401,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4b66-7f42-7d88-9943" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
@@ -44441,7 +44419,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -44529,7 +44507,7 @@ enemy model from the same Fight.</description>
           <costs>
             <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
