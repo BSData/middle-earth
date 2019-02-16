@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="53" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="54" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -35956,7 +35956,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="53b4-a08a-5b4f-2aa8" name="Hero" hidden="false" collective="false">
+        <selectionEntryGroup id="53b4-a08a-5b4f-2aa8" name="Hero" hidden="false" collective="false" defaultSelectionEntryId="40b2-1df7-2867-07de">
           <profiles/>
           <rules/>
           <infoLinks/>
