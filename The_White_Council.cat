@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f6b7-f518-07fb-42c8" name="The White Council" revision="1" battleScribeVersion="2.01" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f6b7-f518-07fb-42c8" name="The White Council" revision="2" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="33d0-8d40-13bb-079f" name="Additional Rules" hidden="false">
@@ -54,8 +54,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -97,8 +97,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -132,8 +132,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -167,8 +167,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -210,8 +210,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -245,8 +245,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -280,8 +280,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -308,7 +308,9 @@
       <modifiers>
         <modifier type="set" field="fc57-9b12-360d-e1c3" value="1">
           <repeats/>
-          <conditions/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
+          </conditions>
           <conditionGroups/>
         </modifier>
       </modifiers>

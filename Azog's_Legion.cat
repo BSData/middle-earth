@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="055d-cc3c-bbab-c5a0" name="Azog&apos;s Legion" revision="1" battleScribeVersion="2.01" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="055d-cc3c-bbab-c5a0" name="Azog&apos;s Legion" revision="2" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -50,8 +50,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -97,8 +97,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -146,8 +146,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -204,8 +204,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -232,7 +232,9 @@
       <modifiers>
         <modifier type="set" field="ac70-8182-eccd-4379" value="1">
           <repeats/>
-          <conditions/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
+          </conditions>
           <conditionGroups/>
         </modifier>
       </modifiers>
@@ -295,11 +297,19 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="0747-85f5-59a8-f257" value="1">
+          <repeats>
+            <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="53e9-21aa-d6d6-937d" repeats="1" roundUp="true"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f20-44c8-7f48-75cf" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3576-eb32-a10c-39bc" type="min"/>
         <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="24.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e782-7b1a-9fdd-9acf" type="max"/>
+        <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0747-85f5-59a8-f257" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries>
@@ -330,7 +340,7 @@
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="863c-148b-11bf-d16b" name="Warrior" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="863c-148b-11bf-d16b" name="Warrior" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -394,8 +404,8 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="8.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -465,8 +475,8 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -498,8 +508,8 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -531,8 +541,8 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -543,8 +553,8 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -598,7 +608,7 @@
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="1398-c08e-0682-4ea5" name="Berserker" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1398-c08e-0682-4ea5" name="Berserker" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -662,8 +672,8 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="15.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -775,8 +785,8 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -787,8 +797,8 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -832,7 +842,7 @@
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="4215-e808-34c3-8c22" name="Troll" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4215-e808-34c3-8c22" name="Troll" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -896,8 +906,8 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="180.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="180.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -935,8 +945,8 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -971,8 +981,8 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -983,8 +993,8 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1032,7 +1042,7 @@
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="c385-7634-5835-407c" name="Troll" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c385-7634-5835-407c" name="Troll" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1096,8 +1106,8 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="120.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1146,8 +1156,8 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -1174,8 +1184,8 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -1198,8 +1208,8 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1249,7 +1259,7 @@
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="da87-bdeb-3a13-07b2" name="Troll" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="da87-bdeb-3a13-07b2" name="Troll" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1313,8 +1323,8 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="100.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1349,8 +1359,8 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1394,7 +1404,7 @@
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="a928-bc9e-561c-ab2a" name="Ogre" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a928-bc9e-561c-ab2a" name="Ogre" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1458,8 +1468,8 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="60.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1494,8 +1504,8 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1546,7 +1556,7 @@
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="93a4-e138-c9b9-c781" name="Bat" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="93a4-e138-c9b9-c781" name="Bat" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1610,8 +1620,8 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="25.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1649,8 +1659,8 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
                     <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -1661,8 +1671,8 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1699,7 +1709,7 @@
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="0f56-9d33-ac86-c31c" name="Goblin" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0f56-9d33-ac86-c31c" name="Mercenary" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1763,8 +1773,8 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
                 <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1801,8 +1811,8 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1810,8 +1820,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
