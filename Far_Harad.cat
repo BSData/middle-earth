@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="684e-34fe-e9a4-bc26" name="Far Harad" revision="5" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="684e-34fe-e9a4-bc26" name="Far Harad" revision="6" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -441,17 +441,9 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="1dcc-9f0f-4043-6b03" value="1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0dc3-f3e0-f86e-b3a1" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1dcc-9f0f-4043-6b03" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1dcc-9f0f-4043-6b03" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="c935-ad32-276e-2d2f" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
@@ -465,7 +457,7 @@
       <selectionEntries>
         <selectionEntry id="8c2e-ec01-4523-dbb0" name="The Mûmak War Leader" hidden="false" collective="false" type="model">
           <profiles>
-            <profile id="5f8c-611c-752e-780c" name="The Mûmak War Leader" book="Forgeworld PDF" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
+            <profile id="5f8c-611c-752e-780c" name="The Mûmak War Leader" book="Gondor at War" page="96" hidden="false" profileTypeId="80cb-17d0-8683-a212" profileTypeName="Hero">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -488,14 +480,14 @@
             </profile>
           </profiles>
           <rules>
-            <rule id="d347-cd1f-c421-2b88" name="Imposing Presence (Passive)" book="Forgeworld PDF" hidden="false">
+            <rule id="d347-cd1f-c421-2b88" name="Imposing Presence (Passive)" book="Gondor at War" page="96" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Whilst mounted upon his Royal War Mûmak, the first time each turn that an enemy model declares a Heroic Move within 12&quot; of the Mûmak War Leader, roll a D6. On a 4+, the Heroic Move is immediately cancelled and any Might points spent in declaring it are lost. Whilst the Mûmak War Leader is atop his Royal War Mûmak, measure the range of this special rule from the Mûmak’s base</description>
+              <description>Whilst mounted upon his Royal War Mûmak, the first time each turn that an enemy model declares a Heroic Move within 12&quot; of the Mûmak War Leader, roll a D6. On a 4+, the Heroic Move is immediately cancelled and any Might points spent in declaring it are lost. Whilst the Mûmak War Leader is atop his Royal War Mûmak, measure the range of this special rule from the Mûmak’s base.</description>
             </rule>
-            <rule id="77b3-fbb7-318d-efc8" name="High King of Mahûd (Passive)" book="Forgeworld PDF" hidden="false">
+            <rule id="77b3-fbb7-318d-efc8" name="High King of Mahûd (Passive)" book="Gondor at War" page="96" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -523,7 +515,7 @@
               <selectionEntries>
                 <selectionEntry id="7441-79c4-8d50-f305" name="Long-bladed Spear" hidden="false" collective="false" type="upgrade">
                   <profiles>
-                    <profile id="4f2a-6f80-0711-e011" name="Long-bladed Spear (Active)" book="Forgeworld PDF" hidden="false" profileTypeId="c6d6-90e7-ef64-8355" profileTypeName="Wargear">
+                    <profile id="4f2a-6f80-0711-e011" name="Long-bladed Spear (Active)" book="Gondor at War" page="96" hidden="false" profileTypeId="c6d6-90e7-ef64-8355" profileTypeName="Wargear">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -553,12 +545,12 @@
                 <selectionEntry id="6301-2cdd-7013-b4cf" name="Royal War Mûmak" hidden="false" collective="false" type="model">
                   <profiles/>
                   <rules>
-                    <rule id="fee7-65b7-7aee-f814" name="Royal War Mûmak (Passive)" hidden="false">
+                    <rule id="fee7-65b7-7aee-f814" name="Royal War Mûmak (Passive)" book="Gondor at War" page="96" hidden="false">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
-                      <description>The Mûmak War Leader rides into battle upon his Royal War Mûmak. This is a War Mûmak of Far Harad with the Gnarled Hide, Sigils of Defiance and Tusk Weapons upgrades. Additionally, the Royal War Mûmak has a Fight Value of 5 rather than 4. The Mûmak War Leader replaces the Mahûd Beastmaster Chieftain and is placed in the same manner as the Mahûd Beastmaster Chieftain. Additionally, the Mûmak War Leader may include Haradrim Warriors in the Howdah, as if they were from the Far Harad army list, and not lose its Army Bonus</description>
+                      <description>The Mûmak War Leader rides into battle upon his Royal War Mûmak. This is a War Mûmak of Far Harad with the Gnarled Hide, Sigils of Defiance and Tusk Weapons upgrades. Additionally, the Royal War Mûmak has a Fight Value of 5 rather than 4. The Mûmak War Leader replaces the Mahûd Beastmaster Chieftain and is placed in the same manner as the Mahûd Beastmaster Chieftain. Additionally, the Mûmak War Leader may include Haradrim Warriors in the Howdah, as if they were from the Far Harad army list, and not lose its Army Bonus.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -718,17 +710,11 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="0dc3-f3e0-f86e-b3a1" name="Use Experimental Rules" hidden="false" targetId="9dfc-6fdb-705f-1563" type="selectionEntry">
+    <entryLink id="79a6-cbc6-7d6f-5f7b" name="Grand Army of the South" hidden="false" targetId="b6c9-d980-b730-892b" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks/>
     </entryLink>
