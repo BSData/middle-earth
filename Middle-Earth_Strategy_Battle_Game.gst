@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="60" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="62" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -38055,7 +38055,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d3b-ca04-0b08-4d69" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d3b-ca04-0b08-4d69" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5d6-78f5-384e-22ee" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4ed-1a29-43ae-d04b" type="max"/>
       </constraints>
@@ -38161,7 +38161,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="53b4-a08a-5b4f-2aa8" name="Hero" hidden="false" collective="false">
+        <selectionEntryGroup id="53b4-a08a-5b4f-2aa8" name="Hero" hidden="false" collective="false" defaultSelectionEntryId="40b2-1df7-2867-07de">
           <profiles/>
           <rules/>
           <infoLinks/>
