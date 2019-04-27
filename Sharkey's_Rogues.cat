@@ -1,175 +1,93 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6ada-0e6d-210e-7ebe" name="Sharkey&apos;s Rogues" revision="6" battleScribeVersion="2.01" authorName="Hukoseft" authorContact="hukoseft@gmail.com" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
-  <rules/>
-  <infoLinks/>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
+<catalogue id="6ada-0e6d-210e-7ebe" name="Sharkey&apos;s Rogues" revision="7" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="6ada-0e6d-pubN66096" name="Armies of Lord of the Rings"/>
+  </publications>
   <selectionEntries>
-    <selectionEntry id="bdce-73cd-ba73-c086" name="Captainless Warband" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+    <selectionEntry id="bdce-73cd-ba73-c086" name="Captainless Warband" hidden="true" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="6eed-279f-d4dd-cd8d" value="1">
-          <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3b9d-274b-f7a0-05ae" type="equalTo"/>
           </conditions>
-          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3b9d-274b-f7a0-05ae" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eed-279f-d4dd-cd8d" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="9fd1-224e-2127-1b69" name="New CategoryLink" hidden="false" targetId="4a7b-8f86-68be-e1d6" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="83c1-143a-d424-1c28" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="6720-059b-b85c-60fc" name="Warband" hidden="false" targetId="b7ab-552a-8fd3-3066" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="6720-059b-b85c-60fc" name="Warband" hidden="false" collective="false" targetId="b7ab-552a-8fd3-3066" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="735f-ba7f-6e05-06fd" name="Sharkey and Worm" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f886-8227-462a-e90d" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d37-4675-e09c-65d9" type="min"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="88b4-1e04-97d1-03d4" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="88b4-1e04-97d1-03d4" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="e238-da62-386b-2791" name="Warband" hidden="false" targetId="b7ab-552a-8fd3-3066" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="a741-4c1b-14ea-2d90" name="Worm" hidden="false" targetId="256d-1a19-a46e-ad73" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="4cb1-86d8-acf0-b8f0" name="Sharkey" hidden="false" targetId="5e65-8c10-bcad-e68f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="e238-da62-386b-2791" name="Warband" hidden="false" collective="false" targetId="b7ab-552a-8fd3-3066" type="selectionEntry"/>
+        <entryLink id="a741-4c1b-14ea-2d90" name="Worm" hidden="false" collective="false" targetId="256d-1a19-a46e-ad73" type="selectionEntry"/>
+        <entryLink id="4cb1-86d8-acf0-b8f0" name="Sharkey" hidden="false" collective="false" targetId="5e65-8c10-bcad-e68f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="3b9d-274b-f7a0-05ae" name="You do what Sharkey says." hidden="false" targetId="2e9d-d2dd-c4d1-00f5" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+    <entryLink id="3b9d-274b-f7a0-05ae" name="You do what Sharkey says." hidden="false" collective="false" targetId="2e9d-d2dd-c4d1-00f5" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="99e9-2ee0-412f-f685" value="1">
-          <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
           </conditions>
-          <conditionGroups/>
         </modifier>
       </modifiers>
-      <constraints/>
       <categoryLinks>
-        <categoryLink id="7f1a-ebfc-5c56-1967" name="New CategoryLink" hidden="false" targetId="4a7b-8f86-68be-e1d6" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="7f1a-ebfc-5c56-1967" name="New CategoryLink" hidden="false" targetId="4a7b-8f86-68be-e1d6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="162d-60a0-1a19-a5ba" name="Sharkey&apos;s Rogues" hidden="false" targetId="99b2-160d-cab4-ab92" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+    <entryLink id="162d-60a0-1a19-a5ba" name="Sharkey&apos;s Rogues" hidden="false" collective="false" targetId="99b2-160d-cab4-ab92" type="selectionEntry">
       <modifiers>
-        <modifier type="set" field="4832-98eb-f8dc-c7d8" value="1">
-          <repeats/>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
+        <modifier type="set" field="4832-98eb-f8dc-c7d8" value="1"/>
       </modifiers>
-      <constraints/>
-      <categoryLinks/>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="b7ab-552a-8fd3-3066" name="Warband" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
       <modifiers>
         <modifier type="set" field="6fd1-1357-7811-ed02" value="12">
-          <repeats/>
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bdce-73cd-ba73-c086" type="instanceOf"/>
           </conditions>
-          <conditionGroups/>
         </modifier>
         <modifier type="set" field="ea71-3309-4762-d45a" value="10">
-          <repeats/>
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bdce-73cd-ba73-c086" type="instanceOf"/>
           </conditions>
-          <conditionGroups/>
         </modifier>
         <modifier type="increment" field="eaaa-51ff-b52d-e6a9" value="1">
           <repeats>
             <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b7ab-552a-8fd3-3066" repeats="1" roundUp="true"/>
           </repeats>
-          <conditions/>
-          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
@@ -179,238 +97,145 @@
         <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea71-3309-4762-d45a" type="min"/>
         <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eaaa-51ff-b52d-e6a9" type="max"/>
       </constraints>
-      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="50b7-761f-f40a-308a" name="Ruffian" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="c4b7-d840-0a46-9f8e" name="Ruffian" book="Armies of Lord of the Rings" page="210" hidden="false" profileTypeId="41b1-0f32-a644-93b4" profileTypeName="Warrior">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
+            <profile id="c4b7-d840-0a46-9f8e" name="Ruffian" publicationId="6ada-0e6d-pubN66096" page="210" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
-                <characteristic name="Movement" characteristicTypeId="b547-99cc-2ac6-2a69" value="6&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="7b7e-d26d-b685-545a" value="2/5+"/>
-                <characteristic name="Strength" characteristicTypeId="241d-1a6f-8463-5f1c" value="3"/>
-                <characteristic name="Defense" characteristicTypeId="d64a-e776-38fd-3019" value="3"/>
-                <characteristic name="Attack" characteristicTypeId="6235-3861-befd-7242" value="1"/>
-                <characteristic name="Wounds" characteristicTypeId="ae83-f720-58f2-1a6d" value="1"/>
-                <characteristic name="Courage" characteristicTypeId="a0e1-d7a9-598e-1545" value="2"/>
-                <characteristic name="Keywords" characteristicTypeId="493a-2bc7-2330-a17b" value="Man Ruffian Infantry Warrior"/>
+                <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">2/5+</characteristic>
+                <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">3</characteristic>
+                <characteristic name="Defense" typeId="d64a-e776-38fd-3019">3</characteristic>
+                <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
+                <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
+                <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">2</characteristic>
+                <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man Ruffian Infantry Warrior</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <rules>
-            <rule id="6861-e405-36f5-325a" name="At &apos;em Lads! (Active)" book="Armies of Lord of the Rings" page="210" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
+            <rule id="6861-e405-36f5-325a" name="At &apos;em Lads! (Active)" publicationId="6ada-0e6d-pubN66096" page="210" hidden="false">
               <description>A Ruffian that is Engaged in a Fight that involves 1 or more Hobbit models gains a bonus of +1 to its Fight value.
 
 Additionally, instead of making Strikes, when a Ruffian wins a Fight against a Hobbit model, they may attempt to bind it in chains. Nominate one Hobbit model from the Fight and roll a D6 - if the score is higher than the targets Strength, the model is bound. Treat it as though it has been affected by the Paralyse Magical Power.</description>
             </rule>
           </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="cd6e-eed3-f189-1d35" name="Ruffian" hidden="false" collective="false" type="model">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
               <modifiers>
                 <modifier type="set" field="13d1-7781-7d69-d920" value="12">
-                  <repeats/>
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bdce-73cd-ba73-c086" type="instanceOf"/>
                   </conditions>
-                  <conditionGroups/>
                 </modifier>
                 <modifier type="set" field="e70f-a9e9-26fc-3716" value="10">
-                  <repeats/>
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bdce-73cd-ba73-c086" type="instanceOf"/>
                   </conditions>
-                  <conditionGroups/>
                 </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e70f-a9e9-26fc-3716" type="min"/>
                 <constraint field="selections" scope="parent" value="17.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13d1-7781-7d69-d920" type="max"/>
               </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
               <costs>
-                <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="19af-07a7-63aa-c94e" name="Wargear" hidden="false" collective="false" defaultSelectionEntryId="9034-9f0a-9695-fcf1">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ea-41bd-a687-87db" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77c7-7c39-905d-b60a" type="min"/>
               </constraints>
-              <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="9034-9f0a-9695-fcf1" name="Knife" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="bbea-6203-3f33-2687" name="Knife" hidden="false" targetId="fd70-0293-2926-f306" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa4-33a0-69d1-34ab" type="max"/>
                   </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
+                  <infoLinks>
+                    <infoLink id="bbea-6203-3f33-2687" name="Knife" hidden="false" targetId="fd70-0293-2926-f306" type="profile"/>
+                  </infoLinks>
                   <costs>
-                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="e93c-27de-e530-9504" name="Club" hidden="false" targetId="4de7-ec7f-29f4-8d49" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
+                <entryLink id="e93c-27de-e530-9504" name="Club" hidden="false" collective="false" targetId="4de7-ec7f-29f4-8d49" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="e0c6-2b7e-ed3c-062a" value="0.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
+                    <modifier type="set" field="e0c6-2b7e-ed3c-062a" value="0.0"/>
                   </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="8f36-4bd7-ec45-1ed1" name="Options" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="92f7-d35d-7bcc-7625" name="Bow" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="edc2-ed7c-0f90-ffe5" name="Bow" hidden="false" targetId="e761-7f23-207b-c1cc" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
                         <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd6e-eed3-f189-1d35" repeats="1" roundUp="false"/>
                       </repeats>
-                      <conditions/>
-                      <conditionGroups/>
                     </modifier>
                     <modifier type="increment" field="ab3b-a62b-ef54-533c" value="1">
                       <repeats>
                         <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd6e-eed3-f189-1d35" repeats="1" roundUp="false"/>
                       </repeats>
-                      <conditions/>
-                      <conditionGroups/>
                     </modifier>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08c6-e68b-a346-4097" type="max"/>
                   </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
+                  <infoLinks>
+                    <infoLink id="edc2-ed7c-0f90-ffe5" name="Bow" hidden="false" targetId="e761-7f23-207b-c1cc" type="profile"/>
+                  </infoLinks>
                   <costs>
-                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="3323-2f62-f873-4a5c" name="Whip" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="8c25-6780-3202-e79e" name="Whip" hidden="false" targetId="47fb-2839-ea58-f4a9" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
                         <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd6e-eed3-f189-1d35" repeats="1" roundUp="false"/>
                       </repeats>
-                      <conditions/>
-                      <conditionGroups/>
                     </modifier>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4968-e3c8-79b2-2dfe" type="max"/>
                   </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
+                  <infoLinks>
+                    <infoLink id="8c25-6780-3202-e79e" name="Whip" hidden="false" targetId="47fb-2839-ea58-f4a9" type="profile"/>
+                  </infoLinks>
                   <costs>
-                    <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups/>
-              <entryLinks/>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
           <costs>
-            <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
       <costs>
-        <cost name=" Warriors" costTypeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name=" Points" costTypeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name="Bow" costTypeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
 </catalogue>
