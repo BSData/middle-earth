@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b5c9-00f4-f051-45d6" name="The Kingdom of Khazad-Dûm" revision="14" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b5c9-00f4-f051-45d6" name="The Kingdom of Khazad-Dûm" revision="15" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b5c9-00f4-pubN66039" name="Armies of Lord of the Rings"/>
   </publications>
@@ -203,31 +203,33 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="39ec-076d-d947-101e" name="Dwarf Ballista" hidden="false" collective="false" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="25f0-4781-094e-1c95" value="1">
-          <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="963b-d9e7-5451-b0f9" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-        <modifier type="increment" field="25f0-4781-094e-1c95" value="1">
-          <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4bbe-b6f8-1426-c662" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-        <modifier type="increment" field="25f0-4781-094e-1c95" value="1">
-          <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9afa-e012-fc54-795e" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25f0-4781-094e-1c95" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="7d95-ccbf-164f-9ee7" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="fb79-bc3e-a856-c626" name="Dwarf Ballista" hidden="false" collective="false" targetId="358e-2782-876a-2328" type="selectionEntry"/>
+        <entryLink id="fb79-bc3e-a856-c626" name="Dwarf Ballista" hidden="false" collective="false" targetId="358e-2782-876a-2328" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="6d3b-ca04-0b08-4d69" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bbe-b6f8-1426-c662" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" field="6d3b-ca04-0b08-4d69" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9afa-e012-fc54-795e" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" field="6d3b-ca04-0b08-4d69" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="963b-d9e7-5451-b0f9" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ed5-7029-b328-732f" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e6d-cb73-6ab4-5b8e" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
