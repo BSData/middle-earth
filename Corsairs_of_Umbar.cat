@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d926-ed74-bc90-3d69" name="Corsairs of Umbar" revision="11" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d926-ed74-bc90-3d69" name="Corsairs of Umbar" revision="12" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="d926-ed74-pubN65997" name="Armies of Lord of the Rings"/>
     <publication id="d926-ed74-pubN67562" name="Gondor at War"/>
@@ -70,7 +70,7 @@
       <selectionEntries>
         <selectionEntry id="780a-7e63-81b0-5e85" name="Corsair Bo&apos;sun" hidden="false" collective="false" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a302-781f-1aef-84bd" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a302-781f-1aef-84bd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="008a-3f10-dcee-eec2" type="max"/>
           </constraints>
           <profiles>
@@ -123,7 +123,15 @@
               <entryLinks>
                 <entryLink id="90fd-eac0-caad-0232" name="Crossbow" hidden="false" collective="false" targetId="9eb4-12b8-3c23-5041" type="selectionEntry"/>
                 <entryLink id="13c9-2901-f25f-8d7a" name="Shield" hidden="false" collective="false" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
-                <entryLink id="9b46-178a-f305-b934" name="Two-Handed Axe" hidden="false" collective="false" targetId="2d5f-8ff0-8762-879e" type="selectionEntry"/>
+                <entryLink id="9b46-178a-f305-b934" name="Two-Handed Axe" hidden="false" collective="false" targetId="2d5f-8ff0-8762-879e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="8bde-d63c-7caa-c15d" value="5.0"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aeb-7d78-f12e-1734" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ecf-3086-3c43-f9fe" type="max"/>
+                  </constraints>
+                </entryLink>
                 <entryLink id="c02c-67d0-0846-3738" name="Bow" hidden="false" collective="false" targetId="aee9-0be1-fd8c-7e73" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -192,7 +200,15 @@
               <entryLinks>
                 <entryLink id="0e4f-4cd6-b434-112f" name="Crossbow" hidden="false" collective="false" targetId="9eb4-12b8-3c23-5041" type="selectionEntry"/>
                 <entryLink id="feab-5e69-7ed1-0fee" name="Shield" hidden="false" collective="false" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
-                <entryLink id="b13d-46f0-db10-4477" name="Two-Handed Axe" hidden="false" collective="false" targetId="2d5f-8ff0-8762-879e" type="selectionEntry"/>
+                <entryLink id="b13d-46f0-db10-4477" name="Two-Handed Axe" hidden="false" collective="false" targetId="2d5f-8ff0-8762-879e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="8bde-d63c-7caa-c15d" value="5.0"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b666-3a52-35a4-3f0e" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f229-f493-f3d7-11c8" type="max"/>
+                  </constraints>
+                </entryLink>
                 <entryLink id="8b1a-00c7-e079-0161" name="Bow" hidden="false" collective="false" targetId="aee9-0be1-fd8c-7e73" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
