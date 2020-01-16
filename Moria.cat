@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="13" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="13" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="98fa-59f5-pubN65643" name="Armies of Lord of the Rings"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="5e5d-8abb-9d7e-96c7" name="The Balrog" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5e5d-8abb-9d7e-96c7" name="The Balrog" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8cae-240a-5a83-dcd3" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="8881-ac7d-8eb9-a803" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="cfb2-6596-956a-0b5e" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1f42-0e1a-e758-46b7" name="The Balrog" hidden="false" collective="false" type="model">
+        <selectionEntry id="1f42-0e1a-e758-46b7" name="The Balrog" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d7a-e17d-d7e7-5d91" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ce5-e270-a94d-1f14" type="min"/>
@@ -40,27 +37,31 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="13c8-f259-4503-d165" name="Demon of the Ancient World (Passive)" publicationId="98fa-59f5-pubN65643" page="151" hidden="false">
-              <description>The Balrog may call a Heroic Combat each turn without the need to expend a point of Might. Additionally, special rules and Strikes that would slay the Balrog instantly (such as Drain Soul or a Morgul blade) will only inflict half of the Balrog&apos;s starting Wounds rather than all of them.</description>
-            </rule>
-            <rule id="5420-8d8a-bf1a-90b4" name="Goblin Mastery (Passive)" publicationId="98fa-59f5-pubN65643" page="151" hidden="false">
-              <description>Friendly Moria Goblin models within 12&quot; of the Balrog automatically pass Courage tests.</description>
-            </rule>
-            <rule id="9b7e-8f1d-03ed-b75b" name="Flame of Udun (Passive)" publicationId="98fa-59f5-pubN65643" page="151" hidden="false">
-              <description>The Balrog is never considered to be unarmed and any model that suffers a Wound from the Balrog&apos;s Strikes (even if it is subsequently saved by Fate) and not slain must roll a D6. On a 6, the model suffers the Set Ablaze special rule. Additionally, the Balrog is immune to any fire-based attacks or special rules, such as a Dragon&apos;s Breathe Fire or the Set Ablaze special rule.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="813e-d2df-157c-f678" name="Fearless" hidden="false" targetId="7ad1-afe5-c22b-4558" type="rule"/>
-            <infoLink id="babe-97da-d564-9d76" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-            <infoLink id="d309-591b-8b31-5c55" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
-            <infoLink id="9c4f-6f4f-5bed-ba9b" name="Ancient Evil" hidden="false" targetId="0fc2-1ecf-09db-802e" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="6749-244b-0945-130f" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="34b1-5df7-ee16-ed4a" name="Goblin Mastery (Passive)" publicationId="98fa-59f5-pubN65643" page="151" hidden="false">
+                  <description>Friendly Moria Goblin models within 12&quot; of the Balrog automatically pass Courage tests.</description>
+                </rule>
+                <rule id="6817-e56b-4111-9311" name="Flame of Udun (Passive)" publicationId="98fa-59f5-pubN65643" page="151" hidden="false">
+                  <description>The Balrog is never considered to be unarmed and any model that suffers a Wound from the Balrog&apos;s Strikes (even if it is subsequently saved by Fate) and not slain must roll a D6. On a 6, the model suffers the Set Ablaze special rule. Additionally, the Balrog is immune to any fire-based attacks or special rules, such as a Dragon&apos;s Breathe Fire or the Set Ablaze special rule.</description>
+                </rule>
+                <rule id="ad87-9c2f-494b-b5a9" name="Demon of the Ancient World (Passive)" publicationId="98fa-59f5-pubN65643" page="151" hidden="false">
+                  <description>The Balrog may call a Heroic Combat each turn without the need to expend a point of Might. Additionally, special rules and Strikes that would slay the Balrog instantly (such as Drain Soul or a Morgul blade) will only inflict half of the Balrog&apos;s starting Wounds rather than all of them.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="071c-e744-594c-9e89" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="53a4-64e5-225f-e5b8" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
+                <infoLink id="c1e3-66a1-4b76-af33" name="Fearless" hidden="false" targetId="7ad1-afe5-c22b-4558" type="rule"/>
+                <infoLink id="d0b6-57ed-9343-2a55" name="Ancient Evil" hidden="false" targetId="0fc2-1ecf-09db-802e" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="ef6e-5873-f709-e2fd" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="ef6e-5873-f709-e2fd" name="Wargear" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="d9f9-ab67-8060-ec27" name="Giant Flaming Sword" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="d9f9-ab67-8060-ec27" name="Giant Flaming Sword" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff8-f1f1-1d54-e81f" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bacc-de89-ec6c-e3e9" type="min"/>
@@ -78,7 +79,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="f100-66cd-016d-b721" name="Fiery Lash" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="f100-66cd-016d-b721" name="Fiery Lash" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="665a-8540-1bb6-d9d1" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d916-7e0f-6364-0294" type="min"/>
@@ -106,8 +107,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="6548-b316-9af4-a255" name="Leader (Legend)" hidden="false" collective="false" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry"/>
-            <entryLink id="830e-6ef3-27af-5dc2" name="Hero of Legend" hidden="false" collective="false" targetId="4bbe-b6f8-1426-c662" type="selectionEntry"/>
+            <entryLink id="6548-b316-9af4-a255" name="Leader (Legend)" hidden="false" collective="false" import="true" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry"/>
+            <entryLink id="830e-6ef3-27af-5dc2" name="Hero of Legend" hidden="false" collective="false" import="true" targetId="4bbe-b6f8-1426-c662" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="350.0"/>
@@ -117,7 +118,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="4a6e-6c4c-2f76-8765" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="4a6e-6c4c-2f76-8765" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="18"/>
           </modifiers>
@@ -129,7 +130,7 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="416c-450d-7e41-9aec" name="Durbûrz, The Goblin King of Moria" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="416c-450d-7e41-9aec" name="Durbûrz, The Goblin King of Moria" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7824-c119-1654-7b3c" type="max"/>
       </constraints>
@@ -137,7 +138,7 @@
         <categoryLink id="e5c7-5789-12ba-b247" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="af64-2c18-a8f3-0ef7" name="Durbûrz, The Goblin King of Moria" hidden="false" collective="false" type="model">
+        <selectionEntry id="af64-2c18-a8f3-0ef7" name="Durbûrz, The Goblin King of Moria" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8cf2-2fca-cadc-d0c8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4cf-9de9-f2d5-c709" type="min"/>
@@ -162,25 +163,29 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="5277-7151-a02e-f220" name="Iron Fist (Active)" publicationId="98fa-59f5-pubN65643" page="152" hidden="false">
-              <description>Durbûrz&apos;s Stand Fast! has a range of 12&quot;.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="3748-414e-7531-c8e9" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="59e5-4b6b-bf3c-9843" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="8d01-cf85-5761-f80d" name="Iron Fist (Active)" publicationId="98fa-59f5-pubN65643" page="152" hidden="false">
+                  <description>Durbûrz&apos;s Stand Fast! has a range of 12&quot;.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="0d30-2547-d4f0-8741" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b3e2-97e3-f211-c7e3" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="b3e2-97e3-f211-c7e3" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="974c-07b2-33b6-3008" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
-                <entryLink id="0021-aca9-7d3d-6ea5" name="Heavy Armour" hidden="false" collective="false" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+                <entryLink id="974c-07b2-33b6-3008" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="0021-aca9-7d3d-6ea5" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="acc6-cbd4-486e-1acd" name="Leader (Valour)" hidden="false" collective="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
-            <entryLink id="aa68-423e-8178-eac5" name="Hero of Valour" hidden="false" collective="false" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
+            <entryLink id="acc6-cbd4-486e-1acd" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+            <entryLink id="aa68-423e-8178-eac5" name="Hero of Valour" hidden="false" collective="false" import="true" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="70.0"/>
@@ -190,7 +195,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ce6a-57a6-394c-6a00" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="ce6a-57a6-394c-6a00" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="15"/>
           </modifiers>
@@ -202,7 +207,7 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f228-9edc-141e-885a" name="Grôblog" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f228-9edc-141e-885a" name="Grôblog" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="189d-b3de-48ef-71d8" type="max"/>
       </constraints>
@@ -210,7 +215,7 @@
         <categoryLink id="5f99-5438-625c-d431" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="99da-db9e-1531-171e" name="Grôblog" hidden="false" collective="false" type="model">
+        <selectionEntry id="99da-db9e-1531-171e" name="Grôblog" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0688-c20d-5c4f-8c20" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a6-ef3e-cf70-5e73" type="min"/>
@@ -235,13 +240,17 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="4c39-093a-fe2a-dc54" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="3441-2411-09a3-ac61" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="7083-9613-668b-bd8b" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="86b8-374d-53cf-a70e" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="86b8-374d-53cf-a70e" name="Wargear" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="4e28-ce06-b53c-2ff1" name="Mithril Crown" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="4e28-ce06-b53c-2ff1" name="Mithril Crown" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="725f-88b9-4820-f631" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5b8-b58c-10dd-8e0e" type="min"/>
@@ -261,14 +270,14 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="2bf0-7cbf-47d5-f9ae" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="5058-5f5d-5cad-9505" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="2bf0-7cbf-47d5-f9ae" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="5058-5f5d-5cad-9505" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="94e8-7497-df53-a1fe" name="Leader (Fortitude)" hidden="false" collective="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-            <entryLink id="d9aa-218b-1764-f3a5" name="Hero of Fortitude" hidden="false" collective="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
+            <entryLink id="94e8-7497-df53-a1fe" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="d9aa-218b-1764-f3a5" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="50.0"/>
@@ -278,7 +287,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="78c6-936f-9dbb-405c" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="78c6-936f-9dbb-405c" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="12"/>
           </modifiers>
@@ -290,7 +299,7 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="943b-885d-0eb8-e7cc" name="Drûzhag the Beastcaller" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="943b-885d-0eb8-e7cc" name="Drûzhag the Beastcaller" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577f-4cc3-da20-fa37" type="max"/>
       </constraints>
@@ -298,7 +307,7 @@
         <categoryLink id="446f-aa05-1815-28a1" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="09e0-2a55-ea18-b994" name="Drûzhag the Beastcaller" hidden="false" collective="false" type="model">
+        <selectionEntry id="09e0-2a55-ea18-b994" name="Drûzhag the Beastcaller" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9143-5248-dc0c-b203" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0910-9865-dafa-28e2" type="min"/>
@@ -323,39 +332,47 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="254c-70fc-54ea-2363" name="*Master of the Dark Wild (Passive)" publicationId="98fa-59f5-pubN65643" page="153" hidden="false">
-              <description>Drûzhag may include Wild Wargs, Fell Wargs, Giant Spiders and Bat Swarms in his warband as if they were part of the same army list. This does not count as allying. Additionally, all friendly Bat, Warg and Spider models within 12&quot; of Drûzhag may use his Courage value instead of their own. Drûzhag&apos;s Fury Magical Power will affect himself and any model that is either a Bat, Spider or Warg model.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="d100-9587-766f-5ffd" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-            <infoLink id="6196-be1c-027f-abbb" name="Enrage Beast" hidden="false" targetId="9686-35f2-8aeb-a1ba" type="profile">
-              <modifiers>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
-                <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="0195-a632-f448-8a72" name="Fury " hidden="false" targetId="375a-7bc5-20d4-62d1" type="profile">
-              <modifiers>
-                <modifier type="append" field="name" value="(*)"/>
-                <modifier type="set" field="1ac9-444c-5045-e1c0" value="-"/>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="50b1-1361-1fb5-15a2" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="52ff-34fd-8926-21a7" name="*Master of the Dark Wild (Passive)" publicationId="98fa-59f5-pubN65643" page="153" hidden="false">
+                  <description>Drûzhag may include Wild Wargs, Fell Wargs, Giant Spiders and Bat Swarms in his warband as if they were part of the same army list. This does not count as allying. Additionally, all friendly Bat, Warg and Spider models within 12&quot; of Drûzhag may use his Courage value instead of their own. Drûzhag&apos;s Fury Magical Power will affect himself and any model that is either a Bat, Spider or Warg model.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="3ff0-c53f-5bc1-1125" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+            <infoGroup id="8a04-c2d1-9b46-4e72" name="Magical Powers" hidden="false">
+              <infoLinks>
+                <infoLink id="fe15-27a4-208b-c3d2" name="Fury " hidden="false" targetId="375a-7bc5-20d4-62d1" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="name" value="(*)"/>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="-"/>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="c869-80a3-7fba-3d5a" name="Enrage Beast" hidden="false" targetId="9686-35f2-8aeb-a1ba" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="f2e6-177e-e647-2311" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="f2e6-177e-e647-2311" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="8751-f9ec-b473-eb4b" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="b8db-0356-4e2e-2eb1" name="Staff" hidden="false" collective="false" targetId="badb-13f4-1286-1864" type="selectionEntry"/>
-                <entryLink id="430e-c978-fee9-09cc" name="Dagger" hidden="false" collective="false" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
+                <entryLink id="8751-f9ec-b473-eb4b" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="b8db-0356-4e2e-2eb1" name="Staff" hidden="false" collective="false" import="true" targetId="badb-13f4-1286-1864" type="selectionEntry"/>
+                <entryLink id="430e-c978-fee9-09cc" name="Dagger" hidden="false" collective="false" import="true" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="9737-f484-11cb-ba8f" name="Leader (Fortitude)" hidden="false" collective="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-            <entryLink id="63ff-19dc-bdb2-66d8" name="Hero of Fortitude" hidden="false" collective="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
+            <entryLink id="9737-f484-11cb-ba8f" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="63ff-19dc-bdb2-66d8" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="90.0"/>
@@ -365,7 +382,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="458e-1e8f-c898-3b37" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="458e-1e8f-c898-3b37" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="12"/>
           </modifiers>
@@ -377,7 +394,7 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a7f4-76da-c0fd-ca8e" name="Ashrâk" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a7f4-76da-c0fd-ca8e" name="Ashrâk" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="681f-2e0a-511b-674e" type="max"/>
       </constraints>
@@ -385,7 +402,7 @@
         <categoryLink id="b490-154e-41b7-bb4a" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c840-511c-3a15-8d97" name="Ashrâk" hidden="false" collective="false" type="model">
+        <selectionEntry id="c840-511c-3a15-8d97" name="Ashrâk" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a87b-e294-b55a-57c1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbd9-8682-143f-50a6" type="min"/>
@@ -410,37 +427,45 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="6ec1-9f3e-e1a9-4644" name="Spider-kin (Passive)" publicationId="98fa-59f5-pubN65643" page="154" hidden="false">
-              <description>Only Spider models may benefit from Ashrâk&apos;s Stand Fast! or Heroic Actions. Additionally, Ashrâk may only target Spider models with his Shroud of Shadows Magical Power.</description>
-            </rule>
-            <rule id="62e5-fdf1-4680-4d14" name="Poison Blood (Passive)" publicationId="98fa-59f5-pubN65643" page="154" hidden="false">
-              <description>Ashrâk may include Giant Spiders in his warband as if they were part of the same army list - this does not count as allying. Additionally, any Giant Spiders in your force may be upgraded to Venom-back spiders at the cost of +2 points a model. Venom-back spiders gain the Venom special rule.</description>
-            </rule>
-            <rule id="cbe3-8052-3beb-374a" name="Death-touch (Passive)" publicationId="98fa-59f5-pubN65643" page="154" hidden="false">
-              <description>Any model that wounds, or is wounded by Ashrâk in a Fight must toll a D6. On a 4+, they suffer the effects of the Paralyse Magical Power.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="74c8-ed44-cc48-0539" name="Cave Dweller (Active)" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-            <infoLink id="dc75-c444-e8f2-c980" name="Fury " hidden="false" targetId="375a-7bc5-20d4-62d1" type="profile">
-              <modifiers>
-                <modifier type="append" field="name" value="(Spiders)"/>
-                <modifier type="set" field="1ac9-444c-5045-e1c0" value="-"/>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="6db4-09e7-9e33-d2f2" name="Shroud of Shadows" hidden="false" targetId="4629-d88d-8909-9f19" type="profile">
-              <modifiers>
-                <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="4+"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="8e7d-1603-7ac5-3ea6" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="3893-51e0-1476-2c44" name="Spider-kin (Passive)" publicationId="98fa-59f5-pubN65643" page="154" hidden="false">
+                  <description>Only Spider models may benefit from Ashrâk&apos;s Stand Fast! or Heroic Actions. Additionally, Ashrâk may only target Spider models with his Shroud of Shadows Magical Power.</description>
+                </rule>
+                <rule id="b97e-b764-3bf5-de91" name="Poison Blood (Passive)" publicationId="98fa-59f5-pubN65643" page="154" hidden="false">
+                  <description>Ashrâk may include Giant Spiders in his warband as if they were part of the same army list - this does not count as allying. Additionally, any Giant Spiders in your force may be upgraded to Venom-back spiders at the cost of +2 points a model. Venom-back spiders gain the Venom special rule.</description>
+                </rule>
+                <rule id="f49e-371e-4a70-16a1" name="Death-touch (Passive)" publicationId="98fa-59f5-pubN65643" page="154" hidden="false">
+                  <description>Any model that wounds, or is wounded by Ashrâk in a Fight must toll a D6. On a 4+, they suffer the effects of the Paralyse Magical Power.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="54a6-847b-ea41-f1ec" name="Cave Dweller (Active)" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+            <infoGroup id="75a8-3755-e87a-c136" name="Magical Powers" hidden="false">
+              <infoLinks>
+                <infoLink id="1f29-b722-c233-6743" name="Shroud of Shadows" hidden="false" targetId="4629-d88d-8909-9f19" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="4+"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="58f5-6a5f-f438-cee7" name="Fury " hidden="false" targetId="375a-7bc5-20d4-62d1" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="name" value="(Spiders)"/>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="-"/>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="7904-14fb-6a43-67ed" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="7904-14fb-6a43-67ed" name="Wargear" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="2b9f-48cd-d92a-c78e" name="Two-handed Staff" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="2b9f-48cd-d92a-c78e" name="Two-handed Staff" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf5-effc-cb06-318a" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c04f-2273-be23-c28b" type="min"/>
@@ -457,13 +482,13 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="de15-c56f-aa3d-3f69" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="de15-c56f-aa3d-3f69" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="a6dc-dec9-ef21-5064" name="Leader (Fortitude)" hidden="false" collective="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-            <entryLink id="2bad-662d-d129-e7c9" name="Hero of Fortitude" hidden="false" collective="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
+            <entryLink id="a6dc-dec9-ef21-5064" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="2bad-662d-d129-e7c9" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="55.0"/>
@@ -473,7 +498,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ed01-51cb-e8e7-4856" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="ed01-51cb-e8e7-4856" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="12"/>
           </modifiers>
@@ -485,32 +510,41 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e3d8-c1d0-8bdb-829a" name="Moria Goblin Captain" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e3d8-c1d0-8bdb-829a" name="Moria Goblin Captain" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="112b-ee6a-17b5-61c5" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8099-ab59-1b27-8231" name="Moria Goblin Captain" hidden="false" collective="false" type="model">
+        <selectionEntry id="8099-ab59-1b27-8231" name="Moria Goblin Captain" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b49d-8f19-b9ea-076f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cf0-f892-a6db-8934" type="max"/>
           </constraints>
           <profiles>
             <profile id="0733-7d61-0e59-eec7" name="Moria Goblin Captain" publicationId="98fa-59f5-pubN65643" page="155" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-              <modifiers>
-                <modifier type="increment" field="49e3-08b4-2b5f-a6dd" value="1">
-                  <conditions>
-                    <condition field="selections" scope="8099-ab59-1b27-8231" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="12d4-c41a-e42b-d474" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="49e3-08b4-2b5f-a6dd" value="1">
                       <conditions>
-                        <condition field="selections" scope="8099-ab59-1b27-8231" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f685-c4c9-3841-d1d1" type="equalTo"/>
+                        <condition field="selections" scope="8099-ab59-1b27-8231" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b8-81bd-1cd6-8b3e" type="equalTo"/>
                       </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
+                    </modifier>
+                    <modifier type="decrement" field="49e3-08b4-2b5f-a6dd" value="1">
+                      <conditions>
+                        <condition field="selections" scope="8099-ab59-1b27-8231" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b8-81bd-1cd6-8b3e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="8099-ab59-1b27-8231" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="54a8-3f7e-8ab6-2cdd" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <characteristics>
                 <characteristic name="Movement" typeId="6d57-f596-e10e-6233">5&quot;</characteristic>
                 <characteristic name="Fight" typeId="5930-f060-2064-c9d5">3/5+</characteristic>
@@ -528,26 +562,30 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="67ca-d789-b1ed-52ad" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="cc87-a48a-fab5-eac9" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="8e07-32d0-2cf6-5e1b" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="564a-f077-ba31-1bbd" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="564a-f077-ba31-1bbd" name="Options" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="12d4-c41a-e42b-d474" name="Shield" hidden="false" collective="false" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
-                <entryLink id="f685-c4c9-3841-d1d1" name="Orc Bow" hidden="false" collective="false" targetId="54a8-3f7e-8ab6-2cdd" type="selectionEntry"/>
+                <entryLink id="12d4-c41a-e42b-d474" name="Shield" hidden="false" collective="false" import="true" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
+                <entryLink id="f685-c4c9-3841-d1d1" name="Orc Bow" hidden="false" collective="false" import="true" targetId="54a8-3f7e-8ab6-2cdd" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="7744-6328-731d-9550" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="7744-6328-731d-9550" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="5594-85a5-3330-3230" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="8a4d-7c16-d714-d71e" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="5594-85a5-3330-3230" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="8a4d-7c16-d714-d71e" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="b5e6-11ad-eaef-9beb" name="Leader (Fortitude)" hidden="false" collective="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-            <entryLink id="dd29-af7b-515c-11b0" name="Hero of Fortitude" hidden="false" collective="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
+            <entryLink id="b5e6-11ad-eaef-9beb" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="dd29-af7b-515c-11b0" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="35.0"/>
@@ -557,7 +595,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="0bc6-2f21-8015-bfcc" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="0bc6-2f21-8015-bfcc" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="12"/>
           </modifiers>
@@ -569,12 +607,12 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ddd-b0f7-4587-f03a" name="Moria Goblin Shaman" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4ddd-b0f7-4587-f03a" name="Moria Goblin Shaman" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="bd1f-3973-f5b3-c7c7" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9ebf-2d4a-78c9-81e3" name="Moria Goblin Shaman" hidden="false" collective="false" type="model">
+        <selectionEntry id="9ebf-2d4a-78c9-81e3" name="Moria Goblin Shaman" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00e0-5b4c-0f30-384b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6af-43f5-4524-470d" type="max"/>
@@ -598,33 +636,41 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="43c8-2b83-ddfa-aa9c" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-            <infoLink id="4ec9-d4f2-246c-045d" name="Fury " hidden="false" targetId="375a-7bc5-20d4-62d1" type="profile">
-              <modifiers>
-                <modifier type="append" field="name" value="(Moria Goblin)"/>
-                <modifier type="set" field="1ac9-444c-5045-e1c0" value="-"/>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="f953-4aa3-4169-3a3e" name="Immobilise/Transfix" hidden="false" targetId="ec7d-f78c-cc1f-5928" type="profile">
-              <modifiers>
-                <modifier type="set" field="name" value="Transfix"/>
-                <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="5+"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="c66b-27ac-35b4-f26a" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="08ba-bc01-5528-4646" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+            <infoGroup id="24b1-45cd-ad34-b85b" name="Magical Powers" hidden="false">
+              <infoLinks>
+                <infoLink id="8940-73e3-19ac-9cb1" name="Immobilise/Transfix" hidden="false" targetId="ec7d-f78c-cc1f-5928" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Transfix"/>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="5+"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="f19e-0fb4-f2ee-404b" name="Fury " hidden="false" targetId="375a-7bc5-20d4-62d1" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="name" value="(Moria Goblin)"/>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="-"/>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="5e5c-0bd9-4498-5f9b" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="5e5c-0bd9-4498-5f9b" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="f794-9581-2af4-7e6e" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="9c6a-f9fd-60b9-48f3" name="Staff" hidden="false" collective="false" targetId="badb-13f4-1286-1864" type="selectionEntry"/>
+                <entryLink id="f794-9581-2af4-7e6e" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="9c6a-f9fd-60b9-48f3" name="Staff" hidden="false" collective="false" import="true" targetId="badb-13f4-1286-1864" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="6700-95cf-19ce-0438" name="Minor Hero" hidden="false" collective="false" targetId="36a4-de5b-fd01-3f8e" type="selectionEntry"/>
+            <entryLink id="6700-95cf-19ce-0438" name="Minor Hero" hidden="false" collective="false" import="true" targetId="36a4-de5b-fd01-3f8e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="45.0"/>
@@ -634,7 +680,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7c31-0aa4-5521-8ecf" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="7c31-0aa4-5521-8ecf" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="6"/>
           </modifiers>
@@ -646,12 +692,12 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c31b-b4f4-4657-8909" name="Moria Blackshield Captain" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c31b-b4f4-4657-8909" name="Moria Blackshield Captain" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="38d9-61a2-0e10-fb1d" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ad7a-e1e3-de4c-41d7" name="Moria Blackshield Captain" hidden="false" collective="false" type="model">
+        <selectionEntry id="ad7a-e1e3-de4c-41d7" name="Moria Blackshield Captain" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="234e-1673-7b37-ac18" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92ba-284b-1996-0a3c" type="max"/>
@@ -675,25 +721,29 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="11a9-2509-acb5-2e56" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-            <infoLink id="f860-0785-2eb9-148a" name="Hatred" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Hatred (Dwarf)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="07b4-bdbd-878a-128c" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="b1f1-07ed-2e49-a1ec" name="Hatred" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hatred (Dwarf)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="d8b3-6bda-be05-c282" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="7883-c7f0-de90-a153" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="7883-c7f0-de90-a153" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="9270-eaba-9698-3342" name="Heavy Armour" hidden="false" collective="false" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
-                <entryLink id="09b8-32a3-5338-85e7" name="Two-Handed Sword" hidden="false" collective="false" targetId="5047-cb17-b681-56ed" type="selectionEntry"/>
+                <entryLink id="9270-eaba-9698-3342" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+                <entryLink id="09b8-32a3-5338-85e7" name="Two-Handed Sword" hidden="false" collective="false" import="true" targetId="5047-cb17-b681-56ed" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="3b07-0d00-4030-8b69" name="Leader (Fortitude)" hidden="false" collective="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-            <entryLink id="68d2-f6b9-6fcb-5d4b" name="Hero of Fortitude" hidden="false" collective="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
+            <entryLink id="3b07-0d00-4030-8b69" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="68d2-f6b9-6fcb-5d4b" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="45.0"/>
@@ -703,7 +753,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7100-c7d3-2220-1e1c" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="7100-c7d3-2220-1e1c" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="12"/>
           </modifiers>
@@ -715,12 +765,12 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2863-7a12-00e0-03b2" name="Moria Blackshield Shaman" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2863-7a12-00e0-03b2" name="Moria Blackshield Shaman" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="fade-2288-bec9-aede" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="50b1-a6d0-08fb-2035" name="Moria Blackshield Shaman" hidden="false" collective="false" type="model">
+        <selectionEntry id="50b1-a6d0-08fb-2035" name="Moria Blackshield Shaman" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2b3-0392-40e1-79bf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f88-e51e-9950-9f84" type="max"/>
@@ -744,31 +794,39 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="1245-b6b6-f136-d01f" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-            <infoLink id="d5ea-b071-0276-98ed" name="Shatter" hidden="false" targetId="aee8-97b1-c4d0-2d76" type="profile">
-              <modifiers>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
-                <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="704d-1980-6cd4-8dc3" name="Tremor" hidden="false" targetId="4446-7221-162f-ee3a" type="profile">
-              <modifiers>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="5+"/>
-                <modifier type="set" field="1ac9-444c-5045-e1c0" value="6"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="9bba-7f2f-e27b-acce" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="4b3b-94a5-a4b4-3266" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+            <infoGroup id="bc7e-0fc5-f33b-074f" name="Magical Powers" hidden="false">
+              <infoLinks>
+                <infoLink id="7c97-70ff-b6b9-e00f" name="Tremor" hidden="false" targetId="4446-7221-162f-ee3a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="5+"/>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="6"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="8155-91a2-4dd5-65fa" name="Shatter" hidden="false" targetId="aee8-97b1-c4d0-2d76" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="2a1c-128f-b466-ff6e" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="2a1c-128f-b466-ff6e" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="9f0a-2543-6f07-7888" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="89ab-aeb3-8e4d-77d7" name="Staff" hidden="false" collective="false" targetId="badb-13f4-1286-1864" type="selectionEntry"/>
+                <entryLink id="9f0a-2543-6f07-7888" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="89ab-aeb3-8e4d-77d7" name="Staff" hidden="false" collective="false" import="true" targetId="badb-13f4-1286-1864" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="7108-09a6-3e84-63d3" name="Minor Hero" hidden="false" collective="false" targetId="36a4-de5b-fd01-3f8e" type="selectionEntry"/>
+            <entryLink id="7108-09a6-3e84-63d3" name="Minor Hero" hidden="false" collective="false" import="true" targetId="36a4-de5b-fd01-3f8e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="50.0"/>
@@ -778,7 +836,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="f9e1-a326-38c2-16b6" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="f9e1-a326-38c2-16b6" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="6"/>
           </modifiers>
@@ -790,12 +848,12 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bdf4-4cff-e1ec-ca81" name="Dragon" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="bdf4-4cff-e1ec-ca81" name="Dragon" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="5833-c91c-5726-2d36" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="01e1-7638-0131-01c1" name="Dragon" hidden="false" collective="false" type="model">
+        <selectionEntry id="01e1-7638-0131-01c1" name="Dragon" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8c6-bd87-5a04-077c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9461-289f-3e5b-5fc0" type="max"/>
@@ -805,7 +863,7 @@
               <modifiers>
                 <modifier type="set" field="49e3-08b4-2b5f-a6dd" value="9">
                   <conditions>
-                    <condition field="selections" scope="01e1-7638-0131-01c1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c1d0-e0ef-3228-6b18" type="equalTo"/>
+                    <condition field="selections" scope="01e1-7638-0131-01c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c1d0-e0ef-3228-6b18" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -826,25 +884,29 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="0d49-bd00-31a8-7712" name="Monstrous Charge" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
-            <infoLink id="d95a-dbef-0b77-8dfd" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
-            <infoLink id="b732-24cc-9493-762f" name="Survival Instinct" hidden="false" targetId="f55e-4264-2114-009d" type="rule"/>
-            <infoLink id="99cc-fe93-d045-865d" name="Harbinger of Evil" hidden="false" targetId="3fce-3425-5bca-8374" type="rule"/>
-            <infoLink id="e941-0988-d8f9-9e36" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="c43a-ee56-1ea9-fa70" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="fd16-da11-731a-a1eb" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="d8c8-ec6f-504b-2b03" name="Survival Instinct" hidden="false" targetId="f55e-4264-2114-009d" type="rule"/>
+                <infoLink id="7159-bfd3-6595-bea0" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
+                <infoLink id="f169-f389-b4a3-b10b" name="Monstrous Charge" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
+                <infoLink id="37a0-3bfe-799e-f6f3" name="Harbinger of Evil" hidden="false" targetId="3fce-3425-5bca-8374" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="acbf-0971-46f9-1f59" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="acbf-0971-46f9-1f59" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="e0f4-03be-1ab7-de33" name="Claws and Teeth" hidden="false" collective="false" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+                <entryLink id="e0f4-03be-1ab7-de33" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="ee58-8c60-d05b-3553" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="ee58-8c60-d05b-3553" name="Options" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ac-5c22-5c73-46dc" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="d8c2-8a25-fcdb-b45f" name="Fly" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="d8c2-8a25-fcdb-b45f" name="Fly" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0772-d77c-bd3c-bdd4" type="max"/>
                   </constraints>
@@ -857,7 +919,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="dbc0-a015-65dc-b1e8" name="Wyrmtongue" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="dbc0-a015-65dc-b1e8" name="Wyrmtongue" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c9-7987-3eb9-f4b0" type="max"/>
                   </constraints>
@@ -888,7 +950,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="c1d0-e0ef-3228-6b18" name="Tough Hide" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="c1d0-e0ef-3228-6b18" name="Tough Hide" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7638-2b9c-0434-0b71" type="max"/>
                   </constraints>
@@ -898,7 +960,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="e775-a815-2edb-a0a7" name="Breathe Fire" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="e775-a815-2edb-a0a7" name="Breathe Fire" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="938d-223e-28fb-928c" type="max"/>
                   </constraints>
@@ -925,8 +987,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="57c6-72c9-ba9b-7a15" name="Leader (Valour)" hidden="false" collective="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
-            <entryLink id="c148-fde3-fbc5-f6a6" name="Hero of Valour" hidden="false" collective="false" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
+            <entryLink id="57c6-72c9-ba9b-7a15" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+            <entryLink id="c148-fde3-fbc5-f6a6" name="Hero of Valour" hidden="false" collective="false" import="true" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="250.0"/>
@@ -936,7 +998,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="19b5-00e6-f3c1-ad10" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="19b5-00e6-f3c1-ad10" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="15"/>
           </modifiers>
@@ -948,12 +1010,12 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c7f2-7afa-47b8-c468" name="Cave Drake" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c7f2-7afa-47b8-c468" name="Cave Drake" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="8a43-e243-cfc0-223b" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="efa4-074d-0e1e-a300" name="Cave Drake" hidden="false" collective="false" type="model">
+        <selectionEntry id="efa4-074d-0e1e-a300" name="Cave Drake" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e17-a5d2-9c90-5904" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da3c-a78d-5bf4-25d9" type="max"/>
@@ -977,32 +1039,36 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="a3de-e1c6-1c1e-6354" name="Protect the Nest (Active)" publicationId="98fa-59f5-pubN65643" page="158" hidden="false">
-              <description>At the start of the game, before any models have been deployed, the Cave Drake&apos;s controlling player may place a single 25mm Nest marker per Cave Drake (the eggs that come in the Cave Drake set are ideal for this) anywhere on the board. Whilst within 3 of a Nest marker, a Cave Drake gains the Fearless special rule.</description>
-            </rule>
-            <rule id="1db9-efa0-8597-074e" name="Gaping Maw (Brutal Power Attack)" publicationId="98fa-59f5-pubN65643" page="158" hidden="false">
-              <description>Instead of striking normally, the Cave Drake may select a single Man-sized (or smaller) model involved in the same fight to attempt to swallow whole. Roll a D6. On a 3+, the model is swallowed whole and is removed as a casualty.
+          <infoGroups>
+            <infoGroup id="993b-8344-e9ea-bc33" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="506e-f721-2ca7-e63c" name="Protect the Nest (Active)" publicationId="98fa-59f5-pubN65643" page="158" hidden="false">
+                  <description>At the start of the game, before any models have been deployed, the Cave Drake&apos;s controlling player may place a single 25mm Nest marker per Cave Drake (the eggs that come in the Cave Drake set are ideal for this) anywhere on the board. Whilst within 3 of a Nest marker, a Cave Drake gains the Fearless special rule.</description>
+                </rule>
+                <rule id="bb16-4cb1-18fa-1518" name="Gaping Maw (Brutal Power Attack)" publicationId="98fa-59f5-pubN65643" page="158" hidden="false">
+                  <description>Instead of striking normally, the Cave Drake may select a single Man-sized (or smaller) model involved in the same fight to attempt to swallow whole. Roll a D6. On a 3+, the model is swallowed whole and is removed as a casualty.
 
 Fate rolls may be made against this Brutal Power Attack as if it has caused a Wound, but it a model fails to save this with Fate it will be slain.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="7c77-9a56-2cf1-c01d" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-            <infoLink id="5a0f-f0b7-f017-2bbc" name="Monstrous Charge" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
-            <infoLink id="b4d4-f985-90fb-af49" name="Mountain Dweller" hidden="false" targetId="6292-2b0c-c22e-3f0f" type="rule"/>
-            <infoLink id="da17-507f-66d8-53f1" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
-            <infoLink id="311b-42e9-a093-e6a2" name="Woodland Creature" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
-          </infoLinks>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="4812-ab90-9cc2-ac30" name="Woodland Creature" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+                <infoLink id="7f9d-b0a9-9211-313c" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="f80f-7428-114f-6991" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
+                <infoLink id="96b2-9aba-5418-532c" name="Mountain Dweller" hidden="false" targetId="6292-2b0c-c22e-3f0f" type="rule"/>
+                <infoLink id="6bab-4659-d687-3bb6" name="Monstrous Charge" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="c11c-745f-5e92-2a9d" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="c11c-745f-5e92-2a9d" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="70b5-bd85-9879-3a96" name="Claws and Teeth" hidden="false" collective="false" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+                <entryLink id="70b5-bd85-9879-3a96" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="1cf1-bc1b-b556-5006" name="Minor Hero" hidden="false" collective="false" targetId="36a4-de5b-fd01-3f8e" type="selectionEntry"/>
+            <entryLink id="1cf1-bc1b-b556-5006" name="Minor Hero" hidden="false" collective="false" import="true" targetId="36a4-de5b-fd01-3f8e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="150.0"/>
@@ -1012,7 +1078,7 @@ Fate rolls may be made against this Brutal Power Attack as if it has caused a Wo
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="46a5-b313-7fa5-5487" name="Warband" hidden="false" collective="false" targetId="0234-96ca-4213-c04c" type="selectionEntry">
+        <entryLink id="46a5-b313-7fa5-5487" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="6"/>
           </modifiers>
@@ -1024,7 +1090,7 @@ Fate rolls may be made against this Brutal Power Attack as if it has caused a Wo
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="febe-35fd-0a65-8f7c" name="The Watcher in the Water" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="febe-35fd-0a65-8f7c" name="The Watcher in the Water" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6305-b4ed-4d63-2e84" type="max"/>
       </constraints>
@@ -1032,7 +1098,7 @@ Fate rolls may be made against this Brutal Power Attack as if it has caused a Wo
         <categoryLink id="1927-9466-2ab0-8794" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f8ac-3f50-3416-2582" name="The Watcher in the Water" hidden="false" collective="false" type="model">
+        <selectionEntry id="f8ac-3f50-3416-2582" name="The Watcher in the Water" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dc64-7e2d-dc6a-9cc0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3885-99c3-bb1f-ddf9" type="min"/>
@@ -1057,34 +1123,38 @@ Fate rolls may be made against this Brutal Power Attack as if it has caused a Wo
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="313e-ef70-88e5-5f17" name="From the Deep (Active)" publicationId="98fa-59f5-pubN65643" page="159" hidden="false">
-              <description>The Water in the Water can never be part of another Hero model&apos;s warband. When you deploy your army, do not deploy the Water in the Water on the board - instead keep it to one side for later. During each Priority phase, after Priority has been rolled, announce if you would like the Watcher to arrive and if yes, roll a D6. On a 3+, the Watcher is ready to enter play. Once you have declared the Watcher is ready to enter, you must roll during each Priority phase thereafter until it is available.
+          <infoGroups>
+            <infoGroup id="88c5-87e6-456f-7339" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="645b-ce54-86db-3457" name="Water Dweller (Passive)" publicationId="98fa-59f5-pubN65643" page="159" hidden="false">
+                  <description>The Watcher is not slowed when entering a water feature. In fact, whilst within one, its Move value is doubled and it always counts as having roll a 6 on the Swim chart. Additionally, if the Watcher charges whilst within a Water Feature, it gains the Monstrous Charge special rule.</description>
+                </rule>
+                <rule id="f5a0-25be-8745-bb55" name="Tentacles (Active)" publicationId="98fa-59f5-pubN65643" page="159" hidden="false">
+                  <description>In the Shoot phase, the Watcher may make D6 shooting attacks. These have a range of 6&quot; and a Strength of 3, and never require In The Way rolls. Any model hit by a tentacle, but not slain, is immediately dragged into base contact with the Watcher by the shortest route possible, even over the heads of other models. Models moved in this way do not count as having charged. If there is no way to fit the model in base contact, it is not moved at all. The Watcher can still make these shooting attacks even if it is Engaged in combat.</description>
+                </rule>
+                <rule id="180e-f4a4-491d-0014" name="Many Tentacles (Passive)" publicationId="98fa-59f5-pubN65643" page="159" hidden="false">
+                  <description>When the Watcher is reduced to 3 or less Wounds remaining, its Attacks are also reduced to 3.</description>
+                </rule>
+                <rule id="1cfc-f10d-4542-a715" name="From the Deep (Active)" publicationId="98fa-59f5-pubN65643" page="159" hidden="false">
+                  <description>The Water in the Water can never be part of another Hero model&apos;s warband. When you deploy your army, do not deploy the Water in the Water on the board - instead keep it to one side for later. During each Priority phase, after Priority has been rolled, announce if you would like the Watcher to arrive and if yes, roll a D6. On a 3+, the Watcher is ready to enter play. Once you have declared the Watcher is ready to enter, you must roll during each Priority phase thereafter until it is available.
 
 When the Watcher is ready to enter play, immediately place it anywhere on the battlefield - it can displace models. Move any displaced models the minimum distance possible so that they are 1&quot; away from the Watcher (or as close as this situation will allow). In this situation, players take it in turs to displace models, starting with the Watcher&apos;s controlling player. This may create some odd situations, but represents the Watcher bursting forth, scattering warriors both friend and foe alike. The Watcher cannot charge on the turn it arrives.</description>
-            </rule>
-            <rule id="6155-2954-bc60-67c1" name="Many Tentacles (Passive)" publicationId="98fa-59f5-pubN65643" page="159" hidden="false">
-              <description>When the Watcher is reduced to 3 or less Wounds remaining, its Attacks are also reduced to 3.</description>
-            </rule>
-            <rule id="7b24-66fa-d141-8550" name="Tentacles (Active)" publicationId="98fa-59f5-pubN65643" page="159" hidden="false">
-              <description>In the Shoot phase, the Watcher may make D6 shooting attacks. These have a range of 6&quot; and a Strength of 3, and never require In The Way rolls. Any model hit by a tentacle, but not slain, is immediately dragged into base contact with the Watcher by the shortest route possible, even over the heads of other models. Models moved in this way do not count as having charged. If there is no way to fit the model in base contact, it is not moved at all. The Watcher can still make these shooting attacks even if it is Engaged in combat.</description>
-            </rule>
-            <rule id="fecf-f7b9-3e8a-55e4" name="Water Dweller (Passive)" publicationId="98fa-59f5-pubN65643" page="159" hidden="false">
-              <description>The Watcher is not slowed when entering a water feature. In fact, whilst within one, its Move value is doubled and it always counts as having roll a 6 on the Swim chart. Additionally, if the Watcher charges whilst within a Water Feature, it gains the Monstrous Charge special rule.</description>
-            </rule>
-            <rule id="f8fd-10a6-9a8e-a468" name="Dragged to the Depths (Brutal Power Attack)" publicationId="98fa-59f5-pubN65643" page="159" hidden="false">
-              <description>Instead of striking normally, if the Water in the Water is within a water feature it can select a single Man-sized or smaller model involved in the same fight, and then roll a D6. On a 3+, that model suffers a Wound (Fate rolls can be made as usual). If the Wound is not saved, the model is dragged to the depths and immediately slain. The Watcher is then removed from the board and its controlling player will start to roll for the Watcher to re-arrive as described in the From the Deep special rule.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="52dd-e291-8ec3-ff5d" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-            <infoLink id="26e0-121b-fb5e-3fa3" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
-            <infoLink id="7162-68f7-d8a8-1b77" name="Harbinger of Evil" hidden="false" targetId="3fce-3425-5bca-8374" type="rule"/>
-          </infoLinks>
+                </rule>
+                <rule id="66ec-ef18-66b3-e5b2" name="Dragged to the Depths (Brutal Power Attack)" publicationId="98fa-59f5-pubN65643" page="159" hidden="false">
+                  <description>Instead of striking normally, if the Water in the Water is within a water feature it can select a single Man-sized or smaller model involved in the same fight, and then roll a D6. On a 3+, that model suffers a Wound (Fate rolls can be made as usual). If the Wound is not saved, the model is dragged to the depths and immediately slain. The Watcher is then removed from the board and its controlling player will start to roll for the Watcher to re-arrive as described in the From the Deep special rule.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="f2d8-b25c-445d-e1d5" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="70dd-53fd-4b7a-8018" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
+                <infoLink id="d888-78dd-659a-21c5" name="Harbinger of Evil" hidden="false" targetId="3fce-3425-5bca-8374" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6d7b-e117-6857-1181" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="6d7b-e117-6857-1181" name="Wargear" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="7544-c42c-409e-70d3" name="Tentacles" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="7544-c42c-409e-70d3" name="Tentacles" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6111-a0f4-c4d5-ba36" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec92-1fe4-ebc2-bc34" type="min"/>
@@ -1106,7 +1176,7 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="558e-4f17-4094-94f7" name="Independent Hero" hidden="false" collective="false" targetId="7729-939c-9d5c-473e" type="selectionEntry"/>
+            <entryLink id="558e-4f17-4094-94f7" name="Independent Hero" hidden="false" collective="false" import="true" targetId="7729-939c-9d5c-473e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="200.0"/>
@@ -1123,7 +1193,7 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="38aa-b831-0825-ee5d" name="We cannot get out, they are coming" hidden="false" collective="false" targetId="c871-2297-3165-268d" type="selectionEntry">
+    <entryLink id="38aa-b831-0825-ee5d" name="We cannot get out, they are coming" hidden="false" collective="false" import="true" targetId="c871-2297-3165-268d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="b0be-0f4e-013c-7515" value="1">
           <conditions>
@@ -1132,14 +1202,14 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="7176-e2a7-08d2-e4a3" name="Moria" hidden="false" collective="false" targetId="f765-0906-a562-a8d1" type="selectionEntry">
+    <entryLink id="7176-e2a7-08d2-e4a3" name="Moria" hidden="false" collective="false" import="true" targetId="f765-0906-a562-a8d1" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="d34c-0cfa-20dd-271a" value="1"/>
       </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="0234-96ca-4213-c04c" name="Warband" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0234-96ca-4213-c04c" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="e1fe-45b5-9ecb-12c9" value="15">
           <conditions>
@@ -1218,15 +1288,21 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
         <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d511-9293-024b-b121" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2b5d-723d-1943-5861" name="Cave Troll" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2b5d-723d-1943-5861" name="Cave Troll" hidden="false" collective="false" import="true" type="upgrade">
+          <infoGroups>
+            <infoGroup id="35d9-99f2-b7cb-142e" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="4ae4-165d-3c6f-17c9" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="2275-736f-efde-f801" name="Burly" hidden="false" targetId="390c-dc0c-72ba-8d47" type="rule"/>
+                <infoLink id="b48b-7e82-aee2-a97a" name="Throw Stones" hidden="false" targetId="97f1-b8b1-1c11-c73b" type="profile"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <infoLinks>
-            <infoLink id="481b-ebbd-79c8-03d0" name="Burly" hidden="false" targetId="390c-dc0c-72ba-8d47" type="rule"/>
-            <infoLink id="4b07-ba66-bdbf-cd58" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-            <infoLink id="c303-d662-ec98-8a06" name="Throw Stones" hidden="false" targetId="97f1-b8b1-1c11-c73b" type="profile"/>
             <infoLink id="878d-e117-322d-e5ab" name="Cave Troll" hidden="false" targetId="ec9a-c12d-44e3-a9dd" type="profile"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="e3f9-e14a-f545-9d75" name="Troll" hidden="false" collective="false" type="model">
+            <selectionEntry id="e3f9-e14a-f545-9d75" name="Troll" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="3d98-b405-afa7-ddd5" value="15">
                   <conditions>
@@ -1305,11 +1381,11 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="3218-fc31-0713-fcd2" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="3218-fc31-0713-fcd2" name="Options" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="512b-cb97-dad7-349d" name="Troll Chain" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="512b-cb97-dad7-349d" name="Troll Chain" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="5">
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="5.0">
                       <repeats>
                         <repeat field="selections" scope="2b5d-723d-1943-5861" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3f9-e14a-f545-9d75" repeats="1" roundUp="false"/>
                       </repeats>
@@ -1329,13 +1405,13 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="51bf-262f-39a2-fb22" name="Wargear" hidden="false" collective="false" defaultSelectionEntryId="bb95-9289-2b74-3015">
+            <selectionEntryGroup id="51bf-262f-39a2-fb22" name="Wargear" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb95-9289-2b74-3015">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91dd-3c4c-4e23-2a45" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="581f-dba3-a6aa-75d2" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="8c43-dcf3-cec6-17f4" name="Hand-and-a-half Hammer" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="8c43-dcf3-cec6-17f4" name="Hand-and-a-half Hammer" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="5">
                       <repeats>
@@ -1358,7 +1434,7 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="bb95-9289-2b74-3015" name="Spear" hidden="false" collective="false" targetId="9cb9-9ebe-8ffa-86f3" type="selectionEntry">
+                <entryLink id="bb95-9289-2b74-3015" name="Spear" hidden="false" collective="false" import="true" targetId="9cb9-9ebe-8ffa-86f3" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="a245-16ab-9bec-0960" value="0.0"/>
                   </modifiers>
@@ -1372,28 +1448,43 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="45e1-943e-e0ff-6f0e" name="Moria Goblin Warrior" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="45e1-943e-e0ff-6f0e" name="Moria Goblin Warrior" hidden="false" collective="false" import="true" type="upgrade">
+          <infoGroups>
+            <infoGroup id="957f-9532-6a5f-f44c" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="03bc-b213-f64e-7896" name="Cave Dweller (Active)" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <infoLinks>
-            <infoLink id="644c-07a4-82b1-fe99" name="Cave Dweller (Active)" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
             <infoLink id="569f-4ce9-3e01-8567" name="Moria Goblin Warrior" hidden="false" targetId="c37f-d36f-13e8-8935" type="profile">
-              <modifiers>
-                <modifier type="increment" field="d64a-e776-38fd-3019" value="1">
-                  <conditions>
-                    <condition field="selections" scope="45e1-943e-e0ff-6f0e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="158e-40ec-c609-e50f" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="decrement" field="d64a-e776-38fd-3019" value="1">
                       <conditions>
-                        <condition field="selections" scope="45e1-943e-e0ff-6f0e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8096-7286-96d7-98b7" type="equalTo"/>
+                        <condition field="selections" scope="45e1-943e-e0ff-6f0e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="158e-40ec-c609-e50f" type="equalTo"/>
                       </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="45e1-943e-e0ff-6f0e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8096-7286-96d7-98b7" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" field="d64a-e776-38fd-3019" value="1">
+                      <conditions>
+                        <condition field="selections" scope="45e1-943e-e0ff-6f0e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="158e-40ec-c609-e50f" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </infoLink>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="62ef-05a3-5fc2-a28b" name="Warrior" hidden="false" collective="false" type="model">
+            <selectionEntry id="62ef-05a3-5fc2-a28b" name="Warrior" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="627b-dbd3-f040-7cba" value="15">
                   <conditions>
@@ -1472,15 +1563,15 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="a547-0c31-ced5-4476" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="a547-0c31-ced5-4476" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="0dcf-57ef-ba3b-807c" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
-                <entryLink id="1251-3e0c-0c70-3cce" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="0dcf-57ef-ba3b-807c" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="1251-3e0c-0c70-3cce" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="9d9c-fdd1-d9a3-b6b5" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="9d9c-fdd1-d9a3-b6b5" name="Options" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="ed74-a1cd-3dce-6844" name="Spear" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="ed74-a1cd-3dce-6844" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -1500,7 +1591,7 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="158e-40ec-c609-e50f" name="Shield" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="158e-40ec-c609-e50f" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -1520,7 +1611,7 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="8096-7286-96d7-98b7" name="Orc bow" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="8096-7286-96d7-98b7" name="Orc bow" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -1554,7 +1645,7 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c603-5591-a7e0-3bbb" name="Moria Blackshield" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="c603-5591-a7e0-3bbb" name="Moria Blackshield" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="fa98-65ab-48fb-6dd7" name="Moria Blackshield" publicationId="98fa-59f5-pubN65643" page="160" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1569,16 +1660,20 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="eac2-1818-dee6-2a2e" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-            <infoLink id="e711-0cd8-474d-0f57" name="Hatred" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Hatred (Dwarf)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="f7d3-0dbb-1bcb-2eff" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="907c-7e4f-290b-8652" name="Hatred" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hatred (Dwarf)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="d351-b5f0-444f-b152" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntries>
-            <selectionEntry id="bc3f-47cb-0ad2-b5c8" name="Blackshield" hidden="false" collective="false" type="model">
+            <selectionEntry id="bc3f-47cb-0ad2-b5c8" name="Blackshield" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="f9e4-46d4-03ab-163e" value="15">
                   <conditions>
@@ -1657,16 +1752,16 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="0405-10e3-9c69-91d6" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="0405-10e3-9c69-91d6" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="30dd-12e2-0750-8890" name="Heavy Armour" hidden="false" collective="false" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
-                <entryLink id="d62f-5b50-8cdf-b09f" name="Shield" hidden="false" collective="false" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
-                <entryLink id="247e-e000-e31f-fc2d" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="30dd-12e2-0750-8890" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+                <entryLink id="d62f-5b50-8cdf-b09f" name="Shield" hidden="false" collective="false" import="true" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
+                <entryLink id="247e-e000-e31f-fc2d" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3336-af03-c9dc-601c" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="3336-af03-c9dc-601c" name="Options" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="2015-7d20-c400-28a5" name="Spear" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="2015-7d20-c400-28a5" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -1695,15 +1790,21 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f13a-bc71-dcc9-0668" name="Moria Goblin Drum" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f13a-bc71-dcc9-0668" name="Moria Goblin Drum" hidden="false" collective="false" import="true" type="upgrade">
           <selectionEntries>
-            <selectionEntry id="8f2b-4bed-d97b-46fa" name="Moria Goblin Drummer" hidden="false" collective="false" type="model">
+            <selectionEntry id="8f2b-4bed-d97b-46fa" name="Moria Goblin Drummer" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0436-205f-2cda-65f3" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ff-297f-ba1d-08d7" type="max"/>
               </constraints>
+              <infoGroups>
+                <infoGroup id="d600-a63c-55d3-6187" name="Special Rules" hidden="false">
+                  <infoLinks>
+                    <infoLink id="0e8b-e86c-f89c-5a91" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+                  </infoLinks>
+                </infoGroup>
+              </infoGroups>
               <infoLinks>
-                <infoLink id="f6ec-0008-32ae-2b55" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
                 <infoLink id="7e11-de05-f048-bce2" name="Moria Goblin Warrior" hidden="false" targetId="c37f-d36f-13e8-8935" type="profile">
                   <modifiers>
                     <modifier type="set" field="name" value="Moria Goblin Drummer"/>
@@ -1711,10 +1812,10 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
                 </infoLink>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="7814-7e99-fb6b-0db8" name="Wargear" hidden="false" collective="false">
+                <selectionEntryGroup id="7814-7e99-fb6b-0db8" name="Wargear" hidden="false" collective="false" import="true">
                   <entryLinks>
-                    <entryLink id="43f6-5e72-788d-e15a" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                    <entryLink id="ad01-df23-2714-7b0a" name="Club" hidden="false" collective="false" targetId="4de7-ec7f-29f4-8d49" type="selectionEntry"/>
+                    <entryLink id="43f6-5e72-788d-e15a" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                    <entryLink id="ad01-df23-2714-7b0a" name="Club" hidden="false" collective="false" import="true" targetId="4de7-ec7f-29f4-8d49" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1724,7 +1825,7 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
                 <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e1e6-d1fc-5041-5aee" name="Moria Goblin Drum" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e1e6-d1fc-5041-5aee" name="Moria Goblin Drum" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7124-1661-0b5a-d099" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="578e-f967-5ee2-175c" type="max"/>
@@ -1743,15 +1844,14 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
                   </characteristics>
                 </profile>
               </profiles>
-              <rules>
-                <rule id="1d71-8404-897f-83db" name="Destroying the Drum (Passive)" publicationId="98fa-59f5-pubN65643" page="161" hidden="false">
-                  <description>The Drum can be shot at and struck normally, and has a Defence of 10 and 3 Wounds. If it is reduced to 0 wounds, it is destroyed and cannot be played anymore. The Drum has no Control Zone and any enemy model that spends a full turn in base contact with the Drum, without doing anything else (such as shooting, using a Magical Power or fighting in combat), may immediately destroy the Drum as described above.</description>
-                </rule>
-                <rule id="839a-dd50-5758-4d67" name="Take up the Drum (Passive)" publicationId="98fa-59f5-pubN65643" page="161" hidden="false">
-                  <description>If either of the Drummers are slain, they may pass on their wargear to any other unengaged Moria Goblin Warrior within 1&quot; - immediately replace the model with the slain Drummer. Models that take up the Drummer&apos;s wargear will automatically drop any that they are carrying.</description>
-                </rule>
-                <rule id="cdd6-9c36-8c09-3377" name="Drums in the Deep (Active)" publicationId="98fa-59f5-pubN65643" page="161" hidden="false">
-                  <description>A Moria Goblin Drum takes up two spaces within a warband and counts as two models towards the army. It is deployed in the same way as the rest of the warband.
+              <infoGroups>
+                <infoGroup id="83d7-2d22-d244-874b" name="Special Rules" hidden="false">
+                  <rules>
+                    <rule id="c3a2-a2bb-5540-107e" name="Take up the Drum (Passive)" publicationId="98fa-59f5-pubN65643" page="161" hidden="false">
+                      <description>If either of the Drummers are slain, they may pass on their wargear to any other unengaged Moria Goblin Warrior within 1&quot; - immediately replace the model with the slain Drummer. Models that take up the Drummer&apos;s wargear will automatically drop any that they are carrying.</description>
+                    </rule>
+                    <rule id="1800-a297-7c1e-9fec" name="Drums in the Deep (Active)" publicationId="98fa-59f5-pubN65643" page="161" hidden="false">
+                      <description>A Moria Goblin Drum takes up two spaces within a warband and counts as two models towards the army. It is deployed in the same way as the rest of the warband.
 
 For the Drum to be played, at least one Moria Goblin Drummer must have started the turn in base contact with the Drum, and also not be Engaged in a Fight. When the Drum is being played, it has the following effects:
 
@@ -1760,8 +1860,13 @@ All Fights within 18&quot; of one or more Drums, that also include at least one 
 All friendly Moria Goblin models on the battlefield add 1 to their Courage value, and all enemy models suffer a -1 penalty to their Courage value. Note that this is not cumulative with other rules that confer similar modifiers.
 
 The Drum is a Heavy Object and as such is moved exactly like one. The Drum cannot be played in a turn in which it has moved.</description>
-                </rule>
-              </rules>
+                    </rule>
+                    <rule id="03f7-97de-69c5-2858" name="Destroying the Drum (Passive)" publicationId="98fa-59f5-pubN65643" page="161" hidden="false">
+                      <description>The Drum can be shot at and struck normally, and has a Defence of 10 and 3 Wounds. If it is reduced to 0 wounds, it is destroyed and cannot be played anymore. The Drum has no Control Zone and any enemy model that spends a full turn in base contact with the Drum, without doing anything else (such as shooting, using a Magical Power or fighting in combat), may immediately destroy the Drum as described above.</description>
+                    </rule>
+                  </rules>
+                </infoGroup>
+              </infoGroups>
               <costs>
                 <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
@@ -1770,14 +1875,14 @@ The Drum is a Heavy Object and as such is moved exactly like one. The Drum canno
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="75.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="100.0"/>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="17b5-2231-2f56-e4f3" name="Moria Blackshield Drummers" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="17b5-2231-2f56-e4f3" name="Moria Blackshield Drummers" hidden="false" collective="false" import="true" type="upgrade">
           <selectionEntries>
-            <selectionEntry id="3d45-4eca-60c2-6965" name="Moria Blackshield Drummer" hidden="false" collective="false" type="model">
+            <selectionEntry id="3d45-4eca-60c2-6965" name="Moria Blackshield Drummer" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d1-e72c-d048-5492" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cec0-3942-301d-162f" type="max"/>
@@ -1796,19 +1901,23 @@ The Drum is a Heavy Object and as such is moved exactly like one. The Drum canno
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="86e2-313e-88f2-137a" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-                <infoLink id="c9b2-32a0-153c-177d" name="Hatred" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Hatred (Dwarf)"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
+              <infoGroups>
+                <infoGroup id="6130-3dbe-19ab-de85" name="Special Rules" hidden="false">
+                  <infoLinks>
+                    <infoLink id="b916-f97a-0a15-6251" name="Hatred" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Hatred (Dwarf)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="83e8-0b16-d5d9-882a" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+                  </infoLinks>
+                </infoGroup>
+              </infoGroups>
               <selectionEntryGroups>
-                <selectionEntryGroup id="5489-30c8-5395-425a" name="Wargear" hidden="false" collective="false">
+                <selectionEntryGroup id="5489-30c8-5395-425a" name="Wargear" hidden="false" collective="false" import="true">
                   <entryLinks>
-                    <entryLink id="5303-8bba-d615-6374" name="Heavy Armour" hidden="false" collective="false" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
-                    <entryLink id="7290-adad-34b5-261f" name="Club" hidden="false" collective="false" targetId="4de7-ec7f-29f4-8d49" type="selectionEntry"/>
+                    <entryLink id="5303-8bba-d615-6374" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+                    <entryLink id="7290-adad-34b5-261f" name="Club" hidden="false" collective="false" import="true" targetId="4de7-ec7f-29f4-8d49" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1818,7 +1927,7 @@ The Drum is a Heavy Object and as such is moved exactly like one. The Drum canno
                 <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="28c3-1258-b974-e576" name="Moria Blackshield Drum" hidden="false" collective="false" type="model">
+            <selectionEntry id="28c3-1258-b974-e576" name="Moria Blackshield Drum" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c5a-7d35-904c-97ac" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f39d-64d6-e8b3-7f3c" type="max"/>
@@ -1830,19 +1939,23 @@ The Drum is a Heavy Object and as such is moved exactly like one. The Drum canno
                   </characteristics>
                 </profile>
               </profiles>
-              <rules>
-                <rule id="3a6e-3986-bfa3-a1b2" name="Run and Drum (Active)" publicationId="98fa-59f5-pubN65643" page="162" hidden="false">
-                  <description>The Drum is considered to be playing as long as the Drummer and the Drum Bearer are in base contact with each other.</description>
-                </rule>
-                <rule id="5b7f-e396-33d8-6861" name="Doom! Doom! (Active)" publicationId="98fa-59f5-pubN65643" page="162" hidden="false">
-                  <description>All Fights within 12&quot; of one or more Drums, that also include at least one friendly Moria Goblin model, may re-roll a single D6 for their Duel roll. Note that this is not cumulative with the effects of a banner.
+              <infoGroups>
+                <infoGroup id="5352-98e9-a9f1-f769" name="Special Rules" hidden="false">
+                  <rules>
+                    <rule id="1c59-78b5-3faa-54e2" name="Take up the Drum (Passive)" publicationId="98fa-59f5-pubN65643" page="162" hidden="false">
+                      <description>If either the Drummer or the Drum Bearer is slain, they may pass on their wargear to any other unengaged Moria Blackshield within 1&quot; - immediately replace the model with the slain Drummer or Drum Bearer. Models that take up the Drummer&apos;s wargear will automatically drop any that they are carrying.</description>
+                    </rule>
+                    <rule id="56af-2e0a-7160-12d1" name="Run and Drum (Active)" publicationId="98fa-59f5-pubN65643" page="162" hidden="false">
+                      <description>The Drum is considered to be playing as long as the Drummer and the Drum Bearer are in base contact with each other.</description>
+                    </rule>
+                    <rule id="ec3e-2f0c-900a-3c53" name="Doom! Doom! (Active)" publicationId="98fa-59f5-pubN65643" page="162" hidden="false">
+                      <description>All Fights within 12&quot; of one or more Drums, that also include at least one friendly Moria Goblin model, may re-roll a single D6 for their Duel roll. Note that this is not cumulative with the effects of a banner.
 
 All friendly Moria Goblin models on the battlefield add a to their Courage value, and all enemy models suffer a -1 penalty to their Courage value. Note that this is not cumulative with other rules that confer similar modifiers.</description>
-                </rule>
-                <rule id="7b9c-0f02-5558-5e6f" name="Take up the Drum (Passive)" publicationId="98fa-59f5-pubN65643" page="162" hidden="false">
-                  <description>If either the Drummer or the Drum Bearer is slain, they may pass on their wargear to any other unengaged Moria Blackshield within 1&quot; - immediately replace the model with the slain Drummer or Drum Bearer. Models that take up the Drummer&apos;s wargear will automatically drop any that they are carrying.</description>
-                </rule>
-              </rules>
+                    </rule>
+                  </rules>
+                </infoGroup>
+              </infoGroups>
               <costs>
                 <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
                 <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
@@ -1856,7 +1969,7 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fe05-9ec8-6059-338b" name="Moria Goblin Prowler" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="fe05-9ec8-6059-338b" name="Moria Goblin Prowler" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="8bef-294f-daff-0921" name="Moria Goblin Prowler" publicationId="98fa-59f5-pubN65643" page="163" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1871,12 +1984,16 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="523a-17ff-af6b-92a1" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-            <infoLink id="6ea9-d65a-1715-8f99" name="Backstabbers" hidden="false" targetId="45f3-a8ee-bfe5-dcfc" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="dd18-10d3-7869-b0f4" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="263f-01d1-40a6-028d" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+                <infoLink id="c5cb-503f-b747-9d91" name="Backstabbers" hidden="false" targetId="45f3-a8ee-bfe5-dcfc" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntries>
-            <selectionEntry id="a320-abeb-8276-aab5" name="Prowler" hidden="false" collective="false" type="model">
+            <selectionEntry id="a320-abeb-8276-aab5" name="Prowler" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="76fb-d494-99fc-513d" value="15">
                   <conditions>
@@ -1955,11 +2072,11 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="5971-f1e8-001a-450e" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="5971-f1e8-001a-450e" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="a14d-d1ec-c9b1-778a" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="4c45-89e7-562d-a3f4" name="Two-Handed Axe" hidden="false" collective="false" targetId="2d5f-8ff0-8762-879e" type="selectionEntry"/>
-                <entryLink id="5579-5832-07af-42cf" name="Throwing Daggers" hidden="false" collective="false" targetId="4fbb-79cf-7ab6-b416" type="selectionEntry"/>
+                <entryLink id="a14d-d1ec-c9b1-778a" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="4c45-89e7-562d-a3f4" name="Two-Handed Axe" hidden="false" collective="false" import="true" targetId="2d5f-8ff0-8762-879e" type="selectionEntry"/>
+                <entryLink id="5579-5832-07af-42cf" name="Throwing Daggers" hidden="false" collective="false" import="true" targetId="4fbb-79cf-7ab6-b416" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1969,7 +2086,7 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f0ce-7b9f-1329-80e8" name="Bat Swarm" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f0ce-7b9f-1329-80e8" name="Bat Swarm" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="e260-a8bd-9cb3-d51c" name="Bat Swarm" publicationId="98fa-59f5-pubN65643" page="163" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1984,16 +2101,20 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="d6a9-58cc-4930-41bf" name="Blinding Swarm (Passive)" publicationId="98fa-59f5-pubN65643" page="163" hidden="false">
-              <description>The Fight Value of any enemy model Engaged in combat with a Bat Swarm is halved (rounding down).</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="2b13-4e93-d404-cef2" name="Fly" hidden="false" targetId="bfd3-a313-811b-9744" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="3751-0e47-dd64-fee5" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="8e51-7e06-7031-6080" name="Blinding Swarm (Passive)" publicationId="98fa-59f5-pubN65643" page="163" hidden="false">
+                  <description>The Fight Value of any enemy model Engaged in combat with a Bat Swarm is halved (rounding down).</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="4e6f-f7f9-12a2-9ee6" name="Fly" hidden="false" targetId="bfd3-a313-811b-9744" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntries>
-            <selectionEntry id="b6f1-bc8d-7247-eddb" name="Swarm" hidden="false" collective="false" type="model">
+            <selectionEntry id="b6f1-bc8d-7247-eddb" name="Swarm" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="0096-060b-65db-4230" value="15">
                   <conditions>
@@ -2077,7 +2198,7 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e8b2-b98f-1be8-795f" name="Warg Marauder" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e8b2-b98f-1be8-795f" name="Warg Marauder" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="ab55-493a-6600-76ac" name="Warg Marauder" publicationId="98fa-59f5-pubN65643" page="164" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -2092,23 +2213,27 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="27df-7a2e-b77d-8b71" name="Warg Marauder" publicationId="98fa-59f5-pubN65643" page="164" hidden="false">
-              <description>A Warg Marauder is an interesting Cavalry model in that it has three Moria Goblins riding upon a single Warg, one with a shield and two with a bow. This model is treated the same as any other Cavalry model with the following exceptions:
+          <infoGroups>
+            <infoGroup id="aa75-25ae-6a18-4f91" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="1b34-0783-79f4-296d" name="Warg Marauder" publicationId="98fa-59f5-pubN65643" page="164" hidden="false">
+                  <description>A Warg Marauder is an interesting Cavalry model in that it has three Moria Goblins riding upon a single Warg, one with a shield and two with a bow. This model is treated the same as any other Cavalry model with the following exceptions:
 
 Whislt the Goblin with a shield is still alive and mounted upon the Warg, all of the parts of the Cavalry model gain the bonus of +1 to their Defence.
 
 The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</description>
-            </rule>
-            <rule id="51b5-0931-6a02-6918" name="On the Hunt (Passive)" publicationId="98fa-59f5-pubN65643" page="164" hidden="false">
-              <description>A Warg Marauder can always fire an Orc bow shot for each Goblin with an Orc bow that is alive upon the back of the Warg, even if it has moved its full movement or is Engaged in a Fight.</description>
-            </rule>
-            <rule id="8738-bbbe-9419-400a" name="Lethal Union (Active)" publicationId="98fa-59f5-pubN65643" page="164" hidden="false">
-              <description>Whilst the Goblins remain mounted upon the Warg, the entire model gains the Terror special rule and adds a bonus of +1 to its Courage value. Additionally, in combat a Warg Marauder may make an additional Attack for each Goblin after the first that is still mounted upon the Warg, so long as they did not shoot during the Shoot phase.</description>
-            </rule>
-          </rules>
+                </rule>
+                <rule id="9f32-a085-f7d8-7592" name="On the Hunt (Passive)" publicationId="98fa-59f5-pubN65643" page="164" hidden="false">
+                  <description>A Warg Marauder can always fire an Orc bow shot for each Goblin with an Orc bow that is alive upon the back of the Warg, even if it has moved its full movement or is Engaged in a Fight.</description>
+                </rule>
+                <rule id="0552-667f-abaa-0fda" name="Lethal Union (Active)" publicationId="98fa-59f5-pubN65643" page="164" hidden="false">
+                  <description>Whilst the Goblins remain mounted upon the Warg, the entire model gains the Terror special rule and adds a bonus of +1 to its Courage value. Additionally, in combat a Warg Marauder may make an additional Attack for each Goblin after the first that is still mounted upon the Warg, so long as they did not shoot during the Shoot phase.</description>
+                </rule>
+              </rules>
+            </infoGroup>
+          </infoGroups>
           <selectionEntries>
-            <selectionEntry id="8ca8-14fe-1be5-c2dc" name="Marauder" hidden="false" collective="false" type="model">
+            <selectionEntry id="8ca8-14fe-1be5-c2dc" name="Marauder" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="e1bb-b0a2-a6cc-fe82" value="15">
                   <conditions>
@@ -2185,7 +2310,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                 <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3190-ae4a-c988-2f8b" name="Warg" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="3190-ae4a-c988-2f8b" name="Warg" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfad-635e-4c9e-f895" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88e5-f9ad-b0e7-8518" type="min"/>
@@ -2198,9 +2323,9 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                 </infoLink>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="d577-b23d-20eb-a1a8" name="Wargear" hidden="false" collective="false">
+                <selectionEntryGroup id="d577-b23d-20eb-a1a8" name="Wargear" hidden="false" collective="false" import="true">
                   <entryLinks>
-                    <entryLink id="7626-44e5-8d1f-eadc" name="Claws and Teeth" hidden="false" collective="false" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+                    <entryLink id="7626-44e5-8d1f-eadc" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2210,7 +2335,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                 <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="390f-42bb-1a8b-b502" name="Moria Goblin" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="390f-42bb-1a8b-b502" name="Moria Goblin" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f0c-c8e5-25f7-1434" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa83-7234-bfd0-d433" type="max"/>
@@ -2223,11 +2348,11 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                 </infoLink>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="1f76-9325-b79c-8104" name="Wargear" hidden="false" collective="false">
+                <selectionEntryGroup id="1f76-9325-b79c-8104" name="Wargear" hidden="false" collective="false" import="true">
                   <entryLinks>
-                    <entryLink id="1681-2441-b3ea-2944" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                    <entryLink id="e4bc-08ae-4384-231d" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
-                    <entryLink id="9518-4919-04ce-895b" name="Shield" hidden="false" collective="false" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
+                    <entryLink id="1681-2441-b3ea-2944" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                    <entryLink id="e4bc-08ae-4384-231d" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                    <entryLink id="9518-4919-04ce-895b" name="Shield" hidden="false" collective="false" import="true" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2237,7 +2362,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                 <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5f0c-a8f7-7b4d-4dcb" name="Moria Goblin" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="5f0c-a8f7-7b4d-4dcb" name="Moria Goblin" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11f7-9198-1902-6646" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98c1-d609-69fd-4db0" type="min"/>
@@ -2250,9 +2375,9 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                 </infoLink>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="1378-99c2-4400-2155" name="Wargear" hidden="false" collective="false">
+                <selectionEntryGroup id="1378-99c2-4400-2155" name="Wargear" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="38c7-5205-9553-2016" name="Orc bow" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="38c7-5205-9553-2016" name="Orc bow" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ad-35e8-9d77-2251" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dde9-98c9-c68c-ebcc" type="max"/>
@@ -2268,8 +2393,8 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink id="f056-c0be-bc41-e401" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                    <entryLink id="0093-c990-a71b-c286" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                    <entryLink id="f056-c0be-bc41-e401" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                    <entryLink id="0093-c990-a71b-c286" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2286,7 +2411,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7788-b17f-5ae6-3d05" name="Dweller in the Dark" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7788-b17f-5ae6-3d05" name="Dweller in the Dark" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="d2fe-54fe-a665-4a63" name="Dweller in the Dark" publicationId="98fa-59f5-pubN65643" page="165" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -2301,17 +2426,21 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="6e09-612a-b8a1-2fd2" name="Murderous Power (Active)" publicationId="98fa-59f5-pubN65643" page="165" hidden="false">
-              <description>Whenever a Dweller in the Dark slays an enemy model in combat, it regains a single Wound lost earlier in the battle. Rend is the only Brutal Power Attack that allows a Dweller to regain Wounds in this manner.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="9eba-122b-77b9-67f4" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-            <infoLink id="f1e1-f1a5-08f6-7c06" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="2862-2556-0ff6-6ef2" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="add1-e1de-1389-f3d8" name="Murderous Power (Active)" publicationId="98fa-59f5-pubN65643" page="165" hidden="false">
+                  <description>Whenever a Dweller in the Dark slays an enemy model in combat, it regains a single Wound lost earlier in the battle. Rend is the only Brutal Power Attack that allows a Dweller to regain Wounds in this manner.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="1c2d-e44f-6977-497d" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="5bb5-8ca0-b71b-bb8d" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntries>
-            <selectionEntry id="5493-5179-e286-c9eb" name="Dweller" hidden="false" collective="false" type="model">
+            <selectionEntry id="5493-5179-e286-c9eb" name="Dweller" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="fbd8-f324-5334-c8c2" value="15">
                   <conditions>
@@ -2390,9 +2519,9 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="775c-fc98-0cac-755b" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="775c-fc98-0cac-755b" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="5137-c67c-e5e1-8250" name="Claws and Teeth" hidden="false" collective="false" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+                <entryLink id="5137-c67c-e5e1-8250" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2402,7 +2531,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cae9-8444-0d67-b467" name="Giant Spider" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="cae9-8444-0d67-b467" name="Giant Spider" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2429,11 +2558,15 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="2b73-4355-6058-157a" name="Swift Movement" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="1293-3490-448a-907a" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="1113-2c01-d3cb-cc28" name="Swift Movement" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntries>
-            <selectionEntry id="247c-8233-77b5-aeea" name="Spider" hidden="false" collective="false" type="model">
+            <selectionEntry id="247c-8233-77b5-aeea" name="Spider" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65f4-b8c9-3e13-c879" type="min"/>
                 <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c62-daa3-7780-8d5e" type="max"/>
@@ -2446,7 +2579,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="91fb-b3f2-b796-ef53" name="Options" hidden="true" collective="false">
+            <selectionEntryGroup id="91fb-b3f2-b796-ef53" name="Options" hidden="true" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -2455,7 +2588,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                 </modifier>
               </modifiers>
               <selectionEntries>
-                <selectionEntry id="8305-7584-796d-fbf6" name="Venom-back" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="8305-7584-796d-fbf6" name="Venom-back" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="2">
                       <repeats>
@@ -2484,7 +2617,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b605-413e-69e6-b5c6" name="Wild Warg" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="b605-413e-69e6-b5c6" name="Wild Warg" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2496,7 +2629,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             <infoLink id="b31d-83d4-6319-96c7" name="Wild Warg" hidden="false" targetId="f1af-4374-1196-0915" type="profile"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="e8e7-3dd8-6df4-c1f7" name="Warg" hidden="false" collective="false" type="model">
+            <selectionEntry id="e8e7-3dd8-6df4-c1f7" name="Warg" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eed-4a97-0630-c5db" type="min"/>
                 <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95bf-eca1-6f7b-bcc2" type="max"/>
@@ -2509,9 +2642,9 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d609-4f7a-e77f-b89a" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="d609-4f7a-e77f-b89a" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="aecf-ba8b-afec-fac0" name="Claws and Teeth" hidden="false" collective="false" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+                <entryLink id="aecf-ba8b-afec-fac0" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2521,7 +2654,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b5a2-538a-0317-771b" name="Fell Warg" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="b5a2-538a-0317-771b" name="Fell Warg" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2529,12 +2662,18 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
               </conditions>
             </modifier>
           </modifiers>
+          <infoGroups>
+            <infoGroup id="9671-c664-6426-dd43" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="b38a-d972-039b-49a6" name="Fell Sight" hidden="false" targetId="edf7-86c5-28cd-59d1" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <infoLinks>
-            <infoLink id="3337-261e-976e-38cf" name="Fell Sight" hidden="false" targetId="edf7-86c5-28cd-59d1" type="rule"/>
             <infoLink id="f6fb-7d54-ad0c-c0a4" name="Fell Warg" hidden="false" targetId="51ba-2e51-3da5-d253" type="profile"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="e3de-8926-19d8-3d3a" name="Warg" hidden="false" collective="false" type="model">
+            <selectionEntry id="e3de-8926-19d8-3d3a" name="Warg" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a1-eaed-c73e-46d2" type="min"/>
                 <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7567-c4a6-d96f-f97d" type="max"/>
@@ -2547,9 +2686,9 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b7a6-c8ef-d154-12e5" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="b7a6-c8ef-d154-12e5" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="be63-572c-6722-9966" name="Claws and Teeth" hidden="false" collective="false" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+                <entryLink id="be63-572c-6722-9966" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>

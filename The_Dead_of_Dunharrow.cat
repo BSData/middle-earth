@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="58ee-b7a3-bb66-6a94" name="The Dead of Dunharrow" revision="10" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="58ee-b7a3-bb66-6a94" name="The Dead of Dunharrow" revision="11" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="58ee-b7a3-pubN65807" name="Armies of Lord of the Rings"/>
     <publication id="58ee-b7a3-pubN66328" name="Gondor at War"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="524a-3314-7561-9d99" name="Captainless Warband" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="524a-3314-7561-9d99" name="Captainless Warband" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="8a41-2b69-4dfa-fd52" value="-1">
+        <modifier type="set" field="8a41-2b69-4dfa-fd52" value="-1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a50f-4ecd-8aa8-f9eb" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="afa9-80da-2e79-faad" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c7a-b59c-fdce-a188" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -25,7 +25,7 @@
         <categoryLink id="31d6-7114-5374-fcd0" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8c6b-efef-6d0c-3ea6" name="Warband" hidden="false" collective="false" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry"/>
+        <entryLink id="8c6b-efef-6d0c-3ea6" name="Warband" hidden="false" collective="false" import="true" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -33,9 +33,9 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1fad-8c33-abd6-4589" name="The King of the Dead" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1fad-8c33-abd6-4589" name="The King of the Dead" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="3678-cbc5-31ac-cfba" value="1">
+        <modifier type="set" field="3678-cbc5-31ac-cfba" value="1.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c7a-b59c-fdce-a188" type="equalTo"/>
           </conditions>
@@ -49,7 +49,7 @@
         <categoryLink id="03e4-1b50-631c-a109" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="dcec-fac7-4f7a-d463" name="The King of the Dead" hidden="false" collective="false" type="model">
+        <selectionEntry id="dcec-fac7-4f7a-d463" name="The King of the Dead" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d8e-e607-72b7-1df4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17a7-a1a5-0afb-74d6" type="min"/>
@@ -74,46 +74,50 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="c0e4-f871-4e1a-4864" name="Drain Soul (Active)" publicationId="58ee-b7a3-pubN65807" page="53" hidden="false">
-              <description>Any model that suffers a Wound from the King of the Dead is automatically slain, regardless of how many Wounds it has remaing. Hero models may prevent these with Fate, but if even a single Wound is not prevented, they are slain.</description>
-            </rule>
-            <rule id="386a-5960-c16a-5bf5" name="The Dead and the Living (Passive)" publicationId="58ee-b7a3-pubN65807" page="53" hidden="false">
-              <description>Only Warriors and Riders of the Dead may use the King of the Dead&apos;s Stand Fast! or benefit from his Heroic Actions.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="9fd6-7ccb-596b-dc18" name="Blades of the Dead" hidden="false" targetId="e388-7909-0666-1ee7" type="rule"/>
-            <infoLink id="1318-ec89-b655-a7b3" name="Spectral Walk (Passive)" hidden="false" targetId="0708-707c-1396-1b40" type="rule"/>
-            <infoLink id="2df1-0c35-1767-408d" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-            <infoLink id="3fcc-d3e2-8540-5fa4" name="Harbinger of Evil (Passive)" hidden="false" targetId="3fce-3425-5bca-8374" type="rule">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a50f-4ecd-8aa8-f9eb" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
+          <infoGroups>
+            <infoGroup id="69c2-fccd-01eb-75eb" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="26b4-9200-bfc4-2370" name="The Dead and the Living (Passive)" publicationId="58ee-b7a3-pubN65807" page="53" hidden="false">
+                  <description>Only Warriors and Riders of the Dead may use the King of the Dead&apos;s Stand Fast! or benefit from his Heroic Actions.</description>
+                </rule>
+                <rule id="8a60-a507-e2b3-fbe1" name="Drain Soul (Active)" publicationId="58ee-b7a3-pubN65807" page="53" hidden="false">
+                  <description>Any model that suffers a Wound from the King of the Dead is automatically slain, regardless of how many Wounds it has remaing. Hero models may prevent these with Fate, but if even a single Wound is not prevented, they are slain.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="71f7-9b4c-c375-d465" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="7685-aec1-3373-7eb9" name="Spectral Walk (Passive)" hidden="false" targetId="0708-707c-1396-1b40" type="rule"/>
+                <infoLink id="a422-95ec-7eff-cfca" name="Harbinger of Evil (Passive)" hidden="false" targetId="3fce-3425-5bca-8374" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c7a-b59c-fdce-a188" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="afa9-80da-2e79-faad" type="equalTo"/>
                       </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="e9a4-0867-a0b3-a7db" name="Blades of the Dead" hidden="false" targetId="e388-7909-0666-1ee7" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="bf49-3776-48c3-31ba" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="bf49-3776-48c3-31ba" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="edda-317a-116e-88d0" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="413a-daaa-a37c-eec3" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="edda-317a-116e-88d0" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="413a-daaa-a37c-eec3" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="5ea7-971c-36ef-2b83" name="Hero of Valour" hidden="false" collective="false" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
-            <entryLink id="40c0-9666-d438-16e0" name="Leader (Valour)" hidden="false" collective="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+            <entryLink id="5ea7-971c-36ef-2b83" name="Hero of Valour" hidden="false" collective="false" import="true" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
+            <entryLink id="40c0-9666-d438-16e0" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -123,7 +127,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1742-bb3d-02f2-a7fa" name="Warband" hidden="false" collective="false" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry">
+        <entryLink id="1742-bb3d-02f2-a7fa" name="Warband" hidden="false" collective="false" import="true" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="3e1b-a1ac-9027-c318" value="15"/>
           </modifiers>
@@ -135,12 +139,12 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f7d-f2db-177a-6977" name="Herald of the Dead" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2f7d-f2db-177a-6977" name="Herald of the Dead" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="4b62-690c-0903-16ee" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3922-18d4-bb45-34de" name="Herald of the Dead" hidden="false" collective="false" type="model">
+        <selectionEntry id="3922-18d4-bb45-34de" name="Herald of the Dead" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eb9-d628-cf8f-8de2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="534c-92ab-8a5e-4c32" type="min"/>
@@ -164,20 +168,24 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="1c28-d9f2-23ad-399d" name="The King&apos;s Counsel (Passive)" publicationId="58ee-b7a3-pubN66328" page="87" hidden="false">
-              <description>If the King of the Dead is within 3&quot; of one or more Heralds of the Dead at the start of any phase, the King of the Dead can spend one of the Herald’s Will points to declare a Heroic Action instead of spending one of his own Might points. Heralds of the Dead also benefit from the King of the Dead’s The Dead and the Living special rule.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="6afb-1f88-2e75-7657" name="Blades of the Dead (Active)" hidden="false" targetId="e388-7909-0666-1ee7" type="rule"/>
-            <infoLink id="7cb8-3248-dbd7-2c80" name="Spectral Walk (Passive)" hidden="false" targetId="0708-707c-1396-1b40" type="rule"/>
-            <infoLink id="8d80-b668-992f-bc1d" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="32ca-dc34-48b0-1bee" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="57b8-2efe-afb5-c637" name="The King&apos;s Counsel (Passive)" publicationId="58ee-b7a3-pubN66328" page="87" hidden="false">
+                  <description>If the King of the Dead is within 3&quot; of one or more Heralds of the Dead at the start of any phase, the King of the Dead can spend one of the Herald’s Will points to declare a Heroic Action instead of spending one of his own Might points. Heralds of the Dead also benefit from the King of the Dead’s The Dead and the Living special rule.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="6315-8a19-e74e-fece" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="14e5-2523-e38b-3f9d" name="Spectral Walk (Passive)" hidden="false" targetId="0708-707c-1396-1b40" type="rule"/>
+                <infoLink id="ee28-2458-bf1f-3759" name="Blades of the Dead (Active)" hidden="false" targetId="e388-7909-0666-1ee7" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="2107-36ae-a467-31b6" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="2107-36ae-a467-31b6" name="Wargear" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="27cb-fd32-3f30-cf17" name="Pennant of the Dead" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="27cb-fd32-3f30-cf17" name="Pennant of the Dead" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43cc-6051-9535-21e7" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1015-d848-02f5-f57b" type="min"/>
@@ -197,13 +205,13 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="d451-84c5-7394-0fa3" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="e137-4906-a63b-eb00" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="d451-84c5-7394-0fa3" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="e137-4906-a63b-eb00" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="5c68-290a-1940-0315" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="5c68-290a-1940-0315" name="Options" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="caca-dd7f-cb1c-a087" name="Shield" hidden="false" collective="false" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
+                <entryLink id="caca-dd7f-cb1c-a087" name="Shield" hidden="false" collective="false" import="true" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -215,7 +223,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="6192-2594-18d1-cbf5" name="Warband" hidden="false" collective="false" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry">
+        <entryLink id="6192-2594-18d1-cbf5" name="Warband" hidden="false" collective="false" import="true" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="3e1b-a1ac-9027-c318" value="12"/>
           </modifiers>
@@ -227,16 +235,16 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="84c1-ab80-c60a-c53b" name="Gimli, Son of Glóin" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="84c1-ab80-c60a-c53b" name="Gimli, Son of Glóin" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c7a-b59c-fdce-a188" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="eedd-21bf-722e-0028" value="0">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c7a-b59c-fdce-a188" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -247,8 +255,8 @@
         <categoryLink id="fa63-ba99-f9c4-8fb6" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8f0e-28d0-85b4-ffeb" name="Gimli Son of Glóin" hidden="false" collective="false" targetId="120a-8965-6980-8112" type="selectionEntry"/>
-        <entryLink id="d3ff-4f7b-c842-879c" name="Warband" hidden="false" collective="false" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry">
+        <entryLink id="8f0e-28d0-85b4-ffeb" name="Gimli Son of Glóin" hidden="false" collective="false" import="true" targetId="120a-8965-6980-8112" type="selectionEntry"/>
+        <entryLink id="d3ff-4f7b-c842-879c" name="Warband" hidden="false" collective="false" import="true" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="3e1b-a1ac-9027-c318" value="15"/>
           </modifiers>
@@ -260,16 +268,16 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="748e-168a-fcde-b885" name="Legolas Greenleaf" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="748e-168a-fcde-b885" name="Legolas Greenleaf" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c7a-b59c-fdce-a188" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="a392-8d36-f493-1630" value="0">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c7a-b59c-fdce-a188" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -280,8 +288,8 @@
         <categoryLink id="225b-f642-edc8-6c8e" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c988-e504-a30b-f85b" name="Legolas Greenleaf" hidden="false" collective="false" targetId="ac32-30b4-0114-f0ab" type="selectionEntry"/>
-        <entryLink id="be0d-5c43-6aad-f4ae" name="Warband" hidden="false" collective="false" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry">
+        <entryLink id="c988-e504-a30b-f85b" name="Legolas Greenleaf" hidden="false" collective="false" import="true" targetId="ac32-30b4-0114-f0ab" type="selectionEntry"/>
+        <entryLink id="be0d-5c43-6aad-f4ae" name="Warband" hidden="false" collective="false" import="true" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="3e1b-a1ac-9027-c318" value="15"/>
           </modifiers>
@@ -293,21 +301,21 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f14f-9b9a-03c7-88df" name="Aragorn - Strider" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="f14f-9b9a-03c7-88df" name="Aragorn - Strider" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c7a-b59c-fdce-a188" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="866d-d150-bc4a-51b3" value="0">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c7a-b59c-fdce-a188" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="f72b-f634-c428-0e49" value="1">
+        <modifier type="set" field="f72b-f634-c428-0e49" value="1.0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c7a-b59c-fdce-a188" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -319,8 +327,8 @@
         <categoryLink id="325d-1fdc-15fa-23a4" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b31b-e822-55d2-5b57" name="Aragorn - Strider" hidden="false" collective="false" targetId="e3aa-a9fc-071d-ea3b" type="selectionEntry"/>
-        <entryLink id="2cd2-f28b-ab0f-a5e1" name="Warband" hidden="false" collective="false" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry">
+        <entryLink id="b31b-e822-55d2-5b57" name="Aragorn - Strider" hidden="false" collective="false" import="true" targetId="e3aa-a9fc-071d-ea3b" type="selectionEntry"/>
+        <entryLink id="2cd2-f28b-ab0f-a5e1" name="Warband" hidden="false" collective="false" import="true" targetId="f44d-6fb5-463a-a6e7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="3e1b-a1ac-9027-c318" value="15"/>
           </modifiers>
@@ -334,7 +342,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="a50f-4ecd-8aa8-f9eb" name="The Dead do not suffer the Living to pass" hidden="false" collective="false" targetId="5053-e959-c7a3-c6e5" type="selectionEntry">
+    <entryLink id="a50f-4ecd-8aa8-f9eb" name="The Dead do not suffer the Living to pass" hidden="false" collective="false" import="true" targetId="5053-e959-c7a3-c6e5" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="f4d0-be85-9ba2-9bd3" value="1">
           <conditions>
@@ -343,17 +351,17 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="6420-1f42-4839-60ab" name="The Dead of Dunharrow" hidden="false" collective="false" targetId="afa9-80da-2e79-faad" type="selectionEntry">
+    <entryLink id="6420-1f42-4839-60ab" name="The Dead of Dunharrow" hidden="false" collective="false" import="true" targetId="afa9-80da-2e79-faad" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="a3ca-6a2e-e3e5-8790" value="1"/>
       </modifiers>
     </entryLink>
-    <entryLink id="5c7a-b59c-fdce-a188" name="The Return of the King" hidden="false" collective="false" targetId="f84c-7ac5-39e6-42c3" type="selectionEntry"/>
+    <entryLink id="5c7a-b59c-fdce-a188" name="The Return of the King" hidden="false" collective="false" import="true" targetId="f84c-7ac5-39e6-42c3" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="f44d-6fb5-463a-a6e7" name="Warband" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f44d-6fb5-463a-a6e7" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="3e1b-a1ac-9027-c318" value="12">
+        <modifier type="set" field="3e1b-a1ac-9027-c318" value="12.0">
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-3314-7561-9d99" type="instanceOf"/>
           </conditions>
@@ -365,7 +373,7 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="c914-9a52-0699-337b" value="8">
+        <modifier type="set" field="c914-9a52-0699-337b" value="8.0">
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-3314-7561-9d99" type="instanceOf"/>
           </conditions>
@@ -375,7 +383,7 @@
             <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f44d-6fb5-463a-a6e7" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
-        <modifier type="set" field="3e1b-a1ac-9027-c318" value="15">
+        <modifier type="set" field="3e1b-a1ac-9027-c318" value="15.0">
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f14f-9b9a-03c7-88df" type="instanceOf"/>
           </conditions>
@@ -410,7 +418,7 @@
         <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9016-e4c2-0744-d909" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="4498-1d8f-42d7-21da" name="Warrior of the Dead" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4498-1d8f-42d7-21da" name="Warrior of the Dead" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="8985-a096-e992-b227" name="Warrior of the Dead" publicationId="58ee-b7a3-pubN65807" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <modifiers>
@@ -432,13 +440,17 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="7544-52ba-84ae-64e3" name="Blades of the Dead" hidden="false" targetId="e388-7909-0666-1ee7" type="rule"/>
-            <infoLink id="bf42-9401-ab6e-1c84" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-            <infoLink id="c946-bbbf-a7ce-714e" name="Spectral Walk" hidden="false" targetId="0708-707c-1396-1b40" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="65c7-a8e5-d62f-a729" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="69c5-cb13-f0a5-acc0" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="5a2f-32c5-6e1c-738a" name="Spectral Walk" hidden="false" targetId="0708-707c-1396-1b40" type="rule"/>
+                <infoLink id="f297-3932-7a75-15d5" name="Blades of the Dead" hidden="false" targetId="e388-7909-0666-1ee7" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntries>
-            <selectionEntry id="0351-f49c-98c9-ad10" name="Warrior" hidden="false" collective="false" type="model">
+            <selectionEntry id="0351-f49c-98c9-ad10" name="Warrior" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="35c9-4e36-d86b-925d" value="12">
                   <conditions>
@@ -491,9 +503,9 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b313-64bd-eacb-8d9e" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="b313-64bd-eacb-8d9e" name="Options" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="750b-5ea7-f0f8-bba3" name="Spear" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="750b-5ea7-f0f8-bba3" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -513,7 +525,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="e8fd-a896-f416-044d" name="Shield" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="e8fd-a896-f416-044d" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -533,7 +545,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="e282-2eda-3ede-3476" name="Banner" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="e282-2eda-3ede-3476" name="Banner" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="25">
                       <repeats>
@@ -555,20 +567,20 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="07c9-9f16-e469-9208" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="07c9-9f16-e469-9208" name="Wargear" hidden="false" collective="false" import="true">
               <selectionEntryGroups>
-                <selectionEntryGroup id="b5de-a23a-e0f9-89db" name=" " hidden="false" collective="false" defaultSelectionEntryId="43b5-1670-7d40-5cae">
+                <selectionEntryGroup id="b5de-a23a-e0f9-89db" name=" " hidden="false" collective="false" import="true" defaultSelectionEntryId="43b5-1670-7d40-5cae">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f203-fab9-85da-9bc4" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd09-c616-f063-9f23" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="f892-d927-84a8-6cd1" name="Axe" hidden="false" collective="false" targetId="6487-f2cf-5eb7-a780" type="selectionEntry">
+                    <entryLink id="f892-d927-84a8-6cd1" name="Axe" hidden="false" collective="false" import="true" targetId="6487-f2cf-5eb7-a780" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="10cf-3df6-657b-ff0f" value="0.0"/>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="43b5-1670-7d40-5cae" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
+                    <entryLink id="43b5-1670-7d40-5cae" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="26be-b7ba-4fb0-04dc" value="0.0"/>
                       </modifiers>
@@ -577,7 +589,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="ac95-ea06-d6aa-96f6" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="ac95-ea06-d6aa-96f6" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -587,7 +599,7 @@
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9325-199e-9b4b-cab8" name="Rider of the Dead" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9325-199e-9b4b-cab8" name="Rider of the Dead" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="fa3a-de3c-0fba-57e5" name="Rider of the Dead" publicationId="58ee-b7a3-pubN65807" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -602,13 +614,17 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="8c51-aa41-91e2-732c" name="Blades of the Dead" hidden="false" targetId="e388-7909-0666-1ee7" type="rule"/>
-            <infoLink id="33d5-5cd8-e381-74bf" name="Spectral Walk" hidden="false" targetId="0708-707c-1396-1b40" type="rule"/>
-            <infoLink id="6525-a1ba-6162-b981" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="1a6f-6484-88db-e5c1" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="4411-b186-05a0-ff16" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="fa31-d86f-29ef-cc9f" name="Spectral Walk" hidden="false" targetId="0708-707c-1396-1b40" type="rule"/>
+                <infoLink id="e7b5-d634-61ed-b441" name="Blades of the Dead" hidden="false" targetId="e388-7909-0666-1ee7" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntries>
-            <selectionEntry id="bb64-0e59-9068-7778" name="Rider" hidden="false" collective="false" type="model">
+            <selectionEntry id="bb64-0e59-9068-7778" name="Rider" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="9e59-8901-6564-5747" value="12">
                   <conditions>
@@ -661,9 +677,9 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="c347-ca15-d4ab-5ac4" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="c347-ca15-d4ab-5ac4" name="Wargear" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="2424-a4d7-d1a6-54e4" name="Spectral Steed" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="2424-a4d7-d1a6-54e4" name="Spectral Steed" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9298-c030-7ff0-638e" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b722-d121-44b4-a103" type="min"/>
@@ -685,9 +701,9 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="e425-1232-6346-b917" name="Shield" hidden="false" collective="false" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
-                <entryLink id="9d1f-86ff-78cb-bc6a" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="f723-8821-879e-8351" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="e425-1232-6346-b917" name="Shield" hidden="false" collective="false" import="true" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
+                <entryLink id="9d1f-86ff-78cb-bc6a" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="f723-8821-879e-8351" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>

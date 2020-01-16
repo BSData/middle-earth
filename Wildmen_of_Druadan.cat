@@ -1,980 +1,187 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.02" id="1ee4-ce7d-9a84-529f" name="Wildmen of Drúadan" revision="7" authorName="Hukoseft" authorContact="hukoseft@gmail.com" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="15">
-    <publications>
-        <publication id="1ee4-ce7d-pubN65783" name="Armies of Lord of the Rings"/>
-    </publications>
-      
-    <profiles/>
-      
-    <rules/>
-      
-    <infoLinks/>
-      
-    <costTypes/>
-      
-    <profileTypes/>
-      
-    <categoryEntries/>
-      
-    <forceEntries/>
-      
-    <selectionEntries>
-            
-        <selectionEntry id="88ed-0c61-c0cc-d0f5" name="Captainless Warband" hidden="false" collective="false" type="upgrade">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers>
-                        
-                <modifier type="set" field="4b7a-5232-254c-ce2f" value="0.0">
-                              
-                    <repeats/>
-                              
-                    <conditions>
-                                    
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2871-6998-dc19-e95d" type="equalTo"/>
-                                  
-                    </conditions>
-                              
-                    <conditionGroups/>
-                            
-                </modifier>
-                      
-            </modifiers>
-                  
-            <constraints>
-                        
-                <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b7a-5232-254c-ce2f" type="max"/>
-                      
-            </constraints>
-                  
-            <categoryLinks>
-                        
-                <categoryLink id="7cec-90cd-68e8-fe31" name="New CategoryLink" hidden="false" targetId="4a7b-8f86-68be-e1d6" primary="true">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                            
-                </categoryLink>
-                      
-            </categoryLinks>
-                  
-            <selectionEntries/>
-                  
-            <selectionEntryGroups/>
-                  
-            <entryLinks>
-                        
-                <entryLink id="6de5-51c8-e11d-fb22" name="Warband" hidden="false" targetId="9af8-5862-9f5e-9e59" type="selectionEntry">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers>
-                                    
-                        <modifier type="set" field="2c68-068a-0512-b2c7" value="12">
-                                          
-                            <repeats/>
-                                          
-                            <conditions/>
-                                          
-                            <conditionGroups/>
-                                        
-                        </modifier>
-                                    
-                        <modifier type="set" field="3f64-798e-dcca-05ff" value="9">
-                                          
-                            <repeats/>
-                                          
-                            <conditions/>
-                                          
-                            <conditionGroups/>
-                                        
-                        </modifier>
-                                  
-                    </modifiers>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                      
-            </entryLinks>
-                  
-            <costs>
-                        
-                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                        
-                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
-                        
-                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                      
-            </costs>
-                
-        </selectionEntry>
-            
-        <selectionEntry id="c52a-a28d-f53a-e621" name="Ghân-Buri-Ghân" hidden="false" collective="false" type="upgrade">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers/>
-                  
-            <constraints>
-                        
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf97-2a34-cb99-c73a" type="max"/>
-                        
-                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70cb-f59a-afbd-1569" type="min"/>
-                      
-            </constraints>
-                  
-            <categoryLinks>
-                        
-                <categoryLink id="0ad1-1e3f-fc13-186d" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                            
-                </categoryLink>
-                      
-            </categoryLinks>
-                  
-            <selectionEntries>
-                        
-                <selectionEntry id="aa30-4e3a-92a5-7d14" name="Ghân-Buri-Ghân" hidden="false" collective="false" type="model">
-                              
-                    <profiles>
-                                    
-                        <profile typeId="80cb-17d0-8683-a212" typeName="Hero" id="7e10-9d50-7471-4c61" name="Ghân-Buri-Ghân" publicationId="1ee4-ce7d-pubN65783" page="71" hidden="false">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <characteristics>
-                                                
-                                <characteristic typeId="6d57-f596-e10e-6233" name="Movement">6"</characteristic>
-                                                
-                                <characteristic typeId="5930-f060-2064-c9d5" name="Fight">4/3+</characteristic>
-                                                
-                                <characteristic typeId="fbbc-8f2f-c413-710a" name="Strength">4</characteristic>
-                                                
-                                <characteristic typeId="49e3-08b4-2b5f-a6dd" name="Defense">4</characteristic>
-                                                
-                                <characteristic typeId="7d79-496f-5c13-35c4" name="Attack">2</characteristic>
-                                                
-                                <characteristic typeId="8bda-d8a5-a1e7-2146" name="Wounds">2</characteristic>
-                                                
-                                <characteristic typeId="b88a-7dd4-569c-d0b1" name="Courage">4</characteristic>
-                                                
-                                <characteristic typeId="db92-6a08-e1ce-a77d" name="Might">3</characteristic>
-                                                
-                                <characteristic typeId="b509-13ce-7d03-816e" name="Will">1</characteristic>
-                                                
-                                <characteristic typeId="67f5-8c5e-868c-5bd5" name="Fate">1</characteristic>
-                                                
-                                <characteristic typeId="fc29-34ba-8883-0379" name="Heroic Actions">March Accuracy</characteristic>
-                                                
-                                <characteristic typeId="52a2-dbbe-8d97-a8a2" name="Keywords">Man Infantry Hero</characteristic>
-                                                
-                                <characteristic typeId="2b79-2cec-28e7-0b0d" name="Heroic Tier">Hero of Valour</characteristic>
-                                              
-                            </characteristics>
-                                        
-                        </profile>
-                                  
-                    </profiles>
-                              
-                    <rules/>
-                              
-                    <infoLinks>
-                                    
-                        <infoLink id="17a8-d8ae-18f9-454d" name="Hatred(X)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers>
-                                                
-                                <modifier type="set" field="name" value="Hatred (Orc) (Active)">
-                                                      
-                                    <repeats/>
-                                                      
-                                    <conditions/>
-                                                      
-                                    <conditionGroups/>
-                                                    
-                                </modifier>
-                                              
-                            </modifiers>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="46ff-9944-4818-329c" name="Stalk Unseen" hidden="false" targetId="9e98-f137-8fe8-8fea" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="7ae3-42a7-5511-e1fc" name="Woodland Creature" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="1829-5f8a-d725-856c" name="Hatred(X)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers>
-                                                
-                                <modifier type="set" field="name" value="Hatred (Uruk-hai) (Active)">
-                                                      
-                                    <repeats/>
-                                                      
-                                    <conditions/>
-                                                      
-                                    <conditionGroups/>
-                                                    
-                                </modifier>
-                                              
-                            </modifiers>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="5e24-993d-f373-08fb" name="Hatred(X)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers>
-                                                
-                                <modifier type="set" field="name" value="Hatred (Goblin) (Active)">
-                                                      
-                                    <repeats/>
-                                                      
-                                    <conditions/>
-                                                      
-                                    <conditionGroups/>
-                                                    
-                                </modifier>
-                                              
-                            </modifiers>
-                                        
-                        </infoLink>
-                                  
-                    </infoLinks>
-                              
-                    <modifiers/>
-                              
-                    <constraints>
-                                    
-                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d184-a2af-36ed-2ae3" type="max"/>
-                                    
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43cc-b4ca-360a-4612" type="min"/>
-                                    
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30c2-42a3-67c4-15df" type="max"/>
-                                  
-                    </constraints>
-                              
-                    <categoryLinks/>
-                              
-                    <selectionEntries/>
-                              
-                    <selectionEntryGroups>
-                                    
-                        <selectionEntryGroup id="4a07-aa48-ddfa-4f14" name="Wargear" hidden="false" collective="false">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <constraints/>
-                                          
-                            <categoryLinks/>
-                                          
-                            <selectionEntries/>
-                                          
-                            <selectionEntryGroups/>
-                                          
-                            <entryLinks>
-                                                
-                                <entryLink id="0fb7-25f1-e7ef-e58d" name="Dagger" hidden="false" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <constraints/>
-                                                      
-                                    <categoryLinks/>
-                                                    
-                                </entryLink>
-                                                
-                                <entryLink id="5a52-52e1-e98a-577d" name="Spear" hidden="false" targetId="9cb9-9ebe-8ffa-86f3" type="selectionEntry">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <constraints/>
-                                                      
-                                    <categoryLinks/>
-                                                    
-                                </entryLink>
-                                                
-                                <entryLink id="1c7b-173e-cda2-d91b" name="Poisoned Blowpipe" hidden="false" targetId="dc4f-fa62-dfaa-c022" type="selectionEntry">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <constraints/>
-                                                      
-                                    <categoryLinks/>
-                                                    
-                                </entryLink>
-                                              
-                            </entryLinks>
-                                        
-                        </selectionEntryGroup>
-                                  
-                    </selectionEntryGroups>
-                              
-                    <entryLinks>
-                                    
-                        <entryLink id="5ae4-cf9c-1be6-7e0e" name="Leader (Valour)" hidden="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <constraints/>
-                                          
-                            <categoryLinks/>
-                                        
-                        </entryLink>
-                                    
-                        <entryLink id="4960-69ea-fa39-9644" name="Hero of Valour" hidden="false" targetId="9afa-e012-fc54-795e" type="selectionEntry">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <constraints/>
-                                          
-                            <categoryLinks/>
-                                        
-                        </entryLink>
-                                  
-                    </entryLinks>
-                              
-                    <costs>
-                                    
-                        <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                                    
-                        <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="65.0"/>
-                                    
-                        <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                                  
-                    </costs>
-                            
-                </selectionEntry>
-                      
-            </selectionEntries>
-                  
-            <selectionEntryGroups/>
-                  
-            <entryLinks>
-                        
-                <entryLink id="0580-92f0-cd45-18d4" name="Warband" hidden="false" targetId="9af8-5862-9f5e-9e59" type="selectionEntry">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers>
-                                    
-                        <modifier type="set" field="2c68-068a-0512-b2c7" value="15">
-                                          
-                            <repeats/>
-                                          
-                            <conditions/>
-                                          
-                            <conditionGroups/>
-                                        
-                        </modifier>
-                                  
-                    </modifiers>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                      
-            </entryLinks>
-                  
-            <costs>
-                        
-                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                        
-                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                        
-                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
-                      
-            </costs>
-                
-        </selectionEntry>
-          
-    </selectionEntries>
-      
-    <entryLinks>
-            
-        <entryLink id="cb5d-59b6-2f3f-cf48" name="Wildmen of Drúadan" hidden="false" targetId="756a-c92a-b077-555d" type="selectionEntry">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers>
-                        
-                <modifier type="set" field="4ee0-4463-368a-89f6" value="1">
-                              
-                    <repeats/>
-                              
-                    <conditions/>
-                              
-                    <conditionGroups/>
-                            
-                </modifier>
-                      
-            </modifiers>
-                  
-            <constraints/>
-                  
-            <categoryLinks/>
-                
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1ee4-ce7d-9a84-529f" name="Wildmen of Drúadan" revision="9" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="1ee4-ce7d-pubN65783" name="Armies of Lord of the Rings"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="88ed-0c61-c0cc-d0f5" name="Captainless Warband" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="4b7a-5232-254c-ce2f" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="acdf-9ccd-b671-6058" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b7a-5232-254c-ce2f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7cec-90cd-68e8-fe31" name="New CategoryLink" hidden="false" targetId="4a7b-8f86-68be-e1d6" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6de5-51c8-e11d-fb22" name="Warband" hidden="false" collective="false" import="true" targetId="9af8-5862-9f5e-9e59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="2c68-068a-0512-b2c7" value="12"/>
+            <modifier type="set" field="3f64-798e-dcca-05ff" value="9"/>
+          </modifiers>
         </entryLink>
-            
-        <entryLink id="2871-6998-dc19-e95d" name="Wild men have Long Ears and Long Eyes; know all Paths" hidden="false" targetId="acdf-9ccd-b671-6058" type="selectionEntry">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers>
-                        
-                <modifier type="set" field="3a49-0ea1-4d0d-1931" value="1">
-                              
-                    <repeats/>
-                              
-                    <conditions>
-                                    
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
-                                  
-                    </conditions>
-                              
-                    <conditionGroups/>
-                            
-                </modifier>
-                      
-            </modifiers>
-                  
-            <constraints/>
-                  
-            <categoryLinks/>
-                
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c52a-a28d-f53a-e621" name="Ghân-Buri-Ghân" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf97-2a34-cb99-c73a" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70cb-f59a-afbd-1569" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0ad1-1e3f-fc13-186d" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0580-92f0-cd45-18d4" name="Warband" hidden="false" collective="false" import="true" targetId="9af8-5862-9f5e-9e59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="2c68-068a-0512-b2c7" value="15"/>
+          </modifiers>
         </entryLink>
-          
-    </entryLinks>
-      
-    <sharedSelectionEntries>
-            
-        <selectionEntry id="9af8-5862-9f5e-9e59" name="Warband" hidden="false" collective="false" type="upgrade">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers>
-                        
-                <modifier type="set" field="2c68-068a-0512-b2c7" value="12">
-                              
-                    <repeats/>
-                              
-                    <conditions>
-                                    
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88ed-0c61-c0cc-d0f5" type="instanceOf"/>
-                                  
-                    </conditions>
-                              
-                    <conditionGroups/>
-                            
+        <entryLink id="272b-aedc-ca6c-9a07" name="Ghân-Buri-Ghân" hidden="false" collective="false" import="true" targetId="8d61-02ea-8678-e975" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="cb5d-59b6-2f3f-cf48" name="Wildmen of Drúadan" hidden="false" collective="false" import="true" targetId="756a-c92a-b077-555d" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="4ee0-4463-368a-89f6" value="1"/>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2871-6998-dc19-e95d" name="Wild men have Long Ears and Long Eyes; know all Paths" hidden="false" collective="false" import="true" targetId="acdf-9ccd-b671-6058" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="3a49-0ea1-4d0d-1931" value="1">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9af8-5862-9f5e-9e59" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="2c68-068a-0512-b2c7" value="12">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88ed-0c61-c0cc-d0f5" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="3f64-798e-dcca-05ff" value="9">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88ed-0c61-c0cc-d0f5" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="9640-c6bf-d48a-2a5e" value="1">
+          <repeats>
+            <repeat field="391e-19ac-b71d-f2e3" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9af8-5862-9f5e-9e59" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1001-813e-8fdb-97c2" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bd1-7b44-b79a-5687" type="max"/>
+        <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c68-068a-0512-b2c7" type="max"/>
+        <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f64-798e-dcca-05ff" type="min"/>
+        <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9640-c6bf-d48a-2a5e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="24ed-fde3-bd27-8ce4" name="Woses Warrior" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="2db0-2e6c-31e2-a425" name="Woses Warrior" publicationId="1ee4-ce7d-pubN65783" page="71" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+              <characteristics>
+                <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">3/3+</characteristic>
+                <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">3</characteristic>
+                <characteristic name="Defense" typeId="d64a-e776-38fd-3019">3</characteristic>
+                <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
+                <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
+                <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">3</characteristic>
+                <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man Infantry Warrior</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="f1e9-68db-f9c9-27de" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="a961-1354-bca5-62cf" name="Woodland Creature" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+                <infoLink id="c321-43e7-b091-99fa" name="Stalk Unseen (Passive)" hidden="false" targetId="9e98-f137-8fe8-8fea" type="rule"/>
+                <infoLink id="ec38-2ae0-98fb-8451" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hatred (Orc) (Active)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="c728-a98e-0745-5745" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hatred (Uruk-hai) (Active)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="8bd5-939f-1cdd-6193" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hatred (Goblin) (Active)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntries>
+            <selectionEntry id="e328-710a-794e-ac4b" name="Warrior" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="09fa-84c4-7bb7-bb66" value="12">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88ed-0c61-c0cc-d0f5" type="instanceOf"/>
+                  </conditions>
                 </modifier>
-                        
-                <modifier type="set" field="3f64-798e-dcca-05ff" value="9">
-                              
-                    <repeats/>
-                              
-                    <conditions>
-                                    
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88ed-0c61-c0cc-d0f5" type="instanceOf"/>
-                                  
-                    </conditions>
-                              
-                    <conditionGroups/>
-                            
+                <modifier type="set" field="9e94-0574-0a01-eac4" value="9">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88ed-0c61-c0cc-d0f5" type="instanceOf"/>
+                  </conditions>
                 </modifier>
-                        
-                <modifier type="increment" field="9640-c6bf-d48a-2a5e" value="1">
-                              
-                    <repeats>
-                                    
-                        <repeat field="391e-19ac-b71d-f2e3" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9af8-5862-9f5e-9e59" repeats="1" roundUp="true"/>
-                                  
-                    </repeats>
-                              
-                    <conditions/>
-                              
-                    <conditionGroups/>
-                            
-                </modifier>
-                      
-            </modifiers>
-                  
-            <constraints>
-                        
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1001-813e-8fdb-97c2" type="min"/>
-                        
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bd1-7b44-b79a-5687" type="max"/>
-                        
-                <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c68-068a-0512-b2c7" type="max"/>
-                        
-                <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f64-798e-dcca-05ff" type="min"/>
-                        
-                <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9640-c6bf-d48a-2a5e" type="max"/>
-                      
-            </constraints>
-                  
-            <categoryLinks/>
-                  
-            <selectionEntries>
-                        
-                <selectionEntry id="24ed-fde3-bd27-8ce4" name="Woses Warrior" hidden="false" collective="false" type="model">
-                              
-                    <profiles>
-                                    
-                        <profile typeId="41b1-0f32-a644-93b4" typeName="Warrior" id="2db0-2e6c-31e2-a425" name="Woses Warrior" publicationId="1ee4-ce7d-pubN65783" page="71" hidden="false">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <characteristics>
-                                                
-                                <characteristic typeId="b547-99cc-2ac6-2a69" name="Movement">6"</characteristic>
-                                                
-                                <characteristic typeId="7b7e-d26d-b685-545a" name="Fight">3/3+</characteristic>
-                                                
-                                <characteristic typeId="241d-1a6f-8463-5f1c" name="Strength">3</characteristic>
-                                                
-                                <characteristic typeId="d64a-e776-38fd-3019" name="Defense">3</characteristic>
-                                                
-                                <characteristic typeId="6235-3861-befd-7242" name="Attack">1</characteristic>
-                                                
-                                <characteristic typeId="ae83-f720-58f2-1a6d" name="Wounds">1</characteristic>
-                                                
-                                <characteristic typeId="a0e1-d7a9-598e-1545" name="Courage">3</characteristic>
-                                                
-                                <characteristic typeId="493a-2bc7-2330-a17b" name="Keywords">Man Infantry Warrior</characteristic>
-                                              
-                            </characteristics>
-                                        
-                        </profile>
-                                  
-                    </profiles>
-                              
-                    <rules/>
-                              
-                    <infoLinks>
-                                    
-                        <infoLink id="549f-1eab-d8e9-3a58" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers>
-                                                
-                                <modifier type="set" field="name" value="Hatred (Orc) (Active)">
-                                                      
-                                    <repeats/>
-                                                      
-                                    <conditions/>
-                                                      
-                                    <conditionGroups/>
-                                                    
-                                </modifier>
-                                              
-                            </modifiers>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="f4b6-0e48-f346-6760" name="Woodland Creature" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="844f-22cb-630b-86de" name="Stalk Unseen (Passive)" hidden="false" targetId="9e98-f137-8fe8-8fea" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="499a-5f9a-5a5f-c10a" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers>
-                                                
-                                <modifier type="set" field="name" value="Hatred (Uruk-hai) (Active)">
-                                                      
-                                    <repeats/>
-                                                      
-                                    <conditions/>
-                                                      
-                                    <conditionGroups/>
-                                                    
-                                </modifier>
-                                              
-                            </modifiers>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="9a6a-14d1-c313-118e" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers>
-                                                
-                                <modifier type="set" field="name" value="Hatred (Goblin) (Active)">
-                                                      
-                                    <repeats/>
-                                                      
-                                    <conditions/>
-                                                      
-                                    <conditionGroups/>
-                                                    
-                                </modifier>
-                                              
-                            </modifiers>
-                                        
-                        </infoLink>
-                                  
-                    </infoLinks>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                              
-                    <selectionEntries>
-                                    
-                        <selectionEntry id="e328-710a-794e-ac4b" name="Warrior" hidden="false" collective="false" type="upgrade">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers>
-                                                
-                                <modifier type="set" field="09fa-84c4-7bb7-bb66" value="12">
-                                                      
-                                    <repeats/>
-                                                      
-                                    <conditions>
-                                                            
-                                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88ed-0c61-c0cc-d0f5" type="instanceOf"/>
-                                                          
-                                    </conditions>
-                                                      
-                                    <conditionGroups/>
-                                                    
-                                </modifier>
-                                                
-                                <modifier type="set" field="9e94-0574-0a01-eac4" value="9">
-                                                      
-                                    <repeats/>
-                                                      
-                                    <conditions>
-                                                            
-                                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88ed-0c61-c0cc-d0f5" type="instanceOf"/>
-                                                          
-                                    </conditions>
-                                                      
-                                    <conditionGroups/>
-                                                    
-                                </modifier>
-                                              
-                            </modifiers>
-                                          
-                            <constraints>
-                                                
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e94-0574-0a01-eac4" type="min"/>
-                                                
-                                <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09fa-84c4-7bb7-bb66" type="max"/>
-                                              
-                            </constraints>
-                                          
-                            <categoryLinks/>
-                                          
-                            <selectionEntries/>
-                                          
-                            <selectionEntryGroups/>
-                                          
-                            <entryLinks/>
-                                          
-                            <costs>
-                                                
-                                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="1.0"/>
-                                                
-                                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="9.0"/>
-                                                
-                                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                                              
-                            </costs>
-                                        
-                        </selectionEntry>
-                                  
-                    </selectionEntries>
-                              
-                    <selectionEntryGroups>
-                                    
-                        <selectionEntryGroup id="6b9a-51c2-f96a-ddec" name="Wargear" hidden="false" collective="false">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <constraints/>
-                                          
-                            <categoryLinks/>
-                                          
-                            <selectionEntries/>
-                                          
-                            <selectionEntryGroups/>
-                                          
-                            <entryLinks>
-                                                
-                                <entryLink id="d03b-e87f-68b7-6588" name="Dagger" hidden="false" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <constraints/>
-                                                      
-                                    <categoryLinks/>
-                                                    
-                                </entryLink>
-                                                
-                                <entryLink id="e573-5c74-44f7-2128" name="Spear" hidden="false" targetId="9cb9-9ebe-8ffa-86f3" type="selectionEntry">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <constraints/>
-                                                      
-                                    <categoryLinks/>
-                                                    
-                                </entryLink>
-                                                
-                                <entryLink id="2251-77fe-79f1-d4cc" name="Poisoned Blowpipe" hidden="false" targetId="dc4f-fa62-dfaa-c022" type="selectionEntry">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <constraints/>
-                                                      
-                                    <categoryLinks/>
-                                                    
-                                </entryLink>
-                                              
-                            </entryLinks>
-                                        
-                        </selectionEntryGroup>
-                                  
-                    </selectionEntryGroups>
-                              
-                    <entryLinks/>
-                              
-                    <costs>
-                                    
-                        <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                                    
-                        <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
-                                    
-                        <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                                  
-                    </costs>
-                            
-                </selectionEntry>
-                      
-            </selectionEntries>
-                  
-            <selectionEntryGroups/>
-                  
-            <entryLinks/>
-                  
-            <costs>
-                        
-                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                        
-                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
-                        
-                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                      
-            </costs>
-                
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e94-0574-0a01-eac4" type="min"/>
+                <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09fa-84c4-7bb7-bb66" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="9.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6b9a-51c2-f96a-ddec" name="Wargear" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="d03b-e87f-68b7-6588" name="Dagger" hidden="false" collective="false" import="true" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
+                <entryLink id="e573-5c74-44f7-2128" name="Spear" hidden="false" collective="false" import="true" targetId="9cb9-9ebe-8ffa-86f3" type="selectionEntry"/>
+                <entryLink id="2251-77fe-79f1-d4cc" name="Poisoned Blowpipe" hidden="false" collective="false" import="true" targetId="dc4f-fa62-dfaa-c022" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
         </selectionEntry>
-          
-    </sharedSelectionEntries>
-      
-    <sharedSelectionEntryGroups/>
-      
-    <sharedRules/>
-      
-    <sharedProfiles/>
-    
+      </selectionEntries>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>
