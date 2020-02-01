@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="65dc-3c62-9b43-45c1" name="Azog&apos;s Hunters" revision="4" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="65dc-3c62-9b43-45c1" name="Azog&apos;s Hunters" revision="3" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="65dc-3c62-pubN65626" name="Armies of the Hobbit"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="eae6-9db6-277d-b5c5" name="Fimbul the Hunter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="eae6-9db6-277d-b5c5" name="Fimbul the Hunter" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed5d-53b9-e2a8-c548" type="max"/>
       </constraints>
@@ -12,7 +12,7 @@
         <categoryLink id="e7cc-4666-b768-a4d6" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a825-02da-62b3-370e" name="Fimbul the Hunter" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a825-02da-62b3-370e" name="Fimbul the Hunter" hidden="false" collective="false" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="21d6-2fea-22b9-a6f9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d709-f18f-a558-5cd3" type="max"/>
@@ -37,35 +37,31 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoGroups>
-            <infoGroup id="1d5e-6ad2-c515-d439" name="Special Rule" hidden="false">
-              <rules>
-                <rule id="3cfa-ad69-907a-e5fc" name="Hunt Master (Active)" publicationId="65dc-3c62-pubN65626" page="106" hidden="false">
-                  <description>When mounted, Fimbul ignores the penalties suffered by Cavalry models attempting to move in difficult terrain – this even enables him to gain the bonuses for charging!</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="a1c8-09ba-f3cc-5cdc" name="Expert Rider (Active)" hidden="false" targetId="b652-a40f-e5e6-0af6" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
+          <rules>
+            <rule id="2a42-e4d7-43bc-11cc" name="Hunt Master (Active)" publicationId="65dc-3c62-pubN65626" page="106" hidden="false">
+              <description>When mounted, Fimbul ignores the penalties suffered by Cavalry models attempting to move in difficult terrain – this even enables him to gain the bonuses for charging!</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="1906-2040-8046-fbe2" name="Expert Rider (Active)" hidden="false" targetId="b652-a40f-e5e6-0af6" type="rule"/>
+          </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="99b7-69b8-3cc8-6c07" name="Options" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="99b7-69b8-3cc8-6c07" name="Options" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="a782-7e57-f857-cc8f" name="Fell Warg" hidden="false" collective="false" import="true" targetId="cbea-de50-df46-8c44" type="selectionEntry"/>
+                <entryLink id="a782-7e57-f857-cc8f" name="Fell Warg" hidden="false" collective="false" targetId="cbea-de50-df46-8c44" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="4153-c316-76f6-b03f" name="Wargear" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="4153-c316-76f6-b03f" name="Wargear" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="626e-1cd4-8893-60e2" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="4abd-9c78-6656-327a" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
-                <entryLink id="2eed-3d2c-9605-d20a" name="Orc Bow" hidden="false" collective="false" import="true" targetId="6674-f5bc-ab45-f67c" type="selectionEntry"/>
+                <entryLink id="626e-1cd4-8893-60e2" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="4abd-9c78-6656-327a" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="2eed-3d2c-9605-d20a" name="Orc Bow" hidden="false" collective="false" targetId="6674-f5bc-ab45-f67c" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="2dc8-d8b9-3e3b-f544" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-            <entryLink id="5b08-fa19-e3f3-270c" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
+            <entryLink id="2dc8-d8b9-3e3b-f544" name="Leader (Fortitude)" hidden="false" collective="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="5b08-fa19-e3f3-270c" name="Hero of Fortitude" hidden="false" collective="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -75,7 +71,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="85c0-0695-b84f-0d2e" name="Warband" hidden="false" collective="false" import="true" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
+        <entryLink id="85c0-0695-b84f-0d2e" name="Warband" hidden="false" collective="false" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="7afb-4cee-34db-b39f" value="12"/>
           </modifiers>
@@ -87,7 +83,7 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f710-c9d5-2331-96e8" name="Narzug" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f710-c9d5-2331-96e8" name="Narzug" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0689-10f9-6882-1d39" type="max"/>
       </constraints>
@@ -95,7 +91,7 @@
         <categoryLink id="0d63-5209-cc62-8409" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="84e4-63ee-0aee-75e0" name="Narzug" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="84e4-63ee-0aee-75e0" name="Narzug" hidden="false" collective="false" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="516d-0318-72a1-480a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="659b-b512-75bb-d02b" type="max"/>
@@ -120,36 +116,32 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoGroups>
-            <infoGroup id="a833-eeda-d5a1-e31c" name="Special Rule" hidden="false">
-              <rules>
-                <rule id="9525-b014-3b51-d3cb" name="Lethal Aim (Active)" publicationId="65dc-3c62-pubN65626" page="105" hidden="false">
-                  <description>Each turn, Narzug may spend a single point of Might without reducing his store (even if he has none remaining) to modify either a To Hit roll, an In The Way roll or a To Wound roll when shooting his Orc bow.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="7e49-aab8-aaa9-a124" name="Morgul Arrows" hidden="false" targetId="f7ad-7c37-9819-7eec" type="rule"/>
-                <infoLink id="6130-393f-d2de-9de3" name="Expert Rider (Active)" hidden="false" targetId="b652-a40f-e5e6-0af6" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
+          <rules>
+            <rule id="28f5-f8da-e11b-2c9f" name="Lethal Aim (Active)" publicationId="65dc-3c62-pubN65626" page="105" hidden="false">
+              <description>Each turn, Narzug may spend a single point of Might without reducing his store (even if he has none remaining) to modify either a To Hit roll, an In The Way roll or a To Wound roll when shooting his Orc bow.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="caa2-142b-efa9-68e8" name="Expert Rider (Active)" hidden="false" targetId="b652-a40f-e5e6-0af6" type="rule"/>
+            <infoLink id="49c5-e677-9bb9-a2c3" name="Morgul Arrows" hidden="false" targetId="f7ad-7c37-9819-7eec" type="rule"/>
+          </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="490b-aabe-6a4b-1f85" name="Options" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="490b-aabe-6a4b-1f85" name="Options" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="ceae-164b-0b9b-fd1e" name="Fell Warg" hidden="false" collective="false" import="true" targetId="cbea-de50-df46-8c44" type="selectionEntry"/>
+                <entryLink id="ceae-164b-0b9b-fd1e" name="Fell Warg" hidden="false" collective="false" targetId="cbea-de50-df46-8c44" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="e023-0ee2-57c6-0d03" name="Wargear" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="e023-0ee2-57c6-0d03" name="Wargear" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="ae54-76a2-82a9-f080" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="d523-272d-3ee7-dd5f" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
-                <entryLink id="e60d-b60a-8471-37f6" name="Orc Bow" hidden="false" collective="false" import="true" targetId="6674-f5bc-ab45-f67c" type="selectionEntry"/>
+                <entryLink id="ae54-76a2-82a9-f080" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="d523-272d-3ee7-dd5f" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="e60d-b60a-8471-37f6" name="Orc Bow" hidden="false" collective="false" targetId="6674-f5bc-ab45-f67c" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="d620-d425-c53f-45e1" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-            <entryLink id="b059-e035-fafe-cfe4" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
+            <entryLink id="d620-d425-c53f-45e1" name="Leader (Fortitude)" hidden="false" collective="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="b059-e035-fafe-cfe4" name="Hero of Fortitude" hidden="false" collective="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -159,7 +151,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="59f3-907f-8860-a2d4" name="Warband" hidden="false" collective="false" import="true" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
+        <entryLink id="59f3-907f-8860-a2d4" name="Warband" hidden="false" collective="false" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="7afb-4cee-34db-b39f" value="12"/>
           </modifiers>
@@ -171,7 +163,7 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1fed-1bc0-b6b3-0ad5" name="Yazneg" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1fed-1bc0-b6b3-0ad5" name="Yazneg" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c8b-582c-831c-0fd3" type="max"/>
       </constraints>
@@ -179,7 +171,7 @@
         <categoryLink id="198c-ded8-fc78-951c" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="141a-a769-b465-0278" name="Yazneg" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="141a-a769-b465-0278" name="Yazneg" hidden="false" collective="false" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c370-09d7-be88-b443" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7b2-9db5-df9c-3496" type="min"/>
@@ -204,35 +196,31 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoGroups>
-            <infoGroup id="4483-aa07-58d1-e0d0" name="Special Rule" hidden="false">
-              <rules>
-                <rule id="0d0b-701e-792c-3cd3" name="The Price of Failure (Passive)" publicationId="65dc-3c62-pubN65626" page="105" hidden="false">
-                  <description>If your army contains both Azog and Yazneg, and the two are in base contact at the beginning of your Move phase, instead of rolling the dice to make a Courage test when your force is Broken, you can remove Yazneg from play. If you do so, Azog is considered to have automatically passed his Courage test and his Stand Fast! will affect the entire battlefield. Furthermore, if Yazneg is removed from play in this way then whilst Azog is still alive, all Hunter Orcs, Hunter Orc Captains, Fimbul the Hunter and Narzug re-roll failed Courage tests.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="793e-f54e-1d32-7dbd" name="Expert Rider (Active)" hidden="false" targetId="b652-a40f-e5e6-0af6" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
+          <rules>
+            <rule id="131b-1d39-bdad-4a71" name="The Price of Failure (Passive)" publicationId="65dc-3c62-pubN65626" page="105" hidden="false">
+              <description>If your army contains both Azog and Yazneg, and the two are in base contact at the beginning of your Move phase, instead of rolling the dice to make a Courage test when your force is Broken, you can remove Yazneg from play. If you do so, Azog is considered to have automatically passed his Courage test and his Stand Fast! will affect the entire battlefield. Furthermore, if Yazneg is removed from play in this way then whilst Azog is still alive, all Hunter Orcs, Hunter Orc Captains, Fimbul the Hunter and Narzug re-roll failed Courage tests.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="a954-6be1-9e71-99eb" name="Expert Rider (Active)" hidden="false" targetId="b652-a40f-e5e6-0af6" type="rule"/>
+          </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="226f-2934-fd91-133b" name="Wargear" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="226f-2934-fd91-133b" name="Wargear" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="b161-b867-095c-f6a3" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="f849-709e-8449-eea8" name="Two-Handed Axe" hidden="false" collective="false" import="true" targetId="2d5f-8ff0-8762-879e" type="selectionEntry"/>
+                <entryLink id="b161-b867-095c-f6a3" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="f849-709e-8449-eea8" name="Two-Handed Axe" hidden="false" collective="false" targetId="2d5f-8ff0-8762-879e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="4936-0191-3563-09fd" name="Options" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="4936-0191-3563-09fd" name="Options" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="a9e7-bc2c-7d24-c479" name="Fell Warg" hidden="false" collective="false" import="true" targetId="cbea-de50-df46-8c44" type="selectionEntry"/>
-                <entryLink id="6d85-cc2e-fdfb-6251" name="Lance" hidden="false" collective="false" import="true" targetId="aa35-f48c-f09a-8f99" type="selectionEntry"/>
+                <entryLink id="a9e7-bc2c-7d24-c479" name="Fell Warg" hidden="false" collective="false" targetId="cbea-de50-df46-8c44" type="selectionEntry"/>
+                <entryLink id="6d85-cc2e-fdfb-6251" name="Lance" hidden="false" collective="false" targetId="aa35-f48c-f09a-8f99" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="3047-53ac-ccd5-7937" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-            <entryLink id="b15b-5666-982e-69b8" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
+            <entryLink id="3047-53ac-ccd5-7937" name="Leader (Fortitude)" hidden="false" collective="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="b15b-5666-982e-69b8" name="Hero of Fortitude" hidden="false" collective="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -242,7 +230,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="3de1-7098-2d12-28d2" name="Warband" hidden="false" collective="false" import="true" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
+        <entryLink id="3de1-7098-2d12-28d2" name="Warband" hidden="false" collective="false" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="7afb-4cee-34db-b39f" value="12"/>
           </modifiers>
@@ -254,7 +242,7 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="327c-76c4-f318-23b7" name="Bolg" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="327c-76c4-f318-23b7" name="Bolg" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5df5-b15e-ccd6-0b12" type="max"/>
       </constraints>
@@ -262,12 +250,12 @@
         <categoryLink id="e488-4828-4b31-099f" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="93b7-29d6-90ec-b3b4" name="Warband" hidden="false" collective="false" import="true" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
+        <entryLink id="93b7-29d6-90ec-b3b4" name="Warband" hidden="false" collective="false" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="7afb-4cee-34db-b39f" value="15"/>
           </modifiers>
         </entryLink>
-        <entryLink id="a226-7b74-63ae-3ca8" name="Bolg" hidden="false" collective="false" import="true" targetId="1a78-e664-2125-e550" type="selectionEntry"/>
+        <entryLink id="a226-7b74-63ae-3ca8" name="Bolg" hidden="false" collective="false" targetId="1a78-e664-2125-e550" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -275,7 +263,7 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dbf0-8b99-747f-6e5b" name="Azog" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dbf0-8b99-747f-6e5b" name="Azog" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eeff-6a4b-dd5e-3930" type="max"/>
       </constraints>
@@ -283,12 +271,12 @@
         <categoryLink id="024f-3fb3-7a04-8ba4" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f001-2fe3-3344-b81d" name="Warband" hidden="false" collective="false" import="true" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
+        <entryLink id="f001-2fe3-3344-b81d" name="Warband" hidden="false" collective="false" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="7afb-4cee-34db-b39f" value="18"/>
           </modifiers>
         </entryLink>
-        <entryLink id="e733-790d-d9ab-11d7" name="Azog" hidden="false" collective="false" import="true" targetId="da64-9e72-a166-c6b3" type="selectionEntry"/>
+        <entryLink id="e733-790d-d9ab-11d7" name="Azog" hidden="false" collective="false" targetId="da64-9e72-a166-c6b3" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -296,17 +284,17 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4456-e6dc-e025-668a" name="Hunter Orc Captain" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4456-e6dc-e025-668a" name="Hunter Orc Captain" hidden="false" collective="false" type="upgrade">
       <categoryLinks>
         <categoryLink id="5e1a-9f5f-cbc8-d87a" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c2c1-ec58-e012-4a2e" name="Warband" hidden="false" collective="false" import="true" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
+        <entryLink id="c2c1-ec58-e012-4a2e" name="Warband" hidden="false" collective="false" targetId="14f2-e69f-1554-38a7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="7afb-4cee-34db-b39f" value="12"/>
           </modifiers>
         </entryLink>
-        <entryLink id="141b-b959-e5ec-b74f" name="Hunter Orc Captain" hidden="false" collective="false" import="true" targetId="d180-32bc-0aef-6a9a" type="selectionEntry"/>
+        <entryLink id="141b-b959-e5ec-b74f" name="Hunter Orc Captain" hidden="false" collective="false" targetId="d180-32bc-0aef-6a9a" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -316,12 +304,12 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="0fc9-d3d4-e040-e0dd" name="Azog&apos;s Hunters" hidden="false" collective="false" import="true" targetId="fc24-78cf-c429-5f5d" type="selectionEntry">
+    <entryLink id="0fc9-d3d4-e040-e0dd" name="Azog&apos;s Hunters" hidden="false" collective="false" targetId="fc24-78cf-c429-5f5d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="5f7f-b642-e4b3-d266" value="1"/>
       </modifiers>
     </entryLink>
-    <entryLink id="2d79-13c7-4c25-36da" name="They strike in the wee small hours when everyone&apos;s asleep" hidden="false" collective="false" import="true" targetId="17fd-1b6b-632a-b65b" type="selectionEntry">
+    <entryLink id="2d79-13c7-4c25-36da" name="They strike in the wee small hours when everyone&apos;s asleep" hidden="false" collective="false" targetId="17fd-1b6b-632a-b65b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="e53a-5aca-7074-aa2a" value="1">
           <conditions>
@@ -332,7 +320,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="14f2-e69f-1554-38a7" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="14f2-e69f-1554-38a7" name="Warband" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="7afb-4cee-34db-b39f" value="18">
           <conditions>
@@ -394,19 +382,13 @@
         <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="855e-86b8-1d29-16f7" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="478f-41e8-47bc-61b5" name="Fell Warg" hidden="false" collective="false" import="true" type="upgrade">
-          <infoGroups>
-            <infoGroup id="8e22-00e9-2b63-944f" name="Special Rules" hidden="false">
-              <infoLinks>
-                <infoLink id="b1a6-1783-b92e-7f40" name="Fell Sight (Passive)" hidden="false" targetId="edf7-86c5-28cd-59d1" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
+        <selectionEntry id="478f-41e8-47bc-61b5" name="Fell Warg" hidden="false" collective="false" type="upgrade">
           <infoLinks>
             <infoLink id="91f6-f132-b6a5-961f" name="Fell Warg" hidden="false" targetId="51ba-2e51-3da5-d253" type="profile"/>
+            <infoLink id="1798-9b77-09d7-15b0" name="Fell Sight (Passive)" hidden="false" targetId="edf7-86c5-28cd-59d1" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="de03-f436-a0b1-582d" name="Warg" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="de03-f436-a0b1-582d" name="Warg" hidden="false" collective="false" type="model">
               <modifiers>
                 <modifier type="set" field="73a6-a3af-70f2-6a69" value="18">
                   <conditions>
@@ -457,9 +439,9 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="8807-e3ed-4533-4b9e" name="Wargear" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="8807-e3ed-4533-4b9e" name="Wargear" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="9d66-2611-3e18-297c" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+                <entryLink id="9d66-2611-3e18-297c" name="Claws and Teeth" hidden="false" collective="false" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -469,28 +451,22 @@
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="573a-3540-a8cf-b5c5" name="Hunter Orc" hidden="false" collective="false" import="true" type="upgrade">
-          <infoGroups>
-            <infoGroup id="2495-7a18-e0f4-91c6" name="Special Rules" hidden="false">
-              <infoLinks>
-                <infoLink id="b74a-6765-d0f4-91f2" name="Morgul Arrows (Passive)" hidden="false" targetId="f7ad-7c37-9819-7eec" type="rule">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a78-e664-2125-e550" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="3ac1-672c-1822-070e" name="Many Blades (Active)" hidden="false" targetId="bc3c-f670-85e1-2310" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
+        <selectionEntry id="573a-3540-a8cf-b5c5" name="Hunter Orc" hidden="false" collective="false" type="upgrade">
           <infoLinks>
             <infoLink id="25b2-4965-d81e-cc3c" name="Hunter Orc" hidden="false" targetId="e544-c85e-60d9-d93a" type="profile"/>
+            <infoLink id="14f9-da3c-ab0c-3b59" name="Many Blades (Active)" hidden="false" targetId="bc3c-f670-85e1-2310" type="rule"/>
+            <infoLink id="ef7f-17fe-6fed-a11a" name="Morgul Arrows (Passive)" hidden="false" targetId="f7ad-7c37-9819-7eec" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a78-e664-2125-e550" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="31e8-5881-fd5b-228f" name="Orc" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="31e8-5881-fd5b-228f" name="Orc" hidden="false" collective="false" type="model">
               <modifiers>
                 <modifier type="set" field="582f-65d2-d367-e5e6" value="18">
                   <conditions>
@@ -541,15 +517,15 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="57a4-7869-a472-437e" name="Wargear" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="57a4-7869-a472-437e" name="Wargear" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="98c4-eb69-41c0-53b7" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="d740-4325-a390-339b" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="98c4-eb69-41c0-53b7" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="d740-4325-a390-339b" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="82e9-39e0-1ea7-c7b7" name="Options" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="82e9-39e0-1ea7-c7b7" name="Options" hidden="false" collective="false">
               <selectionEntries>
-                <selectionEntry id="72c8-06f1-dbf4-6d0d" name="Fell Warg" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="72c8-06f1-dbf4-6d0d" name="Fell Warg" hidden="false" collective="false" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="8">
                       <repeats>
@@ -565,9 +541,9 @@
                     <infoLink id="db75-6a3b-2664-a180" name="Fell Warg" hidden="false" targetId="51ba-2e51-3da5-d253" type="profile"/>
                   </infoLinks>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="f1cb-fe2e-0413-c610" name="Wargear" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="f1cb-fe2e-0413-c610" name="Wargear" hidden="false" collective="false">
                       <entryLinks>
-                        <entryLink id="e5f8-e7ff-e353-b73d" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+                        <entryLink id="e5f8-e7ff-e353-b73d" name="Claws and Teeth" hidden="false" collective="false" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -577,7 +553,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="6d43-7cb2-7bba-f6c2" name="Two-handed Pick" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="6d43-7cb2-7bba-f6c2" name="Two-handed Pick" hidden="false" collective="false" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -598,7 +574,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="656c-e871-3bab-a1f8" name="War Horn" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="656c-e871-3bab-a1f8" name="War Horn" hidden="false" collective="false" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="30">
                       <repeats>
@@ -618,7 +594,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="cc69-5b72-d6cb-03fc" name="Orc Bow" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="cc69-5b72-d6cb-03fc" name="Orc Bow" hidden="false" collective="false" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -643,7 +619,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="32bb-6564-54e3-7f74" name="Banner" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="32bb-6564-54e3-7f74" name="Banner" hidden="false" collective="false" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="25">
                       <repeats>

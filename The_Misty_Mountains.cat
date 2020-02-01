@@ -1,101 +1,394 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d05-3423-8072-471f" name="The Misty Mountains" revision="8" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <selectionEntries>
-    <selectionEntry id="2a25-501e-9705-7558" name="Gwahir" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc7-179c-60b5-a245" type="min"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="827f-0ae7-3356-62e3" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="b327-abda-1b93-01f7" name="Gwahir" hidden="false" collective="false" import="true" targetId="48d8-3ba9-01d5-3003" type="selectionEntry"/>
-        <entryLink id="6e91-fc8c-a7eb-f7fa" name="Warband" hidden="false" collective="false" import="true" targetId="9812-59cc-29f5-6778" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="a9c6-6c41-db9d-379d" value="18"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
-  <entryLinks>
-    <entryLink id="c1e2-207f-9118-a807" name="The Eagles are coming!" hidden="false" collective="false" import="true" targetId="6ece-291f-e876-2ad9" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="4e3b-0153-f5c2-521c" value="1">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink id="b8d8-5972-0a1d-2c36" name="The Misty Mountains" hidden="false" collective="false" import="true" targetId="5da1-c44f-0846-212b" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="5d62-e5e8-9b20-fe83" value="1"/>
-      </modifiers>
-    </entryLink>
-  </entryLinks>
-  <sharedSelectionEntries>
-    <selectionEntry id="9812-59cc-29f5-6778" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="977a-feb3-f57b-c0e9" value="1">
-          <repeats>
-            <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9812-59cc-29f5-6778" repeats="1" roundUp="true"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dbe-eddb-7b48-2c65" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ef5-0bb8-7b69-7e1a" type="min"/>
-        <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9c6-6c41-db9d-379d" type="max"/>
-        <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="977a-feb3-f57b-c0e9" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="b520-9f67-9685-87d8" name="Great Eagle" hidden="false" collective="false" import="true" type="upgrade">
-          <infoGroups>
-            <infoGroup id="6d0c-8fde-a825-f120" name="Special Rules" hidden="false">
-              <infoLinks>
-                <infoLink id="f531-9a16-1eab-0b12" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-                <infoLink id="7c1a-e6bb-d9c0-7de5" name="Monstrous Charge" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
-                <infoLink id="5d99-a834-0057-b627" name="Fly (Active)" hidden="false" targetId="bfd3-a313-811b-9744" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
-          <infoLinks>
-            <infoLink id="bc37-b879-9578-6d47" name="Great Eagle" hidden="false" targetId="618d-2c0b-5e0a-1cae" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="8ddb-0fa7-c041-2bf4" name="Eagle" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e89f-164b-4fe4-bd4f" type="min"/>
-                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ba8-754d-95ce-c452" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="100.0"/>
-                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink id="8801-2c8e-e840-74c1" name="Wargear" hidden="false" collective="false" import="true" targetId="eee1-b2b7-455b-78f0" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-          </costs>
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.02" id="7d05-3423-8072-471f" name="The Misty Mountains" revision="7" authorName="Hukoseft" authorContact="hukoseft@gmail.com" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="12">
+    <publications/>
+      
+    <profiles/>
+      
+    <rules/>
+      
+    <infoLinks/>
+      
+    <costTypes/>
+      
+    <profileTypes/>
+      
+    <categoryEntries/>
+      
+    <forceEntries/>
+      
+    <selectionEntries>
+            
+        <selectionEntry id="2a25-501e-9705-7558" name="Gwahir" hidden="false" collective="false" type="upgrade">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc7-179c-60b5-a245" type="min"/>
+                      
+            </constraints>
+                  
+            <categoryLinks>
+                        
+                <categoryLink id="827f-0ae7-3356-62e3" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                            
+                </categoryLink>
+                      
+            </categoryLinks>
+                  
+            <selectionEntries/>
+                  
+            <selectionEntryGroups/>
+                  
+            <entryLinks>
+                        
+                <entryLink id="b327-abda-1b93-01f7" name="Gwahir" hidden="false" targetId="48d8-3ba9-01d5-3003" type="selectionEntry">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                        
+                <entryLink id="6e91-fc8c-a7eb-f7fa" name="Warband" hidden="false" targetId="9812-59cc-29f5-6778" type="selectionEntry">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks/>
+                              
+                    <modifiers>
+                                    
+                        <modifier type="set" field="a9c6-6c41-db9d-379d" value="18">
+                                          
+                            <repeats/>
+                                          
+                            <conditions/>
+                                          
+                            <conditionGroups/>
+                                        
+                        </modifier>
+                                  
+                    </modifiers>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                            
+                </entryLink>
+                      
+            </entryLinks>
+                  
+            <costs>
+                        
+                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
+                        
+                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
+                        
+                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
+                      
+            </costs>
+                
         </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-      </costs>
-    </selectionEntry>
-  </sharedSelectionEntries>
+          
+    </selectionEntries>
+      
+    <entryLinks>
+            
+        <entryLink id="c1e2-207f-9118-a807" name="The Eagles are coming!" hidden="false" targetId="6ece-291f-e876-2ad9" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers>
+                        
+                <modifier type="set" field="4e3b-0153-f5c2-521c" value="1">
+                              
+                    <repeats/>
+                              
+                    <conditions>
+                                    
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
+                                  
+                    </conditions>
+                              
+                    <conditionGroups/>
+                            
+                </modifier>
+                      
+            </modifiers>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="b8d8-5972-0a1d-2c36" name="The Misty Mountains" hidden="false" targetId="5da1-c44f-0846-212b" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers>
+                        
+                <modifier type="set" field="5d62-e5e8-9b20-fe83" value="1">
+                              
+                    <repeats/>
+                              
+                    <conditions/>
+                              
+                    <conditionGroups/>
+                            
+                </modifier>
+                      
+            </modifiers>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+          
+    </entryLinks>
+      
+    <sharedSelectionEntries>
+            
+        <selectionEntry id="9812-59cc-29f5-6778" name="Warband" hidden="false" collective="false" type="upgrade">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers>
+                        
+                <modifier type="increment" field="977a-feb3-f57b-c0e9" value="1">
+                              
+                    <repeats>
+                                    
+                        <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9812-59cc-29f5-6778" repeats="1" roundUp="true"/>
+                                  
+                    </repeats>
+                              
+                    <conditions/>
+                              
+                    <conditionGroups/>
+                            
+                </modifier>
+                      
+            </modifiers>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dbe-eddb-7b48-2c65" type="max"/>
+                        
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ef5-0bb8-7b69-7e1a" type="min"/>
+                        
+                <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9c6-6c41-db9d-379d" type="max"/>
+                        
+                <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="977a-feb3-f57b-c0e9" type="max"/>
+                      
+            </constraints>
+                  
+            <categoryLinks/>
+                  
+            <selectionEntries>
+                        
+                <selectionEntry id="b520-9f67-9685-87d8" name="Great Eagle" hidden="false" collective="false" type="upgrade">
+                              
+                    <profiles/>
+                              
+                    <rules/>
+                              
+                    <infoLinks>
+                                    
+                        <infoLink id="0336-0403-078e-9dfb" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule">
+                                          
+                            <profiles/>
+                                          
+                            <rules/>
+                                          
+                            <infoLinks/>
+                                          
+                            <modifiers/>
+                                        
+                        </infoLink>
+                                    
+                        <infoLink id="15cc-44eb-7639-37ab" name="Monstrous Charge" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule">
+                                          
+                            <profiles/>
+                                          
+                            <rules/>
+                                          
+                            <infoLinks/>
+                                          
+                            <modifiers/>
+                                        
+                        </infoLink>
+                                    
+                        <infoLink id="cc2a-84ac-ae2c-4329" name="Fly (Active)" hidden="false" targetId="bfd3-a313-811b-9744" type="rule">
+                                          
+                            <profiles/>
+                                          
+                            <rules/>
+                                          
+                            <infoLinks/>
+                                          
+                            <modifiers/>
+                                        
+                        </infoLink>
+                                    
+                        <infoLink id="bc37-b879-9578-6d47" name="Great Eagle" hidden="false" targetId="618d-2c0b-5e0a-1cae" type="profile">
+                                          
+                            <profiles/>
+                                          
+                            <rules/>
+                                          
+                            <infoLinks/>
+                                          
+                            <modifiers/>
+                                        
+                        </infoLink>
+                                  
+                    </infoLinks>
+                              
+                    <modifiers/>
+                              
+                    <constraints/>
+                              
+                    <categoryLinks/>
+                              
+                    <selectionEntries>
+                                    
+                        <selectionEntry id="8ddb-0fa7-c041-2bf4" name="Eagle" hidden="false" collective="false" type="model">
+                                          
+                            <profiles/>
+                                          
+                            <rules/>
+                                          
+                            <infoLinks/>
+                                          
+                            <modifiers/>
+                                          
+                            <constraints>
+                                                
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e89f-164b-4fe4-bd4f" type="min"/>
+                                                
+                                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ba8-754d-95ce-c452" type="max"/>
+                                              
+                            </constraints>
+                                          
+                            <categoryLinks/>
+                                          
+                            <selectionEntries/>
+                                          
+                            <selectionEntryGroups/>
+                                          
+                            <entryLinks/>
+                                          
+                            <costs>
+                                                
+                                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="1.0"/>
+                                                
+                                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="100.0"/>
+                                                
+                                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
+                                              
+                            </costs>
+                                        
+                        </selectionEntry>
+                                  
+                    </selectionEntries>
+                              
+                    <selectionEntryGroups/>
+                              
+                    <entryLinks>
+                                    
+                        <entryLink id="8801-2c8e-e840-74c1" name="Wargear" hidden="false" targetId="eee1-b2b7-455b-78f0" type="selectionEntryGroup">
+                                          
+                            <profiles/>
+                                          
+                            <rules/>
+                                          
+                            <infoLinks/>
+                                          
+                            <modifiers/>
+                                          
+                            <constraints/>
+                                          
+                            <categoryLinks/>
+                                        
+                        </entryLink>
+                                  
+                    </entryLinks>
+                              
+                    <costs>
+                                    
+                        <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
+                                    
+                        <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
+                                    
+                        <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
+                                  
+                    </costs>
+                            
+                </selectionEntry>
+                      
+            </selectionEntries>
+                  
+            <selectionEntryGroups/>
+                  
+            <entryLinks/>
+                  
+            <costs>
+                        
+                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
+                        
+                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
+                        
+                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
+                      
+            </costs>
+                
+        </selectionEntry>
+          
+    </sharedSelectionEntries>
+      
+    <sharedSelectionEntryGroups/>
+      
+    <sharedRules/>
+      
+    <sharedProfiles/>
+    
 </catalogue>

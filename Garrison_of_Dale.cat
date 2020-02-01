@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6886-6975-8cf9-4930" name="Garrison of Dale" revision="5" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6886-6975-8cf9-4930" name="Garrison of Dale" revision="4" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6886-6975-pubN65626" name="Armies of the Hobbit"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="300d-fe46-23d2-a8f3" name="Girion, Lord of Dale" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="300d-fe46-23d2-a8f3" name="Girion, Lord of Dale" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="64f4-f555-490c-da38" type="max"/>
       </constraints>
@@ -12,7 +12,7 @@
         <categoryLink id="496f-9676-bd48-6e6a" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="dfcc-0e53-9b9b-fbbb" name="Girion, Lord of Dale" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="dfcc-0e53-9b9b-fbbb" name="Girion, Lord of Dale" hidden="false" collective="false" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4907-4f8a-fcb8-6e86" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1e5-f62a-4183-ddaa" type="max"/>
@@ -37,28 +37,24 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoGroups>
-            <infoGroup id="2b1f-7848-518e-8bd2" name="Special Rules" hidden="false">
-              <rules>
-                <rule id="eaa4-589b-7d83-97fb" name="Windlance Trained (Active)" publicationId="6886-6975-pubN65626" page="57" hidden="false">
-                  <description>Girion, Lord of Dale’s, Windlance follows all the rules for Bard the Bowman’s Windlance.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="78d9-7f1f-c93d-77f6" name="Rapid Fire (Active)" hidden="false" targetId="1c6b-6633-1c99-37bc" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
+          <rules>
+            <rule id="8a91-851d-bd0b-2f91" name="Windlance Trained (Active)" publicationId="6886-6975-pubN65626" page="57" hidden="false">
+              <description>Girion, Lord of Dale’s, Windlance follows all the rules for Bard the Bowman’s Windlance.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="88d8-9d9f-dd2e-da89" name="Rapid Fire (Active)" hidden="false" targetId="1c6b-6633-1c99-37bc" type="rule"/>
+          </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="1f2b-d23a-0b0d-b4cd" name="Wargear" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="1f2b-d23a-0b0d-b4cd" name="Wargear" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="4a98-16cb-f185-ab4e" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
-                <entryLink id="abc7-3975-a415-bf7a" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="4a98-16cb-f185-ab4e" name="Heavy Armour" hidden="false" collective="false" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+                <entryLink id="abc7-3975-a415-bf7a" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="df41-7ec7-a746-3ead" name="Options" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="df41-7ec7-a746-3ead" name="Options" hidden="false" collective="false">
               <selectionEntries>
-                <selectionEntry id="cd28-8ca8-af72-8ce9" name="Great Bow" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="cd28-8ca8-af72-8ce9" name="Great Bow" hidden="false" collective="false" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6818-7256-b8f5-24fd" type="max"/>
                   </constraints>
@@ -73,13 +69,13 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="55aa-888d-e571-3422" name="Windlance" hidden="false" collective="false" import="true" targetId="d69a-bbc8-abfe-ab7a" type="selectionEntry"/>
+                <entryLink id="55aa-888d-e571-3422" name="Windlance" hidden="false" collective="false" targetId="d69a-bbc8-abfe-ab7a" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="8faf-03f0-1f5f-8452" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
-            <entryLink id="bafd-a885-6a14-dfbc" name="Hero of Valour" hidden="false" collective="false" import="true" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
+            <entryLink id="8faf-03f0-1f5f-8452" name="Leader (Valour)" hidden="false" collective="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+            <entryLink id="bafd-a885-6a14-dfbc" name="Hero of Valour" hidden="false" collective="false" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="75.0"/>
@@ -89,7 +85,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7cd5-8e83-0243-64f7" name="Warband" hidden="false" collective="false" import="true" targetId="5115-6cba-b9ef-d74a" type="selectionEntry">
+        <entryLink id="7cd5-8e83-0243-64f7" name="Warband" hidden="false" collective="false" targetId="5115-6cba-b9ef-d74a" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="8f36-6c60-cfc6-0d9b" value="15"/>
           </modifiers>
@@ -101,41 +97,25 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6a5-716d-60be-2c71" name="Captain of Dale" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d6a5-716d-60be-2c71" name="Captain of Dale" hidden="false" collective="false" type="upgrade">
       <categoryLinks>
         <categoryLink id="c1c6-2632-e949-d0b6" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a73c-1a89-73e1-0d35" name="Captain of Dale" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a73c-1a89-73e1-0d35" name="Captain of Dale" hidden="false" collective="false" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43e9-6682-24cd-f193" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fa7-f0fe-0b1d-6c5f" type="max"/>
           </constraints>
           <profiles>
             <profile id="eff4-1f64-4e0c-de55" name="Captain of Dale" publicationId="6886-6975-pubN65626" page="58" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-              <modifierGroups>
-                <modifierGroup>
-                  <modifiers>
-                    <modifier type="increment" field="49e3-08b4-2b5f-a6dd" value="1">
-                      <conditions>
-                        <condition field="selections" scope="a73c-1a89-73e1-0d35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b8-81bd-1cd6-8b3e" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="decrement" field="49e3-08b4-2b5f-a6dd" value="1">
-                      <conditions>
-                        <condition field="selections" scope="a73c-1a89-73e1-0d35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b8-81bd-1cd6-8b3e" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="a73c-1a89-73e1-0d35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c0a9-7871-fb10-21cb" type="equalTo"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
+              <modifiers>
+                <modifier type="increment" field="49e3-08b4-2b5f-a6dd" value="1">
+                  <conditions>
+                    <condition field="selections" scope="a73c-1a89-73e1-0d35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fc79-9144-ad3c-386c" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/4+</characteristic>
@@ -154,15 +134,15 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="e2df-0e14-beba-0492" name="Wargear" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="e2df-0e14-beba-0492" name="Wargear" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="9533-ac09-b589-aac3" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="167b-aab6-d67a-f8d3" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="9533-ac09-b589-aac3" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="167b-aab6-d67a-f8d3" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="0d19-faf2-87f2-4fea" name="Options" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="0d19-faf2-87f2-4fea" name="Options" hidden="false" collective="false">
               <selectionEntries>
-                <selectionEntry id="c0a9-7871-fb10-21cb" name="Esgaroth Bow" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="c0a9-7871-fb10-21cb" name="Esgaroth Bow" hidden="false" collective="false" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e160-0be4-da52-1860" type="max"/>
                   </constraints>
@@ -177,13 +157,13 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="fc79-9144-ad3c-386c" name="Shield" hidden="false" collective="false" import="true" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
+                <entryLink id="fc79-9144-ad3c-386c" name="Shield" hidden="false" collective="false" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="c5c1-9532-e267-6b6b" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-            <entryLink id="7950-7ae2-c29c-93d5" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
+            <entryLink id="c5c1-9532-e267-6b6b" name="Leader (Fortitude)" hidden="false" collective="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="7950-7ae2-c29c-93d5" name="Hero of Fortitude" hidden="false" collective="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="50.0"/>
@@ -193,7 +173,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="afd8-01de-0373-4f3a" name="Warband" hidden="false" collective="false" import="true" targetId="5115-6cba-b9ef-d74a" type="selectionEntry">
+        <entryLink id="afd8-01de-0373-4f3a" name="Warband" hidden="false" collective="false" targetId="5115-6cba-b9ef-d74a" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="8f36-6c60-cfc6-0d9b" value="12"/>
           </modifiers>
@@ -207,12 +187,12 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="2bed-0007-43d5-653d" name="Garrison of Dale" hidden="false" collective="false" import="true" targetId="e797-83b5-8060-335e" type="selectionEntry">
+    <entryLink id="2bed-0007-43d5-653d" name="Garrison of Dale" hidden="false" collective="false" targetId="e797-83b5-8060-335e" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="edfa-8c86-b9cc-139d" value="1"/>
       </modifiers>
     </entryLink>
-    <entryLink id="8079-e6f3-5164-ece6" name="Girion, lord of the city, rallied his bowmen to fire upon the beast" hidden="false" collective="false" import="true" targetId="a218-2cbb-c72b-f863" type="selectionEntry">
+    <entryLink id="8079-e6f3-5164-ece6" name="Girion, lord of the city, rallied his bowmen to fire upon the beast" hidden="false" collective="false" targetId="a218-2cbb-c72b-f863" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="c278-21d8-d36d-bc9d" value="1">
           <conditions>
@@ -223,7 +203,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="5115-6cba-b9ef-d74a" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5115-6cba-b9ef-d74a" name="Warband" hidden="false" collective="false" type="upgrade">
       <modifiers>
         <modifier type="set" field="8f36-6c60-cfc6-0d9b" value="15">
           <conditions>
@@ -248,32 +228,23 @@
         <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="31b9-225c-c742-dc19" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="8dd8-477c-3cf5-5fb6" name="Warrior of Dale" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8dd8-477c-3cf5-5fb6" name="Warrior of Dale" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="71d7-b936-ecc4-c8d7" name="Warrior of Dale" publicationId="6886-6975-pubN65626" page="59" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
-              <modifierGroups>
-                <modifierGroup>
-                  <modifiers>
-                    <modifier type="increment" field="d64a-e776-38fd-3019" value="1">
+              <modifiers>
+                <modifier type="increment" field="d64a-e776-38fd-3019" value="1">
+                  <conditions>
+                    <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3a7c-0cef-d73f-7f91" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3a7c-0cef-d73f-7f91" type="equalTo"/>
+                        <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d512-5cd6-119c-9c6a" type="equalTo"/>
                       </conditions>
-                    </modifier>
-                    <modifier type="decrement" field="d64a-e776-38fd-3019" value="1">
-                      <conditions>
-                        <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3a7c-0cef-d73f-7f91" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d512-5cd6-119c-9c6a" type="equalTo"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/4+</characteristic>
@@ -287,7 +258,7 @@
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="3132-ca26-2558-2b82" name="Warrior" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3132-ca26-2558-2b82" name="Warrior" hidden="false" collective="false" type="model">
               <modifiers>
                 <modifier type="set" field="3dfe-6b99-c137-f828" value="15">
                   <conditions>
@@ -312,9 +283,9 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="fb00-938d-d665-6678" name="Options" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="fb00-938d-d665-6678" name="Options" hidden="false" collective="false">
               <selectionEntries>
-                <selectionEntry id="3a7c-0cef-d73f-7f91" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="3a7c-0cef-d73f-7f91" name="Shield" hidden="false" collective="false" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -334,7 +305,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="d512-5cd6-119c-9c6a" name="Esgaroth Bow" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="d512-5cd6-119c-9c6a" name="Esgaroth Bow" hidden="false" collective="false" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="2">
                       <repeats>
@@ -359,7 +330,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="437a-e7bb-7e67-4498" name="Banner" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="437a-e7bb-7e67-4498" name="Banner" hidden="false" collective="false" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="25">
                       <repeats>
@@ -379,7 +350,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="2e44-6fe5-1842-63ce" name="War Horn" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="2e44-6fe5-1842-63ce" name="War Horn" hidden="false" collective="false" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="30">
                       <repeats>
@@ -399,7 +370,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="1370-bac6-deeb-ddf5" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="1370-bac6-deeb-ddf5" name="Spear" hidden="false" collective="false" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -421,10 +392,10 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="149e-4163-11e4-9ae6" name="Wargear" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="149e-4163-11e4-9ae6" name="Wargear" hidden="false" collective="false">
               <entryLinks>
-                <entryLink id="bd03-2db7-2650-ba89" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="35e0-2119-3dd5-4b66" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="bd03-2db7-2650-ba89" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="35e0-2119-3dd5-4b66" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
