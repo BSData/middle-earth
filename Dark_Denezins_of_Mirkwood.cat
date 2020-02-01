@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9ecd-67c6-9a3d-ba28" name="Dark Denezins of Mirkwood" revision="3" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9ecd-67c6-9a3d-ba28" name="Dark Denezins of Mirkwood" revision="5" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="9ecd-67c6-pubN65626" name="Armies of the Hobbit"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="ec58-9c75-31fd-e8a3" name="The Spider Queen" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ec58-9c75-31fd-e8a3" name="The Spider Queen" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0047-b7b8-e771-408e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7b8f-bca3-40eb-5c16" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="fc3e-854e-de83-95fd" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="19d4-d54b-a0e3-f21e" name="The Spider Queen" hidden="false" collective="false" type="model">
+        <selectionEntry id="19d4-d54b-a0e3-f21e" name="The Spider Queen" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa63-ddb4-0fb0-7ec4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="894d-78c6-8bc7-8fb3" type="min"/>
@@ -49,21 +50,25 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="5970-6f8a-3995-8782" name="Progeny (Active)" publicationId="9ecd-67c6-pubN65626" page="115" hidden="false">
-              <description>During any point in her Move phase, the Spider Queen may expend any number of remaining Will points to summon a Broodling. For each Will point expended in this way, place a single Broodling base anywhere within 3&quot; of the Spider Queen but not in base contact with any enemy models. Broodlings may Move and Charge on a turn in which they were summoned. Broodlings are not counted when working out if a force is Broken.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="5e65-bd50-db2a-396c" name="Swift Movement (Active)" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
-            <infoLink id="a63f-68f9-59cd-4d5b" name="Venom (Active)" hidden="false" targetId="7b63-9547-be7a-d31d" type="rule"/>
-            <infoLink id="547e-f66f-050c-1da7" name="Monstrous Charge (Active)" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
-            <infoLink id="2ecb-d920-c8d0-b1db" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="d65a-f26e-ec2b-9a26" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="5cf8-7ed6-7069-f5ad" name="Progeny (Active)" publicationId="9ecd-67c6-pubN65626" page="115" hidden="false">
+                  <description>During any point in her Move phase, the Spider Queen may expend any number of remaining Will points to summon a Broodling. For each Will point expended in this way, place a single Broodling base anywhere within 3&quot; of the Spider Queen but not in base contact with any enemy models. Broodlings may Move and Charge on a turn in which they were summoned. Broodlings are not counted when working out if a force is Broken.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="5eb4-0b71-69af-cb03" name="Venom (Active)" hidden="false" targetId="7b63-9547-be7a-d31d" type="rule"/>
+                <infoLink id="0685-30fe-c6ab-b03e" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="7a6b-ccbe-62c0-a6da" name="Swift Movement (Active)" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
+                <infoLink id="cd84-408f-9221-898b" name="Monstrous Charge (Active)" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b4d6-26f2-08d1-9cde" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="b4d6-26f2-08d1-9cde" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="478d-74a6-ff05-846e" name="Venomous Fangs" hidden="false" collective="false" targetId="8af5-2460-6e2a-95ff" type="selectionEntry">
+                <entryLink id="478d-74a6-ff05-846e" name="Venomous Fangs" hidden="false" collective="false" import="true" targetId="8af5-2460-6e2a-95ff" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="Large Venomous Fangs"/>
                   </modifiers>
@@ -72,8 +77,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="17fb-e926-6ce2-8c8f" name="Leader (Valour)" hidden="false" collective="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
-            <entryLink id="b3da-6956-4a97-a5bb" name="Hero of Valour" hidden="false" collective="false" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
+            <entryLink id="17fb-e926-6ce2-8c8f" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+            <entryLink id="b3da-6956-4a97-a5bb" name="Hero of Valour" hidden="false" collective="false" import="true" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="115.0"/>
@@ -83,7 +88,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="f6f5-5d0f-5503-a3a9" name="Warband" hidden="false" collective="false" targetId="cd63-7f2a-c2ff-5f3e" type="selectionEntry">
+        <entryLink id="f6f5-5d0f-5503-a3a9" name="Warband" hidden="false" collective="false" import="true" targetId="cd63-7f2a-c2ff-5f3e" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="a955-c252-72fd-e1b1" value="15"/>
           </modifiers>
@@ -95,26 +100,30 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="62eb-57f1-d77a-cae9" name="Captainless Warband" hidden="true" collective="false" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="4b76-8f4d-afd3-bcc3" value="-1">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ec58-9c75-31fd-e8a3" type="equalTo"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="and">
+    <selectionEntry id="62eb-57f1-d77a-cae9" name="Captainless Warband" hidden="true" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9906-d5a2-0bda-ca0b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9906-d5a2-0bda-ca0b" type="equalTo"/>
               </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d29a-cb0c-a9b5-a87b" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+            </modifier>
+            <modifier type="set" field="4b76-8f4d-afd3-bcc3" value="-1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ec58-9c75-31fd-e8a3" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9906-d5a2-0bda-ca0b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b76-8f4d-afd3-bcc3" type="max"/>
       </constraints>
@@ -122,7 +131,7 @@
         <categoryLink id="9468-5c98-bf3a-3206" name="Hero" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7c25-2062-7719-6297" name="Warband" hidden="false" collective="false" targetId="cd63-7f2a-c2ff-5f3e" type="selectionEntry">
+        <entryLink id="7c25-2062-7719-6297" name="Warband" hidden="false" collective="false" import="true" targetId="cd63-7f2a-c2ff-5f3e" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="a955-c252-72fd-e1b1" value="12"/>
           </modifiers>
@@ -136,122 +145,141 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="9a3e-7d95-3169-dbb1" name="Beasts of Mirkwood" hidden="false" collective="false" targetId="9906-d5a2-0bda-ca0b" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="e2a8-6a3d-abea-290a" value="1">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+    <entryLink id="9a3e-7d95-3169-dbb1" name="Beasts of Mirkwood" hidden="false" collective="false" import="true" targetId="9906-d5a2-0bda-ca0b" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="e2a8-6a3d-abea-290a" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="744c-22f0-5a63-04be" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
-    <entryLink id="d29a-cb0c-a9b5-a87b" name="Dark Denizens of Mirkwood" hidden="false" collective="false" targetId="afb1-3be7-a737-7253" type="selectionEntry">
+    <entryLink id="d29a-cb0c-a9b5-a87b" name="Dark Denizens of Mirkwood" hidden="false" collective="false" import="true" targetId="afb1-3be7-a737-7253" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="e2eb-3c24-81cc-703c" value="1"/>
       </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="cd63-7f2a-c2ff-5f3e" name="Warband" hidden="false" collective="false" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="a955-c252-72fd-e1b1" value="15">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec58-9c75-31fd-e8a3" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="a955-c252-72fd-e1b1" value="12">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62eb-57f1-d77a-cae9" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="c6ad-aeca-44db-25d7" value="1">
-          <repeats>
-            <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd63-7f2a-c2ff-5f3e" repeats="1" roundUp="true"/>
-          </repeats>
-        </modifier>
-        <modifier type="set" field="b1af-5682-7834-50ae" value="0.0">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec58-9c75-31fd-e8a3" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="b1af-5682-7834-50ae" value="6">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="62eb-57f1-d77a-cae9" type="instanceOf"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="and">
+    <selectionEntry id="cd63-7f2a-c2ff-5f3e" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="b1af-5682-7834-50ae" value="0.0">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6605-eab3-81f6-af33" type="equalTo"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec58-9c75-31fd-e8a3" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="b1af-5682-7834-50ae" value="2.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="62eb-57f1-d77a-cae9" type="instanceOf"/>
               </conditions>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="da7c-9282-a5d2-4e24" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6605-eab3-81f6-af33" type="atLeast"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="611c-b9ea-fa2c-ba6b" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="da7c-9282-a5d2-4e24" type="equalTo"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="611c-b9ea-fa2c-ba6b" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="b1af-5682-7834-50ae" value="2">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="62eb-57f1-d77a-cae9" type="instanceOf"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="and">
+            </modifier>
+            <modifier type="set" field="b1af-5682-7834-50ae" value="6.0">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6605-eab3-81f6-af33" type="atLeast"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="62eb-57f1-d77a-cae9" type="instanceOf"/>
               </conditions>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="da7c-9282-a5d2-4e24" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6605-eab3-81f6-af33" type="equalTo"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="611c-b9ea-fa2c-ba6b" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="da7c-9282-a5d2-4e24" type="equalTo"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="611c-b9ea-fa2c-ba6b" type="atLeast"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
+            </modifier>
+            <modifier type="increment" field="c6ad-aeca-44db-25d7" value="1.0">
+              <repeats>
+                <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd63-7f2a-c2ff-5f3e" repeats="1" roundUp="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="a955-c252-72fd-e1b1" value="12.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62eb-57f1-d77a-cae9" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="a955-c252-72fd-e1b1" value="15.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec58-9c75-31fd-e8a3" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef4-1fff-5486-fc36" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f2d-a8f8-27e9-d71b" type="max"/>
         <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a955-c252-72fd-e1b1" type="max"/>
-        <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b1af-5682-7834-50ae" type="min"/>
+        <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="b1af-5682-7834-50ae" type="min"/>
         <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c6ad-aeca-44db-25d7" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="1618-543d-6e51-3708" name="Mirkwood Spider" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="1618-543d-6e51-3708" name="Mirkwood Spider" hidden="false" collective="false" import="true" type="upgrade">
+          <infoGroups>
+            <infoGroup id="d0d4-ff1c-f559-58f8" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="e05b-bb1f-5ba5-ed21" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="4591-2ed7-93ce-618b" name="Swift Movement (Active)" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
+                <infoLink id="6a08-ddfa-1f8b-21eb" name="Spider Webs (Active)" hidden="false" targetId="c0ca-87f4-fe1f-a142" type="rule"/>
+                <infoLink id="383d-71a0-b1c2-402c" name="Poisoned Weapon (Active)" hidden="false" targetId="8715-7351-2e0f-c3db" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <infoLinks>
             <infoLink id="4805-22ce-70c8-9da3" name="Mirkwood Spider" hidden="false" targetId="85ad-aaea-be06-cdb9" type="profile"/>
-            <infoLink id="eeb1-9ad6-308a-9870" name="Swift Movement (Active)" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
-            <infoLink id="f7a4-04b9-52f2-49e1" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-            <infoLink id="ce15-39b0-eee5-3c42" name="Poisoned Weapon (Active)" hidden="false" targetId="8715-7351-2e0f-c3db" type="rule"/>
-            <infoLink id="0db5-e357-22b9-9e99" name="Spider Webs (Active)" hidden="false" targetId="c0ca-87f4-fe1f-a142" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="0bfc-7c91-7192-11b0" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="0bfc-7c91-7192-11b0" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="e258-8241-de68-76d2" name="Venomous Fangs" hidden="false" collective="false" targetId="8af5-2460-6e2a-95ff" type="selectionEntry"/>
+                <entryLink id="e258-8241-de68-76d2" name="Venomous Fangs" hidden="false" collective="false" import="true" targetId="8af5-2460-6e2a-95ff" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="6dca-015c-c27a-e133" name="Spider" hidden="false" collective="false" targetId="6605-eab3-81f6-af33" type="selectionEntry"/>
+            <entryLink id="6dca-015c-c27a-e133" name="Spider" hidden="false" collective="false" import="true" targetId="6605-eab3-81f6-af33" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -259,22 +287,28 @@
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5b10-163f-7706-02d1" name="Giant Spider" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5b10-163f-7706-02d1" name="Giant Spider" hidden="false" collective="false" import="true" type="upgrade">
+          <infoGroups>
+            <infoGroup id="d0fc-0ada-ec2e-f165" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="6d59-5331-f10e-3326" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="03ec-35e6-79da-457e" name="Swift Movement (Active)" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
+                <infoLink id="eb0b-0f26-7a85-c644" name="Poisoned Weapon (Active)" hidden="false" targetId="8715-7351-2e0f-c3db" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <infoLinks>
             <infoLink id="0142-63d2-74b2-0360" name="Giant Spider" hidden="false" targetId="486c-40fa-3f84-b143" type="profile"/>
-            <infoLink id="c0c8-13e8-79fb-7581" name="Swift Movement (Active)" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
-            <infoLink id="1b7a-a278-40e3-da1d" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-            <infoLink id="00eb-c50f-4e1e-dc92" name="Poisoned Weapon (Active)" hidden="false" targetId="8715-7351-2e0f-c3db" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="67b9-f76e-de13-f007" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="67b9-f76e-de13-f007" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="526c-5148-8824-f489" name="Venomous Fangs" hidden="false" collective="false" targetId="8af5-2460-6e2a-95ff" type="selectionEntry"/>
+                <entryLink id="526c-5148-8824-f489" name="Venomous Fangs" hidden="false" collective="false" import="true" targetId="8af5-2460-6e2a-95ff" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="2897-3f91-f58d-f557" name="Spider" hidden="false" collective="false" targetId="6605-eab3-81f6-af33" type="selectionEntry"/>
+            <entryLink id="2897-3f91-f58d-f557" name="Spider" hidden="false" collective="false" import="true" targetId="6605-eab3-81f6-af33" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -282,13 +316,19 @@
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="62e7-0ba3-be50-489b" name="Fell Warg" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="62e7-0ba3-be50-489b" name="Fell Warg" hidden="false" collective="false" import="true" type="upgrade">
+          <infoGroups>
+            <infoGroup id="b7c8-c93e-12b3-e187" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="0beb-f2ca-e671-1150" name="Fell Sight (Passive)" hidden="false" targetId="edf7-86c5-28cd-59d1" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <infoLinks>
-            <infoLink id="6c10-c21d-bf54-e2e3" name="Fell Sight (Passive)" hidden="false" targetId="edf7-86c5-28cd-59d1" type="rule"/>
             <infoLink id="ff1c-171b-1531-4d96" name="Fell Warg" hidden="false" targetId="51ba-2e51-3da5-d253" type="profile"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="611c-b9ea-fa2c-ba6b" name="Warg" hidden="false" collective="false" type="model">
+            <selectionEntry id="611c-b9ea-fa2c-ba6b" name="Warg" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="55dc-ca65-938b-132d" value="15">
                   <conditions>
@@ -313,9 +353,9 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="48bf-f1f6-087b-ff0d" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="48bf-f1f6-087b-ff0d" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="6afd-92b0-5440-020a" name="Claws and Teeth" hidden="false" collective="false" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+                <entryLink id="6afd-92b0-5440-020a" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -325,14 +365,20 @@
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9761-d985-5286-ff84" name="Bat Swarm" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9761-d985-5286-ff84" name="Bat Swarm" hidden="false" collective="false" import="true" type="upgrade">
+          <infoGroups>
+            <infoGroup id="5f30-7c95-d452-bb47" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="ab47-fe17-3f90-361a" name="Fly" hidden="false" targetId="bfd3-a313-811b-9744" type="rule"/>
+                <infoLink id="7b3c-8e0f-f28d-8dc1" name="Blinding Swarm (Passive)" hidden="false" targetId="89c6-d516-952f-b339" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <infoLinks>
-            <infoLink id="bdfb-9e29-9f1e-dab0" name="Fly" hidden="false" targetId="bfd3-a313-811b-9744" type="rule"/>
             <infoLink id="f1b2-6f4a-ef83-3cf0" name="Bat Swarm" hidden="false" targetId="a87f-5472-53f1-1d14" type="profile"/>
-            <infoLink id="0c90-ba0c-6616-5429" name="Blinding Swarm (Passive)" hidden="false" targetId="89c6-d516-952f-b339" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="da7c-9282-a5d2-4e24" name="Bat" hidden="false" collective="false" type="model">
+            <selectionEntry id="da7c-9282-a5d2-4e24" name="Bat" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="dab5-bf68-35d6-e340" value="15">
                   <conditions>
@@ -369,7 +415,7 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6605-eab3-81f6-af33" name="Spider" hidden="false" collective="false" type="model">
+    <selectionEntry id="6605-eab3-81f6-af33" name="Spider" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="0622-631e-db7a-3154" value="12">
           <conditions>
