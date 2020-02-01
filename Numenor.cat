@@ -1,40 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c50a-794b-1517-31f9" name="Númenor" revision="11" battleScribeVersion="2.02" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c50a-794b-1517-31f9" name="Númenor" revision="12" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c50a-794b-pubN65614" name="Armies of Lord of the Rings"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="507c-ddf6-b647-7c07" name="Captain of Númenor" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="507c-ddf6-b647-7c07" name="Captain of Númenor" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="c5dc-ae61-be1e-4458" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="dd59-5a33-c537-516c" name="Captain of Númenor" hidden="false" collective="false" type="model">
+        <selectionEntry id="dd59-5a33-c537-516c" name="Captain of Númenor" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6dc-19b4-9343-0e90" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d5b-a61f-30c0-f12b" type="max"/>
           </constraints>
           <profiles>
             <profile id="3fbd-1fed-d871-1283" name="Captain of Númenor" publicationId="c50a-794b-pubN65614" page="30" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-              <modifiers>
-                <modifier type="increment" field="49e3-08b4-2b5f-a6dd" value="1">
-                  <conditions>
-                    <condition field="selections" scope="dd59-5a33-c537-516c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e36f-7ce6-f8a1-727c" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="decrement" field="49e3-08b4-2b5f-a6dd" value="1">
                       <conditions>
-                        <condition field="selections" scope="dd59-5a33-c537-516c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0c98-4c1a-407a-9a96" type="equalTo"/>
+                        <condition field="selections" scope="dd59-5a33-c537-516c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b8-81bd-1cd6-8b3e" type="equalTo"/>
                       </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="increment" field="49e3-08b4-2b5f-a6dd" value="1">
-                  <conditions>
-                    <condition field="selections" scope="dd59-5a33-c537-516c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fabb-6901-0889-9a68" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="dd59-5a33-c537-516c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="aee9-0be1-fd8c-7e73" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" field="49e3-08b4-2b5f-a6dd" value="1">
+                      <conditions>
+                        <condition field="selections" scope="dd59-5a33-c537-516c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b8-81bd-1cd6-8b3e" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="49e3-08b4-2b5f-a6dd" value="1">
+                      <conditions>
+                        <condition field="selections" scope="dd59-5a33-c537-516c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="713d-07e8-7930-c83c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <characteristics>
                 <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/4+</characteristic>
@@ -52,29 +61,33 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="f520-38ff-7719-6e04" name="Blood of Númenor (Passive)" hidden="false" targetId="c1d9-0016-675d-ad46" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="6880-a0e2-4089-24a5" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="64d6-ba6f-7979-acb9" name="Blood of Númenor (Passive)" hidden="false" targetId="c1d9-0016-675d-ad46" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="7c38-54b6-0ed7-fb7d" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="7c38-54b6-0ed7-fb7d" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="64c7-83a3-0d3c-c190" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="14db-18a1-faa8-a3b4" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="64c7-83a3-0d3c-c190" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="14db-18a1-faa8-a3b4" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="24ed-02e7-dc00-73f2" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="24ed-02e7-dc00-73f2" name="Options" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="fabb-6901-0889-9a68" name="Heavy Armour" hidden="false" collective="false" targetId="713d-07e8-7930-c83c" type="selectionEntry"/>
-                <entryLink id="7e4b-ff65-8e18-df6b" name="Horse" hidden="false" collective="false" targetId="18cb-fd03-3380-5f4e" type="selectionEntry"/>
-                <entryLink id="e36f-7ce6-f8a1-727c" name="Shield" hidden="false" collective="false" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
-                <entryLink id="0c98-4c1a-407a-9a96" name="Bow" hidden="false" collective="false" targetId="aee9-0be1-fd8c-7e73" type="selectionEntry"/>
-                <entryLink id="fd42-93c5-3f10-399f" name="Lance" hidden="false" collective="false" targetId="aa35-f48c-f09a-8f99" type="selectionEntry"/>
+                <entryLink id="fabb-6901-0889-9a68" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="713d-07e8-7930-c83c" type="selectionEntry"/>
+                <entryLink id="7e4b-ff65-8e18-df6b" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry"/>
+                <entryLink id="e36f-7ce6-f8a1-727c" name="Shield" hidden="false" collective="false" import="true" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
+                <entryLink id="0c98-4c1a-407a-9a96" name="Bow" hidden="false" collective="false" import="true" targetId="aee9-0be1-fd8c-7e73" type="selectionEntry"/>
+                <entryLink id="fd42-93c5-3f10-399f" name="Lance" hidden="false" collective="false" import="true" targetId="aa35-f48c-f09a-8f99" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="c373-df76-9c64-4bfd" name="Hero of Fortitude" hidden="false" collective="false" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
-            <entryLink id="163a-e0f6-d191-ac6c" name="Leader (Fortitude)" hidden="false" collective="false" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="c373-df76-9c64-4bfd" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
+            <entryLink id="163a-e0f6-d191-ac6c" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -84,7 +97,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="d838-e7bf-8512-30ed" name="Warband" hidden="false" collective="false" targetId="fa0f-c32c-34ad-9f72" type="selectionEntry">
+        <entryLink id="d838-e7bf-8512-30ed" name="Warband" hidden="false" collective="false" import="true" targetId="fa0f-c32c-34ad-9f72" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="8e49-6c5b-7452-c489" value="12"/>
           </modifiers>
@@ -96,7 +109,7 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2a6-2213-a2ff-5b68" name="Isildur" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b2a6-2213-a2ff-5b68" name="Isildur" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7436-2867-0482-6de4" type="max"/>
       </constraints>
@@ -104,7 +117,7 @@
         <categoryLink id="35df-643c-4db9-9e58" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e676-7232-5d5e-c5ac" name="Isildur" hidden="false" collective="false" type="model">
+        <selectionEntry id="e676-7232-5d5e-c5ac" name="Isildur" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be52-415b-5e11-ddc3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3a4-fe8e-40e8-54a8" type="min"/>
@@ -115,7 +128,7 @@
               <modifiers>
                 <modifier type="increment" field="49e3-08b4-2b5f-a6dd" value="1">
                   <conditions>
-                    <condition field="selections" scope="e676-7232-5d5e-c5ac" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="396c-6534-a588-d211" type="equalTo"/>
+                    <condition field="selections" scope="e676-7232-5d5e-c5ac" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b8-81bd-1cd6-8b3e" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -136,42 +149,39 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="6c75-ed4a-b812-5aa7" name="Blood of Númenor (Passive)" hidden="false" targetId="c1d9-0016-675d-ad46" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="6a14-0468-0687-b88f" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="cd90-826a-64de-f7bb" name="Blood of Númenor (Passive)" hidden="false" targetId="c1d9-0016-675d-ad46" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="ad89-a899-fd41-8584" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="ad89-a899-fd41-8584" name="Options" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="8aff-4460-bf5d-9fcf" name="Horse" hidden="false" collective="false" targetId="18cb-fd03-3380-5f4e" type="selectionEntry"/>
-                <entryLink id="396c-6534-a588-d211" name="Shield" hidden="false" collective="false" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
-                <entryLink id="05ed-a722-bb53-0694" name="The One Ring" hidden="false" collective="false" targetId="ddc1-67a9-1014-b73c" type="selectionEntry">
+                <entryLink id="8aff-4460-bf5d-9fcf" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry"/>
+                <entryLink id="396c-6534-a588-d211" name="Shield" hidden="false" collective="false" import="true" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
+                <entryLink id="05ed-a722-bb53-0694" name="The One Ring" hidden="false" collective="false" import="true" targetId="ddc1-67a9-1014-b73c" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="5c5a-e8b0-6188-3471" value="0.0">
                       <conditions>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ef2-7b4f-f1c7-03ef" type="equalTo"/>
                       </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="747c-f224-d194-a47b" type="equalTo"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="ada7-d207-ca25-e734" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="ada7-d207-ca25-e734" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="63d3-d7fd-ac33-ed4d" name="Heavy Armour" hidden="false" collective="false" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
-                <entryLink id="471b-929a-eebe-de18" name="Hand-and-a-Half Sword" hidden="false" collective="false" targetId="ac2a-ff13-8888-18ca" type="selectionEntry"/>
+                <entryLink id="63d3-d7fd-ac33-ed4d" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+                <entryLink id="471b-929a-eebe-de18" name="Hand-and-a-Half Sword" hidden="false" collective="false" import="true" targetId="ac2a-ff13-8888-18ca" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="9ac7-465f-1aec-fdff" name="Hero of Valour" hidden="false" collective="false" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
-            <entryLink id="fb0b-b1f2-b66a-6691" name="Leader (Valour)" hidden="false" collective="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+            <entryLink id="9ac7-465f-1aec-fdff" name="Hero of Valour" hidden="false" collective="false" import="true" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
+            <entryLink id="fb0b-b1f2-b66a-6691" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="120.0"/>
@@ -181,7 +191,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ffad-5408-a114-3bc6" name="Warband" hidden="false" collective="false" targetId="fa0f-c32c-34ad-9f72" type="selectionEntry">
+        <entryLink id="ffad-5408-a114-3bc6" name="Warband" hidden="false" collective="false" import="true" targetId="fa0f-c32c-34ad-9f72" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="8e49-6c5b-7452-c489" value="15"/>
           </modifiers>
@@ -193,7 +203,7 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ef2-7b4f-f1c7-03ef" name="Elendil, High King of Gondor and Arnor" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9ef2-7b4f-f1c7-03ef" name="Elendil, High King of Gondor and Arnor" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b494-cc7c-d314-2783" type="max"/>
       </constraints>
@@ -201,7 +211,7 @@
         <categoryLink id="5ebe-ba6c-94d2-d326" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="dfeb-4976-f85f-e278" name="Elendil, High King of Gondor and Arnor" hidden="false" collective="false" type="model">
+        <selectionEntry id="dfeb-4976-f85f-e278" name="Elendil, High King of Gondor and Arnor" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="986b-3110-6b47-b565" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b575-02e0-7ff5-5ca2" type="min"/>
@@ -212,7 +222,7 @@
               <modifiers>
                 <modifier type="increment" field="49e3-08b4-2b5f-a6dd" value="1">
                   <conditions>
-                    <condition field="selections" scope="dfeb-4976-f85f-e278" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e15b-c502-76ab-b2f7" type="equalTo"/>
+                    <condition field="selections" scope="dfeb-4976-f85f-e278" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b8-81bd-1cd6-8b3e" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -233,18 +243,22 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="3359-5762-8428-6bcd" name="High King of Gondor and Arnor (Active)" publicationId="c50a-794b-pubN65614" page="29" hidden="false">
-              <description>The range of Elendil&apos;s Stand Fast! is 12&quot; rather than 6&quot;.</description>
-            </rule>
-            <rule id="e5a8-4a24-4655-1458" name="Unbending Resolve (Passive)" publicationId="c50a-794b-pubN65614" page="29" hidden="false">
-              <description>Elendil always counts as having the Fortify Spirit Magical Power cast upon him. This is always in effect, even if his Will is reduced to 0.</description>
-            </rule>
-          </rules>
+          <infoGroups>
+            <infoGroup id="751c-23b8-24bc-a237" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="a996-4aa1-99fb-6d0d" name="Unbending Resolve (Passive)" publicationId="c50a-794b-pubN65614" page="29" hidden="false">
+                  <description>Elendil always counts as having the Fortify Spirit Magical Power cast upon him. This is always in effect, even if his Will is reduced to 0.</description>
+                </rule>
+                <rule id="b0bb-f5ae-1640-04fd" name="High King of Gondor and Arnor (Active)" publicationId="c50a-794b-pubN65614" page="29" hidden="false">
+                  <description>The range of Elendil&apos;s Stand Fast! is 12&quot; rather than 6&quot;.</description>
+                </rule>
+              </rules>
+            </infoGroup>
+          </infoGroups>
           <selectionEntryGroups>
-            <selectionEntryGroup id="7672-5d68-324e-d311" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="7672-5d68-324e-d311" name="Wargear" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="8372-fea4-04bc-bdb9" name="Narsil" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="8372-fea4-04bc-bdb9" name="Narsil" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de30-0aad-ce1e-e86d" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e344-2e2b-77df-d2a1" type="min"/>
@@ -268,19 +282,19 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="015f-75a7-ec1a-e4ef" name="Heavy Armour" hidden="false" collective="false" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+                <entryLink id="015f-75a7-ec1a-e4ef" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3632-d993-bb47-68f3" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="3632-d993-bb47-68f3" name="Options" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="ab3c-e654-fac8-7822" name="Horse" hidden="false" collective="false" targetId="18cb-fd03-3380-5f4e" type="selectionEntry"/>
-                <entryLink id="e15b-c502-76ab-b2f7" name="Shield" hidden="false" collective="false" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
+                <entryLink id="ab3c-e654-fac8-7822" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry"/>
+                <entryLink id="e15b-c502-76ab-b2f7" name="Shield" hidden="false" collective="false" import="true" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="1c08-bff2-9d9f-8b1b" name="Leader (Legend)" hidden="false" collective="false" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry"/>
-            <entryLink id="ddad-3ea5-07e0-1557" name="Hero of Legend" hidden="false" collective="false" targetId="4bbe-b6f8-1426-c662" type="selectionEntry"/>
+            <entryLink id="1c08-bff2-9d9f-8b1b" name="Leader (Legend)" hidden="false" collective="false" import="true" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry"/>
+            <entryLink id="ddad-3ea5-07e0-1557" name="Hero of Legend" hidden="false" collective="false" import="true" targetId="4bbe-b6f8-1426-c662" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="185.0"/>
@@ -290,11 +304,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ece8-db72-0721-05a7" name="Warband" hidden="false" collective="false" targetId="fa0f-c32c-34ad-9f72" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="8e49-6c5b-7452-c489" value="18.0"/>
-          </modifiers>
-        </entryLink>
+        <entryLink id="ece8-db72-0721-05a7" name="Warband" hidden="false" collective="false" import="true" targetId="fa0f-c32c-34ad-9f72" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -302,7 +312,7 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="747c-f224-d194-a47b" name="Anarion" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="747c-f224-d194-a47b" name="Anarion" hidden="true" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fef5-a2f1-468d-6542" type="max"/>
       </constraints>
@@ -310,15 +320,19 @@
         <categoryLink id="4e29-dab5-ce6a-b774" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b9d6-537f-04b5-af64" name="Anarion" hidden="true" collective="false" type="model">
+        <selectionEntry id="b9d6-537f-04b5-af64" name="Anarion" hidden="true" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="73fc-cd87-af40-e8a4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c16f-8085-856a-6a49" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8129-7d0c-5389-f1e4" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="55c9-16a3-ef4f-e00b" name="Blood of Númenor (Passive)" hidden="false" targetId="c1d9-0016-675d-ad46" type="rule"/>
-          </infoLinks>
+          <infoGroups>
+            <infoGroup id="f361-0f23-bf01-f4dd" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="00d5-9e20-9639-9fc0" name="Blood of Númenor (Passive)" hidden="false" targetId="c1d9-0016-675d-ad46" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <costs>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
@@ -327,7 +341,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ade9-b2bd-2f44-1c0b" name="Warband" hidden="false" collective="false" targetId="fa0f-c32c-34ad-9f72" type="selectionEntry">
+        <entryLink id="ade9-b2bd-2f44-1c0b" name="Warband" hidden="false" collective="false" import="true" targetId="fa0f-c32c-34ad-9f72" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="8e49-6c5b-7452-c489" value="1"/>
           </modifiers>
@@ -341,7 +355,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="5824-82ea-fc29-2b29" name="One by one the Free Lands of Middle-Earth fell to the Power of the Ring. But there were some who resisted." hidden="false" collective="false" targetId="e3dc-8af5-af35-3cba" type="selectionEntry">
+    <entryLink id="5824-82ea-fc29-2b29" name="One by one the Free Lands of Middle-Earth fell to the Power of the Ring. But there were some who resisted." hidden="false" collective="false" import="true" targetId="e3dc-8af5-af35-3cba" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="3c97-ab40-30e4-2c15" value="1">
           <conditions>
@@ -350,26 +364,26 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="5bdd-eefe-2943-4577" name="Númenor" hidden="false" collective="false" targetId="6571-6b45-2709-e577" type="selectionEntry">
+    <entryLink id="5bdd-eefe-2943-4577" name="Númenor" hidden="false" collective="false" import="true" targetId="6571-6b45-2709-e577" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="ba8e-1a6e-759f-79f7" value="1"/>
       </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="fa0f-c32c-34ad-9f72" name="Warband" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fa0f-c32c-34ad-9f72" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="8e49-6c5b-7452-c489" value="12">
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="507c-ddf6-b647-7c07" type="instanceOf"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="8e49-6c5b-7452-c489" value="18">
+        <modifier type="set" field="8e49-6c5b-7452-c489" value="18.0">
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9ef2-7b4f-f1c7-03ef" type="instanceOf"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="8e49-6c5b-7452-c489" value="15">
+        <modifier type="set" field="8e49-6c5b-7452-c489" value="15.0">
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b2a6-2213-a2ff-5b68" type="instanceOf"/>
           </conditions>
@@ -387,23 +401,32 @@
         <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a39a-93de-ded1-ccdf" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="748a-0297-627b-2b9e" name="Warrior of Númenor" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="748a-0297-627b-2b9e" name="Warrior of Númenor" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="8095-5b60-e6fa-07da" name="Warrior of Númenor" publicationId="c50a-794b-pubN65614" page="31" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
-              <modifiers>
-                <modifier type="increment" field="d64a-e776-38fd-3019" value="1">
-                  <conditions>
-                    <condition field="selections" scope="748a-0297-627b-2b9e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb0c-c9a3-15c5-a07b" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="decrement" field="d64a-e776-38fd-3019" value="1">
                       <conditions>
-                        <condition field="selections" scope="748a-0297-627b-2b9e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d92-3b10-a795-0c6e" type="equalTo"/>
+                        <condition field="selections" scope="748a-0297-627b-2b9e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb0c-c9a3-15c5-a07b" type="equalTo"/>
                       </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="748a-0297-627b-2b9e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d92-3b10-a795-0c6e" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" field="d64a-e776-38fd-3019" value="1">
+                      <conditions>
+                        <condition field="selections" scope="748a-0297-627b-2b9e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cb0c-c9a3-15c5-a07b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <characteristics>
                 <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/4+</characteristic>
@@ -416,11 +439,14 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoGroups>
+            <infoGroup id="15e3-13fc-de95-47ee" name="Special Rules" hidden="false"/>
+          </infoGroups>
           <infoLinks>
             <infoLink id="65ec-f37c-4fb2-8774" name="Blood of Númenor" hidden="false" targetId="c1d9-0016-675d-ad46" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="585a-aa31-cbc6-2eb9" name="Warrior" hidden="false" collective="false" type="model">
+            <selectionEntry id="585a-aa31-cbc6-2eb9" name="Warrior" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="ed5e-bfed-7ec6-e433" value="15">
                   <conditions>
@@ -450,9 +476,9 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d4ec-da37-353d-36b7" name="Options" hidden="false" collective="false">
+            <selectionEntryGroup id="d4ec-da37-353d-36b7" name="Options" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="9aca-8fa5-3f22-0e5e" name="Banner" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="9aca-8fa5-3f22-0e5e" name="Banner" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="25">
                       <repeats>
@@ -472,7 +498,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="3d92-3b10-a795-0c6e" name="Bow" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="3d92-3b10-a795-0c6e" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -497,7 +523,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="cb0c-c9a3-15c5-a07b" name="Shield" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="cb0c-c9a3-15c5-a07b" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -517,7 +543,7 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="fb29-29de-4030-47c3" name="Spear" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="fb29-29de-4030-47c3" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
                       <repeats>
@@ -539,10 +565,10 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="0bb3-3d9e-e705-4206" name="Wargear" hidden="false" collective="false">
+            <selectionEntryGroup id="0bb3-3d9e-e705-4206" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="7a38-d4fb-0a6b-5986" name="Armour" hidden="false" collective="false" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="e9cc-39dc-3579-4951" name="Sword" hidden="false" collective="false" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="7a38-d4fb-0a6b-5986" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="e9cc-39dc-3579-4951" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
