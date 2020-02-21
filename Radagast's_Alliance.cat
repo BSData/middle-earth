@@ -1,1006 +1,254 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.02" id="b201-0c2b-09a3-2a09" name="Radagast's Alliance" revision="2" authorName="Hukoseft" authorContact="hukoseft@gmail.com" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39">
-    <publications>
-        <publication id="b201-0c2b-pubN65755" name="Armies of the Hobbit"/>
-    </publications>
-      
-    <profiles/>
-      
-    <rules/>
-      
-    <infoLinks/>
-      
-    <costTypes/>
-      
-    <profileTypes/>
-      
-    <categoryEntries/>
-      
-    <forceEntries/>
-      
-    <selectionEntries>
-            
-        <selectionEntry id="5f22-a82e-63b4-e7a4" name="Gwahir" hidden="false" collective="false" type="upgrade">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers/>
-                  
-            <constraints>
-                        
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f16-ad49-4993-b600" type="max"/>
-                      
-            </constraints>
-                  
-            <categoryLinks>
-                        
-                <categoryLink id="229b-0f41-905c-8c39" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                            
-                </categoryLink>
-                      
-            </categoryLinks>
-                  
-            <selectionEntries/>
-                  
-            <selectionEntryGroups/>
-                  
-            <entryLinks>
-                        
-                <entryLink id="9fbc-91e9-84b4-0ea5" name="Warband" hidden="false" targetId="1d65-b62a-c7b4-d8c7" type="selectionEntry">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers>
-                                    
-                        <modifier type="set" field="35a6-2afa-3afd-4636" value="18">
-                                          
-                            <repeats/>
-                                          
-                            <conditions/>
-                                          
-                            <conditionGroups/>
-                                        
-                        </modifier>
-                                  
-                    </modifiers>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                        
-                <entryLink id="164b-6bb0-f033-4fba" name="Gwahir" hidden="false" targetId="48d8-3ba9-01d5-3003" type="selectionEntry">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                      
-            </entryLinks>
-                  
-            <costs>
-                        
-                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                        
-                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
-                        
-                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                      
-            </costs>
-                
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b201-0c2b-09a3-2a09" name="Radagast&apos;s Alliance" revision="4" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="b201-0c2b-pubN65755" name="Armies of the Hobbit"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="5f22-a82e-63b4-e7a4" name="Gwahir" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f16-ad49-4993-b600" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6ac2-4974-6f0a-f953" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9fbc-91e9-84b4-0ea5" name="Warband" hidden="false" collective="false" import="true" targetId="1d65-b62a-c7b4-d8c7" type="selectionEntry"/>
+        <entryLink id="164b-6bb0-f033-4fba" name="Gwahir" hidden="false" collective="false" import="true" targetId="48d8-3ba9-01d5-3003" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ad8-662f-edc4-5d54" name="Beorn" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d9f5-1669-9150-a002" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5210-a5ce-7b56-8c14" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7f2c-bada-4a6b-b001" name="Beorn" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a57d-a145-bf97-abf2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6411-ae3d-ac7a-df7e" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db89-e5e3-1a7e-1aa1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6956-0a79-4ff5-18e5" name="Beorn" publicationId="b201-0c2b-pubN65755" page="80" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">6/4+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">5</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">5</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Infantry Hero</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="a0fe-8fb7-2772-bd4d" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="0398-5274-290e-b924" name="Skin-Changer (Active)" publicationId="b201-0c2b-pubN65755" page="80" hidden="false">
+                  <description>To change Beorn’s form, the controlling player may roll a D6 at the start of Beorn’s Move. On the roll of a 4+ (Might may be used to modify this roll), Beorn changes shape from a man into a bear (or vice-versa). Replace the Beorn model with the Beorn the Bear model (or vice-versa). Beorn can then continue with his move as normal, including making Charges. Beorn cannot change form if there is an enemy model in base contact with him.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="776d-0da8-f82e-3faa" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+                <infoLink id="1bbd-8876-1fcc-dc40" name="Resistant to Magic (Passive)" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
+                <infoLink id="c4e5-0668-da26-4a25" name="Fearless (Passive)" hidden="false" targetId="7ad1-afe5-c22b-4558" type="rule"/>
+                <infoLink id="11a6-4187-5e4e-0ff2" name="Burly (Passive)" hidden="false" targetId="390c-dc0c-72ba-8d47" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntries>
+            <selectionEntry id="0081-4a39-5025-917c" name="Beorn the Bear" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7242-4c18-b785-ec01" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9f-0b24-ea8c-c75a" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="319a-9ad6-46f9-1c03" name="Beorn the Bear" publicationId="b201-0c2b-pubN65755" page="81" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="6d57-f596-e10e-6233">8&quot;</characteristic>
+                    <characteristic name="Fight" typeId="5930-f060-2064-c9d5">8/4+</characteristic>
+                    <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">8</characteristic>
+                    <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">8</characteristic>
+                    <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+                    <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+                    <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
+                    <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">*</characteristic>
+                    <characteristic name="Will" typeId="b509-13ce-7d03-816e">*</characteristic>
+                    <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">*</characteristic>
+                    <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
+                    <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Bear Monster Infantry Hero</characteristic>
+                    <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoGroups>
+                <infoGroup id="12a9-c57e-1de8-a2bf" name="Special Rules" hidden="false">
+                  <rules>
+                    <rule id="832a-385a-a85d-7e86" name="Crushing Strength (Brutal Power Attack)" publicationId="b201-0c2b-pubN65755" page="81" hidden="false">
+                      <description>If Beorn wins a Duel, instead of striking as normal, choose a losing model – that model immediately suffers a Strength 10 hit. If the To Wound roll is successful, the victim suffers another Strength 10 hit, and so on, until the victim is dead or Beorn fails to wound his victim.</description>
+                    </rule>
+                    <rule id="56fc-be0d-d9a6-6bc3" name="Berserk (Passive)" publicationId="b201-0c2b-pubN65755" page="81" hidden="false">
+                      <description>Beorn the Bear must always Charge an enemy if he is able to. Additionally, Beorn may not use the Stand Fast! or Heroic Actions of other models, and other models may not use his, whilst he is in bear form.</description>
+                    </rule>
+                    <rule id="5d85-8382-4c5b-5669" name="Beorn the Bear*" publicationId="b201-0c2b-pubN65755" page="81" hidden="false">
+                      <description>*Beorn is a very unusual character, in that he can shift between being a man and a bear. When he alters form, replace him with the appropriate model. Also, when he changes, he adopts the appropriate profile and characteristics. Beorn’s Might, Will, Fate and Wounds remain unchanged when he changes form.</description>
+                    </rule>
+                  </rules>
+                </infoGroup>
+              </infoGroups>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c806-3e1e-1f3f-dc7e" name="Wargear" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="4904-debe-9962-0ff2" name="Two-Handed Axe" hidden="false" collective="false" import="true" targetId="2d5f-8ff0-8762-879e" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="c941-2e5b-b614-22fe" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="200.0"/>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
         </selectionEntry>
-            
-        <selectionEntry id="8ad8-662f-edc4-5d54" name="Beorn" hidden="false" collective="false" type="upgrade">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers/>
-                  
-            <constraints>
-                        
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d9f5-1669-9150-a002" type="max"/>
-                      
-            </constraints>
-                  
-            <categoryLinks>
-                        
-                <categoryLink id="1d0b-30b8-bf2e-cf44" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                            
-                </categoryLink>
-                      
-            </categoryLinks>
-                  
-            <selectionEntries>
-                        
-                <selectionEntry id="7f2c-bada-4a6b-b001" name="Beorn" hidden="false" collective="false" type="model">
-                              
-                    <profiles>
-                                    
-                        <profile typeId="80cb-17d0-8683-a212" typeName="Hero" id="6956-0a79-4ff5-18e5" name="Beorn" publicationId="b201-0c2b-pubN65755" page="80" hidden="false">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <characteristics>
-                                                
-                                <characteristic typeId="6d57-f596-e10e-6233" name="Movement">6"</characteristic>
-                                                
-                                <characteristic typeId="5930-f060-2064-c9d5" name="Fight">6/4+</characteristic>
-                                                
-                                <characteristic typeId="fbbc-8f2f-c413-710a" name="Strength">5</characteristic>
-                                                
-                                <characteristic typeId="49e3-08b4-2b5f-a6dd" name="Defense">5</characteristic>
-                                                
-                                <characteristic typeId="7d79-496f-5c13-35c4" name="Attack">3</characteristic>
-                                                
-                                <characteristic typeId="8bda-d8a5-a1e7-2146" name="Wounds">3</characteristic>
-                                                
-                                <characteristic typeId="b88a-7dd4-569c-d0b1" name="Courage">6</characteristic>
-                                                
-                                <characteristic typeId="db92-6a08-e1ce-a77d" name="Might">3</characteristic>
-                                                
-                                <characteristic typeId="b509-13ce-7d03-816e" name="Will">3</characteristic>
-                                                
-                                <characteristic typeId="67f5-8c5e-868c-5bd5" name="Fate">3</characteristic>
-                                                
-                                <characteristic typeId="fc29-34ba-8883-0379" name="Heroic Actions">Strike Strength Defence</characteristic>
-                                                
-                                <characteristic typeId="52a2-dbbe-8d97-a8a2" name="Keywords">Man Infantry Hero</characteristic>
-                                                
-                                <characteristic typeId="2b79-2cec-28e7-0b0d" name="Heroic Tier">Hero of Valour</characteristic>
-                                              
-                            </characteristics>
-                                        
-                        </profile>
-                                  
-                    </profiles>
-                              
-                    <rules>
-                                    
-                        <rule id="2e4f-dbad-2bdd-3c0b" name="Skin-Changer (Active)" publicationId="b201-0c2b-pubN65755" page="80" hidden="false">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <description>To change Beorn’s form, the controlling player may roll a D6 at the start of Beorn’s Move. On the roll of a 4+ (Might may be used to modify this roll), Beorn changes shape from a man into a bear (or vice-versa). Replace the Beorn model with the Beorn the Bear model (or vice-versa). Beorn can then continue with his move as normal, including making Charges. Beorn cannot change form if there is an enemy model in base contact with him.</description>
-                                        
-                        </rule>
-                                  
-                    </rules>
-                              
-                    <infoLinks>
-                                    
-                        <infoLink id="f230-95d7-15f2-1833" name="Resistant to Magic (Passive)" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="6f4f-4693-37b1-9ab6" name="Fearless (Passive)" hidden="false" targetId="7ad1-afe5-c22b-4558" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="b58b-1e3a-9c69-c439" name="Burly (Passive)" hidden="false" targetId="390c-dc0c-72ba-8d47" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="5df8-b2d1-44b3-0fc0" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                  
-                    </infoLinks>
-                              
-                    <modifiers/>
-                              
-                    <constraints>
-                                    
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a57d-a145-bf97-abf2" type="max"/>
-                                    
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6411-ae3d-ac7a-df7e" type="min"/>
-                                    
-                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db89-e5e3-1a7e-1aa1" type="max"/>
-                                  
-                    </constraints>
-                              
-                    <categoryLinks/>
-                              
-                    <selectionEntries>
-                                    
-                        <selectionEntry id="0081-4a39-5025-917c" name="Beorn the Bear" hidden="false" collective="false" type="upgrade">
-                                          
-                            <profiles>
-                                                
-                                <profile typeId="80cb-17d0-8683-a212" typeName="Hero" id="319a-9ad6-46f9-1c03" name="Beorn the Bear" publicationId="b201-0c2b-pubN65755" page="81" hidden="false">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <characteristics>
-                                                            
-                                        <characteristic typeId="6d57-f596-e10e-6233" name="Movement">8"</characteristic>
-                                                            
-                                        <characteristic typeId="5930-f060-2064-c9d5" name="Fight">8/4+</characteristic>
-                                                            
-                                        <characteristic typeId="fbbc-8f2f-c413-710a" name="Strength">8</characteristic>
-                                                            
-                                        <characteristic typeId="49e3-08b4-2b5f-a6dd" name="Defense">8</characteristic>
-                                                            
-                                        <characteristic typeId="7d79-496f-5c13-35c4" name="Attack">3</characteristic>
-                                                            
-                                        <characteristic typeId="8bda-d8a5-a1e7-2146" name="Wounds">3</characteristic>
-                                                            
-                                        <characteristic typeId="b88a-7dd4-569c-d0b1" name="Courage">6</characteristic>
-                                                            
-                                        <characteristic typeId="db92-6a08-e1ce-a77d" name="Might">*</characteristic>
-                                                            
-                                        <characteristic typeId="b509-13ce-7d03-816e" name="Will">*</characteristic>
-                                                            
-                                        <characteristic typeId="67f5-8c5e-868c-5bd5" name="Fate">*</characteristic>
-                                                            
-                                        <characteristic typeId="fc29-34ba-8883-0379" name="Heroic Actions">Strike Strength Defence</characteristic>
-                                                            
-                                        <characteristic typeId="52a2-dbbe-8d97-a8a2" name="Keywords">Bear Monster Infantry Hero</characteristic>
-                                                            
-                                        <characteristic typeId="2b79-2cec-28e7-0b0d" name="Heroic Tier">Hero of Valour</characteristic>
-                                                          
-                                    </characteristics>
-                                                    
-                                </profile>
-                                              
-                            </profiles>
-                                          
-                            <rules>
-                                                
-                                <rule id="2b47-1995-7428-3062" name="Crushing Strength (Brutal Power Attack)" publicationId="b201-0c2b-pubN65755" page="81" hidden="false">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <description>If Beorn wins a Duel, instead of striking as normal, choose a losing model – that model immediately suffers a Strength 10 hit. If the To Wound roll is successful, the victim suffers another Strength 10 hit, and so on, until the victim is dead or Beorn fails to wound his victim.</description>
-                                                    
-                                </rule>
-                                                
-                                <rule id="35b9-a142-60f1-1b18" name="Beorn the Bear*" publicationId="b201-0c2b-pubN65755" page="81" hidden="false">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <description>*Beorn is a very unusual character, in that he can shift between being a man and a bear. When he alters form, replace him with the appropriate model. Also, when he changes, he adopts the appropriate profile and characteristics. Beorn’s Might, Will, Fate and Wounds remain unchanged when he changes form.</description>
-                                                    
-                                </rule>
-                                                
-                                <rule id="07cb-a085-b059-3d2c" name="Berserk (Passive)" publicationId="b201-0c2b-pubN65755" page="81" hidden="false">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <description>Beorn the Bear must always Charge an enemy if he is able to. Additionally, Beorn may not use the Stand Fast! or Heroic Actions of other models, and other models may not use his, whilst he is in bear form.</description>
-                                                    
-                                </rule>
-                                              
-                            </rules>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <constraints>
-                                                
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7242-4c18-b785-ec01" type="max"/>
-                                                
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9f-0b24-ea8c-c75a" type="min"/>
-                                              
-                            </constraints>
-                                          
-                            <categoryLinks/>
-                                          
-                            <selectionEntries/>
-                                          
-                            <selectionEntryGroups/>
-                                          
-                            <entryLinks/>
-                                          
-                            <costs>
-                                                
-                                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                                                
-                                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
-                                                
-                                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                                              
-                            </costs>
-                                        
-                        </selectionEntry>
-                                  
-                    </selectionEntries>
-                              
-                    <selectionEntryGroups>
-                                    
-                        <selectionEntryGroup id="c806-3e1e-1f3f-dc7e" name="Wargear" hidden="false" collective="false">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <constraints/>
-                                          
-                            <categoryLinks/>
-                                          
-                            <selectionEntries/>
-                                          
-                            <selectionEntryGroups/>
-                                          
-                            <entryLinks>
-                                                
-                                <entryLink id="4904-debe-9962-0ff2" name="Two-Handed Axe" hidden="false" targetId="2d5f-8ff0-8762-879e" type="selectionEntry">
-                                                      
-                                    <profiles/>
-                                                      
-                                    <rules/>
-                                                      
-                                    <infoLinks/>
-                                                      
-                                    <modifiers/>
-                                                      
-                                    <constraints/>
-                                                      
-                                    <categoryLinks/>
-                                                    
-                                </entryLink>
-                                              
-                            </entryLinks>
-                                        
-                        </selectionEntryGroup>
-                                  
-                    </selectionEntryGroups>
-                              
-                    <entryLinks>
-                                    
-                        <entryLink id="6253-43ef-7d49-6be5" name="Hero of Valour" hidden="false" targetId="9afa-e012-fc54-795e" type="selectionEntry">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <constraints/>
-                                          
-                            <categoryLinks/>
-                                        
-                        </entryLink>
-                                    
-                        <entryLink id="c941-2e5b-b614-22fe" name="Leader (Valour)" hidden="false" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <constraints/>
-                                          
-                            <categoryLinks/>
-                                        
-                        </entryLink>
-                                  
-                    </entryLinks>
-                              
-                    <costs>
-                                    
-                        <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="200.0"/>
-                                    
-                        <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                                    
-                        <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                                  
-                    </costs>
-                            
-                </selectionEntry>
-                      
-            </selectionEntries>
-                  
-            <selectionEntryGroups/>
-                  
-            <entryLinks>
-                        
-                <entryLink id="df48-dde5-f877-c6c5" name="Warband" hidden="false" targetId="1d65-b62a-c7b4-d8c7" type="selectionEntry">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers>
-                                    
-                        <modifier type="set" field="35a6-2afa-3afd-4636" value="18">
-                                          
-                            <repeats/>
-                                          
-                            <conditions/>
-                                          
-                            <conditionGroups/>
-                                        
-                        </modifier>
-                                  
-                    </modifiers>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                      
-            </entryLinks>
-                  
-            <costs>
-                        
-                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                        
-                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
-                        
-                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                      
-            </costs>
-                
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="df48-dde5-f877-c6c5" name="Warband" hidden="false" collective="false" import="true" targetId="1d65-b62a-c7b4-d8c7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="faef-5c8a-0069-dd7d" name="Radagast the Brown" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afc6-03d6-1c68-8663" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a2a9-7d19-bfb9-f6ce" name="New CategoryLink" hidden="false" targetId="6e9c-4e8f-3256-f4f0" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="963e-a176-2fe8-7f3b" name="Warband" hidden="false" collective="false" import="true" targetId="1d65-b62a-c7b4-d8c7" type="selectionEntry"/>
+        <entryLink id="1554-217c-66fb-0cb7" name="Radagast the Brown" hidden="false" collective="false" import="true" targetId="bbd5-0d34-4d10-d10c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="7b93-99e3-94ec-2cea" name="Radagast&apos;s Alliance" hidden="false" collective="false" import="true" targetId="543e-9750-e44d-71ed" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="939c-4bbe-63a1-ad21" value="1"/>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8fef-5500-c35f-0e35" name="The Eagles are coming!" hidden="false" collective="false" import="true" targetId="6ece-291f-e876-2ad9" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="4e3b-0153-f5c2-521c" value="1">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3ef2-6942-65cd-f09c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8032-1462-b3a6-6f0e" name="Determine Alliance Level" hidden="false" collective="false" import="true" targetId="ed75-3bd7-efe7-71d9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d669-1c91-c38d-7570" name="Good Army" hidden="false" targetId="5acc-0d93-f543-b34f" primary="false"/>
+        <categoryLink id="7c8e-3f4f-6968-ca1c" name="New CategoryLink" hidden="false" targetId="990b-c865-7625-9987" primary="true"/>
+        <categoryLink id="d594-ec82-34c8-e3ab" name="Radagast&apos;s Alliance" hidden="false" targetId="befc-3255-0361-55ec" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="1d65-b62a-c7b4-d8c7" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="35a6-2afa-3afd-4636" value="15.0">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="a577-77f5-e74a-6c07" value="1">
+          <repeats>
+            <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1d65-b62a-c7b4-d8c7" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8392-9acc-b5a3-45a2" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87b6-daca-b9dd-ec13" type="max"/>
+        <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a6-2afa-3afd-4636" type="max"/>
+        <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a577-77f5-e74a-6c07" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5022-70b2-ba0a-1193" name="Great Eagle" hidden="false" collective="false" import="true" type="upgrade">
+          <infoGroups>
+            <infoGroup id="1630-e09a-54cb-7d5c" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="302d-43e2-6f1f-3b88" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="47a4-26d3-2ffc-cbba" name="Monstrous Charge (Active)" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
+                <infoLink id="f3d0-b9ca-68af-f13b" name="Fly (Active)" hidden="false" targetId="bfd3-a313-811b-9744" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntries>
+            <selectionEntry id="d8ee-2437-35b3-78d2" name="Eagle" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="bdb9-2897-41bf-e75d" value="15.0">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4adc-faa9-9b4b-a0b5" type="min"/>
+                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdb9-2897-41bf-e75d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="100.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="8534-b115-3b76-4dad" name="Wargear" hidden="false" collective="false" import="true" targetId="eee1-b2b7-455b-78f0" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
         </selectionEntry>
-            
-        <selectionEntry id="faef-5c8a-0069-dd7d" name="Radagast the Brown" hidden="false" collective="false" type="upgrade">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers/>
-                  
-            <constraints>
-                        
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afc6-03d6-1c68-8663" type="max"/>
-                      
-            </constraints>
-                  
-            <categoryLinks>
-                        
-                <categoryLink id="f341-5f79-50e3-dd62" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                            
-                </categoryLink>
-                      
-            </categoryLinks>
-                  
-            <selectionEntries/>
-                  
-            <selectionEntryGroups/>
-                  
-            <entryLinks>
-                        
-                <entryLink id="963e-a176-2fe8-7f3b" name="Warband" hidden="false" targetId="1d65-b62a-c7b4-d8c7" type="selectionEntry">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers>
-                                    
-                        <modifier type="set" field="35a6-2afa-3afd-4636" value="18">
-                                          
-                            <repeats/>
-                                          
-                            <conditions/>
-                                          
-                            <conditionGroups/>
-                                        
-                        </modifier>
-                                  
-                    </modifiers>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                        
-                <entryLink id="1554-217c-66fb-0cb7" name="Radagast the Brown" hidden="false" targetId="bbd5-0d34-4d10-d10c" type="selectionEntry">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks/>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                            
-                </entryLink>
-                      
-            </entryLinks>
-                  
-            <costs>
-                        
-                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                        
-                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
-                        
-                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                      
-            </costs>
-                
-        </selectionEntry>
-          
-    </selectionEntries>
-      
-    <entryLinks>
-            
-        <entryLink id="7b93-99e3-94ec-2cea" name="Radagast's Alliance" hidden="false" targetId="543e-9750-e44d-71ed" type="selectionEntry">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers>
-                        
-                <modifier type="set" field="939c-4bbe-63a1-ad21" value="1">
-                              
-                    <repeats/>
-                              
-                    <conditions/>
-                              
-                    <conditionGroups/>
-                            
-                </modifier>
-                      
-            </modifiers>
-                  
-            <constraints/>
-                  
-            <categoryLinks/>
-                
-        </entryLink>
-            
-        <entryLink id="8fef-5500-c35f-0e35" name="The Eagles are coming!" hidden="false" targetId="6ece-291f-e876-2ad9" type="selectionEntry">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers>
-                        
-                <modifier type="set" field="4e3b-0153-f5c2-521c" value="1">
-                              
-                    <repeats/>
-                              
-                    <conditions>
-                                    
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
-                                  
-                    </conditions>
-                              
-                    <conditionGroups/>
-                            
-                </modifier>
-                      
-            </modifiers>
-                  
-            <constraints/>
-                  
-            <categoryLinks/>
-                
-        </entryLink>
-          
-    </entryLinks>
-      
-    <sharedSelectionEntries>
-            
-        <selectionEntry id="1d65-b62a-c7b4-d8c7" name="Warband" hidden="false" collective="false" type="upgrade">
-                  
-            <profiles/>
-                  
-            <rules/>
-                  
-            <infoLinks/>
-                  
-            <modifiers>
-                        
-                <modifier type="set" field="35a6-2afa-3afd-4636" value="18">
-                              
-                    <repeats/>
-                              
-                    <conditions>
-                                    
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f22-a82e-63b4-e7a4" type="instanceOf"/>
-                                  
-                    </conditions>
-                              
-                    <conditionGroups>
-                                    
-                        <conditionGroup type="or">
-                                          
-                            <conditions>
-                                                
-                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="faef-5c8a-0069-dd7d" type="instanceOf"/>
-                                              
-                            </conditions>
-                                          
-                            <conditionGroups/>
-                                        
-                        </conditionGroup>
-                                  
-                    </conditionGroups>
-                            
-                </modifier>
-                        
-                <modifier type="set" field="35a6-2afa-3afd-4636" value="15">
-                              
-                    <repeats/>
-                              
-                    <conditions>
-                                    
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ad8-662f-edc4-5d54" type="instanceOf"/>
-                                  
-                    </conditions>
-                              
-                    <conditionGroups/>
-                            
-                </modifier>
-                        
-                <modifier type="increment" field="a577-77f5-e74a-6c07" value="1">
-                              
-                    <repeats>
-                                    
-                        <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1d65-b62a-c7b4-d8c7" repeats="1" roundUp="true"/>
-                                  
-                    </repeats>
-                              
-                    <conditions/>
-                              
-                    <conditionGroups/>
-                            
-                </modifier>
-                      
-            </modifiers>
-                  
-            <constraints>
-                        
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8392-9acc-b5a3-45a2" type="min"/>
-                        
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87b6-daca-b9dd-ec13" type="max"/>
-                        
-                <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a6-2afa-3afd-4636" type="max"/>
-                        
-                <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a577-77f5-e74a-6c07" type="max"/>
-                      
-            </constraints>
-                  
-            <categoryLinks/>
-                  
-            <selectionEntries>
-                        
-                <selectionEntry id="5022-70b2-ba0a-1193" name="Great Eagle" hidden="false" collective="false" type="upgrade">
-                              
-                    <profiles/>
-                              
-                    <rules/>
-                              
-                    <infoLinks>
-                                    
-                        <infoLink id="ad53-d2b7-f785-d59e" name="Monstrous Charge (Active)" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="87c4-60f9-f157-9ebc" name="Fly (Active)" hidden="false" targetId="bfd3-a313-811b-9744" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                    
-                        <infoLink id="7711-a161-ace4-d9ad" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                        
-                        </infoLink>
-                                  
-                    </infoLinks>
-                              
-                    <modifiers/>
-                              
-                    <constraints/>
-                              
-                    <categoryLinks/>
-                              
-                    <selectionEntries>
-                                    
-                        <selectionEntry id="d8ee-2437-35b3-78d2" name="Eagle" hidden="false" collective="false" type="model">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers>
-                                                
-                                <modifier type="set" field="bdb9-2897-41bf-e75d" value="15">
-                                                      
-                                    <repeats/>
-                                                      
-                                    <conditions>
-                                                            
-                                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ad8-662f-edc4-5d54" type="instanceOf"/>
-                                                          
-                                    </conditions>
-                                                      
-                                    <conditionGroups/>
-                                                    
-                                </modifier>
-                                                
-                                <modifier type="set" field="bdb9-2897-41bf-e75d" value="18">
-                                                      
-                                    <repeats/>
-                                                      
-                                    <conditions>
-                                                            
-                                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f22-a82e-63b4-e7a4" type="instanceOf"/>
-                                                          
-                                    </conditions>
-                                                      
-                                    <conditionGroups>
-                                                            
-                                        <conditionGroup type="or">
-                                                                  
-                                            <conditions>
-                                                                        
-                                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="faef-5c8a-0069-dd7d" type="instanceOf"/>
-                                                                      
-                                            </conditions>
-                                                                  
-                                            <conditionGroups/>
-                                                                
-                                        </conditionGroup>
-                                                          
-                                    </conditionGroups>
-                                                    
-                                </modifier>
-                                              
-                            </modifiers>
-                                          
-                            <constraints>
-                                                
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4adc-faa9-9b4b-a0b5" type="min"/>
-                                                
-                                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdb9-2897-41bf-e75d" type="max"/>
-                                              
-                            </constraints>
-                                          
-                            <categoryLinks/>
-                                          
-                            <selectionEntries/>
-                                          
-                            <selectionEntryGroups/>
-                                          
-                            <entryLinks/>
-                                          
-                            <costs>
-                                                
-                                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="1.0"/>
-                                                
-                                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="100.0"/>
-                                                
-                                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                                              
-                            </costs>
-                                        
-                        </selectionEntry>
-                                  
-                    </selectionEntries>
-                              
-                    <selectionEntryGroups/>
-                              
-                    <entryLinks>
-                                    
-                        <entryLink id="8534-b115-3b76-4dad" name="Wargear" hidden="false" targetId="eee1-b2b7-455b-78f0" type="selectionEntryGroup">
-                                          
-                            <profiles/>
-                                          
-                            <rules/>
-                                          
-                            <infoLinks/>
-                                          
-                            <modifiers/>
-                                          
-                            <constraints/>
-                                          
-                            <categoryLinks/>
-                                        
-                        </entryLink>
-                                  
-                    </entryLinks>
-                              
-                    <costs>
-                                    
-                        <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                                    
-                        <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
-                                    
-                        <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                                  
-                    </costs>
-                            
-                </selectionEntry>
-                      
-            </selectionEntries>
-                  
-            <selectionEntryGroups/>
-                  
-            <entryLinks/>
-                  
-            <costs>
-                        
-                <cost typeId="391e-19ac-b71d-f2e3" name=" Warriors" value="0.0"/>
-                        
-                <cost typeId="8bde-d63c-7caa-c15d" name=" Points" value="0.0"/>
-                        
-                <cost typeId="ab3b-a62b-ef54-533c" name="Bow" value="0.0"/>
-                      
-            </costs>
-                
-        </selectionEntry>
-          
-    </sharedSelectionEntries>
-      
-    <sharedSelectionEntryGroups/>
-      
-    <sharedRules/>
-      
-    <sharedProfiles/>
-    
+      </selectionEntries>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>

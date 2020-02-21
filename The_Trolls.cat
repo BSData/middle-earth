@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7121-c394-b604-cf59" name="The Trolls" revision="4" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7121-c394-b604-cf59" name="The Trolls" revision="5" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7121-c394-pubN65644" name="Armies of the Hobbit"/>
   </publications>
@@ -9,7 +9,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d22d-d8d8-291c-0cd7" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="0ad3-97fa-d970-a5ef" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
+        <categoryLink id="272c-34e4-2303-c16e" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c872-0a3c-0e9c-46d4" name="Tom the Troll" hidden="false" collective="false" import="true" type="model">
@@ -86,7 +86,6 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="6cc7-425e-9ae4-613a" name="Hero of Valour" hidden="false" collective="false" import="true" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
             <entryLink id="d0e4-5a42-9a64-6a84" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
           </entryLinks>
           <costs>
@@ -107,7 +106,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98be-ef6f-e193-265b" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="3bba-ae3f-3fa0-7fe4" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
+        <categoryLink id="33c4-e054-2ec8-fdbf" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8151-d57b-8bc3-80dd" name="Bert the Troll" hidden="false" collective="false" import="true" type="model">
@@ -181,7 +180,6 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="2f07-e7ad-3dbf-a1f2" name="Hero of Fortitude" hidden="false" collective="false" import="true" targetId="963b-d9e7-5451-b0f9" type="selectionEntry"/>
             <entryLink id="a730-c880-a82a-25e6" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
           </entryLinks>
           <costs>
@@ -202,7 +200,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb8f-bf28-185b-0530" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="9f39-d195-cecd-5ef8" name="New CategoryLink" hidden="false" targetId="c6b6-f034-536e-5c37" primary="true"/>
+        <categoryLink id="d771-247a-ce16-737c" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5149-109b-69e8-b56d" name="Bill the Troll" hidden="false" collective="false" import="true" type="model">
@@ -304,7 +302,6 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="b4f6-c1e7-43ef-ddee" name="Hero of Valour" hidden="false" collective="false" import="true" targetId="9afa-e012-fc54-795e" type="selectionEntry"/>
             <entryLink id="4963-0457-8287-1a7e" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
           </entryLinks>
           <costs>
@@ -326,15 +323,17 @@
       <modifiers>
         <modifier type="set" field="0dff-5ad6-c4cf-7817" value="1">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18bd-5d69-3b58-61ac" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3ef2-6942-65cd-f09c" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="dd34-fd3d-5662-da89" name="The Trolls" hidden="false" collective="false" import="true" targetId="f748-ad73-4dc0-d72c" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="0852-2dc4-4a24-084d" value="1"/>
-      </modifiers>
+    <entryLink id="e9a6-7b76-d337-dbab" name="Determine Alliance Level" hidden="false" collective="false" import="true" targetId="ed75-3bd7-efe7-71d9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bdfb-e831-cb7f-2c3e" name="New CategoryLink" hidden="false" targetId="990b-c865-7625-9987" primary="true"/>
+        <categoryLink id="aac1-f9a4-a6ef-fdce" name="Evil Army" hidden="false" targetId="1146-f65d-18bd-b0d8" primary="false"/>
+        <categoryLink id="a13e-928d-9768-e5f2" name="The Trolls" hidden="false" targetId="f1cf-10ec-fa4a-36ec" primary="false"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <rules>
