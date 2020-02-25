@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b493-2406-a4ce-2319" name="The Fellowship" revision="10" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b493-2406-a4ce-2319" name="The Fellowship" revision="11" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b493-2406-pubN65553" name="Armies of Lord of the Rings"/>
   </publications>
@@ -76,7 +76,11 @@
         <categoryLink id="3797-b93d-2c6a-7e51" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ce41-abc8-7cfa-1b43" name="Frodo Baggins" hidden="false" collective="false" import="true" targetId="dd6c-5c6d-5d90-e8cc" type="selectionEntry"/>
+        <entryLink id="ce41-abc8-7cfa-1b43" name="Frodo Baggins" hidden="false" collective="false" import="true" targetId="dd6c-5c6d-5d90-e8cc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c959-dd8a-5639-0401" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -92,7 +96,11 @@
         <categoryLink id="751e-2e2a-fa99-6dcc" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="649d-6174-9f00-970a" name="Samwise Gamgee" hidden="false" collective="false" import="true" targetId="0038-dd5d-3ac6-b66f" type="selectionEntry"/>
+        <entryLink id="649d-6174-9f00-970a" name="Samwise Gamgee" hidden="false" collective="false" import="true" targetId="0038-dd5d-3ac6-b66f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c299-7370-fb75-fa50" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -249,7 +257,11 @@
         <categoryLink id="395c-8526-5d3d-0412" name="New CategoryLink" hidden="false" targetId="715f-06b0-fffa-1d52" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="85d8-efb2-f4cc-2a14" name="Sméagol" hidden="false" collective="false" import="true" targetId="6365-124a-061f-3e74" type="selectionEntry"/>
+        <entryLink id="85d8-efb2-f4cc-2a14" name="Sméagol" hidden="false" collective="false" import="true" targetId="6365-124a-061f-3e74" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="73f2-b136-e0ab-3894" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -274,6 +286,11 @@
       <entryLinks>
         <entryLink id="7025-ca83-8733-0686" name="Arwen Undómiel" hidden="false" collective="false" import="true" targetId="7ce2-b603-e16f-985c" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
