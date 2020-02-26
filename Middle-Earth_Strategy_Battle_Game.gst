@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="84" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="87" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="3e16-9abf-pubN102460" name="Middle-Earth Strategy Battle Game Rules Manual"/>
     <publication id="3e16-9abf-pubN103678" name="Armies of Lord of the Rings"/>
@@ -5556,6 +5556,17 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4ac9-c10d-97b1-5546" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="de26-60e8-f5af-59cd" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="40.0"/>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -5834,9 +5845,6 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <selectionEntry id="766f-bec0-26b0-ec68" name="Cart" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0f3-7a3d-ea88-3fea" type="instanceOf"/>
-                  </conditions>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
@@ -5847,6 +5855,13 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
                           <conditions>
                             <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6b7-f518-07fb-42c8" type="instanceOf"/>
                           </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0f3-7a3d-ea88-3fea" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
                     </conditionGroup>
@@ -9852,6 +9867,9 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c7b5-3c2e-bfcc-2016" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="60.0"/>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -10293,7 +10311,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="90.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="125.0"/>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
@@ -24547,7 +24565,7 @@ or
                                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cdef-89a1-518e-296a" type="equalTo"/>
                                   </conditions>
                                   <conditionGroups>
-                                    <conditionGroup type="and">
+                                    <conditionGroup type="or">
                                       <conditions>
                                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6516-3d89-86a9-dd28" type="equalTo"/>
                                       </conditions>
@@ -25612,7 +25630,7 @@ or
                                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cdef-89a1-518e-296a" type="equalTo"/>
                                   </conditions>
                                   <conditionGroups>
-                                    <conditionGroup type="and">
+                                    <conditionGroup type="or">
                                       <conditions>
                                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6516-3d89-86a9-dd28" type="equalTo"/>
                                       </conditions>
