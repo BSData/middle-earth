@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="87" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="89" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="3e16-9abf-pubN102460" name="Middle-Earth Strategy Battle Game Rules Manual"/>
     <publication id="3e16-9abf-pubN103678" name="Armies of Lord of the Rings"/>
@@ -11494,14 +11494,18 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
         <modifierGroup>
           <modifiers>
             <modifier type="set" field="a7a6-bb3f-ebe2-404b" value="1.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1457-d7c4-8533-0bd7" type="equalTo"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="82da-a349-b99e-d272" type="equalTo"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1457-d7c4-8533-0bd7" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -19467,9 +19471,7 @@ Hero</characteristic>
         <infoGroup id="feb1-95fa-ca48-b610" name="Special Rules" hidden="false">
           <rules>
             <rule id="c3b9-1640-c146-8b6f" name="The King of Rohan" publicationId="b222-d397-7636-8248" page="129" hidden="false">
-              <description>Helm Hammerhand gains the Mighty Hero special rule.
-Additionally, Helm Hammerhand may declare a Heroic
-Combat each turn without spending Might.</description>
+              <description>Helm Hammerhand gains the Mighty Hero special rule. Additionally, Helm Hammerhand may declare a Heroic Combat each turn without spending Might.</description>
             </rule>
           </rules>
           <infoLinks>

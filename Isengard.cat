@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a5a6-9c3a-4e49-e794" name="Isengard" revision="23" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a5a6-9c3a-4e49-e794" name="Isengard" revision="24" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a5a6-9c3a-pubN65614" name="Armies of Lord of the Rings"/>
   </publications>
@@ -2056,11 +2056,6 @@ Hero</characteristic>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c255-a550-bd28-098e" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="remove" field="category" value="0ce2-d79d-fb91-3fa2">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c255-a550-bd28-098e" type="equalTo"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="58f7-606c-623b-3fc4" type="max"/>
@@ -2359,6 +2354,38 @@ Hero</characteristic>
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a0b1-fb97-208f-e0f7" type="equalTo"/>
           </conditions>
+        </modifier>
+        <modifier type="increment" field="a57d-516e-8363-63c9" value="3.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="13fd-94e2-9306-3656" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="101e-ea62-7766-406a" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="a57d-516e-8363-63c9" value="3.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c255-a550-bd28-098e" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c56-b48e-8137-c1cf" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -3231,6 +3258,22 @@ An enemy model that spends a Fight phase in base contact with a demolition charg
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
                   </conditions>
                 </modifier>
+                <modifier type="increment" field="b1fd-b247-5768-a1f4" value="3.0">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="13fd-94e2-9306-3656" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="101e-ea62-7766-406a" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbbd-7d86-d47f-17b3" type="min"/>
@@ -3438,6 +3481,27 @@ An enemy model that spends a Fight phase in base contact with a demolition charg
                 <modifier type="decrement" field="309b-d0c9-6408-61c9" value="3.0">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="309b-d0c9-6408-61c9" value="3.0">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="13fd-94e2-9306-3656" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="101e-ea62-7766-406a" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="name" value="Men">
+                  <conditions>
+                    <condition field="selections" scope="f3d3-277e-3ee3-9341" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="68bd-f205-3e86-fe6f" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3831,6 +3895,22 @@ An enemy model that spends a Fight phase in base contact with a demolition charg
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
                   </conditions>
+                </modifier>
+                <modifier type="increment" field="93ab-12b6-be81-d01d" value="3.0">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c255-a550-bd28-098e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c56-b48e-8137-c1cf" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -4315,6 +4395,22 @@ An enemy model that spends a Fight phase in base contact with a demolition charg
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
                   </conditions>
                 </modifier>
+                <modifier type="increment" field="7dd9-967f-9c6e-d3eb" value="3.0">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="13fd-94e2-9306-3656" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="101e-ea62-7766-406a" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="928a-8b4e-891c-2712" type="min"/>
@@ -4423,6 +4519,22 @@ Warrior</characteristic>
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
                   </conditions>
+                </modifier>
+                <modifier type="increment" field="1982-3d4f-2bb5-5247" value="3.0">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="13fd-94e2-9306-3656" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="101e-ea62-7766-406a" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -4551,6 +4663,22 @@ Warrior</characteristic>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
                   </conditions>
                 </modifier>
+                <modifier type="increment" field="5ce0-d62d-f4f3-ee5f" value="3.0">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="13fd-94e2-9306-3656" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="101e-ea62-7766-406a" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c8-a3a6-414c-1f42" type="min"/>
@@ -4630,6 +4758,22 @@ Warrior</characteristic>
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
                   </conditions>
+                </modifier>
+                <modifier type="increment" field="24de-51e9-83b3-5fe9" value="3.0">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c255-a550-bd28-098e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c56-b48e-8137-c1cf" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
