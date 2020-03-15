@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="de26-60e8-f5af-59cd" name="Rivendell" revision="23" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="de26-60e8-f5af-59cd" name="Rivendell" revision="24" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="de26-60e8-pubN65565" name="Armies of Lord of the Rings"/>
   </publications>
@@ -42,12 +42,11 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e81-d841-b5b1-8a83" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="082a-07d4-078f-453c" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
+      </categoryLinks>
       <entryLinks>
-        <entryLink id="8488-e842-c5c9-d47d" name="Warband" hidden="false" collective="false" import="true" targetId="1ecc-20fa-d690-4e88" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="1259-51df-340e-70a5" value="15"/>
-          </modifiers>
-        </entryLink>
+        <entryLink id="8488-e842-c5c9-d47d" name="Warband" hidden="false" collective="false" import="true" targetId="1ecc-20fa-d690-4e88" type="selectionEntry"/>
         <entryLink id="7290-09e2-bf28-bcea" name="Glorfindel, Lord of the West" hidden="false" collective="false" import="true" targetId="b890-65d0-511d-dbae" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -184,12 +183,11 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6cdc-8765-0408-10db" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="e436-586a-e102-49f9" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
+      </categoryLinks>
       <entryLinks>
-        <entryLink id="3729-95e5-99ac-d7b9" name="Warband" hidden="false" collective="false" import="true" targetId="1ecc-20fa-d690-4e88" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="1259-51df-340e-70a5" value="12.0"/>
-          </modifiers>
-        </entryLink>
+        <entryLink id="3729-95e5-99ac-d7b9" name="Warband" hidden="false" collective="false" import="true" targetId="1ecc-20fa-d690-4e88" type="selectionEntry"/>
         <entryLink id="893a-df33-00ec-baa6" name="Lindir of Rivendell" hidden="false" collective="false" import="true" targetId="9abb-7176-3884-d4a8" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -686,7 +684,7 @@
                       <conditionGroups>
                         <conditionGroup type="and">
                           <conditions>
-                            <condition field="selections" scope="dd4f-44ed-68db-b147" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5cb3-c11b-0e24-9a90" type="equalTo"/>
+                            <condition field="selections" scope="dd4f-44ed-68db-b147" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5cb3-c11b-0e24-9a90" type="equalTo"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>

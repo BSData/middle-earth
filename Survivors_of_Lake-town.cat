@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c0f3-7a3d-ea88-3fea" name="Survivors of Lake-town" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c0f3-7a3d-ea88-3fea" name="Survivors of Lake-town" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c0f3-7a3d-pubN65612" name="Armies of the Hobbit"/>
   </publications>
@@ -473,28 +473,9 @@
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="f2a6-127e-3572-c65a" name="Wargear" hidden="false" collective="false" import="true">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="2432-0c40-2e14-d17f" name=" " hidden="false" collective="false" import="true" defaultSelectionEntryId="eceb-f773-9a30-a582">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f202-b8f6-0203-857d" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98a5-0e37-f455-4bcd" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="eceb-f773-9a30-a582" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="26be-b7ba-4fb0-04dc" value="0.0"/>
-                      </modifiers>
-                    </entryLink>
-                    <entryLink id="e8fc-7809-1d91-035d" name="Axe" hidden="false" collective="false" import="true" targetId="6487-f2cf-5eb7-a780" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="10cf-3df6-657b-ff0f" value="0.0"/>
-                      </modifiers>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="1efe-42ab-8a30-9d2e" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="7031-4879-6ef5-7009" name="Weapon" hidden="false" collective="false" import="true" targetId="2fb2-bc75-1f44-5626" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="6eec-d140-a1fb-97e2" name="Options" hidden="false" collective="false" import="true">
@@ -578,14 +559,18 @@
         <entryLink id="35e0-1b52-af8d-b256" name="Sigrid &amp; Tilda" hidden="true" collective="false" import="true" targetId="3847-63c0-b826-d5df" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab5e-daa4-a57b-e5ed" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a57-ffe5-384e-03be" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab5e-daa4-a57b-e5ed" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
