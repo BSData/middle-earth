@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2035-ffec-6f67-45de" name="Lothlórien" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2035-ffec-6f67-45de" name="Lothlórien" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="2035-ffec-pubN65612" name="Armies of Lord of the Rings"/>
   </publications>
@@ -358,11 +358,17 @@
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e53-b18f-0f14-dc92" type="instanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="increment" field="56a3-9c53-fd7f-d6e6" value="1.0">
+          <repeats>
+            <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a40e-6f5e-9b3a-1891" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a206-e5c7-b74b-d09e" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9201-3872-d200-be21" type="min"/>
         <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6342-ea84-fe55-90c7" type="max"/>
+        <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="56a3-9c53-fd7f-d6e6" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="830f-b2be-34ac-3ec8" name="Galadhrim Warrior" hidden="false" collective="false" import="true" type="upgrade">

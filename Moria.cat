@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="14" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="16" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="98fa-59f5-pubN65643" name="Armies of Lord of the Rings"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="5e5d-8abb-9d7e-96c7" name="The Balrog" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="62c1-71d1-61ff-834b" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8cae-240a-5a83-dcd3" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="62c1-71d1-61ff-834b" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="aa31-2786-0d09-4a4b" name="New CategoryLink" hidden="false" targetId="6e9c-4e8f-3256-f4f0" primary="true"/>
@@ -107,7 +119,19 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="6548-b316-9af4-a255" name="Leader (Legend)" hidden="false" collective="false" import="true" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry"/>
+            <entryLink id="6548-b316-9af4-a255" name="Leader (Legend)" hidden="false" collective="false" import="true" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="6a27-429e-afda-9fed" value="1.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="350.0"/>
@@ -126,6 +150,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="416c-450d-7e41-9aec" name="Durbûrz, The Goblin King of Moria" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="7824-c119-1654-7b3c" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7824-c119-1654-7b3c" type="max"/>
       </constraints>
@@ -198,6 +242,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f228-9edc-141e-885a" name="Grôblog" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="189d-b3de-48ef-71d8" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="189d-b3de-48ef-71d8" type="max"/>
       </constraints>
@@ -285,6 +349,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="943b-885d-0eb8-e7cc" name="Drûzhag the Beastcaller" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="577f-4cc3-da20-fa37" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577f-4cc3-da20-fa37" type="max"/>
       </constraints>
@@ -375,6 +459,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a7f4-76da-c0fd-ca8e" name="Ashrâk" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="681f-2e0a-511b-674e" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="681f-2e0a-511b-674e" type="max"/>
       </constraints>
@@ -800,6 +904,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bdf4-4cff-e1ec-ca81" name="Dragon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="b0f2-9855-e6cb-26b5" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b0f2-9855-e6cb-26b5" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="60e4-e6a3-8330-97a3" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
       </categoryLinks>
@@ -957,6 +1084,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c7f2-7afa-47b8-c468" name="Cave Drake" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8355-b088-24ec-09b4" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8355-b088-24ec-09b4" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="eef0-b48b-2265-2604" name="New CategoryLink" hidden="false" targetId="5e53-b18f-0f14-dc92" primary="true"/>
       </categoryLinks>
@@ -1030,6 +1180,26 @@ Fate rolls may be made against this Brutal Power Attack as if it has caused a Wo
       </costs>
     </selectionEntry>
     <selectionEntry id="febe-35fd-0a65-8f7c" name="The Watcher in the Water" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="6305-b4ed-4d63-2e84" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6305-b4ed-4d63-2e84" type="max"/>
       </constraints>
@@ -1145,6 +1315,7 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
         <categoryLink id="5561-5d38-f819-503e" name="Moria" hidden="false" targetId="b16e-7e8a-15bd-f139" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="dc6f-40fd-4629-917f" name="Depths of Moria" hidden="false" collective="false" import="true" targetId="5136-5fc4-64b3-af2f" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="0234-96ca-4213-c04c" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
@@ -1634,7 +1805,7 @@ The Drum is a Heavy Object and as such is moved exactly like one. The Drum canno
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="100.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="75.0"/>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
@@ -1801,6 +1972,29 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
           </costs>
         </selectionEntry>
         <selectionEntry id="f0ce-7b9f-1329-80e8" name="Bat Swarm" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="e43a-4f43-43c8-86f8" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e43a-4f43-43c8-86f8" type="max"/>
+          </constraints>
           <profiles>
             <profile id="e260-a8bd-9cb3-d51c" name="Bat Swarm" publicationId="98fa-59f5-pubN65643" page="163" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1868,6 +2062,29 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
           </costs>
         </selectionEntry>
         <selectionEntry id="e8b2-b98f-1be8-795f" name="Warg Marauder" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="33db-0581-e5c5-15cb" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33db-0581-e5c5-15cb" type="max"/>
+          </constraints>
           <profiles>
             <profile id="ab55-493a-6600-76ac" name="Warg Marauder" publicationId="98fa-59f5-pubN65643" page="164" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -2036,6 +2253,29 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
           </costs>
         </selectionEntry>
         <selectionEntry id="7788-b17f-5ae6-3d05" name="Dweller in the Dark" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="1541-8440-06b3-7697" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1541-8440-06b3-7697" type="max"/>
+          </constraints>
           <profiles>
             <profile id="d2fe-54fe-a665-4a63" name="Dweller in the Dark" publicationId="98fa-59f5-pubN65643" page="165" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -2113,14 +2353,18 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
         <selectionEntry id="cae9-8444-0d67-b467" name="Giant Spider" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7f4-76da-c0fd-ca8e" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="943b-885d-0eb8-e7cc" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7f4-76da-c0fd-ca8e" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -2201,9 +2445,13 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
         <selectionEntry id="b605-413e-69e6-b5c6" name="Wild Warg" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="943b-885d-0eb8-e7cc" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="943b-885d-0eb8-e7cc" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <infoLinks>
@@ -2238,9 +2486,13 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
         <selectionEntry id="b5a2-538a-0317-771b" name="Fell Warg" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="943b-885d-0eb8-e7cc" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="943b-885d-0eb8-e7cc" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <infoGroups>

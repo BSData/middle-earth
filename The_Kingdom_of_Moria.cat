@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f416-34f8-9c3f-58fa" name="The Kingdom of Moria" revision="14" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f416-34f8-9c3f-58fa" name="The Kingdom of Moria" revision="14" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f416-34f8-pubN70265" name="Armies of Lord of the Rings"/>
   </publications>
@@ -522,7 +522,12 @@
                 </selectionEntry>
                 <selectionEntry id="273a-9285-c55a-8aa1" name="Dwarf Bow" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
+                    <modifier type="increment" field="ab3b-a62b-ef54-533c" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="387a-9e44-2837-885c" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1.0">
                       <repeats>
                         <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="387a-9e44-2837-885c" repeats="1" roundUp="false"/>
                       </repeats>

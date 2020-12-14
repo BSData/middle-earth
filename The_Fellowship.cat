@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b493-2406-a4ce-2319" name="The Fellowship" revision="11" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b493-2406-a4ce-2319" name="The Fellowship" revision="12" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b493-2406-pubN65553" name="Armies of Lord of the Rings"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="4e50-b955-82f7-add6" name="Gandalf the Grey" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="ddf5-22c0-6839-cd9c" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ddf5-22c0-6839-cd9c" type="max"/>
       </constraints>
@@ -21,8 +33,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cec6-0426-0f8d-475f" name="Aragorn - Strider" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="a94c-7b37-44b7-fe32" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f02a-30e0-07c5-b6a6" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a94c-7b37-44b7-fe32" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7708-11f6-9e6a-e1e6" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
@@ -158,9 +178,25 @@
     </selectionEntry>
     <selectionEntry id="8d60-aa81-4527-68d2" name="Bill the Pony" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="98d7-7a2c-4f28-584e" value="1">
+        <modifier type="set" field="98d7-7a2c-4f28-584e" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8baf-cfbb-42ab-a4a7" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8baf-cfbb-42ab-a4a7" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -181,7 +217,7 @@
     </selectionEntry>
     <selectionEntry id="558d-8cf4-7895-2bf2" name="Sméagol" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="a7b0-78cf-3839-eaf8" value="1">
+        <modifier type="set" field="a7b0-78cf-3839-eaf8" value="1.0">
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8777-79a5-6049-4705" type="equalTo"/>
           </conditions>
@@ -230,6 +266,13 @@
                                               <conditions>
                                                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d60-aa81-4527-68d2" type="equalTo"/>
                                               </conditions>
+                                              <conditionGroups>
+                                                <conditionGroup type="and">
+                                                  <conditions>
+                                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                                                  </conditions>
+                                                </conditionGroup>
+                                              </conditionGroups>
                                             </conditionGroup>
                                           </conditionGroups>
                                         </conditionGroup>
@@ -248,6 +291,11 @@
               </conditionGroups>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -272,8 +320,24 @@
     <selectionEntry id="28b2-ca00-e67e-a77a" name="Arwen Undómiel" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="1d93-96c2-2dac-ee4d" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cec6-0426-0f8d-475f" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cec6-0426-0f8d-475f" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -310,6 +374,7 @@
         <categoryLink id="8eff-a2c8-c43d-89a5" name="The Fellowship" hidden="false" targetId="1ebe-160f-d14c-c41b" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="2b53-2be2-910e-2489" name="Breaking of the Fellowship" hidden="false" collective="false" import="true" targetId="f6e1-0c75-16e4-e2b7" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="d925-c372-52d7-b06f" name="Additional Rules" publicationId="b493-2406-pubN65553" page="8" hidden="false">

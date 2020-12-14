@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="89" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="93" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="3e16-9abf-pubN102460" name="Middle-Earth Strategy Battle Game Rules Manual"/>
     <publication id="3e16-9abf-pubN103678" name="Armies of Lord of the Rings"/>
@@ -7,11 +7,12 @@
     <publication id="3e16-9abf-pubN194095" name="Gondor at War"/>
     <publication id="e790-6a8a-2723-abb9" name="Scouring of the Shire"/>
     <publication id="b222-d397-7636-8248" name="War in Rohan"/>
+    <publication id="5ba1-ebaf-1b40-a44f" name="Quest of the Ringbearer"/>
   </publications>
   <costTypes>
-    <costType id="8bde-d63c-7caa-c15d" name=" Points" defaultCostLimit="-1.0"/>
-    <costType id="391e-19ac-b71d-f2e3" name=" Warriors" defaultCostLimit="-1.0"/>
-    <costType id="ab3b-a62b-ef54-533c" name=" Bow" defaultCostLimit="-1.0"/>
+    <costType id="8bde-d63c-7caa-c15d" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="391e-19ac-b71d-f2e3" name=" Warriors" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="ab3b-a62b-ef54-533c" name=" Bow" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="41b1-0f32-a644-93b4" name="Warrior">
@@ -578,6 +579,7 @@
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed4e-70be-8a65-d7e0" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="858f-a3b2-4899-aae7" type="min"/>
       </constraints>
       <infoLinks>
         <infoLink id="6adc-bf5e-3170-1353" name="Elven Cloak" hidden="false" targetId="57c6-21f6-ffae-7c7b" type="profile"/>
@@ -1889,13 +1891,9 @@ If there is an Easterling contingent as part of an army that contains an allianc
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e767-a24e-d3eb-c447" type="max"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bb06-d207-0364-31e1" type="min"/>
       </constraints>
-      <rules>
-        <rule id="7d98-0748-2130-34ed" name="You have my Sword" publicationId="3e16-9abf-pubN103678" page="8" hidden="false">
-          <description>The Fellowship is a single Warband which consists of all Heroes.
-
-As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule. Additionally, a force that consists solely of models from The Fellowship army list will never be considered Broken if Frodo is alive and of the table (or escapes the board in Scenarios where this applies).</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="5ef6-c473-1ee9-665f" name="You have my Sword" hidden="false" targetId="3d5b-6d87-280c-9492" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="2fa4-0c60-7b62-b2a8" name="New CategoryLink" hidden="false" targetId="990b-c865-7625-9987" primary="true"/>
       </categoryLinks>
@@ -2878,7 +2876,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f02d-aa6d-5c4b-a350" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ff5-17bf-0cab-7614" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4464,9 +4462,9 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           <modifiers>
             <modifier type="increment" field="277f-f1cc-52bd-bf86" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9afa-e012-fc54-795e" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="963b-d9e7-5451-b0f9" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4bbe-b6f8-1426-c662" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e9c-4e8f-3256-f4f0" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5daa-6832-f49b-2b35" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ce2-d79d-fb91-3fa2" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -4502,47 +4500,6 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           </infoLinks>
         </infoGroup>
       </infoGroups>
-      <selectionEntries>
-        <selectionEntry id="4366-b587-895e-7d0d" name="Orc Crew" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="472e-dc9a-a39d-4508" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddd8-0e92-cedc-6299" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="1746-f1b5-d377-a7be" name="Orc Warrior" hidden="false" targetId="9132-8849-03f8-b5c2" type="profile">
-              <modifiers>
-                <modifier type="set" field="name" value="Orc Crew"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="2100-68c4-66cc-7d14" name="Crew" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2de-4aab-71b2-c54f" type="max"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0051-b91b-5898-00c5" type="min"/>
-              </constraints>
-              <costs>
-                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e849-6e9a-078d-c30c" name="Wargear" hidden="false" collective="false" import="true">
-              <entryLinks>
-                <entryLink id="f664-41e1-91bb-5525" name="Weapon" hidden="false" collective="false" import="true" targetId="f6ad-e4da-7fb4-dae1" type="selectionEntryGroup"/>
-                <entryLink id="b690-ba72-643f-df60" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="4903-5af6-77a9-04bc" name="Options" hidden="false" collective="false" import="true">
           <selectionEntries>
@@ -4591,9 +4548,9 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           <modifiers>
             <modifier type="increment" field="8aa0-9a18-31bc-c573" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9afa-e012-fc54-795e" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="963b-d9e7-5451-b0f9" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4bbe-b6f8-1426-c662" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6e9c-4e8f-3256-f4f0" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ce2-d79d-fb91-3fa2" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5daa-6832-f49b-2b35" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -4622,51 +4579,6 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           </infoLinks>
         </infoGroup>
       </infoGroups>
-      <selectionEntries>
-        <selectionEntry id="9d8a-cb6b-894a-d685" name="Troll" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7de2-dbda-cc55-4c3c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b487-297d-8071-0a0c" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="845f-c0a6-2be2-4042" name="Troll" publicationId="3e16-9abf-pubN103678" page="123" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
-              <characteristics>
-                <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
-                <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">7/5+</characteristic>
-                <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">7</characteristic>
-                <characteristic name="Defense" typeId="d64a-e776-38fd-3019">7</characteristic>
-                <characteristic name="Attack" typeId="6235-3861-befd-7242">3</characteristic>
-                <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">3</characteristic>
-                <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">4</characteristic>
-                <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Troll Mordor Monster Infantry Warrior</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoGroups>
-            <infoGroup id="af15-c025-6534-655b" name="Special Rules" hidden="false">
-              <infoLinks>
-                <infoLink id="ff5e-6ecf-a8a2-16b2" name="Troll" hidden="false" targetId="bc1b-f88b-6022-43f3" type="rule"/>
-                <infoLink id="208c-2d4e-dc35-7351" name="Throw Stones" hidden="false" targetId="39ee-f288-50d5-973e" type="rule"/>
-                <infoLink id="179e-9166-393c-8776" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-                <infoLink id="7a36-bff2-2b6f-2a0d" name="Throw Stones" hidden="false" targetId="97f1-b8b1-1c11-c73b" type="profile"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e7e2-efa5-0985-0adf" name="Wargear" hidden="false" collective="false" import="true">
-              <entryLinks>
-                <entryLink id="722a-da84-23f1-fd4f" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                <entryLink id="29b6-9ff8-2228-d1c7" name="Weapon" hidden="false" collective="false" import="true" targetId="f6ad-e4da-7fb4-dae1" type="selectionEntryGroup"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
-            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="1a49-c648-7dd9-cae7" name="Options" hidden="false" collective="false" import="true">
           <selectionEntries>
@@ -4692,43 +4604,6 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <entryLink id="2e50-208f-3a5a-76b3" name="Flamming Ammunition" hidden="false" collective="false" import="true" targetId="af89-b25c-bd59-88fd" type="selectionEntry"/>
             <entryLink id="e983-12aa-a0ce-d124" name="Severed Heads" hidden="false" collective="false" import="true" targetId="dc44-fdf1-7ac8-1302" type="selectionEntry"/>
           </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="b81e-acb7-e164-04e0" name="Wargear" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="57a8-75f7-03f5-d4a1" name="Orc Crew" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7c7-d8af-f7c8-68aa" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f1b-f5ac-3fec-0a6e" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="a25f-1904-037f-6073" name="Orc Crew" publicationId="3e16-9abf-pubN103678" page="123" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
-                  <characteristics>
-                    <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
-                    <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">3/5+</characteristic>
-                    <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">3</characteristic>
-                    <characteristic name="Defense" typeId="d64a-e776-38fd-3019">4</characteristic>
-                    <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
-                    <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
-                    <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">2</characteristic>
-                    <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Orc Mordor Infantry Warrior</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="70c9-1af4-8be5-c0a0" name="Wargear" hidden="false" collective="false" import="true">
-                  <entryLinks>
-                    <entryLink id="3b5c-493f-65ac-6639" name="Weapon" hidden="false" collective="false" import="true" targetId="f6ad-e4da-7fb4-dae1" type="selectionEntryGroup"/>
-                    <entryLink id="0459-7da2-baad-10c0" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
-                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -5341,6 +5216,9 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="1642-1af7-bc67-a17e" name="Wargear" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="aa4b-d4a6-81ad-08ec" name="Gifts of Galadriel" hidden="false" targetId="bd0c-de99-9030-5300" type="infoGroup"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="776b-1dd5-00db-1d8e" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
           </entryLinks>
@@ -5400,6 +5278,16 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c98-43f7-7ad1-b2a5" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="8bde-d63c-7caa-c15d" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="858f-a3b2-4899-aae7" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </entryLink>
             <entryLink id="9b31-d1df-b61f-1120" name="Andúril, Flame of the West" hidden="false" collective="false" import="true" targetId="3d53-04f4-ccd7-3778" type="selectionEntry">
@@ -5431,9 +5319,20 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
         <entryLink id="a94e-c58f-f873-e4d8" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="94de-9fa6-cfc5-eae7" value="1.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -6240,12 +6139,28 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <selectionEntryGroups>
         <selectionEntryGroup id="38bd-22df-4fde-7815" name="Options" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="f2a3-4541-977f-fa25" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry"/>
+            <entryLink id="f2a3-4541-977f-fa25" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="858f-a3b2-4899-aae7" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="8bde-d63c-7caa-c15d" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="1cee-e24e-5f36-9d48" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry"/>
             <entryLink id="70e2-53d0-4a1e-1f07" name="Shield" hidden="false" collective="false" import="true" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="10b6-ad8e-2b72-276c" name="Wargear" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="434b-9f3c-7e7c-35ca" name="Gifts of Galadriel" hidden="false" targetId="bd0c-de99-9030-5300" type="infoGroup"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="55e4-1a23-f130-ddff" name="Horn of Gondor" hidden="false" collective="false" import="true" targetId="f782-1cc2-8c07-a218" type="selectionEntry"/>
             <entryLink id="0de4-b7a0-0bd0-ffed" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
@@ -6314,22 +6229,46 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           <entryLinks>
             <entryLink id="75cb-4d12-14b9-b8d1" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="e5ad-748e-ac6b-5a78" value="1.0">
+                <modifier type="set" field="858f-a3b2-4899-aae7" value="1.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="8bde-d63c-7caa-c15d" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ad-748e-ac6b-5a78" type="min"/>
-              </constraints>
             </entryLink>
             <entryLink id="bbd5-06fd-f5a6-3824" name="Sting" hidden="false" collective="false" import="true" targetId="2428-760d-9db5-14d8" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="b920-e527-3473-e977" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -6339,9 +6278,20 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <entryLink id="0741-be09-4795-0f45" name="Mithril Coat" hidden="false" collective="false" import="true" targetId="b2df-6b78-3eef-e449" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="feb2-7aa5-9924-a986" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -6351,6 +6301,9 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="70ca-1ad7-12b3-7663" name="Wargear" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="a61a-eeb0-3c8c-0b69" name="Gifts of Galadriel" hidden="false" targetId="bd0c-de99-9030-5300" type="infoGroup"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="4342-51bd-2f97-4369" name="The One Ring" hidden="false" collective="false" import="true" targetId="ddc1-67a9-1014-b73c" type="selectionEntry">
               <constraints>
@@ -6432,10 +6385,26 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <selectionEntryGroups>
         <selectionEntryGroup id="4405-dd1c-931d-77f5" name="Options" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="fbee-fd98-f94a-0311" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry"/>
+            <entryLink id="fbee-fd98-f94a-0311" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="858f-a3b2-4899-aae7" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="8bde-d63c-7caa-c15d" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="eb90-07e0-c035-b9ae" name="Wargear" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="6c58-a37c-8dff-831e" name="Gifts of Galadriel" hidden="false" targetId="bd0c-de99-9030-5300" type="infoGroup"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="dc00-62c5-3d81-f330" name="Master Forged Two-Handed Axe" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -6545,7 +6514,6 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       <selectionEntryGroups>
         <selectionEntryGroup id="ac30-ed99-f63f-6736" name="Options" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="6b93-8029-cda7-02a8" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry"/>
             <entryLink id="2645-6975-3a56-0c64" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -6556,9 +6524,26 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               </modifiers>
             </entryLink>
             <entryLink id="fa80-217e-6127-57c1" name="Armour" hidden="false" collective="false" import="true" targetId="37fc-f943-01eb-2efd" type="selectionEntry"/>
+            <entryLink id="e507-465d-8128-81d4" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="858f-a3b2-4899-aae7" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="8bde-d63c-7caa-c15d" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="650a-2bb3-eb35-f4ef" name="Wargear" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="d3a3-3915-9748-aed9" name="Gifts of Galadriel" hidden="false" targetId="bd0c-de99-9030-5300" type="infoGroup"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="ffb8-08b8-ca9b-6012" name="Elf Bow" hidden="false" collective="false" import="true" targetId="afb9-abc4-cba5-86df" type="selectionEntry"/>
             <entryLink id="5955-6219-29a2-ed14" name="Elven-made Daggers" hidden="false" collective="false" import="true" targetId="1a56-de30-3469-9394" type="selectionEntry"/>
@@ -6640,6 +6625,9 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="0c27-e3d6-0d00-464a" name="Wargear" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="ac43-6522-00b7-70dd" name="Gifts of Galadriel" hidden="false" targetId="bd0c-de99-9030-5300" type="infoGroup"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="28ee-d7cb-cbe8-4ef4" name="Dagger" hidden="false" collective="false" import="true" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
           </entryLinks>
@@ -6653,7 +6641,20 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink id="2295-9e15-272d-2fff" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry"/>
+            <entryLink id="2295-9e15-272d-2fff" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="858f-a3b2-4899-aae7" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="8bde-d63c-7caa-c15d" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6714,6 +6715,9 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="996e-de81-2c33-1737" name="Wargear" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="bc40-743f-5268-59cb" name="Gifts of Galadriel" hidden="false" targetId="bd0c-de99-9030-5300" type="infoGroup"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="56a8-7e5c-2091-4f8f" name="Dagger" hidden="false" collective="false" import="true" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
           </entryLinks>
@@ -6727,7 +6731,20 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink id="7538-3c66-6f73-bbca" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry"/>
+            <entryLink id="7538-3c66-6f73-bbca" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="858f-a3b2-4899-aae7" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="8bde-d63c-7caa-c15d" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6787,19 +6804,35 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           <entryLinks>
             <entryLink id="2464-03e4-4154-4ddb" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="ae0c-3eb6-ae13-c96e" value="1">
+                <modifier type="set" field="858f-a3b2-4899-aae7" value="1.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="8bde-d63c-7caa-c15d" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae0c-3eb6-ae13-c96e" type="min"/>
-              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8f76-a073-dc58-0920" name="Wargear" hidden="false" collective="false" import="true">
+          <infoLinks>
+            <infoLink id="77b7-b686-cd80-1e8a" name="Gifts of Galadriel" hidden="false" targetId="bd0c-de99-9030-5300" type="infoGroup"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="3893-6519-c902-3c38" name="Dagger" hidden="false" collective="false" import="true" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
           </entryLinks>
@@ -6885,7 +6918,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c91-4fdd-ad16-08dc" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1146-f65d-18bd-b0d8" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6895,7 +6928,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e83e-6f52-a817-2cc2" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1146-f65d-18bd-b0d8" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6907,7 +6940,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <modifiers>
                 <modifier type="set" field="page" value="85">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e83e-6f52-a817-2cc2" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5acc-0d93-f543-b34f" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6916,7 +6949,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               <modifiers>
                 <modifier type="set" field="page" value="85">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e83e-6f52-a817-2cc2" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5acc-0d93-f543-b34f" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6950,7 +6983,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
                 <modifier type="set" field="0920-e245-e3c2-d982" value="5+"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e83e-6f52-a817-2cc2" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5acc-0d93-f543-b34f" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6968,7 +7001,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
                 <modifier type="set" field="0920-e245-e3c2-d982" value="2+"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c91-4fdd-ad16-08dc" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1146-f65d-18bd-b0d8" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -7844,7 +7877,24 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ade5-c853-4005-a9a6" name="Leader (Legend)" hidden="false" collective="false" import="true" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry"/>
+        <entryLink id="ade5-c853-4005-a9a6" name="Leader (Legend)" hidden="false" collective="false" import="true" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6f77-ee80-cc1f-47a9" name="Leader (Valour)" hidden="true" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="170.0"/>
@@ -11468,7 +11518,7 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d04d-ffdb-d674-d18f" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="715f-06b0-fffa-1d52" type="instanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -12327,6 +12377,48 @@ Before deployment, but after players have decided on their board edges, the cont
           </infoLinks>
         </infoGroup>
       </infoGroups>
+      <selectionEntries>
+        <selectionEntry id="2413-891f-2a4d-aa42" name="Kills" hidden="false" collective="false" import="true" type="upgrade">
+          <infoGroups>
+            <infoGroup id="5b0b-e3c6-2f75-0d2f" name="The Bringer of Death Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="682d-0e4e-4749-78dd" name="Mighty Hero (Passive)" hidden="true" targetId="f325-d8b5-b48f-8824" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2413-891f-2a4d-aa42" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="0aef-83a4-b900-3710" name="Harbinger of Evil (Passive)" hidden="true" targetId="3fce-3425-5bca-8374" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2413-891f-2a4d-aa42" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="16da-fd44-6b74-8463" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2413-891f-2a4d-aa42" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="1d50-0637-18e5-5a43" name="Options" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -14989,7 +15081,7 @@ The Chariot is also subject to the following exceptions:
             <selectionEntryGroup id="2dc9-51f0-c2b2-2807" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="7a53-a1fd-2839-7aa8" name="Dwarf Bow" hidden="false" collective="false" import="true" targetId="f572-47ba-00f8-2bf4" type="selectionEntry"/>
-                <entryLink id="8d99-d716-9f2f-6f9e" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="8d99-d716-9f2f-6f9e" name="Dwarf Armour" hidden="false" collective="false" import="true" targetId="b522-688a-e684-86ef" type="selectionEntry"/>
                 <entryLink id="9050-0929-edf1-15e0" name="Axe" hidden="false" collective="false" import="true" targetId="6487-f2cf-5eb7-a780" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -17826,7 +17918,7 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
               <description>Frodo, Sam and Sméagol must either be deployed together as one warband, or included as part of Faramir’s warband.</description>
             </rule>
             <rule id="f5a7-b5b0-4917-2987" name="Faramir&apos;s Rangers" publicationId="3e16-9abf-pubN194095" page="103" hidden="false">
-              <description>Rangers of Gondor in warbands lead by Faramir, Madril or Damrod do not count towards this force’s Bow Limit.</description>
+              <description>Rangers of Gondor in warbands lead by Faramir, Madril, Damrod, Anborn and Mablung do not count towards this force’s Bow Limit.</description>
             </rule>
           </rules>
         </infoGroup>
@@ -20094,7 +20186,7 @@ Hero</characteristic>
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f02d-aa6d-5c4b-a350" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ff5-17bf-0cab-7614" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -27644,7 +27736,7 @@ When playing a game using an Impossible Alliance, each section of your force wil
                       <conditionGroups>
                         <conditionGroup type="and">
                           <conditions>
-                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5ec8-ad8d-8d3f-368c" type="atLeast"/>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5acc-0d93-f543-b34f" type="atLeast"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -28335,7 +28427,7 @@ When playing a game using an Impossible Alliance, each section of your force wil
                                       <conditionGroups>
                                         <conditionGroup type="and">
                                           <conditions>
-                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de81-28ef-1d9a-e6f0" type="instanceOf"/>
+                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de81-28ef-1d9a-e6f0" type="atLeast"/>
                                           </conditions>
                                           <conditionGroups>
                                             <conditionGroup type="and">
@@ -28870,7 +28962,7 @@ When playing a game using an Impossible Alliance, each section of your force wil
                                       <conditionGroups>
                                         <conditionGroup type="and">
                                           <conditions>
-                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de81-28ef-1d9a-e6f0" type="instanceOf"/>
+                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de81-28ef-1d9a-e6f0" type="atLeast"/>
                                           </conditions>
                                           <conditionGroups>
                                             <conditionGroup type="and">
@@ -33183,10 +33275,10 @@ When playing a game using an Impossible Alliance, each section of your force wil
       <infoGroups>
         <infoGroup id="cd98-1931-802a-6cc3" name="Special Rules" hidden="false">
           <rules>
-            <rule id="8296-d6d5-9ca3-0191" name="Moneybags (Active)" publicationId="8974-3f15-pubN65614" page="45" hidden="false">
+            <rule id="8296-d6d5-9ca3-0191" name="Moneybags (Active)" publicationId="3e16-9abf-pubN141412" page="45" hidden="false">
               <description>The Master of Lake-town can choose to expend a single point of Might at the start of the Fight phase. If he does so, Braga, Captain of the Guard, any Lake-town Guard Captains or Lake-town Guard within 6&quot; receive a bonus of +1 to their Fight value, and count as being in range of a banner, until the end of the phase.</description>
             </rule>
-            <rule id="1d9e-9ba9-112c-2863" name="Dragon-sickness (Passive)" publicationId="8974-3f15-pubN65614" page="45" hidden="false">
+            <rule id="1d9e-9ba9-112c-2863" name="Dragon-sickness (Passive)" publicationId="3e16-9abf-pubN141412" page="45" hidden="false">
               <description>At the start of the game, your opponent may select one of their Hero models to be the bearer of a large sum of gold. If the Master of Lake-town is ever in base contact with the bearer at the end of a Move phase, he must pass a Courage test or be removed as if he had just lost his last Wound.</description>
             </rule>
           </rules>
@@ -33337,6 +33429,412 @@ When playing a game using an Impossible Alliance, each section of your force wil
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="25.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5136-5fc4-64b3-af2f" name="Depths of Moria" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e14e-a0d9-e263-c6af" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="c1bd-e785-bc7b-b4fb" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="0e0f-2e46-d612-84f4" name="Shadow..." publicationId="5ba1-ebaf-1b40-a44f" page="101" hidden="false">
+              <description>Shooting attacks that target the Balrog will only ever hit on a 5 or more.</description>
+            </rule>
+            <rule id="4cbd-81d5-b9c0-6fce" name="Drums in the Deep" publicationId="5ba1-ebaf-1b40-a44f" page="101" hidden="false">
+              <description>The effects of a Moria Goblin or Moria Blackshield Drum are increased from 18&quot; to battlefield wide. Additionally, so long as the Drum and at least one Drummer are alive, then the Drum will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.</description>
+            </rule>
+            <rule id="6d82-5155-7212-4f73" name="Dominion of the Balrog" publicationId="5ba1-ebaf-1b40-a44f" page="101" hidden="false">
+              <description>Friendly Goblin models within 6&quot; of the Balrog gain a bonus of +1 to their Fight value. Additionally, the army will never be considered Broken so long as the Balrog has 6 or more Wounds remaining. Should the Balrog have 5 or fewer Wounds remaining, then the army will Break as normal. If the Balrog is slain, the army will immediately count as Broken.</description>
+            </rule>
+            <rule id="e2a2-adbb-4370-c31e" name="...and Flame" publicationId="5ba1-ebaf-1b40-a44f" page="101" hidden="false">
+              <description>Once per game, at the start of any Shoot phase, the Balrog may select a single enemy model within 3&quot; of it and roll a D6. On a 2+, that model is immediately Set Ablaze. This is an Active ability. After the Balrog has used this ability, it no longer benefits fron the &apos;Shadow...&apos; ability provided by this Legendary Legion.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="7f4e-18bc-3322-4bdf" name="New CategoryLink" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f6e1-0c75-16e4-e2b7" name="Breaking of the Fellowship" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e3fe-c03c-0d82-ecdc" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="f5af-f73d-fd2c-2264" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="7166-bf3e-9aea-5155" name="The Bond of Fellowship" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="false">
+              <description>Models from this Legendary Legion count as in range of a banner if there is another friendly model within 3&quot;.</description>
+            </rule>
+            <rule id="abaa-0819-4371-f798" name="Gifts of Galadriel" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="false">
+              <description>Each member of the Fellowship will gain the item listed below;
+
+Frodo - Light of Erendil
+Sam - Elven Rope
+Merry - Daggers of the Noldorin
+Pippin - Daggers of the Noldorin
+Aragorn - Elven Dagger
+Legolas - Bow of the Galadhrim
+Gimli - Galadriel&apos;s Locks
+Boromir - Golden Belt</description>
+            </rule>
+            <rule id="7800-8ec8-2ace-8948" name="Blessing of Galadriel" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="false">
+              <description>Friendly models always count as having had the Fortify Spirit Magical Power cast upon them. This is always in effect, even if their Will points have been reduced to 0.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="145c-4571-c135-1b9e" name="You have my Sword" hidden="false" targetId="3d5b-6d87-280c-9492" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="1f88-d469-f7a4-87f9" name="New CategoryLink" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd95-cb43-25c8-f87e" name="Lurtz&apos;s Scouts" publicationId="5ba1-ebaf-1b40-a44f" page="99" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="895a-59fb-dcef-c70f" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="8916-9441-0d1c-a2ea" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="f591-b02e-4e20-0038" name="Relentless March" publicationId="5ba1-ebaf-1b40-a44f" page="99" hidden="false">
+              <description>If your army includes Mauhúr then any Uruk-hai Scouts in your force may be upgraded to Mauhúr&apos;s Marauders rather than just the ones in Mauhúr&apos;s warband - this upgrade is free rather than costing 1 point per model. Additionally, Lurtz, Uglúk, Uruk-hai Scout Captains and Uruk-hai Drummers increase their Move value to 8&quot;.</description>
+            </rule>
+            <rule id="32e7-9646-8636-3e28" name="A Worthy Foe" publicationId="5ba1-ebaf-1b40-a44f" page="99" hidden="false">
+              <description>Lurtz may declare a Heroic Challenge against any Hero model regardless of Heroic Tier. Additionally, if Lurtz declares a Heroic Challenge, and the targetted Hero declines then Lurtz regains the Might point spent in declaring the Heroic Challenge.</description>
+            </rule>
+            <rule id="8801-0ed3-4398-a99e" name="Shield Throw" publicationId="5ba1-ebaf-1b40-a44f" page="99" hidden="false">
+              <description>Once per game, Lurtz can choose to use his shield as a throwing weapon. This has a Strength of 4, and any Man-sized (or smaller) model hit by the shield is automatically knocked Prone. Once Lurtz has thrown his shield he no longer carries it and cannot use it for the remainder of the battle. Note that even though he no longer has a shield, Lurtz&apos;s Defence will not be reduced.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="369d-ab8f-e0c5-9aa3" name="New CategoryLink" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="836b-86fe-03ef-68a3" name="The Black Riders" publicationId="5ba1-ebaf-1b40-a44f" page="102" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0648-7e86-d0d0-9f0e" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="3721-0f32-d685-3c29" name="Special Rule" hidden="false">
+          <rules>
+            <rule id="98d1-def0-de83-5b12" name="Terror in the Night" publicationId="5ba1-ebaf-1b40-a44f" page="103" hidden="false">
+              <description>A model in range of between four and six models from this force with the Harbinger of Evil special rule suffer an additional -1 to their Courage value. A model in range of between seven and nine models from this force with the Harbinger of Evil special rule suffers an additional -2 to their Courage value.</description>
+            </rule>
+            <rule id="e3d3-8432-1e86-ca01" name="Screech of the Nazgl" publicationId="5ba1-ebaf-1b40-a44f" page="103" hidden="false">
+              <description>Each Ringwraith can, once per game, cast the Channelled version of the Transfix Magical Power without declaring a Heroic Channelling. This Magical Power is automatically cast, counting the result as a 6, and no Will points are expended. Target models can make a Resist test as normal. Make sure to note which of the Ringwraith models have used this ability as each Ringwraith can only use this ability once per game.</description>
+            </rule>
+            <rule id="75cc-e00c-8a71-6abd" name="The Will of Sauron" publicationId="5ba1-ebaf-1b40-a44f" page="102" hidden="false">
+              <description>Friendly Ringwraith models do not lose a Will point for being in combat as per their Will of Evil special rule.</description>
+            </rule>
+            <rule id="5f03-3077-92b1-c7af" name="Hunt the Ringbearer" publicationId="5ba1-ebaf-1b40-a44f" page="102" hidden="false">
+              <description>At the start of the Fight phase, before other Heroic Actions are declared, if it would be possible for a friendly Ringwraith model to Charge an enemy model with the One Ring following a successful Heroic Combat, that Ringwraith model may declare a Heroic Combat without spending Might. Only one Ringwraith can delcare a &apos;free&apos; Heroic Combat in this way per turn.
+
+If successful, the Ringwraith that declared the Heroic Combat must Charge the enemy model with the One Ring, though any other models that move as part of the Heroic Combat may act as normal.
+
+The player who declared this &apos;free&apos; Heroic Combat automatically wins the roll-off to see which Heroic Combat goes first (if applicable), though they must select this &apos;free&apos; Heroic Combat before any others.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="5e96-fa34-cbb3-3929" name="New CategoryLink" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c30c-673b-9757-0264" name="Cirith Ungol" publicationId="5ba1-ebaf-1b40-a44f" page="104" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="de6e-5b33-5a2e-ab40" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="0ac9-0649-904d-e14c" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="c81a-854f-9abd-77d1" name="Animosity" publicationId="5ba1-ebaf-1b40-a44f" page="105" hidden="false">
+              <description>Friendly Orc models gain a bonus of +1 To Wound in the Fight phase if they are involved in the same fight as a friendly Uruk-hai model. Friendly Uruk-hai models gain a bonus of +1 To Wound in the Fight phase if they are involved in the same fight as a friendly Orc model.</description>
+            </rule>
+            <rule id="5c17-61f6-4436-71d5" name="Rivals for Power" publicationId="5ba1-ebaf-1b40-a44f" page="105" hidden="false">
+              <description>Keep track of how many models Gorbag and Shagrat have each killed. If at any point one of them has fewer kills than the other, that model may re-roll a single D6 when making a Duel roll.</description>
+            </rule>
+            <rule id="ee98-55c1-dc9d-6ec6" name="She Hungers for Sweeter Meats" publicationId="5ba1-ebaf-1b40-a44f" page="105" hidden="false">
+              <description>Shelob adds 1 to her Attack Characteristic when involved in a fight with an enemy Man, Elf, Dwarf or Hobbit model.</description>
+            </rule>
+            <rule id="ee83-d085-fbee-12bd" name="She is always Hungry" publicationId="5ba1-ebaf-1b40-a44f" page="105" hidden="false">
+              <description>At the start of her Move phase, so long as she is not Engaged in a Fight, Shelob can choose to kill and remove a friendly model within 1&quot; of her from the board. If she does so, Shelob can re-roll  any number of dice when making a Duel roll.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="9983-c56b-493b-9386" name="Legendary Legion" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1e62-8f1c-0511-728b" name="Harry Goatleaf" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c70a-9cf6-9bff-e29d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d2c-dd26-be63-2e57" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7893-1428-22c7-12a2" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="c4a8-970c-44f7-f09c" name="Special Rules" hidden="false">
+          <profiles>
+            <profile id="0f90-6a02-1121-07fb" name="Harry Goatleaf" publicationId="5ba1-ebaf-1b40-a44f" page="87" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <modifiers>
+                <modifier type="set" field="2b79-2cec-28e7-0b0d" value="Hero of Fortitude">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">3/4+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">3</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">3</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">1</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">2</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">3</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">1</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man, Ruffian, Infantry, Man	</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="3684-2783-822b-a9fd" name="Gatekeeper (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="87" hidden="false">
+              <description>During the Priority phase, after Priority has been rolled, Harry Goatleaf may spend a point of Will to use this special rule. If he does so, select one enemy Infantry model within 6&quot; and Line of Sight of Hrry Goatleaf and roll a D6. On a 3+, the chosen model cannot move that turn, though they can still do anything else they would normally be able to do. Harry may use Might to influence this roll. Monster models are unaffected by this special rule.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="025e-5a0f-4720-0e91" name="Wargear" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="4878-829f-4dcc-c68a" name="Lantern (Passive)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5f86-c0c5-c749-f0e0" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c051-2829-a67d-fe9f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="92f3-d191-9858-1bdd" name="Lantern (Passive)" publicationId="5ba1-ebaf-1b40-a44f" page="87" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+                  <characteristics>
+                    <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">The area within a 12&quot; radius of Harry Goatleaf is illuminated as if it were daylight. Models within this area can be seen clearly, unless another special rule would prevent them from doing so.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="8c40-67d3-b644-690d" name="Dagger" hidden="false" collective="false" import="true" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="40.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e2c-1c78-5d16-0134" name="Barliman Butterbur" publicationId="5ba1-ebaf-1b40-a44f" page="86" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a58-b59b-5950-c0ba" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b2a-53b8-abda-a51f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2c0e-184e-5d4f-d4c2" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="846c-3bb5-f46e-a757" name="Special Rules" hidden="false">
+          <profiles>
+            <profile id="f1f5-9cf4-d91b-5335" name="Barliman Butterbur" publicationId="5ba1-ebaf-1b40-a44f" page="86" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">3/4+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">3</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">4</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">1</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">2</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">4</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">1</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Defence</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Infantry
+Hero</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="e70e-813c-40d4-86b1" name="Barliman Butterbur, At Your Service (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="86" hidden="false">
+              <description>During his Move phase, if Barliman Butterbur is in base contact with a friendly Hero model, he can spend a Will point to use this ability. If he does, roll a D6. On a 5+, the Hero regains a Wound lost earlier in the battle. If Barliman Butterbur uses this special rule on a Hero from the Fellowship army list, they will regain a lost Wound on a 4+ instead.</description>
+            </rule>
+            <rule id="dce4-5206-0bf3-884a" name="Bill the Pony (Passive)" publicationId="5ba1-ebaf-1b40-a44f" page="86" hidden="false">
+              <description>You may include Bill the Pony in the same force as Barliman Butterbur as if he was part of Barliman&apos;s warband, even if your force doesn&apos;t include Sam. If Bill the Pony is taken as part of Barliman&apos;s warband then he will only cost 10 points rather than 25 points. Additionally, Barliman may benefit from Bill the Pony&apos;s Official Meals and Second Breakfast special rule.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fbfc-d28b-7227-92c5" name="Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="981e-9e31-a653-5f71" name="Club" hidden="false" collective="false" import="true" targetId="4de7-ec7f-29f4-8d49" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Cudgel"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="40.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cbb3-a0e5-106e-2b94" name="Mablung, Ranger of Ithilien" publicationId="5ba1-ebaf-1b40-a44f" page="83" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd17-1f39-6265-63ca" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="579e-6a0b-b5c4-baa1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2180-a2ef-bf5e-3059" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="0b71-763f-d5e6-35f8" name="Special Rules" hidden="false">
+          <profiles>
+            <profile id="f5ab-9190-af01-f60b" name="Mablung, Ranger of Ithilien" publicationId="5ba1-ebaf-1b40-a44f" page="83" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">4/3+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">5</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">1</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">1</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">4</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">1</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="5849-b676-34f8-3bf9" name="Birdcalls (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="83" hidden="false">
+              <description>Mablung, and any Rangers of Gondor within 6&quot; of him (including Faramir, Madril, Damrod and Anborn), gain the Stalk Unseen special rule. Additionally, enemy models targeted by a shooting attack from Mablung, or any Rangers of Gondor within 6&quot; of him (including Faramir, Madril, Damrod and Anborn), do not benefit from the Stalk Unseen special rule for the duration of that shooting attack.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="6e3a-ecf5-c1bc-242e" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5678-ec29-05cc-e986" name="Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c224-0836-42e4-b4ce" name="Bow" hidden="false" collective="false" import="true" targetId="f07a-f21f-5c34-803b" type="selectionEntry"/>
+            <entryLink id="72d5-c1e9-d38e-6634" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+            <entryLink id="5c9f-0a36-1817-9568" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="35.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a122-c885-0360-e726" name="Anborn, Ranger of Ithilien" publicationId="5ba1-ebaf-1b40-a44f" page="82" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="42ca-d86c-4d30-80ca" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4179-ecb9-071e-3be3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ccd6-34a5-c31d-fa7a" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="6258-065f-b358-afb7" name="Special Rules" hidden="false">
+          <profiles>
+            <profile id="ab9b-8c5d-68ec-f1aa" name="Anborn, Ranger of Ithilien" publicationId="5ba1-ebaf-1b40-a44f" page="82" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">4/3+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">5</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">1</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">1</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">4</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">1</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="8f6b-5307-7c2b-5a69" name="Lethal Aim (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="82" hidden="false">
+              <description>Each turn, Anborn may spend a single point of Might without reducing his store (even if he has none remaining) to modify either a To Hit roll, an In The Way roll, or a To Wound roll when shooting with his bow.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="93d1-cd2a-baad-5c99" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8cb4-eb43-3690-30ba" name="Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8057-4859-0aee-22de" name="Bow" hidden="false" collective="false" import="true" targetId="f07a-f21f-5c34-803b" type="selectionEntry"/>
+            <entryLink id="0d80-3d76-07b4-cfab" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+            <entryLink id="2fef-ccbb-d4c5-a4a2" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="35.0"/>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
@@ -33647,42 +34145,93 @@ When playing a game using an Impossible Alliance, each section of your force wil
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="a8f0-7b08-5acd-ee98" name="Mounts" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="0a12-2444-bc0b-789e" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="836b-86fe-03ef-68a3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e2-2620-8e8c-e096" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0a12-2444-bc0b-789e" type="min"/>
       </constraints>
       <entryLinks>
-        <entryLink id="fcd4-7b70-2235-f42d" name="Armoured Fell Beast" hidden="false" collective="false" import="true" targetId="4e42-ea2b-9566-f9bd" type="selectionEntry"/>
-        <entryLink id="8daf-6245-ef83-5506" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry"/>
-        <entryLink id="f6a8-290e-48b4-cf6c" name="Armoured Horse" hidden="false" collective="false" import="true" targetId="eb59-3a9f-f03b-22cc" type="selectionEntry">
+        <entryLink id="fcd4-7b70-2235-f42d" name="Armoured Fell Beast" hidden="false" collective="false" import="true" targetId="4e42-ea2b-9566-f9bd" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d1e-0686-d28a-3957" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9488-5544-6c7c-bce2" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b682-72ff-629b-2dfd" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89c-2934-4ea0-a986" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc0b-d272-62b1-a292" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="836b-86fe-03ef-68a3" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="33f1-5d19-b843-bb35" name="Fell Beast" hidden="false" collective="false" import="true" targetId="6159-fce2-6d9c-2019" type="selectionEntry"/>
+        <entryLink id="8daf-6245-ef83-5506" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="c6d3-55a8-0b0d-b365" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="836b-86fe-03ef-68a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f6a8-290e-48b4-cf6c" name="Armoured Horse" hidden="false" collective="false" import="true" targetId="eb59-3a9f-f03b-22cc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc0b-d272-62b1-a292" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89c-2934-4ea0-a986" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b682-72ff-629b-2dfd" type="instanceOf"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d1e-0686-d28a-3957" type="instanceOf"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9488-5544-6c7c-bce2" type="instanceOf"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="836b-86fe-03ef-68a3" type="equalTo"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="33f1-5d19-b843-bb35" name="Fell Beast" hidden="false" collective="false" import="true" targetId="6159-fce2-6d9c-2019" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="836b-86fe-03ef-68a3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2f11-3c62-203c-e4d7" name="Hero" hidden="false" collective="false" import="true" defaultSelectionEntryId="c39c-7868-1b48-4ef3">
@@ -35002,7 +35551,7 @@ When playing a game using an Impossible Alliance, each section of your force wil
           <infoGroups>
             <infoGroup id="baea-758a-90ae-f04a" name="Special Rules" hidden="false">
               <infoLinks>
-                <infoLink id="0b95-5727-6bef-a551" name="Impaler (Active)" hidden="false" targetId="3c98-64ec-39fa-956b" type="rule"/>
+                <infoLink id="0b95-5727-6bef-a551" name="Impaler (Active)" hidden="false" targetId="838f-8d8c-bb5f-abff" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -35426,6 +35975,14 @@ Once they have arrived, the controlling player places the warband fully within a
     </rule>
     <rule id="fb19-f3e4-630a-8a26" name="Ride for Ruin and the World&apos;s Ending!" publicationId="3e16-9abf-pubN103678" page="60" hidden="false">
       <description>Friendly Rohan Cavalry models gain +1 Strength on a turn in which they Charge.</description>
+    </rule>
+    <rule id="838f-8d8c-bb5f-abff" name="Impaler (Active)" publicationId="3e16-9abf-pubN103678" page="203" hidden="false">
+      <description>Whenever a war camel charges into combat, it will inflict one Strength 4 hit upon on model it has charged (Cavalry models suffer the hits on both the mount and the rider). If after these hits the Raider is unengaged and has the movement remaining, the Raider may complete its move in any way the controlling player wishes; stopping straight away, charging another target or anything in between.</description>
+    </rule>
+    <rule id="3d5b-6d87-280c-9492" name="You have my Sword" publicationId="3e16-9abf-pubN103678" page="8" hidden="false">
+      <description>The Fellowship is a single Warband which consists of all Heroes.
+
+As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule. Additionally, a force that consists solely of models from The Fellowship army list will never be considered Broken if Frodo is alive and of the table (or escapes the board in Scenarios where this applies).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -35967,7 +36524,7 @@ Once they have arrived, the controlling player places the warband fully within a
     <profile id="1adc-814e-33f6-c449" name="Blinding Light" publicationId="3e16-9abf-pubN102460" page="96" hidden="false" typeId="a3c2-3abf-c93f-a686" typeName="Magical Power">
       <characteristics>
         <characteristic name="Duration" typeId="7eb8-9bc7-978c-666c">Temporary</characteristic>
-        <characteristic name="Range" typeId="1ac9-444c-5045-e1c0"/>
+        <characteristic name="Range" typeId="1ac9-444c-5045-e1c0">-</characteristic>
         <characteristic name="Casting" typeId="0920-e245-e3c2-d982"/>
         <characteristic name="Rule" typeId="a482-2126-3af0-f1b8">This power targets the caster themselves. While this power is in effect, any shooting attacks directed at the caster, or a friendly model within 6&quot; of them, will only hit on a To Hit roll of a 6. Additionally, an area within a 12&quot; radius around the caster is illuminated as if it were daylight (perfect when you are fighting underground!).</characteristic>
         <characteristic name="Channelled" typeId="cbd7-145c-ff78-c8f0">The duration becomes Exhaustion.</characteristic>
@@ -36612,4 +37169,136 @@ Once they have arrived, the controlling player places the warband fully within a
       </characteristics>
     </profile>
   </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="bd0c-de99-9030-5300" name="Gifts of Galadriel" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="914a-3adf-2391-5633" name="Elven Rope (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="true" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0038-dd5d-3ac6-b66f" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">Sam always counts as rolling a 6 for any Climb, Jump or Leap tests he has to make.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5f18-7495-1166-7b21" name="Galadriel&apos;s Locks (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="true" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="120a-8965-6980-8112" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">Gimli may re-roll all dice in a Duel roll. Gimli may only use this ability three times per game.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5b7a-08ba-5659-b03c" name="Bow of the Galadhrim (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="true" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ac32-30b4-0114-f0ab" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">Whilst within 3&quot; of a friendly model, Legolas may re-roll and failed To Hit rolls when shooting.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bfdd-a617-ff00-10f6" name="Daggers of the Noldorin (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="true" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5615-7273-05fa-7ae4" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0a3-ac69-6beb-550a" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">Merry &amp; Pippin may re-roll any failed To Wound rolls in combat.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="13d6-08bb-2ac9-aa50" name="Golden Belt" hidden="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30c3-3b22-c499-db52" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="d38b-ff02-3d45-0b77" name="Golden Belt (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+              <characteristics>
+                <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">Boromir gains the Woodland Creature special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b607-384b-47b4-5a57" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="1a27-ce5c-2870-3ec7" name="Elven Dagger" hidden="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e3aa-a9fc-071d-ea3b" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="22cf-7975-b809-4a08" name="Elven Dagger (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="true" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+              <characteristics>
+                <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">This is an Elven-made Dagger with the Uruk-hai Bane special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="d145-f289-40fd-f04a" name="Light of Eärendil" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dd6c-5c6d-5d90-e8cc" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="3468-1c4a-719f-3b79" name="Light of Eärendil (Active)" publicationId="5ba1-ebaf-1b40-a44f" page="95" hidden="true" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+              <characteristics>
+                <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">Each turn Frodo may use a single &apos;free&apos; Will point to attempt to cast the Blinding Light Magical Power. This is cast on a 3+ and cannot be Channeled. Frodo cannot use this if he is wearing the Ring.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1903-5438-cbc2-d272" name="Blinding Light" hidden="true" targetId="1adc-814e-33f6-c449" type="profile">
+              <modifiers>
+                <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+    </infoGroup>
+  </sharedInfoGroups>
 </gameSystem>
