@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="28" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="29" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="03ff-cc3e-pubN65735" name="Armies of Lord of the Rings"/>
     <publication id="03ff-cc3e-pubN74686" name="Battle Companies"/>
   </publications>
   <selectionEntries>
@@ -81,7 +80,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af26-f450-650d-9f73" type="max"/>
           </constraints>
           <profiles>
-            <profile id="23b6-10f1-6d4a-1995" name="Gondor Battlecry Trebuchet" publicationId="03ff-cc3e-pubN65735" page="44" hidden="false" typeId="1551-040e-a178-bf4a" typeName="Siege">
+            <profile id="23b6-10f1-6d4a-1995" name="Gondor Battlecry Trebuchet" publicationId="3e16-9abf-pubN103678" page="44" hidden="false" typeId="1551-040e-a178-bf4a" typeName="Siege">
               <characteristics>
                 <characteristic name="Strength" typeId="4f70-e4de-5e4a-d85e">(10)</characteristic>
                 <characteristic name="Defence" typeId="f7a4-fb5d-b3f4-e9f0">10</characteristic>
@@ -446,7 +445,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dafe-3864-46b3-d0ce" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9f57-1f81-077f-f86b" name="King of Men" publicationId="03ff-cc3e-pubN65735" page="40" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+            <profile id="9f57-1f81-077f-f86b" name="King of Men" publicationId="3e16-9abf-pubN103678" page="40" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
               <characteristics>
                 <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/4+</characteristic>
@@ -548,7 +547,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4436-6964-8307-8802" type="min"/>
           </constraints>
           <profiles>
-            <profile id="90ee-c1ba-98d6-003e" name="Knight of the White Tower" publicationId="03ff-cc3e-pubN65735" page="39" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+            <profile id="90ee-c1ba-98d6-003e" name="Knight of the White Tower" publicationId="3e16-9abf-pubN103678" page="39" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
               <characteristics>
                 <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/4+</characteristic>
@@ -569,7 +568,7 @@
           <infoGroups>
             <infoGroup id="652a-a3aa-c267-a6f5" name="Special Rules" hidden="false">
               <rules>
-                <rule id="bae9-76b9-6f7f-4031" name="The Bladelord&apos;s Skill (Active)" publicationId="03ff-cc3e-pubN65735" page="39" hidden="false">
+                <rule id="bae9-76b9-6f7f-4031" name="The Bladelord&apos;s Skill (Active)" publicationId="3e16-9abf-pubN103678" page="39" hidden="false">
                   <description>If a Knight of the White Tower scores a natural roll of a 6 in a Duel roll, he does not apply the penalty for using a two-handed weapon,</description>
                 </rule>
               </rules>
@@ -584,7 +583,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="530f-02ac-326c-5a09" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="794f-114a-38d3-a7d0" name="White Sword of Gondor (Active)" publicationId="03ff-cc3e-pubN65735" page="39" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+                    <profile id="794f-114a-38d3-a7d0" name="White Sword of Gondor (Active)" publicationId="3e16-9abf-pubN103678" page="39" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
                       <characteristics>
                         <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">A White Sword of Gondor is a two-handed Sword. Additionally, Strikes made with this weapon have the Mighty Blow special rule.</characteristic>
                       </characteristics>
@@ -684,7 +683,7 @@
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="cacf-27bd-861a-e3c6" value="0">
+        <modifier type="set" field="cacf-27bd-861a-e3c6" value="0.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
           </conditions>
@@ -745,7 +744,7 @@
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="3a61-ce78-828a-6a9a" value="0">
+        <modifier type="set" field="3a61-ce78-828a-6a9a" value="0.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
           </conditions>
@@ -897,7 +896,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c81e-6776-6686-de17" type="min"/>
           </constraints>
           <profiles>
-            <profile id="01fa-d87d-fb22-3b70" name="Captain of Minas Tirith" publicationId="03ff-cc3e-pubN65735" page="40" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+            <profile id="01fa-d87d-fb22-3b70" name="Captain of Minas Tirith" publicationId="3e16-9abf-pubN103678" page="40" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
               <modifierGroups>
                 <modifierGroup>
                   <modifiers>
@@ -1056,7 +1055,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb9-a494-41c9-08fc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9bc4-af5e-e846-584a" name="Avenger Bolt Thrower" publicationId="03ff-cc3e-pubN65735" page="45" hidden="false" typeId="1551-040e-a178-bf4a" typeName="Siege">
+            <profile id="9bc4-af5e-e846-584a" name="Avenger Bolt Thrower" publicationId="3e16-9abf-pubN103678" page="45" hidden="false" typeId="1551-040e-a178-bf4a" typeName="Siege">
               <characteristics>
                 <characteristic name="Strength" typeId="4f70-e4de-5e4a-d85e">(7)</characteristic>
                 <characteristic name="Defence" typeId="f7a4-fb5d-b3f4-e9f0">10</characteristic>
@@ -1067,7 +1066,7 @@
           <infoGroups>
             <infoGroup id="604d-1adf-0aff-458d" name="Special Rules" hidden="false">
               <rules>
-                <rule id="587f-bed7-9efd-eafb" name="Rapid Fire" publicationId="03ff-cc3e-pubN65735" page="45" hidden="false">
+                <rule id="587f-bed7-9efd-eafb" name="Rapid Fire" publicationId="3e16-9abf-pubN103678" page="45" hidden="false">
                   <description>An Avenger Bolt Thrower fires D6 shots each turn rather than one. Each shot is resolved in the same way as a shooting attack rather than a Siege Engine. This means that no scatter is rolled for an Avenger Bolt Thrower - it will either hit or miss. Resolve each shot individually, rolling To Hit and To Wound, before moving onto the next shot. Shots fired from an Avenger Bolt Thrower do not kill targets outright nor do they knock them to the ground.</description>
                 </rule>
               </rules>
@@ -1419,7 +1418,7 @@
     </selectionEntry>
     <selectionEntry id="96da-f058-6482-ab3a" name="Citadel Guard" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5658-408c-f065-c221" name="Citadel Guard" publicationId="03ff-cc3e-pubN65735" page="42" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+        <profile id="5658-408c-f065-c221" name="Citadel Guard" publicationId="3e16-9abf-pubN103678" page="42" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
           <characteristics>
             <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
             <characteristic name="Fight" typeId="5930-f060-2064-c9d5">4/4+</characteristic>
@@ -1860,6 +1859,54 @@ Special Chart
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a890-805e-60e1-2c5a" name="Mablung, Ranger of Ithilien" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="1c01-f0c7-14ac-5ccd" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c01-f0c7-14ac-5ccd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2eab-37bc-05a7-3f6a" name="New CategoryLink" hidden="false" targetId="5e53-b18f-0f14-dc92" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7817-47fb-0eb1-6142" name="Mablung, Ranger of Ithilien" hidden="false" collective="false" import="true" targetId="cbb3-a0e5-106e-2b94" type="selectionEntry"/>
+        <entryLink id="4303-5c0a-faec-3881" name="Warband" hidden="false" collective="false" import="true" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="ac09-377a-1488-13b4" name="Anborn, Ranger of Ithilien" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7675-36e8-8d64-2156" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7675-36e8-8d64-2156" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="28c6-5027-19aa-54be" name="New CategoryLink" hidden="false" targetId="5e53-b18f-0f14-dc92" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3347-cd53-4e22-b650" name="Warband" hidden="false" collective="false" import="true" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry"/>
+        <entryLink id="5046-445e-740b-e457" name="Anborn, Ranger of Ithilien" hidden="false" collective="false" import="true" targetId="a122-c885-0360-e726" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="2aa2-527e-8e71-fa75" name="You are Men of Gondor. Whatever comes throught that Gate, you will stand your Ground!" hidden="false" collective="false" import="true" targetId="c4b5-1a3d-521e-b003" type="selectionEntry">
@@ -1985,15 +2032,8 @@ Special Chart
             </modifier>
             <modifier type="decrement" field="3d51-2f6c-5a18-0627" value="12.0">
               <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4e0f-95e1-0d1f-a719" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e53-b18f-0f14-dc92" type="instanceOf"/>
               </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="476a-48f4-9323-3e7f" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
             </modifier>
             <modifier type="decrement" field="3d51-2f6c-5a18-0627" value="1.0">
               <conditions>
@@ -2046,7 +2086,7 @@ Special Chart
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="4996-04c2-63ec-4188" name="Osgiliath Veteran" publicationId="03ff-cc3e-pubN65735" page="43" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+            <profile id="4996-04c2-63ec-4188" name="Osgiliath Veteran" publicationId="3e16-9abf-pubN103678" page="43" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <modifierGroups>
                 <modifierGroup>
                   <modifiers>
@@ -2085,7 +2125,7 @@ Special Chart
           <infoGroups>
             <infoGroup id="0987-fd26-4f8b-e656" name="Special Rules" hidden="false">
               <rules>
-                <rule id="84fa-cc25-3c31-532f" name="Loyal to the Captain (Passive)" publicationId="03ff-cc3e-pubN65735" page="43" hidden="false">
+                <rule id="84fa-cc25-3c31-532f" name="Loyal to the Captain (Passive)" publicationId="3e16-9abf-pubN103678" page="43" hidden="false">
                   <description>If this model is within 6&quot; of either Boromir or Faramir, then this model will receive a +1 bonus to its Fight value. This si cumulative with other Fight value bonuses.</description>
                 </rule>
               </rules>
@@ -2214,7 +2254,7 @@ Special Chart
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="04e3-8c82-7601-a4fb" name="Guard of the Fountain Court" publicationId="03ff-cc3e-pubN65735" page="43" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+            <profile id="04e3-8c82-7601-a4fb" name="Guard of the Fountain Court" publicationId="3e16-9abf-pubN103678" page="43" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <modifiers>
                 <modifier type="increment" field="d64a-e776-38fd-3019" value="1">
                   <conditions>
@@ -2506,7 +2546,7 @@ Special Chart
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="8faa-674e-45b8-b9d4" name="Ranger of Gondor" publicationId="03ff-cc3e-pubN65735" page="42" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+            <profile id="8faa-674e-45b8-b9d4" name="Ranger of Gondor" publicationId="3e16-9abf-pubN103678" page="42" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
                 <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/3+</characteristic>
@@ -2614,7 +2654,7 @@ Special Chart
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="46d4-1787-f570-15b7" name="Knight of Minas Tirith" publicationId="03ff-cc3e-pubN65735" page="41" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+            <profile id="46d4-1787-f570-15b7" name="Knight of Minas Tirith" publicationId="3e16-9abf-pubN103678" page="41" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <modifiers>
                 <modifier type="increment" field="d64a-e776-38fd-3019" value="1">
                   <conditions>
@@ -3005,7 +3045,7 @@ Special Chart
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="562c-6dc7-fd5f-9160" name="Ranger of Gondor" publicationId="03ff-cc3e-pubN65735" page="42" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+            <profile id="562c-6dc7-fd5f-9160" name="Ranger of Gondor" publicationId="3e16-9abf-pubN103678" page="42" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
                 <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/3+</characteristic>
@@ -3563,7 +3603,7 @@ Special Chart
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ef-850e-35e7-f3ea" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c290-1aae-8554-999d" name="Minas Tirith Siege Veteran" publicationId="03ff-cc3e-pubN65735" page="44 &amp; 45" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+            <profile id="c290-1aae-8554-999d" name="Minas Tirith Siege Veteran" publicationId="3e16-9abf-pubN103678" page="44 &amp; 45" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
               <characteristics>
                 <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="5930-f060-2064-c9d5">3/4+</characteristic>
@@ -3607,7 +3647,7 @@ Special Chart
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8fa-a11b-728d-1262" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e9bc-8e51-afb4-4fc6" name="Minas Tirith Engineer Captain" publicationId="03ff-cc3e-pubN65735" page="44 &amp; 45" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+            <profile id="e9bc-8e51-afb4-4fc6" name="Minas Tirith Engineer Captain" publicationId="3e16-9abf-pubN103678" page="44 &amp; 45" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
               <characteristics>
                 <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="5930-f060-2064-c9d5">4/4+</characteristic>
@@ -3660,7 +3700,7 @@ Special Chart
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile id="218a-9a0f-def9-01b9" name="Warrior of Minas Tirith" publicationId="03ff-cc3e-pubN65735" page="41" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+    <profile id="218a-9a0f-def9-01b9" name="Warrior of Minas Tirith" publicationId="3e16-9abf-pubN103678" page="41" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
       <characteristics>
         <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
         <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">3/4+</characteristic>
@@ -3672,7 +3712,7 @@ Special Chart
         <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man Gondor Infantry Warrior</characteristic>
       </characteristics>
     </profile>
-    <profile id="a2cc-70d5-d119-7050" name="Citadel Guard" publicationId="03ff-cc3e-pubN65735" page="42" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+    <profile id="a2cc-70d5-d119-7050" name="Citadel Guard" publicationId="3e16-9abf-pubN103678" page="42" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
       <characteristics>
         <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
         <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/4+</characteristic>
