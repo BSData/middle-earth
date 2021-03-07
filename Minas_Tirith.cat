@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="29" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="29" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="95" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="03ff-cc3e-pubN74686" name="Battle Companies"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="3714-bea3-5711-333b" name="Gondor Battlecry Trebuchet" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="0318-50a1-1f4d-5da9" value="0.0">
+        <modifier type="set" field="c56c-02d5-ed9c-17b9" value="0.0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -43,9 +43,26 @@
             <condition field="selections" scope="3714-bea3-5711-333b" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2923-5e33-3e8a-f331" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="0318-50a1-1f4d-5da9" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0318-50a1-1f4d-5da9" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c56c-02d5-ed9c-17b9" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="0d41-c2bf-9ac6-64a5" name="New CategoryLink" hidden="false" targetId="5e53-b18f-0f14-dc92" primary="true"/>
@@ -1018,9 +1035,26 @@
             <condition field="selections" scope="efa5-b326-54e5-6f50" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2923-5e33-3e8a-f331" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="684d-e3dd-d8c3-3df0" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb8-0cb7-1d55-a1a7" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="684d-e3dd-d8c3-3df0" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="408f-0b18-02a0-2d19" name="New CategoryLink" hidden="false" targetId="5e53-b18f-0f14-dc92" primary="true"/>
@@ -1882,6 +1916,11 @@ Special Chart
         <entryLink id="7817-47fb-0eb1-6142" name="Mablung, Ranger of Ithilien" hidden="false" collective="false" import="true" targetId="cbb3-a0e5-106e-2b94" type="selectionEntry"/>
         <entryLink id="4303-5c0a-faec-3881" name="Warband" hidden="false" collective="false" import="true" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ac09-377a-1488-13b4" name="Anborn, Ranger of Ithilien" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -1906,6 +1945,11 @@ Special Chart
         <entryLink id="3347-cd53-4e22-b650" name="Warband" hidden="false" collective="false" import="true" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry"/>
         <entryLink id="5046-445e-740b-e457" name="Anborn, Ranger of Ithilien" hidden="false" collective="false" import="true" targetId="a122-c885-0360-e726" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
