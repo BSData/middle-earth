@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="58ee-b7a3-bb66-6a94" name="The Dead of Dunharrow" revision="15" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="58ee-b7a3-bb66-6a94" name="The Dead of Dunharrow" revision="16" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="94" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="58ee-b7a3-pubN65807" name="Armies of Lord of the Rings"/>
     <publication id="58ee-b7a3-pubN66328" name="Gondor at War"/>
@@ -91,7 +91,7 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="afa9-80da-2e79-faad" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5053-e959-c7a3-c6e5" type="equalTo"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="and">
@@ -372,7 +372,7 @@
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="c914-9a52-0699-337b" value="8.0">
+            <modifier type="set" field="a774-c235-911c-a78f" value="8.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524a-3314-7561-9d99" type="instanceOf"/>
               </conditions>
@@ -390,6 +390,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4319-201d-3e4c-0a7e" type="min"/>
         <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e1b-a1ac-9027-c318" type="max"/>
         <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9016-e4c2-0744-d909" type="max"/>
+        <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a774-c235-911c-a78f" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="4498-1d8f-42d7-21da" name="Warrior of the Dead" hidden="false" collective="false" import="true" type="upgrade">
@@ -525,28 +526,9 @@
               </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup id="07c9-9f16-e469-9208" name="Wargear" hidden="false" collective="false" import="true">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="b5de-a23a-e0f9-89db" name=" " hidden="false" collective="false" import="true" defaultSelectionEntryId="43b5-1670-7d40-5cae">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f203-fab9-85da-9bc4" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd09-c616-f063-9f23" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="f892-d927-84a8-6cd1" name="Axe" hidden="false" collective="false" import="true" targetId="6487-f2cf-5eb7-a780" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="10cf-3df6-657b-ff0f" value="0.0"/>
-                      </modifiers>
-                    </entryLink>
-                    <entryLink id="43b5-1670-7d40-5cae" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="26be-b7ba-4fb0-04dc" value="0.0"/>
-                      </modifiers>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="ac95-ea06-d6aa-96f6" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="96f5-f607-f67b-0d35" name="Weapon" hidden="false" collective="false" import="true" targetId="2fb2-bc75-1f44-5626" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
