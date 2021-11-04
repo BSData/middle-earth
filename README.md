@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/BSData/middle-earth.svg?style=flat-square)](https://github.com/BSData/middle-earth/releases/latest)
 ![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/middle-earth/latest.svg?style=flat-square)
-[![AppVeyor master branch](https://img.shields.io/appveyor/ci/BSData/middle-earth/master.svg?style=flat-square&logo=appveyor)](https://ci.appveyor.com/project/BSData/middle-earth/)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/BSData/middle-earth/Publish%20catpkg)
 
 [![Join the chat at https://gitter.im/BSData/middle-earth](https://img.shields.io/gitter/room/BSData/middle-earth.svg?style=flat-square&logo=gitter-white)](https://gitter.im/BSData/middle-earth?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![GitHub contributors](https://img.shields.io/github/contributors/BSData/middle-earth.svg?style=flat-square)](https://github.com/BSData/middle-earth/graphs/contributors)
