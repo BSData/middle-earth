@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8974-3f15-b1da-1dd4" name="Army of Lake-town" revision="5" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8974-3f15-b1da-1dd4" name="Army of Lake-town" revision="6" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8974-3f15-pubN65614" name="Armies of the Hobbit"/>
   </publications>
@@ -181,7 +181,11 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="5963-b65c-4993-808b" name="Warband" hidden="false" collective="false" import="true" targetId="3514-c1db-21a6-ef8d" type="selectionEntry"/>
-        <entryLink id="ecd4-be59-5ede-0549" name="Alfrid the Councilor" hidden="false" collective="false" import="true" targetId="de44-7054-934b-4ed4" type="selectionEntry"/>
+        <entryLink id="ecd4-be59-5ede-0549" name="Alfrid the Councilor" hidden="false" collective="false" import="true" targetId="de44-7054-934b-4ed4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e026-c207-809f-5834" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>

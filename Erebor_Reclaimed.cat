@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4a85-1e10-91ba-2b36" name="Erebor Reclaimed" revision="6" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4a85-1e10-91ba-2b36" name="Erebor Reclaimed" revision="6" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="95" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f319-3053-68bf-c708" name="Iron Hills Captain" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -237,6 +237,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f5c9-7a57-df2f-8dbe" name="Dáin Ironfoot, Lord of the Iron Hills" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="1416-f66e-4a34-3174" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1416-f66e-4a34-3174" type="max"/>
       </constraints>
@@ -268,6 +275,124 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="1326-8dd9-2d6b-e496" name="Dáin Ironfoot, King Under the Mountain" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="7190-70ed-c947-7235" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5c9-7a57-df2f-8dbe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7190-70ed-c947-7235" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="00bb-945a-d1dc-ee19" name="Hero of Legend" hidden="false" targetId="6e9c-4e8f-3256-f4f0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c015-d060-1527-208e" name="Dáin Ironfoot, King Under the Mountain" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bd9b-4fbe-a51f-40b5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5aa8-aee5-0f3a-f60f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a7d3-18fc-b360-67e8" name="Dáin Ironfoot, King Under the Mountain" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">5&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">6/4+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">8</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">7</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike
+Strength
+Challenge</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="fadf-4e64-f24a-5c60" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="ea02-a509-30c8-5a20" name="King Under the Mountain (Active)" hidden="false">
+                  <description>Friendly Erebor Dwarf models, including Hero models, will bene t from Dáin’s Stand Fast! regardless of range.</description>
+                </rule>
+                <rule id="b652-4e90-7abe-42a5" name="Venerable (Passive)" hidden="false">
+                  <description>Whenever Dáin makes a Jump, Leap or Climb test, he will roll two dice and pick the lowest result.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="0f26-696c-7cab-aa1c" name="Fearless (Passive)" hidden="false" targetId="7ad1-afe5-c22b-4558" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="eb6a-5ff9-d4c5-6d82" name="Wargear" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="4c2b-ae99-d2e6-8fcc" name="Barazantathûl" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1e94-8ac1-b780-32be" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13f0-281a-4afd-0af0" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="df0f-5704-1127-50dc" name="Barazantathûl (Active)" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+                      <characteristics>
+                        <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">This is a Master Forged hand-and-a-half axe.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="39d3-bd9e-6e11-e3c8" name="Hand-and-a-Half" hidden="false" targetId="1942-7fe3-0a57-32a1" type="rule"/>
+                    <infoLink id="e937-2373-687f-068c" name="Master-Forged" hidden="false" targetId="953e-c78f-4489-7a8b" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="3241-4ed6-aa9a-529a" name="Heavy Dwarf Armour" hidden="false" collective="false" import="true" targetId="16d0-4708-68d8-c15f" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="130.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2392-df95-d6ab-0917" name="Warband" hidden="false" collective="false" import="true" targetId="b731-9448-3253-143d" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="18f8-2252-9d73-c7d5" name="Thorin III Stonehelm" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2620-9ca1-95e5-623a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="46a0-1759-84b7-8a77" name="Hero of Valour" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="382a-8721-4014-6e9b" name="Thorin III Stonehelm" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="b7a0-86ff-8891-022e" name="Cool-headed (Active)" hidden="false">
+              <description>Whenever Thorin declares a Heroic Action, roll a D6. On a 5+, no Might is spent and the Heroic Action is free. Additionally, if Thorin declares a Heroic Action and an enemy model subsequently declares a Heroic Action, Thorin may choose to change the type of Heroic Action he has declared.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="120.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>

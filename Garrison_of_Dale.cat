@@ -1,94 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6886-6975-8cf9-4930" name="Garrison of Dale" revision="6" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6886-6975-8cf9-4930" name="Garrison of Dale" revision="8" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="99" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6886-6975-pubN65626" name="Armies of the Hobbit"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="300d-fe46-23d2-a8f3" name="Girion, Lord of Dale" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="64f4-f555-490c-da38" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="77df-773e-0e86-2983" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b55-f747-d2e2-87f9" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="64f4-f555-490c-da38" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="64f4-f555-490c-da38" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="0602-69bb-5cfa-68f5" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="dfcc-0e53-9b9b-fbbb" name="Girion, Lord of Dale" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4907-4f8a-fcb8-6e86" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1e5-f62a-4183-ddaa" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b68e-412c-098d-914f" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5e75-d642-db30-6153" name="Girion, Lord of Dale" publicationId="6886-6975-pubN65626" page="57" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-              <characteristics>
-                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
-                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/3+</characteristic>
-                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
-                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">6</characteristic>
-                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">2</characteristic>
-                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">2</characteristic>
-                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
-                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
-                <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
-                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy Strike</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Dale Infantry Hero</characteristic>
-                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoGroups>
-            <infoGroup id="2b1f-7848-518e-8bd2" name="Special Rules" hidden="false">
-              <rules>
-                <rule id="eaa4-589b-7d83-97fb" name="Windlance Trained (Active)" publicationId="6886-6975-pubN65626" page="57" hidden="false">
-                  <description>Girion, Lord of Dale’s, Windlance follows all the rules for Bard the Bowman’s Windlance.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="78d9-7f1f-c93d-77f6" name="Rapid Fire (Active)" hidden="false" targetId="1c6b-6633-1c99-37bc" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1f2b-d23a-0b0d-b4cd" name="Wargear" hidden="false" collective="false" import="true">
-              <entryLinks>
-                <entryLink id="4a98-16cb-f185-ab4e" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
-                <entryLink id="abc7-3975-a415-bf7a" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="df41-7ec7-a746-3ead" name="Options" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="cd28-8ca8-af72-8ce9" name="Great Bow" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6818-7256-b8f5-24fd" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="9d76-0e81-49da-54ba" name="Great Bow" hidden="false" targetId="c043-d942-d771-f4d7" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="5.0"/>
-                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="55aa-888d-e571-3422" name="Windlance" hidden="false" collective="false" import="true" targetId="d69a-bbc8-abfe-ab7a" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="8faf-03f0-1f5f-8452" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="75.0"/>
-            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="7cd5-8e83-0243-64f7" name="Warband" hidden="false" collective="false" import="true" targetId="5115-6cba-b9ef-d74a" type="selectionEntry"/>
+        <entryLink id="1353-a5bf-e657-2615" name="Girion, Lord of Dale" hidden="false" collective="false" import="true" targetId="398d-ff44-061f-516f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -195,6 +138,64 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="77df-773e-0e86-2983" name="Brand, King of Dale" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="0918-1b8c-507f-8df7" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="300d-fe46-23d2-a8f3" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3236-e4bc-2705-d081" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0918-1b8c-507f-8df7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2373-7940-9886-d051" name="Hero of Legend" hidden="false" targetId="6e9c-4e8f-3256-f4f0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e143-1e39-66ca-330a" name="Warband" hidden="false" collective="false" import="true" targetId="5115-6cba-b9ef-d74a" type="selectionEntry"/>
+        <entryLink id="229c-b77a-3c25-e019" name="Brand, King of Dale" hidden="false" collective="false" import="true" targetId="2e09-9eec-f58f-cb52" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b55-f747-d2e2-87f9" name="Bard II, Prince of Dale" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="4ce6-aec1-d278-a7e0" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="300d-fe46-23d2-a8f3" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3236-e4bc-2705-d081" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ce6-aec1-d278-a7e0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f5c7-1eb0-2371-def4" name="Hero of Valour" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0d7b-0efc-9028-2b3f" name="Warband" hidden="false" collective="false" import="true" targetId="5115-6cba-b9ef-d74a" type="selectionEntry"/>
+        <entryLink id="21a4-dd6d-72df-ac0a" name="Bard II, Prince of Dale" hidden="false" collective="false" import="true" targetId="a008-0695-cc92-1096" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="8079-e6f3-5164-ece6" name="Girion, lord of the city, rallied his bowmen to fire upon the beast" hidden="false" collective="false" import="true" targetId="a218-2cbb-c72b-f863" type="selectionEntry">
@@ -213,6 +214,7 @@
         <categoryLink id="1056-dbf2-fb6b-2d7a" name="Garrison of Dale" hidden="false" targetId="67a5-4ca5-7747-d9a0" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="3236-e4bc-2705-d081" name="Use Experimental Rules" hidden="false" collective="false" import="true" targetId="9dfc-6fdb-705f-1563" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="5115-6cba-b9ef-d74a" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
@@ -227,7 +229,7 @@
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="31b9-225c-c742-dc19" value="1">
+        <modifier type="increment" field="31b9-225c-c742-dc19" value="1.0">
           <repeats>
             <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5115-6cba-b9ef-d74a" repeats="1" roundUp="true"/>
           </repeats>
@@ -424,6 +426,75 @@
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3a6a-7832-33d5-4d67" name="Knight of Dale" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3236-e4bc-2705-d081" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="443e-6c73-3a6d-61e4" name="Knight of Dale" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+              <characteristics>
+                <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/4+</characteristic>
+                <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">3</characteristic>
+                <characteristic name="Defense" typeId="d64a-e776-38fd-3019">6</characteristic>
+                <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
+                <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
+                <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">4</characteristic>
+                <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man
+Dale
+Infantry
+Warrior</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="abfb-64a2-859c-8e7d" name="Wall of Blades (Active)" hidden="false" targetId="b6db-d73f-7a8d-2ede" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="96ee-c12a-d0ab-4187" name="Knight" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="decrement" field="f2f0-077a-d4b6-a799" value="3.0">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="f2f0-077a-d4b6-a799" value="6.0">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a29e-16c6-8510-7edf" type="min"/>
+                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2f0-077a-d4b6-a799" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="11.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1323-4c3b-4c89-58f8" name="Wargear" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="61eb-c8b3-3bc6-b8df" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+                <entryLink id="2e86-ff4e-b943-b33a" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="dd63-907e-44a9-f5de" name="Shield" hidden="false" collective="false" import="true" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
+                <entryLink id="331a-ddf0-29b2-348c" name="Spear" hidden="false" collective="false" import="true" targetId="9cb9-9ebe-8ffa-86f3" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
