@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b493-2406-a4ce-2319" name="The Fellowship" revision="12" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b493-2406-a4ce-2319" name="The Fellowship" revision="13" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="99" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b493-2406-pubN65553" name="Armies of Lord of the Rings"/>
   </publications>
@@ -207,7 +207,11 @@
         <categoryLink id="3839-c856-b4be-aa33" name="New CategoryLink" hidden="false" targetId="715f-06b0-fffa-1d52" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9c11-45a3-eea5-f593" name="Bill the Pony" hidden="false" collective="false" import="true" targetId="cc88-4589-b0e5-fb1e" type="selectionEntry"/>
+        <entryLink id="9c11-45a3-eea5-f593" name="Bill the Pony" hidden="false" collective="false" import="true" targetId="cc88-4589-b0e5-fb1e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5239-1e64-b799-255c" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a5a6-9c3a-4e49-e794" name="Isengard" revision="28" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a5a6-9c3a-4e49-e794" name="Isengard" revision="30" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="99" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a5a6-9c3a-pubN65614" name="Armies of Lord of the Rings"/>
   </publications>
@@ -2175,6 +2175,9 @@ Hero</characteristic>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac32-11a1-6f1c-78ec" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="677d-7ba7-0ab7-1f17" name="Hero of Fortitude" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="1241-4167-a3bc-b0ab" name="Warband" hidden="false" collective="false" import="true" targetId="b3f8-e924-3b3c-7c01" type="selectionEntry"/>
         <entryLink id="bb04-536a-96be-3bf3" name="Grishnákh, Orc Captain" hidden="false" collective="false" import="true" targetId="65f3-c0b0-6710-054f" type="selectionEntry"/>
@@ -5138,7 +5141,7 @@ Warrior</characteristic>
             </infoLink>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="9f59-a2c3-ca1d-b66a" name="Crew" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9f59-a2c3-ca1d-b66a" name="Crew" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="decrement" field="4163-b10b-8744-4e7b" value="12.0">
                   <conditions>

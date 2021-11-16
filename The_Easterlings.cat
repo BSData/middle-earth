@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f00c-c553-1359-0463" name="The Easterlings" revision="12" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f00c-c553-1359-0463" name="The Easterlings" revision="13" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f00c-c553-pubN65743" name="Armies of Lord of the Rings"/>
   </publications>
@@ -463,6 +463,7 @@
         <categoryLink id="fb44-e656-0db7-a9fc" name="The Easterlings" hidden="false" targetId="d0d1-49e9-fa9c-ef4a" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="8efc-5b26-76fa-de06" name="Use Experimental Rules" hidden="false" collective="false" import="true" targetId="9dfc-6fdb-705f-1563" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d59f-00aa-e321-a32a" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
@@ -746,7 +747,7 @@
                 <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
                 <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">3/4+</characteristic>
                 <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">3</characteristic>
-                <characteristic name="Defense" typeId="d64a-e776-38fd-3019">5</characteristic>
+                <characteristic name="Defense" typeId="d64a-e776-38fd-3019">6</characteristic>
                 <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
                 <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
                 <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">3</characteristic>
@@ -874,6 +875,96 @@
                 <entryLink id="b44e-c5e7-6fbf-1780" name="Shield" hidden="false" collective="false" import="true" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
                 <entryLink id="f013-b5c5-2c33-44f7" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
                 <entryLink id="5175-a704-456d-451e" name="Armoured Horse" hidden="false" collective="false" import="true" targetId="bf95-2c78-20dd-7fbc" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0455-2706-1c6e-b792" name="Dragon Cult Acolyte" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9dfc-6fdb-705f-1563" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="9be8-eaae-3f05-59a3" name="Dragon Cult Acolyte" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+              <characteristics>
+                <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/4+</characteristic>
+                <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">3</characteristic>
+                <characteristic name="Defense" typeId="d64a-e776-38fd-3019">4</characteristic>
+                <characteristic name="Attack" typeId="6235-3861-befd-7242">2</characteristic>
+                <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
+                <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">4</characteristic>
+                <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man
+Easterling
+Infantry
+Warrior</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="70b5-a5ac-6f1f-c0c2" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="7332-63dd-0ba4-1b43" name="Supreme Agility (Active)" hidden="false">
+                  <description>A model with this special rule gains a bonus of +2 to Jump, Leap and Climb tests. Additionally, a model with this special rule will automatically pass all In The Way tests to Strike a model that is defending a barrier or a doorway.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="bae2-0ae3-1c15-8e31" name="Unyielding Combat Stance (Active)" hidden="false" targetId="e89f-6767-1096-ab86" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntries>
+            <selectionEntry id="5d15-1371-7f3d-9620" name="Acolyte" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="decrement" field="0209-095c-bff2-f693" value="3.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="0209-095c-bff2-f693" value="6.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="0209-095c-bff2-f693" value="12.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e53-b18f-0f14-dc92" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aee-2f3b-1627-4125" type="min"/>
+                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0209-095c-bff2-f693" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="11.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="bef7-b8cb-5567-35d8" name="Wargear" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="29c7-67af-0392-c683" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="4012-c206-50ef-d169" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Two Swords"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="117b-23d9-27c4-822f" name="Throwing Daggers" hidden="false" collective="false" import="true" targetId="4fbb-79cf-7ab6-b416" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>

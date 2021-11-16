@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f6b7-f518-07fb-42c8" name="The White Council" revision="4" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f6b7-f518-07fb-42c8" name="The White Council" revision="5" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="dfe0-8c2b-82ea-0cd6" name="Elrond, Master of Rivendell" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -34,8 +34,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3b42-c531-61c0-4e49" name="Saruman the White" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="14ce-16ef-a915-7fdd" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="174b-334b-c653-a4f3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41b5-0dcd-3cf2-a089" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="14ce-16ef-a915-7fdd" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="1ca5-8dd2-8b7e-e1ad" name="New CategoryLink" hidden="false" targetId="6e9c-4e8f-3256-f4f0" primary="true"/>
@@ -50,8 +58,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8e18-d0c0-ae9e-e2b2" name="Galadriel, Lady of Light" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="7a2e-2a87-dca5-2c2a" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="174b-334b-c653-a4f3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b19-40ce-c34c-e2a2" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7a2e-2a87-dca5-2c2a" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="a6f0-c53a-df5c-9b7a" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
@@ -82,6 +98,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="432b-bdac-0263-e5ac" name="Glorfindel, Lord of the West" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="174b-334b-c653-a4f3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c71-7910-d890-844f" type="max"/>
       </constraints>
@@ -98,6 +121,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6985-bc60-7248-cb1b" name="Celeborn" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="174b-334b-c653-a4f3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="112e-ddfd-fe5c-b072" type="max"/>
       </constraints>
@@ -131,6 +161,7 @@
         <categoryLink id="3b5e-fec0-9385-af3e" name="The White Council" hidden="false" targetId="8ed3-2443-4a48-2967" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="3d1d-cc96-7dfe-d2dc" name="The Vanquishers of the Necromancer" hidden="false" collective="false" import="true" targetId="174b-334b-c653-a4f3" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="33d0-8d40-13bb-079f" name="Additional Rules" hidden="false">

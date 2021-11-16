@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8bcc-84ae-b842-aa89" name="Halls of Thranduil" revision="7" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8bcc-84ae-b842-aa89" name="Halls of Thranduil" revision="8" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8bcc-84ae-pubN65743" name="Armies of the Hobbit"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="7c18-3ecb-6cc2-fcf4" name="Legolas Greenleaf, Prince of Mirkwood" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="3189-2be5-225f-05b5" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="279d-8947-47cd-b4b1" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c5d-985d-fb78-6901" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3189-2be5-225f-05b5" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="8e7c-223c-f7f6-b7e2" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
@@ -22,6 +41,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e281-dc07-c11a-e6a3" name="Mirkwood Captain" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="a950-49ff-06bb-987a" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
@@ -131,7 +157,15 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="294c-5404-b373-866a" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="294c-5404-b373-866a" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -150,6 +184,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f304-5c1b-addf-9d4e" name="Palace Guard Captain" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="fde7-3a5c-100f-ae06" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
@@ -227,8 +268,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="279d-8947-47cd-b4b1" name="Tauriel" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="0f59-a00a-2d6f-b93f" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7c18-3ecb-6cc2-fcf4" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ffe-2ae9-adae-c3a3" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f59-a00a-2d6f-b93f" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="52c1-1d4b-5a7c-b014" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
@@ -284,12 +344,42 @@
             </selectionEntryGroup>
             <selectionEntryGroup id="9533-8118-b669-909b" name="Options" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="0950-f953-1dc8-562a" name="Elf Bow" hidden="false" collective="false" import="true" targetId="0c3f-f487-8cfa-add8" type="selectionEntry"/>
+                <entryLink id="0950-f953-1dc8-562a" name="Elf Bow" hidden="false" collective="false" import="true" targetId="0c3f-f487-8cfa-add8" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="724f-3af0-cc0b-ed2f" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="724f-3af0-cc0b-ed2f" type="min"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="5612-e245-c3f2-347f" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="5612-e245-c3f2-347f" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="6481-8964-ffdb-e4f2" value="1.0">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7c18-3ecb-6cc2-fcf4" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -308,6 +398,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="89bc-78fd-fdb5-3604" name="Thranduil, King of the Woodland Realm" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ca8-2336-d07b-754a" type="max"/>
       </constraints>
@@ -488,6 +585,11 @@
         <categoryLink id="fc95-5b6c-8909-758a" name="Halls of Thranduil" hidden="false" targetId="d951-c03a-3e96-f421" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="a05c-8cc8-40c9-21f5" name="Rangers of Mirkwood" hidden="false" collective="false" import="true" targetId="2c84-772d-473a-d46f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5706-e234-0c24-0fda" name="New CategoryLink" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="adef-ff1c-d451-ef47" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
@@ -508,9 +610,20 @@
               <repeats>
                 <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="adef-ff1c-d451-ef47" repeats="1" roundUp="true"/>
               </repeats>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc45-4099-3749-5256" type="equalTo"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc45-4099-3749-5256" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" field="b5db-c5ff-7337-7499" value="15.0">
               <conditions>
@@ -524,6 +637,14 @@
               </repeats>
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc45-4099-3749-5256" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="4f18-e233-0f78-9c90" value="1.0">
+              <repeats>
+                <repeat field="391e-19ac-b71d-f2e3" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="adef-ff1c-d451-ef47" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -633,6 +754,13 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="9614-e46e-3349-43c1" name="Mirkwood Cavalry" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="78b0-8c47-9512-0983" name="Mirkwood Cavalry" publicationId="8bcc-84ae-pubN65743" page="76" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <modifiers>
@@ -735,6 +863,13 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="9ca9-394c-64d5-eaf0" name="Mirkwood Elf" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="c0d3-ef17-4390-27be" name="Mirkwood Elf" publicationId="8bcc-84ae-pubN65743" page="76" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <modifiers>
@@ -887,6 +1022,13 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="ae70-7d0b-8440-37ac" name="Palace Guard" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c84-772d-473a-d46f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="9882-e69f-e268-2a46" name="Palace Guard" publicationId="8bcc-84ae-pubN65743" page="75" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <modifiers>

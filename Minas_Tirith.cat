@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="29" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="95" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="32" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="03ff-cc3e-pubN74686" name="Battle Companies"/>
   </publications>
@@ -40,7 +40,7 @@
         </modifier>
         <modifier type="set-primary" field="category" value="0ce2-d79d-fb91-3fa2">
           <conditions>
-            <condition field="selections" scope="3714-bea3-5711-333b" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2923-5e33-3e8a-f331" type="equalTo"/>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2923-5e33-3e8a-f331" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="0318-50a1-1f4d-5da9" value="0.0">
@@ -132,7 +132,15 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="4eaf-6f36-a03a-0c64" name="Warband" hidden="false" collective="false" import="true" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry"/>
+        <entryLink id="4eaf-6f36-a03a-0c64" name="Warband" hidden="false" collective="false" import="true" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="3d51-2f6c-5a18-0627" value="12.0">
+              <conditions>
+                <condition field="selections" scope="3714-bea3-5711-333b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2923-5e33-3e8a-f331" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -1032,7 +1040,7 @@
         </modifier>
         <modifier type="set-primary" field="category" value="0ce2-d79d-fb91-3fa2">
           <conditions>
-            <condition field="selections" scope="efa5-b326-54e5-6f50" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2923-5e33-3e8a-f331" type="equalTo"/>
+            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2923-5e33-3e8a-f331" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="684d-e3dd-d8c3-3df0" value="0.0">
@@ -1127,7 +1135,15 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="8f5a-9d3f-ff10-39b5" name="Warband" hidden="false" collective="false" import="true" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry"/>
+        <entryLink id="8f5a-9d3f-ff10-39b5" name="Warband" hidden="false" collective="false" import="true" targetId="2e2a-5d54-f90d-0c27" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="3d51-2f6c-5a18-0627" value="12.0">
+              <conditions>
+                <condition field="selections" scope="efa5-b326-54e5-6f50" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2923-5e33-3e8a-f331" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -1978,96 +1994,19 @@ Special Chart
         <modifierGroup>
           <modifiers>
             <modifier type="decrement" field="3d51-2f6c-5a18-0627" value="6.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3798-31cf-5a85-f898" type="instanceOf"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f94-ae74-7764-bd6b" type="instanceOf"/>
-                      </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9b8-85fb-7188-ac05" type="instanceOf"/>
-                          </conditions>
-                          <conditionGroups>
-                            <conditionGroup type="or">
-                              <conditions>
-                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e420-8bf2-77a2-30b3" type="instanceOf"/>
-                              </conditions>
-                              <conditionGroups>
-                                <conditionGroup type="or">
-                                  <conditions>
-                                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6224-0306-c8f5-b33f" type="instanceOf"/>
-                                  </conditions>
-                                  <conditionGroups>
-                                    <conditionGroup type="or">
-                                      <conditions>
-                                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4319-a8f8-0de9-cddd" type="instanceOf"/>
-                                      </conditions>
-                                    </conditionGroup>
-                                  </conditionGroups>
-                                </conditionGroup>
-                              </conditionGroups>
-                            </conditionGroup>
-                          </conditionGroups>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
+              </conditions>
             </modifier>
             <modifier type="decrement" field="3d51-2f6c-5a18-0627" value="3.0">
               <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2163-0c2f-63be-9f1a" type="instanceOf"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="382f-c56c-2c7e-f2b7" type="instanceOf"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a48-8f51-579b-2aa2" type="instanceOf"/>
-                      </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="89b6-f9b6-1a5b-356e" type="instanceOf"/>
-                          </conditions>
-                          <conditionGroups>
-                            <conditionGroup type="or">
-                              <conditions>
-                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f352-280d-b29f-eb8d" type="instanceOf"/>
-                              </conditions>
-                            </conditionGroup>
-                          </conditionGroups>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="decrement" field="3d51-2f6c-5a18-0627" value="8.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3714-bea3-5711-333b" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="0f48-deaa-72ab-7412" value="1.0">
               <repeats>
                 <repeat field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4507-92bb-666c-1bd3" repeats="1" roundUp="true"/>
               </repeats>
-            </modifier>
-            <modifier type="decrement" field="3d51-2f6c-5a18-0627" value="7.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
-              </conditions>
             </modifier>
             <modifier type="increment" field="0f48-deaa-72ab-7412" value="1.0">
               <repeats>
@@ -2117,14 +2056,18 @@ Special Chart
               </conditions>
             </modifier>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3714-bea3-5711-333b" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -2285,14 +2228,18 @@ Special Chart
               </conditionGroups>
             </modifier>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3714-bea3-5711-333b" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -2427,14 +2374,18 @@ Special Chart
               </conditionGroups>
             </modifier>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3714-bea3-5711-333b" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -2577,14 +2528,18 @@ Special Chart
               </conditionGroups>
             </modifier>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3714-bea3-5711-333b" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -2685,14 +2640,18 @@ Special Chart
               </conditionGroups>
             </modifier>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3714-bea3-5711-333b" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -2796,14 +2755,18 @@ Special Chart
         <selectionEntry id="225c-4139-c2c4-d1a5" name="Warrior of Minas Tirith" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3714-bea3-5711-333b" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -3208,26 +3171,34 @@ Special Chart
         <selectionEntry id="f578-551f-3672-9c7c" name="Minas Tirith Crew" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3714-bea3-5711-333b" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="set" field="b6bf-0c33-7394-0f00" value="1.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3714-bea3-5711-333b" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -3255,10 +3226,19 @@ Special Chart
             <entryLink id="0617-9cbb-5810-d53f" name="Warrior" hidden="false" collective="false" import="true" targetId="4507-92bb-666c-1bd3" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="Crew"/>
+                <modifier type="increment" field="b738-6044-4706-0a5a" value="12.0">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8626-a62e-8eb2-6bdf" type="min"/>
               </constraints>
+              <costs>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="7.0"/>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -3270,21 +3250,22 @@ Special Chart
         <selectionEntry id="dd0f-6652-a621-021c" name="Warrior of Rohan" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="382f-c56c-2c7e-f2b7" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a5c1-69ba-9957-5564" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d69f-0585-0175-6bce" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -3295,6 +3276,13 @@ Special Chart
                       <conditions>
                         <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88a9-8e84-febe-390c" type="instanceOf"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d69f-0585-0175-6bce" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </conditionGroup>
@@ -3547,14 +3535,18 @@ Special Chart
               </conditions>
             </modifier>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3714-bea3-5711-333b" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efa5-b326-54e5-6f50" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
