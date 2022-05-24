@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0d23-9c3f-0478-4681" name="Beornings" revision="1" battleScribeVersion="2.03" authorName="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="2813-f088-b8cd-e339" name="Grimbeorn" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4fb6-4455-7d51-450d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f179-4095-e3be-447c" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="80fa-44c6-0c87-e7e8" name="Warband" hidden="false" collective="false" import="true" targetId="d231-99dd-623e-e466" type="selectionEntry"/>
+        <entryLink id="21db-2e2f-47cb-0bb1" name="Grimbeorn" hidden="false" collective="false" import="true" targetId="98fe-c3f4-1018-75bb" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d97-fbe5-2616-2702" name="Beorn" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="27e5-d1f8-2b4e-1506" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="3d2c-2d90-8388-d67d" name="Warband" hidden="false" collective="false" import="true" targetId="d231-99dd-623e-e466" type="selectionEntry"/>
+        <entryLink id="1d48-f24f-5ff7-e57b" name="Beorn" hidden="false" collective="false" import="true" targetId="a710-b381-fdc4-fdd8" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="07b1-7ba3-d9a6-33d7" name="Beornings" hidden="false" collective="false" import="true" targetId="26ed-a28c-4f9e-bffa" type="selectionEntry"/>
+    <entryLink id="a4b3-23d9-46ca-fe8d" name="Determine Alliance Level" hidden="false" collective="false" import="true" targetId="ed75-3bd7-efe7-71d9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d5fd-78e0-fa56-ea59" name="Beornings" hidden="false" targetId="c37c-386c-5bdf-c1fe" primary="false"/>
+        <categoryLink id="8988-f850-a55f-6f1b" name="Misc" hidden="false" targetId="990b-c865-7625-9987" primary="true"/>
+        <categoryLink id="5a5a-12cc-758f-ee4d" name="Good Army" hidden="false" targetId="5acc-0d93-f543-b34f" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="d231-99dd-623e-e466" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="0445-7631-f77d-80b2" value="15.0">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="ab3b-a62b-ef54-533c" value="1.0">
+          <repeats>
+            <repeat field="391e-19ac-b71d-f2e3" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d231-99dd-623e-e466" repeats="1" roundUp="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89d8-b213-fc51-865d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cab8-d47e-85cd-68da" type="max"/>
+        <constraint field="391e-19ac-b71d-f2e3" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0445-7631-f77d-80b2" type="max"/>
+        <constraint field="ab3b-a62b-ef54-533c" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9800-c5d6-8b97-5672" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="768b-14ee-1327-61f8" name="Beorning" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="aca2-7d81-3cde-3a28" name="Beorning" publicationId="e676-73de-7cfd-1298" page="69" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+              <characteristics>
+                <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">5/4+</characteristic>
+                <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">4</characteristic>
+                <characteristic name="Defense" typeId="d64a-e776-38fd-3019">4</characteristic>
+                <characteristic name="Attack" typeId="6235-3861-befd-7242">2</characteristic>
+                <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">2</characteristic>
+                <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">5</characteristic>
+                <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man
+Beorning
+Infantry
+Warrior</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="b452-fb75-8b0e-b1e7" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="91fc-762a-85aa-5f4d" name="Burly (Passive)" hidden="false" targetId="390c-dc0c-72ba-8d47" type="rule"/>
+                <infoLink id="1e5e-bc60-6032-624e" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+                <infoLink id="aeea-07c7-1c1a-42cf" name="Resistant to Magic (Passive)" hidden="true" targetId="ff02-18ce-6c60-799b" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="26ed-a28c-4f9e-bffa" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntries>
+            <selectionEntry id="ba6d-67b6-58b6-b39e" name="Beorning" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="442c-a141-daa5-eb80" value="15.0">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6ae-efd4-2baf-c157" type="min"/>
+                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="442c-a141-daa5-eb80" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="20.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="0a80-3dcd-66b0-cb7d" name="Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="09ce-db34-5e25-d7f9" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="af76-124e-fd5c-60ef" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="74b1-e1fb-05de-7045" name="Hand-and-a-Half Axe" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="7090-c9c4-e928-f1df" name="Hand-and-a-Half" hidden="false" targetId="1942-7fe3-0a57-32a1" type="rule"/>
+                    <infoLink id="032a-9a73-92a7-8b77" name="Piercing Strike (Special Strike)" hidden="false" targetId="cf87-1687-97be-cc20" type="rule"/>
+                    <infoLink id="98a2-05fe-b8db-4dd6" name="Axe" hidden="false" targetId="7ce7-d652-35f5-47e0" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4fa0-fa28-b0e5-d541" name="Great Bow" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="ab3b-a62b-ef54-533c" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="768b-14ee-1327-61f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ba6d-67b6-58b6-b39e" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <infoLinks>
+                    <infoLink id="baf5-544d-2770-3b6a" name="Great Bow" hidden="false" targetId="c043-d942-d771-f4d7" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="40a3-ef33-4f24-215f" name="Wargear" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="b4dd-8014-4cfa-107c" name="Dagger" hidden="false" collective="false" import="true" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

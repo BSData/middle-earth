@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="32" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="33" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="100" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="03ff-cc3e-pubN74686" name="Battle Companies"/>
   </publications>
@@ -2559,13 +2559,20 @@ Special Chart
             </profile>
           </profiles>
           <infoGroups>
-            <infoGroup id="178a-7655-975f-de0e" name="Special Rules" hidden="false">
+            <infoGroup id="178a-7655-975f-de0e" name="Special Rules" hidden="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
-                <infoLink id="e898-0c7e-19f0-9479" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
+                <infoLink id="e898-0c7e-19f0-9479" name="Woodland Creature (Active)" hidden="true" targetId="423b-b343-5f3d-f2d9" type="rule">
                   <modifiers>
-                    <modifier type="set" field="hidden" value="true">
+                    <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51de-57ba-20f1-c729" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -3066,13 +3073,20 @@ Special Chart
             </profile>
           </profiles>
           <infoGroups>
-            <infoGroup id="61b2-c160-053d-678a" name="Special Rules" hidden="false">
+            <infoGroup id="61b2-c160-053d-678a" name="Special Rules" hidden="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
-                <infoLink id="ae5d-2131-deab-9b07" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
+                <infoLink id="ae5d-2131-deab-9b07" name="Woodland Creature (Active)" hidden="true" targetId="423b-b343-5f3d-f2d9" type="rule">
                   <modifiers>
-                    <modifier type="set" field="hidden" value="true">
+                    <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="51de-57ba-20f1-c729" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
