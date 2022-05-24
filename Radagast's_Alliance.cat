@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b201-0c2b-09a3-2a09" name="Radagast&apos;s Alliance" revision="4" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b201-0c2b-09a3-2a09" name="Radagast&apos;s Alliance" revision="6" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b201-0c2b-pubN65755" name="Armies of the Hobbit"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="5f22-a82e-63b4-e7a4" name="Gwahir" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="26ed-a28c-4f9e-bffa" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f16-ad49-4993-b600" type="max"/>
       </constraints>
@@ -28,113 +35,9 @@
       <categoryLinks>
         <categoryLink id="5210-a5ce-7b56-8c14" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7f2c-bada-4a6b-b001" name="Beorn" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a57d-a145-bf97-abf2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6411-ae3d-ac7a-df7e" type="min"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db89-e5e3-1a7e-1aa1" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6956-0a79-4ff5-18e5" name="Beorn" publicationId="b201-0c2b-pubN65755" page="80" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-              <characteristics>
-                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
-                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">6/4+</characteristic>
-                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">5</characteristic>
-                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">5</characteristic>
-                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
-                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
-                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
-                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
-                <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
-                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Infantry Hero</characteristic>
-                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoGroups>
-            <infoGroup id="a0fe-8fb7-2772-bd4d" name="Special Rules" hidden="false">
-              <rules>
-                <rule id="0398-5274-290e-b924" name="Skin-Changer (Active)" publicationId="b201-0c2b-pubN65755" page="80" hidden="false">
-                  <description>To change Beorn’s form, the controlling player may roll a D6 at the start of Beorn’s Move. On the roll of a 4+ (Might may be used to modify this roll), Beorn changes shape from a man into a bear (or vice-versa). Replace the Beorn model with the Beorn the Bear model (or vice-versa). Beorn can then continue with his move as normal, including making Charges. Beorn cannot change form if there is an enemy model in base contact with him.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="776d-0da8-f82e-3faa" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
-                <infoLink id="1bbd-8876-1fcc-dc40" name="Resistant to Magic (Passive)" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
-                <infoLink id="c4e5-0668-da26-4a25" name="Fearless (Passive)" hidden="false" targetId="7ad1-afe5-c22b-4558" type="rule"/>
-                <infoLink id="11a6-4187-5e4e-0ff2" name="Burly (Passive)" hidden="false" targetId="390c-dc0c-72ba-8d47" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
-          <selectionEntries>
-            <selectionEntry id="0081-4a39-5025-917c" name="Beorn the Bear" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7242-4c18-b785-ec01" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9f-0b24-ea8c-c75a" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="319a-9ad6-46f9-1c03" name="Beorn the Bear" publicationId="b201-0c2b-pubN65755" page="81" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-                  <characteristics>
-                    <characteristic name="Movement" typeId="6d57-f596-e10e-6233">8&quot;</characteristic>
-                    <characteristic name="Fight" typeId="5930-f060-2064-c9d5">8/4+</characteristic>
-                    <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">8</characteristic>
-                    <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">8</characteristic>
-                    <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
-                    <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
-                    <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
-                    <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">*</characteristic>
-                    <characteristic name="Will" typeId="b509-13ce-7d03-816e">*</characteristic>
-                    <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">*</characteristic>
-                    <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
-                    <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Bear Monster Infantry Hero</characteristic>
-                    <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoGroups>
-                <infoGroup id="12a9-c57e-1de8-a2bf" name="Special Rules" hidden="false">
-                  <rules>
-                    <rule id="832a-385a-a85d-7e86" name="Crushing Strength (Brutal Power Attack)" publicationId="b201-0c2b-pubN65755" page="81" hidden="false">
-                      <description>If Beorn wins a Duel, instead of striking as normal, choose a losing model – that model immediately suffers a Strength 10 hit. If the To Wound roll is successful, the victim suffers another Strength 10 hit, and so on, until the victim is dead or Beorn fails to wound his victim.</description>
-                    </rule>
-                    <rule id="56fc-be0d-d9a6-6bc3" name="Berserk (Passive)" publicationId="b201-0c2b-pubN65755" page="81" hidden="false">
-                      <description>Beorn the Bear must always Charge an enemy if he is able to. Additionally, Beorn may not use the Stand Fast! or Heroic Actions of other models, and other models may not use his, whilst he is in bear form.</description>
-                    </rule>
-                    <rule id="5d85-8382-4c5b-5669" name="Beorn the Bear*" publicationId="b201-0c2b-pubN65755" page="81" hidden="false">
-                      <description>*Beorn is a very unusual character, in that he can shift between being a man and a bear. When he alters form, replace him with the appropriate model. Also, when he changes, he adopts the appropriate profile and characteristics. Beorn’s Might, Will, Fate and Wounds remain unchanged when he changes form.</description>
-                    </rule>
-                  </rules>
-                </infoGroup>
-              </infoGroups>
-              <costs>
-                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="c806-3e1e-1f3f-dc7e" name="Wargear" hidden="false" collective="false" import="true">
-              <entryLinks>
-                <entryLink id="4904-debe-9962-0ff2" name="Two-Handed Axe" hidden="false" collective="false" import="true" targetId="2d5f-8ff0-8762-879e" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="c941-2e5b-b614-22fe" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="200.0"/>
-            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="df48-dde5-f877-c6c5" name="Warband" hidden="false" collective="false" import="true" targetId="1d65-b62a-c7b4-d8c7" type="selectionEntry"/>
+        <entryLink id="6ed0-1e7d-225c-4817" name="Beorn" hidden="false" collective="false" import="true" targetId="a710-b381-fdc4-fdd8" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -143,6 +46,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="faef-5c8a-0069-dd7d" name="Radagast the Brown" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="26ed-a28c-4f9e-bffa" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afc6-03d6-1c68-8663" type="max"/>
       </constraints>
@@ -161,11 +71,6 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="7b93-99e3-94ec-2cea" name="Radagast&apos;s Alliance" hidden="false" collective="false" import="true" targetId="543e-9750-e44d-71ed" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="939c-4bbe-63a1-ad21" value="1"/>
-      </modifiers>
-    </entryLink>
     <entryLink id="8fef-5500-c35f-0e35" name="The Eagles are coming!" hidden="false" collective="false" import="true" targetId="6ece-291f-e876-2ad9" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="4e3b-0153-f5c2-521c" value="1">
@@ -205,6 +110,13 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="5022-70b2-ba0a-1193" name="Great Eagle" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="26ed-a28c-4f9e-bffa" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <infoGroups>
             <infoGroup id="1630-e09a-54cb-7d5c" name="Special Rules" hidden="false">
               <infoLinks>
@@ -214,6 +126,9 @@
               </infoLinks>
             </infoGroup>
           </infoGroups>
+          <infoLinks>
+            <infoLink id="1fd8-3660-fce3-eb69" name="Great Eagle" hidden="false" targetId="618d-2c0b-5e0a-1cae" type="profile"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="d8ee-2437-35b3-78d2" name="Eagle" hidden="false" collective="false" import="true" type="model">
               <modifiers>

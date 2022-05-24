@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f00c-c553-1359-0463" name="The Easterlings" revision="13" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f00c-c553-1359-0463" name="The Easterlings" revision="15" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f00c-c553-pubN65743" name="Armies of Lord of the Rings"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="942b-72b1-a876-a94b" name="Khamûl The Easterling" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f6bf-941a-fb0d-cbe1" type="max"/>
       </constraints>
@@ -71,33 +78,9 @@
           </infoGroups>
           <selectionEntryGroups>
             <selectionEntryGroup id="1053-041c-6be5-2082" name="Wargear" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="d0fd-2c19-d5de-9e1d" name="Easterling Battle Stave" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d4a-71f1-4de6-be10" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd90-35c1-bfd8-e425" type="max"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="766a-f1f7-2752-0432" name="Easterling Battle Stave" publicationId="f00c-c553-pubN65743" page="183" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
-                      <characteristics>
-                        <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">Can be used as a Spear or a Two-Handed Axe.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="5b81-3d9b-f28e-ccc4" name="Two-Handed" hidden="false" targetId="2f02-3f5d-59dd-a00b" type="rule"/>
-                    <infoLink id="67d6-92df-f446-3ac1" name="Spear" hidden="false" targetId="81c8-1e1f-ffc7-5477" type="profile"/>
-                    <infoLink id="0506-49e5-9841-909c" name="Axe" hidden="false" targetId="7ce7-d652-35f5-47e0" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
               <entryLinks>
                 <entryLink id="00df-9f05-1ad2-b9d3" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+                <entryLink id="8384-838b-9a95-959c" name="Easterling Battle Stave" hidden="false" collective="false" import="true" targetId="c4bb-5038-b606-f7c3" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="5b4e-cf25-5826-3ebc" name="Options" hidden="false" collective="false" import="true">
@@ -340,6 +323,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9a73-615f-14f7-891b" name="Amdûr, Lord of Blades" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e91-1760-456f-7807" type="max"/>
       </constraints>
@@ -445,6 +435,383 @@
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cc57-5dc7-fb98-406c" name="The Dragon Emperor of Rhûn" publicationId="e676-73de-7cfd-1298" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="0039-26e1-85eb-a5ab" name="Hero of Legend" hidden="false" targetId="6e9c-4e8f-3256-f4f0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="787a-2f49-cd83-27ce" name="The Dragon Emperor of Rhûn" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dba3-ad75-e9b3-19ac" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a3f5-4d5f-36aa-05e6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="45b7-3fc8-0cec-46fa" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="14d3-ee53-8396-dbd1" name="The Dragon Emperor of Rhûn" publicationId="e676-73de-7cfd-1298" page="72" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">6/4+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">7</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike
+Strength
+Defence</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Easterling
+Infantry
+Hero</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="9583-9df4-b77a-bf3c" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="c14b-a374-8358-4044" name="Emperor of the Easterlings (Active)" publicationId="e676-73de-7cfd-1298" page="72" hidden="false">
+                  <description>Friendly Easterling models will benefit from the Dragon Emperor of Rhûn&apos;s Stand Fast! regardless of range; this will also affect friendly Easterling Hero models.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="02a8-34c3-082e-cfba" name="Phalanx (Active)" hidden="false" targetId="0c4c-c496-3d2a-40c2" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="587f-7248-f17e-673c" name="Wargear" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="05a7-5dae-ae86-b62c" name="Royal Palanquin" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2346-c161-e548-a8d9" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d507-a639-95d3-9ede" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="41b8-40e7-b48d-83c7" name="Royal Palanquin" publicationId="e676-73de-7cfd-1298" page="73" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+                      <characteristics>
+                        <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">8&quot;</characteristic>
+                        <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/4+</characteristic>
+                        <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">3</characteristic>
+                        <characteristic name="Defense" typeId="d64a-e776-38fd-3019">6</characteristic>
+                        <characteristic name="Attack" typeId="6235-3861-befd-7242">*</characteristic>
+                        <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">6</characteristic>
+                        <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">2</characteristic>
+                        <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man
+Easterling</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="afef-13ba-9bbd-9fc7" name="Royal Palanquin" publicationId="e676-73de-7cfd-1298" page="73" hidden="false">
+                      <description>The Royal Palanquin is carried by six Black Dragons, each armed with shield and sword. The Black Dragons do not take up any spaces in the Dragon Emperor&apos;s warband.
+
+This is a mount for the Dragon Emperor of Rhûn; however, it does not act like normal Cavalry and therefore will not confer the Cavalry keyword to the Dragon Emperor. Instead it will be treated as if it were an Infantry model.
+
+Whilst the Royal Palanquin has 3 or more Wounds remaining, it moves as normal. If it is reduced to 2 Wounds, its Move value is reduced to 3&quot;. If it has only a single Wound remaining, then it cannot move at all.
+
+When the Palanquin is hit by a shooting attack, the shooter must take an In The Way test to determine whether the Dragon Emperor or the Palanquin is hit. On a 1-4 the Palanquin is hit, and on a 5+ the Dragon Emperor is hit.
+
+If the Dragon Emperor dismounts from the Royal Palanquin for any reason, or is slain whilst riding the Palanquin, replace the Palanquin with a number of Black Dragons equal to the number of Wounds it has remaining, they do not need to make a Courage test to see if they flee. These models, along with the Dragon Emperor, should be placed within the footprint of the Palanquin.
+
+Unlike other mounts, the Dragon Emperor does not use any of the characteristics of the Palanquin. Instead he always uses his own set of characteristics, even if one of the Palanquin&apos;s is better. If the Dragon Emperor wins a Duel roll, except when shielding, then in addition to his own Strikes, the Palanquin may make a number of Strikes equal to its remaining Wounds. These Strikes are always resolved after those of the Dragon Emperor and cannot make Special Strikes.
+
+The Royal Palanquin cannot be knocked Prone for any reason, with the exception of if it is hit directly by a Siege Engine.
+
+The Royal Palanquin, and any model riding it, cannot be affected by the Hurl or Barge Brutal Power Attacks. Additionally, the Royal Palanquin will not be moved by the Sorcerous Blast or Call Winds Magical Power, though it will still suffer any other effects if applicable.</description>
+                    </rule>
+                  </rules>
+                  <infoGroups>
+                    <infoGroup id="5728-57fe-720c-8a88" name="Special Rules" hidden="false">
+                      <rules>
+                        <rule id="d415-71d7-fe20-0d0f" name="Standards of the Emperor (Passive)" publicationId="e676-73de-7cfd-1298" page="73" hidden="false">
+                          <description>The Royal Palanquin is a banner with a range of 12&quot;. As these banners are attached to the Palanquin itself, the Dragon Emperor of Rhûn and the Black Dragons do not suffer the -1 penalty for carrying a banner.</description>
+                        </rule>
+                        <rule id="9298-2abb-9593-fae1" name="In the Name of the Dragon Emperor (Passive)" publicationId="e676-73de-7cfd-1298" page="73" hidden="false">
+                          <description>Friendly Easterling Warrior models within 6&quot; of the Royal Palanquin, and can draw Line of Sight to it, gain a bonus of +1 to their Fight value.</description>
+                        </rule>
+                      </rules>
+                    </infoGroup>
+                  </infoGroups>
+                  <selectionEntries>
+                    <selectionEntry id="d01a-64e5-050a-c516" name="6 Black Dragons" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b6fb-2183-0b8d-b9ae" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fc34-8583-dfc9-6b97" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="d9bf-a0b5-2a1b-4fd2" name="Black Dragon" publicationId="f00c-c553-pubN65743" page="184" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+                          <characteristics>
+                            <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
+                            <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/4+</characteristic>
+                            <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">3</characteristic>
+                            <characteristic name="Defense" typeId="d64a-e776-38fd-3019">6</characteristic>
+                            <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
+                            <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
+                            <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">4</characteristic>
+                            <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man Easterling Infantry Warrior</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="88ae-f010-de10-b422" name="Wargear" hidden="false" collective="false" import="true">
+                          <entryLinks>
+                            <entryLink id="c63e-78a1-55ef-1a1a" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                            <entryLink id="dfc4-2fb4-1070-9877" name="Shield" hidden="false" collective="false" import="true" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
+                            <entryLink id="47bf-9e20-76a7-e032" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+                <selectionEntry id="b94e-820e-6670-e392" name="Helm of the Dragon Emperor" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="28cf-bf28-9aa9-f0c7" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dd0-3e43-2132-2429" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="ea54-d24e-7c50-3a51" name="Helm of the Dragon Emperor (Passive)" publicationId="e676-73de-7cfd-1298" page="72" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+                      <characteristics>
+                        <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">The Helm of the Dragon Emperor gives him the Resistant to Magic special rule.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="f3ec-53aa-54b7-44c4" name="Resistant to Magic (Passive)" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry id="2122-6112-55b5-a2f0" name="The Emperor&apos;s Glaive" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9cb0-3af2-454d-b581" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9315-29bc-1ec0-3fee" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="b092-46a5-709f-5086" name="The Emperor&apos;s Glaive (Active)" publicationId="e676-73de-7cfd-1298" page="72" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+                      <characteristics>
+                        <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">This is an Elven-made spear that may use the Feint special strike. Additionally, the bearer may use the Shielding special rule even though they do not have a shield. The Dragon Emperor of Rhûn may not support whilst mounted upon his Royal Palanquin.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="fd50-ba4a-fc9c-aa30" name="Feint (Special Strike)" hidden="false" targetId="fdb4-351f-226e-5d8d" type="rule"/>
+                    <infoLink id="bb1c-7397-f8c2-a5b2" name="Elven-made" hidden="false" targetId="590e-3a27-7c54-f521" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="ae9b-c6a3-2975-b29a" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="9151-02a2-34dd-4a46" name="Leader (Legend)" hidden="false" collective="false" import="true" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="6a27-429e-afda-9fed" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="170.0"/>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="460a-8de8-0a15-8c4a" name="Warband" hidden="false" collective="false" import="true" targetId="d59f-00aa-e321-a32a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a57-a24c-9cab-be71" name="Brórgîr, the Conjurer" publicationId="e676-73de-7cfd-1298" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="8515-9bc5-d6e8-b0a8" name="Hero of Fortitude" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="00dd-c015-49bf-b127" name="Brórgîr, the Conjurer" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2020-a816-c9a7-4e86" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6989-b020-c2a4-9bed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0709-62a8-686e-1fcd" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6c2b-8f64-da36-654e" name="Brórgîr, the Conjurer" publicationId="e676-73de-7cfd-1298" page="74" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">3/4+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">3</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">5</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">1</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">2</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">4</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">5</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Easterling
+Infantry
+Hero</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="4c94-1364-12f5-8a21" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="4e50-d280-dd6f-b6cd" name="Sorcerous Adept (Active)" publicationId="e676-73de-7cfd-1298" page="74" hidden="false">
+                  <description>Each time Brórgîr rolls a natural 6 when making a Casting test, he will regain a single Will point after resolving the effects of the Magical Power.</description>
+                </rule>
+              </rules>
+            </infoGroup>
+            <infoGroup id="48a1-6add-abf0-6995" name="Magical Powers" hidden="false">
+              <infoLinks>
+                <infoLink id="283b-d347-d243-a2c9" name="Fury " hidden="false" targetId="375a-7bc5-20d4-62d1" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="6&quot;"/>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="5f64-94f4-6942-36d7" name="Enchanted Blades" hidden="false" targetId="3c85-0bba-a4b4-89c9" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="4+"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="37ba-fd68-4083-420e" name="Tremor" hidden="false" targetId="4446-7221-162f-ee3a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="6&quot;"/>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="5+"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="77c5-bfb7-6ef1-c166" name="Bladewrath" hidden="false" targetId="7ec6-ede1-138d-15fb" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
+                    <modifier type="set" field="0920-e245-e3c2-d982" value="2+"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="11a9-9907-b774-ee73" name="Wargear" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="79a1-c89c-0074-8003" name="Easterling Battle Stave" hidden="false" collective="false" import="true" targetId="c4bb-5038-b606-f7c3" type="selectionEntry"/>
+                <entryLink id="a82c-ea9c-1a87-03a7" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="ced0-a2b6-2362-c7c6" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="80.0"/>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9808-b283-3572-48f0" name="Warband" hidden="false" collective="false" import="true" targetId="d59f-00aa-e321-a32a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1fe6-8836-e68a-c779" name="Rutabi, General of the Dragon Legion" publicationId="e676-73de-7cfd-1298" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="8be0-bdff-0969-a569" name="Hero of Valour" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b598-a47d-7c0c-e54f" name="Rutabi, General of the Dragon Legion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fe53-4bcc-4305-c959" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5392-c3a5-4443-efb0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6a74-85bd-89a5-c657" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="27b9-3ab7-e9cf-a796" name="Rutabi, General of the Dragon Legion" publicationId="e676-73de-7cfd-1298" page="74" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">6/4+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">7</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">5</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Challenge</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Woman
+Easterling
+Infantry
+Hero</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="e174-787d-e0e1-7861" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="c42b-6c56-933e-db50" name="Show No Mercy (Active)" publicationId="e676-73de-7cfd-1298" page="74" hidden="false">
+                  <description>When making Strikes against an enemy that is Trapped, Rutabi may re-roll failed To Wound rolls.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="fda6-2343-8e1c-b15d" name="Phalanx (Active)" hidden="false" targetId="0c4c-c496-3d2a-40c2" type="rule"/>
+                <infoLink id="73f1-eb88-c4f9-7d52" name="Unyielding Combat Stance (Active)" hidden="false" targetId="e89f-6767-1096-ab86" type="rule"/>
+                <infoLink id="cc74-b997-c4dc-9f08" name="Master of Battle (Active)" hidden="false" targetId="aabf-11c7-988b-756f" type="rule">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (3+)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="692c-7fd7-0de2-67fa" name="Wargear" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="725c-97c7-41ca-6772" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+                <entryLink id="0991-1c7b-11dc-f3a2" name="Shield" hidden="false" collective="false" import="true" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
+                <entryLink id="0f16-31b7-9ade-547c" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="50da-ab36-c69b-0968" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="110.0"/>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d541-5ff0-8b51-87f2" name="Warband" hidden="false" collective="false" import="true" targetId="d59f-00aa-e321-a32a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="11f1-55c9-fa18-a262" name="No quarter was asked..." hidden="false" collective="false" import="true" targetId="853b-bf63-ae34-d549" type="selectionEntry">
@@ -463,7 +830,8 @@
         <categoryLink id="fb44-e656-0db7-a9fc" name="The Easterlings" hidden="false" targetId="d0d1-49e9-fa9c-ef4a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8efc-5b26-76fa-de06" name="Use Experimental Rules" hidden="false" collective="false" import="true" targetId="9dfc-6fdb-705f-1563" type="selectionEntry"/>
+    <entryLink id="8efc-5b26-76fa-de06" name="Use Experimental Rules" hidden="true" collective="false" import="true" targetId="9dfc-6fdb-705f-1563" type="selectionEntry"/>
+    <entryLink id="e2e6-25c2-9c42-0b3c" name="Host of the Dragon Emperor" hidden="false" collective="false" import="true" targetId="e227-b0c0-640c-766e" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d59f-00aa-e321-a32a" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
@@ -527,18 +895,39 @@
                     </modifier>
                     <modifier type="set" field="name" value="Black Dragon">
                       <conditions>
-                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fa27-a8b9-1383-6c4c" type="equalTo"/>
+                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72d5-d42b-668e-cc1c" type="equalTo"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e96-1b20-7047-5654" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                     <modifier type="set" field="a0e1-d7a9-598e-1545" value="4">
                       <conditions>
-                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fa27-a8b9-1383-6c4c" type="equalTo"/>
+                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72d5-d42b-668e-cc1c" type="equalTo"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e96-1b20-7047-5654" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                     <modifier type="set" field="7b7e-d26d-b685-545a" value="4/4+">
                       <conditions>
-                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fa27-a8b9-1383-6c4c" type="equalTo"/>
+                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72d5-d42b-668e-cc1c" type="equalTo"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e96-1b20-7047-5654" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </modifierGroup>
@@ -664,29 +1053,6 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="fa27-a8b9-1383-6c4c" name="Upgrade to Black Dragons" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="2.0">
-                      <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="de05-b9d6-ab71-6e50" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                    <modifier type="set" field="634e-c30a-a8ad-dfa4" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b532-c41f-6e12-b105" type="max"/>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="634e-c30a-a8ad-dfa4" type="min"/>
-                  </constraints>
-                  <costs>
-                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="9dc3-c770-0300-9c16" name="Banner" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="8bde-d63c-7caa-c15d" value="25">
@@ -701,6 +1067,109 @@
                   <infoLinks>
                     <infoLink id="bc63-c921-82f6-6473" name="Banner" hidden="false" targetId="3684-378e-2d44-d7b3" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="72d5-d42b-668e-cc1c" name="Upgrade to Black Dragons" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="cfdb-5907-b193-3f92" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6988-7fb4-8025-eb33" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfdb-5907-b193-3f92" type="min"/>
+                  </constraints>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2e96-1b20-7047-5654" name="Upgrade to Black Dragons" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="2.0">
+                      <repeats>
+                        <repeat field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de05-b9d6-ab71-6e50" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="42cb-5019-770c-29be" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5b1-8366-8894-bf23" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42cb-5019-770c-29be" type="min"/>
+                  </constraints>
                   <costs>
                     <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
                     <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
@@ -729,18 +1198,39 @@
               <modifiers>
                 <modifier type="set" field="7b7e-d26d-b685-545a" value="4/4+">
                   <conditions>
-                    <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa27-a8b9-1383-6c4c" type="equalTo"/>
+                    <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d87d-21c8-bdd3-2f70" type="equalTo"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43cb-7df5-d1bd-5020" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="set" field="a0e1-d7a9-598e-1545" value="4">
                   <conditions>
-                    <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa27-a8b9-1383-6c4c" type="equalTo"/>
+                    <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d87d-21c8-bdd3-2f70" type="equalTo"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43cb-7df5-d1bd-5020" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="set" field="name" value="Black Dragon Kataphrakts">
                   <conditions>
-                    <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa27-a8b9-1383-6c4c" type="equalTo"/>
+                    <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d87d-21c8-bdd3-2f70" type="equalTo"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43cb-7df5-d1bd-5020" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <characteristics>
@@ -824,17 +1314,43 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="d87d-21c8-bdd3-2f70" name="Upgrade to Black Dragons" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="d87d-21c8-bdd3-2f70" name="Upgrade to Black Dragons" hidden="true" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="2.0">
-                      <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43b0-b8da-2dd5-a218" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
                     <modifier type="set" field="9f03-dd81-ebed-01ea" value="1.0">
                       <conditions>
                         <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -867,6 +1383,60 @@
                     <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="43cb-7df5-d1bd-5020" name="Upgrade to Black Dragons" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="2.0">
+                      <repeats>
+                        <repeat field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43b0-b8da-2dd5-a218" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="4290-9048-10ff-1c05" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e227-b0c0-640c-766e" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f44-31bf-f314-0a67" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4290-9048-10ff-1c05" type="min"/>
+                  </constraints>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup id="0c4d-60f0-7beb-a03b" name="Wargear" hidden="false" collective="false" import="true">
@@ -884,14 +1454,7 @@
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0455-2706-1c6e-b792" name="Dragon Cult Acolyte" hidden="true" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9dfc-6fdb-705f-1563" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+        <selectionEntry id="0455-2706-1c6e-b792" name="Dragon Cult Acolyte" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="9be8-eaae-3f05-59a3" name="Dragon Cult Acolyte" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -912,7 +1475,7 @@ Warrior</characteristic>
           <infoGroups>
             <infoGroup id="70b5-a5ac-6f1f-c0c2" name="Special Rules" hidden="false">
               <rules>
-                <rule id="7332-63dd-0ba4-1b43" name="Supreme Agility (Active)" hidden="false">
+                <rule id="7332-63dd-0ba4-1b43" name="Supreme Agility (Passive)" publicationId="e676-73de-7cfd-1298" page="75" hidden="false">
                   <description>A model with this special rule gains a bonus of +2 to Jump, Leap and Climb tests. Additionally, a model with this special rule will automatically pass all In The Way tests to Strike a model that is defending a barrier or a doorway.</description>
                 </rule>
               </rules>
@@ -974,7 +1537,108 @@ Warrior</characteristic>
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="99ae-4ebc-cb4c-e3a3" name="Rhûnish War Drake" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="dfbc-1b77-5b70-7375" name="Rhûnish War Drake" publicationId="e676-73de-7cfd-1298" page="74" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+              <characteristics>
+                <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
+                <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/6+</characteristic>
+                <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">4</characteristic>
+                <characteristic name="Defense" typeId="d64a-e776-38fd-3019">5</characteristic>
+                <characteristic name="Attack" typeId="6235-3861-befd-7242">2</characteristic>
+                <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">2</characteristic>
+                <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">4</characteristic>
+                <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Drake
+Infantry
+Warrior</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="e61f-9340-00ef-4b73" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="aac5-c17f-5a81-5ab4" name="Slow-active Venom (Passive)" publicationId="e676-73de-7cfd-1298" page="74" hidden="false">
+                  <description>Any model that suffers a Wound from a Rhûnish War Drake, but is not slain, reduces their Fight value and Attacks by 1 (to a minimum of 1) for the remainder of the game. Once an enemy model has been affected by this special rule, it cannot be affected again for the remainder of the game, even if wounded by a different Rhûnish War Drake.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="437b-08b3-8852-fec4" name="Venom (Active)" hidden="false" targetId="7b63-9547-be7a-d31d" type="rule"/>
+                <infoLink id="ecb9-7e91-5b16-b223" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <selectionEntries>
+            <selectionEntry id="363b-014c-b515-66a0" name="Drake" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="decrement" field="abbe-19cc-faf6-9b0b" value="3.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="abbe-19cc-faf6-9b0b" value="6.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="abbe-19cc-faf6-9b0b" value="12.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e53-b18f-0f14-dc92" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8580-cf57-87e0-39f4" type="min"/>
+                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abbe-19cc-faf6-9b0b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="20.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2d48-b8d2-3459-99b0" name="Wargear" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="1841-b9b0-fdbb-3335" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="1232-a607-a663-757d" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c4bb-5038-b606-f7c3" name="Easterling Battle Stave" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60c8-658a-11d8-df3d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc59-b909-83d0-1fbd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="96de-f5a0-2770-b923" name="Easterling Battle Stave" publicationId="f00c-c553-pubN65743" page="183" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+          <characteristics>
+            <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">Can be used as a Spear or a Two-Handed Axe.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ebd9-feec-99e1-0279" name="Two-Handed" hidden="false" targetId="2f02-3f5d-59dd-a00b" type="rule"/>
+        <infoLink id="a969-aec5-b1c1-8818" name="Spear" hidden="false" targetId="81c8-1e1f-ffc7-5477" type="profile"/>
+        <infoLink id="cca7-76da-dc83-147d" name="Axe" hidden="false" targetId="7ce7-d652-35f5-47e0" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>

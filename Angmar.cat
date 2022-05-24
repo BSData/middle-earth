@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4ce8-a29b-c5eb-5a62" name="Angmar" revision="26" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4ce8-a29b-c5eb-5a62" name="Angmar" revision="27" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="3bcf-0b88-6ba9-2192" name="The Witch-king of Angmar" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -22,79 +22,9 @@
       <categoryLinks>
         <categoryLink id="e399-602c-8c1a-bfa9" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="ea13-8fbc-df2c-5554" name="Wild Warg Chieftain" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4225-404e-eba7-138d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceb0-de97-cc49-baa5" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5be3-3e31-5089-0fb6" name="Wild Warg Chieftain" publicationId="3e16-9abf-pubN103678" page="130" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-              <characteristics>
-                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">10&quot;</characteristic>
-                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/5+</characteristic>
-                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">6</characteristic>
-                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">5</characteristic>
-                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
-                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
-                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">4</characteristic>
-                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
-                <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
-                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Strength</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Warg Infantry Hero</characteristic>
-                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoGroups>
-            <infoGroup id="5a22-8f99-a205-c268" name="Special Rules" hidden="false">
-              <rules>
-                <rule id="0321-6d86-234e-754b" name="Packlord (Active)" publicationId="3e16-9abf-pubN103678" page="130" hidden="false">
-                  <description>Only friendly Warg models may benefit from a Wild Warg Chieftain&apos;s Stand Fast! and Heroic Actions.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="9784-e8e1-ac75-b045" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="16e4-debc-dc04-323d" name="Wargear" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="c9b8-6397-3df6-c97c" name="Claws and Teeth" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6de3-6c23-a52a-3176" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6823-6fe5-0226-10c1" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="a2e2-02d5-4bd1-5636" name="Claws and Teeth" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
-                      <characteristics>
-                        <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="32ef-78e9-7125-f269" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="80.0"/>
-            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="220a-83f2-b940-0043" name="Warband" hidden="false" collective="false" import="true" targetId="1467-1a81-fd46-1d75" type="selectionEntry"/>
+        <entryLink id="d753-8898-9a21-0c8a" name="Wild Warg Chieftain" hidden="false" collective="false" import="true" targetId="cdf5-3651-4c5a-759c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="99" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="102" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="3e16-9abf-pubN102460" name="Middle-Earth Strategy Battle Game Rules Manual"/>
     <publication id="3e16-9abf-pubN103678" name="Armies of Lord of the Rings"/>
@@ -9,7 +9,7 @@
     <publication id="b222-d397-7636-8248" name="War in Rohan"/>
     <publication id="5ba1-ebaf-1b40-a44f" name="Quest of the Ringbearer"/>
     <publication id="4da3-c317-04e2-c033" name="Fall of the Necromancer"/>
-    <publication id="e676-73de-7cfd-1298" name="War in the North"/>
+    <publication id="e676-73de-7cfd-1298" name="Defence of the North"/>
   </publications>
   <costTypes>
     <costType id="8bde-d63c-7caa-c15d" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -250,6 +250,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c57-ffa1-bf62-a32c" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="c37c-386c-5bdf-c1fe" name="Beornings" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="70d0-3742-f6cf-863f" name="Strategy Battle Game" hidden="false">
@@ -1677,12 +1678,13 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a8-e98e-3a05-d9ae" type="max"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d504-ce35-a4c8-0658" type="min"/>
       </constraints>
-      <rules>
-        <rule id="c3dc-5702-bcd9-6571" name="No quarter was asked..." publicationId="3e16-9abf-pubN103678" page="180" hidden="false">
-          <description>Easterling models receive +1 Courage when their force is Broken. Additionally, once per gamer, in Scenarios in which a dice is rolled to see when the game ends, so long as there is at least one Easterling Hero model alive and on the battlefield, the Easterling player may choose to have the dice re-rolled if the Scenario ends before they wish it to.
-If there is an Easterling contingent as part of an army that contains an alliance, this Army Bonus is only in effect if 25% or more of the total models in the army have the Easterling keyword.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="ea03-5bd2-657a-8781" name="No quarter was asked..." hidden="false" targetId="4f78-00d3-9aa0-b294" type="rule">
+          <modifiers>
+            <modifier type="append" field="description" value="If there is an Easterling contingent as part of an army that contains an alliance, this Army Bonus is only in effect if 25% or more of the total models in the army have the Easterling keyword."/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="13f4-5c8a-c33c-95fd" name="New CategoryLink" hidden="false" targetId="990b-c865-7625-9987" primary="true"/>
       </categoryLinks>
@@ -1714,6 +1716,9 @@ If there is an Easterling contingent as part of an army that contains an allianc
           <description>Ent models from this army list gain the Fearless special rule. Additionally, Ent models are completely unaffected by any Magical Powers or special rules that would prevent them from moving or move them against their will (the only exception is that they will still take the hit from a Sorcerrous Blast, but it will suffer no further effects). Additionally, Ent models are completely unaffected by the Nature&apos;s Wrath and Wrath of Bruinen Magical Powers.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="ae46-3096-db89-4c31" name="Misc" hidden="false" targetId="990b-c865-7625-9987" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
@@ -3234,9 +3239,9 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">0</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">7</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">0</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Channelling Strike Strength Challenge</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling</characteristic>
             <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Spirit Ringwraith Mordor Infantry Hero</characteristic>
-            <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+            <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4055,7 +4060,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             </infoLink>
             <infoLink id="1315-2fe9-ed74-cd17" name="Sap Will" hidden="false" targetId="2490-bf82-49f8-c45e" type="profile">
               <modifiers>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
+                <modifier type="set" field="0920-e245-e3c2-d982" value="5+"/>
                 <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
               </modifiers>
             </infoLink>
@@ -6405,7 +6410,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
-            <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
+            <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength</characteristic>
             <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
@@ -6550,6 +6555,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           </rules>
           <infoLinks>
             <infoLink id="30e6-0f07-2e63-62d3" name="Deadly Shot (Active)" hidden="false" targetId="7265-036b-65ff-76c1" type="rule"/>
+            <infoLink id="eed2-9621-005b-916c" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -10219,6 +10225,11 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="fc29-34ba-8883-0379" value="Dwarf Erebor Infantry Hero">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -11152,8 +11163,8 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
       <selectionEntryGroups>
         <selectionEntryGroup id="226a-d4b4-3181-d051" name="Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="f28a-6125-4d52-6791" name="Hand-and-a-half Axe" hidden="false" collective="false" import="true" targetId="f5c0-592b-0da1-927f" type="selectionEntry"/>
-            <entryLink id="3da4-4c7f-bbd9-7426" name="Heavy Dwarf Armour" hidden="false" collective="false" import="true" targetId="16d0-4708-68d8-c15f" type="selectionEntry"/>
+            <entryLink id="f28a-6125-4d52-6791" name="Heavy Dwarf Armour" hidden="false" collective="false" import="true" targetId="16d0-4708-68d8-c15f" type="selectionEntry"/>
+            <entryLink id="3da4-4c7f-bbd9-7426" name="Hand-and-a-half Axe" hidden="false" collective="false" import="true" targetId="f5c0-592b-0da1-927f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -13245,37 +13256,6 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06fb-7e54-1b6e-518d" type="max"/>
         <constraint field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84ca-3457-f1ad-abd9" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="64e8-3171-253d-76b7" name="The Nazgûl of Dol Guldur" publicationId="3e16-9abf-pubN141412" page="110" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-          <modifiers>
-            <modifier type="set" field="db92-6a08-e1ce-a77d" value="3">
-              <conditions>
-                <condition field="selections" scope="822c-ff72-07d6-277b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce9e-9547-1ccb-4b9c" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="7d79-496f-5c13-35c4" value="3">
-              <conditions>
-                <condition field="selections" scope="822c-ff72-07d6-277b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ae9-1b5a-b4f5-5aa5" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
-            <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/4+</characteristic>
-            <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
-            <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">6</characteristic>
-            <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">1</characteristic>
-            <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">1</characteristic>
-            <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
-            <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
-            <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
-            <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">0</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Spirit Ringwraith Dol Guldur Infantry Hero</characteristic>
-            <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoGroups>
         <infoGroup id="ca9c-d31d-2b6f-6502" name="Special Rules" hidden="false">
           <rules>
@@ -13320,6 +13300,14 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   </rules>
                 </infoGroup>
               </infoGroups>
+              <infoLinks>
+                <infoLink id="5ee0-06cd-5134-927e" name="The Nazgûl of Dol Guldur" hidden="false" targetId="3b89-c82a-9fd8-252e" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Khamûl the Easterling"/>
+                    <modifier type="set" field="7d79-496f-5c13-35c4" value="3"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="cedd-3a26-74cc-b3f9" name="Wargear" hidden="false" collective="false" import="true">
                   <entryLinks>
@@ -13348,6 +13336,13 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   </rules>
                 </infoGroup>
               </infoGroups>
+              <infoLinks>
+                <infoLink id="2e5e-df66-5c19-ced6" name="The Nazgûl of Dol Guldur" hidden="false" targetId="3b89-c82a-9fd8-252e" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="The Abyssal Knight"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="8f4e-cb4b-f50f-2ad0" name="Wargear" hidden="false" collective="false" import="true">
                   <entryLinks>
@@ -13376,6 +13371,13 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   </rules>
                 </infoGroup>
               </infoGroups>
+              <infoLinks>
+                <infoLink id="b02d-4f54-b622-3ef1" name="The Nazgûl of Dol Guldur" hidden="false" targetId="3b89-c82a-9fd8-252e" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="The Lingering Shadow"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="484f-47b2-333b-61a3" name="Wargear" hidden="false" collective="false" import="true">
                   <entryLinks>
@@ -13404,6 +13406,13 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   </rules>
                 </infoGroup>
               </infoGroups>
+              <infoLinks>
+                <infoLink id="8de3-9189-3caa-7036" name="The Nazgûl of Dol Guldur" hidden="false" targetId="3b89-c82a-9fd8-252e" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="The Dark Headsman"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="5f1c-61c3-78ab-544a" name="Wargear" hidden="false" collective="false" import="true">
                   <entryLinks>
@@ -13423,6 +13432,13 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a442-33be-22b1-3cea" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fcb5-421c-b413-5daa" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3f20-8aee-4deb-0724" name="The Nazgûl of Dol Guldur" hidden="false" targetId="3b89-c82a-9fd8-252e" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="The Forsaken"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="63ad-b606-c5f8-25ae" name="Wargear" hidden="false" collective="false" import="true">
                   <selectionEntries>
@@ -13470,6 +13486,13 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   </rules>
                 </infoGroup>
               </infoGroups>
+              <infoLinks>
+                <infoLink id="f5e4-2b83-f8a4-ed5f" name="The Nazgûl of Dol Guldur" hidden="false" targetId="3b89-c82a-9fd8-252e" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="The Slayer of Men"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="758e-1e1c-1957-7960" name="Wargear" hidden="false" collective="false" import="true">
                   <entryLinks>
@@ -13505,6 +13528,14 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   </rules>
                 </infoGroup>
               </infoGroups>
+              <infoLinks>
+                <infoLink id="bc1b-b2f8-29bf-8d6e" name="The Nazgûl of Dol Guldur" hidden="false" targetId="3b89-c82a-9fd8-252e" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="The Witch-king of Angmar"/>
+                    <modifier type="set" field="db92-6a08-e1ce-a77d" value="3"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="0a9b-157c-f0ca-84e9" name="Wargear" hidden="false" collective="false" import="true">
                   <entryLinks>
@@ -13908,6 +13939,7 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
         <infoGroup id="fe74-c3a7-acd5-1084" name="Special Rules" hidden="false">
           <infoLinks>
             <infoLink id="addd-ab03-1871-dea7" name="Deadly Shot (Active)" hidden="false" targetId="7265-036b-65ff-76c1" type="rule"/>
+            <infoLink id="5aa5-16be-b17e-2d8f" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -15826,7 +15858,7 @@ The Chariot is also subject to the following exceptions:
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="df2f-af27-1cb4-678f" name="Woodland Creature" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+            <infoLink id="df2f-af27-1cb4-678f" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
             <infoLink id="bda2-e5c6-4c07-7bcb" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
           </infoLinks>
         </infoGroup>
@@ -18053,7 +18085,6 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="09b7-0a0b-39c7-2833" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c753-dd85-80b1-68e7" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a99-406e-2425-2323" type="max"/>
       </constraints>
       <profiles>
@@ -34110,6 +34141,9 @@ Hero</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="239c-19e5-7163-2bfa" name="Leader (Legend)" hidden="false" collective="false" import="true" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="130.0"/>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -34156,6 +34190,9 @@ Defence</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="13c5-dd7d-5430-e807" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="120.0"/>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -34324,6 +34361,8 @@ Defence</characteristic>
     <selectionEntry id="2e09-9eec-f58f-cb52" name="Brand, King of Dale" publicationId="e676-73de-7cfd-1298" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cf1-5446-d29e-563c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c54f-136e-3172-390e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="75d4-2cf8-3da2-de8a" type="max"/>
       </constraints>
       <profiles>
         <profile id="1df4-2713-77e5-0ca8" name="Brand, King of Dale" publicationId="e676-73de-7cfd-1298" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
@@ -34359,6 +34398,18 @@ Hero</characteristic>
               <description>At the start of a Fight involving Brand, check to see if he would be Trapped should his side lose the Duel roll, with the exception of if a friendly model can Make Way for Brand. If Brand would be Trapped, he may re-roll a single D6 to win the Duel roll, and a single D6 when rolling To Wound.</description>
             </rule>
           </rules>
+          <infoLinks>
+            <infoLink id="8033-150f-2bdf-ff23" name="Sworn Protector (Active)" hidden="false" targetId="bd82-b1aa-f5ed-676f" type="rule">
+              <modifiers>
+                <modifier type="append" field="name" value=" (Brand)"/>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="66b3-e99a-fc4c-50c8" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
         </infoGroup>
       </infoGroups>
       <selectionEntryGroups>
@@ -34440,6 +34491,8 @@ Hero</characteristic>
     <selectionEntry id="a008-0695-cc92-1096" name="Bard II, Prince of Dale" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7353-27e4-5c61-926a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7089-c7e3-a213-60fd" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a902-dff6-f83b-628e" type="max"/>
       </constraints>
       <profiles>
         <profile id="a429-a9cb-9ea2-a760" name="Bard II, Prince of Dale" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
@@ -34469,6 +34522,16 @@ Hero</characteristic>
         <infoGroup id="e0ba-2090-838b-5245" name="Special Rules" hidden="false">
           <infoLinks>
             <infoLink id="f6c0-4a49-7718-453d" name="Wall of Blades (Active)" hidden="false" targetId="b6db-d73f-7a8d-2ede" type="rule"/>
+            <infoLink id="4ab8-772e-1056-5b8a" name="Sworn Protector (Active)" hidden="false" targetId="bd82-b1aa-f5ed-676f" type="rule">
+              <modifiers>
+                <modifier type="append" field="name" value=" (Brand)"/>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="66b3-e99a-fc4c-50c8" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -34561,6 +34624,850 @@ Hero</characteristic>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="75.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e227-b0c0-640c-766e" name="Host of the Dragon Emperor" publicationId="b222-d397-7636-8248" page="94" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1952-cf5f-06a7-df23" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="a197-a673-eb33-fad9" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="a707-e78f-5c15-cff1" name="The Dragon Cults" publicationId="e676-73de-7cfd-1298" page="93" hidden="false">
+              <description>Easterling Warriors and Easterling Kataphrakts in warbands led by the Dragon Emperor of Easterling Dragon Knights do not need to pay the points to be upgraded to Black Dragons - this upgrade is free.</description>
+            </rule>
+            <rule id="02a7-9e4f-6e0f-0605" name="Heroes of the Easterlings" publicationId="e676-73de-7cfd-1298" page="93" hidden="false">
+              <description>Easterling Hero models may re-roll a D6 in a Duel roll.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="0675-cfef-33b8-8516" name="No quarter was asked..." hidden="false" targetId="4f78-00d3-9aa0-b294" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="5769-62c5-5825-e8bd" name="New CategoryLink" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d80-5002-d96b-08a1" name="Assault on Lothlórien" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a32d-bdcc-f0ed-6af9" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="5eb7-87a5-5213-6423" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="2f4f-be6b-217c-24d0" name="Cover of Darkness" publicationId="e676-73de-7cfd-1298" page="97" hidden="false">
+              <description>Any battle featuring this Legendary Legion takes place at night. As such, due to the reduced visibility, models cannot be targetted by shooting, Magical Powers or special abilities over 12&quot; away. However, as it is much harder to avoid a shot in the dark, all shooting attacks gain a bonus of +1 when rolling To Wound. Siege Engines may still target enemy models more than 12&quot; away, however in this situation they will only ever hit on the roll of a 6. Models with the Cave Dweller special rule can see as normal.</description>
+            </rule>
+            <rule id="47a0-7a73-8e02-231c" name="Ruthless Savagery" publicationId="e676-73de-7cfd-1298" page="97" hidden="false">
+              <description>Friendly Orc and Goblin models gain a bonus of +1 To Wound in a fight which the opposing model is outnumbered. Note that supporting models do not count for either side for the purpose of this rule.</description>
+            </rule>
+            <rule id="1c19-a467-4504-413f" name="Dark Magics" publicationId="e676-73de-7cfd-1298" page="97" hidden="false">
+              <description>Friendly models may re-roll any number of D6 when making a Casting roll.</description>
+            </rule>
+            <rule id="e830-9328-0698-e9bc" name="Venom-back Spiders" publicationId="e676-73de-7cfd-1298" page="97" hidden="false">
+              <description>If your force contains Ashrâk then all Giant Spiders in your force can be upgraded to Venom-Back Spiders for free.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="d578-0279-c752-3ccd" name="Legendary Legion" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8e2-8c58-017b-b1a9" name="Fell Beings of Mirkwood" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d5e-4541-9369-5925" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="5601-c5c3-34fa-efc5" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="43ed-351c-6c2f-c1ea" name="The War Leader" publicationId="e676-73de-7cfd-1298" page="95" hidden="false">
+              <description>Razgûsh gains a bonus of +1 to his Fight value when engaged with an enemy Elf model.</description>
+            </rule>
+            <rule id="cf49-c77a-398c-49ad" name="Through the Forest" publicationId="e676-73de-7cfd-1298" page="95" hidden="false">
+              <description>Friendly Infantry models gain the Woodland Creature special rule.</description>
+            </rule>
+            <rule id="60a3-dfb8-7b99-9e47" name="Death to the Elves" publicationId="e676-73de-7cfd-1298" page="95" hidden="false">
+              <description>Friendly models gain the Hatred (Elf) special rule.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="66ba-b87b-46b4-d8c3" name="New CategoryLink" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66b3-e99a-fc4c-50c8" name="Army of Dale" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2d2b-66a5-e20a-07d4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1b51-6fbd-aaf4-9c5f" name="Legendary Legion" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26ed-a28c-4f9e-bffa" name="Beornings" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0ab1-c4a3-d23c-6a68" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="52ef-6731-278d-5846" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="7b7d-9e6b-30d2-5ff7" name="Great Resilience" publicationId="e676-73de-7cfd-1298" hidden="false">
+              <description>Whenever a friendly Bear model suffers a Wound, roll a D6. On the roll of a 5+ the Wound is ignored just as if a Fate point had been spent.</description>
+            </rule>
+            <rule id="610c-e34c-c287-7290" name="Charge of the Bear" publicationId="e676-73de-7cfd-1298" hidden="false">
+              <description>Whilst they have the Bear keyword, Beorn and Grimbeorn Gain the Monstrous Charge special rule.</description>
+            </rule>
+            <rule id="9bb3-fbb6-9806-fe0e" name="Natural Resistance" publicationId="e676-73de-7cfd-1298" hidden="false">
+              <description>Friendly models gain the Resistant to Magic special rule.</description>
+            </rule>
+            <rule id="0903-792f-13b8-fef2" name="Fuelled by Fury" publicationId="e676-73de-7cfd-1298" hidden="false">
+              <description>Beorn and Grimbeorn do not need to roll for their Skin-changer special rule; they can transform at will.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="63e4-d5df-6b6a-d606" name="Legendary Legion" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7c11-4e33-4d85-eeb6" name="Orophin" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a93a-8920-680a-b200" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4228-90a0-be9b-8292" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b915-9ca2-05c5-da77" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="76d0-c704-176a-de48" name="Orophin" publicationId="e676-73de-7cfd-1298" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+          <characteristics>
+            <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+            <characteristic name="Fight" typeId="5930-f060-2064-c9d5">6/3+</characteristic>
+            <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
+            <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">6</characteristic>
+            <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+            <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">2</characteristic>
+            <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
+            <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
+            <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
+            <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Lórien
+Infantry
+Hero</characteristic>
+            <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="878b-1dbf-7346-9d57" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="7a7d-40ae-f643-8b35" name="Whirl of Blades (Active)" publicationId="e676-73de-7cfd-1298" hidden="false">
+              <description>If Orophin rolls one or more natural 6s when making a Duel roll, then any roll of a natural 6 will make double the number of Strikes they would normally make when rolling To Wound. Note that any Strikes doubled in this way will not double again if the model Orophin is fighting is Trapped.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="1f9b-7a5c-b8df-4c49" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+            <infoLink id="c4e8-2d3b-a6fb-bf0b" name="Resistant to Magic (Passive)" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31c-2585-1e87-b90d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4976-7e46-910e-b8fb" name="Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="7d50-e30e-5489-1c3e" name="Elven-made Sword" hidden="false" collective="false" import="true" targetId="1ef8-a0ca-889f-0d8b" type="selectionEntry"/>
+            <entryLink id="3a79-d709-c530-8898" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1468-c148-2b43-8dba" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="85.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9527-cbe4-fb8c-881d" name="Defenders of Erebor" publicationId="e676-73de-7cfd-1298" page="88" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="78c3-fbf3-0ec4-c189" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0781-1e15-0db8-0b4e" type="atLeast"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="67a5-4ca5-7747-d9a0" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="78c3-fbf3-0ec4-c189" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="178e-b139-4232-ecba" name="Special Rules" publicationId="e676-73de-7cfd-1298" page="88" hidden="false">
+          <rules>
+            <rule id="a41f-63b4-3d68-784e" name="Long-standing Alliance" publicationId="e676-73de-7cfd-1298" page="89" hidden="false">
+              <description>Dale models within 1&quot; of a friendly Erebor model reroll 1s To Wound during the Fight phase. Additionally, Erebor models within 1&quot; of a friendly Dale model reroll 1s To Wound during the Fight phase</description>
+            </rule>
+            <rule id="3e62-ebbf-cf9b-be3d" name="The Heirs to the Kingdoms" publicationId="e676-73de-7cfd-1298" page="89" hidden="false">
+              <description>If either Thorin III Stonehelm or Bard II would be Trapped at the start of the Fight phase, then the other may declare a Heroic Combat without spending Might. If successful, they must join their Trapped ally&apos;s fight if possible. If this is not possible, then they must move as close to their Trapped ally.</description>
+            </rule>
+            <rule id="b3e4-fd73-91ca-80d2" name="A Bond Forged in War" publicationId="e676-73de-7cfd-1298" page="89" hidden="false">
+              <description>If either Dáin or Brand would be Trapped at the start of the Fight phase, then the other may declare a Heroic Combat without spending Might. If successful, they must join their Trapped ally&apos;s fight if possible. If this is not possible, then they must move as close to their Trapped ally.</description>
+            </rule>
+            <rule id="b017-cd75-de36-ac21" name="Royal Bloodlines" publicationId="e676-73de-7cfd-1298" page="89" hidden="false">
+              <description>Friendly models within 3&quot; of Dáin Ironfoot, Thorin III Stonehelm, Brand, King of Dale and Bard II, Prince of Dale count as being in range of a banner.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="1d95-daa9-9006-cb00" name="Legendary Legion" hidden="false" targetId="cd42-313a-a225-9ec6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a710-b381-fdc4-fdd8" name="Beorn" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c97a-130e-75d8-b593" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d76-cb9b-8d83-ba1d" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a40a-e016-d656-ac12" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d32d-6ff9-8a28-05d8" name="Beorn" publicationId="3e16-9abf-pubN141412" page="80" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+          <characteristics>
+            <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+            <characteristic name="Fight" typeId="5930-f060-2064-c9d5">6/4+</characteristic>
+            <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">5</characteristic>
+            <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">5</characteristic>
+            <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+            <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+            <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
+            <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
+            <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
+            <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Infantry Hero</characteristic>
+            <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="6db5-90d3-c6fd-b436" name="Special Rules" hidden="false">
+          <infoLinks>
+            <infoLink id="60e5-f5fc-88ac-9017" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+            <infoLink id="b0e2-4f7c-781c-480e" name="Resistant to Magic (Passive)" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
+            <infoLink id="7ff3-4149-24bb-b720" name="Fearless (Passive)" hidden="false" targetId="7ad1-afe5-c22b-4558" type="rule"/>
+            <infoLink id="01b6-c601-c443-f503" name="Burly (Passive)" hidden="false" targetId="390c-dc0c-72ba-8d47" type="rule"/>
+            <infoLink id="9e20-9c6d-a3dd-a463" name="Monstrous Charge (Active)" hidden="true" targetId="7b8b-6f8f-1773-6bc5" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="26ed-a28c-4f9e-bffa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="014d-eae9-e131-c0a9" name="Skin-Changer (Active)" hidden="false" targetId="bf2e-3118-471d-9720" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntries>
+        <selectionEntry id="801f-0d14-97f5-0db3" name="Beorn the Bear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db6f-513a-e516-ed5a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7435-14eb-3d91-a37d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ae86-0352-3041-a375" name="Beorn the Bear" publicationId="3e16-9abf-pubN141412" page="81" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">8&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">8/4+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">8</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">8</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">*</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">*</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">*</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Bear Monster Infantry Hero</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="faf6-68fb-0e2b-cd1d" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="4ec0-138b-224a-c337" name="Beorn the Bear*" publicationId="3e16-9abf-pubN141412" page="81" hidden="false">
+                  <description>*Beorn is a very unusual character, in that he can shift between being a man and a bear. When he alters form, replace him with the appropriate model. Also, when he changes, he adopts the appropriate profile and characteristics. Beorn’s Might, Will, Fate and Wounds remain unchanged when he changes form.</description>
+                </rule>
+                <rule id="a787-6cd2-03e4-ff75" name="Berserk (Passive)" publicationId="3e16-9abf-pubN141412" page="81" hidden="false">
+                  <description>Beorn the Bear must always Charge an enemy if he is able to. Additionally, Beorn may not use the Stand Fast! or Heroic Actions of other models, and other models may not use his, whilst he is in bear form.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="5d31-b86c-c73f-7121" name="Crushing Strength (Brutal Power Attack)" hidden="false" targetId="621d-6450-dd20-ea5b" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="54bb-cb18-a56c-c912" name="Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="cb87-cf12-1954-8159" name="Two-Handed Axe" hidden="false" collective="false" import="true" targetId="2d5f-8ff0-8762-879e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1a61-cf57-7e94-523a" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="dbca-dc88-38f4-9e87" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="26ed-a28c-4f9e-bffa" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dbca-dc88-38f4-9e87" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="200.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98fe-c3f4-1018-75bb" name="Grimbeorn" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96de-500d-7b88-da94" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc33-fdf2-53fa-6978" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f01-af6a-4c23-7dec" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e334-f120-ba1a-301d" name="Grimbeorn" publicationId="e676-73de-7cfd-1298" page="68" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+          <characteristics>
+            <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+            <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/4+</characteristic>
+            <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">5</characteristic>
+            <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">5</characteristic>
+            <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+            <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+            <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
+            <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
+            <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
+            <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Infantry Hero</characteristic>
+            <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="647c-330e-db91-b18d" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="b835-62ff-ef5a-7b58" name="Leader of the Beornings (Passive)" publicationId="e676-73de-7cfd-1298" page="68" hidden="false">
+              <description>Only Bear or Beorning models may benefit from Grimbeorn&apos;s Heroic Actions or Stand Fast!.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="c0eb-0c3a-abc1-f177" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule"/>
+            <infoLink id="2835-0a14-0c2f-1533" name="Resistant to Magic (Passive)" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
+            <infoLink id="c49a-dd8b-af86-c745" name="Fearless (Passive)" hidden="false" targetId="7ad1-afe5-c22b-4558" type="rule"/>
+            <infoLink id="e76c-ba93-845c-c259" name="Burly (Passive)" hidden="false" targetId="390c-dc0c-72ba-8d47" type="rule"/>
+            <infoLink id="239b-66aa-d0cb-03db" name="Monstrous Charge (Active)" hidden="true" targetId="7b8b-6f8f-1773-6bc5" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="26ed-a28c-4f9e-bffa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="9be5-ecdb-671b-f152" name="Skin-Changer (Active)" hidden="false" targetId="bf2e-3118-471d-9720" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntries>
+        <selectionEntry id="8a70-1a78-4185-058f" name="Grimbeorn the Bear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f490-f32b-2d6c-f033" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1d1-2d09-0173-8640" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7f5d-53ea-6132-16ae" name="Grimbeorn the Bear" publicationId="e676-73de-7cfd-1298" page="69" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <characteristics>
+                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">8&quot;</characteristic>
+                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">7/4+</characteristic>
+                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">8</characteristic>
+                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">8</characteristic>
+                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
+                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">*</characteristic>
+                <characteristic name="Will" typeId="b509-13ce-7d03-816e">*</characteristic>
+                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">*</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Bear Monster Infantry Hero</characteristic>
+                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="71ef-2eec-30c6-229e" name="Special Rules" hidden="false">
+              <rules>
+                <rule id="156a-0a31-faa5-7762" name="Grimbeorn the Bear*" publicationId="3e16-9abf-pubN141412" page="81" hidden="false">
+                  <description>*Grimbeorn is a very unusual character, in that he can shift between being a man and a bear. When he alters form, replace him with the appropriate model. Also, when he changes, he adopts the appropriate profile and characteristics. Grimbeorn’s Might, Will, Fate and Wounds remain unchanged when he changes form.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="53d1-a013-317c-2181" name="Crushing Strength (Brutal Power Attack)" hidden="false" targetId="621d-6450-dd20-ea5b" type="rule"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e117-f93f-a989-5270" name="Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="bc01-d5ff-7cca-1dc6" name="Two-Handed Axe" hidden="false" collective="false" import="true" targetId="2d5f-8ff0-8762-879e" type="selectionEntry"/>
+            <entryLink id="11a7-b618-d9c2-46cd" name="Great Bow" hidden="false" collective="false" import="true" targetId="b45d-aa36-149f-b8c6" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="526a-de73-f418-e9f1" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="26ed-a28c-4f9e-bffa" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a710-b381-fdc4-fdd8" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a03f-0e8e-f222-6172" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="200.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="22bb-196f-5724-890e" name="Razgûsh, War Leader of the North" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="06eb-a6b6-e0b8-cb70" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="35b6-c611-0233-2e36" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1cac-2f59-fc3a-d5c4" name="Razgûsh, War Leader of the North" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+          <characteristics>
+            <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+            <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/4+</characteristic>
+            <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
+            <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">7</characteristic>
+            <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+            <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+            <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">5</characteristic>
+            <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
+            <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
+            <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Orc
+Mordor
+Infantry
+Hero</characteristic>
+            <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="5c38-5962-4178-7512" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="2061-adaf-ca41-40c9" name="The Beasts of Mirkwood (Passive)" publicationId="e676-73de-7cfd-1298" hidden="false">
+              <description>Orc Captains in the same army as Razgûsh may include Bat Swarms, Mirkwood Spiders, Giant Spiders and Fell Wargs in their warband as if they were from the Mordor army list.</description>
+            </rule>
+            <rule id="8c44-644a-0153-1a3a" name="War Leader of the North (Passive)" publicationId="e676-73de-7cfd-1298" hidden="false">
+              <description>Razgûsh may only include Orc Warriors, Warg Riders, Giant Spiders, Mirkwood Spiders, Fell Wargs and Bat Swarms in his warband. Additionally, Orc Captains, Orc Warriors and Warg Riders in the same army as Razgûsh gain the Hatred (Elf) special rule.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="4c2d-b1a0-cac6-967c" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="5f55-4a79-648f-c170" name="Bane Weapons (Active)" hidden="false" targetId="e78c-8ece-7832-02bb" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Elfbane"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6d72-03a5-fe0b-4916" name="Wargear" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="61ba-c37b-b7ed-d3ef" name="Bone-breaker" publicationId="e676-73de-7cfd-1298" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ecdc-964d-41ef-b339" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1e36-6aee-de0b-8811" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="a239-6d91-3434-46fe" name="Bone-breaker (Active)" publicationId="e676-73de-7cfd-1298" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+                  <characteristics>
+                    <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">This is a mace. Additionally, enemy models do not receive any bonus for an Elven-made weapon when fighting against Razgûsh.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ccfe-bc14-fb49-d096" name="Bash (Special Strike)" hidden="false" targetId="72f9-9755-f4d2-e20c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5c67-12e8-1753-f5c0" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
+            <entryLink id="81a1-5459-d763-a331" name="Shield" hidden="false" collective="false" import="true" targetId="6105-888b-3a63-c138" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fdf5-6047-89b7-5ffe" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="ef7a-7f84-a0b9-9f2c" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef7a-7f84-a0b9-9f2c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="110.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="24ed-475f-553c-55dd" name="Ashrâk" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eff3-8339-f3ec-183e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="379e-2bb4-2135-a4b7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bd9-2e51-9f2c-ae7a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6346-dc24-3755-f0c7" name="Ashrâk" publicationId="3e16-9abf-pubN103678" page="154" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+          <characteristics>
+            <characteristic name="Movement" typeId="6d57-f596-e10e-6233">5&quot;</characteristic>
+            <characteristic name="Fight" typeId="5930-f060-2064-c9d5">2/5+</characteristic>
+            <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">3</characteristic>
+            <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">4</characteristic>
+            <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">1</characteristic>
+            <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">2</characteristic>
+            <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">4</characteristic>
+            <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">1</characteristic>
+            <characteristic name="Will" typeId="b509-13ce-7d03-816e">4</characteristic>
+            <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Goblin Moria Infantry Hero</characteristic>
+            <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="f395-c980-83ee-dd30" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="1aa3-d2c1-a748-d94e" name="Spider-kin (Passive)" publicationId="3e16-9abf-pubN103678" page="154" hidden="false">
+              <description>Only Spider models may benefit from Ashrâk&apos;s Stand Fast! or Heroic Actions. Additionally, Ashrâk may only target Spider models with his Shroud of Shadows Magical Power.</description>
+            </rule>
+            <rule id="5874-6a84-eca8-de4b" name="Poison Blood (Passive)" publicationId="3e16-9abf-pubN103678" page="154" hidden="false">
+              <description>Ashrâk may include Giant Spiders in his warband as if they were part of the same army list - this does not count as allying. Additionally, any Giant Spiders in your force may be upgraded to Venom-back spiders at the cost of +2 points a model. Venom-back spiders gain the Venom special rule.</description>
+            </rule>
+            <rule id="b8bd-ff30-6679-f40a" name="Death-touch (Passive)" publicationId="3e16-9abf-pubN103678" page="154" hidden="false">
+              <description>Any model that wounds, or is wounded by Ashrâk in a Fight must toll a D6. On a 4+, they suffer the effects of the Paralyse Magical Power.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="215b-3c22-b203-c102" name="Cave Dweller (Active)" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="0a93-8979-731c-2cb9" name="Magical Powers" hidden="false">
+          <infoLinks>
+            <infoLink id="81d3-4391-992a-5e0e" name="Shroud of Shadows" hidden="false" targetId="4629-d88d-8909-9f19" type="profile">
+              <modifiers>
+                <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
+                <modifier type="set" field="0920-e245-e3c2-d982" value="4+"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="68f8-3437-7449-85aa" name="Fury " hidden="false" targetId="375a-7bc5-20d4-62d1" type="profile">
+              <modifiers>
+                <modifier type="append" field="name" value="(Spiders)"/>
+                <modifier type="set" field="1ac9-444c-5045-e1c0" value="-"/>
+                <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="065d-5a35-53a5-5131" name="Wargear" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="7dd7-abf4-3fad-524a" name="Two-handed Staff" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c478-5e50-3187-66c1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2888-24ea-5fcc-69fc" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f914-a44e-2ce3-64fe" name="Staff" hidden="false" targetId="efee-0ea1-8f18-0245" type="profile"/>
+                <infoLink id="14f9-e392-6fe3-9e9b" name="Two-Handed" hidden="false" targetId="2f02-3f5d-59dd-a00b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="d457-61dc-13d8-7a5c" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="81c6-afa5-e4d4-f77c" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+        <entryLink id="9273-ee64-1a1b-0711" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="55.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cdf5-3651-4c5a-759c" name="Wild Warg Chieftain" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec25-c545-531e-c18b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a85-cc65-9075-75d7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a1a5-ff0b-b4ff-b07a" name="Wild Warg Chieftain" publicationId="3e16-9abf-pubN103678" page="130" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+          <characteristics>
+            <characteristic name="Movement" typeId="6d57-f596-e10e-6233">10&quot;</characteristic>
+            <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/5+</characteristic>
+            <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">6</characteristic>
+            <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">5</characteristic>
+            <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
+            <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+            <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">4</characteristic>
+            <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
+            <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
+            <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Warg Infantry Hero</characteristic>
+            <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="e314-e34e-b156-2ca3" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="81a7-6cd3-db48-50aa" name="Packlord (Active)" publicationId="3e16-9abf-pubN103678" page="130" hidden="false">
+              <description>Only friendly Warg models may benefit from a Wild Warg Chieftain&apos;s Stand Fast! and Heroic Actions.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="b69a-8f85-f0d0-20d9" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5a6a-b177-37a4-56b4" name="Wargear" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="66ec-2d80-68fb-30c4" name="Claws and Teeth" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52e3-35c5-fc90-d908" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ca6-b794-a466-e2e2" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="ab0d-9df3-9092-b3e0" name="Claws and Teeth" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
+                  <characteristics>
+                    <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="60b8-3f67-0f89-38ce" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="80.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a0c-0cfa-9098-d484" name="The Spider Queen" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c98f-96d2-6a82-656f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5309-a77c-28fd-1817" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e96a-8cf3-10f2-8746" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="09fd-636d-3e8c-22ff" name="The Spider Queen" publicationId="3e16-9abf-pubN103678" page="115" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+          <characteristics>
+            <characteristic name="Movement" typeId="6d57-f596-e10e-6233">10&quot;</characteristic>
+            <characteristic name="Fight" typeId="5930-f060-2064-c9d5">6/6+</characteristic>
+            <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">6</characteristic>
+            <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">4</characteristic>
+            <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">2</characteristic>
+            <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
+            <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">4</characteristic>
+            <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
+            <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
+            <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">0</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Spider Mirkwood Monster Infantry Hero</characteristic>
+            <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="da99-c4f5-2aa2-6c89" name="Broodling" publicationId="3e16-9abf-pubN103678" page="115" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
+          <characteristics>
+            <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">10&quot;</characteristic>
+            <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">2/6+</characteristic>
+            <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">3</characteristic>
+            <characteristic name="Defense" typeId="d64a-e776-38fd-3019">3</characteristic>
+            <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
+            <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
+            <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">2</characteristic>
+            <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Spider Mirkwood Infantry Warrior</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="0a0f-4d54-09b9-4c68" name="Special Rules" hidden="false">
+          <rules>
+            <rule id="706c-e0ef-fc5f-d441" name="Progeny (Active)" publicationId="3e16-9abf-pubN103678" page="115" hidden="false">
+              <description>During any point in her Move phase, the Spider Queen may expend any number of remaining Will points to summon a Broodling. For each Will point expended in this way, place a single Broodling base anywhere within 3&quot; of the Spider Queen but not in base contact with any enemy models. Broodlings may Move and Charge on a turn in which they were summoned. Broodlings are not counted when working out if a force is Broken.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="39c7-7cb3-d029-6989" name="Venom (Active)" hidden="false" targetId="7b63-9547-be7a-d31d" type="rule"/>
+            <infoLink id="a077-8d51-55ad-0bb3" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+            <infoLink id="5944-4ae2-9c70-1a22" name="Swift Movement (Active)" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
+            <infoLink id="a169-6644-962d-5f72" name="Monstrous Charge (Active)" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="99a5-e4e1-294a-f0e0" name="Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="370f-68cb-db49-9e33" name="Venomous Fangs" hidden="false" collective="false" import="true" targetId="8af5-2460-6e2a-95ff" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Large Venomous Fangs"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="785d-4c1e-5137-c08f" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="115.0"/>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
@@ -36716,6 +37623,16 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
     <rule id="b6db-d73f-7a8d-2ede" name="Wall of Blades (Active)" hidden="false">
       <description>This model gains a bonus of +1 To Wound when making Strikes with their spear against a model that charged them this turn.</description>
     </rule>
+    <rule id="bf2e-3118-471d-9720" name="Skin-Changer (Active)" publicationId="3e16-9abf-pubN141412" page="80" hidden="false">
+      <description>To change this model&apos;s form, the controlling player may roll a D6 at the start of it&apos;s Move. On the roll of a 4+ (Might may be used to modify this roll), this model changes shape from a man into a bear (or vice-versa). Replace this model&apos;s Man model with the Bear model (or vice-versa). This model can then continue with his move as normal, including making Charges. This model cannot change form if there is an enemy model in base contact with him.</description>
+    </rule>
+    <rule id="621d-6450-dd20-ea5b" name="Crushing Strength (Brutal Power Attack)" publicationId="3e16-9abf-pubN141412" page="81" hidden="false">
+      <description>If this model wins a Duel, instead of striking as normal, choose a losing model – that model immediately suffers a Strength 10 hit. If the To Wound roll is successful, the victim suffers another Strength 10 hit, and so on, until the victim is dead or this model fails to wound his victim.</description>
+    </rule>
+    <rule id="4f78-00d3-9aa0-b294" name="No quarter was asked..." publicationId="3e16-9abf-pubN103678" page="180" hidden="false">
+      <description>Easterling models receive +1 Courage when their force is Broken. Additionally, once per gamer, in Scenarios in which a dice is rolled to see when the game ends, so long as there is at least one Easterling Hero model alive and on the battlefield, the Easterling player may choose to have the dice re-rolled if the Scenario ends before they wish it to.
+</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="f819-60f2-bea1-8713" name="Horse" publicationId="3e16-9abf-pubN102460" page="61" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
@@ -37748,7 +38665,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
         <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
         <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">4</characteristic>
-        <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Dwarf Iron Hills Infantry</characteristic>
+        <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Dwarf Iron Hills Infantry Warrior</characteristic>
       </characteristics>
     </profile>
     <profile id="422b-4a87-54c4-2289" name="Iron Hills Goat Rider" publicationId="3e16-9abf-pubN141412" page="30" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
@@ -37898,6 +38815,23 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
         <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">2</characteristic>
         <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Camel Cavalry</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3b89-c82a-9fd8-252e" name="The Nazgûl of Dol Guldur" publicationId="3e16-9abf-pubN141412" page="110" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+      <characteristics>
+        <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
+        <characteristic name="Fight" typeId="5930-f060-2064-c9d5">5/4+</characteristic>
+        <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
+        <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">6</characteristic>
+        <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">2</characteristic>
+        <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">1</characteristic>
+        <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">6</characteristic>
+        <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
+        <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
+        <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">0</characteristic>
+        <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike</characteristic>
+        <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Spirit Ringwraith Dol Guldur Infantry Hero</characteristic>
+        <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

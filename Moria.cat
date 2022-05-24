@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="16" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="18" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="98fa-59f5-pubN65643" name="Armies of Lord of the Rings"/>
   </publications>
@@ -14,6 +14,11 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -155,8 +160,15 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -164,7 +176,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -247,8 +259,15 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -256,7 +275,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -368,9 +387,50 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="d70a-2f7f-bdb1-bf01" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a7f4-76da-c0fd-ca8e" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="943b-885d-0eb8-e7cc" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="5daa-6832-f49b-2b35">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" field="category" value="0ce2-d79d-fb91-3fa2">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5daa-6832-f49b-2b35">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577f-4cc3-da20-fa37" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d70a-2f7f-bdb1-bf01" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="296e-711d-1d50-f5ac" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
@@ -441,6 +501,15 @@
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="9737-f484-11cb-ba8f" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
+            <entryLink id="66bb-93d4-c40d-aa68" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="90.0"/>
@@ -478,110 +547,57 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="f53f-e078-7031-c40f" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a7f4-76da-c0fd-ca8e" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="943b-885d-0eb8-e7cc" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="5daa-6832-f49b-2b35">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" field="category" value="0ce2-d79d-fb91-3fa2">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set-primary" field="category" value="5daa-6832-f49b-2b35">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="681f-2e0a-511b-674e" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f53f-e078-7031-c40f" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="6bfa-01f6-9f25-eb44" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="c840-511c-3a15-8d97" name="Ashrâk" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a87b-e294-b55a-57c1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbd9-8682-143f-50a6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d6a-2de4-e2a0-239d" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="7b49-d57b-a053-5883" name="Ashrâk" publicationId="98fa-59f5-pubN65643" page="154" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-              <characteristics>
-                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">5&quot;</characteristic>
-                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">2/5+</characteristic>
-                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">3</characteristic>
-                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">4</characteristic>
-                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">1</characteristic>
-                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">2</characteristic>
-                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">4</characteristic>
-                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">1</characteristic>
-                <characteristic name="Will" typeId="b509-13ce-7d03-816e">4</characteristic>
-                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Goblin Moria Infantry Hero</characteristic>
-                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoGroups>
-            <infoGroup id="8e7d-1603-7ac5-3ea6" name="Special Rules" hidden="false">
-              <rules>
-                <rule id="3893-51e0-1476-2c44" name="Spider-kin (Passive)" publicationId="98fa-59f5-pubN65643" page="154" hidden="false">
-                  <description>Only Spider models may benefit from Ashrâk&apos;s Stand Fast! or Heroic Actions. Additionally, Ashrâk may only target Spider models with his Shroud of Shadows Magical Power.</description>
-                </rule>
-                <rule id="b97e-b764-3bf5-de91" name="Poison Blood (Passive)" publicationId="98fa-59f5-pubN65643" page="154" hidden="false">
-                  <description>Ashrâk may include Giant Spiders in his warband as if they were part of the same army list - this does not count as allying. Additionally, any Giant Spiders in your force may be upgraded to Venom-back spiders at the cost of +2 points a model. Venom-back spiders gain the Venom special rule.</description>
-                </rule>
-                <rule id="f49e-371e-4a70-16a1" name="Death-touch (Passive)" publicationId="98fa-59f5-pubN65643" page="154" hidden="false">
-                  <description>Any model that wounds, or is wounded by Ashrâk in a Fight must toll a D6. On a 4+, they suffer the effects of the Paralyse Magical Power.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="54a6-847b-ea41-f1ec" name="Cave Dweller (Active)" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-            <infoGroup id="75a8-3755-e87a-c136" name="Magical Powers" hidden="false">
-              <infoLinks>
-                <infoLink id="1f29-b722-c233-6743" name="Shroud of Shadows" hidden="false" targetId="4629-d88d-8909-9f19" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
-                    <modifier type="set" field="0920-e245-e3c2-d982" value="4+"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="58f5-6a5f-f438-cee7" name="Fury " hidden="false" targetId="375a-7bc5-20d4-62d1" type="profile">
-                  <modifiers>
-                    <modifier type="append" field="name" value="(Spiders)"/>
-                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="-"/>
-                    <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="7904-14fb-6a43-67ed" name="Wargear" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="2b9f-48cd-d92a-c78e" name="Two-handed Staff" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf5-effc-cb06-318a" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c04f-2273-be23-c28b" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="bea2-7478-0171-2e10" name="Staff" hidden="false" targetId="efee-0ea1-8f18-0245" type="profile"/>
-                    <infoLink id="8c1d-2c08-8d7d-4a3b" name="Two-Handed" hidden="false" targetId="2f02-3f5d-59dd-a00b" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
-                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="de15-c56f-aa3d-3f69" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="a6dc-dec9-ef21-5064" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="55.0"/>
-            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="ed01-51cb-e8e7-4856" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry"/>
+        <entryLink id="9f02-d95b-250d-4770" name="Ashrâk" hidden="false" collective="false" import="true" targetId="24ed-475f-553c-55dd" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -590,6 +606,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e3d8-c1d0-8bdb-829a" name="Moria Goblin Captain" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="989d-e29a-b0ed-3cce" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="efa2-1745-0aa4-8490" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
@@ -682,6 +701,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4ddd-b0f7-4587-f03a" name="Moria Goblin Shaman" hidden="false" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="0ce2-d79d-fb91-3fa2">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" field="category" value="5e53-b18f-0f14-dc92">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0ce2-d79d-fb91-3fa2">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ebca-ecb8-5e0e-3892" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="02e1-7bc3-59ea-4137" name="New CategoryLink" hidden="false" targetId="5e53-b18f-0f14-dc92" primary="true"/>
       </categoryLinks>
@@ -760,6 +803,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c31b-b4f4-4657-8909" name="Moria Blackshield Captain" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="81aa-788e-e048-3b08" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
@@ -828,6 +882,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2863-7a12-00e0-03b2" name="Moria Blackshield Shaman" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="2d1d-d234-f999-6518" name="New CategoryLink" hidden="false" targetId="5e53-b18f-0f14-dc92" primary="true"/>
       </categoryLinks>
@@ -909,8 +974,15 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -918,7 +990,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -965,7 +1037,7 @@
           <infoGroups>
             <infoGroup id="c43a-ee56-1ea9-fa70" name="Special Rules" hidden="false">
               <infoLinks>
-                <infoLink id="fd16-da11-731a-a1eb" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="fd16-da11-731a-a1eb" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
                 <infoLink id="d8c8-ec6f-504b-2b03" name="Survival Instinct" hidden="false" targetId="f55e-4264-2114-009d" type="rule"/>
                 <infoLink id="7159-bfd3-6595-bea0" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
                 <infoLink id="f169-f389-b4a3-b10b" name="Monstrous Charge" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
@@ -1089,8 +1161,15 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -1098,7 +1177,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1185,7 +1264,7 @@ Fate rolls may be made against this Brutal Power Attack as if it has caused a Wo
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1194,8 +1273,15 @@ Fate rolls may be made against this Brutal Power Attack as if it has caused a Wo
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -1254,7 +1340,7 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="f2d8-b25c-445d-e1d5" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
+                <infoLink id="f2d8-b25c-445d-e1d5" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
                 <infoLink id="70dd-53fd-4b7a-8018" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
                 <infoLink id="d888-78dd-659a-21c5" name="Harbinger of Evil" hidden="false" targetId="3fce-3425-5bca-8374" type="rule"/>
               </infoLinks>
@@ -1295,6 +1381,27 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="abd5-637f-8001-be8e" name="Wild Warg Chieftain" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="27d3-ed70-74ed-7c27" name="Hero of Fortitude" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="86e0-a57f-c6b5-6a00" name="Wild Warg Chieftain" hidden="false" collective="false" import="true" targetId="cdf5-3651-4c5a-759c" type="selectionEntry"/>
+        <entryLink id="c3da-7a4a-c7ff-34cc" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1353,6 +1460,17 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
       </constraints>
       <selectionEntries>
         <selectionEntry id="2b5d-723d-1943-5861" name="Cave Troll" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <infoGroups>
             <infoGroup id="35d9-99f2-b7cb-142e" name="Special Rules" hidden="false">
               <infoLinks>
@@ -1469,6 +1587,17 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
           </costs>
         </selectionEntry>
         <selectionEntry id="45e1-943e-e0ff-6f0e" name="Moria Goblin Warrior" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="abd5-637f-8001-be8e" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <infoGroups>
             <infoGroup id="957f-9532-6a5f-f44c" name="Special Rules" hidden="false">
               <infoLinks>
@@ -1621,6 +1750,17 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
           </costs>
         </selectionEntry>
         <selectionEntry id="c603-5591-a7e0-3bbb" name="Moria Blackshield" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="fa98-65ab-48fb-6dd7" name="Moria Blackshield" publicationId="98fa-59f5-pubN65643" page="160" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1721,6 +1861,17 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
           </costs>
         </selectionEntry>
         <selectionEntry id="f13a-bc71-dcc9-0668" name="Moria Goblin Drum" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="8f2b-4bed-d97b-46fa" name="Moria Goblin Drummer" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1811,6 +1962,17 @@ The Drum is a Heavy Object and as such is moved exactly like one. The Drum canno
           </costs>
         </selectionEntry>
         <selectionEntry id="17b5-2231-2f56-e4f3" name="Moria Blackshield Drummers" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="3d45-4eca-60c2-6965" name="Moria Blackshield Drummer" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1839,7 +2001,7 @@ The Drum is a Heavy Object and as such is moved exactly like one. The Drum canno
                         <modifier type="set" field="name" value="Hatred (Dwarf)"/>
                       </modifiers>
                     </infoLink>
-                    <infoLink id="83e8-0b16-d5d9-882a" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
+                    <infoLink id="83e8-0b16-d5d9-882a" name="Cave Dweller (Active)" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
                   </infoLinks>
                 </infoGroup>
               </infoGroups>
@@ -1900,6 +2062,17 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
           </costs>
         </selectionEntry>
         <selectionEntry id="fe05-9ec8-6059-338b" name="Moria Goblin Prowler" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="abd5-637f-8001-be8e" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="8bef-294f-daff-0921" name="Moria Goblin Prowler" publicationId="98fa-59f5-pubN65643" page="163" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -2069,6 +2242,13 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
                   <conditions>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="abd5-637f-8001-be8e" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -2258,8 +2438,15 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -2267,7 +2454,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2299,7 +2486,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
               </rules>
               <infoLinks>
                 <infoLink id="1c2d-e44f-6977-497d" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-                <infoLink id="5bb5-8ca0-b71b-bb8d" name="Resistant to Magic" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
+                <infoLink id="5bb5-8ca0-b71b-bb8d" name="Resistant to Magic (Passive)" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -2415,17 +2602,34 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
               <selectionEntries>
                 <selectionEntry id="8305-7584-796d-fbf6" name="Venom-back" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="2">
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="2.0">
                       <repeats>
                         <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="247c-8233-77b5-aeea" repeats="1" roundUp="false"/>
                       </repeats>
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a7f4-76da-c0fd-ca8e" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b52-ff48-6bd2-d542" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="0c7b-431e-4f96-1a62" name="Venom" hidden="false" targetId="7b63-9547-be7a-d31d" type="rule"/>
+                    <infoLink id="0c7b-431e-4f96-1a62" name="Venom (Active)" hidden="false" targetId="7b63-9547-be7a-d31d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -2450,6 +2654,20 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="943b-885d-0eb8-e7cc" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="abd5-637f-8001-be8e" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -2487,10 +2705,17 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="943b-885d-0eb8-e7cc" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>

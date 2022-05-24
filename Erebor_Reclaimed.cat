@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4a85-1e10-91ba-2b36" name="Erebor Reclaimed" revision="6" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="95" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4a85-1e10-91ba-2b36" name="Erebor Reclaimed" revision="9" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f319-3053-68bf-c708" name="Iron Hills Captain" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -16,6 +16,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cc37-0e7b-a33b-bcaa" name="Bombur the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fc12-f70a-0ce3-996c" type="max"/>
       </constraints>
@@ -33,8 +40,72 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="76ba-6fad-0824-58a5" name="Bofur the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="8502-6d6c-f94b-17f8" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76ba-6fad-0824-58a5" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c6c-eddd-4dca-f6f7" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9cdb-8af4-8d40-c2cc" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec1c-8fd1-d380-84af" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d0e6-1015-ace5-529a" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18f8-2252-9d73-c7d5" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0059-d0ad-6831-f116" type="equalTo"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f7c9-e14d-5802-30e4" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8502-6d6c-f94b-17f8" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="bbe6-3cbd-8181-96eb" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
@@ -50,8 +121,72 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0059-d0ad-6831-f116" name="Bifur the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="2191-5758-c245-cdca" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76ba-6fad-0824-58a5" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c6c-eddd-4dca-f6f7" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9cdb-8af4-8d40-c2cc" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec1c-8fd1-d380-84af" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d0e6-1015-ace5-529a" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18f8-2252-9d73-c7d5" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0059-d0ad-6831-f116" type="equalTo"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="42d2-e5c0-5b97-106a" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2191-5758-c245-cdca" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7e47-8fd4-5a57-49b1" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
@@ -67,6 +202,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="359f-e77e-ea1f-0012" name="Óin the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d187-4b17-b0a4-20ba" type="max"/>
       </constraints>
@@ -84,8 +226,72 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d0e6-1015-ace5-529a" name="Nori the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="11f5-4db0-003e-fab4" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76ba-6fad-0824-58a5" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c6c-eddd-4dca-f6f7" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9cdb-8af4-8d40-c2cc" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec1c-8fd1-d380-84af" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d0e6-1015-ace5-529a" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18f8-2252-9d73-c7d5" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0059-d0ad-6831-f116" type="equalTo"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ca53-18c7-d691-3677" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="11f5-4db0-003e-fab4" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9dce-0637-0844-5af7" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
@@ -101,8 +307,72 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ec1c-8fd1-d380-84af" name="Glóin the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="767c-b227-886c-a9eb" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76ba-6fad-0824-58a5" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c6c-eddd-4dca-f6f7" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9cdb-8af4-8d40-c2cc" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec1c-8fd1-d380-84af" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d0e6-1015-ace5-529a" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18f8-2252-9d73-c7d5" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0059-d0ad-6831-f116" type="equalTo"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13f2-fd21-237b-8c44" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="767c-b227-886c-a9eb" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="0301-3ffd-8777-8b81" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
@@ -118,8 +388,72 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9c6c-eddd-4dca-f6f7" name="Dori the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="5e5d-bc16-4569-e0c3" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76ba-6fad-0824-58a5" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c6c-eddd-4dca-f6f7" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9cdb-8af4-8d40-c2cc" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec1c-8fd1-d380-84af" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d0e6-1015-ace5-529a" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18f8-2252-9d73-c7d5" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0059-d0ad-6831-f116" type="equalTo"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38ec-3294-aedd-4ab3" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5e5d-bc16-4569-e0c3" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="033e-b278-2786-99f4" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
@@ -135,6 +469,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1ce9-6173-cb67-a6da" name="Ori the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="553b-750d-7389-16e9" type="max"/>
       </constraints>
@@ -152,6 +493,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2d23-9701-85ca-9227" name="Kíli the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="032b-5884-25f8-e113" type="max"/>
       </constraints>
@@ -169,6 +517,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="88bb-4d37-ce48-8f42" name="Fíli the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c6b-91a5-7bea-6b92" type="max"/>
       </constraints>
@@ -186,8 +541,72 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9cdb-8af4-8d40-c2cc" name="Dwalin the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="802c-5e03-c06d-481d" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76ba-6fad-0824-58a5" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c6c-eddd-4dca-f6f7" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9cdb-8af4-8d40-c2cc" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec1c-8fd1-d380-84af" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d0e6-1015-ace5-529a" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18f8-2252-9d73-c7d5" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0059-d0ad-6831-f116" type="equalTo"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6456-01a2-e262-43f6" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="802c-5e03-c06d-481d" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="ce0d-1c80-c328-715d" name="New CategoryLink" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
@@ -203,6 +622,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e0b3-6f18-1f5e-1bd8" name="Balin the Dwarf, Champion of Erebor" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f06c-9623-deed-26b6" type="max"/>
       </constraints>
@@ -220,6 +646,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="75e1-db3e-3deb-7fa0" name="Thorin Oakenshield, King Under the Mountain" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="63ff-4e65-9942-06b3" type="max"/>
       </constraints>
@@ -236,11 +669,16 @@
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f5c9-7a57-df2f-8dbe" name="Dáin Ironfoot, Lord of the Iron Hills" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f5c9-7a57-df2f-8dbe" name="Dáin Ironfoot, Lord of the Iron Hills" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="1416-f66e-4a34-3174" value="0.0">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -261,6 +699,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3b4e-a204-425e-6652" name="Champions of Erebor in Iron Hills Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="01bc-4013-034a-c8a9" type="max"/>
       </constraints>
@@ -280,119 +725,168 @@
       <modifiers>
         <modifier type="set" field="7190-70ed-c947-7235" value="0.0">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5c9-7a57-df2f-8dbe" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f5c9-7a57-df2f-8dbe" type="equalTo"/>
           </conditions>
+        </modifier>
+        <modifier type="set" field="ee00-94f7-9779-34e7" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76ba-6fad-0824-58a5" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c6c-eddd-4dca-f6f7" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9cdb-8af4-8d40-c2cc" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec1c-8fd1-d380-84af" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d0e6-1015-ace5-529a" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18f8-2252-9d73-c7d5" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0059-d0ad-6831-f116" type="equalTo"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7190-70ed-c947-7235" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee00-94f7-9779-34e7" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="00bb-945a-d1dc-ee19" name="Hero of Legend" hidden="false" targetId="6e9c-4e8f-3256-f4f0" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="c015-d060-1527-208e" name="Dáin Ironfoot, King Under the Mountain" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bd9b-4fbe-a51f-40b5" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5aa8-aee5-0f3a-f60f" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="a7d3-18fc-b360-67e8" name="Dáin Ironfoot, King Under the Mountain" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-              <characteristics>
-                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">5&quot;</characteristic>
-                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">6/4+</characteristic>
-                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
-                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">8</characteristic>
-                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">3</characteristic>
-                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">3</characteristic>
-                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">7</characteristic>
-                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
-                <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
-                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
-Strike
-Strength
-Challenge</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
-Erebor
-Infantry
-Hero</characteristic>
-                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoGroups>
-            <infoGroup id="fadf-4e64-f24a-5c60" name="Special Rules" hidden="false">
-              <rules>
-                <rule id="ea02-a509-30c8-5a20" name="King Under the Mountain (Active)" hidden="false">
-                  <description>Friendly Erebor Dwarf models, including Hero models, will bene t from Dáin’s Stand Fast! regardless of range.</description>
-                </rule>
-                <rule id="b652-4e90-7abe-42a5" name="Venerable (Passive)" hidden="false">
-                  <description>Whenever Dáin makes a Jump, Leap or Climb test, he will roll two dice and pick the lowest result.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="0f26-696c-7cab-aa1c" name="Fearless (Passive)" hidden="false" targetId="7ad1-afe5-c22b-4558" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="eb6a-5ff9-d4c5-6d82" name="Wargear" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="4c2b-ae99-d2e6-8fcc" name="Barazantathûl" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1e94-8ac1-b780-32be" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13f0-281a-4afd-0af0" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="df0f-5704-1127-50dc" name="Barazantathûl (Active)" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
-                      <characteristics>
-                        <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">This is a Master Forged hand-and-a-half axe.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="39d3-bd9e-6e11-e3c8" name="Hand-and-a-Half" hidden="false" targetId="1942-7fe3-0a57-32a1" type="rule"/>
-                    <infoLink id="e937-2373-687f-068c" name="Master-Forged" hidden="false" targetId="953e-c78f-4489-7a8b" type="rule"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="3241-4ed6-aa9a-529a" name="Heavy Dwarf Armour" hidden="false" collective="false" import="true" targetId="16d0-4708-68d8-c15f" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="130.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="2392-df95-d6ab-0917" name="Warband" hidden="false" collective="false" import="true" targetId="b731-9448-3253-143d" type="selectionEntry"/>
+        <entryLink id="4ef9-2a5a-f486-48de" name="Dáin Ironfoot, King Under the Mountain" hidden="false" collective="false" import="true" targetId="c024-0ce2-dd68-c0db" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="130.0"/>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18f8-2252-9d73-c7d5" name="Thorin III Stonehelm" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="a604-2252-ad6e-c19b" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76ba-6fad-0824-58a5" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c6c-eddd-4dca-f6f7" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9cdb-8af4-8d40-c2cc" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1326-8dd9-2d6b-e496" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec1c-8fd1-d380-84af" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d0e6-1015-ace5-529a" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="18f8-2252-9d73-c7d5" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0059-d0ad-6831-f116" type="equalTo"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2620-9ca1-95e5-623a" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a604-2252-ad6e-c19b" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="46a0-1759-84b7-8a77" name="Hero of Valour" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="382a-8721-4014-6e9b" name="Thorin III Stonehelm" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="b7a0-86ff-8891-022e" name="Cool-headed (Active)" hidden="false">
-              <description>Whenever Thorin declares a Heroic Action, roll a D6. On a 5+, no Might is spent and the Heroic Action is free. Additionally, if Thorin declares a Heroic Action and an enemy model subsequently declares a Heroic Action, Thorin may choose to change the type of Heroic Action he has declared.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="120.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c794-b682-121e-0a6a" name="Thorin III Stonehelm" hidden="false" collective="false" import="true" targetId="42b5-d019-74fe-2823" type="selectionEntry"/>
+        <entryLink id="db78-9f5a-3c5f-c102" name="Warband" hidden="false" collective="false" import="true" targetId="b731-9448-3253-143d" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -412,6 +906,12 @@ Hero</characteristic>
         <categoryLink id="1333-d308-63a5-f26f" name="Erebor Reclaimed" hidden="false" targetId="0781-1e15-0db8-0b4e" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="b414-73b6-5f1d-c630" name="Use Experimental Rules" hidden="true" collective="false" import="true" targetId="9dfc-6fdb-705f-1563" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2465-cb7c-eb3a-a03e" name="Misc" hidden="false" targetId="990b-c865-7625-9987" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1e6d-9c22-1f62-11e0" name="Defenders of Erebor" hidden="false" collective="false" import="true" targetId="9527-cbe4-fb8c-881d" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="3962-0d94-9730-b6be" name="Additional Rules" hidden="false">
@@ -446,7 +946,15 @@ Hero</characteristic>
       <selectionEntries>
         <selectionEntry id="4d88-d641-a5d1-7e87" name="Iron Hills Goat Rider" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="b7e8-3292-614b-69f8" name="Iron Hills Goat Rider" hidden="false" targetId="422b-4a87-54c4-2289" type="profile"/>
+            <infoLink id="b7e8-3292-614b-69f8" name="Iron Hills Goat Rider" hidden="false" targetId="422b-4a87-54c4-2289" type="profile">
+              <modifiers>
+                <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Erebor Cavalry Warrior">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="2cdc-df6f-681a-b76f" name="Rider" hidden="false" collective="false" import="true" type="model">
@@ -542,6 +1050,11 @@ Hero</characteristic>
                 <modifier type="decrement" field="d64a-e776-38fd-3019" value="1">
                   <conditions>
                     <condition field="selections" scope="48ab-da8b-6d04-9742" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="86a2-0629-9f0c-c4ac" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="493a-2bc7-2330-a17b" value="Dwarf Erebor Infantry Warrior">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
