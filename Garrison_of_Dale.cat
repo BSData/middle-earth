@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6886-6975-8cf9-4930" name="Garrison of Dale" revision="10" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6886-6975-8cf9-4930" name="Garrison of Dale" revision="10" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="105" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6886-6975-pubN65626" name="Armies of the Hobbit"/>
   </publications>
@@ -56,7 +56,7 @@
         <categoryLink id="7960-7936-a633-4680" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a73c-1a89-73e1-0d35" name="Captain of Dale" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a73c-1a89-73e1-0d35" name="Captain of Dale " hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43e9-6682-24cd-f193" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fa7-f0fe-0b1d-6c5f" type="max"/>
@@ -112,6 +112,36 @@
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
                 <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Dale Infantry Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="31a1-11c8-3254-32e9" name="Captain of Dale " hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value=" with ">
+                  <conditions>
+                    <condition field="selections" scope="a73c-1a89-73e1-0d35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d19-faf2-87f2-4fea" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value="Shield, ">
+                  <conditions>
+                    <condition field="selections" scope="a73c-1a89-73e1-0d35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b8-81bd-1cd6-8b3e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value="Esgaroth Bow, ">
+                  <conditions>
+                    <condition field="selections" scope="a73c-1a89-73e1-0d35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c0a9-7871-fb10-21cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="a73c-1a89-73e1-0d35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Captain of Dale </characteristic>
+                <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Captain of Dale </characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">50</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -348,6 +378,14 @@ Hero</characteristic>
                         <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
                       </characteristics>
                     </profile>
+                    <profile id="10e5-109c-8e23-15b5" name="Siege Veteran" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+                      <characteristics>
+                        <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Siege Veteran</characteristic>
+                        <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                        <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Siege Veteran</characteristic>
+                        <characteristic name="Points" typeId="4fda-4487-840f-7db0"/>
+                      </characteristics>
+                    </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="b067-8f80-d605-ec2b" name="Sworn Protector (Active)" hidden="false" targetId="bd82-b1aa-f5ed-676f" type="rule">
@@ -406,6 +444,14 @@ Hero</characteristic>
                         <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
                         <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Dale Infantry Hero</characteristic>
                         <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="979d-8802-3c31-1ad9" name="Engineer Captain" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+                      <characteristics>
+                        <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Engineer Captain</characteristic>
+                        <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                        <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Engineer Captain</characteristic>
+                        <characteristic name="Points" typeId="4fda-4487-840f-7db0"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -556,6 +602,110 @@ Hero</characteristic>
                 <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
                 <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">3</characteristic>
                 <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man Dale Infantry Warrior</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="402f-eeff-111f-67f2" name=" " hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="increment" field="ffe1-176d-16ea-3ac6" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3132-ca26-2558-2b82" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value=" with">
+                  <conditions>
+                    <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb00-938d-d665-6678" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Girion, Lord of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="300d-fe46-23d2-a8f3" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Brand, King of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="77df-773e-0e86-2983" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Bard II, Price of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2b55-f747-d2e2-87f9" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Captain of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="d6a5-716d-60be-2c71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Esgaroth Bow, ">
+                      <conditions>
+                        <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d512-5cd6-119c-9c6a" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Banner, ">
+                      <conditions>
+                        <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="437a-e7bb-7e67-4498" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Shield, ">
+                      <conditions>
+                        <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3a7c-0cef-d73f-7f91" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Spear, ">
+                      <conditions>
+                        <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1370-bac6-deeb-ddf5" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="War Horn, ">
+                      <conditions>
+                        <condition field="selections" scope="8dd8-477c-3cf5-5fb6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e44-6fe5-1842-63ce" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Girion, Lord of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="300d-fe46-23d2-a8f3" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Brand, King of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="77df-773e-0e86-2983" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Bard II, Price of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2b55-f747-d2e2-87f9" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Captain of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="d6a5-716d-60be-2c71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
+                <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Warriors of Dale</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -743,6 +893,76 @@ Infantry
 Warrior</characteristic>
               </characteristics>
             </profile>
+            <profile id="2385-4742-da45-9bc0" name=" " hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="increment" field="ffe1-176d-16ea-3ac6" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="3a6a-7832-33d5-4d67" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="96ee-c12a-d0ab-4187" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="3a6a-7832-33d5-4d67" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Girion, Lord of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="300d-fe46-23d2-a8f3" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Brand, King of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77df-773e-0e86-2983" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Bard II, Price of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b55-f747-d2e2-87f9" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Captain of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d6a5-716d-60be-2c71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Girion, Lord of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="300d-fe46-23d2-a8f3" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Brand, King of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="77df-773e-0e86-2983" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Bard II, Price of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2b55-f747-d2e2-87f9" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Captain of Dale">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="d6a5-716d-60be-2c71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
+                <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Knights of Dale</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <infoLinks>
             <infoLink id="abfb-64a2-859c-8e7d" name="Wall of Blades (Active)" hidden="false" targetId="b6db-d73f-7a8d-2ede" type="rule"/>
@@ -840,6 +1060,21 @@ Warrior</characteristic>
                 <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
                 <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">3</characteristic>
                 <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man Dale Infantry Warrior</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="af4b-6534-8a4d-db82" name=" " hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="increment" field="ffe1-176d-16ea-3ac6" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="e6dd-c170-5502-8b90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86eb-5b15-ced3-0418" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Windlance</characteristic>
+                <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Dale Crew</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0"/>
               </characteristics>
             </profile>
           </profiles>
