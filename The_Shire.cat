@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="35af-b371-b5b1-aba6" name="The Shire" revision="17" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="35af-b371-b5b1-aba6" name="The Shire" revision="18" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="105" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="35af-b371-pubN68721" name="Armies of Lord of the Rings"/>
   </publications>
@@ -288,6 +288,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="89f5-891f-fcd5-726e" name="Bandobras Took" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="2d99-5ea5-fa97-7e42" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c6bc-270b-85d8-f885" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c6bc-270b-85d8-f885" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d99-5ea5-fa97-7e42" type="max"/>
       </constraints>
@@ -444,6 +456,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fdc2-c264-d25c-a90a" name="Lotho Sackville-Baggins" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="a872-003f-1b3d-332a" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c6bc-270b-85d8-f885" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c6bc-270b-85d8-f885" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a872-003f-1b3d-332a" type="max"/>
       </constraints>

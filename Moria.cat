@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="18" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="19" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="105" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="98fa-59f5-pubN65643" name="Armies of Lord of the Rings"/>
   </publications>
@@ -51,6 +51,14 @@
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
                 <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Spirit Monster Infantry Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8853-2ddc-13aa-070c" name="The Balrog" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOOOOO</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -213,6 +221,14 @@
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
               </characteristics>
             </profile>
+            <profile id="592e-823e-6ce6-67e4" name="Durbûrz, The Goblin King of Moria" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <infoGroups>
             <infoGroup id="59e5-4b6b-bf3c-9843" name="Special Rules" hidden="false">
@@ -310,6 +326,14 @@
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Defence</characteristic>
                 <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Goblin Moria Infantry Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="50fa-6dc9-633a-4ee2" name="Grôblog" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -444,6 +468,13 @@
           </constraints>
           <profiles>
             <profile id="d151-de0c-5378-240b" name="Drûzhag the Beastcaller" publicationId="98fa-59f5-pubN65643" page="153" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+              <modifiers>
+                <modifier type="set" field="2b79-2cec-28e7-0b0d" value="Hero of Valour">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Movement" typeId="6d57-f596-e10e-6233">5&quot;</characteristic>
                 <characteristic name="Fight" typeId="5930-f060-2064-c9d5">3/5+</characteristic>
@@ -458,6 +489,14 @@
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling</characteristic>
                 <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Goblin Moria Infantry Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7c48-14ce-de63-895d" name="Drûzhag the Beastcaller" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -666,6 +705,160 @@
                 <infoLink id="8e07-32d0-2cf6-5e1b" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
               </infoLinks>
             </infoGroup>
+            <infoGroup id="dbab-6564-38d8-0238" name="Tracking" hidden="false">
+              <profiles>
+                <profile id="1c8d-9d99-c01f-564d" name="Moria Goblin Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" 1">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8099-ab59-1b27-8231" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c81d-d5c1-c36c-cd2c" name="Moria Goblin Captain 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8099-ab59-1b27-8231" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="0c3c-aaa0-feec-c842" name="Moria Goblin Captain 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8099-ab59-1b27-8231" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3b76-e5ee-3bde-0c55" name="Moria Goblin Captain 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8099-ab59-1b27-8231" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="a131-f29a-48f4-c741" name="Moria Goblin Captain 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8099-ab59-1b27-8231" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8a33-b8f7-2932-329a" name="Moria Goblin Captain 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8099-ab59-1b27-8231" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="ea2f-2b19-109a-1eb1" name="Moria Goblin Captain 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8099-ab59-1b27-8231" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="db2f-c7f4-c0b8-7c78" name="Moria Goblin Captain 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8099-ab59-1b27-8231" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="a819-15e2-dc87-72ee" name="Moria Goblin Captain 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8099-ab59-1b27-8231" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="5984-030d-8e1c-80a7" name="Moria Goblin Captain 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8099-ab59-1b27-8231" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </infoGroup>
           </infoGroups>
           <selectionEntryGroups>
             <selectionEntryGroup id="564a-f077-ba31-1bbd" name="Options" hidden="false" collective="false" import="true">
@@ -777,6 +970,160 @@
                 </infoLink>
               </infoLinks>
             </infoGroup>
+            <infoGroup id="c51d-fa4b-8659-f1e9" name="Tracking" hidden="false">
+              <profiles>
+                <profile id="f0ed-f567-6d1e-34f6" name="Moria Goblin Shaman" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" 1">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ddd-b0f7-4587-f03a" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9b85-64c7-de8b-ebf2" name="Moria Goblin Shaman 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ddd-b0f7-4587-f03a" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="83fe-1845-4760-aa96" name="Moria Goblin Shaman 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ddd-b0f7-4587-f03a" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="57a6-fefa-7d61-333d" name="Moria Goblin Shaman 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ddd-b0f7-4587-f03a" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="69ce-4767-695a-83f2" name="Moria Goblin Shaman 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ddd-b0f7-4587-f03a" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="b98b-2b07-95c9-eb33" name="Moria Goblin Shaman 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ddd-b0f7-4587-f03a" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="4cf5-d2b1-d53b-8111" name="Moria Goblin Shaman 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ddd-b0f7-4587-f03a" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="029b-5408-ce8f-1ad4" name="Moria Goblin Shaman 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ddd-b0f7-4587-f03a" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="fbcb-f4fb-9f6f-76b2" name="Moria Goblin Shaman 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ddd-b0f7-4587-f03a" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e669-89e1-e997-6cb1" name="Moria Goblin Shaman 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4ddd-b0f7-4587-f03a" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </infoGroup>
           </infoGroups>
           <selectionEntryGroups>
             <selectionEntryGroup id="5e5c-0bd9-4498-5f9b" name="Wargear" hidden="false" collective="false" import="true">
@@ -852,6 +1199,160 @@
                 </infoLink>
                 <infoLink id="d8b3-6bda-be05-c282" name="Cave Dweller" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
               </infoLinks>
+            </infoGroup>
+            <infoGroup id="d8fe-f8c7-0088-51ba" name="Tracking" hidden="false">
+              <profiles>
+                <profile id="cbb5-7d75-987a-2858" name="Moria Blackshield Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" 1">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31b-b4f4-4657-8909" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="afc9-8464-cde6-38a5" name="Moria Blackshield Captain 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31b-b4f4-4657-8909" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9042-0b68-1326-093e" name="Moria Blackshield Captain 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31b-b4f4-4657-8909" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="a06b-b00e-4a74-8fd6" name="Moria Blackshield Captain 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31b-b4f4-4657-8909" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="28f4-497b-1400-4629" name="Moria Blackshield Captain 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31b-b4f4-4657-8909" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="a556-e54c-5cda-2603" name="Moria Blackshield Captain 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31b-b4f4-4657-8909" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8f8b-5cd5-5c94-4cfe" name="Moria Blackshield Captain 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31b-b4f4-4657-8909" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c8ad-f1a5-e400-d09a" name="Moria Blackshield Captain 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31b-b4f4-4657-8909" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8797-5c20-fe63-0341" name="Moria Blackshield Captain 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31b-b4f4-4657-8909" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="4874-999b-5e7f-7159" name="Moria Blackshield Captain 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c31b-b4f4-4657-8909" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </infoGroup>
           </infoGroups>
           <selectionEntryGroups>
@@ -942,6 +1443,160 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+            </infoGroup>
+            <infoGroup id="4050-88e4-f538-47c6" name="Tracking" hidden="false">
+              <profiles>
+                <profile id="5245-fab5-3d4f-88b1" name="Moria Blackshield Shaman" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" 1">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2863-7a12-00e0-03b2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="0a45-b0e7-d110-a1c7" name="Moria Blackshield Shaman 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2863-7a12-00e0-03b2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="15bc-8e67-c341-413d" name="Moria Blackshield Shaman 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2863-7a12-00e0-03b2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="0175-6a3f-2456-6d9d" name="Moria Blackshield Shaman 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2863-7a12-00e0-03b2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="a7d1-609d-31ed-9fc1" name="Moria Blackshield Shaman 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2863-7a12-00e0-03b2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9b5d-be28-e50e-9d15" name="Moria Blackshield Shaman 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2863-7a12-00e0-03b2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="5d9c-162a-7357-b699" name="Moria Blackshield Shaman 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2863-7a12-00e0-03b2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3cba-4990-bdcb-3b3e" name="Moria Blackshield Shaman 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2863-7a12-00e0-03b2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="6892-12ea-ccf2-00ca" name="Moria Blackshield Shaman 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2863-7a12-00e0-03b2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c4b3-1f59-14f8-6c14" name="Moria Blackshield Shaman 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2863-7a12-00e0-03b2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </infoGroup>
           </infoGroups>
           <selectionEntryGroups>
@@ -1043,6 +1698,160 @@
                 <infoLink id="f169-f389-b4a3-b10b" name="Monstrous Charge" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
                 <infoLink id="37a0-3bfe-799e-f6f3" name="Harbinger of Evil" hidden="false" targetId="3fce-3425-5bca-8374" type="rule"/>
               </infoLinks>
+            </infoGroup>
+            <infoGroup id="7684-33cc-7300-8c94" name="Tracking" hidden="false">
+              <profiles>
+                <profile id="a280-b9e1-6948-8b92" name="Dragon" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" 1">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdf4-4cff-e1ec-ca81" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e2ca-d68a-4a89-17bd" name="Dragon 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdf4-4cff-e1ec-ca81" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="58c7-fdc4-f406-7e78" name="Dragon 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdf4-4cff-e1ec-ca81" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e2aa-8579-98b4-b5da" name="Dragon 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdf4-4cff-e1ec-ca81" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="cce1-9084-b9b5-fc13" name="Dragon 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdf4-4cff-e1ec-ca81" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="5b3a-164b-3d7e-8a80" name="Dragon 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdf4-4cff-e1ec-ca81" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e229-0936-9b88-c5c1" name="Dragon 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdf4-4cff-e1ec-ca81" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="6ad5-a893-8fbc-e157" name="Dragon 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdf4-4cff-e1ec-ca81" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="ba78-1422-a90d-6fbd" name="Dragon 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdf4-4cff-e1ec-ca81" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="2b56-3528-c97a-7d93" name="Dragon 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdf4-4cff-e1ec-ca81" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </infoGroup>
           </infoGroups>
           <selectionEntryGroups>
@@ -1234,6 +2043,160 @@ Fate rolls may be made against this Brutal Power Attack as if it has caused a Wo
                 <infoLink id="6bab-4659-d687-3bb6" name="Monstrous Charge" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
               </infoLinks>
             </infoGroup>
+            <infoGroup id="7ffc-295b-bf97-0088" name="Tracking" hidden="false">
+              <profiles>
+                <profile id="05e1-cadd-7521-003f" name="Cave Drake" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" 1">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7f2-7afa-47b8-c468" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="fac8-a4ee-b96c-072a" name="Cave Drake 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7f2-7afa-47b8-c468" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="65b2-bea9-3b46-5e5c" name="Cave Drake 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7f2-7afa-47b8-c468" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aa5-7b20-c429-7099" name="Cave Drake 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7f2-7afa-47b8-c468" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="dc37-82b4-49e2-97d9" name="Cave Drake 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7f2-7afa-47b8-c468" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="b2f9-0011-1296-8dcd" name="Cave Drake 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7f2-7afa-47b8-c468" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="f8f4-a70a-fe48-e32f" name="Cave Drake 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7f2-7afa-47b8-c468" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e29f-cb9b-3981-dad1" name="Cave Drake 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7f2-7afa-47b8-c468" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="5b29-a83b-a094-3ee8" name="Cave Drake 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7f2-7afa-47b8-c468" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="d901-1c72-357d-6353" name="Cave Drake 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c7f2-7afa-47b8-c468" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </infoGroup>
           </infoGroups>
           <selectionEntryGroups>
             <selectionEntryGroup id="c11c-745f-5e92-2a9d" name="Wargear" hidden="false" collective="false" import="true">
@@ -1315,6 +2278,14 @@ Fate rolls may be made against this Brutal Power Attack as if it has caused a Wo
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strength</characteristic>
                 <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Kraken Monster Infantry Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Independent Hero</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="13e6-9281-9380-c0bc" name="The Watcher in the Water" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOOO</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2594,9 +3565,20 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             <selectionEntryGroup id="91fb-b3f2-b796-ef53" name="Options" hidden="true" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7f4-76da-c0fd-ca8e" type="instanceOf"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7f4-76da-c0fd-ca8e" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <selectionEntries>
@@ -2609,8 +3591,13 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                       <conditions>
                         <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
                       </conditions>
+                    </modifier>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="2.0">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="247c-8233-77b5-aeea" repeats="1" roundUp="false"/>
+                      </repeats>
                       <conditionGroups>
-                        <conditionGroup type="or">
+                        <conditionGroup type="and">
                           <conditions>
                             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
                           </conditions>

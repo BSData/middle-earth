@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="102" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="105" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="3e16-9abf-pubN102460" name="Middle-Earth Strategy Battle Game Rules Manual"/>
     <publication id="3e16-9abf-pubN103678" name="Armies of Lord of the Rings"/>
@@ -85,6 +85,22 @@
         <characteristicType id="1c41-347a-e0db-a3d8" name="8"/>
         <characteristicType id="180e-d8b6-8c24-057f" name="9"/>
         <characteristicType id="5e72-1b55-a760-fff5" name="10"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="06b9-b809-8c15-7fc0" name="Warbands">
+      <characteristicTypes>
+        <characteristicType id="44a9-cd2e-6339-7a29" name="Warband Leader"/>
+        <characteristicType id="ffe1-176d-16ea-3ac6" name="# of Models"/>
+        <characteristicType id="5904-1d0f-5299-69b4" name="Type"/>
+        <characteristicType id="4fda-4487-840f-7db0" name="Points"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="ef4f-25f2-79a5-b8a3" name="Trackers">
+      <characteristicTypes>
+        <characteristicType id="184a-5554-9c8c-3b09" name="Might"/>
+        <characteristicType id="5d9a-0b1c-376b-442a" name="Will"/>
+        <characteristicType id="1ceb-5c00-93b9-7378" name="Fate"/>
+        <characteristicType id="104e-585c-9e2b-fb3f" name="Wounds"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -251,6 +267,9 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="c37c-386c-5bdf-c1fe" name="Beornings" hidden="false"/>
+    <categoryEntry id="0e01-fc64-6b7d-a16f" name="Historic Allies" hidden="false"/>
+    <categoryEntry id="54e3-2a75-0ac4-2d3c" name="Allies of Convenience" hidden="false"/>
+    <categoryEntry id="b628-e3f9-cc4b-0959" name="Impossible Allies" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="70d0-3742-f6cf-863f" name="Strategy Battle Game" hidden="false">
@@ -1362,6 +1381,145 @@
             <infoLink id="6ac4-6124-74a7-5694" name="Fly" hidden="false" targetId="bfd3-a313-811b-9744" type="rule"/>
             <infoLink id="f126-6320-47b0-be3b" name="Feral" hidden="false" targetId="dc19-b783-5dfb-9c51" type="rule"/>
           </infoLinks>
+        </infoGroup>
+        <infoGroup id="e56b-5d2e-aba4-b68c" name="Fell Beast" hidden="false">
+          <profiles>
+            <profile id="6d35-059f-43d8-64f5" name="Fell Beast" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6159-fce2-6d9c-2019" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8ab1-4285-ac32-319b" name="Fell Beast 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6159-fce2-6d9c-2019" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8a22-f7e5-d002-158d" name="Fell Beast 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6159-fce2-6d9c-2019" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a88c-f5fa-80d2-aa5d" name="Fell Beast 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6159-fce2-6d9c-2019" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="94fa-cb66-7fc9-21a6" name="Fell Beast 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6159-fce2-6d9c-2019" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="33b9-97be-91e3-7052" name="Fell Beast 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6159-fce2-6d9c-2019" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d073-6ded-e30c-9994" name="Fell Beast 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6159-fce2-6d9c-2019" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1d81-2255-7c57-5840" name="Fell Beast 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6159-fce2-6d9c-2019" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d2cb-9768-8158-cee1" name="Fell Beast 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6159-fce2-6d9c-2019" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </infoGroup>
       </infoGroups>
       <infoLinks>
@@ -2755,7 +2913,10 @@
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Mordor Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Mordor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
@@ -2765,6 +2926,160 @@
           <infoLinks>
             <infoLink id="9be8-6e9a-e36d-e0f0" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
           </infoLinks>
+        </infoGroup>
+        <infoGroup id="8829-fe5b-a6ce-5e62" name="Black Númenórean Marshal" hidden="false">
+          <profiles>
+            <profile id="d9f7-6d76-b648-7785" name="Black Númenórean Marshal" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="490b-d0a2-979b-56dd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="601b-d631-3753-67cd" name="Black Númenórean Marshal 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="490b-d0a2-979b-56dd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="aa88-1fe1-820d-50e3" name="Black Númenórean Marshal 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="490b-d0a2-979b-56dd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3878-7a05-4798-7472" name="Black Númenórean Marshal 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="490b-d0a2-979b-56dd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="00a5-10b4-371d-e2ad" name="Black Númenórean Marshal 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="490b-d0a2-979b-56dd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7b73-cc4f-c9f7-8df7" name="Black Númenórean Marshal 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="490b-d0a2-979b-56dd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b619-af1e-b53f-c56b" name="Black Númenórean Marshal 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="490b-d0a2-979b-56dd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="662a-b486-804f-f3b1" name="Black Númenórean Marshal 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="490b-d0a2-979b-56dd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2424-bb7a-2905-3c93" name="Black Númenórean Marshal 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="490b-d0a2-979b-56dd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f4fb-470d-8c21-1a40" name="Black Númenórean Marshal 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="490b-d0a2-979b-56dd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </infoGroup>
       </infoGroups>
       <selectionEntryGroups>
@@ -2881,6 +3196,16 @@
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ff5-17bf-0cab-7614" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="39ce-e8cd-5fa3-0182" name="Hatred (Active)" hidden="true" targetId="6c1d-9a5e-55e7-c911" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="22bb-196f-5724-890e" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3074,9 +3399,24 @@
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">12</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling Strike Challenge</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Spirit Ringwraith Easterling Mordor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling
+Strike
+Challenge</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Spirit
+Ringwraith
+Easterling
+Mordor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6d93-ed29-95cf-8203" name="Khamûl The Easterling" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOOOOOOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3158,7 +3498,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
     </selectionEntry>
     <selectionEntry id="9488-5544-6c7c-bce2" name="Ringwraith" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="decrement" field="0b97-c2fd-45d6-31e4" value="1">
+        <modifier type="decrement" field="0b97-c2fd-45d6-31e4" value="1.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c53c-c1e2-fe4c-0da8" type="equalTo"/>
           </conditions>
@@ -3173,7 +3513,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cc0b-d272-62b1-a292" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="decrement" field="0b97-c2fd-45d6-31e4" value="1">
+        <modifier type="decrement" field="0b97-c2fd-45d6-31e4" value="1.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d1e-0686-d28a-3957" type="equalTo"/>
           </conditions>
@@ -3250,7 +3590,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
           <infoLinks>
             <infoLink id="9a7a-4762-37ce-abe8" name="Will of Evil (Passive)" hidden="false" targetId="9996-55e5-8c42-8379" type="rule"/>
             <infoLink id="0d00-06bf-c9be-1351" name="Terror" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
-            <infoLink id="7a2a-d692-5993-55ad" name="Harbinger of Evil" hidden="false" targetId="3fce-3425-5bca-8374" type="rule"/>
+            <infoLink id="7a2a-d692-5993-55ad" name="Harbinger of Evil (Passive)" hidden="false" targetId="3fce-3425-5bca-8374" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="7872-90c6-0f61-ca88" name="Magical Powers" hidden="false">
@@ -3294,6 +3634,424 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
               </modifiers>
             </infoLink>
           </infoLinks>
+        </infoGroup>
+        <infoGroup id="2c51-d4d2-39d8-a30a" name="Wound trackers" hidden="false">
+          <profiles>
+            <profile id="14d2-92a0-06d3-c4f8" name="Ringwraith" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9488-5544-6c7c-bce2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5d9a-0b1c-376b-442a" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ad9-e548-15bb-7d1c" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="1ceb-5c00-93b9-7378" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="184a-5554-9c8c-3b09" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="1ceb-5c00-93b9-7378" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="184a-5554-9c8c-3b09" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09"/>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378"/>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8502-1c45-3ee4-9719" name="Ringwraith 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9488-5544-6c7c-bce2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5d9a-0b1c-376b-442a" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ad9-e548-15bb-7d1c" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="1ceb-5c00-93b9-7378" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="184a-5554-9c8c-3b09" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="1ceb-5c00-93b9-7378" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="184a-5554-9c8c-3b09" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09"/>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378"/>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0f7f-25e1-35b6-3db2" name="Ringwraith 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9488-5544-6c7c-bce2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5d9a-0b1c-376b-442a" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ad9-e548-15bb-7d1c" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="1ceb-5c00-93b9-7378" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="184a-5554-9c8c-3b09" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="1ceb-5c00-93b9-7378" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="184a-5554-9c8c-3b09" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09"/>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378"/>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f319-2c50-c1f6-a318" name="Ringwraith 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9488-5544-6c7c-bce2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5d9a-0b1c-376b-442a" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ad9-e548-15bb-7d1c" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="1ceb-5c00-93b9-7378" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="184a-5554-9c8c-3b09" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="1ceb-5c00-93b9-7378" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="184a-5554-9c8c-3b09" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09"/>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378"/>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1e04-5de9-d1a1-77d2" name="Ringwraith 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9488-5544-6c7c-bce2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5d9a-0b1c-376b-442a" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ad9-e548-15bb-7d1c" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="1ceb-5c00-93b9-7378" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="184a-5554-9c8c-3b09" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="1ceb-5c00-93b9-7378" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="184a-5554-9c8c-3b09" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09"/>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378"/>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a088-0e40-2551-6638" name="Ringwraith 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9488-5544-6c7c-bce2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5d9a-0b1c-376b-442a" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ad9-e548-15bb-7d1c" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="1ceb-5c00-93b9-7378" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="184a-5554-9c8c-3b09" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="1ceb-5c00-93b9-7378" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="184a-5554-9c8c-3b09" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09"/>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378"/>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="abd0-4ec4-5909-324c" name="Ringwraith 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9488-5544-6c7c-bce2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5d9a-0b1c-376b-442a" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ad9-e548-15bb-7d1c" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="1ceb-5c00-93b9-7378" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="184a-5554-9c8c-3b09" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="1ceb-5c00-93b9-7378" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="184a-5554-9c8c-3b09" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09"/>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378"/>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="78bd-bb67-ba16-cfa3" name="Ringwraith 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9488-5544-6c7c-bce2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5d9a-0b1c-376b-442a" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ad9-e548-15bb-7d1c" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="1ceb-5c00-93b9-7378" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="184a-5554-9c8c-3b09" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="1ceb-5c00-93b9-7378" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="184a-5554-9c8c-3b09" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09"/>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378"/>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a927-91f5-880a-1477" name="Ringwraith 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9488-5544-6c7c-bce2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5d9a-0b1c-376b-442a" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ad9-e548-15bb-7d1c" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="1ceb-5c00-93b9-7378" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="append" field="184a-5554-9c8c-3b09" value="O">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="set" field="1ceb-5c00-93b9-7378" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e05-020b-65c6-e8a3" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="184a-5554-9c8c-3b09" value="-">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dabe-f09d-8870-4c54" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09"/>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378"/>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </infoGroup>
       </infoGroups>
       <selectionEntryGroups>
@@ -4469,7 +5227,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
     </selectionEntry>
     <selectionEntry id="967e-03b9-aa82-1e1f" name="Mordor Siege Bow" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="decrement" field="277f-f1cc-52bd-bf86" value="1">
+        <modifier type="decrement" field="277f-f1cc-52bd-bf86" value="1.0">
           <repeats>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="54e7-20ef-c51d-2b54" repeats="1" roundUp="false"/>
           </repeats>
@@ -4663,8 +5421,12 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">1</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Haradrim Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Haradrim
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
@@ -4676,6 +5438,160 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <infoLink id="cae6-2c6d-e4ed-5c96" name="Preternatural Agility (Active)" hidden="false" targetId="5cdd-0cca-a269-ef28" type="rule"/>
             <infoLink id="c7f1-6203-b4b8-99e8" name="Bane of Kings (Active)" hidden="false" targetId="410e-f068-41a0-9107" type="rule"/>
           </infoLinks>
+        </infoGroup>
+        <infoGroup id="2c3f-344f-0133-9d6e" name="Hâsharin" hidden="false">
+          <profiles>
+            <profile id="ef54-ba06-b0c2-4e80" name="Hâsharin" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-9881-6018-16da" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3eeb-7adb-c498-55aa" name="Hâsharin 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-9881-6018-16da" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5d45-629a-e58e-daf8" name="Hâsharin 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-9881-6018-16da" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0e40-63fe-66a5-1751" name="Hâsharin 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-9881-6018-16da" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5834-3777-40b0-a54f" name="Hâsharin 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-9881-6018-16da" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1973-4ed3-a22f-0fc1" name="Hâsharin 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-9881-6018-16da" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="43f6-f18a-47ac-ae7a" name="Hâsharin 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-9881-6018-16da" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cf52-b2e1-ed00-6d48" name="Hâsharin 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-9881-6018-16da" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8db6-d037-7b22-acd5" name="Hâsharin 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-9881-6018-16da" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="67ae-49e5-77d7-433b" name="Hâsharin 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-9881-6018-16da" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
@@ -4761,9 +5677,21 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">6*</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Channeling Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Wizard Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Channeling
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Wizard
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0861-9cce-04cf-a1f9" name="Gandalf the White" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOO*</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4975,6 +5903,14 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
           </characteristics>
         </profile>
+        <profile id="2315-5863-2b16-8021" name="Aragorn, King Elessar" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO*</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="6c83-3053-48a2-d19a" name="Special Rules" hidden="false">
@@ -5045,6 +5981,16 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c2a5-55e5-726f-2675" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ae3-0173-6c7b-6d8b" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="728f-6e70-268e-ed41" name="Peregrin Took, Guard of the Citadel" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoGroups>
         <infoGroup id="b387-dcd1-db36-09e7" name="Special Rules" hidden="false">
           <profiles>
@@ -5061,7 +6007,10 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
                 <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
                 <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Defence</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Gondor Infantry Hero</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Gondor
+Infantry
+Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Independent Hero</characteristic>
               </characteristics>
             </profile>
@@ -5126,9 +6075,22 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">6</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a91d-682e-8d52-f74c" name="Boromir, Captain of the White Tower" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOOOOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5221,6 +6183,14 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve March Accuracy Strike Strength Defence Challenge</characteristic>
             <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Infantry Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="24e5-4cd1-560a-f676" name="Aragorn - Strider" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO*</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5440,6 +6410,14 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
+        <profile id="46d5-7235-fa6b-bb3a" name="Bilbo Baggins" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="cd8c-7164-00f6-a73d" name="Special Rules" hidden="false">
@@ -5565,11 +6543,394 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoGroups>
+        <infoGroup id="cd71-3296-f4e7-22de" name="Dúnedain" hidden="false">
+          <profiles>
+            <profile id="e67e-837a-f8d0-9248" name="Dúnedain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8679-959c-c3a4-9271" name="Dúnedain 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="eb54-56c2-ebb3-0113" name="Dúnedain 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b900-e82e-87b9-8ca4" name="Dúnedain 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e8c0-d56c-edb0-55dc" name="Dúnedain 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9087-3209-dd0b-60a3" name="Dúnedain 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7caa-f209-62d3-17f3" name="Dúnedain 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9b46-9353-1cd7-69d8" name="Dúnedain 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="714a-dce0-8667-91c1" name="Dúnedain 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ad1b-5de0-37d4-e460" name="Dúnedain 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9e72-3342-67d3-cb24" name="Dúnedain 11" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="11.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1eff-dfb8-1d9b-5aed" name="Dúnedain 12" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c747-1903-d1ff-6b4b" name="Dúnedain 13" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="13.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="27df-f05d-5789-f67d" name="Dúnedain 25" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ec61-ba0c-c39f-9820" name="Dúnedain 15" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="13ea-5561-5f69-cdb2" name="Dúnedain 14" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="14.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d677-a958-e4d0-d2ad" name="Dúnedain 24" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="24.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="efa0-3e4c-2499-8ebf" name="Dúnedain 23" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="23.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3219-31eb-b4d5-a0fa" name="Dúnedain 22" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="22.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d43c-6af2-247f-841f" name="Dúnedain 21" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="21.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="711c-f585-00f0-8f60" name="Dúnedain 20" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6343-0aa6-7577-019b" name="Dúnedain 19" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="19.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cab4-241a-93a2-b449" name="Dúnedain 18" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="18.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2752-05f1-259f-bc48" name="Dúnedain 17" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="17.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1f68-2e63-f1c1-6ad7" name="Dúnedain 16" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="16.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faef-5e8e-6a72-6908" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="042b-ee68-8079-c60e" name="Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -5614,6 +6975,16 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1899-fd1a-dedf-8f1c" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c27c-722a-eb5d-c6ce" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="cbc7-5560-f484-6364" name="Frodo of the Nine Fingers" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoGroups>
         <infoGroup id="0219-5345-698a-5dff" name="Special Rules" hidden="false">
           <profiles>
@@ -5629,8 +7000,11 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
                 <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">1</characteristic>
                 <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
                 <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Defence</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Defence</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Infantry
+Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
               </characteristics>
             </profile>
@@ -5709,9 +7083,21 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">6*</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Channelling Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Wizard Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Channelling
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Wizard
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4367-1cf3-00b7-effb" name="Gandalf the Grey" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOO*</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5927,9 +7313,21 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Strike Challenge</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March
+Strike
+Challenge</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ec0e-3165-96bf-0741" name="Meriadoc, Captain of the Shire" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6037,9 +7435,21 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Strike Challenge</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March
+Strike
+Challenge</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1287-2f1e-3a8e-0a75" name="Peregrin, Captain of the Shire" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6177,9 +7587,23 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">6</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">0</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Strike Strength Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March
+Strike
+Strength
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1b4b-d01e-8804-5f44" name="Boromir of Gondor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOOOOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6257,8 +7681,18 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6624-dfe7-a0aa-f15e" name="Frodo Baggins" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6411,16 +7845,35 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5b85-d9f0-51fd-41ea" name="Gimli Son of Glóin" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="a743-e09e-c81f-72ef" name="Special Rules" hidden="false">
           <rules>
-            <rule id="92ec-8230-512a-6bf2" name="I myself am sitting pretty on 43 (Active)" publicationId="3e16-9abf-pubN103678" page="12" hidden="false">
+            <rule id="92ec-8230-512a-6bf2" name="I myself am sitting pretty on 43 (Active)" publicationId="3e16-9abf-pubN103678" page="12" hidden="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ac32-30b4-0114-f0ab" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <description>If Legolas and Gimli are in the same army, then keep track of how many models they have both killed. If at any point Gimli has fewer kills than Legolas, then Gimli receives a +1 bonus To Wound whilst in combat.</description>
             </rule>
             <rule id="c543-a6a9-9d2e-e06b" name="Axes of the Dwarves! (Action)" publicationId="3e16-9abf-pubN103678" page="12" hidden="false">
@@ -6540,9 +7993,21 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Mirkwood Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Mirkwood
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9672-8b8e-89f1-8e05" name="Legolas Greenleaf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6550,6 +8015,13 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
         <infoGroup id="1fd5-eaa1-4261-15e3" name="Special Rules" hidden="false">
           <rules>
             <rule id="0432-c677-10c8-d5a1" name="Final Count, 42 (Active)" publicationId="3e16-9abf-pubN103678" page="13" hidden="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="120a-8965-6980-8112" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <description>If Legolas and Gimli are in the same army then keep a track of how many models they have both killed. If at any point Legolas has fewer kills than Gimli, then Legolas&apos; Shoot value is improved by 1.</description>
             </rule>
           </rules>
@@ -6656,8 +8128,18 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">0</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="48a5-a384-0ca8-01a4" name="Merry" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6746,8 +8228,18 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">0</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c8bf-b910-9676-737e" name="Pippin" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6954,8 +8446,18 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">6*</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Wizard Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Wizard
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e73f-9fdf-1aa8-7179" name="Saruman" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOO*</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7116,6 +8618,13 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
       </constraints>
       <profiles>
         <profile id="e8c4-c0fa-fe0e-fa6e" name="Gwahir" publicationId="3e16-9abf-pubN103678" page="95" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
+          <modifiers>
+            <modifier type="set" field="2b79-2cec-28e7-0b0d" value="Hero of Valour">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Movement" typeId="6d57-f596-e10e-6233">3&quot;</characteristic>
             <characteristic name="Fight" typeId="5930-f060-2064-c9d5">8/4+</characteristic>
@@ -7127,9 +8636,22 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Eagle Monster Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Eagle
+Monster
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="787c-2068-cc0f-3cea" name="Gwahir" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7148,7 +8670,24 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
         </infoGroup>
       </infoGroups>
       <entryLinks>
-        <entryLink id="7042-9cde-c416-621b" name="Leader (Legend)" hidden="false" collective="false" import="true" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry"/>
+        <entryLink id="7042-9cde-c416-621b" name="Leader (Legend)" hidden="false" collective="false" import="true" targetId="a0b9-e8a1-bbce-47b2" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="c5e2-4579-a515-80a7" name="Leader (Valour)" hidden="true" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
@@ -7187,9 +8726,20 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">6*</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channeling Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Wizard Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channeling
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Wizard
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d5b4-9f02-4cf5-cc20" name="Radagast the Brown" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOO*</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7266,6 +8816,16 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d360-3fb0-6a3a-5379" type="max"/>
                   </constraints>
+                  <profiles>
+                    <profile id="e4c3-a43d-cd31-8954" name="Radagast&apos;s Great Eagle" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                      <characteristics>
+                        <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                        <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                        <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                        <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                   <rules>
                     <rule id="4b2a-3149-ab86-0a34" name="Great Eagle" publicationId="3e16-9abf-pubN141412" page="79" hidden="false">
                       <description>This is a mount. The Great Eagle profile is listed on page 83. Additionally, if Radagast dismounts, the Great Eagle automatically passes its Courage test to stay and fight.</description>
@@ -7335,6 +8895,14 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
                     <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">4</characteristic>
                     <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">2</characteristic>
                     <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Sleigh</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="07f0-d7fc-aada-056b" name="Sleigh" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOO</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7688,9 +9256,22 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channeling Strike Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Lorien Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channeling
+Strike
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Lorien
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="137d-1528-fa37-8561" name="Celeborn" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7796,9 +9377,22 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">6*</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Channeling Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Lorien Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Channeling
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Lorien
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4fe7-f2bc-92ca-a446" name="Galadriel" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOO*</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7822,7 +9416,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <infoLink id="7732-338e-e096-3db1" name="Command/Compel" hidden="false" targetId="e09d-0b48-252c-1b22" type="profile">
               <modifiers>
                 <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
+                <modifier type="set" field="0920-e245-e3c2-d982" value="4+"/>
                 <modifier type="set" field="name" value="Command"/>
               </modifiers>
             </infoLink>
@@ -7908,9 +9502,23 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Channeling Strike Defense</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Rivendell Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Channeling
+Strike
+Defense</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Rivendell
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7bc3-b681-6a25-3ff7" name="Elrond, Master of Rivendell" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8064,9 +9672,24 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Strike Strength Defence Challenge</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Rivendell Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike
+Strength
+Defence
+Challenge</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Rivendell
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ab99-8248-aed8-b396" name="Gil-Galad, High King of the Elves" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8157,9 +9780,23 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Strike Strength Challenge</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Rivendell Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike
+Strength
+Challenge</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Rivendell
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8048-bf6a-badb-07fb" name="Glorfindel, Lord of the West" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8206,7 +9843,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </selectionEntryGroup>
         <selectionEntryGroup id="a5b5-0c9a-f8e9-4b0e" name="Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="7952-efa9-d0e0-a31c" name="Elven-Made Hand-and-a-Half Sword" hidden="false" collective="false" import="true" targetId="8c7b-6f92-cbcd-faf5" type="selectionEntry"/>
+            <entryLink id="7952-efa9-d0e0-a31c" name="Elven-made Hand-and-a-Half Sword" hidden="false" collective="false" import="true" targetId="8c7b-6f92-cbcd-faf5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -8239,7 +9876,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="09eb-89ad-260b-dfae" name="Fleetfoot" hidden="false" targetId="c07e-808a-f538-03b5" type="rule"/>
+        <infoLink id="09eb-89ad-260b-dfae" name="Fleetfoot (Active)" hidden="false" targetId="c07e-808a-f538-03b5" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="10.0"/>
@@ -8527,9 +10164,22 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Defence Challenge</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Khazad-Dûm Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Defence
+Challenge</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Khazad-Dûm
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="33a8-abea-d28b-33c3" name="Durin, King of Khazard-Dûm" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9178,9 +10828,20 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fotitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="879d-c395-78e1-25da" name="Kíli the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9240,9 +10901,20 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d3c2-1879-a3a8-6004" name="Fíli the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9321,6 +10993,14 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
           </characteristics>
         </profile>
+        <profile id="a51e-a299-320b-6410" name="Balin the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="9d19-0f94-b3c5-0ec7" name="Special Rules" hidden="false">
@@ -9384,9 +11064,20 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strength Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strength
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0ca5-53d1-5c2a-d8d0" name="Dwalin the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9458,6 +11149,14 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
+        <profile id="9be8-78f9-1e8f-9bba" name="Bifur the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="c662-9245-f8e5-dc96" name="Special Rules" hidden="false">
@@ -9490,7 +11189,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               </profiles>
               <infoLinks>
                 <infoLink id="a3d2-47e3-022b-cefc" name="Two-Handed" hidden="false" targetId="2f02-3f5d-59dd-a00b" type="rule"/>
-                <infoLink id="c3c9-ebbf-3271-ac1d" name="Spear" hidden="false" targetId="81c8-1e1f-ffc7-5477" type="profile"/>
+                <infoLink id="c3c9-ebbf-3271-ac1d" name="Axe" hidden="false" targetId="7ce7-d652-35f5-47e0" type="profile"/>
                 <infoLink id="fef6-c753-7819-2117" name="Spear" hidden="false" targetId="81c8-1e1f-ffc7-5477" type="profile"/>
               </infoLinks>
               <costs>
@@ -9542,8 +11241,18 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d7b5-eb95-c7bf-955f" name="Bofur the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9603,8 +11312,18 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b5ca-0c10-8436-6981" name="Bombur the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9669,8 +11388,18 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9e9e-085d-4f5b-91d3" name="Ori the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9750,8 +11479,18 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bb32-8170-f430-4094" name="Nori the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9812,8 +11551,18 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9da5-0070-c350-89a6" name="Dori the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9950,9 +11699,20 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6d6c-db10-6d7f-8eae" name="Glóin the Dwarf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10023,9 +11783,19 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Strike Defence</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike
+Defence</characteristic>
             <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3650-952b-0456-3a83" name="Bilbo Baggins" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10093,9 +11863,24 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve March Strike Strength Challenge</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Iron Hills Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+March
+Strike
+Strength
+Challenge</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Iron Hills
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6097-57c2-3e07-07ee" name="Dáin Ironfoot, Lord of the Iron Hills" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10157,6 +11942,14 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
                     <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Boar Mount</characteristic>
                   </characteristics>
                 </profile>
+                <profile id="6392-8a42-a590-0523" name="War Boar" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
               <costs>
                 <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="20.0"/>
@@ -10208,6 +12001,160 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
               </modifiers>
             </infoLink>
           </infoLinks>
+        </infoGroup>
+        <infoGroup id="f3c4-af76-25da-478a" name="Iron Hills Captain" hidden="false">
+          <profiles>
+            <profile id="8f61-0f92-943c-e940" name="Iron Hills Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0625-88b8-f1b9-1a37" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b57c-68aa-1422-10b6" name="Iron Hills Captain 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0625-88b8-f1b9-1a37" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3a1a-6f93-93a6-f021" name="Iron Hills Captain 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0625-88b8-f1b9-1a37" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="bfba-d116-bd0d-642c" name="Iron Hills Captain 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0625-88b8-f1b9-1a37" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="616f-f960-61b4-f7ba" name="Iron Hills Captain 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0625-88b8-f1b9-1a37" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6251-5c1a-3985-5628" name="Iron Hills Captain 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0625-88b8-f1b9-1a37" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="34d8-989f-d17d-cae9" name="Iron Hills Captain 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0625-88b8-f1b9-1a37" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5b6a-42a6-3f4b-4a62" name="Iron Hills Captain 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0625-88b8-f1b9-1a37" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4293-a033-d43c-278f" name="Iron Hills Captain 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0625-88b8-f1b9-1a37" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0dd6-148c-384c-a133" name="Iron Hills Captain 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0625-88b8-f1b9-1a37" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </infoGroup>
       </infoGroups>
       <infoLinks>
@@ -10301,6 +12248,14 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Strength" typeId="4f70-e4de-5e4a-d85e">(8)</characteristic>
             <characteristic name="Defence" typeId="f7a4-fb5d-b3f4-e9f0">10</characteristic>
             <characteristic name="Wounds" typeId="8121-8cb7-fa5b-7ee9">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e911-0726-a926-6397" name="Iron Hills Ballista" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10403,8 +12358,19 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
                     <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
                     <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
                     <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
-                    <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Iron Hills Infantry Hero</characteristic>
+                    <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Iron Hills
+Infantry
+Hero</characteristic>
                     <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="bbcd-e957-540e-9798" name="Iron Hills Engineer Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10472,8 +12438,19 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
                     <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
                     <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
                     <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-                    <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Iron Hills Infantry Hero</characteristic>
+                    <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Iron Hills
+Infantry
+Hero</characteristic>
                     <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="bf9b-2ab1-b017-76f7" name="Iron Hills Siege Veteran" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10539,7 +12516,17 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             <characteristic name="Attack" typeId="6235-3861-befd-7242">2</characteristic>
             <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">5</characteristic>
             <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">3</characteristic>
-            <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Dwarf Iron Hills Warrior</characteristic>
+            <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Dwarf
+Iron Hills
+Warrior</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="806e-38fb-039a-e360" name="Iron Hills Chariot" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOOOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10633,9 +12620,21 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1901-0624-c9dc-e48c" name="Kíli the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10704,9 +12703,21 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="87c0-8f34-fdae-61ca" name="Fíli the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10794,6 +12805,14 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
           </characteristics>
         </profile>
+        <profile id="a5ff-8468-3a96-039c" name="Balin the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="37bb-5eba-b359-6af9" name="Special Rules" hidden="false">
@@ -10857,9 +12876,21 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4b91-fec8-1231-4e93" name="Dwalin the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10948,6 +12979,14 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
+        <profile id="3cc2-ab20-ab44-e763" name="Bifur the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="2f57-5ad9-6e4e-9c2a" name="Special Rules" hidden="false">
@@ -11006,9 +13045,21 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb52-f397-43fa-fd97" name="Bofur the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11068,8 +13119,19 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6941-a7ff-e931-f43a" name="Bombur the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11143,8 +13205,19 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0bf9-4256-1a14-b03c" name="Ori the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11203,9 +13276,21 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6984-7b8a-f87b-cdf4" name="Nori the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11270,9 +13355,21 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strength Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strength
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0dc9-e0bb-1934-9562" name="Dori the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11394,9 +13491,21 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Erebor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Erebor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a3bb-8b15-ef95-b55a" name="Glóin the Dwarf, Champion of Erebor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11469,6 +13578,14 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Accuracy Strike Strength</characteristic>
             <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Lake-town Infantry Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="29f7-5f61-cdca-c745" name="Bard the Bowman" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11577,6 +13694,14 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
+        <profile id="2571-dd60-800c-1526" name="Alfrid the Councilor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">0</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="ef28-ea79-7514-a5d6" name="Special Rules" hidden="false">
@@ -11644,6 +13769,14 @@ Should the driver be killed, another Iron Hills Dwarf on the Chariot immediately
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike</characteristic>
             <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Lake-town Infantry Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="329f-56af-d5ec-02df" name="Bain, Son of Bard" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11877,6 +14010,14 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
+        <profile id="bd5c-2b51-0f87-6c3a" name="Bilbo Baggins, Master Burglar" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="3f68-0297-0dff-13ef" name="Special Rules" hidden="false">
@@ -11950,9 +14091,21 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">6*</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channeling Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Lorien Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channeling
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Lorien
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ccd5-486b-45eb-4d50" name="Galadriel, Lady of Light" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOO*</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12115,6 +14268,14 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
           </characteristics>
         </profile>
+        <profile id="24c2-16f5-4f57-0234" name="Azog" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="559e-b533-92e3-901b" name="Special Rules" hidden="false">
@@ -12169,6 +14330,14 @@ Provided that he is in base contact with the Windlance and is not Engaged in com
                     <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
                     <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Warg Infantry Hero</characteristic>
                     <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Independent Hero</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="be15-bb7e-208e-7699" name="The White Warg" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">0</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">0</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12324,6 +14493,66 @@ Before deployment, but after players have decided on their board edges, the cont
                         </infoLink>
                         <infoLink id="181f-dfd9-5ea4-3c61" name="Independent Hero" hidden="false" targetId="017b-7203-c6eb-2270" type="rule"/>
                       </infoLinks>
+                    </infoGroup>
+                    <infoGroup id="f303-da9a-1254-d3a9" name="Azog&apos;s Lieutenants" hidden="false">
+                      <profiles>
+                        <profile id="cd67-8605-8d05-b3ad" name="Azog&apos;s Lieutenant 1" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                          <characteristics>
+                            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="f033-c60f-e9c4-18f6" name="Azog&apos;s Lieutenant 2" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                          <characteristics>
+                            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="53b0-0b39-c32e-ed15" name="Azog&apos;s Lieutenant 3" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                          <characteristics>
+                            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="0f55-95dd-b30d-2efc" name="Azog&apos;s Lieutenant 7" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                          <characteristics>
+                            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="1312-0c11-5b4f-d389" name="Azog&apos;s Lieutenant 6" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                          <characteristics>
+                            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="b005-50ce-835c-7002" name="Azog&apos;s Lieutenant 5" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                          <characteristics>
+                            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="b581-cd78-3046-cc1b" name="Azog&apos;s Lieutenant 4" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                          <characteristics>
+                            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
                     </infoGroup>
                   </infoGroups>
                   <selectionEntryGroups>
@@ -12534,9 +14763,23 @@ Before deployment, but after players have decided on their board edges, the cont
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Strike Strength Challenge</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Orc Gundabad Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March
+Strike
+Strength
+Challenge</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Orc
+Gundabad
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="486f-fb1d-ab10-003e" name="Bolg" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12649,7 +14892,10 @@ Before deployment, but after players have decided on their board edges, the cont
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Orc Gundabad Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Orc
+Gundabad
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
@@ -12663,6 +14909,160 @@ Before deployment, but after players have decided on their board edges, the cont
               </modifiers>
             </infoLink>
           </infoLinks>
+        </infoGroup>
+        <infoGroup id="4d0d-11b4-c8b2-2ec7" name="Gundabad Orc Captain" hidden="false">
+          <profiles>
+            <profile id="8a5b-cb8b-c55f-72d6" name="Gundabad Orc Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c865-0218-145d-c232" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1340-ed97-1987-b7a7" name="Gundabad Orc Captain 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c865-0218-145d-c232" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b76c-91ca-53f5-1d01" name="Gundabad Orc Captain 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c865-0218-145d-c232" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="42d1-bc46-bab0-1d1d" name="Gundabad Orc Captain 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c865-0218-145d-c232" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a7be-7194-a1eb-0294" name="Gundabad Orc Captain 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c865-0218-145d-c232" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b857-cf67-9eb3-4519" name="Gundabad Orc Captain 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c865-0218-145d-c232" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="96b5-5ef1-5fbe-c85f" name="Gundabad Orc Captain 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c865-0218-145d-c232" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="388e-a62c-67b6-b5a5" name="Gundabad Orc Captain 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c865-0218-145d-c232" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f556-2fb9-b7a5-86e9" name="Gundabad Orc Captain 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c865-0218-145d-c232" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="588c-6701-2b94-1bca" name="Gundabad Orc Captain 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c865-0218-145d-c232" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </infoGroup>
       </infoGroups>
       <selectionEntryGroups>
@@ -12706,7 +15106,9 @@ Before deployment, but after players have decided on their board edges, the cont
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Goblin Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Goblin
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
@@ -12718,6 +15120,160 @@ Before deployment, but after players have decided on their board edges, the cont
             <infoLink id="38ad-664c-346f-b93c" name="Chittering Hordes (Active)" hidden="false" targetId="c74c-8c88-2807-2eff" type="rule"/>
             <infoLink id="e290-861d-0753-cc9b" name="Cave Dweller (Active)" hidden="false" targetId="5401-5c24-a782-e11f" type="rule"/>
           </infoLinks>
+        </infoGroup>
+        <infoGroup id="e07a-7625-7cc6-6e05" name="Goblin Mercenary Captain" hidden="false">
+          <profiles>
+            <profile id="78c0-c33b-df19-b291" name="Goblin Mercenary Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d70-3b21-1274-98cd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4441-49cc-c687-3a86" name="Goblin Mercenary Captain 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d70-3b21-1274-98cd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2540-3230-3bce-d3fa" name="Goblin Mercenary Captain 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d70-3b21-1274-98cd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0e4d-c70f-6527-376c" name="Goblin Mercenary Captain 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d70-3b21-1274-98cd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e130-4da1-3ab4-9315" name="Goblin Mercenary Captain 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d70-3b21-1274-98cd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a199-5fe8-c019-0043" name="Goblin Mercenary Captain 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d70-3b21-1274-98cd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6473-0378-7815-a383" name="Goblin Mercenary Captain 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d70-3b21-1274-98cd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a90b-4de1-9501-c167" name="Goblin Mercenary Captain 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d70-3b21-1274-98cd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0b5d-22da-f47b-1641" name="Goblin Mercenary Captain 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d70-3b21-1274-98cd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1713-cabe-2f6e-e4bf" name="Goblin Mercenary Captain 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3d70-3b21-1274-98cd" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </infoGroup>
       </infoGroups>
       <selectionEntryGroups>
@@ -12756,7 +15312,9 @@ Before deployment, but after players have decided on their board edges, the cont
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Orc Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Orc
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
@@ -12775,6 +15333,160 @@ Before deployment, but after players have decided on their board edges, the cont
             </infoLink>
             <infoLink id="c33e-4bb0-4a5b-5b28" name="Many Blades (Active)" hidden="false" targetId="bc3c-f670-85e1-2310" type="rule"/>
           </infoLinks>
+        </infoGroup>
+        <infoGroup id="a5e0-02ba-01bc-6924" name="Hunter Orc Captain" hidden="false">
+          <profiles>
+            <profile id="2dde-8281-c3a9-ae34" name="Hunter Orc Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d180-32bc-0aef-6a9a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d076-e802-bafd-929a" name="Hunter Orc Captain 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d180-32bc-0aef-6a9a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ab18-303e-cf12-384c" name="Hunter Orc Captain 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d180-32bc-0aef-6a9a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ca92-b97b-4ff5-0944" name="Hunter Orc Captain 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d180-32bc-0aef-6a9a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e971-3d2e-e47b-d393" name="Hunter Orc Captain 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d180-32bc-0aef-6a9a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6af4-0e47-c64e-ec89" name="Hunter Orc Captain 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d180-32bc-0aef-6a9a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4472-12be-4ea3-7657" name="Hunter Orc Captain 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d180-32bc-0aef-6a9a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cc35-567b-d28f-3825" name="Hunter Orc Captain 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d180-32bc-0aef-6a9a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="18dd-f4d3-1520-881f" name="Hunter Orc dhrim Captain 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d180-32bc-0aef-6a9a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f042-782f-71c0-aee6" name="Hunter Orc Captain 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d180-32bc-0aef-6a9a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </infoGroup>
       </infoGroups>
       <selectionEntryGroups>
@@ -13929,9 +16641,21 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Mirkwood Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Mirkwood
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cde8-6302-4a8c-c4c0" name="Legolas Greenleaf, Prince of Mirkwood" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14078,8 +16802,19 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Rohan Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Rohan
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Independent Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4524-37ce-0f92-c1c6" name="Meriadoc Brandybuck, Knight of the Mark" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14181,9 +16916,12 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">4</characteristic>
             <characteristic name="Defense" typeId="d64a-e776-38fd-3019">9</characteristic>
             <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
-            <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d"/>
+            <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
             <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">4</characteristic>
-            <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Dwarf Kazard-Dûm Infantry Warrior</characteristic>
+            <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Dwarf
+Kazard-Dûm
+Infantry
+Warrior</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14253,7 +16991,10 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
             <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
             <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">4</characteristic>
-            <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Dwarf Khazad-Dûm Infantry Warrior</characteristic>
+            <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Dwarf
+Khazad-Dûm
+Infantry
+Warrior</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14319,6 +17060,14 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Strength" typeId="4f70-e4de-5e4a-d85e">(9)</characteristic>
             <characteristic name="Defence" typeId="f7a4-fb5d-b3f4-e9f0">10</characteristic>
             <characteristic name="Wounds" typeId="8121-8cb7-fa5b-7ee9">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb49-78b3-f696-d07c" name="Dwarf Ballista" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14419,8 +17168,19 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                     <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
                     <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
                     <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
-                    <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Khazard-dum Infantry Hero</characteristic>
+                    <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Khazard-dum
+Infantry
+Hero</characteristic>
                     <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c272-59a6-ed1e-c2e3" name="Dwarf Engineer Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14480,6 +17240,14 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                     <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
                     <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Khazard-dum Infantry Hero</characteristic>
                     <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="f6a9-ba25-f20f-467c" name="Siege Veteran" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14581,11 +17349,170 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Khazad-Dûm Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Khazad-Dûm
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoGroups>
+        <infoGroup id="6186-c8ac-c80a-f62d" name="Dwarf Captain" hidden="false">
+          <profiles>
+            <profile id="8713-3f63-51cb-5989" name="Dwarf Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1369-1098-9305-3f9b" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1794-b2e1-31c2-8054" name="Dwarf Captain 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1369-1098-9305-3f9b" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6f87-b96d-06a0-ad63" name="Dwarf Captain 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1369-1098-9305-3f9b" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0e86-c8f4-2c8d-44ad" name="Dwarf Captain 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1369-1098-9305-3f9b" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2a7e-4173-1b06-bcb8" name="Dwarf Captain 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1369-1098-9305-3f9b" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1fff-e5e5-f5f4-9b9f" name="Dwarf Captain 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1369-1098-9305-3f9b" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3304-d445-7510-26ec" name="Dwarf Captain 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1369-1098-9305-3f9b" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4227-ace4-1b1e-630d" name="Dwarf Captain 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1369-1098-9305-3f9b" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8200-9c54-eb4d-941c" name="Dwarf Captain 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1369-1098-9305-3f9b" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="81ff-8739-b9f3-6e07" name="Dwarf Captain 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1369-1098-9305-3f9b" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="0a3e-c08c-e683-a678" name="Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -14640,12 +17567,172 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve March</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Khazad-Dûm Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+March</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Khazad-Dûm
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoGroups>
+        <infoGroup id="f564-e544-bf3f-802d" name="Dwarf King" hidden="false">
+          <profiles>
+            <profile id="7ca0-761a-dac9-9882" name="Dwarf King" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a41-e777-2ebf-85fa" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d330-08a1-a5f9-fe93" name="Dwarf King 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a41-e777-2ebf-85fa" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d6c3-013e-f5e8-9745" name="Dwarf King 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a41-e777-2ebf-85fa" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3bc8-2e20-333b-89b4" name="Dwarf King 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a41-e777-2ebf-85fa" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fc37-2814-2c46-9bb0" name="Dwarf King 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a41-e777-2ebf-85fa" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8d5e-eb02-f3a0-a418" name="Dwarf King 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a41-e777-2ebf-85fa" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="431c-40e0-7737-8a0c" name="Dwarf King 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a41-e777-2ebf-85fa" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7073-e571-c2ad-ecca" name="Dwarf King 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a41-e777-2ebf-85fa" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="691a-1e44-16fc-d08a" name="Dwarf King 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a41-e777-2ebf-85fa" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="83ae-a1f0-f1cb-4b9a" name="Dwarf King 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a41-e777-2ebf-85fa" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="d280-7e47-83f8-4947" name="Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -14706,7 +17793,10 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                 <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
                 <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Khazad-Dûm Infantry Hero</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf 
+Khazad-Dûm
+Infantry
+Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Independent Hero</characteristic>
               </characteristics>
             </profile>
@@ -14718,6 +17808,310 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                 <infoLink id="0b7c-a875-2d48-444b" name="The Herald&apos;s Duty (Active)" hidden="false" targetId="f568-15b1-e555-4841" type="rule"/>
                 <infoLink id="ac6f-a554-5384-a81d" name="Independent Hero" hidden="false" targetId="017b-7203-c6eb-2270" type="rule"/>
               </infoLinks>
+            </infoGroup>
+            <infoGroup id="6de4-2d2a-56ac-ad88" name="Herald" hidden="false">
+              <profiles>
+                <profile id="9038-f62c-c812-ddd3" name="Herald" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" 1">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">=</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="7adc-4ab5-d10c-2344" name="Herald 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="d2dc-ba47-5b86-3d42" name="Herald 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="225b-d668-9038-90bd" name="Herald 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="24de-2f2d-cc6e-d227" name="Herald 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="1f0d-71e1-1f1c-5efd" name="Herald 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="7188-de01-4a8d-8beb" name="Herald 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="f0b1-9edb-221f-d2b3" name="Herald 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="59d1-8b89-4d83-b52c" name="Herald 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="4e01-9b8e-ebe0-5c96" name="Herald 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="20c8-a909-c408-1eae" name="Herald 11" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="75be-a357-d21a-1d53" name="Herald 20" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e71e-e47d-bb3d-a8f0" name="Herald 19" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="fbc6-1ec0-6eaa-fb84" name="Herald 18" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e507-dfcd-d97e-7649" name="Herald 17" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3b8e-5f78-4220-8578" name="Herald 16" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="d41b-1da3-076e-74a7" name="Herald 15" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="73d6-2995-434a-5b8f" name="Herald 14" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="cc65-15d6-309d-cd1b" name="Herald 13" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="09d5-41a4-9c2d-d752" name="Herald 12" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f2fb-212f-a55e-8a9a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </infoGroup>
           </infoGroups>
           <selectionEntryGroups>
@@ -14781,8 +18175,12 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                 <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
                 <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
                 <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Moria Infantry Hero</characteristic>
+                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Moria
+Infantry
+Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
               </characteristics>
             </profile>
@@ -14792,6 +18190,160 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
               <infoLinks>
                 <infoLink id="ff6c-d300-6626-fad0" name="The Herald&apos;s Duty (Active)" hidden="false" targetId="f568-15b1-e555-4841" type="rule"/>
               </infoLinks>
+            </infoGroup>
+            <infoGroup id="2356-b534-2f31-0883" name="King&apos;s Champion" hidden="false">
+              <profiles>
+                <profile id="1926-84af-09bd-f8aa" name="King&apos;s Champion" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" 1">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="926e-c672-15b7-0708" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="866d-f03d-d85a-a950" name="King&apos;s Champion 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="926e-c672-15b7-0708" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9ea-34aa-5922-6311" name="King&apos;s Champion 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="926e-c672-15b7-0708" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="45ac-89b9-8cff-4953" name="King&apos;s Champion 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="926e-c672-15b7-0708" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e4f2-4b65-577b-40d3" name="King&apos;s Champion 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="926e-c672-15b7-0708" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="52e5-3dc2-67c9-a463" name="King&apos;s Champion 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="926e-c672-15b7-0708" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="86a2-1021-a21e-dd8c" name="King&apos;s Champion 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="926e-c672-15b7-0708" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="fd04-ba6d-a04f-42b1" name="King&apos;s Champion 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="926e-c672-15b7-0708" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="a5e6-9b21-bfae-6241" name="King&apos;s Champion 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="926e-c672-15b7-0708" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c5c8-fc3d-de64-f436" name="King&apos;s Champion 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="926e-c672-15b7-0708" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                    <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </infoGroup>
           </infoGroups>
           <selectionEntryGroups>
@@ -14991,8 +18543,18 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">10</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">?</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Spirit Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Spirit
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Independent Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="24e0-52fd-ebc1-a896" name="Goldberry" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">?</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOOOOOOOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">?</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">?</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15153,6 +18715,14 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
           </characteristics>
         </profile>
+        <profile id="0f16-24a6-e91d-544c" name="Balin, King of Moria" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="43ad-7e15-2604-faa7" name="Special Rules" hidden="false">
@@ -15219,8 +18789,19 @@ The Chariot is also subject to the following exceptions:
                 <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
                 <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Iron Hills Infantry Hero</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Iron Hills
+Infantry
+Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c7f8-b4fe-498b-ed9f" name="Múrin" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15281,8 +18862,19 @@ The Chariot is also subject to the following exceptions:
                 <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
                 <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Iron Hills Infantry Hero</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Iron Hills
+Infantry
+Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b446-37fa-2dd7-c1b7" name="Drár" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15485,8 +19077,19 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf Moria Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Dwarf
+Moria
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="58fc-79b8-e747-6c8a" name="Flói Stonehand" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15574,6 +19177,14 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
           </characteristics>
         </profile>
+        <profile id="3713-fd21-319c-e17d" name="Arwen Undómiel" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="564f-00c3-0a92-2c4a" name="Special Rules" hidden="false">
@@ -15658,8 +19269,19 @@ The Chariot is also subject to the following exceptions:
                 <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
                 <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Rivendell Infantry Hero</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Rivendell
+Infantry
+Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitute</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="80b6-4585-c644-95ef" name="Elladan" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15699,8 +19321,19 @@ The Chariot is also subject to the following exceptions:
                 <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
                 <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Rivendell Infantry Hero</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Rivendell
+Infantry
+Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitute</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0d53-b3d8-134c-ddd9" name="Elrohir" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15842,8 +19475,19 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Rivendell Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Rivendell
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitute</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="87c1-95ad-75ff-682b" name="Lindir of Rivendell" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15904,9 +19548,23 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3*</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Strike Strength Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Rohan Cavalry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike
+Strength
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Rohan
+Cavalry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a81c-be7c-2b82-a7f2" name="Eorl the Young" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO*</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15995,9 +19653,21 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Rohan Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Rohan
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d540-e83b-1661-d3d6" name="Erkenbrand, Captain of Rohan" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16082,9 +19752,21 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Rohan Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Rohan
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5405-5742-de87-6029" name="Gamling, Captain of Rohan" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16189,8 +19871,19 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Rohan Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Rohan
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3a69-4caa-a70e-cdff" name="Grimbold of Grimslade" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16259,8 +19952,19 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Rohan Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Rohan
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d98f-4bb6-87e6-2789" name="Háma, Captain of Rohan" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16348,7 +20052,7 @@ The Chariot is also subject to the following exceptions:
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="3a9e-2549-816c-a1f0" name="Horse Lord" hidden="false" targetId="6912-7e5d-01e0-aebe" type="rule"/>
+            <infoLink id="3a9e-2549-816c-a1f0" name="Horse Lord (Passive)" hidden="false" targetId="6912-7e5d-01e0-aebe" type="rule"/>
             <infoLink id="6466-9ec6-8779-8e47" name="Expert Rider" hidden="false" targetId="b652-a40f-e5e6-0af6" type="rule"/>
           </infoLinks>
         </infoGroup>
@@ -16906,6 +20610,14 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
           </characteristics>
         </profile>
+        <profile id="d6a2-66a3-a672-f491" name="Beregond, Guard of the Citadel" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="d42d-61f8-fec8-f041" name="Special Rules" hidden="false">
@@ -17013,9 +20725,21 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="95aa-61db-3c6c-1125" name="Cirion, Lieutenant of Amon Barad" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17066,8 +20790,19 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9596-66da-9816-f8e8" name="Damrod, Ranger of Ithilien" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17113,8 +20848,19 @@ The Chariot is also subject to the following exceptions:
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">0</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="13bc-57a3-a986-9fac" name="Denethor, Steward of Gondor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17195,9 +20941,23 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Accuracy Strike Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Accuracy
+Strike
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8077-2fb6-5917-6d8b" name="Faramir, Captain of Gondor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17317,9 +21077,22 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Strike Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8f7b-76a0-0844-8468" name="Húrin the Tall, Warden of the Keys" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17400,9 +21173,21 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f13a-0baa-b793-a0a1" name="Ingold, Warden of the Rammas Echor" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17455,9 +21240,21 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="afc5-2ac4-9a6a-edde" name="Irolas, Captain of the Guard" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17506,9 +21303,21 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Accuracy</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March
+Accuracy</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4849-a131-5d96-7a00" name="Madril, Captain of Ithilien" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17564,6 +21373,14 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy Strike</characteristic>
             <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Infantry Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c70-f899-e62d-2c00" name="Arathorn" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17718,6 +21535,14 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
           </characteristics>
         </profile>
+        <profile id="4d64-f12e-c252-8f99" name="Bandobras Took" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="c954-542d-0f2a-1f0a" name="Special Rules" hidden="false">
@@ -17760,13 +21585,23 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">3</characteristic>
             <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">2</characteristic>
             <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">2</characteristic>
-            <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">2</characteristic>
+            <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">5</characteristic>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">1</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3a53-1506-6944-69ec" name="Farmer Maggot" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17829,8 +21664,18 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">0</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="60fe-9442-0163-b707" name="Fredegar Bolger" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17875,8 +21720,18 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c417-f7cb-882c-49de" name="Lobelia Sackville-Baggins" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18101,8 +21956,18 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Pony Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Pony
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Independent Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b6d5-c348-f344-092e" name="Bill the Pony" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18406,9 +22271,22 @@ If Boromir is part of the same army as Denethor, then Denethor will automaticall
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Strike Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Woman Rohan Cavalry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Woman
+Rohan
+Cavalry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="df94-ecaf-44bb-dd50" name="Dernhelm (Éowyn)" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18480,9 +22358,21 @@ Whilst mounted, Dernhelm will follow all of the rules provided on these pages ra
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Rohan Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Rohan 
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce27-78f6-459c-ce09" name="Elfhelm, Captain of Rohan" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18589,9 +22479,21 @@ Whilst mounted, Dernhelm will follow all of the rules provided on these pages ra
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Rohan Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Rohan
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="18cd-0e4e-66dc-d9c9" name="Déorwine, Chief of the King&apos;s Knights" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18670,9 +22572,23 @@ Whilst mounted, Dernhelm will follow all of the rules provided on these pages ra
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve Strike Strength Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Resolve
+Strike
+Strength
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6b97-516a-c177-13ee" name="Prince Imrahil of Dol Amroth" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18731,7 +22647,10 @@ Whilst mounted, Dernhelm will follow all of the rules provided on these pages ra
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Gondor Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Gondor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
@@ -18741,6 +22660,160 @@ Whilst mounted, Dernhelm will follow all of the rules provided on these pages ra
           <infoLinks>
             <infoLink id="f5ec-e3b1-fc7e-1333" name="Pride of Dol Amroth (Active)" hidden="false" targetId="00b3-2ac7-4fd3-57cb" type="rule"/>
           </infoLinks>
+        </infoGroup>
+        <infoGroup id="1e4d-5ff3-4fd9-bef3" name="Captain of Dol Amroth" hidden="false">
+          <profiles>
+            <profile id="8137-8f84-d640-05a2" name="Captain of Dol Amroth" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3e4-9abe-1c90-9cf4" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3730-6489-c425-aaeb" name="Captain of Dol Amroth 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3e4-9abe-1c90-9cf4" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f844-b33a-2546-26da" name="Captain of Dol Amroth 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3e4-9abe-1c90-9cf4" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cedd-a064-6cc5-7eb0" name="Captain of Dol Amroth 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3e4-9abe-1c90-9cf4" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0f48-7df0-63fa-4275" name="Captain of Dol Amroth 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3e4-9abe-1c90-9cf4" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e7b3-c009-dcc9-8d57" name="Captain of Dol Amroth 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3e4-9abe-1c90-9cf4" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f703-4cf9-fd7b-065e" name="Captain of Dol Amroth 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3e4-9abe-1c90-9cf4" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cc06-cf86-5566-ce42" name="Captain of Dol Amroth 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3e4-9abe-1c90-9cf4" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e0a9-1d67-5ce4-1095" name="Captain of Dol Amroth 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3e4-9abe-1c90-9cf4" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5b83-19f1-5f26-bcbb" name="Captain of Dol Amroth 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f3e4-9abe-1c90-9cf4" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </infoGroup>
       </infoGroups>
       <selectionEntryGroups>
@@ -19039,8 +23112,18 @@ Whilst mounted, Dernhelm will follow all of the rules provided on these pages ra
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Hobbit
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6096-73ba-b593-e820" name="Paladin Took" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19103,6 +23186,14 @@ Challenge</characteristic>
 Infantry
 Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7aaa-cdf8-a5a6-6652" name="Farmer Tolman Cotton" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19236,6 +23327,14 @@ Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
+        <profile id="5a87-d8fa-0a99-4b5f" name="Lotho Sackville-Baggins" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="3881-e2b9-82a1-df28" name="Special Rules" hidden="false">
@@ -19299,6 +23398,14 @@ Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
+        <profile id="c3c6-bed6-32c0-0de8" name="Baldo Tulpenny" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="73e1-a9ad-acee-3580" name="Special Rules" hidden="false">
@@ -19357,6 +23464,14 @@ Hero</characteristic>
 Infantry
 Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bf69-5508-ab31-8c16" name="Hamfast &apos;Gaffer&apos; Gamgee" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19477,6 +23592,14 @@ Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
+        <profile id="bd4e-9796-9785-192c" name="Holfoot Bracegirdle, Shirriff-Leader" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="4054-e985-999b-cbb5" name="Special Rules" hidden="false">
@@ -19532,6 +23655,14 @@ Hero</characteristic>
 Infantry
 Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="67cd-3918-b436-3248" name="Folco Boffin" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19922,9 +24053,22 @@ Hero</characteristic>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy Strike Strength</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf Lórien Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy
+Strike
+Strength</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Elf
+Lórien
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e70d-8bbd-5dc0-ab42" name="Haldir" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20059,6 +24203,160 @@ Hero</characteristic>
             <infoLink id="eda5-f131-de92-b157" name="Expert Rider" hidden="false" targetId="b652-a40f-e5e6-0af6" type="rule"/>
           </infoLinks>
         </infoGroup>
+        <infoGroup id="aec5-c987-5680-1606" name="Galadhrim Captain" hidden="false">
+          <profiles>
+            <profile id="6684-8b0f-9a6c-234b" name="Galadhrim Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38b3-8a52-2dc0-2ad9" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a4f6-83eb-94ab-1679" name="Galadhrim Captain 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38b3-8a52-2dc0-2ad9" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cdca-38b1-5eea-eb82" name="Galadhrim Captain 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38b3-8a52-2dc0-2ad9" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0598-1cee-ee89-335b" name="Galadhrim Captain 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38b3-8a52-2dc0-2ad9" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="863c-6f2c-8d97-8390" name="Galadhrim Captain 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38b3-8a52-2dc0-2ad9" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8c11-6d8c-481f-5945" name="Galadhrim Captain 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38b3-8a52-2dc0-2ad9" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cdbb-5ea0-1d24-ff64" name="Galadhrim Captain 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38b3-8a52-2dc0-2ad9" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="55ba-0e4c-6a02-c40f" name="Galadhrim Captain 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38b3-8a52-2dc0-2ad9" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f55b-7b10-4a84-8f48" name="Galadhrim Captain 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38b3-8a52-2dc0-2ad9" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9071-dcd2-2ee8-05fd" name="Galadhrim Captain 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="38b3-8a52-2dc0-2ad9" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
       </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="ca02-bdca-bfc0-546a" name="Wargear" hidden="false" collective="false" import="true">
@@ -20111,9 +24409,20 @@ Hero</characteristic>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March Accuracy</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March
+Accuracy</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="07b3-35ba-9de1-6f28" name="Ghân-Buri-Ghân" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20184,6 +24493,29 @@ Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Independent Hero</characteristic>
           </characteristics>
         </profile>
+        <profile id="e32a-eb80-557c-77b8" name=" " hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+          <modifiers>
+            <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+              <repeats>
+                <repeat field="selections" scope="6ad2-2512-cc8c-5a47" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
+            <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+            <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Aldor, Rohan Archer</characteristic>
+            <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2e0a-0479-d197-682c" name="Aldor, Rohan Archer" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="6245-e8d6-01cc-0800" name="Special Rules" hidden="false">
@@ -20239,6 +24571,14 @@ Rohan
 Infantry
 Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Independent Hero</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="00b1-f75d-3caa-2bc5" name="Haleth, Son of Háma" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20301,6 +24641,14 @@ Rohan
 Infantry
 Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7182-96cc-f996-efae" name="Helm Hammerhand" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20399,8 +24747,19 @@ Hero</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">1</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Orc Mordor Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Orc
+Mordor
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5f57-23f0-7238-8807" name="Grishnákh, Orc Captain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24717,6 +29076,128 @@ or
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1146-f65d-18bd-b0d8" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd42-313a-a225-9ec6" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e699-8339-87fa-7383" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="424a-6725-07ea-25bd" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="67a5-4ca5-7747-d9a0" type="atLeast"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0781-1e15-0db8-0b4e" type="atLeast"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a008-0695-cc92-1096" type="equalTo"/>
+                                          </conditions>
+                                          <conditionGroups>
+                                            <conditionGroup type="and">
+                                              <conditions>
+                                                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c024-0ce2-dd68-c0db" type="equalTo"/>
+                                              </conditions>
+                                              <conditionGroups>
+                                                <conditionGroup type="or">
+                                                  <conditions>
+                                                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="42b5-d019-74fe-2823" type="equalTo"/>
+                                                  </conditions>
+                                                </conditionGroup>
+                                              </conditionGroups>
+                                            </conditionGroup>
+                                          </conditionGroups>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1146-f65d-18bd-b0d8" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd42-313a-a225-9ec6" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e699-8339-87fa-7383" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="424a-6725-07ea-25bd" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="67a5-4ca5-7747-d9a0" type="atLeast"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0781-1e15-0db8-0b4e" type="atLeast"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e09-9eec-f58f-cb52" type="equalTo"/>
+                                          </conditions>
+                                          <conditionGroups>
+                                            <conditionGroup type="and">
+                                              <conditions>
+                                                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c024-0ce2-dd68-c0db" type="equalTo"/>
+                                              </conditions>
+                                              <conditionGroups>
+                                                <conditionGroup type="or">
+                                                  <conditions>
+                                                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="42b5-d019-74fe-2823" type="equalTo"/>
+                                                  </conditions>
+                                                </conditionGroup>
+                                              </conditionGroups>
+                                            </conditionGroup>
+                                          </conditionGroups>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
               </modifiers>
             </modifierGroup>
             <modifierGroup>
@@ -28019,7 +32500,7 @@ When playing a game using an Impossible Alliance, each section of your force wil
                         </conditionGroup>
                       </conditionGroups>
                     </modifier>
-                    <modifier type="set" field="9907-3872-edac-9ef4" value="0">
+                    <modifier type="set" field="9907-3872-edac-9ef4" value="0.0">
                       <conditions>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd42-313a-a225-9ec6" type="equalTo"/>
                       </conditions>
@@ -28953,6 +33434,128 @@ When playing a game using an Impossible Alliance, each section of your force wil
                             </conditionGroup>
                           </conditionGroups>
                         </modifier>
+                        <modifier type="set" field="9907-3872-edac-9ef4" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1146-f65d-18bd-b0d8" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd42-313a-a225-9ec6" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e699-8339-87fa-7383" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="424a-6725-07ea-25bd" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="67a5-4ca5-7747-d9a0" type="atLeast"/>
+                                          </conditions>
+                                          <conditionGroups>
+                                            <conditionGroup type="and">
+                                              <conditions>
+                                                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0781-1e15-0db8-0b4e" type="atLeast"/>
+                                              </conditions>
+                                              <conditionGroups>
+                                                <conditionGroup type="and">
+                                                  <conditions>
+                                                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e09-9eec-f58f-cb52" type="equalTo"/>
+                                                  </conditions>
+                                                  <conditionGroups>
+                                                    <conditionGroup type="and">
+                                                      <conditions>
+                                                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c024-0ce2-dd68-c0db" type="equalTo"/>
+                                                      </conditions>
+                                                      <conditionGroups>
+                                                        <conditionGroup type="or">
+                                                          <conditions>
+                                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="42b5-d019-74fe-2823" type="equalTo"/>
+                                                          </conditions>
+                                                        </conditionGroup>
+                                                      </conditionGroups>
+                                                    </conditionGroup>
+                                                  </conditionGroups>
+                                                </conditionGroup>
+                                              </conditionGroups>
+                                            </conditionGroup>
+                                          </conditionGroups>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="set" field="9907-3872-edac-9ef4" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1146-f65d-18bd-b0d8" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd42-313a-a225-9ec6" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e699-8339-87fa-7383" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="424a-6725-07ea-25bd" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="67a5-4ca5-7747-d9a0" type="atLeast"/>
+                                          </conditions>
+                                          <conditionGroups>
+                                            <conditionGroup type="and">
+                                              <conditions>
+                                                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0781-1e15-0db8-0b4e" type="atLeast"/>
+                                              </conditions>
+                                              <conditionGroups>
+                                                <conditionGroup type="and">
+                                                  <conditions>
+                                                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a008-0695-cc92-1096" type="equalTo"/>
+                                                  </conditions>
+                                                  <conditionGroups>
+                                                    <conditionGroup type="and">
+                                                      <conditions>
+                                                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c024-0ce2-dd68-c0db" type="equalTo"/>
+                                                      </conditions>
+                                                      <conditionGroups>
+                                                        <conditionGroup type="or">
+                                                          <conditions>
+                                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="42b5-d019-74fe-2823" type="equalTo"/>
+                                                          </conditions>
+                                                        </conditionGroup>
+                                                      </conditionGroups>
+                                                    </conditionGroup>
+                                                  </conditionGroups>
+                                                </conditionGroup>
+                                              </conditionGroups>
+                                            </conditionGroup>
+                                          </conditionGroups>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
                       </modifiers>
                     </modifierGroup>
                     <modifierGroup>
@@ -29477,6 +34080,128 @@ When playing a game using an Impossible Alliance, each section of your force wil
                                               <conditions>
                                                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2236-734f-584a-8857" type="atLeast"/>
                                               </conditions>
+                                            </conditionGroup>
+                                          </conditionGroups>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1146-f65d-18bd-b0d8" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd42-313a-a225-9ec6" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e699-8339-87fa-7383" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="424a-6725-07ea-25bd" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="67a5-4ca5-7747-d9a0" type="atLeast"/>
+                                          </conditions>
+                                          <conditionGroups>
+                                            <conditionGroup type="and">
+                                              <conditions>
+                                                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0781-1e15-0db8-0b4e" type="atLeast"/>
+                                              </conditions>
+                                              <conditionGroups>
+                                                <conditionGroup type="and">
+                                                  <conditions>
+                                                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a008-0695-cc92-1096" type="equalTo"/>
+                                                  </conditions>
+                                                  <conditionGroups>
+                                                    <conditionGroup type="and">
+                                                      <conditions>
+                                                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c024-0ce2-dd68-c0db" type="equalTo"/>
+                                                      </conditions>
+                                                      <conditionGroups>
+                                                        <conditionGroup type="or">
+                                                          <conditions>
+                                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="42b5-d019-74fe-2823" type="equalTo"/>
+                                                          </conditions>
+                                                        </conditionGroup>
+                                                      </conditionGroups>
+                                                    </conditionGroup>
+                                                  </conditionGroups>
+                                                </conditionGroup>
+                                              </conditionGroups>
+                                            </conditionGroup>
+                                          </conditionGroups>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1146-f65d-18bd-b0d8" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd42-313a-a225-9ec6" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e699-8339-87fa-7383" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="424a-6725-07ea-25bd" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="and">
+                                          <conditions>
+                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="67a5-4ca5-7747-d9a0" type="atLeast"/>
+                                          </conditions>
+                                          <conditionGroups>
+                                            <conditionGroup type="and">
+                                              <conditions>
+                                                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0781-1e15-0db8-0b4e" type="atLeast"/>
+                                              </conditions>
+                                              <conditionGroups>
+                                                <conditionGroup type="and">
+                                                  <conditions>
+                                                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e09-9eec-f58f-cb52" type="equalTo"/>
+                                                  </conditions>
+                                                  <conditionGroups>
+                                                    <conditionGroup type="and">
+                                                      <conditions>
+                                                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c024-0ce2-dd68-c0db" type="equalTo"/>
+                                                      </conditions>
+                                                      <conditionGroups>
+                                                        <conditionGroup type="or">
+                                                          <conditions>
+                                                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="42b5-d019-74fe-2823" type="equalTo"/>
+                                                          </conditions>
+                                                        </conditionGroup>
+                                                      </conditionGroups>
+                                                    </conditionGroup>
+                                                  </conditionGroups>
+                                                </conditionGroup>
+                                              </conditionGroups>
                                             </conditionGroup>
                                           </conditionGroups>
                                         </conditionGroup>
@@ -33634,11 +38359,170 @@ When playing a game using an Impossible Alliance, each section of your force wil
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">2</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Mahûd Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Mahûd
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoGroups>
+        <infoGroup id="f34b-4a01-be0c-f83c" name="Mahûd Beastmaster Chieftan" hidden="false">
+          <profiles>
+            <profile id="2c4d-8e5b-80c8-030d" name="Mahûd Beastmaster Chieftan" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="append" field="name" value=" 1">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3de2-38c0-9e85-9315" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b913-4836-d62d-4245" name="Mahûd Beastmaster Chieftan 2" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3de2-38c0-9e85-9315" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2754-1deb-b643-7adc" name="Mahûd Beastmaster Chieftan 3" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3de2-38c0-9e85-9315" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6899-c46d-67ee-5bbe" name="Mahûd Beastmaster Chieftan 8" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3de2-38c0-9e85-9315" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b75b-1fd1-ad9f-80b9" name="Mahûd Beastmaster Chieftan 5" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3de2-38c0-9e85-9315" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0fb7-fcad-82d7-26d5" name="Mahûd Beastmaster Chieftan 4" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3de2-38c0-9e85-9315" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6462-1227-cdde-3b42" name="Mahûd Beastmaster Chieftan 7" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3de2-38c0-9e85-9315" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="988a-c98b-06da-541e" name="Mahûd Beastmaster Chieftan 6" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3de2-38c0-9e85-9315" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ee52-9cd5-ef20-3745" name="Mahûd Beastmaster Chieftan 9" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3de2-38c0-9e85-9315" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="11a4-9624-bcb3-1705" name="Mahûd Beastmaster Chieftan 10" hidden="true" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3de2-38c0-9e85-9315" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+                <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+                <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+                <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="8321-848a-6e05-5e4a" name="Mahûd" hidden="false" targetId="4e86-3529-150d-a9ee" primary="false"/>
       </categoryLinks>
@@ -33830,6 +38714,16 @@ The player who declared this &apos;free&apos; Heroic Combat automatically wins t
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d2c-dd26-be63-2e57" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7893-1428-22c7-12a2" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="a9bc-5c7f-b748-2d9c" name="Harry Goatleaf" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoGroups>
         <infoGroup id="c4a8-970c-44f7-f09c" name="Special Rules" hidden="false">
           <profiles>
@@ -33853,7 +38747,10 @@ The player who declared this &apos;free&apos; Heroic Combat automatically wins t
                 <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
                 <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">-</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man, Ruffian, Infantry, Man	</characteristic>
+                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Ruffian
+Infantry
+Man	</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
               </characteristics>
             </profile>
@@ -33904,6 +38801,16 @@ The player who declared this &apos;free&apos; Heroic Combat automatically wins t
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b2a-53b8-abda-a51f" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2c0e-184e-5d4f-d4c2" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="ad9d-5b9f-fedc-6ba3" name="Barliman Butterbur" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoGroups>
         <infoGroup id="846c-3bb5-f46e-a757" name="Special Rules" hidden="false">
           <profiles>
@@ -33961,6 +38868,16 @@ Hero</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="579e-6a0b-b5c4-baa1" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2180-a2ef-bf5e-3059" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="73bd-57a6-82db-7288" name="Mablung, Ranger of Ithilien" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoGroups>
         <infoGroup id="0b71-763f-d5e6-35f8" name="Special Rules" hidden="false">
           <profiles>
@@ -34016,6 +38933,16 @@ Hero</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4179-ecb9-071e-3be3" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ccd6-34a5-c31d-fa7a" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="db98-0d58-fe21-2538" name="Anborn, Ranger of Ithilien" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">O</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoGroups>
         <infoGroup id="6258-065f-b358-afb7" name="Special Rules" hidden="false">
           <profiles>
@@ -34092,6 +39019,14 @@ Erebor
 Infantry
 Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="42df-a8d3-d467-e423" name="Dáin Ironfoot, King Under the Mountain" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -34194,7 +39129,7 @@ Defence</characteristic>
         <entryLink id="13c5-dd7d-5430-e807" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="120.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="110.0"/>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
@@ -34387,6 +39322,14 @@ Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
           </characteristics>
         </profile>
+        <profile id="f251-838a-1817-0057" name="Brand, King of Dale" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="e8e6-d0f9-caa9-6928" name="Special Rules" hidden="false">
@@ -34517,6 +39460,14 @@ Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
           </characteristics>
         </profile>
+        <profile id="f304-3e1c-6f47-47c2" name="Bard II, Prince of Dale" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="e0ba-2090-838b-5245" name="Special Rules" hidden="false">
@@ -34573,9 +39524,21 @@ Hero</characteristic>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">2</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy Strike</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Dale Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Accuracy
+Strike</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Dale
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="69e7-0c11-8d7a-47e5" name="Girion, Lord of Dale" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -34786,6 +39749,14 @@ Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
+        <profile id="32db-1b04-e5dc-aee6" name="Orophin" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="878b-1dbf-7346-9d57" name="Special Rules" hidden="false">
@@ -34889,9 +39860,29 @@ Hero</characteristic>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c9ce-5dee-63ed-5d17" name="Beorn" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+          <characteristics>
+            <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Beorn</characteristic>
+            <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+            <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Beorn</characteristic>
+            <characteristic name="Points" typeId="4fda-4487-840f-7db0">200</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cfee-111a-2c83-0920" name="Beorn" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -35008,9 +39999,29 @@ Hero</characteristic>
             <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">3</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">3</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">3</characteristic>
-            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Strength Defence</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Infantry Hero</characteristic>
+            <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike
+Strength
+Defence</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="533c-aec1-c049-678f" name="Grimbeorn" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+          <characteristics>
+            <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Grimbeorn</characteristic>
+            <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+            <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Grimbeorn</characteristic>
+            <characteristic name="Points" typeId="4fda-4487-840f-7db0">200</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="01f2-65a7-de12-4bad" name="Grimbeorn" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">OOO</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -35145,6 +40156,14 @@ Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
           </characteristics>
         </profile>
+        <profile id="e57f-d7aa-d27e-df60" name="Razgûsh, War Leader of the North" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="5c38-5962-4178-7512" name="Special Rules" hidden="false">
@@ -35241,8 +40260,19 @@ Hero</characteristic>
             <characteristic name="Will" typeId="b509-13ce-7d03-816e">4</characteristic>
             <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
             <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling</characteristic>
-            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Goblin Moria Infantry Hero</characteristic>
+            <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Goblin
+Moria
+Infantry
+Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fc55-c04a-09da-0858" name="Ashrâk" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+          <characteristics>
+            <characteristic name="Might" typeId="184a-5554-9c8c-3b09">O</characteristic>
+            <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">OOOO</characteristic>
+            <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
+            <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -37838,7 +42868,8 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <characteristic name="Attack" typeId="6235-3861-befd-7242">2</characteristic>
         <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">3</characteristic>
         <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">3</characteristic>
-        <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Monster Cavalry</characteristic>
+        <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Monster
+Cavalry</characteristic>
       </characteristics>
     </profile>
     <profile id="e435-e2c3-b3f2-0cc3" name="Armoured Fell Beast" publicationId="3e16-9abf-pubN103678" page="114 &amp; 149" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
@@ -38238,7 +43269,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <characteristic name="Duration" typeId="7eb8-9bc7-978c-666c">Temporary</characteristic>
         <characteristic name="Range" typeId="1ac9-444c-5045-e1c0"/>
         <characteristic name="Casting" typeId="0920-e245-e3c2-d982"/>
-        <characteristic name="Rule" typeId="a482-2126-3af0-f1b8">This power targets one enemy model within range. While this power is in effect, the target model may not mode (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel.</characteristic>
+        <characteristic name="Rule" typeId="a482-2126-3af0-f1b8">This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel.</characteristic>
         <characteristic name="Channelled" typeId="cbd7-145c-ff78-c8f0">Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up).</characteristic>
       </characteristics>
     </profile>
@@ -38382,7 +43413,7 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <characteristic name="Duration" typeId="7eb8-9bc7-978c-666c">Instant</characteristic>
         <characteristic name="Range" typeId="1ac9-444c-5045-e1c0"/>
         <characteristic name="Casting" typeId="0920-e245-e3c2-d982"/>
-        <characteristic name="Rule" typeId="a482-2126-3af0-f1b8">This power targets one enemy model within range. The target is blasted D6&quot; directly away from the caster and knocked Prone. If the target comes into contact with another model that is Strength 5 or less, it will immediately stop and both models will be knocked Prone. If the target, or one of the models that is knocked Prone is Engaged in combat, then all the models (friend and foe) in the same Fight are also knocked Prone. The target suffers one Strength 3 hit. Cavalry models are treated as having rolled the Knocked Flying result on the Thrown Rider chart.  Additionally, if the target comes into contact with a piece of terrain, such as an Obstacle like a hedge, house or large rock, or a model that is Strength 6 or higher, then it will immediately stop and be knocked Prone, however the Strength 6 model will not be knocked Prone. Both the target and the Obstacle or model (if it has a Defence value) will suffer one Strength 3 hit.  Note: Even Transfixed/Compelled or otherwise immobilised models will be blasted by this power.</characteristic>
+        <characteristic name="Rule" typeId="a482-2126-3af0-f1b8">This power targets one enemy model within range. The target is blasted D6&quot; directly away from the caster and knocked Prone. If the target comes into contact with another model that is Strength 5 or less, it will immediately stop and both models will be knocked Prone. If the target, or one of the models that is knocked Prone is Engaged in combat, then all the models (friend and foe) in the same Fight are also knocked Prone. The target model suffers one Strength 5 hit, and any other model knocked Prone suffers one Strength 3 hit. Cavalry models are treated as having rolled the Knocked Flying result on the Thrown Rider chart.  Additionally, if the target comes into contact with a piece of terrain, such as an Obstacle like a hedge, house or large rock, or a model that is Strength 6 or higher, then it will immediately stop and be knocked Prone, however the Strength 6 model will not be knocked Prone. Both the target and the Obstacle or model (if it has a Defence value) will suffer one Strength 3 hit.  Note: Even Transfixed/Compelled or otherwise immobilised models will be blasted by this power.</characteristic>
         <characteristic name="Channelled" typeId="cbd7-145c-ff78-c8f0">The initial hit is instead Strength 6 and every other model suffers instead one Strength 4 hit.</characteristic>
       </characteristics>
     </profile>
@@ -38511,7 +43542,9 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <characteristic name="Attack" typeId="6235-3861-befd-7242">1</characteristic>
         <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
         <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">2</characteristic>
-        <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Warg Infantry Warrior</characteristic>
+        <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Warg
+Infantry
+Warrior</characteristic>
       </characteristics>
     </profile>
     <profile id="486c-40fa-3f84-b143" name="Giant Spider" publicationId="3e16-9abf-pubN141412" page="116" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
@@ -38571,7 +43604,10 @@ As long as Frodo is alive and on the table (or escapes the board in Scenarios wh
         <characteristic name="Attack" typeId="6235-3861-befd-7242">2</characteristic>
         <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">3</characteristic>
         <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">6</characteristic>
-        <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Eagle Monster Infantry Warrior</characteristic>
+        <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Eagle
+Monster
+Infantry
+Warrior</characteristic>
       </characteristics>
     </profile>
     <profile id="a87f-5472-53f1-1d14" name="Bat Swarm" publicationId="3e16-9abf-pubN103678" page="163" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
