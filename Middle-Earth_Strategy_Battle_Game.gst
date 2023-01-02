@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="106" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="108" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="3e16-9abf-pubN102460" name="Middle-Earth Strategy Battle Game Rules Manual"/>
     <publication id="3e16-9abf-pubN103678" name="Armies of Lord of the Rings"/>
@@ -2758,9 +2758,39 @@
         </profile>
       </profiles>
       <infoGroups>
-        <infoGroup id="e029-7283-2608-78dc" name="Special Rules" hidden="false">
+        <infoGroup id="a499-a816-bfdf-e288" name="Special Rules" hidden="false">
           <infoLinks>
-            <infoLink id="3e2d-5eca-d2e6-506f" name="Independent Hero" hidden="false" targetId="017b-7203-c6eb-2270" type="rule"/>
+            <infoLink id="b90a-9b65-d139-5002" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ff5-17bf-0cab-7614" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="0864-546d-97e6-3b53" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="181c-4db9-cf31-44f3" name="Independent Hero" hidden="false" targetId="017b-7203-c6eb-2270" type="rule"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -3194,19 +3224,41 @@ Hero</characteristic>
             <infoLink id="42db-a3d7-0f7a-f268" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ff5-17bf-0cab-7614" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ff5-17bf-0cab-7614" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="39ce-e8cd-5fa3-0182" name="Hatred (Active)" hidden="true" targetId="6c1d-9a5e-55e7-c911" type="rule">
+            <infoLink id="39ce-e8cd-5fa3-0182" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="22bb-196f-5724-890e" type="equalTo"/>
-                  </conditions>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="22bb-196f-5724-890e" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
             </infoLink>
@@ -3335,6 +3387,40 @@ Hero</characteristic>
                 <modifier type="append" field="name" value=" (Isengard Orc)">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c255-a550-bd28-098e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="bed0-b483-2d63-49cb" name="Special Rules" hidden="false">
+          <infoLinks>
+            <infoLink id="c765-4a38-50fa-8d12" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ff5-17bf-0cab-7614" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="354a-d7d7-0ce7-8b6d" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5167,9 +5253,39 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
         </profile>
       </profiles>
       <infoGroups>
-        <infoGroup id="5ffd-d971-c0bb-f399" name="Special Rules" hidden="false">
+        <infoGroup id="abf7-6a2a-e7b7-149f" name="Special Rules" hidden="false">
           <infoLinks>
-            <infoLink id="43b1-9633-15e5-4bb6" name="Whip of the Masters" hidden="false" targetId="e4f9-3fa2-607e-f5d0" type="rule"/>
+            <infoLink id="06c3-cdab-de08-5a41" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ff5-17bf-0cab-7614" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="bf1c-71dd-fe46-3eb5" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="e1c0-045e-a0e3-568c" name="Whip of the Masters (Active)" hidden="false" targetId="e4f9-3fa2-607e-f5d0" type="rule"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -7655,10 +7771,16 @@ Hero</characteristic>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2d5-bfec-44d4-1ef3" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="a0c4-1bb0-4078-8b6a" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e85d-82d9-53ee-2227" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c51-94a7-9a2e-d573" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a0c4-1bb0-4078-8b6a" type="min"/>
       </constraints>
       <profiles>
         <profile id="a2fd-0261-da71-0051" name="Frodo Baggins" publicationId="3e16-9abf-pubN103678" page="9" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
@@ -8301,10 +8423,16 @@ Hero</characteristic>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="46c3-7695-49ab-62dc" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="d236-8cac-5585-96e6" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6445-c6a7-02f4-dfc4" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15e4-aec9-08e9-b957" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d236-8cac-5585-96e6" type="min"/>
       </constraints>
       <profiles>
         <profile id="35de-f1e6-f676-afad" name="Samwise Gamgee" publicationId="3e16-9abf-pubN103678" page="9" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
@@ -21852,10 +21980,16 @@ Hero</characteristic>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="ac4c-7ac3-8589-cff6" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c033-e9bb-9b82-6107" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6702-9a0e-b8a2-5893" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4170-5bd6-0880-b964" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac4c-7ac3-8589-cff6" type="min"/>
       </constraints>
       <profiles>
         <profile id="9da8-14a2-cffa-11b5" name="Sméagol" publicationId="3e16-9abf-pubN103678" page="15" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
@@ -40475,6 +40609,33 @@ Hero</characteristic>
             <infoLink id="a077-8d51-55ad-0bb3" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
             <infoLink id="5944-4ae2-9c70-1a22" name="Swift Movement (Active)" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
             <infoLink id="a169-6644-962d-5f72" name="Monstrous Charge (Active)" hidden="false" targetId="7b8b-6f8f-1773-6bc5" type="rule"/>
+            <infoLink id="5702-8803-ea32-a186" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="72e0-9d57-af84-ee3c" name="Woodland Creature (Active)" hidden="false" targetId="423b-b343-5f3d-f2d9" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -43048,11 +43209,11 @@ Cavalry</characteristic>
       <characteristics>
         <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">8&quot;</characteristic>
         <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/5+</characteristic>
-        <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">5</characteristic>
+        <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">9</characteristic>
         <characteristic name="Defense" typeId="d64a-e776-38fd-3019">7</characteristic>
         <characteristic name="Attack" typeId="6235-3861-befd-7242">3</characteristic>
         <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">10</characteristic>
-        <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">7</characteristic>
+        <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">2</characteristic>
         <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Mûmak Monster War Beast Hero</characteristic>
       </characteristics>
     </profile>

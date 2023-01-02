@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ce3-5f6a-16d8-078e" name="Mordor" revision="26" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="103" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ce3-5f6a-16d8-078e" name="Mordor" revision="27" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="108" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8ce3-5f6a-pubN69610" name="Armies of Lord of the Rings"/>
     <publication id="8ce3-5f6a-pubN75660" name="Gondor at War"/>
@@ -5217,6 +5217,27 @@ Hero</characteristic>
               </conditionGroups>
             </modifier>
           </modifiers>
+          <infoGroups>
+            <infoGroup id="b0c9-e9d3-7663-2400" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="b87a-7be5-a366-8b24" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
           <infoLinks>
             <infoLink id="52d2-b74e-ac48-18ce" name="Orc Tracker" hidden="false" targetId="21ed-7b1d-3e39-7144" type="profile"/>
           </infoLinks>
@@ -5369,13 +5390,24 @@ Hero</characteristic>
           <infoGroups>
             <infoGroup id="81dc-f613-a234-be2f" name="Special Rules" hidden="false">
               <infoLinks>
-                <infoLink id="716b-20e2-b1c6-9e4e" name="Hatred (Active)" hidden="true" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                <infoLink id="716b-20e2-b1c6-9e4e" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
-                    <modifier type="set" field="hidden" value="false">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19bc-9875-2696-2abd" type="equalTo"/>
-                      </conditions>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="22bb-196f-5724-890e" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </infoLink>
@@ -5628,13 +5660,29 @@ Hero</characteristic>
           <infoGroups>
             <infoGroup id="aff8-75f8-6fe6-d5ad" name="Special Rules" hidden="false">
               <infoLinks>
-                <infoLink id="3b92-e041-82da-4cba" name="Hatred (Active)" hidden="true" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                <infoLink id="3b92-e041-82da-4cba" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19bc-9875-2696-2abd" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
                       </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="22bb-196f-5724-890e" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </infoLink>
@@ -6822,6 +6870,22 @@ Hero</characteristic>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7725-6e4e-0c86-bfdd" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19bc-9875-2696-2abd" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8838-9622-05d5-e92e" type="max"/>
@@ -6849,12 +6913,12 @@ Hero</characteristic>
               </rules>
               <infoLinks>
                 <infoLink id="4b7f-981b-c835-d632" name="Fly (Active)" hidden="false" targetId="bfd3-a313-811b-9744" type="rule"/>
-                <infoLink id="5179-a6c1-7c6c-b34d" name="Hatred (Active)" hidden="true" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                <infoLink id="5179-a6c1-7c6c-b34d" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
-                    <modifier type="set" field="hidden" value="false">
+                    <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19bc-9875-2696-2abd" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -6942,21 +7006,53 @@ Hero</characteristic>
         <selectionEntry id="6349-e22f-4cd2-d147" name="Fell Warg" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19bc-9875-2696-2abd" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7725-6e4e-0c86-bfdd" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19bc-9875-2696-2abd" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <infoGroups>
             <infoGroup id="651d-a012-77d0-2fcf" name="Special Rules" hidden="false">
               <infoLinks>
                 <infoLink id="dbc7-9072-c0fb-1368" name="Fell Sight (Passive)" hidden="false" targetId="edf7-86c5-28cd-59d1" type="rule"/>
-                <infoLink id="68ab-6034-7916-11cd" name="Hatred (Active)" hidden="true" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                <infoLink id="68ab-6034-7916-11cd" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19bc-9875-2696-2abd" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -7013,9 +7109,36 @@ Hero</characteristic>
         <selectionEntry id="dcb1-0e5a-83f5-239d" name="Giant Spider" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19bc-9875-2696-2abd" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7725-6e4e-0c86-bfdd" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19bc-9875-2696-2abd" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <infoGroups>
@@ -7024,12 +7147,17 @@ Hero</characteristic>
                 <infoLink id="1ce7-bebf-c957-87b9" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
                 <infoLink id="9a0f-9942-bc5d-6be5" name="Swift Movement (Active)" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
                 <infoLink id="fc5e-9b86-f42d-bf93" name="Poisoned Weapon (Active)" hidden="false" targetId="8715-7351-2e0f-c3db" type="rule"/>
-                <infoLink id="fcb6-187d-b71e-d53c" name="Hatred (Active)" hidden="true" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                <infoLink id="fcb6-187d-b71e-d53c" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19bc-9875-2696-2abd" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -7059,9 +7187,36 @@ Hero</characteristic>
         <selectionEntry id="4f3d-f46f-aa08-4e9d" name="Mirkwood Spider" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19bc-9875-2696-2abd" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7725-6e4e-0c86-bfdd" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19bc-9875-2696-2abd" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <infoGroups>
@@ -7071,12 +7226,17 @@ Hero</characteristic>
                 <infoLink id="ca6c-731c-1041-01dc" name="Swift Movement (Active)" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
                 <infoLink id="da7a-6939-56ab-cea8" name="Spider Webs (Active)" hidden="false" targetId="c0ca-87f4-fe1f-a142" type="rule"/>
                 <infoLink id="5fcb-55b6-9f92-cc16" name="Poisoned Weapon (Active)" hidden="false" targetId="8715-7351-2e0f-c3db" type="rule"/>
-                <infoLink id="5d26-f674-bdc3-bbbf" name="Hatred (Active)" hidden="true" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                <infoLink id="5d26-f674-bdc3-bbbf" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19bc-9875-2696-2abd" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
