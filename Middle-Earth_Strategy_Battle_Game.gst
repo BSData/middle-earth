@@ -4370,7 +4370,7 @@ Additionally, Khamûl may expend a single point of Will at the start of the Figh
             <infoLink id="bc38-f727-974e-4dec" name="Black Dart" hidden="false" targetId="d19b-0bae-4617-6d13" type="profile">
               <modifiers>
                 <modifier type="set" field="0920-e245-e3c2-d982" value="5+"/>
-                <modifier type="set" field="1ac9-444c-5045-e1c0" value="6&quot;"/>
+                <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
               </modifiers>
             </infoLink>
           </infoLinks>
