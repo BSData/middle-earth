@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f00c-c553-1359-0463" name="The Easterlings" revision="15" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f00c-c553-1359-0463" name="The Easterlings" revision="16" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="108" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f00c-c553-pubN65743" name="Armies of Lord of the Rings"/>
   </publications>
@@ -494,7 +494,7 @@ Hero</characteristic>
                   <profiles>
                     <profile id="41b8-40e7-b48d-83c7" name="Royal Palanquin" publicationId="e676-73de-7cfd-1298" page="73" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
                       <characteristics>
-                        <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">8&quot;</characteristic>
+                        <characteristic name="Movement" typeId="b547-99cc-2ac6-2a69">6&quot;</characteristic>
                         <characteristic name="Fight" typeId="7b7e-d26d-b685-545a">4/4+</characteristic>
                         <characteristic name="Strength" typeId="241d-1a6f-8463-5f1c">3</characteristic>
                         <characteristic name="Defense" typeId="d64a-e776-38fd-3019">6</characteristic>
@@ -566,8 +566,18 @@ The Royal Palanquin, and any model riding it, cannot be affected by the Hurl or 
                           </entryLinks>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <costs>
+                        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="b94e-820e-6670-e392" name="Helm of the Dragon Emperor" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -584,6 +594,11 @@ The Royal Palanquin, and any model riding it, cannot be affected by the Hurl or 
                   <infoLinks>
                     <infoLink id="f3ec-53aa-54b7-44c4" name="Resistant to Magic (Passive)" hidden="false" targetId="ff02-18ce-6c60-799b" type="rule"/>
                   </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="2122-6112-55b5-a2f0" name="The Emperor&apos;s Glaive" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -601,6 +616,11 @@ The Royal Palanquin, and any model riding it, cannot be affected by the Hurl or 
                     <infoLink id="fd50-ba4a-fc9c-aa30" name="Feint (Special Strike)" hidden="false" targetId="fdb4-351f-226e-5d8d" type="rule"/>
                     <infoLink id="bb1c-7397-f8c2-a5b2" name="Elven-made" hidden="false" targetId="590e-3a27-7c54-f521" type="rule"/>
                   </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -906,26 +926,34 @@ Hero</characteristic>
                       </conditionGroups>
                     </modifier>
                     <modifier type="set" field="a0e1-d7a9-598e-1545" value="4">
-                      <conditions>
-                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72d5-d42b-668e-cc1c" type="equalTo"/>
-                      </conditions>
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
                             <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e96-1b20-7047-5654" type="equalTo"/>
                           </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72d5-d42b-668e-cc1c" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
                     </modifier>
                     <modifier type="set" field="7b7e-d26d-b685-545a" value="4/4+">
-                      <conditions>
-                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72d5-d42b-668e-cc1c" type="equalTo"/>
-                      </conditions>
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
                             <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e96-1b20-7047-5654" type="equalTo"/>
                           </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72d5-d42b-668e-cc1c" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
                     </modifier>
@@ -1197,26 +1225,34 @@ Hero</characteristic>
             <profile id="30bc-e52e-d3a7-8818" name="Easterling Kataphrakts" publicationId="f00c-c553-pubN65743" page="185" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <modifiers>
                 <modifier type="set" field="7b7e-d26d-b685-545a" value="4/4+">
-                  <conditions>
-                    <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d87d-21c8-bdd3-2f70" type="equalTo"/>
-                  </conditions>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
                         <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43cb-7df5-d1bd-5020" type="equalTo"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d87d-21c8-bdd3-2f70" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
                 <modifier type="set" field="a0e1-d7a9-598e-1545" value="4">
-                  <conditions>
-                    <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d87d-21c8-bdd3-2f70" type="equalTo"/>
-                  </conditions>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
                         <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43cb-7df5-d1bd-5020" type="equalTo"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d87d-21c8-bdd3-2f70" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
