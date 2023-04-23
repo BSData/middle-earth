@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f00c-c553-1359-0463" name="The Easterlings" revision="16" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="108" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f00c-c553-1359-0463" name="The Easterlings" revision="17" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="109" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f00c-c553-pubN65743" name="Armies of Lord of the Rings"/>
   </publications>
@@ -54,6 +54,26 @@
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling</characteristic>
                 <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Easterling Infantry Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2754-a1db-b791-f299" name="Easterling War Priest" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value=" with Armoured Horse">
+                  <conditions>
+                    <condition field="selections" scope="27e6-3e6d-52a2-8195" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb59-3a9f-f03b-22cc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="27e6-3e6d-52a2-8195" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Easterling War Priest</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Easterling War Priest</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -157,6 +177,65 @@
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">March</characteristic>
                 <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Easterling Infantry Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="27c3-8a6d-f1e6-d8cb" name="Easterling Captain" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="30ec-46f5-beaf-86bc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b39d-71fe-2727-de41" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value=" with ">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="b39d-71fe-2727-de41" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2da1-405a-0ec1-7533" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="b39d-71fe-2727-de41" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1666-dae2-2f1e-f382" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="b39d-71fe-2727-de41" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a64a-f024-2234-2295" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Bow, ">
+                      <conditions>
+                        <condition field="selections" scope="b39d-71fe-2727-de41" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="aee9-0be1-fd8c-7e73" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Armoured Horse and Sword, ">
+                      <conditions>
+                        <condition field="selections" scope="b39d-71fe-2727-de41" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a64a-f024-2234-2295" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Shield, ">
+                      <conditions>
+                        <condition field="selections" scope="b39d-71fe-2727-de41" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b8-81bd-1cd6-8b3e" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Easterling Captain</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Easterling Captain</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -273,6 +352,26 @@
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Minor Hero</characteristic>
               </characteristics>
             </profile>
+            <profile id="1ccf-0307-1d9f-dc8c" name="Easterling Dragon Knight" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value=" with Armoured Horse">
+                  <conditions>
+                    <condition field="selections" scope="1a8b-7909-bb73-5496" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb59-3a9f-f03b-22cc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="5863-7475-f7ca-a3d6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1a8b-7909-bb73-5496" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Easterling Dragon Knight</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Easterling Dragon Knight</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <infoGroups>
             <infoGroup id="e138-0859-dcd5-1eb5" name="Special Rules" hidden="false">
@@ -359,6 +458,26 @@
                 <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike Challenge</characteristic>
                 <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Man Easterling Infantry Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7e3c-42e3-e98a-5877" name="Amdûr, Lord of Blades" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value=" with Armoured Horse">
+                  <conditions>
+                    <condition field="selections" scope="de8f-6b0a-2b23-0f67" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb59-3a9f-f03b-22cc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="de8f-6b0a-2b23-0f67" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Amdûr, Lord of Blades</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Amdûr, Lord of Blades</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -468,6 +587,14 @@ Easterling
 Infantry
 Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Legend</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1fea-8e06-520e-8ef0" name="The Dragon Emperor of Rhûn" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">The Dragon Emperor of Rhûn</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">The Dragon Emperor of Rhûn</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">170</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -687,6 +814,14 @@ Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
               </characteristics>
             </profile>
+            <profile id="5d14-4bb8-756e-1e81" name="Brórgîr, the Conjurer" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Brórgîr, the Conjurer</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Brórgîr, the Conjurer</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">80</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <infoGroups>
             <infoGroup id="4c94-1364-12f5-8a21" name="Special Rules" hidden="false">
@@ -783,6 +918,14 @@ Easterling
 Infantry
 Hero</characteristic>
                 <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a314-e32c-9614-26c5" name="Rutabi, General of the Dragon Legion" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Rutabi, General of the Dragon Legion</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Rutabi, General of the Dragon Legion</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">110</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -969,6 +1112,230 @@ Hero</characteristic>
                 <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
                 <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">3</characteristic>
                 <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man Easterling Infantry Warrior</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="148c-f310-b68e-8f24" name=" " hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="increment" field="ffe1-176d-16ea-3ac6" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de05-b9d6-ab71-6e50" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value=" with">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9dc3-c770-0300-9c16" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17ad-a221-849f-d311" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b65c-575b-35f4-5cb8" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="16f3-8ba7-9bc8-dc8f" type="equalTo"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="5904-1d0f-5299-69b4" value="Black Dragon Warrior ">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72d5-d42b-668e-cc1c" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e96-1b20-7047-5654" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="5904-1d0f-5299-69b4" value="Black Dragon Warrior with ">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72d5-d42b-668e-cc1c" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2e96-1b20-7047-5654" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9dc3-c770-0300-9c16" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17ad-a221-849f-d311" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b65c-575b-35f4-5cb8" type="equalTo"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="or">
+                                          <conditions>
+                                            <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="16f3-8ba7-9bc8-dc8f" type="equalTo"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Khamûl The Easterling">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="942b-72b1-a876-a94b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Amdûr, Lord of Blades">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9a73-615f-14f7-891b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling Captain">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30ec-46f5-beaf-86bc" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Rutabi, General of the Dragon Legion">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fe6-8836-e68a-c779" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Brórgîr, the Conjurer">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2a57-a24c-9cab-be71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="The Dragon Emperor of Rhûn">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling Dragon Knight">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling War Priest">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5e0b-d11c-54f0-b10d" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Khamûl The Easterling">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="942b-72b1-a876-a94b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Amdûr, Lord of Blades">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9a73-615f-14f7-891b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling Captain">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30ec-46f5-beaf-86bc" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Rutabi, General of the Dragon Legion">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fe6-8836-e68a-c779" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Brórgîr, the Conjurer">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2a57-a24c-9cab-be71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="The Dragon Emperor of Rhûn">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling Dragon Knight">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling War Priest">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5e0b-d11c-54f0-b10d" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Bow, ">
+                      <conditions>
+                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17ad-a221-849f-d311" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Shield, ">
+                      <conditions>
+                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="16f3-8ba7-9bc8-dc8f" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Banner, ">
+                      <conditions>
+                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9dc3-c770-0300-9c16" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Pike, ">
+                      <conditions>
+                        <condition field="selections" scope="3102-b910-af49-4da1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b65c-575b-35f4-5cb8" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Easterling Warrior</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1220,7 +1587,7 @@ Hero</characteristic>
             <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="06eb-7d58-dc41-8ee3" name="Easterling Kataphrakts" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="06eb-7d58-dc41-8ee3" name="Easterling Kataphrakt" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="30bc-e52e-d3a7-8818" name="Easterling Kataphrakts" publicationId="f00c-c553-pubN65743" page="185" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <modifiers>
@@ -1278,6 +1645,192 @@ Hero</characteristic>
                 <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">1</characteristic>
                 <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">3</characteristic>
                 <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Man Easterling Infantry Warrior</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e5f5-e697-4869-0c53" name=" " hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="increment" field="ffe1-176d-16ea-3ac6" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="43b0-b8da-2dd5-a218" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value=" with">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="af4f-a842-292c-2129" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="56e5-9ce3-109b-6aef" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="5904-1d0f-5299-69b4" value="Black Dragon Kataphrakt ">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d87d-21c8-bdd3-2f70" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="43cb-7df5-d1bd-5020" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="5904-1d0f-5299-69b4" value="Black Dragon Kataphrakt with ">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d87d-21c8-bdd3-2f70" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="43cb-7df5-d1bd-5020" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="af4f-a842-292c-2129" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="56e5-9ce3-109b-6aef" type="equalTo"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Khamûl The Easterling">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="942b-72b1-a876-a94b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Amdûr, Lord of Blades">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9a73-615f-14f7-891b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling Captain">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30ec-46f5-beaf-86bc" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Rutabi, General of the Dragon Legion">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fe6-8836-e68a-c779" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Brórgîr, the Conjurer">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2a57-a24c-9cab-be71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="The Dragon Emperor of Rhûn">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling Dragon Knight">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling War Priest">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5e0b-d11c-54f0-b10d" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Khamûl The Easterling">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="942b-72b1-a876-a94b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Amdûr, Lord of Blades">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9a73-615f-14f7-891b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling Captain">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30ec-46f5-beaf-86bc" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Rutabi, General of the Dragon Legion">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fe6-8836-e68a-c779" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Brórgîr, the Conjurer">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2a57-a24c-9cab-be71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="The Dragon Emperor of Rhûn">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling Dragon Knight">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling War Priest">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5e0b-d11c-54f0-b10d" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="War Drum (Easterling)">
+                      <conditions>
+                        <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="56e5-9ce3-109b-6aef" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Banner, ">
+                      <conditions>
+                        <condition field="selections" scope="06eb-7d58-dc41-8ee3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="af4f-a842-292c-2129" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Easterling Kataphrakt</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1507,6 +2060,116 @@ Infantry
 Warrior</characteristic>
               </characteristics>
             </profile>
+            <profile id="c42a-31f5-0b0d-d974" name=" " hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="increment" field="ffe1-176d-16ea-3ac6" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="0455-2706-1c6e-b792" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5d15-1371-7f3d-9620" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="0455-2706-1c6e-b792" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Khamûl The Easterling">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="942b-72b1-a876-a94b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Amdûr, Lord of Blades">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9a73-615f-14f7-891b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling Captain">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30ec-46f5-beaf-86bc" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Rutabi, General of the Dragon Legion">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fe6-8836-e68a-c779" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Brórgîr, the Conjurer">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2a57-a24c-9cab-be71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="The Dragon Emperor of Rhûn">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling Dragon Knight">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling War Priest">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5e0b-d11c-54f0-b10d" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Khamûl The Easterling">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="942b-72b1-a876-a94b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Amdûr, Lord of Blades">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9a73-615f-14f7-891b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling Captain">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30ec-46f5-beaf-86bc" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Rutabi, General of the Dragon Legion">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fe6-8836-e68a-c779" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Brórgîr, the Conjurer">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2a57-a24c-9cab-be71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="The Dragon Emperor of Rhûn">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling Dragon Knight">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling War Priest">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5e0b-d11c-54f0-b10d" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Dragon Cult Acolyte</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <infoGroups>
             <infoGroup id="70b5-a5ac-6f1f-c0c2" name="Special Rules" hidden="false">
@@ -1574,6 +2237,13 @@ Warrior</characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="99ae-4ebc-cb4c-e3a3" name="Rhûnish War Drake" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="dfbc-1b77-5b70-7375" name="Rhûnish War Drake" publicationId="e676-73de-7cfd-1298" page="74" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1587,6 +2257,116 @@ Warrior</characteristic>
                 <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">Drake
 Infantry
 Warrior</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5926-05b2-8077-ad01" name=" " hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="increment" field="ffe1-176d-16ea-3ac6" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="99ae-4ebc-cb4c-e3a3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="363b-014c-b515-66a0" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="99ae-4ebc-cb4c-e3a3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Khamûl The Easterling">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="942b-72b1-a876-a94b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Amdûr, Lord of Blades">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9a73-615f-14f7-891b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling Captain">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30ec-46f5-beaf-86bc" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Rutabi, General of the Dragon Legion">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fe6-8836-e68a-c779" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Brórgîr, the Conjurer">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2a57-a24c-9cab-be71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="The Dragon Emperor of Rhûn">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling Dragon Knight">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Easterling War Priest">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5e0b-d11c-54f0-b10d" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Khamûl The Easterling">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="942b-72b1-a876-a94b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Amdûr, Lord of Blades">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9a73-615f-14f7-891b" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling Captain">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30ec-46f5-beaf-86bc" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Rutabi, General of the Dragon Legion">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fe6-8836-e68a-c779" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Brórgîr, the Conjurer">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2a57-a24c-9cab-be71" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="The Dragon Emperor of Rhûn">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc57-5dc7-fb98-406c" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling Dragon Knight">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5863-7475-f7ca-a3d6" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Easterling War Priest">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5e0b-d11c-54f0-b10d" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Rhûnish War Drake</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
               </characteristics>
             </profile>
           </profiles>

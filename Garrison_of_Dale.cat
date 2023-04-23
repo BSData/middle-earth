@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6886-6975-8cf9-4930" name="Garrison of Dale" revision="11" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="105" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6886-6975-8cf9-4930" name="Garrison of Dale" revision="13" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="109" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6886-6975-pubN65626" name="Armies of the Hobbit"/>
   </publications>
@@ -143,7 +143,7 @@
               </modifiers>
               <characteristics>
                 <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Captain of Dale </characteristic>
-                <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
                 <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Captain of Dale </characteristic>
                 <characteristic name="Points" typeId="4fda-4487-840f-7db0">50</characteristic>
               </characteristics>
@@ -221,14 +221,27 @@
           </conditions>
         </modifier>
         <modifier type="set" field="c766-7e52-2e89-f96a" value="1.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="66b3-e99a-fc4c-50c8" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="c766-7e52-2e89-f96a" value="1.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b55-f747-d2e2-87f9" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2b55-f747-d2e2-87f9" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="66b3-e99a-fc4c-50c8" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -255,15 +268,28 @@
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="300d-fe46-23d2-a8f3" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3236-e4bc-2705-d081" type="equalTo"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="be5e-1ea8-23c3-20b4" value="1.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="77df-773e-0e86-2983" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="77df-773e-0e86-2983" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9527-cbe4-fb8c-881d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="66b3-e99a-fc4c-50c8" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -385,7 +411,7 @@ Hero</characteristic>
                     <profile id="10e5-109c-8e23-15b5" name="Siege Veteran" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
                       <characteristics>
                         <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Siege Veteran</characteristic>
-                        <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                        <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
                         <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Siege Veteran</characteristic>
                         <characteristic name="Points" typeId="4fda-4487-840f-7db0"/>
                       </characteristics>
@@ -453,7 +479,7 @@ Hero</characteristic>
                     <profile id="979d-8802-3c31-1ad9" name="Engineer Captain" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
                       <characteristics>
                         <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Engineer Captain</characteristic>
-                        <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+                        <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
                         <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Engineer Captain</characteristic>
                         <characteristic name="Points" typeId="4fda-4487-840f-7db0"/>
                       </characteristics>
@@ -707,7 +733,7 @@ Hero</characteristic>
               </modifierGroups>
               <characteristics>
                 <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
-                <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
                 <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Warriors of Dale</characteristic>
                 <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
               </characteristics>
@@ -962,7 +988,7 @@ Warrior</characteristic>
               </modifierGroups>
               <characteristics>
                 <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
-                <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
                 <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Knights of Dale</characteristic>
                 <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
               </characteristics>
@@ -1076,7 +1102,7 @@ Warrior</characteristic>
               </modifiers>
               <characteristics>
                 <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Windlance</characteristic>
-                <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
                 <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Dale Crew</characteristic>
                 <characteristic name="Points" typeId="4fda-4487-840f-7db0"/>
               </characteristics>
