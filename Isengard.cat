@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a5a6-9c3a-4e49-e794" name="Isengard" revision="31" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a5a6-9c3a-4e49-e794" name="Isengard" revision="32" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="109" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a5a6-9c3a-pubN65614" name="Armies of Lord of the Rings"/>
   </publications>
@@ -1580,6 +1580,32 @@
                   </profiles>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="19d5-a1bc-a5dc-c74c" name="Wargear" hidden="false" collective="false" import="true">
+                      <selectionEntries>
+                        <selectionEntry id="4698-25a0-b7c3-f4d6" name="Arm with Pike" hidden="false" collective="false" import="true" type="upgrade">
+                          <modifiers>
+                            <modifier type="set" field="c316-d035-bbda-ae7a" value="1.0">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="808c-fd78-b32a-05ba" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4201-72c8-9813-324b" type="equalTo"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                          </modifiers>
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ddc-1ae3-0548-673f" type="max"/>
+                            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c316-d035-bbda-ae7a" type="min"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
                       <entryLinks>
                         <entryLink id="3013-5ad4-a46e-8dad" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
                         <entryLink id="6235-656f-8b59-7f4d" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
@@ -1617,6 +1643,32 @@
                   </profiles>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="7a08-bbe1-8f3f-d482" name="Wargear" hidden="false" collective="false" import="true">
+                      <selectionEntries>
+                        <selectionEntry id="808c-fd78-b32a-05ba" name="Arm with Pike" hidden="false" collective="false" import="true" type="upgrade">
+                          <modifiers>
+                            <modifier type="set" field="153e-4685-e196-ba50" value="1.0">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4698-25a0-b7c3-f4d6" type="equalTo"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditions>
+                                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4201-72c8-9813-324b" type="equalTo"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                          </modifiers>
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="01cd-5f00-633a-cee8" type="max"/>
+                            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="153e-4685-e196-ba50" type="min"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
                       <entryLinks>
                         <entryLink id="9a2f-d5c7-1bbd-06c9" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>
                         <entryLink id="95e2-2ae0-d4d8-36d3" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
@@ -5177,6 +5229,32 @@ Warrior</characteristic>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="62a7-2b9b-33c6-9dfa" name="Wargear" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="4201-72c8-9813-324b" name="Arm 1 Crew with Pike" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="585c-e13e-cd5d-766f" value="1.0">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4698-25a0-b7c3-f4d6" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="808c-fd78-b32a-05ba" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b32-0b8f-72dd-9490" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="585c-e13e-cd5d-766f" type="min"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
               <entryLinks>
                 <entryLink id="c296-3bac-0ec3-83cc" name="Dagger" hidden="false" collective="false" import="true" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
                 <entryLink id="797f-127e-ee02-3084" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="0439-1154-4306-11d8" type="selectionEntry"/>

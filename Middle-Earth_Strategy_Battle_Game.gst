@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="108" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="110" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="3e16-9abf-pubN102460" name="Middle-Earth Strategy Battle Game Rules Manual"/>
     <publication id="3e16-9abf-pubN103678" name="Armies of Lord of the Rings"/>
@@ -90,7 +90,7 @@
     <profileType id="06b9-b809-8c15-7fc0" name="Warbands">
       <characteristicTypes>
         <characteristicType id="44a9-cd2e-6339-7a29" name="Warband Leader"/>
-        <characteristicType id="ffe1-176d-16ea-3ac6" name="# of Models"/>
+        <characteristicType id="ffe1-176d-16ea-3ac6" name="#"/>
         <characteristicType id="5904-1d0f-5299-69b4" name="Type"/>
         <characteristicType id="4fda-4487-840f-7db0" name="Points"/>
       </characteristicTypes>
@@ -1110,7 +1110,7 @@
       <profiles>
         <profile id="5a58-f9c4-ffdb-e12d" name="Horn of Gondor (Active)" publicationId="3e16-9abf-pubN103678" page="12" hidden="false" typeId="c6d6-90e7-ef64-8355" typeName="Wargear">
           <characteristics>
-            <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">Boromir can blow the horn at the start of a Fight if he is outnumbered by two-to-one or more. The enemy must take a Courage test. If the test is passed, the combat is fought as normal. If the test is failed, Boromir automatically wins the fight and can strike blows against his enemies.</characteristic>
+            <characteristic name="Rules" typeId="327f-0755-cd3a-d1a0">Boromir can blow the horn at the start of a Fight if he is outnumbered by two-to-one or more. The enemy combatant in the Fight with the 	highest Courage value must take a Courage test. If the test is passed, the combat is fought as normal. If the test is failed, Boromir automatically wins the fight and can strike blows against his enemies.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6332,9 +6332,20 @@ Hero</characteristic>
             <entryLink id="ad59-1c87-332b-398b" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c98-43f7-7ad1-b2a5" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c98-43f7-7ad1-b2a5" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
             </entryLink>
@@ -6346,9 +6357,20 @@ Hero</characteristic>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -6368,6 +6390,13 @@ Hero</characteristic>
                           <conditions>
                             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c98-43f7-7ad1-b2a5" type="equalTo"/>
                           </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
                     </conditionGroup>
@@ -6413,9 +6442,20 @@ Hero</characteristic>
                   </conditionGroups>
                 </modifier>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c98-43f7-7ad1-b2a5" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c98-43f7-7ad1-b2a5" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="set" field="a772-aa65-e2df-b60f" value="1.0">
                   <conditionGroups>
@@ -7740,7 +7780,19 @@ Hero</characteristic>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="1cee-e24e-5f36-9d48" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry"/>
+            <entryLink id="1cee-e24e-5f36-9d48" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="70e2-53d0-4a1e-1f07" name="Shield" hidden="false" collective="false" import="true" targetId="c9b8-81bd-1cd6-8b3e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -7756,7 +7808,19 @@ Hero</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3a0e-e6e2-d2f0-304a" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+        <entryLink id="3a0e-e6e2-d2f0-304a" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="95.0"/>
@@ -8073,6 +8137,15 @@ Hero</characteristic>
                 <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
         </entryLink>
       </entryLinks>
@@ -8159,13 +8232,36 @@ Hero</characteristic>
             <entryLink id="2645-6975-3a56-0c64" name="Horse" hidden="false" collective="false" import="true" targetId="18cb-fd03-3380-5f4e" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2341-8c79-03b2-3014" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2341-8c79-03b2-3014" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="fa80-217e-6127-57c1" name="Armour" hidden="false" collective="false" import="true" targetId="37fc-f943-01eb-2efd" type="selectionEntry"/>
+            <entryLink id="fa80-217e-6127-57c1" name="Armour" hidden="false" collective="false" import="true" targetId="37fc-f943-01eb-2efd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="e507-465d-8128-81d4" name="Elven Cloak" hidden="false" collective="false" import="true" targetId="6af7-15a9-a26b-e9e3" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="858f-a3b2-4899-aae7" value="1.0">
@@ -8196,9 +8292,20 @@ Hero</characteristic>
         <entryLink id="fc9f-925b-b08b-da0e" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f84c-7ac5-39e6-42c3" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f6e1-0c75-16e4-e2b7" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
@@ -15240,6 +15347,14 @@ Hero</characteristic>
             <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
           </characteristics>
         </profile>
+        <profile id="bea2-96c8-d5f8-b751" name="Goblin Mercenary Captain" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+          <characteristics>
+            <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Goblin Mercenary Captain</characteristic>
+            <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+            <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Goblin Mercenary Captain</characteristic>
+            <characteristic name="Points" typeId="4fda-4487-840f-7db0">50</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="c349-43ba-77df-ae60" name="Special Rules" hidden="false">
@@ -16147,6 +16262,11 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                     <modifier type="set" field="7d79-496f-5c13-35c4" value="3"/>
                   </modifiers>
                 </infoLink>
+                <infoLink id="3bc6-4c55-ffa9-2f22" name="The Nazgûl of Dol Guldur" hidden="false" targetId="1df1-9348-1318-4cd4" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value=" (Khamûl the Easterling)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="cedd-3a26-74cc-b3f9" name="Wargear" hidden="false" collective="false" import="true">
@@ -16180,6 +16300,11 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                 <infoLink id="2e5e-df66-5c19-ced6" name="The Nazgûl of Dol Guldur" hidden="false" targetId="3b89-c82a-9fd8-252e" type="profile">
                   <modifiers>
                     <modifier type="set" field="name" value="The Abyssal Knight"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="cad6-cbdf-c68c-741b" name="The Nazgûl of Dol Guldur" hidden="false" targetId="1df1-9348-1318-4cd4" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value=" (The Abyssal Knight)"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -16217,6 +16342,11 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                     <modifier type="set" field="name" value="The Lingering Shadow"/>
                   </modifiers>
                 </infoLink>
+                <infoLink id="5303-bd73-f75c-beae" name="The Nazgûl of Dol Guldur" hidden="false" targetId="1df1-9348-1318-4cd4" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value=" (The Lingering Shadow)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="484f-47b2-333b-61a3" name="Wargear" hidden="false" collective="false" import="true">
@@ -16252,6 +16382,11 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                     <modifier type="set" field="name" value="The Dark Headsman"/>
                   </modifiers>
                 </infoLink>
+                <infoLink id="6b47-0339-f069-6175" name="The Nazgûl of Dol Guldur" hidden="false" targetId="1df1-9348-1318-4cd4" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value=" (The Dark Headsman)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="5f1c-61c3-78ab-544a" name="Wargear" hidden="false" collective="false" import="true">
@@ -16276,6 +16411,11 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                 <infoLink id="3f20-8aee-4deb-0724" name="The Nazgûl of Dol Guldur" hidden="false" targetId="3b89-c82a-9fd8-252e" type="profile">
                   <modifiers>
                     <modifier type="set" field="name" value="The Forsaken"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="2554-af42-eb47-0303" name="The Nazgûl of Dol Guldur" hidden="false" targetId="1df1-9348-1318-4cd4" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value=" (The Forsaken)"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -16332,6 +16472,11 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                     <modifier type="set" field="name" value="The Slayer of Men"/>
                   </modifiers>
                 </infoLink>
+                <infoLink id="3d25-2244-eeb5-e6db" name="The Nazgûl of Dol Guldur" hidden="false" targetId="1df1-9348-1318-4cd4" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value=" (The Slayer of Men)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="758e-1e1c-1957-7960" name="Wargear" hidden="false" collective="false" import="true">
@@ -16373,6 +16518,11 @@ Additionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Batt
                   <modifiers>
                     <modifier type="set" field="name" value="The Witch-king of Angmar"/>
                     <modifier type="set" field="db92-6a08-e1ce-a77d" value="3"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="cdb1-0d21-e217-7504" name="The Nazgûl of Dol Guldur" hidden="false" targetId="1df1-9348-1318-4cd4" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value=" (The Witch-king of Angmar)"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -24637,7 +24787,7 @@ Hero</characteristic>
           </modifiers>
           <characteristics>
             <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
-            <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+            <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
             <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Aldor, Rohan Archer</characteristic>
             <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
           </characteristics>
@@ -40010,7 +40160,7 @@ Hero</characteristic>
         <profile id="c9ce-5dee-63ed-5d17" name="Beorn" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
           <characteristics>
             <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Beorn</characteristic>
-            <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+            <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
             <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Beorn</characteristic>
             <characteristic name="Points" typeId="4fda-4487-840f-7db0">200</characteristic>
           </characteristics>
@@ -40149,7 +40299,7 @@ Hero</characteristic>
         <profile id="533c-aec1-c049-678f" name="Grimbeorn" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
           <characteristics>
             <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">Grimbeorn</characteristic>
-            <characteristic name="# of Models" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+            <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
             <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Grimbeorn</characteristic>
             <characteristic name="Points" typeId="4fda-4487-840f-7db0">200</characteristic>
           </characteristics>
@@ -44033,6 +44183,14 @@ Warrior</characteristic>
         <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Strike</characteristic>
         <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Spirit Ringwraith Dol Guldur Infantry Hero</characteristic>
         <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Valour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1df1-9348-1318-4cd4" name="The Nazgûl of Dol Guldur" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+      <characteristics>
+        <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29">The Nazgûl of Dol Guldur</characteristic>
+        <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">1</characteristic>
+        <characteristic name="Type" typeId="5904-1d0f-5299-69b4">The Nazgûl of Dol Guldur</characteristic>
+        <characteristic name="Points" typeId="4fda-4487-840f-7db0">75</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

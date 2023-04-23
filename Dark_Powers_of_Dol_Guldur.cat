@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9382-8525-dd7b-a301" name="Dark Powers of Dol Guldur" revision="7" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="99" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9382-8525-dd7b-a301" name="Dark Powers of Dol Guldur" revision="8" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="109" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="9382-8525-pubN65773" name="Armies of the Hobbit"/>
   </publications>
@@ -245,9 +245,6 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="159b-8016-fe24-b49c" name="Thráin the Broken" hidden="false" collective="false" import="true" targetId="45a4-72ae-b391-f631" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="b5be-7ef5-0839-fe49" value="1.0"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d65f-996d-5933-51a9" type="min"/>
           </constraints>
@@ -406,6 +403,39 @@
               </conditionGroups>
             </modifier>
           </modifiers>
+          <profiles>
+            <profile id="83f3-09f5-0337-24a5" name="Mirkwood Spider" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="increment" field="ffe1-176d-16ea-3ac6" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="352d-4806-b70a-b69c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="352d-4806-b70a-b69c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Nazgûl of Dol Guldur">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2799-f17d-cd3f-5a1e" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Mirkwood Spider</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <infoGroups>
             <infoGroup id="6549-339f-c36e-6fe6" name="Special Rules" hidden="false">
               <infoLinks>
@@ -416,6 +446,9 @@
               </infoLinks>
             </infoGroup>
           </infoGroups>
+          <infoLinks>
+            <infoLink id="2c20-5df8-047d-0fd7" name="Mirkwood Spider" hidden="false" targetId="85ad-aaea-be06-cdb9" type="profile"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="fd54-8a56-b81b-9506" name="Spider" hidden="false" collective="false" import="true" type="model">
               <modifiers>
@@ -467,6 +500,73 @@
               </conditions>
             </modifier>
           </modifiers>
+          <profiles>
+            <profile id="02d5-ced5-3561-592c" name="Hunter Orc" hidden="false" typeId="06b9-b809-8c15-7fc0" typeName="Warbands">
+              <modifiers>
+                <modifier type="append" field="5904-1d0f-5299-69b4" value=" with ">
+                  <conditions>
+                    <condition field="selections" scope="75df-d44a-9c2d-7420" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5a6b-facc-24f0-f186" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ffe1-176d-16ea-3ac6" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="75df-d44a-9c2d-7420" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="4fda-4487-840f-7db0" value="1">
+                  <repeats>
+                    <repeat field="8bde-d63c-7caa-c15d" scope="75df-d44a-9c2d-7420" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="War Horn">
+                      <conditions>
+                        <condition field="selections" scope="75df-d44a-9c2d-7420" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6263-3dcc-d4e6-8821" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Two-Handed Pick, ">
+                      <conditions>
+                        <condition field="selections" scope="75df-d44a-9c2d-7420" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="198f-5e29-b0a8-d516" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Fell Warg, ">
+                      <conditions>
+                        <condition field="selections" scope="75df-d44a-9c2d-7420" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3812-778c-1d71-1bb2" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Banner, ">
+                      <conditions>
+                        <condition field="selections" scope="75df-d44a-9c2d-7420" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a21d-957a-a9c1-c7ee" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="5904-1d0f-5299-69b4" value="Orc Bow, ">
+                      <conditions>
+                        <condition field="selections" scope="75df-d44a-9c2d-7420" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8b43-693d-1187-9add" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="44a9-cd2e-6339-7a29" value="Nazgûl of Dol Guldur">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2799-f17d-cd3f-5a1e" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Warband Leader" typeId="44a9-cd2e-6339-7a29"/>
+                <characteristic name="#" typeId="ffe1-176d-16ea-3ac6">0</characteristic>
+                <characteristic name="Type" typeId="5904-1d0f-5299-69b4">Hunter Orc</characteristic>
+                <characteristic name="Points" typeId="4fda-4487-840f-7db0">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <infoGroups>
             <infoGroup id="9ace-ec82-cc48-fe73" name="Special Rules" hidden="false">
               <infoLinks>
@@ -805,7 +905,6 @@
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f563-c48f-4d22-7585" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="b5be-7ef5-0839-fe49" value="0.0"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="37c5-4b17-ead1-6266" type="min"/>
