@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ce3-5f6a-16d8-078e" name="Mordor" revision="28" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="110" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ce3-5f6a-16d8-078e" name="Mordor" revision="29" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="112" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8ce3-5f6a-pubN69610" name="Armies of Lord of the Rings"/>
     <publication id="8ce3-5f6a-pubN75660" name="Gondor at War"/>
@@ -4177,6 +4177,9 @@
                   <description>Each time Goroth suffers a Wound that would cause him to be slain after Fate points have been spent, he may roll a D6. On a 2+, Goroth may select a friendly Mordor Orc model within 1&quot; and thrust it into harm’s way instead of himself. The selected model will suffer the Wound instead of Goroth. Models that suffer a Wound in this way may not benefit from the Fury Magical Power but may use Fate points as normal.</description>
                 </rule>
               </rules>
+              <infoLinks>
+                <infoLink id="ffe9-0a9b-2d56-3a3d" name="Burly (Passive)" hidden="false" targetId="390c-dc0c-72ba-8d47" type="rule"/>
+              </infoLinks>
             </infoGroup>
           </infoGroups>
           <selectionEntryGroups>
@@ -4437,105 +4440,9 @@
       <categoryLinks>
         <categoryLink id="b692-a11b-38ab-567c" name="Hero of Fortitude" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2c02-cefc-e5b0-e1ba" name="Muzgúr, Orc Shaman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4746-3e8a-71d1-df62" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f066-27f1-c85c-ba75" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="a944-9d6a-2783-3198" name="Muzgúr, Orc Shaman" publicationId="e676-73de-7cfd-1298" hidden="false" typeId="80cb-17d0-8683-a212" typeName="Hero">
-              <characteristics>
-                <characteristic name="Movement" typeId="6d57-f596-e10e-6233">6&quot;</characteristic>
-                <characteristic name="Fight" typeId="5930-f060-2064-c9d5">4/4+</characteristic>
-                <characteristic name="Strength" typeId="fbbc-8f2f-c413-710a">4</characteristic>
-                <characteristic name="Defense" typeId="49e3-08b4-2b5f-a6dd">5</characteristic>
-                <characteristic name="Attack" typeId="7d79-496f-5c13-35c4">2</characteristic>
-                <characteristic name="Wounds" typeId="8bda-d8a5-a1e7-2146">2</characteristic>
-                <characteristic name="Courage" typeId="b88a-7dd4-569c-d0b1">4</characteristic>
-                <characteristic name="Might" typeId="db92-6a08-e1ce-a77d">2</characteristic>
-                <characteristic name="Will" typeId="b509-13ce-7d03-816e">4</characteristic>
-                <characteristic name="Fate" typeId="67f5-8c5e-868c-5bd5">1</characteristic>
-                <characteristic name="Heroic Actions" typeId="fc29-34ba-8883-0379">Channelling
-Defence</characteristic>
-                <characteristic name="Keywords" typeId="52a2-dbbe-8d97-a8a2">Orc
-Mordor
-Infantry
-Hero</characteristic>
-                <characteristic name="Heroic Tier" typeId="2b79-2cec-28e7-0b0d">Hero of Fortitude</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoGroups>
-            <infoGroup id="db0a-938f-04b2-d903" name="Magical Powers" hidden="false">
-              <infoLinks>
-                <infoLink id="2ad8-046c-a4cc-52a8" name="Drain Courage" hidden="false" targetId="b124-77ed-cf5e-73a4" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="0920-e245-e3c2-d982" value="2+"/>
-                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="e14e-b589-a9c0-447f" name="Wither" hidden="false" targetId="4539-ec97-1e5d-fc99" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="0920-e245-e3c2-d982" value="3+"/>
-                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="71d2-5e2d-b5f8-8aff" name="Immobilise/Transfix" hidden="false" targetId="ec7d-f78c-cc1f-5928" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Transfix"/>
-                    <modifier type="set" field="0920-e245-e3c2-d982" value="4+"/>
-                    <modifier type="set" field="1ac9-444c-5045-e1c0" value="12&quot;"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-            </infoGroup>
-            <infoGroup id="c1f7-1839-0780-0bdd" name="Special Rules" hidden="false">
-              <rules>
-                <rule id="dd46-5e6c-20a4-9d65" name="Power from Death (Active)" publicationId="e676-73de-7cfd-1298" hidden="false">
-                  <description>Whenever Muzgúr slays an enemy model in combat, he immediately regains a single point of Will spent earlier in the battle.</description>
-                </rule>
-              </rules>
-            </infoGroup>
-          </infoGroups>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="6a0f-1d2c-0ad0-de53" name="Wargear" hidden="false" collective="false" import="true">
-              <entryLinks>
-                <entryLink id="8b2c-a715-2d42-4646" name="Spear" hidden="false" collective="false" import="true" targetId="9cb9-9ebe-8ffa-86f3" type="selectionEntry"/>
-                <entryLink id="4198-4a34-fab9-f826" name="Dagger" hidden="false" collective="false" import="true" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
-                <entryLink id="646d-e055-c03d-5159" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="4fd2-fb32-e484-cbdf" name="Leader (Fortitude)" hidden="false" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="f208-e578-a588-f4d4" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="70.0"/>
-            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
-            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="1c12-8081-29d7-e24c" name="Warband" hidden="false" collective="false" import="true" targetId="a26c-044d-484f-b4f5" type="selectionEntry"/>
+        <entryLink id="d60f-879a-a4f8-b9b1" name="Muzgúr, Orc Shaman" hidden="false" collective="false" import="true" targetId="a7f2-d789-c669-2e39" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
