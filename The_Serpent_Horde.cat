@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9dfe-e2d1-e24a-2d6b" name="The Serpent Horde" revision="18" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9dfe-e2d1-e24a-2d6b" name="The Serpent Horde" revision="19" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="112" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="9dfe-e2d1-pubN65763" name="Armies of Lord of the Rings"/>
     <publication id="9dfe-e2d1-pubN68528" name="Gondor at War"/>
@@ -140,6 +140,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="be5a-ad34-f06e-36b0" name="The Golden King of Abrakhân" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6c9-d980-b730-892b" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="710f-eb28-020c-2acc" type="max"/>
       </constraints>
@@ -504,6 +511,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bdca-ca08-f34c-c8bd" name="The Betrayer" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6c9-d980-b730-892b" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2942-adfa-97c7-ae22" type="max"/>
       </constraints>
@@ -805,6 +819,31 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="2057-fd6b-bff8-6a72" name="Haradrim Warrior" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <infoLinks>
             <infoLink id="d134-3d72-b974-dd5a" name="Haradrim Warrior" hidden="false" targetId="6f41-205b-7540-9fed" type="profile"/>
           </infoLinks>
@@ -945,6 +984,38 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="dcd5-60e6-3921-f7bb" name="Haradrim Raider" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="7a84-95e6-896b-19f7" name="Haradrim Raider" publicationId="9dfe-e2d1-pubN65763" page="197" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1077,6 +1148,38 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="815f-2548-9437-cc5c" name="Serpent Rider" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="8010-5336-9417-eb49" name="Serpent Rider" publicationId="9dfe-e2d1-pubN65763" page="198" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1146,6 +1249,38 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="037b-d404-7a53-3fdf" name="Serpent Guard" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="7e71-f805-402c-01b5" name="Serpent Guard" publicationId="9dfe-e2d1-pubN65763" page="197" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1214,6 +1349,43 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="3076-ff5a-b07d-fdb3" name="Watcher of Kârna" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6c9-d980-b730-892b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="2bb9-b86f-79ed-6d2a" name="Watcher of Kârna" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1341,6 +1513,43 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="0111-1169-d7cc-a1e5" name="Abrakhân Merchant Guard" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6c9-d980-b730-892b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <profiles>
             <profile id="9efb-13b5-599e-d353" name="Abrakhân Merchant Guard" publicationId="9dfe-e2d1-pubN65763" page="199" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
               <characteristics>
@@ -1410,24 +1619,28 @@
         <selectionEntry id="ae84-49b4-ef75-ebc5" name="Half Troll" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
                           </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
                     </conditionGroup>
@@ -1524,24 +1737,28 @@
         <selectionEntry id="52e3-10b2-62a8-6914" name="Mahûd Raider" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
                           </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
                     </conditionGroup>
@@ -1603,7 +1820,7 @@
                   <infoGroups>
                     <infoGroup id="c251-459e-75cd-7739" name="Special Rules" hidden="false">
                       <infoLinks>
-                        <infoLink id="2173-a366-af7e-116b" name="Impaler (Active)" hidden="false" targetId="3c98-64ec-39fa-956b" type="rule"/>
+                        <infoLink id="2173-a366-af7e-116b" name="Impaler (Active)" hidden="false" targetId="838f-8d8c-bb5f-abff" type="rule"/>
                       </infoLinks>
                     </infoGroup>
                   </infoGroups>
@@ -1698,24 +1915,28 @@
         <selectionEntry id="c769-310e-1d98-1cc4" name="Mahûd Warrior" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61eb-96b6-de63-0f95" type="instanceOf"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9016-bc92-5dea-5401" type="instanceOf"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4855-23b7-1a0d-568b" type="instanceOf"/>
                           </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa7-852f-ad48-c44d" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
                     </conditionGroup>

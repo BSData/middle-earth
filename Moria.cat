@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="19" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="105" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="20" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="112" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="98fa-59f5-pubN65643" name="Armies of Lord of the Rings"/>
   </publications>
@@ -2375,6 +2375,79 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
         <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ffe7-acf1-0a09-84c1" name="Muzgúr, Orc Shaman" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="af82-be3d-2615-07b1" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="229b-8e0f-ed7b-a955" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="af82-be3d-2615-07b1" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a482-d546-3f52-bd5c" name="Hero of Valour" hidden="false" targetId="5daa-6832-f49b-2b35" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5eb1-beda-d24a-06d6" name="Muzgúr, Orc Shaman" hidden="false" collective="false" import="true" targetId="a7f2-d789-c669-2e39" type="selectionEntry"/>
+        <entryLink id="480c-72e5-515f-a1e7" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="368c-0f27-b81d-1115" name="Orc Captain" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15af-1a4d-1118-5761" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="94b6-b3cb-9b7a-0892" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2a1e-02bc-cdad-6707" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry"/>
+        <entryLink id="d8c9-a31a-a57b-f154" name="Orc Captain" hidden="false" collective="false" import="true" targetId="db5a-e4d1-3e5a-4fb5" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ffe-0e41-2683-7131" name="Orc Shaman" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4264-e48c-47d4-c993" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="209e-be10-86fd-1b63" name="New CategoryLink" hidden="false" targetId="0ce2-d79d-fb91-3fa2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1fb1-81f8-b972-a5bb" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry"/>
+        <entryLink id="4018-b21c-172f-d8b2" name="Orc Shaman" hidden="false" collective="false" import="true" targetId="3519-2ab9-5052-67da" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="38aa-b831-0825-ee5d" name="We cannot get out, they are coming" hidden="false" collective="false" import="true" targetId="c871-2297-3165-268d" type="selectionEntry">
@@ -2394,6 +2467,7 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
       </categoryLinks>
     </entryLink>
     <entryLink id="dc6f-40fd-4629-917f" name="Depths of Moria" hidden="false" collective="false" import="true" targetId="5136-5fc4-64b3-af2f" type="selectionEntry"/>
+    <entryLink id="eb9e-8912-fdc8-6612" name="Assault on Lothlórien" hidden="false" collective="false" import="true" targetId="8d80-5002-d96b-08a1" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="0234-96ca-4213-c04c" name="Warband" hidden="false" collective="false" import="true" type="upgrade">
@@ -2565,6 +2639,29 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
                   <conditions>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="abd5-637f-8001-be8e" type="instanceOf"/>
                   </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ffe7-acf1-0a09-84c1" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="368c-0f27-b81d-1115" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffe-0e41-2683-7131" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -3043,6 +3140,29 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ffe7-acf1-0a09-84c1" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="368c-0f27-b81d-1115" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffe-0e41-2683-7131" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <profiles>
             <profile id="8bef-294f-daff-0921" name="Moria Goblin Prowler" publicationId="98fa-59f5-pubN65643" page="163" hidden="false" typeId="41b1-0f32-a644-93b4" typeName="Warrior">
@@ -3229,6 +3349,29 @@ All friendly Moria Goblin models on the battlefield add a to their Courage value
                   <conditions>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5136-5fc4-64b3-af2f" type="equalTo"/>
                   </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ffe7-acf1-0a09-84c1" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="368c-0f27-b81d-1115" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffe-0e41-2683-7131" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -3734,6 +3877,587 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             <selectionEntryGroup id="b7a6-c8ef-d154-12e5" name="Wargear" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="be63-572c-6722-9966" name="Claws and Teeth" hidden="false" collective="false" import="true" targetId="fa8a-ebb1-1ab1-4826" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c78a-23cf-0c52-cc68" name="Orc Tracker" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ffe7-acf1-0a09-84c1" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="368c-0f27-b81d-1115" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffe-0e41-2683-7131" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoGroups>
+            <infoGroup id="0d96-2357-9325-168a" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="6027-f3aa-bddf-9ef4" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <infoLinks>
+            <infoLink id="2bb8-edcb-48f1-1a1c" name="Orc Tracker" hidden="false" targetId="21ed-7b1d-3e39-7144" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="31fe-e3e0-ad55-8709" name="Tracker" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="decrement" field="70f5-14c6-6518-a725" value="6.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="70f5-14c6-6518-a725" value="3.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fdb-97cc-2b53-3d24" type="min"/>
+                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70f5-14c6-6518-a725" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c0df-2102-3eae-4e36" name="Options" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="27be-41e4-bb72-d6e7" name="Warg" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="7">
+                      <repeats>
+                        <repeat field="selections" scope="c78a-23cf-0c52-cc68" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="31fe-e3e0-ad55-8709" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d129-fc39-0219-66db" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="9af4-4d54-dc42-fa00" name="Warg" hidden="false" targetId="e642-8a1b-d6b9-2d68" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="863d-6f89-cf81-e120" name="Wargear" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="8226-16e9-080a-a5d0" name="Orc Bow" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cd3-9839-8307-118a" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb7-26a3-545a-0b3a" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f6e1-3226-3b26-6014" name="Orc Bow" hidden="false" targetId="34ad-6d99-05d5-a099" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="b3ab-446c-7ed3-9657" name="Dagger" hidden="false" collective="false" import="true" targetId="8e38-dc5d-97e6-fb2e" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6873-b8b8-dc8f-5af0" name="Warg Rider" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ffe7-acf1-0a09-84c1" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="368c-0f27-b81d-1115" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffe-0e41-2683-7131" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoGroups>
+            <infoGroup id="60e4-b131-1138-79f7" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="e74e-7595-c5bf-2637" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <infoLinks>
+            <infoLink id="5f67-57b6-aa4d-6929" name="Warg Rider" hidden="false" targetId="ee66-f9e3-20e8-fbc7" type="profile">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="d64a-e776-38fd-3019" value="1">
+                      <conditions>
+                        <condition field="selections" scope="6873-b8b8-dc8f-5af0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c86d-ac1c-5531-eaf0" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="d64a-e776-38fd-3019" value="1">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="6873-b8b8-dc8f-5af0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0497-e83f-5d4c-bc3d" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="6873-b8b8-dc8f-5af0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c86d-ac1c-5531-eaf0" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </infoLink>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="58b3-97a8-c7bf-3bc9" name="Rider" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="decrement" field="97c5-7b31-0a98-c6f6" value="6.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="97c5-7b31-0a98-c6f6" value="3.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4198-f5d7-3c71-153d" type="min"/>
+                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97c5-7b31-0a98-c6f6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="11.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2599-f10d-7846-a2e5" name="Wargear" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="d658-e1e1-fd58-07bb" name="Warg" hidden="false" collective="false" import="true" targetId="d632-0efe-5e4e-415f" type="selectionEntry"/>
+                <entryLink id="e73a-4354-66c1-2d77" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
+                <entryLink id="2942-f848-d2ca-11af" name="Sword" hidden="false" collective="false" import="true" targetId="64a3-2e98-a578-1a2d" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ca12-afe0-6b76-9b7a" name="Options" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="c86d-ac1c-5531-eaf0" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
+                      <repeats>
+                        <repeat field="selections" scope="6873-b8b8-dc8f-5af0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58b3-97a8-c7bf-3bc9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec9-393d-850f-7bef" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="8a2e-0507-0ca7-8796" name="Shield" hidden="false" targetId="01cf-1982-b21e-003d" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="199b-a4bd-a727-600b" name="Throwing Spears" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
+                      <repeats>
+                        <repeat field="selections" scope="6873-b8b8-dc8f-5af0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58b3-97a8-c7bf-3bc9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8ba-e81b-ccf4-5e8d" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="eb9d-b153-7609-2953" name="Throwing Spears" hidden="false" targetId="d643-d68a-cd26-4c3f" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2fbd-ec12-c101-5ce3" name="Banner" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="25">
+                      <repeats>
+                        <repeat field="selections" scope="6873-b8b8-dc8f-5af0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58b3-97a8-c7bf-3bc9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3352-8a43-8200-104f" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="e756-aaf0-f32f-ccd6" name="Banner" hidden="false" targetId="3684-378e-2d44-d7b3" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0497-e83f-5d4c-bc3d" name="Orc bow" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="6873-b8b8-dc8f-5af0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58b3-97a8-c7bf-3bc9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="ab3b-a62b-ef54-533c" value="1">
+                      <repeats>
+                        <repeat field="selections" scope="6873-b8b8-dc8f-5af0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58b3-97a8-c7bf-3bc9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="310d-4bbe-2343-5e41" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="1af3-45e6-8cd3-a082" name="Orc Bow" hidden="false" targetId="34ad-6d99-05d5-a099" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d284-d568-73b1-de27" name="Orc Warrior" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ffe7-acf1-0a09-84c1" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="368c-0f27-b81d-1115" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ffe-0e41-2683-7131" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <infoGroups>
+            <infoGroup id="44cb-86aa-6127-f8c0" name="Special Rules" hidden="false">
+              <infoLinks>
+                <infoLink id="98f1-39f2-195e-5386" name="Hatred (Active)" hidden="false" targetId="6c1d-9a5e-55e7-c911" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hatred (Elf) (Active)"/>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e8e2-8c58-017b-b1a9" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="22bb-196f-5724-890e" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <infoLinks>
+            <infoLink id="b91b-71a1-3a89-28cc" name="Orc Warrior" hidden="false" targetId="9132-8849-03f8-b5c2" type="profile">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="d64a-e776-38fd-3019" value="1">
+                      <conditions>
+                        <condition field="selections" scope="d284-d568-73b1-de27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72b2-48a6-20be-34cb" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="d64a-e776-38fd-3019" value="1">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="d284-d568-73b1-de27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="72b2-48a6-20be-34cb" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="d284-d568-73b1-de27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="569c-3e76-901b-cafa" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition field="selections" scope="d284-d568-73b1-de27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d136-9736-7985-00b5" type="equalTo"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </infoLink>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="d7b0-ef9c-c245-27a9" name="Warrior" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="decrement" field="036d-5ba3-d886-b8a8" value="6.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ce2-d79d-fb91-3fa2" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="036d-5ba3-d886-b8a8" value="3.0">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5daa-6832-f49b-2b35" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d499-6bc2-97ea-f9f3" type="min"/>
+                <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="036d-5ba3-d886-b8a8" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="5.0"/>
+                <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="ae7d-ef8a-9621-2b36" name="Options" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="72b2-48a6-20be-34cb" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
+                      <repeats>
+                        <repeat field="selections" scope="d284-d568-73b1-de27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d7b0-ef9c-c245-27a9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="103e-5a1c-31d3-0e89" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="dbef-20ff-73cc-e5fc" name="Shield" hidden="false" targetId="01cf-1982-b21e-003d" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9f0d-c845-b3c2-7920" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
+                      <repeats>
+                        <repeat field="selections" scope="d284-d568-73b1-de27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d7b0-ef9c-c245-27a9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6034-ab77-7d51-2483" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="70d7-e800-2c87-2167" name="Spear" hidden="false" targetId="81c8-1e1f-ffc7-5477" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d136-9736-7985-00b5" name="Two-Handed Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="d284-d568-73b1-de27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d7b0-ef9c-c245-27a9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1a-d563-c9e0-a136" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="685c-39d4-e64c-534e" name="Two-handed Weapon" hidden="false" targetId="8426-49ef-d32d-dba8" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fcd8-5413-1d22-b740" name="Banner" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="25">
+                      <repeats>
+                        <repeat field="selections" scope="d284-d568-73b1-de27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d7b0-ef9c-c245-27a9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ed-80e6-fc86-4ca8" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="8464-f8a0-1f74-0ef4" name="Banner" hidden="false" targetId="3684-378e-2d44-d7b3" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="569c-3e76-901b-cafa" name="Orc bow" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="8bde-d63c-7caa-c15d" value="1">
+                      <repeats>
+                        <repeat field="selections" scope="d284-d568-73b1-de27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d7b0-ef9c-c245-27a9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="ab3b-a62b-ef54-533c" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="d284-d568-73b1-de27" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d7b0-ef9c-c245-27a9" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04f6-1f6d-dddb-ca34" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="34fe-a631-a635-b858" name="Orc Bow" hidden="false" targetId="34ad-6d99-05d5-a099" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a91c-e107-3c4d-44a3" name="Wargear" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="d3c0-074f-aaa4-712c" name="Weapon" hidden="false" collective="false" import="true" targetId="f6ad-e4da-7fb4-dae1" type="selectionEntryGroup"/>
+                <entryLink id="328a-8e08-2c3e-0c73" name="Armour" hidden="false" collective="false" import="true" targetId="991c-46d3-d618-c49e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>

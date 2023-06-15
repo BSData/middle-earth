@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a5a6-9c3a-4e49-e794" name="Isengard" revision="32" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="109" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a5a6-9c3a-4e49-e794" name="Isengard" revision="34" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="111" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a5a6-9c3a-pubN65614" name="Armies of Lord of the Rings"/>
   </publications>
@@ -1604,6 +1604,11 @@
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ddc-1ae3-0548-673f" type="max"/>
                             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c316-d035-bbda-ae7a" type="min"/>
                           </constraints>
+                          <costs>
+                            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                          </costs>
                         </selectionEntry>
                       </selectionEntries>
                       <entryLinks>
@@ -1667,6 +1672,11 @@
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="01cd-5f00-633a-cee8" type="max"/>
                             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="153e-4685-e196-ba50" type="min"/>
                           </constraints>
+                          <costs>
+                            <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                            <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                            <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                          </costs>
                         </selectionEntry>
                       </selectionEntries>
                       <entryLinks>
@@ -3880,7 +3890,7 @@ An enemy model that spends a Fight phase in base contact with a demolition charg
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ff5-17bf-0cab-7614" type="equalTo"/>
                       </conditions>
                       <conditionGroups>
-                        <conditionGroup type="and">
+                        <conditionGroup type="or">
                           <conditions>
                             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3964-6aea-6528-dfe0" type="instanceOf"/>
                           </conditions>
@@ -5253,6 +5263,11 @@ Warrior</characteristic>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b32-0b8f-72dd-9490" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="585c-e13e-cd5d-766f" type="min"/>
                   </constraints>
+                  <costs>
+                    <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+                    <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+                    <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
