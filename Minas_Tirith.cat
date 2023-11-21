@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="33" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="100" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03ff-cc3e-e838-186a" name="Minas Tirith" revision="34" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="113" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="03ff-cc3e-pubN74686" name="Battle Companies"/>
   </publications>
@@ -2516,6 +2516,20 @@ Special Chart
                                   <conditions>
                                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6224-0306-c8f5-b33f" type="instanceOf"/>
                                   </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a890-805e-60e1-2c5a" type="instanceOf"/>
+                                      </conditions>
+                                      <conditionGroups>
+                                        <conditionGroup type="or">
+                                          <conditions>
+                                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ac09-377a-1488-13b4" type="instanceOf"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup>
@@ -3048,6 +3062,20 @@ Special Chart
                               <conditions>
                                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6224-0306-c8f5-b33f" type="instanceOf"/>
                               </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a890-805e-60e1-2c5a" type="instanceOf"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ac09-377a-1488-13b4" type="instanceOf"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
                             </conditionGroup>
                           </conditionGroups>
                         </conditionGroup>

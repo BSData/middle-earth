@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="112" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e16-9abf-6238-4ed9" name="Middle-Earth Strategy Battle Game" revision="113" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="3e16-9abf-pubN102460" name="Middle-Earth Strategy Battle Game Rules Manual"/>
     <publication id="3e16-9abf-pubN103678" name="Armies of Lord of the Rings"/>
@@ -10,6 +10,7 @@
     <publication id="5ba1-ebaf-1b40-a44f" name="Quest of the Ringbearer"/>
     <publication id="4da3-c317-04e2-c033" name="Fall of the Necromancer"/>
     <publication id="e676-73de-7cfd-1298" name="Defence of the North"/>
+    <publication id="d5b9-73a8-77a0-ff30" name="FAQ/Errata/Designer&apos;s Commentary"/>
   </publications>
   <costTypes>
     <costType id="8bde-d63c-7caa-c15d" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -3279,6 +3280,11 @@ Hero</characteristic>
                 <modifier type="set" field="8dde-489c-ca38-d0ad" value="1.0">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c255-a550-bd28-098e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ff5-17bf-0cab-7614" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -8527,7 +8533,7 @@ Hero</characteristic>
       <modifiers>
         <modifier type="set" field="6445-c6a7-02f4-dfc4" value="0.0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="46c3-7695-49ab-62dc" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="46c3-7695-49ab-62dc" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="d236-8cac-5585-96e6" value="1.0">
@@ -9264,7 +9270,7 @@ If Radagast is slain or dismounts, remove the sleigh from play.</description>
             </infoLink>
             <infoLink id="eaf1-53cd-ee78-53b2" name="Instill Fear" hidden="false" targetId="0ea5-5eb4-6d0a-1ea8" type="profile">
               <modifiers>
-                <modifier type="set" field="0920-e245-e3c2-d982" value="18&quot;"/>
+                <modifier type="set" field="0920-e245-e3c2-d982" value="3&quot;"/>
                 <modifier type="set" field="1ac9-444c-5045-e1c0" value="3+"/>
               </modifiers>
             </infoLink>
@@ -14570,8 +14576,8 @@ Hero</characteristic>
                 <profile id="be15-bb7e-208e-7699" name="The White Warg" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
                   <characteristics>
                     <characteristic name="Might" typeId="184a-5554-9c8c-3b09">OOO</characteristic>
-                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">0</characteristic>
-                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">0</characteristic>
+                    <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">O</characteristic>
+                    <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">O</characteristic>
                     <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OO</characteristic>
                   </characteristics>
                 </profile>
@@ -14822,6 +14828,14 @@ Before deployment, but after players have decided on their board edges, the cont
                         <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">-</characteristic>
                       </characteristics>
                     </profile>
+                    <profile id="e468-eedb-1a26-6e1f" name="The Horn of Gorgoroth" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                      <characteristics>
+                        <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                        <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                        <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                        <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+                      </characteristics>
+                    </profile>
                   </profiles>
                   <rules>
                     <rule id="bfec-3253-2473-b54e" name="The Horn of Gorgoroth (Passive)" publicationId="3e16-9abf-pubN141412" page="94" hidden="false">
@@ -14850,6 +14864,14 @@ Before deployment, but after players have decided on their board edges, the cont
                         <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">3</characteristic>
                         <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">-</characteristic>
                         <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">-</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="d2dc-6ccd-b202-f36b" name="The Banner of Angmar" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                      <characteristics>
+                        <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                        <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                        <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                        <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -14882,6 +14904,14 @@ Before deployment, but after players have decided on their board edges, the cont
                         <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">-</characteristic>
                       </characteristics>
                     </profile>
+                    <profile id="1d94-7266-8754-e3df" name="The Banner of Gundabad" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                      <characteristics>
+                        <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                        <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                        <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                        <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
+                      </characteristics>
+                    </profile>
                   </profiles>
                   <rules>
                     <rule id="cb25-32db-3460-e144" name="The Banner of Gundabad (Passive)" publicationId="3e16-9abf-pubN141412" page="94" hidden="false">
@@ -14910,6 +14940,14 @@ Before deployment, but after players have decided on their board edges, the cont
                         <characteristic name="Wounds" typeId="ae83-f720-58f2-1a6d">3</characteristic>
                         <characteristic name="Courage" typeId="a0e1-d7a9-598e-1545">-</characteristic>
                         <characteristic name="Keywords" typeId="493a-2bc7-2330-a17b">-</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="4189-4830-1271-198e" name="The Banner of Dol Guldur" hidden="false" typeId="ef4f-25f2-79a5-b8a3" typeName="Trackers">
+                      <characteristics>
+                        <characteristic name="Might" typeId="184a-5554-9c8c-3b09">-</characteristic>
+                        <characteristic name="Will" typeId="5d9a-0b1c-376b-442a">-</characteristic>
+                        <characteristic name="Fate" typeId="1ceb-5c00-93b9-7378">-</characteristic>
+                        <characteristic name="Wounds" typeId="104e-585c-9e2b-fb3f">OOO</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -38516,6 +38554,9 @@ When playing a game using an Impossible Alliance, each section of your force wil
             <rule id="1d9e-9ba9-112c-2863" name="Dragon-sickness (Passive)" publicationId="3e16-9abf-pubN141412" page="45" hidden="false">
               <description>At the start of the game, your opponent may select one of their Hero models to be the bearer of a large sum of gold. If the Master of Lake-town is ever in base contact with the bearer at the end of a Move phase, he must pass a Courage test or be removed as if he had just lost his last Wound.</description>
             </rule>
+            <rule id="51c1-1530-76ab-65a7" name="&quot;Who would have the nerve to question my authority?” (Passive)" publicationId="d5b9-73a8-77a0-ff30" hidden="false">
+              <description>If your army contains the Master of Lake-town then he must be your leader, regardless of the Heroic Tier of other Hero models in your army (unless your army includes another Hero with a similar rule). Additionally, if you are including an Army of Lake-town allied contingent as part of a Convenient Alliance or Impossible Alliance, then the Master counts as a Hero of Fortitude – both when building your army and during the course of the game.</description>
+            </rule>
           </rules>
         </infoGroup>
       </infoGroups>
@@ -38527,7 +38568,71 @@ When playing a game using an Impossible Alliance, each section of your force wil
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="101d-23d6-1e82-6a64" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry"/>
+        <entryLink id="101d-23d6-1e82-6a64" name="Leader (Valour)" hidden="false" collective="false" import="true" targetId="852a-dd6e-17c4-1a59" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="424a-6725-07ea-25bd" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e699-8339-87fa-7383" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="f004-2079-57b7-d6f4" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="424a-6725-07ea-25bd" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e699-8339-87fa-7383" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="dcb4-0e4d-4a96-b44a" name="Leader (Fortitude)" hidden="true" collective="false" import="true" targetId="0ca9-a833-8cd4-b806" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="424a-6725-07ea-25bd" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e699-8339-87fa-7383" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="6481-8964-ffdb-e4f2" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7950-ad8b-2321-f820" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="50.0"/>
@@ -39987,7 +40092,7 @@ Hero</characteristic>
         <infoGroup id="52ef-6731-278d-5846" name="Special Rules" hidden="false">
           <rules>
             <rule id="7b7d-9e6b-30d2-5ff7" name="Great Resilience" publicationId="e676-73de-7cfd-1298" hidden="false">
-              <description>Whenever a friendly Bear model suffers a Wound, roll a D6. On the roll of a 5+ the Wound is ignored just as if a Fate point had been spent.</description>
+              <description>Whenever a friendly Bear model suffers a Wound, roll a D6. On a natural 6 the Wound is ignored just as if a point of Fate had been spent.</description>
             </rule>
             <rule id="610c-e34c-c287-7290" name="Charge of the Bear" publicationId="e676-73de-7cfd-1298" hidden="false">
               <description>Whilst they have the Bear keyword, Beorn and Grimbeorn Gain the Monstrous Charge special rule.</description>
@@ -40901,6 +41006,11 @@ Hero</characteristic>
             <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f004-2079-57b7-d6f4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
