@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="20" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="112" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98fa-59f5-1c7f-a4d5" name="Moria" revision="21" battleScribeVersion="2.03" authorName="Hukoseft" authorContact="hukoseft@gmail.com" library="false" gameSystemId="3e16-9abf-6238-4ed9" gameSystemRevision="113" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="98fa-59f5-pubN65643" name="Armies of Lord of the Rings"/>
   </publications>
@@ -2399,6 +2399,11 @@ When the Watcher is ready to enter play, immediately place it anywhere on the ba
         <entryLink id="5eb1-beda-d24a-06d6" name="Muzgúr, Orc Shaman" hidden="false" collective="false" import="true" targetId="a7f2-d789-c669-2e39" type="selectionEntry"/>
         <entryLink id="480c-72e5-515f-a1e7" name="Warband" hidden="false" collective="false" import="true" targetId="0234-96ca-4213-c04c" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="0.0"/>
+        <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="0.0"/>
+        <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="368c-0f27-b81d-1115" name="Orc Captain" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -3688,6 +3693,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             <infoGroup id="1293-3490-448a-907a" name="Special Rules" hidden="false">
               <infoLinks>
                 <infoLink id="1113-2c01-d3cb-cc28" name="Swift Movement" hidden="false" targetId="c586-a0bc-b512-a547" type="rule"/>
+                <infoLink id="8904-64a0-8bf0-8d20" name="Terror (Passive)" hidden="false" targetId="85b0-001b-cf06-77c8" type="rule"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -3708,20 +3714,9 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
             <selectionEntryGroup id="91fb-b3f2-b796-ef53" name="Options" hidden="true" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7f4-76da-c0fd-ca8e" type="instanceOf"/>
-                      </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d80-5002-d96b-08a1" type="equalTo"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </conditionGroup>
-                  </conditionGroups>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a7f4-76da-c0fd-ca8e" type="equalTo"/>
+                  </conditions>
                 </modifier>
               </modifiers>
               <selectionEntries>
@@ -3867,7 +3862,7 @@ The Warg Marauder only counts as one model towards an army&apos;s Bow Limit.</de
                 <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7567-c4a6-d96f-f97d" type="max"/>
               </constraints>
               <costs>
-                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="9.0"/>
+                <cost name=" Points" typeId="8bde-d63c-7caa-c15d" value="8.0"/>
                 <cost name=" Warriors" typeId="391e-19ac-b71d-f2e3" value="1.0"/>
                 <cost name=" Bow" typeId="ab3b-a62b-ef54-533c" value="0.0"/>
               </costs>
